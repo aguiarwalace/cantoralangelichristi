@@ -1,0 +1,58 @@
+:root {
+    --bg: #ffffff;
+    --text: #333333;
+    --sidebar-bg: #f4f4f4;
+}
+
+.dark-mode {
+    --bg: #121212;
+    --text: #e0e0e0;
+    --sidebar-bg: #1e1e1e;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    transition: 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: var(--sidebar-bg);
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-mini { height: 40px; }
+.logo-large { width: 200px; }
+
+/* Filtro para el logo en modo oscuro */
+.dark-mode img {
+    filter: brightness(0) invert(1); /* Convierte negro a blanco si es necesario */
+}
+
+#sidebar {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    width: 280px;
+    height: 100%;
+    background: var(--sidebar-bg);
+    box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    padding: 20px;
+    z-index: 100;
+}
+
+#sidebar.active { right: 0; }
+
+.song-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 10px;
+}
