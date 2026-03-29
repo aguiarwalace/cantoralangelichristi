@@ -1,4 +1,4 @@
-// --- DATOS Y CONFIGURACIÓN ---
+// --- DATOS ---
 const canciones = [
     { id: 1, titulo: "A TI LEVANTO MIS OJOS", autor: "Tradicional", categoria: "entrada", tonoOriginal: "Am", letra: "[Am]A TI LEVANTO MIS [Dm]OJOS, [G]A TI QUE HABITAS EN EL [C]CIELO. [Am]A TI LEVANTO MIS [Dm]OJOS, [E]PORQUE ESPERO TU MISERICOR[Am]DIA." },
     { id: 2, titulo: "ALABANZAS", autor: "Tradicional", categoria: "entrada", tonoOriginal: "G", letra: "[G]Alabanzas al Se[C]ñor, [D]porque Él es [G]bueno." },
@@ -6,14 +6,18 @@ const canciones = [
     { id: 4, titulo: "TEN PIEDAD DE MI OH DIOS", autor: "Tradicional", categoria: "piedad", tonoOriginal: "Am", letra: "[Am]Ten piedad de [Dm]mí oh Dios, por tu [E]bondad." }
 ];
 
-// Escala cromática para transposición
-const escala = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+// Escalas técnicas
+const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+
+// Nombres preferidos de tonalidad según tu lista
+const nombresTonalidad = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'];
 
 let seleccionadas = [];
 let cancionActualId = null;
-let trasposicionActual = 0; // Cuántos semitonos hemos movido
+let trasposicionActual = 0;
 
-// --- FUNCIONES DE INTERFAZ ---
+// --- INTERFAZ ---
 
 function renderSongList() {
     const container = document.getElementById('song-list-container');
@@ -32,10 +36,9 @@ function renderSongList() {
     });
 }
 
-// Prepara los datos antes de mostrar
 function prepararDisplay(id) {
     cancionActualId = id;
-    trasposicionActual = 0; // Resetear el tono al original al abrir una nueva
+    trasposicionActual = 0;
     displaySong();
     toggleMenu();
 }
@@ -44,17 +47,25 @@ function displaySong() {
     const song = canciones.find(s => s.id === cancionActualId);
     const display = document.getElementById('main-content');
 
-    const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual);
+    const tonoDestino = calcularNombreTono(song.tonoOriginal, trasposicionActual);
+    
+    // --- CORRECCIÓN DE LÓGICA AQUÍ ---
+    // Usamos bemoles si el tono tiene 'b' O si es F natural (pero NO si es F#)
+    const usaBemoles = tonoDestino.includes('b') || (tonoDestino.startsWith('F') && !tonoDestino.startsWith('F#'));
+    
+    const escalaParaLetra = usaBemoles ? escBem : escSost;
+
+    const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaParaLetra);
 
     display.innerHTML = `
         <div class="song-viewer">
             <div class="song-header">
                 <h2>${song.titulo}</h2>
                 <div class="controles-tono">
-                    <button onclick="cambiarTono(-1)">- Semitono</button>
-                    <button onclick="cambiarTono(0)">Tono Original</button>
-                    <button onclick="cambiarTono(1)">+ Semitono</button>
-                    <span> Trasposición: ${trasposicionActual > 0 ? '+' : ''}${trasposicionActual}</span>
+                    <button onclick="cambiarTono(-1)">-</button>
+                    <button onclick="cambiarTono(0)">Original</button>
+                    <button onclick="cambiarTono(1)">+</button>
+                    <span> Tono Actual: <strong>${tonoDestino}</strong> </span>
                 </div>
             </div>
             <div class="lyrics-container">
@@ -64,69 +75,77 @@ function displaySong() {
     `;
 }
 
-// --- LÓGICA DE TRANSPOSICIÓN ---
+// --- LÓGICA MUSICAL ---
 
-function cambiarTono(valor) {
-    if (valor === 0) trasposicionActual = 0;
-    else trasposicionActual += valor;
-    displaySong();
+function calcularNombreTono(tonoOriginal, semitonos) {
+    const regex = /^([A-G][#b]?)(.*)$/;
+    const match = tonoOriginal.match(regex);
+    if (!match) return tonoOriginal;
+    
+    let raiz = match[1];
+    let adorno = match[2];
+    
+    let indice = escSost.indexOf(raiz);
+    if (indice === -1) indice = escBem.indexOf(raiz);
+    
+    let nuevoIndice = (indice + semitonos) % 12;
+    if (nuevoIndice < 0) nuevoIndice += 12;
+
+    return nombresTonalidad[nuevoIndice] + adorno;
 }
 
-function trasponerAcorde(acordeStr, semitonos) {
-    if (semitonos === 0) return acordeStr;
-
-    // Expresión para separar la nota raíz (ej: C#) de los adornos (ej: m7)
-    const regex = /^([A-G]#?)(.*)$/;
+function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
+    const regex = /^([A-G][#b]?)(.*)$/;
     const match = acordeStr.match(regex);
-
     if (!match) return acordeStr;
 
     let notaRaiz = match[1];
     let adornos = match[2];
 
-    // Buscar posición en la escala
-    let indice = escala.indexOf(notaRaiz);
+    let indice = escSost.indexOf(notaRaiz);
+    if (indice === -1) indice = escBem.indexOf(notaRaiz);
     if (indice === -1) return acordeStr;
 
-    // Calcular nueva posición (usando módulo 12 para que sea circular)
     let nuevoIndice = (indice + semitonos) % 12;
     if (nuevoIndice < 0) nuevoIndice += 12;
 
-    return escala[nuevoIndice] + adornos;
+    return escalaElegida[nuevoIndice] + adornos;
 }
 
-function formatearAcordesEnLetra(letraRaw, semitonos) {
+function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
     let textoHtml = letraRaw.replace(/\n/g, '<br>');
     const regexAcordeTexto = /\[(.*?)\]([^\[\s]*)/g;
 
     textoHtml = textoHtml.replace(regexAcordeTexto, (match, acorde, textoSiguiente) => {
         let baseTexto = textoSiguiente || '&nbsp;'; 
-        // TRASPONER AQUÍ
-        let acordeFinal = trasponerAcorde(acorde, semitonos);
-        
+        let acordeFinal = trasponerAcorde(acorde, semitonos, escalaElegida);
         return `<ruby>${baseTexto}<rt>${acordeFinal}</rt></ruby>`;
     });
 
     return textoHtml;
 }
 
-// --- OTRAS FUNCIONES ---
+// --- UTILIDADES ---
+function cambiarTono(valor) {
+    if (valor === 0) trasposicionActual = 0;
+    else trasposicionActual += valor;
+    displaySong();
+}
+
 function toggleSelect(id) {
-    if (seleccionadas.includes(id)) {
-        seleccionadas = seleccionadas.filter(sid => sid !== id);
-    } else {
-        seleccionadas.push(id);
-    }
+    const idx = seleccionadas.indexOf(id);
+    if (idx > -1) seleccionadas.splice(idx, 1);
+    else seleccionadas.push(id);
+}
+
+function toggleMenu() {
+    document.getElementById('sidebar').classList.toggle('active');
 }
 
 function generateRepertoire() {
     if (seleccionadas.length === 0) return alert("Selecciona canciones");
     localStorage.setItem('repertorioActual', JSON.stringify(seleccionadas));
     window.location.href = 'repertorio.html';
-}
-
-function toggleMenu() {
-    document.getElementById('sidebar').classList.toggle('active');
 }
 
 window.onload = renderSongList;
