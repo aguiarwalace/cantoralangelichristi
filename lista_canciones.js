@@ -9,8 +9,10 @@ const canciones = [
     letra: `
 Intro: [Dm] [D7]
 
-[Gm]A ti levanto mis [Dm]ojos, [A7]a ti que habitas en el [Dm]cielo, [D7]
-[Gm]A ti levanto mis [Dm]ojos, por que es[A7]pero, [Dm]tu misericordia.
+[Gm]A ti levanto mis [Dm]ojos,
+[A7]a ti que habitas en el [Dm]cielo,[D7]
+[Gm]A ti levanto mis [Dm]ojos,
+por que es[A7]pero, [Dm]tu misericordia.
 
 [Dm]Como están los [Gm]ojos de los esclavos,
 [C7]Fijos en las manos de [F]sus señores,

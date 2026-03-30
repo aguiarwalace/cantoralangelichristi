@@ -1,66 +1,52 @@
-// 1. FUNCIÓN DE MENÚ (SIEMPRE ARRIBA)
-function toggleMenu() {
-    console.log("Botón presionado"); // Esto nos dirá en la consola si funciona
-    const sidebar = document.getElementById('sidebar');
-    if (sidebar) {
-        sidebar.classList.toggle('active');
-    } else {
-        console.error("Error: No encontré el ID 'sidebar' en el HTML");
-    }
-}
-
-// 2. BUSCADOR (FILTRO)
-function filterSongs() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const categoryTerm = document.getElementById('category-filter').value;
-    const container = document.getElementById('song-list-container');
-    
-    if(!container) return; // Seguridad
-    container.innerHTML = ''; 
-
-    // Usamos el array 'canciones' que viene del archivo lista_canciones.js
-    const filtradas = canciones.filter(s => {
-        const coincideTitulo = s.titulo.toLowerCase().includes(searchTerm);
-        const coincideLetra = s.letra.toLowerCase().includes(searchTerm);
-        const coincideCategoria = (categoryTerm === 'todos' || s.categoria === categoryTerm);
-        return (coincideTitulo || coincideLetra) && coincideCategoria;
-    });
-
-    filtradas.forEach(s => {
-        const div = document.createElement('div');
-        div.className = 'song-item';
-        div.innerHTML = `
-            <input type="checkbox" onchange="toggleSelect(${s.id})" ${seleccionadas.includes(s.id) ? 'checked' : ''}>
-            <span onclick="prepararDisplay(${s.id})" style="cursor:pointer">
-                <strong>${s.titulo}</strong><br>
-                <small>${s.autor} - (${s.tonoOriginal})</small>
-            </span>
-        `;
-        container.appendChild(div);
-    });
-}
-
-// Escalas técnicas
+// --- 1. VARIABLES Y ESCALAS ---
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-
-// Nombres preferidos de tonalidad según tu lista
 const nombresTonalidad = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'];
 
 let seleccionadas = [];
 let cancionActualId = null;
 let trasposicionActual = 0;
 
-// --- INTERFAZ ---
+// --- 2. LÓGICA DE INTERFAZ Y FILTROS ---
 
-function renderSongList() {
+function toggleMenu() {
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar) {
+        sidebar.classList.toggle('active');
+    } else {
+        console.error("No se encontró el elemento con id 'sidebar'");
+    }
+}
+
+function filterSongs() {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const categoryTerm = document.getElementById('category-filter').value;
     const container = document.getElementById('song-list-container');
-    container.innerHTML = '';
-    canciones.forEach(s => {
+    
+    if(!container) return;
+    container.innerHTML = ''; 
+
+    // --- NUEVA LÓGICA DE LIMPIEZA ---
+    // Si no hay nada escrito Y el filtro está en "todos", no mostramos nada y salimos de la función
+    if (searchTerm.trim() === "" && categoryTerm === "todos") {
+        return; // Detiene la ejecución aquí para que la lista quede vacía
+    }
+    // --------------------------------
+
+    const filtradas = canciones.filter(s => {
+        const coincideTitulo = s.titulo.toLowerCase().includes(searchTerm);
+        const coincideLetra = s.letra.toLowerCase().includes(searchTerm);
+        const coincideCategoria = (categoryTerm === 'todos' || s.categoria.toLowerCase() === categoryTerm.toLowerCase());
+        
+        return (coincideTitulo || coincideLetra) && coincideCategoria;
+    });
+
+    filtradas.forEach(s => {
         const div = document.createElement('div');
         div.className = 'song-item';
+        const isChecked = seleccionadas.includes(s.id) ? 'checked' : '';
         div.innerHTML = `
-            <input type="checkbox" onchange="toggleSelect(${s.id})">
+            <input type="checkbox" onchange="toggleSelect(${s.id})" ${isChecked}>
             <span onclick="prepararDisplay(${s.id})" style="cursor:pointer">
                 <strong>${s.titulo}</strong><br>
                 <small>${s.autor} - (${s.tonoOriginal})</small>
@@ -80,6 +66,7 @@ function prepararDisplay(id) {
 function displaySong() {
     const song = canciones.find(s => s.id === cancionActualId);
     const display = document.getElementById('main-content');
+    if (!song || !display) return;
 
     const tonoDestino = calcularNombreTono(song.tonoOriginal, trasposicionActual);
     const usaBemoles = tonoDestino.includes('b') || (tonoDestino.startsWith('F') && !tonoDestino.startsWith('F#'));
@@ -87,7 +74,6 @@ function displaySong() {
 
     const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaParaLetra);
 
-    // Actualizado con la clase song-card
     display.innerHTML = `
         <div class="song-card">
             <div class="song-header">
@@ -107,7 +93,7 @@ function displaySong() {
     `;
 }
 
-// --- LÓGICA MUSICAL ---
+// --- 3. LÓGICA MUSICAL ---
 
 function calcularNombreTono(tonoOriginal, semitonos) {
     const regex = /^([A-G][#b]?)(.*)$/;
@@ -145,6 +131,7 @@ function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
 }
 
 function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
+    // Reemplaza saltos de línea y maneja la notación [Acorde]Texto
     let textoHtml = letraRaw.replace(/\n/g, '<br>');
     const regexAcordeTexto = /\[(.*?)\]([^\[\s]*)/g;
 
@@ -157,7 +144,8 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
     return textoHtml;
 }
 
-// --- UTILIDADES ---
+// --- 4. UTILIDADES Y EVENTOS ---
+
 function cambiarTono(valor) {
     if (valor === 0) trasposicionActual = 0;
     else trasposicionActual += valor;
@@ -170,63 +158,13 @@ function toggleSelect(id) {
     else seleccionadas.push(id);
 }
 
-// Esta función es la que hace que el menú aparezca y desaparezca
-function toggleMenu() {
-    const sidebar = document.getElementById('sidebar');
-    if (sidebar) {
-        sidebar.classList.toggle('active');
-    } else {
-        console.error("No se encontró el elemento con id 'sidebar'");
-    }
-}
-
 function generateRepertoire() {
-    if (seleccionadas.length === 0) return alert("Selecciona canciones");
+    if (seleccionadas.length === 0) return alert("Selecciona al menos una canción");
     localStorage.setItem('repertorioActual', JSON.stringify(seleccionadas));
     window.location.href = 'repertorio.html';
 }
 
-// window.onload = renderSongList; //código actualizado
 window.onload = () => {
-    // Solo ejecuta renderSongList si existe el contenedor de la lista (página inicio)
-    if (document.getElementById('song-list-container')) {
-        renderSongList();
-    }
+    // Ya no llamamos a filterSongs() aquí para que la lista empiece vacía
+    console.log("Aplicación Angeli Christi lista.");
 };
-function filterSongs() {
-    // 1. Obtenemos lo que el usuario escribió (en minúsculas para que no importe si usa Mayúsculas)
-    const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const categoryTerm = document.getElementById('category-filter').value;
-    const container = document.getElementById('song-list-container');
-    
-    container.innerHTML = ''; // Limpiamos la lista para mostrar los nuevos resultados
-
-    // 2. Filtramos el array de canciones
-    const filtradas = canciones.filter(s => {
-        // Buscamos en el título
-        const coincideTitulo = s.titulo.toLowerCase().includes(searchTerm);
-        
-        // Buscamos en la letra (aquí está la clave de tu pedido)
-        const coincideLetra = s.letra.toLowerCase().includes(searchTerm);
-        
-        // Verificamos la categoría
-        const coincideCategoria = (categoryTerm === 'todos' || s.categoria === categoryTerm);
-        
-        // Retornamos la canción si coincide el título O la letra, Y además la categoría es correcta
-        return (coincideTitulo || coincideLetra) && coincideCategoria;
-    });
-
-    // 3. Dibujamos las canciones filtradas en el menú
-    filtradas.forEach(s => {
-        const div = document.createElement('div');
-        div.className = 'song-item';
-        div.innerHTML = `
-            <input type="checkbox" onchange="toggleSelect(${s.id})" ${seleccionadas.includes(s.id) ? 'checked' : ''}>
-            <span onclick="prepararDisplay(${s.id})" style="cursor:pointer">
-                <strong>${s.titulo}</strong><br>
-                <small>${s.autor} - (${s.tonoOriginal})</small>
-            </span>
-        `;
-        container.appendChild(div);
-    });
-}

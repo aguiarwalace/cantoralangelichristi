@@ -8,21 +8,19 @@
 </head>
 <body>
     <header>
-        <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 15px;">
-            <div class="header-left">
+        <div class="header-left">
+            <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 15px;">
                 <img src="angeli_christi_logo_blc.png" alt="Logo" class="logo-mini">
-                <h1>Cantoral Online Angeli Christi</h1>
-            </div>
-        </a>
+                <h1>Cantoral Angeli Christi</h1>
+            </a>
+        </div>
         <button id="menu-btn" onclick="toggleMenu()">☰</button>
     </header>
 
     <main id="main-content">
-        <div id="welcome-screen" class="center" style="display: flex; flex-direction: column; align-items: center;">
+        <div id="welcome-screen" class="center" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 50px 20px;">
             <img src="angeli_christi_logo.png" alt="Logo Grande" class="logo-large">
-            
-            <p class="coro-lema">¿Quién como Dios? ¡Nadie como Dios!</p>
-            
+            <p class="coro-lema" style="font-style: italic; margin-top: 20px;">¿Quién como Dios? ¡Nadie como Dios!</p>
             <p>Abre el menú para buscar canciones y armar tu repertorio.</p>
         </div>
         
@@ -36,24 +34,32 @@
         </div>
         
         <div class="search-box">
-            <input type="text" id="search-input" placeholder="Buscar por título o letra..." onkeyup="filterSongs()">
+            <input type="text" id="search-input" placeholder="Título o frase de la letra..." onkeyup="filterSongs()">
         </div>
 
-        <select id="category-filter" onchange="filterSongs()">
-            <option value="todos">Todos los apartados</option>
-            <option value="entrada">Entrada</option>
-            <option value="piedad">Piedad</option>
-            <option value="ofertorio">Ofertorio</option>
-            <option value="santo">Santo</option>
-            <option value="cordero">Cordero</option>
-        </select>
+        <div class="filter-box">
+            <select id="category-filter" onchange="filterSongs()">
+                <option value="todos">Todos los apartados</option>
+                <option value="entrada">Entrada</option>
+                <option value="piedad">Piedad</option>
+                <option value="ofertorio">Ofertorio</option>
+                <option value="santo">Santo</option>
+                <option value="cordero">Cordero</option>
+                <option value="comunion">Comunión</option>
+                <option value="marianos">Marianos</option>
+                <option value="alabanza">Alabanza</option>
+            </select>
+        </div>
 
         <div id="song-list-container">
             </div>
 
-        <button id="gen-repertorio-btn" onclick="generateRepertoire()">Generar Repertorio</button>
-        <button onclick="toggleDarkMode()">Modo Oscuro/Claro</button>
+        <div class="sidebar-footer">
+            <button id="gen-repertorio-btn" onclick="generateRepertoire()">Generar Repertorio</button>
+            <button class="btn-secondary" onclick="toggleDarkMode()">🌓 Cambiar Tema</button>
+        </div>
     </nav>
+
     <script src="lista_canciones.js"></script>
     <script src="script.js"></script>
 </body>
