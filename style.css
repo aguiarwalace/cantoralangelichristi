@@ -1,97 +1,193 @@
 :root {
-    --bg: #ffffff;
-    --text: #333333;
-    --sidebar-bg: #f4f4f4;
-}
-
-.dark-mode {
-    --bg: #121212;
-    --text: #e0e0e0;
-    --sidebar-bg: #1e1e1e;
+    --primary: #2c3e50;    /* Azul elegante */
+    --accent: #d4af37;     /* Dorado para detalles */
+    --bg-body: #f8f9fa;    /* Gris muy claro */
+    --bg-card: #ffffff;
+    --text-main: #333;
+    --red-chord: #e74c3c;
+    --shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 body {
-    background-color: var(--bg);
-    color: var(--text);
-    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
-    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
+/* --- Header Elegante --- */
 header {
+    background: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background: var(--sidebar-bg);
-    border-bottom: 1px solid #ccc;
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.logo-mini { height: 40px; }
-.logo-large { width: 200px; }
+.header-left { display: flex; align-items: center; gap: 15px; }
+.logo-mini { height: 45px; border-radius: 50%; border: 2px solid var(--accent); }
+.logo-large { height: 90px; border-radius: 50%; border: 2px solid var(--accent); }
+header h1 { margin: 0; font-size: 1.4rem; font-weight: 300; letter-spacing: 1px; }
 
-/* Filtro para el logo en modo oscuro */
-.dark-mode img {
-    filter: brightness(0) invert(1); /* Convierte negro a blanco si es necesario */
+#menu-btn {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+#menu-btn:hover { background: rgba(255,255,255,0.1); }
+
+/* --- Contenedor de Canción (Efecto Hoja) --- */
+#main-content {
+    flex: 1;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.song-card {
+    background: var(--bg-card);
+    width: 100%;
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 4px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    border-top: 5px solid var(--accent);
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.song-header h2 {
+    color: var(--primary);
+    font-size: 2rem;
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.lyrics-container {
+    font-size: 1.25rem;
+    line-height: 2.8; /* Espacio para los acordes */
+    margin-top: 30px;
+}
+
+/* --- Acordes --- */
+rt {
+    color: var(--red-chord);
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+/* --- Menú Lateral (Sidebar) --- */
 #sidebar {
     position: fixed;
-    right: -300px;
+    right: -320px;
     top: 0;
-    width: 280px;
+    width: 300px;
     height: 100%;
-    background: var(--sidebar-bg);
-    box-shadow: -2px 0 10px rgba(0,0,0,0.3);
-    transition: 0.3s;
-    padding: 20px;
-    z-index: 100;
+    background: white;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 25px;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
 }
 
 #sidebar.active { right: 0; }
 
-.song-item {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+.sidebar-header {
     display: flex;
-    gap: 10px;
-}
-/* --- Estilos para la Visualización de Canciones --- */
-
-.song-viewer {
-    padding: 20px;
-    max-width: 600px;
-    margin: 0 auto; /* Centrado en la pantalla */
-}
-
-.song-header {
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
-    border-bottom: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--bg-body);
     padding-bottom: 10px;
 }
 
-/* El contenedor principal de la letra */
-.lyrics-container {
-    font-size: 1.2rem; /* Un poco más grande para leer bien */
-    line-height: 2.5; /* Espacio generoso entre líneas para que quepan los acordes */
+/* Inputs y Selects */
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
 
-/* La magia del acorde sobre la letra */
-ruby {
-    ruby-position: over; /* Forzar que el acorde esté ARRIBA (aunque es el defecto) */
-    font-family: 'Segoe UI', sans-serif; /* Mismo tipo de letra */
+/* Lista de canciones en el menú */
+#song-list-container {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 20px;
 }
 
-/* Estilo específico para el acorde (el texto pequeño de arriba) */
-rt {
-    font-size: 0.9rem; /* Un poco más pequeño que la letra */
+.song-item {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.song-item:hover { background: #f0f4f8; }
+.song-item input { cursor: pointer; }
+
+/* Botones */
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
     font-weight: bold;
-    color: #e74c3c; /* ROJO para los acordes */
-    font-family: monospace; /* Monospaciado ayuda a alinearlo si es necesario */
-    transform: translateY(-5px); /* Pequeño ajuste hacia arriba para despegarlo */
+    width: 100%;
+    margin-top: 10px;
 }
 
-/* Asegurar que el modo oscuro no oculte el rojo de los acordes */
-[data-theme="dark"] rt {
-    color: #ff6b6b; /* Un rojo más claro para que resalte en fondo oscuro */
+.btn-primary:hover { opacity: 0.9; }
+
+/* Controles de Tono dentro de la canción */
+.controles-tono {
+    background: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: inline-flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
 }
+
+.controles-tono button {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.controles-tono button:hover { background: var(--accent); color: white; border-color: var(--accent); }

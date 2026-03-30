@@ -48,25 +48,23 @@ function displaySong() {
     const display = document.getElementById('main-content');
 
     const tonoDestino = calcularNombreTono(song.tonoOriginal, trasposicionActual);
-    
-    // --- CORRECCIÓN DE LÓGICA AQUÍ ---
-    // Usamos bemoles si el tono tiene 'b' O si es F natural (pero NO si es F#)
     const usaBemoles = tonoDestino.includes('b') || (tonoDestino.startsWith('F') && !tonoDestino.startsWith('F#'));
-    
     const escalaParaLetra = usaBemoles ? escBem : escSost;
 
     const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaParaLetra);
 
+    // Actualizado con la clase song-card
     display.innerHTML = `
-        <div class="song-viewer">
+        <div class="song-card">
             <div class="song-header">
                 <h2>${song.titulo}</h2>
                 <div class="controles-tono">
                     <button onclick="cambiarTono(-1)">-</button>
-                    <button onclick="cambiarTono(0)">Original</button>
+                    <button onclick="cambiarTono(0)">⟳</button>
                     <button onclick="cambiarTono(1)">+</button>
-                    <span> Tono Actual: <strong>${tonoDestino}</strong> </span>
+                    <span>Tono: <strong>${tonoDestino}</strong></span>
                 </div>
+                <p style="color: #666;"><em>Autor: ${song.autor}</em></p>
             </div>
             <div class="lyrics-container">
                 ${letraFormateadaHtml}
