@@ -191,3 +191,42 @@ input[type="text"], select {
 }
 
 .controles-tono button:hover { background: var(--accent); color: white; border-color: var(--accent); }
+
+/* --- Ajustes de Navegación del Header --- */
+.header-logo-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none; /* Quita el subrayado azul por defecto */
+    color: inherit; /* Mantiene el color blanco del texto del header */
+}
+
+/* --- Ajustes de la Pantalla de Bienvenida --- */
+.welcome-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Control del tamaño del logo grande */
+.logo-large {
+    max-width: 150px; /* Ajusta este valor si lo quieres más o menos grande */
+    height: auto; /* Mantiene la proporción */
+    margin-bottom: 10px;
+    border-radius: 50%; /* Opcional: hace el logo circular como el pequeño */
+    border: 3px solid var(--accent); /* Opcional: añade el borde dorado */
+}
+
+/* Estilo para el Lema del Coro */
+.coro-lema {
+    font-size: 1.2rem;
+    color: var(--accent); /* Usamos el dorado dorado para el lema */
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
