@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebraciones - Angeli Christi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .selector-misa { background: #f4f4f4; padding: 20px; border-radius: 8px; margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
+        .misa-titulo { color: var(--accent); border-bottom: 2px solid; padding-bottom: 10px; margin-top: 30px; }
+        select { padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; }
+        body.dark-mode .selector-misa { background: #333; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="index.html" style="text-decoration:none; color:inherit;"><h1>← Volver al Cantoral</h1></a>
+        </div>
+        <button onclick="toggleDarkMode()">🌓</button>
+    </header>
+
+    <main id="main-content" style="max-width: 800px; margin: 0 auto; padding: 20px;">
+        <div class="selector-misa">
+            <select id="select-ciclo" onchange="cargarCelebraciones()">
+                <option value="">Selecciona Ciclo...</option>
+                <option value="Ciclo A">Año A</option>
+                <option value="Ciclo B">Año B</option>
+                <option value="Ciclo C">Año C</option>
+                <option value="Solemnidades">Solemnidades</option>
+            </select>
+
+            <select id="select-misa" onchange="mostrarMisa()" disabled>
+                <option value="">Selecciona Celebración...</option>
+            </select>
+        </div>
+
+        <div id="contenedor-misa">
+            <p style="text-align:center; color:#888;">Selecciona una celebración para ver los cantos.</p>
+        </div>
+    </main>
+
+    <script src="lista_canciones.js"></script>
+    <script src="calendario.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Lógica específica para esta página
+        function cargarCelebraciones() {
+            const ciclo = document.getElementById('select-ciclo').value;
+            const selectMisa = document.getElementById('select-misa');
+            selectMisa.innerHTML = '<option value="">Selecciona Celebración...</option>';
+            
+            if (ciclo && datosLiturgicos[ciclo]) {
+                datosLiturgicos[ciclo].forEach(misa => {
+                    let opt = document.createElement('option');
+                    opt.value = misa.id;
+                    opt.textContent = misa.nombre;
+                    selectMisa.appendChild(opt);
+                });
+                selectMisa.disabled = false;
+            } else {
+                selectMisa.disabled = true;
+            }
+        }
+
+        function mostrarMisa() {
+            const ciclo = document.getElementById('select-ciclo').value;
+            const misaId = document.getElementById('select-misa').value;
+            const contenedor = document.getElementById('contenedor-misa');
+            
+            const misa = datosLiturgicos[ciclo].find(m => m.id === misaId);
+            if (!misa) return;
+
+            contenedor.innerHTML = `<h2 class="misa-titulo">${misa.nombre}</h2>`;
+
+            misa.cantos.forEach(id => {
+                const song = canciones.find(s => s.id === id);
+                if (song) {
+                    const div = document.createElement('div');
+                    div.className = 'song-card';
+                    div.style.marginBottom = "40px";
+                    div.innerHTML = `
+                        <h3>${song.titulo}</h3>
+                        <p><em>Tono: ${song.tonoOriginal}</em></p>
+                        <div class="lyrics-container">${formatearAcordesEnLetra(song.letra, 0, escSost)}</div>
+                    `;
+                    contenedor.appendChild(div);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
