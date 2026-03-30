@@ -229,3 +229,71 @@ input[type="text"], select {
     font-weight: 300;
     letter-spacing: 1px;
 }
+.btn-clear:hover {
+    background-color: #ddd !important;
+}
+#song-list-container {
+    max-height: 50vh; /* Ocupa el 50% de la altura de la pantalla */
+    overflow-y: auto; /* Permite hacer scroll solo dentro de la lista */
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* ... tus otros estilos ... */
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    padding: 15px;
+    box-sizing: border-box; /* Para que el padding no sume tamaño extra */
+}
+
+#song-list-container {
+    flex-grow: 1; /* Esto hace que la lista use el espacio disponible */
+    overflow-y: auto; /* Permite scroll interno */
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar-footer {
+    margin-top: auto; /* Empuja los botones siempre al fondo */
+    padding-bottom: 10px; /* Espacio de seguridad para que no se corten abajo */
+}
+/* Colores por defecto (Modo Claro) */
+body {
+    background-color: #ffffff;
+    color: #333333;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Colores cuando el Modo Oscuro está activo */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+}
+
+body.dark-mode #sidebar {
+    background-color: #2d2d2d;
+    color: white;
+}
+
+body.dark-mode .song-card {
+    background-color: #333;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+body.dark-mode .song-item {
+    border-bottom: 1px solid #444;
+}
+
+body.dark-mode input, body.dark-mode select {
+    background-color: #444;
+    color: white;
+    border: 1px solid #666;
+}

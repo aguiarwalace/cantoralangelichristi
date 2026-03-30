@@ -168,3 +168,30 @@ window.onload = () => {
     // Ya no llamamos a filterSongs() aquí para que la lista empiece vacía
     console.log("Aplicación Angeli Christi lista.");
 };
+function clearSearch() {
+    // 1. Limpiamos el texto del buscador
+    document.getElementById('search-input').value = "";
+    
+    // 2. Reseteamos el selector de categorías a la primera opción ("todos")
+    document.getElementById('category-filter').selectedIndex = 0;
+    
+    // 3. Ejecutamos el filtro para que la lista se vacíe (por la regla de "si está vacío, no mostrar nada")
+    filterSongs();
+    
+    console.log("Búsqueda y filtros reseteados.");
+}
+function toggleDarkMode() {
+    // Alterna una clase llamada 'dark-mode' en el cuerpo de la página
+    document.body.classList.toggle('dark-mode');
+    
+    // Opcional: Guardar la preferencia en el navegador
+    const isDark = document.body.classList.contains('dark-mode');
+    localStorage.setItem('darkTheme', isDark);
+    
+    console.log("Modo oscuro:", isDark);
+}
+
+// Para que el modo oscuro se mantenga al recargar la página
+if (localStorage.getItem('darkTheme') === 'true') {
+    document.body.classList.add('dark-mode');
+}
