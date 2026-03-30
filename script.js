@@ -1,10 +1,44 @@
-// --- DATOS ---
-const canciones = [
-    { id: 1, titulo: "A TI LEVANTO MIS OJOS", autor: "Tradicional", categoria: "entrada", tonoOriginal: "Am", letra: "[Am]A TI LEVANTO MIS [Dm]OJOS, [G]A TI QUE HABITAS EN EL [C]CIELO. [Am]A TI LEVANTO MIS [Dm]OJOS, [E]PORQUE ESPERO TU MISERICOR[Am]DIA." },
-    { id: 2, titulo: "ALABANZAS", autor: "Tradicional", categoria: "entrada", tonoOriginal: "G", letra: "[G]Alabanzas al Se[C]ñor, [D]porque Él es [G]bueno." },
-    { id: 3, titulo: "SEÑOR TEN PIEDAD (I)", autor: "Misa Popular", categoria: "piedad", tonoOriginal: "Em", letra: "[Em]Señor ten pie[Am]dad de no[Em]sotros. [B7]Señor ten pie[Em]dad." },
-    { id: 4, titulo: "TEN PIEDAD DE MI OH DIOS", autor: "Tradicional", categoria: "piedad", tonoOriginal: "Am", letra: "[Am]Ten piedad de [Dm]mí oh Dios, por tu [E]bondad." }
-];
+// 1. FUNCIÓN DE MENÚ (SIEMPRE ARRIBA)
+function toggleMenu() {
+    console.log("Botón presionado"); // Esto nos dirá en la consola si funciona
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar) {
+        sidebar.classList.toggle('active');
+    } else {
+        console.error("Error: No encontré el ID 'sidebar' en el HTML");
+    }
+}
+
+// 2. BUSCADOR (FILTRO)
+function filterSongs() {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const categoryTerm = document.getElementById('category-filter').value;
+    const container = document.getElementById('song-list-container');
+    
+    if(!container) return; // Seguridad
+    container.innerHTML = ''; 
+
+    // Usamos el array 'canciones' que viene del archivo lista_canciones.js
+    const filtradas = canciones.filter(s => {
+        const coincideTitulo = s.titulo.toLowerCase().includes(searchTerm);
+        const coincideLetra = s.letra.toLowerCase().includes(searchTerm);
+        const coincideCategoria = (categoryTerm === 'todos' || s.categoria === categoryTerm);
+        return (coincideTitulo || coincideLetra) && coincideCategoria;
+    });
+
+    filtradas.forEach(s => {
+        const div = document.createElement('div');
+        div.className = 'song-item';
+        div.innerHTML = `
+            <input type="checkbox" onchange="toggleSelect(${s.id})" ${seleccionadas.includes(s.id) ? 'checked' : ''}>
+            <span onclick="prepararDisplay(${s.id})" style="cursor:pointer">
+                <strong>${s.titulo}</strong><br>
+                <small>${s.autor} - (${s.tonoOriginal})</small>
+            </span>
+        `;
+        container.appendChild(div);
+    });
+}
 
 // Escalas técnicas
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
@@ -136,8 +170,14 @@ function toggleSelect(id) {
     else seleccionadas.push(id);
 }
 
+// Esta función es la que hace que el menú aparezca y desaparezca
 function toggleMenu() {
-    document.getElementById('sidebar').classList.toggle('active');
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar) {
+        sidebar.classList.toggle('active');
+    } else {
+        console.error("No se encontró el elemento con id 'sidebar'");
+    }
 }
 
 function generateRepertoire() {
@@ -146,4 +186,47 @@ function generateRepertoire() {
     window.location.href = 'repertorio.html';
 }
 
-window.onload = renderSongList;
+// window.onload = renderSongList; //código actualizado
+window.onload = () => {
+    // Solo ejecuta renderSongList si existe el contenedor de la lista (página inicio)
+    if (document.getElementById('song-list-container')) {
+        renderSongList();
+    }
+};
+function filterSongs() {
+    // 1. Obtenemos lo que el usuario escribió (en minúsculas para que no importe si usa Mayúsculas)
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    const categoryTerm = document.getElementById('category-filter').value;
+    const container = document.getElementById('song-list-container');
+    
+    container.innerHTML = ''; // Limpiamos la lista para mostrar los nuevos resultados
+
+    // 2. Filtramos el array de canciones
+    const filtradas = canciones.filter(s => {
+        // Buscamos en el título
+        const coincideTitulo = s.titulo.toLowerCase().includes(searchTerm);
+        
+        // Buscamos en la letra (aquí está la clave de tu pedido)
+        const coincideLetra = s.letra.toLowerCase().includes(searchTerm);
+        
+        // Verificamos la categoría
+        const coincideCategoria = (categoryTerm === 'todos' || s.categoria === categoryTerm);
+        
+        // Retornamos la canción si coincide el título O la letra, Y además la categoría es correcta
+        return (coincideTitulo || coincideLetra) && coincideCategoria;
+    });
+
+    // 3. Dibujamos las canciones filtradas en el menú
+    filtradas.forEach(s => {
+        const div = document.createElement('div');
+        div.className = 'song-item';
+        div.innerHTML = `
+            <input type="checkbox" onchange="toggleSelect(${s.id})" ${seleccionadas.includes(s.id) ? 'checked' : ''}>
+            <span onclick="prepararDisplay(${s.id})" style="cursor:pointer">
+                <strong>${s.titulo}</strong><br>
+                <small>${s.autor} - (${s.tonoOriginal})</small>
+            </span>
+        `;
+        container.appendChild(div);
+    });
+}

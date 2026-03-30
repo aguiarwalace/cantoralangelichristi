@@ -2,43 +2,162 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Repertorio Seleccionado - Angeli Christi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Repertorio - Angeli Christi</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos específicos para impresión */
+        @media print {
+            header, .no-print, .controles-tono, #menu-btn {
+                display: none !important;
+            }
+            body { background: white; }
+            .song-card {
+                box-shadow: none;
+                border: none;
+                width: 100%;
+                max-width: none;
+                padding: 0;
+                page-break-after: always; /* Cada canción en una hoja nueva */
+            }
+            #main-content { padding: 0; }
+        }
+        .reorder-btns {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <button onclick="window.location.href='index.html'">← Volver</button>
-        <h1>Repertorio Seleccionado</h1>
+        <div class="header-left">
+            <a href="index.html" class="header-logo-link">
+                <img src="angeli_christi_logo_blc.png" alt="Logo" class="logo-mini">
+                <h1>Repertorio Seleccionado</h1>
+            </a>
+        </div>
+        <div class="no-print">
+            <button class="btn-primary" onclick="window.print()" style="background: var(--accent); margin: 0;">🖨️ Imprimir PDF</button>
+        </div>
     </header>
 
-    <main id="repertorio-lista">
+    <main id="repertorio-container" style="display: flex; flex-direction: column; align-items: center; gap: 30px; padding: 40px 20px;">
         </main>
 
-    <div class="controles-flotantes">
-        <button onclick="window.print()">Imprimir / PDF</button>
-    </div>
-
+    <script src="lista_canciones.js"></script>
+    <script src="script.js"></script>
     <script>
-        // Lógica simple para mostrar las elegidas
-        const datos = [
-            { id: 1, titulo: "A TI LEVANTO MIS OJOS", letra: "[Am]A TI LEVANTO MIS [Dm]OJOS..." },
-            { id: 2, titulo: "ALABANZAS", letra: "[G]Alabanzas al Se[C]ñor..." },
-            { id: 3, titulo: "SEÑOR TEN PIEDAD (I)", letra: "[Em]Señor ten pie[Am]dad..." },
-            { id: 4, titulo: "TEN PIEDAD DE MI OH DIOS", letra: "[Am]Ten piedad de [Dm]mí..." }
-        ];
+        // Lógica específica para la página de repertorio
+    // Variable global para mantener el estado de transposición de cada canción en el repertorio
+let estadosTransposicion = {}; 
 
-        const seleccion = JSON.parse(localStorage.getItem('repertorioActual') || "[]");
-        const container = document.getElementById('repertorio-lista');
+window.onload = function() {
+    cargarRepertorio();
+};
 
-        seleccion.forEach(id => {
-            const song = datos.find(s => s.id === id);
-            if(song) {
-                const div = document.createElement('div');
-                div.className = 'song-page';
-                div.innerHTML = `<h2>${song.titulo}</h2><pre>${song.letra}</pre><hr>`;
-                container.appendChild(div);
+function cargarRepertorio() {
+    const ids = JSON.parse(localStorage.getItem('repertorioActual')) || [];
+    const container = document.getElementById('repertorio-container');
+    container.innerHTML = '';
+
+    if (ids.length === 0) {
+        container.innerHTML = `<div class="song-card"><h2>No hay canciones seleccionadas</h2></div>`;
+        return;
+    }
+
+    ids.forEach((id, index) => {
+        const song = canciones.find(s => s.id === id);
+        if (song) {
+            // Inicializamos el estado de transposición para esta canción si no existe
+            if (estadosTransposicion[index] === undefined) {
+                estadosTransposicion[index] = 0;
             }
-        });
+            const card = crearCardCancion(song, index, ids.length);
+            container.appendChild(card);
+        }
+    });
+}
+
+function crearCardCancion(song, index, total) {
+    const div = document.createElement('div');
+    div.className = 'song-card';
+    
+    // Calculamos el tono y la escala para esta canción específica
+    const semitonos = estadosTransposicion[index];
+    const tonoDestino = calcularNombreTono(song.tonoOriginal, semitonos);
+    const usaBemoles = tonoDestino.includes('b') || (tonoDestino.startsWith('F') && !tonoDestino.startsWith('F#'));
+    const escalaParaLetra = usaBemoles ? escBem : escSost;
+
+    const letraHtml = formatearAcordesEnLetra(song.letra, semitonos, escalaParaLetra);
+
+    div.innerHTML = `
+        <div class="no-print reorder-btns">
+            <button onclick="moverCancion(${index}, -1)" ${index === 0 ? 'disabled' : ''}>↑</button>
+            <button onclick="moverCancion(${index}, 1)" ${index === total - 1 ? 'disabled' : ''}>↓</button>
+            <button onclick="quitarCancion(${index})" style="color: red; margin-left: auto;">✕</button>
+        </div>
+
+        <div class="song-header">
+            <h2>${song.titulo}</h2>
+            <div class="controles-tono no-print">
+                <button onclick="cambiarTonoIndividual(${index}, -1)">-</button>
+                <button onclick="cambiarTonoIndividual(${index}, 0)">⟳</button>
+                <button onclick="cambiarTonoIndividual(${index}, 1)">+</button>
+                <span>Tono: <strong>${tonoDestino}</strong></span>
+            </div>
+            <p><em>${song.autor}</em></p>
+        </div>
+
+        <div class="lyrics-container">
+            ${letraHtml}
+        </div>
+    `;
+    return div;
+}
+
+// Nueva función para cambiar el tono de una sola canción
+function cambiarTonoIndividual(index, valor) {
+    if (valor === 0) {
+        estadosTransposicion[index] = 0;
+    } else {
+        estadosTransposicion[index] += valor;
+    }
+    cargarRepertorio(); // Refrescamos la vista para aplicar el cambio
+}
+
+function moverCancion(index, direccion) {
+    const ids = JSON.parse(localStorage.getItem('repertorioActual'));
+    
+    // Movemos el ID
+    const tempId = ids[index];
+    ids[index] = ids[index + direccion];
+    ids[index + direccion] = tempId;
+    
+    // IMPORTANTE: También movemos su estado de transposición
+    const tempTono = estadosTransposicion[index];
+    estadosTransposicion[index] = estadosTransposicion[index + direccion];
+    estadosTransposicion[index + direccion] = tempTono;
+
+    localStorage.setItem('repertorioActual', JSON.stringify(ids));
+    cargarRepertorio();
+}
+
+function quitarCancion(index) {
+    const ids = JSON.parse(localStorage.getItem('repertorioActual'));
+    ids.splice(index, 1);
+    
+    // Reordenar el objeto de estados de transposición
+    let nuevosEstados = {};
+    ids.forEach((id, i) => {
+        // Si el índice era mayor al borrado, arrastramos el valor
+        nuevosEstados[i] = (i >= index) ? estadosTransposicion[i+1] : estadosTransposicion[i];
+    });
+    estadosTransposicion = nuevosEstados;
+
+    localStorage.setItem('repertorioActual', JSON.stringify(ids));
+    cargarRepertorio();
+}
     </script>
 </body>
 </html>
