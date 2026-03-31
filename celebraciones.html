@@ -6,22 +6,130 @@
     <title>Celebraciones - Angeli Christi</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .selector-misa { background: #f4f4f4; padding: 20px; border-radius: 8px; margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
-        .misa-titulo { color: var(--accent); border-bottom: 2px solid; padding-bottom: 10px; margin-top: 30px; }
-        select { padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px; }
+        /* Estilos específicos para que el header sea igual al index */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            background-color: #004488; /* Asegúrate de que sea tu azul */
+            color: white;
+            height: 70px;
+        }
+
+        .header-left a {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .selector-misa { 
+            background: #f4f4f4; 
+            padding: 20px; 
+            border-radius: 8px; 
+            margin-bottom: 20px; 
+            display: flex; 
+            gap: 10px; 
+            flex-wrap: wrap; 
+            justify-content: center;
+        }
+
+        .misa-titulo { 
+            color: #004488; 
+            border-bottom: 2px solid #004488; 
+            padding-bottom: 10px; 
+            margin: 30px 0; 
+            text-align: center;
+        }
+
+        select { 
+            padding: 12px; 
+            border-radius: 5px; 
+            border: 1px solid #ccc; 
+            font-size: 16px; 
+            min-width: 200px;
+        }
+
         body.dark-mode .selector-misa { background: #333; }
+        body.dark-mode .misa-titulo { color: #5dade2; border-color: #5dade2; }
+
+        /* Contenedor de los selectores */
+.selector-misa { 
+    background: #ffffff; 
+    padding: 25px; 
+    border-radius: 12px; 
+    margin: 20px auto; 
+    display: flex; 
+    gap: 15px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Sombra suave para que flote */
+    border: 1px solid #eee;
+}
+
+/* El diseño de los selectores individuales */
+select { 
+    padding: 10px 15px; 
+    border-radius: 8px; 
+    border: 2px solid #dce4ec; 
+    font-size: 15px; 
+    color: #2c3e50;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 220px; /* Tamaño consistente pero no exagerado */
+    outline: none;
+}
+
+/* Efecto al hacer clic o pasar el ratón */
+select:hover:not(:disabled) {
+    border-color: #004488;
+}
+
+select:focus {
+    border-color: #004488;
+    box-shadow: 0 0 8px rgba(0, 68, 136, 0.2);
+}
+
+/* Cuando el segundo selector está desactivado */
+select:disabled {
+    background-color: #f9f9f9;
+    color: #bdc3c7;
+    cursor: not-allowed;
+    border-color: #eee;
+}
+
+/* Adaptación a Modo Oscuro */
+body.dark-mode .selector-misa { 
+    background: #2d2d2d; 
+    border-color: #444;
+}
+
+body.dark-mode select {
+    background-color: #1a1a1a;
+    color: #ecf0f1;
+    border-color: #444;
+}
     </style>
 </head>
 <body>
     <header>
         <div class="header-left">
-            <a href="index.html" style="text-decoration:none; color:inherit;"><h1>← Volver al Cantoral</h1></a>
+            <a href="index.html">
+                <img src="angeli_christi_logo_blc.png" alt="Logo" style="height: 40px;">
+                <h1 style="font-size: 1.2rem;">← Volver al Cantoral</h1>
+            </a>
         </div>
-        <button onclick="toggleDarkMode()">🌓</button>
+        <button onclick="toggleDarkMode()" style="background:none; border:none; color:white; font-size:1.5rem; cursor:pointer;">🌓</button>
     </header>
 
     <main id="main-content" style="max-width: 800px; margin: 0 auto; padding: 20px;">
-        <div class="selector-misa">
+        
+        <div id="zona-seleccion" class="selector-misa">
+            <h2 style="text-align: center; color: #7f8c8d; font-weight: 300; margin-bottom: 10px;">Planificación Litúrgica</h2>
+<p style="text-align: center; color: #bdc3c7; font-size: 0.9em; margin-bottom: 30px;">Selecciona el tiempo y la fecha correspondiente</p>
             <select id="select-ciclo" onchange="cargarCelebraciones()">
                 <option value="">Selecciona Ciclo...</option>
                 <option value="Ciclo A">Año A</option>
@@ -35,16 +143,27 @@
             </select>
         </div>
 
+        <div style="text-align: center;">
+            <button id="btn-re-seleccionar" onclick="resetSeleccion()" style="display:none; margin: 0 auto 20px; background: #eee; border: 1px solid #ccc; padding: 8px 20px; cursor: pointer; border-radius: 20px; font-size: 0.9em;">
+                🔄 Cambiar celebración
+            </button>
+        </div>
+
         <div id="contenedor-misa">
-            <p style="text-align:center; color:#888;">Selecciona una celebración para ver los cantos.</p>
+            <p style="text-align:center; color:#888; margin-top: 50px;">Elige una fecha para ver el plan de cantos.</p>
         </div>
     </main>
 
     <script src="lista_canciones.js"></script>
     <script src="calendario.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js"></script> 
+    
     <script>
-        // Lógica específica para esta página
+        // Forzamos a que el script espere a que TODO cargue
+        window.addEventListener('DOMContentLoaded', () => {
+            console.log("Página de celebraciones lista");
+        });
+
         function cargarCelebraciones() {
             const ciclo = document.getElementById('select-ciclo').value;
             const selectMisa = document.getElementById('select-misa');
@@ -67,9 +186,16 @@
             const ciclo = document.getElementById('select-ciclo').value;
             const misaId = document.getElementById('select-misa').value;
             const contenedor = document.getElementById('contenedor-misa');
+            const zonaSeleccion = document.getElementById('zona-seleccion');
+            const btnReset = document.getElementById('btn-re-seleccionar');
             
+            if (!misaId) return;
+
             const misa = datosLiturgicos[ciclo].find(m => m.id === misaId);
             if (!misa) return;
+
+            zonaSeleccion.style.display = 'none';
+            btnReset.style.display = 'inline-block';
 
             contenedor.innerHTML = `<h2 class="misa-titulo">${misa.nombre}</h2>`;
 
@@ -80,13 +206,27 @@
                     div.className = 'song-card';
                     div.style.marginBottom = "40px";
                     div.innerHTML = `
-                        <h3>${song.titulo}</h3>
-                        <p><em>Tono: ${song.tonoOriginal}</em></p>
-                        <div class="lyrics-container">${formatearAcordesEnLetra(song.letra, 0, escSost)}</div>
+                        <div style="border-left: 5px solid #004488; padding-left: 15px; margin-bottom: 15px;">
+                            <h3 style="margin: 0; color: #004488;">${song.titulo}</h3>
+                            <small style="color: #666;">Tono: ${song.tonoOriginal}</small>
+                        </div>
+                        <div class="lyrics-container">
+                            ${formatearAcordesEnLetra(song.letra, 0, escSost)}
+                        </div>
                     `;
                     contenedor.appendChild(div);
                 }
             });
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+
+        function resetSeleccion() {
+            document.getElementById('zona-seleccion').style.display = 'flex';
+            document.getElementById('btn-re-seleccionar').style.display = 'none';
+            document.getElementById('contenedor-misa').innerHTML = '<p style="text-align:center; color:#888; margin-top: 50px;">Elige una fecha para ver el plan de cantos.</p>';
+            document.getElementById('select-ciclo').value = "";
+            document.getElementById('select-misa').innerHTML = '<option value="">Selecciona Celebración...</option>';
+            document.getElementById('select-misa').disabled = true;
         }
     </script>
 </body>

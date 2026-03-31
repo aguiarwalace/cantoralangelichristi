@@ -297,3 +297,21 @@ body.dark-mode input, body.dark-mode select {
     color: white;
     border: 1px solid #666;
 }
+/* Asegura que el header sea igual al index */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #003468; /* Usa tu azul exacto aquí */
+    color: white;
+    height: 60px; /* Altura fija para que no varíe */
+}
+
+.header-left a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: white;
+}
