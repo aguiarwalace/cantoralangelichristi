@@ -1,13 +1,15 @@
+/* --- VARIABLES --- */
 :root {
-    --primary: #2c3e50;    /* Azul elegante */
-    --accent: #d4af37;     /* Dorado para detalles */
-    --bg-body: #f8f9fa;    /* Gris muy claro */
+    --primary: #003468;
+    --accent: #d4af37;
+    --bg-body: #f8f9fa;
     --bg-card: #ffffff;
     --text-main: #333;
     --red-chord: #e74c3c;
     --shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+/* --- BASE --- */
 body {
     background-color: var(--bg-body);
     color: var(--text-main);
@@ -16,13 +18,21 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    transition: background 0.3s, color 0.3s;
 }
 
-/* --- Header Elegante --- */
+body.dark-mode {
+    --bg-body: #1a1a1a;
+    --bg-card: #2d2d2d;
+    --text-main: #f4f4f4;
+    --red-chord: #ff7675;
+}
+
+/* --- HEADER --- */
 header {
     background: var(--primary);
     color: white;
-    padding: 1rem 2rem;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,12 +40,26 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    height: 70px;
 }
 
-.header-left { display: flex; align-items: center; gap: 15px; }
-.logo-mini { height: 45px; border-radius: 50%; border: 2px solid var(--accent); }
-/* --- .logo-large { height: 90px; border-radius: 50%; border: 2px solid var(--accent); } --- */
-header h1 { margin: 0; font-size: 1.4rem; font-weight: 300; letter-spacing: 1px; }
+.header-left a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-mini { 
+    height: 45px; 
+    width: 45px;
+    border-radius: 50%; 
+    border: 2px solid var(--accent);
+    object-fit: cover;
+}
+
+header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
 
 #menu-btn {
     background: transparent;
@@ -50,10 +74,10 @@ header h1 { margin: 0; font-size: 1.4rem; font-weight: 300; letter-spacing: 1px;
 
 #menu-btn:hover { background: rgba(255,255,255,0.1); }
 
-/* --- Contenedor de Canción (Efecto Hoja) --- */
+/* --- CONTENEDOR DE CANCIÓN --- */
 #main-content {
     flex: 1;
-    padding: 40px 20px;
+    padding: 20px;
     display: flex;
     justify-content: center;
 }
@@ -62,67 +86,142 @@ header h1 { margin: 0; font-size: 1.4rem; font-weight: 300; letter-spacing: 1px;
     background: var(--bg-card);
     width: 100%;
     max-width: 800px;
-    padding: 50px;
-    border-radius: 4px;
+    padding: 40px;
+    border-radius: 8px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
     border-top: 5px solid var(--accent);
-    animation: fadeIn 0.5s ease;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
 }
 
 .song-header h2 {
     color: var(--primary);
-    font-size: 2rem;
-    margin-top: 0;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
 }
 
-.lyrics-container {
-    font-size: 1rem;
-    line-height: 2.8; /* Espacio para los acordes */
-    margin-top: 30px;
+body.dark-mode .song-header h2 { 
+    color: var(--accent); 
+    border-bottom-color: #444;
 }
 
-/* --- Acordes --- */
+/* --- MOTOR DE ACORDES RECALIBRADO --- */
+.lyrics-container {
+    font-size: 1.2rem;
+    line-height: 2.8; /* Espacio equilibrado */
+    margin-top: 30px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    transition: font-size 0.2s ease;
+}
+
+/* Alineación precisa de Acorde sobre Letra */
+ruby {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    vertical-align: bottom;
+    align-items: center;
+    margin-right: 2px;
+    height: auto; 
+    justify-content: flex-start;
+}
+
 rt {
+    display: block;
+    line-height: 1.1; 
     color: var(--red-chord);
     font-weight: bold;
-    font-size: 0.85rem;
-    }
+    font-size: 0.9em; /* Ligeramente más pequeño que la letra para estética */
+    text-align: center;
+    margin-bottom: 0.1em; /* Pegado a la letra pero legible */
+    font-family: 'Segoe UI', sans-serif;
+}
 
-/* --- Menú Lateral (Sidebar) --- */
+/* --- CONTROLES (TONO Y TAMAÑO) --- */
+.controles-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.controles-tono {
+    background: #f1f1f1;
+    padding: 6px 12px;
+    border-radius: 30px;
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+}
+
+body.dark-mode .controles-tono { background: #444; }
+
+.controles-tono button {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.controles-tono button:hover { 
+    background: var(--accent); 
+    color: white; 
+    border-color: var(--accent);
+}
+
+.controles-tono span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* --- SIDEBAR --- */
 #sidebar {
     position: fixed;
     right: -320px;
     top: 0;
     width: 300px;
-    height: 100%;
+    height: 100vh;
     background: white;
     box-shadow: -5px 0 15px rgba(0,0,0,0.1);
     transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 25px;
+    padding: 20px;
     z-index: 2000;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 #sidebar.active { right: 0; }
 
-.sidebar-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    border-bottom: 2px solid var(--bg-body);
-    padding-bottom: 10px;
+body.dark-mode #sidebar { background: #2d2d2d; color: white; }
+
+#song-list-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
 }
 
-/* Inputs y Selects */
+.song-item {
+    padding: 12px 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.song-item:hover { background: #f0f4f8; }
+body.dark-mode .song-item { border-bottom-color: #444; }
+body.dark-mode .song-item:hover { background: #3d3d3d; }
+
+/* --- UTILIDADES --- */
 input[type="text"], select {
     width: 100%;
     padding: 10px;
@@ -132,27 +231,6 @@ input[type="text"], select {
     box-sizing: border-box;
 }
 
-/* Lista de canciones en el menú */
-#song-list-container {
-    flex: 1;
-    overflow-y: auto;
-    margin-bottom: 20px;
-}
-
-.song-item {
-    padding: 12px;
-    border-radius: 8px;
-    margin-bottom: 5px;
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.song-item:hover { background: #f0f4f8; }
-.song-item input { cursor: pointer; }
-
-/* Botones */
 .btn-primary {
     background: var(--primary);
     color: white;
@@ -162,156 +240,27 @@ input[type="text"], select {
     cursor: pointer;
     font-weight: bold;
     width: 100%;
-    margin-top: 10px;
 }
 
-.btn-primary:hover { opacity: 0.9; }
-
-/* Controles de Tono dentro de la canción */
-.controles-tono {
-    background: #f1f1f1;
-    padding: 10px 15px;
-    border-radius: 30px;
-    display: inline-flex;
-    gap: 15px;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.controles-tono button {
-    background: white;
-    border: 1px solid #ccc;
+.logo-large {
+    max-width: 140px;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: 0.2s;
+    border: 3px solid var(--accent);
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.controles-tono button:hover { background: var(--accent); color: white; border-color: var(--accent); }
-
-/* --- Ajustes de Navegación del Header --- */
-.header-logo-link {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    text-decoration: none; /* Quita el subrayado azul por defecto */
-    color: inherit; /* Mantiene el color blanco del texto del header */
-}
-
-/* --- Ajustes de la Pantalla de Bienvenida --- */
+/* --- BIENVENIDA --- */
 .welcome-container {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
-/* Control del tamaño del logo grande */
-.logo-large {
-    max-width: 150px; /* Ajusta este valor si lo quieres más o menos grande */
-    height: auto; /* Mantiene la proporción */
-    margin-bottom: 10px;
-    border-radius: 50%; /* Opcional: hace el logo circular como el pequeño */
-    border: 3px solid var(--accent); /* Opcional: añade el borde dorado */
-}
-
-/* Estilo para el Lema del Coro */
 .coro-lema {
-    font-size: 1.2rem;
-    color: var(--accent); /* Usamos el dorado dorado para el lema */
+    font-size: 1.1rem;
+    color: var(--accent);
     font-style: italic;
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-.btn-clear:hover {
-    background-color: #ddd !important;
-}
-#song-list-container {
-    max-height: 50vh; /* Ocupa el 50% de la altura de la pantalla */
-    overflow-y: auto; /* Permite hacer scroll solo dentro de la lista */
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 10px;
-}
-
-#sidebar {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    /* ... tus otros estilos ... */
-}
-#sidebar {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
-    padding: 15px;
-    box-sizing: border-box; /* Para que el padding no sume tamaño extra */
-}
-
-#song-list-container {
-    flex-grow: 1; /* Esto hace que la lista use el espacio disponible */
-    overflow-y: auto; /* Permite scroll interno */
-    margin-bottom: 15px;
-    border-bottom: 1px solid #ddd;
-}
-
-.sidebar-footer {
-    margin-top: auto; /* Empuja los botones siempre al fondo */
-    padding-bottom: 10px; /* Espacio de seguridad para que no se corten abajo */
-}
-/* Colores por defecto (Modo Claro) */
-body {
-    background-color: #ffffff;
-    color: #333333;
-    transition: background 0.3s, color 0.3s;
-}
-
-/* Colores cuando el Modo Oscuro está activo */
-body.dark-mode {
-    background-color: #1a1a1a;
-    color: #f4f4f4;
-}
-
-body.dark-mode #sidebar {
-    background-color: #2d2d2d;
-    color: white;
-}
-
-body.dark-mode .song-card {
-    background-color: #333;
-    color: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-}
-
-body.dark-mode .song-item {
-    border-bottom: 1px solid #444;
-}
-
-body.dark-mode input, body.dark-mode select {
-    background-color: #444;
-    color: white;
-    border: 1px solid #666;
-}
-/* Asegura que el header sea igual al index */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #003468; /* Usa tu azul exacto aquí */
-    color: white;
-    height: 60px; /* Altura fija para que no varíe */
-}
-
-.header-left a {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    text-decoration: none;
-    color: white;
+    margin-top: 5px;
 }

@@ -1,21 +1,18 @@
 // --- 1. VARIABLES Y ESCALAS ---
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-const nombresTonalidad = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'];
+const preferSost = ['G', 'D', 'A', 'E', 'B', 'F#', 'C#', 'Em', 'Bm', 'F#m', 'C#m', 'G#m', 'D#m'];
 
 let seleccionadas = [];
 let cancionActualId = null;
 let trasposicionActual = 0;
+let fontSizeActual = 1.2; // Tamaño base en rem
 
 // --- 2. LÓGICA DE INTERFAZ Y FILTROS ---
 
 function toggleMenu() {
     const sidebar = document.getElementById('sidebar');
-    if (sidebar) {
-        sidebar.classList.toggle('active');
-    } else {
-        console.error("No se encontró el elemento con id 'sidebar'");
-    }
+    if (sidebar) sidebar.classList.toggle('active');
 }
 
 function filterSongs() {
@@ -26,18 +23,13 @@ function filterSongs() {
     if(!container) return;
     container.innerHTML = ''; 
 
-    if (searchTerm.trim() === "" && categoryTerm === "todos") {
-        return; 
-    }
+    if (searchTerm.trim() === "" && categoryTerm === "todos") return; 
 
     const filtradas = canciones.filter(s => {
         const coincideTitulo = s.titulo.toLowerCase().includes(searchTerm);
         const coincideLetra = s.letra.toLowerCase().includes(searchTerm);
-        
-        // Ahora busca si la categoría seleccionada está "contenida" en el texto de la canción
         const coincideCategoria = (categoryTerm === 'todos' || 
                                     s.categoria.toLowerCase().includes(categoryTerm.toLowerCase()));
-        
         return (coincideTitulo || coincideLetra) && coincideCategoria;
     });
 
@@ -47,10 +39,10 @@ function filterSongs() {
         const isChecked = seleccionadas.includes(s.id) ? 'checked' : '';
         div.innerHTML = `
             <input type="checkbox" onchange="toggleSelect(${s.id})" ${isChecked}>
-            <span onclick="prepararDisplay(${s.id})" style="cursor:pointer">
+            <div onclick="prepararDisplay(${s.id})" style="flex-grow:1; cursor:pointer">
                 <strong>${s.titulo}</strong><br>
                 <small>${s.autor} - (${s.tonoOriginal})</small>
-            </span>
+            </div>
         `;
         container.appendChild(div);
     });
@@ -69,24 +61,31 @@ function displaySong() {
     if (!song || !display) return;
 
     const tonoDestino = calcularNombreTono(song.tonoOriginal, trasposicionActual);
-    const usaBemoles = tonoDestino.includes('b') || (tonoDestino.startsWith('F') && !tonoDestino.startsWith('F#'));
-    const escalaParaLetra = usaBemoles ? escBem : escSost;
+    const usaSost = preferSost.some(t => tonoDestino.startsWith(t));
+    const escalaElegida = usaSost ? escSost : escBem;
 
-    const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaParaLetra);
+    const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida, tonoDestino);
 
     display.innerHTML = `
         <div class="song-card">
             <div class="song-header">
                 <h2>${song.titulo}</h2>
-                <div class="controles-tono">
-                    <button onclick="cambiarTono(-1)">-</button>
-                    <button onclick="cambiarTono(0)">⟳</button>
-                    <button onclick="cambiarTono(1)">+</button>
-                    <span>Tono: <strong>${tonoDestino}</strong></span>
+                <div class="controles-group" style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+                    <div class="controles-tono">
+                        <button onclick="cambiarTono(-1)">-</button>
+                        <button onclick="cambiarTono(0)">⟳</button>
+                        <button onclick="cambiarTono(1)">+</button>
+                        <span>Tono: <strong>${tonoDestino}</strong></span>
+                    </div>
+                    <div class="controles-tono">
+                        <button class="btn-size" onclick="cambiarTamano(-0.1)">A-</button>
+                        <button class="btn-size" onclick="cambiarTamano(0.1)">A+</button>
+                        <span>Letra</span>
+                    </div>
                 </div>
-                <p style="color: #666;"><em>Autor: ${song.autor}</em></p>
+                <p style="color: #666; margin-top:10px;"><em>Autor: ${song.autor}</em></p>
             </div>
-            <div class="lyrics-container">
+            <div class="lyrics-container" style="font-size: ${fontSizeActual}rem; line-height: 2.8;">
                 ${letraFormateadaHtml}
             </div>
         </div>
@@ -106,50 +105,51 @@ function calcularNombreTono(tonoOriginal, semitonos) {
     let indice = escSost.indexOf(raiz);
     if (indice === -1) indice = escBem.indexOf(raiz);
     
-    let nuevoIndice = (indice + semitonos) % 12;
-    if (nuevoIndice < 0) nuevoIndice += 12;
-
-    return nombresTonalidad[nuevoIndice] + adorno;
+    let nuevoIndice = (indice + semitonos + 12) % 12;
+    const provisional = escSost[nuevoIndice];
+    const usaSost = preferSost.includes(provisional) || preferSost.includes(provisional + adorno);
+    
+    return (usaSost ? escSost[nuevoIndice] : escBem[nuevoIndice]) + adorno;
 }
 
 function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
-    const regex = /^([A-G][#b]?)(.*)$/;
-    const match = acordeStr.match(regex);
-    if (!match) return acordeStr;
-
-    let notaRaiz = match[1];
-    let adornos = match[2];
-
-    let indice = escSost.indexOf(notaRaiz);
-    if (indice === -1) indice = escBem.indexOf(notaRaiz);
-    if (indice === -1) return acordeStr;
-
-    let nuevoIndice = (indice + semitonos) % 12;
-    if (nuevoIndice < 0) nuevoIndice += 12;
-
-    return escalaElegida[nuevoIndice] + adornos;
+    return acordeStr.replace(/[A-G][#b]?/g, (nota) => {
+        let indice = escSost.indexOf(nota);
+        if (indice === -1) indice = escBem.indexOf(nota);
+        if (indice === -1) return nota;
+        let nIdx = (indice + semitonos + 12) % 12;
+        return escalaElegida[nIdx];
+    });
 }
 
-function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
-    // Reemplaza saltos de línea y maneja la notación [Acorde]Texto
+function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida, tonoDestino) {
     let textoHtml = letraRaw.replace(/\n/g, '<br>');
-    const regexAcordeTexto = /\[(.*?)\]([^\[\s]*)/g;
+    const regexAcordeTexto = /\[(.*?)\]([^\[\n<]*)/g;
 
-    textoHtml = textoHtml.replace(regexAcordeTexto, (match, acorde, textoSiguiente) => {
-        let baseTexto = textoSiguiente || '&nbsp;'; 
+    return textoHtml.replace(regexAcordeTexto, (match, acorde, textoSiguiente) => {
+        let baseTexto = textoSiguiente;
+        if (!baseTexto || baseTexto.trim() === "") baseTexto = "&nbsp;&nbsp;"; 
         let acordeFinal = trasponerAcorde(acorde, semitonos, escalaElegida);
         return `<ruby>${baseTexto}<rt>${acordeFinal}</rt></ruby>`;
     });
-
-    return textoHtml;
 }
 
-// --- 4. UTILIDADES Y EVENTOS ---
+// --- 4. UTILIDADES ---
 
 function cambiarTono(valor) {
-    if (valor === 0) trasposicionActual = 0;
-    else trasposicionActual += valor;
+    trasposicionActual = (valor === 0) ? 0 : trasposicionActual + valor;
     displaySong();
+}
+
+function cambiarTamano(delta) {
+    fontSizeActual += delta;
+    if (fontSizeActual < 0.8) fontSizeActual = 0.8;
+    if (fontSizeActual > 3.0) fontSizeActual = 3.0;
+
+    const container = document.querySelector('.lyrics-container');
+    if (container) {
+        container.style.fontSize = fontSizeActual + 'rem';
+    }
 }
 
 function toggleSelect(id) {
@@ -158,40 +158,18 @@ function toggleSelect(id) {
     else seleccionadas.push(id);
 }
 
-function generateRepertoire() {
-    if (seleccionadas.length === 0) return alert("Selecciona al menos una canción");
-    localStorage.setItem('repertorioActual', JSON.stringify(seleccionadas));
-    window.location.href = 'repertorio.html';
+function clearSearch() {
+    document.getElementById('search-input').value = "";
+    document.getElementById('category-filter').selectedIndex = 0;
+    filterSongs();
+}
+
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+    localStorage.setItem('darkTheme', document.body.classList.contains('dark-mode'));
 }
 
 window.onload = () => {
-    // Ya no llamamos a filterSongs() aquí para que la lista empiece vacía
+    if (localStorage.getItem('darkTheme') === 'true') document.body.classList.add('dark-mode');
     console.log("Aplicación Angeli Christi lista.");
 };
-function clearSearch() {
-    // 1. Limpiamos el texto del buscador
-    document.getElementById('search-input').value = "";
-    
-    // 2. Reseteamos el selector de categorías a la primera opción ("todos")
-    document.getElementById('category-filter').selectedIndex = 0;
-    
-    // 3. Ejecutamos el filtro para que la lista se vacíe (por la regla de "si está vacío, no mostrar nada")
-    filterSongs();
-    
-    console.log("Búsqueda y filtros reseteados.");
-}
-function toggleDarkMode() {
-    // Alterna una clase llamada 'dark-mode' en el cuerpo de la página
-    document.body.classList.toggle('dark-mode');
-    
-    // Opcional: Guardar la preferencia en el navegador
-    const isDark = document.body.classList.contains('dark-mode');
-    localStorage.setItem('darkTheme', isDark);
-    
-    console.log("Modo oscuro:", isDark);
-}
-
-// Para que el modo oscuro se mantenga al recargar la página
-if (localStorage.getItem('darkTheme') === 'true') {
-    document.body.classList.add('dark-mode');
-}
