@@ -1814,4 +1814,230 @@ Quiero decirte: esta es mi fe.
 Soy tu hija, en tu amor hallé mi vida.
     `
 },
+{
+    id: 105,
+    titulo: "Agnus Dei (Miserere)",
+    autor: "Walace Aguiar",
+    categoria: "cordero, angelichristi",
+    tonoOriginal: "G",
+    letra: `
+[C7M] [Bm] [Am7] [D#dim] [F#dim]\n
+[C7M]A[Bm]gnus [Am7]De[D#dim]i,[F#dim]
+[G/B]Qui tollis pec[Am]cata mundi, ([A4] [B4/A])
+[Am]Mise[D]rere [G]no[Am]bis. ([Em7])\n
+[C7M]A[Bm]gnus [Am7]De[D#dim]i,[F#dim]
+[G/B]Qui tollis pec[Am]cata mundi, ([A4] [B4/A])
+[Am]Mise[D]rere [G]no[Am]bis. ([Em7])\n
+[C7M]A[Bm]gnus [Am7]De[D#dim]i,[F#dim]
+[G/B]Qui tollis pec[Am]cata mundi, ([A4] [B4/A])
+[Am]Dona [D]nobis [G]pa[Am]cem.
+    `
+},
+{
+    id: 106,
+    titulo: "Dó sostenido menor / El Señor es mi pastor (Salmo 23)",
+    autor: "Walace Aguiar",
+    categoria: "angelichristi",
+    tonoOriginal: "C#m",
+    letra: `
+[C#m] [B] [E] [A] [D#m7(5b)] [G#m7]\n 
+[C#m]El Se[B]ñor es [E]mi pas[A]tor
+Y [D#m7(5b)]nada me fal[G#m7]tará 
+A las [C#m]aguas tran[B]quilas [E]me con[A]duce 
+Y en [D#m7(5b)]verdes pastos me hace re[G#m7]posar.\n 
+[C#m]Pero soy débil,
+[B]Incrédulo.
+[F#m7]Confío en mí 
+[G#m7]Y dudo de Ti Señor.
+[C#m]Fortalece
+[B]Mi esperanza
+[F#m7]E inflama
+[A]Mi a[Am]mor\n
+[C#m]El Se[B]ñor es [E]mi pas[A]tor
+Y [D#m7(5b)]nada me fal[G#m7]tará 
+A las [C#m]aguas tran[B]quilas [E]me con[A]duce 
+Y en [D#m7(5b)]verdes pastos me hace re[G#m7]posar.\n
+[C#m]Haz más grande
+[B]Mi fe en ti 
+[F#m7]Mi orgullo
+[G#m7]Solo escucha mi razón 
+[C#m]Soy pequeño
+[B]Mi gran Rey
+[F#m7]solo Tú eres
+[A]Mi Se[Am]ñor.
+    `
+},
+{
+    id: 107,
+    titulo: "Piel de porcelana",
+    autor: "Arturo Estrella",
+    categoria: "navidad, villancico",
+    tonoOriginal: "G",
+    letra: `
+[C] [D] [Em] [C] [D]\n
+[C]Piel de porce[D]lana, o[Em]jitos de [C]miel[D]
+[C]Vámonos via[D]jeros a [Em]ver a Emma[C]nuel[D]
+Para es[C]tar [D]con [G]él.\n
+[G]Vamos aparceros vamos a Belén
+[C]Vamos sin du[D]dar
+[G]Por el caminito que está iluminado
+[C]Por el Sirio es[D]telar
+[B4]Vamos pere[Em]grinos
+[C]Tocando el tam[D]bor
+[B4]Llevemos bai[Em]lando y chiflando
+[C]Una bella can[D]ción
+Para el [C]salva[D]dor[G]\n
+[C]Piel de porce[D]lana, o[Em]jitos de [C]miel[D]
+[C]Toma lo que [D]tengo para ofre[Em]cer[C] [D]
+[C]Piel de porce[D]lana o[Em]jitos de [C]miel[D]
+[C]Vámonos via[D]jeros a [Em]ver a Emma[C]nuel[D]
+Para es[C]tar [D]con [G]él.\n
+[G]Llegamos al portalito
+Para encon[C]trar[D]
+Que [G]todos se inclinan al ver al niñito
+Que llo[C]rando es[D]tá
+La [B4]luna le [Em]canta 
+Un a[C]rrullo al be[D]bé
+A mi [B4]niñito del [Em]alma 
+Al [C]niño Emma[D]nuel 
+Le can[C]taré [D]a [G]Él\n
+[G]Traemos de ofrendas 
+[C]Pan, atolito y [D]mucho amor 
+Y [G]aunque somos pobres niño hermoso 
+[C]Te entrego el cora[D]zón
+Pues lle[B4]gaste al [Em]mundo
+Para ilu[C]mi[D]nar
+Con tu [B4]dulce mi[Em]rada
+Nuestra humani[C]dad[D]
+Nuestra eterni[C]dad[G]\n
+[G]Que tu llegada [D]traiga [Em]esperanza al cora[Bm]zón
+[C]Descansa mi [D]niño, des[Em]cansa mi [Bm]Dios
+[C]Gracias por tu son[D]risa, [Em]Nuestro reden[Bm]tor.
+[C]Gracias por tu a[D]mor.[G]
+    `
+},
+{
+    id: 108,
+    titulo: "Santo Sem Nome",
+    autor: "Walace Aguiar",
+    categoria: "santo, angelichristi",
+    tonoOriginal: "C",
+    letra: `
+[C] [G] [C] [G]\n
+[C]San[G]to, [C]san[G]to
+[C]San[G]to, [C]san[G7]to
+[Dm]Santo es el Se[Am]ñor, [Dm]Santo es el Se[Am]ñor
+[F]El Se[G]ñor Dios del u[C]niverso.\n
+[Em]El cielo y la [F]tierra están llenos de Tu gloria
+[G]Hosana en el [Am]cielo
+[Em]Bendito el que [F]viene en el nombre del Señor
+[G]Hosana en el [Am]cielo oooooo[G7]ooo.\n
+[C]San[G]to, [C]san[G7]to
+[C]San[G]to, [C]san[G]to
+[Dm]Santo es el Se[Am]ñor, [Dm]Santo es el Se[Am]ñor
+[F]El Se[G]ñor Dios del u[C]ni[Am]verso
+[F]El Se[G]ñor Dios del u[C]niverso. ([G7] [C])
+    `
+},
+{
+    id: 109,
+    titulo: "Funk del Señor",
+    autor: "Walace Aguiar",
+    categoria: "alabanza, angelichristi",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm] [D7(4/9)]\n
+[Dm]Mamá me ense[D7(4/9)]ñó 
+A por[Dm]tarme [D7(4/9)]bien 
+A re[Dm]zar a [D7(4/9)]Dios
+Y a la [Dm]Virgen tam[D7(4/9)]bién.\n
+[Dm]Laiá laiá laiá [A]uh
+[Dm]Laiá [D7(4/9)] [A]\n
+[Dm]Cantaré a [D7(4/9)]Cristo
+A [Dm]Él mi ala[D7(4/9)]banza
+[Dm]Él es mi Se[D7(4/9)]ñor
+Y [Dm]mi espe[D7(4/9)]ranza\n
+[Dm]Para el in[D7(4/9)]fierno 
+Yo [Dm]no quiero [D7(4/9)]ir
+El [Dm]Diablo es [D7(4/9)]feo 
+[Dm]Huele a pi[D7(4/9)]pí \n
+[Dm]Hoy yo estoy [D7(4/9)]vivo
+Ma[Dm]ñana no [D7(4/9)]sé 
+Pero [Dm]estoy con [D7(4/9)]Cristo
+En el [Dm]cielo esta[D7(4/9)]ré\n
+[Dm]Dios está en el [D7(4/9)]cielo 
+Y [Dm]en mi cora[D7(4/9)]zón 
+En el [Dm]infierno el [D7(4/9)]Diablo
+Con [Dm]su mosta[D7(4/9)]chón\n
+[Dm]Levanto mis [D7(4/9)]ojos
+Con [Dm]senti[D7(4/9)]miento
+[Dm]Usame mi [D7(4/9)]Dios
+Como [Dm]tu instru[D7(4/9)]mento\n
+La [Dm]palabra de [D7(4/9)]Dios
+[Dm]Sabe a [D7(4/9)]miel
+Mi [Dm]sol es [D7(4/9)]Cristo
+Y [Dm]no Luis Mi[D7(4/9)]guel.\n
+Es[Dm]tar en el [D7(4/9)]cielo
+Se[Dm]rá una mara[D7(4/9)]villa
+A[Dm]llá está la [D7(4/9)]Virgen
+Y [Dm]Santa Ce[D7(4/9)]cilia.\n
+Es[Dm]tar en el [D7(4/9)]cielo
+Se[Dm]rá muy bo[D7(4/9)]nito
+A[Dm]llá está la [D7(4/9)]Virgen
+Y [Dm]mi San Be[D7(4/9)]nito \n
+De [Dm]mañana [D7(4/9)]rezo
+De [Dm]tarde tam[D7(4/9)]bién 
+Por la [Dm]noche i[D7(4/9)]gual.
+[Dm]Glória a [D7(4/9)]Dios. A[Dm]mén.
+    `
+},
+{
+    id: 110,
+    titulo: "Estoy Cansado de Gritar (Salmo 69)",
+    autor: "Hiiro",
+    categoria: "reflexion, angelichristi",
+    tonoOriginal: "C (Capo 4)",
+    letra: `
+Capo 4\n
+(Verso 1-Walace) 
+[C] [G] [Em] [D]
+Estoy con el agua al cuello,
+me hundo en un mar sin fin.
+No hay suelo bajo mis pies cansados,
+y la corriente va tras de mí.
+(Andrea) 
+Estoy cansado de gritar,
+mi garganta se partió,
+mis ojos se apagan lentamente,
+esperando un sí de Dios.\n
+(Verso 2-lissie)
+Son más que mis cabellos
+los que me quieren ver caer.
+Me odian sin razón,
+y yo no sé porqué 
+(gerry-oliver) 
+¿Devolver lo que no robé?
+¿Callaré lo que no hice?
+Tú conoces mi necedad,
+tú has visto lo que escondí.\n
+(Pre-Coro, Jessica) [Am] [C] [G]
+Y si caigo, no dejes que tro[C]piecen por mi error,
+no dejes que se aver[G]güencen los que esperan tu amor.\n
+(Coro, apoyo todos) [Em] [C] [G] [D]
+Estoy cansado de gritar,
+y mi alma se desgasta en soledad.
+Pero sigo aquí, hablando con el cielo gris,
+esperando que me vengas a salvar.
+Por tu amor inmenso, por tu fidelidad…
+¡Respóndeme ya!\n
+(Coro Final Todos)
+Estoy cansado de gritar,
+pero no me vas a abandonar.
+Sé que tú me ves, aunque nadie más lo haga,
+tú sabes cuánto duele esperar.
+(Kike) 
+Por tu amor inmenso, por tu fidelidad…
+Oh Dios… sálvame ya.
+    `
+},
 ];
