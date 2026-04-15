@@ -2040,4 +2040,44 @@ Por tu amor inmenso, por tu fidelidad…
 Oh Dios… sálvame ya.
     `
 },
+{
+    id: 111,
+    titulo: "Todo es tuyo Señor",
+    autor: "Jessica Loredo",
+    categoria: "angelichristi",
+    tonoOriginal: "D",
+    letra: `
+[D Bm G A]\n
+Te miro aqui frente a mi
+Te intento escuchar 
+Que quieres de mi?
+Señor ¿como he de amar?\n
+Quiero estar cerca de ti
+Quiero demostrar 
+Que seguirte a ti 
+Todo mal ha de arreglar\n
+[Coro: F#m Bm G A]
+Mis manos, mi voz, mi ser 
+Quieren obrar con amor 
+Haz conmigo tu reino crecer
+Todo es tuyo Señor 
+Todo es tuyo Señor\n
+Tómalo todo señor 
+Yo solo quiero servir
+Ser instrumento de amor
+Para ti yo quiero vivir\n
+Mis manos, mi voz, mi ser 
+Quieren obrar con amor 
+Haz conmigo tu reino crecer
+Todo es tuyo Señor 
+Todo es tuyo Señor\n
+Hazme llegar a quien necesite tu amor
+Que la esperanza siempre esté en ti señor\n
+Mis manos, mi voz, mi ser 
+Quieren obrar con amor 
+Haz conmigo tu reino crecer
+Todo es tuyo Señor 
+Todo es tuyo Señor
+Todo es tuyo Señor`
+},
 ];
