@@ -1710,5 +1710,108 @@ Bendito es el que viene, en el nombre del Señor. Hosanna…
     categoria: "Santo",
     tonoOriginal: "",
     letra: ""
-  }
+  },{
+    id: 102,
+    titulo: "Oración de Santo Agustín",
+    autor: "Walace Aguiar",
+    categoria: "angelichristi, reflexion",
+    tonoOriginal: "C",
+    letra:  `
+Intro: [C7M] [F7M] [Bm7(5b)] [Em7] [Am7] [Dm7] [G7] [Dm7] [Em7]\n 
+[C7M]¡Mi Cristo Jesús!,\n[F7M]amable Señor,\n[Bm7(5b)]¿por qué amé\n[Em7]Otra cosa que no Tú?\n[Am7]¿Dónde estaba yo\n[Dm7]cuando no pensaba en ti?\n[G7]!Qué ahora seas Tú\n[Bm7(5b)]Quién vivas en [Em7]mí!\n
+[C7M]Qué arda en mi alma\n[F7M]Llama viva de tu amor\n[Bm7(5b)]Y qué se vuelva fuego,\n[Em7]Incendio divinal.\n[Am7]A quemar en el altar\n[Dm7]De mi corazón\n[G7]Qué inflame mi ser\n[Bm7(5b)]Eternamente[Em7].\n 
+[C7M]Que abrase mi alma\n[F7M]Y todo lo que soy.\n[Bm7(5b)]Qué en Ti mi corazón\n[Em7]Desfalezca.\n[Am7]Y en el día de mi muerte\n[Dm7]Delante de Ti esté\n[G7]Totalmente consumido\n[Bm7(5b)]en tu a[Em7]mor.\n
+Amén.
+    `
+},
+{
+    id: 103,
+    titulo: "Magnificat",
+    autor: "Walace Aguiar",
+    categoria: "angelichristi, reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]Ave, llena de gracias, el Señor con[Em]tigo es[G]tá\n 
+[G]Proclama mi alma la gran[Em]deza del Señor,
+se alegra mi es[C]píritu en Dios, mi sal[Am]vador;
+[G]porque ha mirado la humilla[Em]ción de la esclava Suya
+Y ben[Am]dita [Bm]me procla[C]ma[D]rán.\n
+[G]El Poderoso hizo [Em]cosas maravillosas por mí:
+[C]Santo es su [Am]nombre.
+[G]y llega a sus [Em]fieles su misericordia
+[Am]de gene[Bm]ración en [C]gene[D]ración.\n
+[Bm7]Él hace pro[Am7]ezas con su brazo:
+[Bm7]Soberbios de cora[Am7]zón dispersa
+[Em7]derriba a pode[Am7]rosos de sus tronos
+[Em7]y enaltece [Am7]a los humildes,
+[Bm7]a los ham[Em7]brientos los colma de bienes
+[Am7]y a los ricos los des[D7]pide de manos vacíos.\n
+[G]El Poderoso hizo [Em]cosas maravillosas por mí:
+[C]Santo es su [Am]nombre.
+[G]y llega a sus [Em]fieles su misericordia
+[Am]de gene[Bm]ración en [C]gene[D]ración.\n
+[G]Socorrió a Isra[Em]el, su siervo,
+[C]Se a[Am]cordó de la misericordia
+[G]—como lo ha[Em]bía prometido a nuestros padres—
+[Am]en fa[Bm]vor de Abra[C]hán y su descen[D]dencia 
+por [E7]siempre.\n
+(Sube a tono de A)
+[A]Ave, llena de gracias, el Señor con[F#m]tigo es[A]tá\n 
+    `
+},
+{
+    id: 104,
+    titulo: "Esta es mi fe",
+    autor: "Jessica Loredo",
+    categoria: "angelichristi, reflexion",
+    tonoOriginal: "B",
+    letra: `
+[B]Me acerco entre la multi[D#m]tud,
+[C#m]Mi alma rota busca tu [E]luz.[F#]
+[B]Me siento indigna al pe[D#m]dir,
+[C#m]pero mi corazón me pide se[E]guir.[F#]
+[C#m7]Mi fe es frágil y vuelvo a fa[C#m7/B]llar,
+llena de [D#m/B]dudas, ¿podré avan[F#]zar?
+Pero tu [C#m7]alivias mi que[C#m7/B]branto
+[E]con solo tocar tu [F#]manto.\n
+Y aunque me [G#m7]siento invi[B/F#]sible,
+como una [C#m9]sombra al pa[B]sar,
+tu mi[G#m7]rada, llena de a[B]mor,
+me en[C#m9]seña la reali[B]dad.
+Me co[G#m7]noces por mi [B/F#]nombre,
+mi do[C#m9]lor puedes sa[B]nar,
+al to[G#m7]carte hallé mi [B/F#]vida,
+soy tu [C#m9]hija, y nada [B]más.\n
+[B]El rostro oculto al cargar mi [D#m]cruz,
+[C#m]tan lejos me fui, perdí mi vir[E]tud.[F#]
+[B]Pero una chispa me impulsa a se[D#m]guir,
+[C#m]tu gracia es la fuerza que me hace vi[E]vir.[F#]
+[C#m7]Quiero decirte: esta es mi [C#m7/B]fe,
+aunque pe[D#m/B]queña, aunque inma[F#]dura.
+Se a[C#m7]ferra al hilo de tu po[C#m7/B]der,
+[E]porque tu amor todo lo [F#]cura.\n
+Y aunque me [G#m7]siento invi[B/F#]sible,
+como una [C#m9]sombra al pa[B]sar,
+tu mi[G#m7]rada, llena de a[B]mor,
+me en[C#m9]seña la reali[B]dad.
+Me co[G#m7]noces por mi [B/F#]nombre,
+mi do[C#m9]lor puedes sa[B]nar,
+al to[G#m7]carte hallé mi [B/F#]vida,
+soy tu [C#m9]hija, y nada [B]más.\n
+[E]"Tu fe te ha sal[D#m]va[C#m]do", [D#m]escucho tu [C#m]voz,
+y [E]caigo ren[C#m]dida a tus pies, mi [D#m]Dios.
+Mi [E/C#]alma [E/B]cansa-da en[F#/D#]cuentra con[E]suelo,
+en este [G#m7]momen[B/F#]to me [E]llenas de [F#]cielo.\n
+Y aunque me [G#m7]siento invi[B/F#]sible,
+como una [C#m9]sombra al pa[B]sar,
+tu mi[G#m7]rada, llena de a[B]mor,
+me en[C#m9]seña la reali[B]dad.
+Me co[G#m7]noces por mi [B/F#]nombre,
+mi do[C#m9]lor puedes sa[B]nar,
+al to[G#m7]carte hallé mi [B/F#]vida,
+soy tu [C#m9]hija, y nada [B]más.\n
+Quiero decirte: esta es mi fe.
+Soy tu hija, en tu amor hallé mi vida.
+    `
+},
 ];

@@ -26,17 +26,17 @@ function filterSongs() {
     if(!container) return;
     container.innerHTML = ''; 
 
-    // --- NUEVA LÓGICA DE LIMPIEZA ---
-    // Si no hay nada escrito Y el filtro está en "todos", no mostramos nada y salimos de la función
     if (searchTerm.trim() === "" && categoryTerm === "todos") {
-        return; // Detiene la ejecución aquí para que la lista quede vacía
+        return; 
     }
-    // --------------------------------
 
     const filtradas = canciones.filter(s => {
         const coincideTitulo = s.titulo.toLowerCase().includes(searchTerm);
         const coincideLetra = s.letra.toLowerCase().includes(searchTerm);
-        const coincideCategoria = (categoryTerm === 'todos' || s.categoria.toLowerCase() === categoryTerm.toLowerCase());
+        
+        // Ahora busca si la categoría seleccionada está "contenida" en el texto de la canción
+        const coincideCategoria = (categoryTerm === 'todos' || 
+                                    s.categoria.toLowerCase().includes(categoryTerm.toLowerCase()));
         
         return (coincideTitulo || coincideLetra) && coincideCategoria;
     });
