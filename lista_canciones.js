@@ -2102,7 +2102,7 @@ Y danos de tu paz. (x2)
     id: 132,
     titulo: "ALMA DE CRISTO",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "D",
     letra: `
 [D]Alma de [Bm]Cristo, [G]santi[A]fíca[D]me.
@@ -2126,7 +2126,7 @@ Y danos de tu paz. (x2)
     id: 133,
     titulo: "ALMA DE CRISTO (Pascua Juvenil)",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "D",
     letra: `
 [D]Alma de Cristo, [C9]santi[G]fíca[D]me.
@@ -2151,8 +2151,8 @@ Y danos de tu paz. (x2)
   {
     id: 134,
     titulo: "ANIMA CHRISTI",
-    autor: "Anónimo",
-    categoria: "Comunión",
+    autor: "Mons. Marco Frisina",
+    categoria: "comunion",
     tonoOriginal: "A#m",
     letra: `
 [A#m]Anima [F#]Christi, [G#]sanctifi[A#m]ca me
@@ -2179,7 +2179,7 @@ Y danos de tu paz. (x2)
     id: 135,
     titulo: "AQUÍ HAY UN MUCHACHO",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "D",
     letra: `
 [D]Aquí hay un mu[A]chacho
@@ -2238,7 +2238,7 @@ Aquí hay un muchacho
     id: 136,
     titulo: "BENDITO",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "E",
     letra: `
 [E]Bendito, ben[A]dito, ben[B7]dito, sea [E]Dios,
@@ -2264,7 +2264,7 @@ Aquí hay un muchacho
     id: 137,
     titulo: "CANTEMOS AL AMOR DE LOS AMORES",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "D",
     letra: `
 [D]Cantemos al a[A7]mor de los a[Bm]mores,
@@ -2293,7 +2293,7 @@ Aquí hay un muchacho
     id: 138,
     titulo: "COMIENDO DEL MISMO PAN",
     autor: "Joaquín Madurga",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "Dm",
     letra: `
 [Dm]Comiendo del [F]mismo Pan,
@@ -2321,7 +2321,7 @@ Aquí hay un muchacho
     id: 139,
     titulo: "EL SEÑOR NOS INVITA YA",
     autor: "J. Thien",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "D",
     letra: `
 [D]El Se[Bm]ñor nos in[G]vita [A]ya,
@@ -2345,7 +2345,7 @@ Aquí hay un muchacho
     id: 140,
     titulo: "EN TI SEÑOR",
     autor: "Eduardo Diaz Covarrubias",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "G",
     letra: `
 [G]En ti Señor encon[Bm]tré la respuesta a mis dudas,
@@ -2383,7 +2383,7 @@ Aquí hay un muchacho
     id: 141,
     titulo: "ES MI CUERPO, TOMAD Y COMED",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "E",
     letra: `
 [E]Es mi Cuerpo, to[A]mad y co[E]med,
@@ -2416,7 +2416,7 @@ Aquí hay un muchacho
     id: 142,
     titulo: "ESTAS AQUÍ",
     autor: "Jeséd",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "C",
     letra: `
 [C]Estás a[Em]quí, aunque [F]no te pueda [G]ver,
@@ -2444,7 +2444,7 @@ Aquí hay un muchacho
     id: 143,
     titulo: "HACIENDOTE PAN",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "F#m",
     letra: `
 [F#m] _Comenzaste a ha[A]certe pan, en Be[E]lén,
@@ -2477,7 +2477,7 @@ Que para [F#m]siempre soy. [D]Soy yo, [E]soy yo, [F#m]soy yo.
     id: 144,
     titulo: "IN PERSONA CHRISTI",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "C",
     letra: `
 [C]Ya no soy yo quien [G]vive,
@@ -2510,7 +2510,7 @@ Sólo quiero cono[Dm]certe y solo [G]para [F]ti vi[C]vir.
     id: 145,
     titulo: "JESÚS AMIGO",
     autor: "Jaire",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "E",
     letra: `
 [C#m]Hoy te quiero con[B]tar, Jesús amigo,
@@ -2551,7 +2551,7 @@ Así de par en [C]par, eres mi mejor a[F]migo, Jesús.
     id: 146,
     titulo: "MILAGRO DE AMOR",
     autor: "Betsaida",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "E",
     letra: `
 [E]Jesús [B]aquí pre[C#m]sente de forma real,
@@ -2583,7 +2583,7 @@ Así de par en [C]par, eres mi mejor a[F]migo, Jesús.
     id: 147,
     titulo: "PAN DE LOS ÁNGELES",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "G",
     letra: `
 [G]Tan simple a[D]sí, tan fácil a[C]sí
@@ -2623,7 +2623,7 @@ Que la familia nutrida sea un día reunida en el cielo.
     id: 148,
     titulo: "PAN TRANSFORMADO",
     autor: "Anónimo",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "C",
     letra: `
 [C]Pan transfor[Am]mado en el [Dm]Cuerpo de [G7]Cristo,
@@ -2652,7 +2652,7 @@ Que la familia nutrida sea un día reunida en el cielo.
     id: 149,
     titulo: "SEÑOR ¿A QUIÉN IREMOS?",
     autor: "Alejandro Mejía",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "D",
     letra: `
 [D]Señor, [A]¿A quién i[Bm]remos?
@@ -2690,7 +2690,7 @@ Que la familia nutrida sea un día reunida en el cielo.
     id: 150,
     titulo: "UNA ESPIGA DORADA",
     autor: "Cesáreo Gabaráin",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "E",
     letra: `
 [E]Una es[A]piga do[D]rada por el [A]sol,
@@ -2718,7 +2718,7 @@ Que la familia nutrida sea un día reunida en el cielo.
     id: 151,
     titulo: "VAMOS CANTANDO A COMULGAR",
     autor: "Julio César Labaké",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "Dm",
     letra: `
 [Dm]Vamos can[F]tando a comulgar,
@@ -2749,7 +2749,7 @@ Que la familia nutrida sea un día reunida en el cielo.
     id: 152,
     titulo: "VERBUM PANIS",
     autor: "Mite Balduzzi",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "Em",
     letra: `
 [Em]Antes del [D/E]tiempo, mucho [Em]antes que la [D/E]tierra,
@@ -2776,7 +2776,7 @@ Que la familia nutrida sea un día reunida en el cielo.
     id: 153,
     titulo: "YA NO ERES PAN Y VINO",
     autor: "Jorge Luis Bohorquez",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "D",
     letra: `
 [D]Ya no eres [G]pan y [D]vino,
@@ -2809,7 +2809,7 @@ Que la familia nutrida sea un día reunida en el cielo.
     id: 154,
     titulo: "YO SOY EL PAN DE VIDA",
     autor: "Cesáreo Gabaráin",
-    categoria: "Comunión",
+    categoria: "comunion",
     tonoOriginal: "G",
     letra: `
 [G]Yo soy el [Bm]pan de vida,
@@ -2896,6 +2896,66 @@ Que la familia nutrida sea un día reunida en el cielo.
 [E4]Que no terminara
 
 [F#m] [E/G#] [Bm] [E4] [A] (Final)`
+},
+{
+    id: 173,
+    titulo: "Al Partir el Pan (Ao partir o Pão)",
+    autor: "Walmir Alencar (Comunidad Shalom)",
+    tonoOriginal: "E",
+    categoria: "comunion",
+    letra: 
+`Intro: [A9] [E/G#] [F#m7(11)] [B4] [B] 
+
+[E9]¿Quién podría ima[B/D#]ginar
+[C#m]que aquella [G#m]cruz
+[A9]era solo el co[E/G#]mienzo
+[F#m]de una historia de a[B4]mor? [B]
+
+[E9]Comentaban con gran do[B/D#]lor
+[C#m7]todo lo que pa[G#m]só
+[A9]y jamás espe[E/G#]raban
+[F#m7]reencontrar al Se[C#m]ñor. [B]
+
+[E/G#]Aconteció sin espe[A9]rar
+Él apa[B/A]reció entre los dis[G#m]cípulos a cami[C#m]nar [E/B] [A9]
+Habla[B/A]ba de amor; tan solo su [G#m]voz
+Les ar[C#m7]día el cora[C#]zón
+Y de[B/D#]cían [C#/F]
+
+[F#m7]Quédate con no[B4]sotros [B]
+[G#m]Es tarde y el día de[C#4]clina [C#]
+[F#m]Casi sin espe[B4]ranza
+[B]Nos vamos sin di[Bm]rección [E]
+[F#m7]En torno a la [B7(4/9)]mesa [B]
+[G#m]Se abrieron nuestros o[C#4]jos [C#]
+[F#m]Te reconocimos al par[B4]tir el [B]pan [E] [B7(4/9)]
+
+[E]Ya no llores, Jerusa[B/D#]lén
+[C#m7]La alegría vol[G#m]vió!
+[A9]Tu Señor está [E/G#]vivo!
+[F#m]Él resuci[C#m]tó! [B]
+
+[E/G#]Aconteció sin espe[A9]rar
+Él apa[B/A]reció entre los dis[G#m]cípulos a cami[C#m]nar [E/B] [A9]
+Habla[B/A]ba de amor; tan solo su [G#m]voz
+Les ar[C#m7]día el cora[C#]zón
+Y de[B/D#]cían [C#/F]
+
+[F#m7]Quédate con no[B4]sotros [B]
+[G#m]Es tarde y el día de[C#4]clina [C#]
+[F#m]Casi sin espe[B4]ranza
+[B]Nos vamos sin di[Bm]rección [E]
+[F#m7]En torno a la [B7(4/9)]mesa [B]
+[G#m]Se abrieron nuestros o[C#4]jos [C#]
+[F#m]Te reconocimos al par[B4]tir el [B]pan [E]
+
+[E]Ya no llores, Jerusa[B/D#]lén
+
+Final:
+[C#m7] [E/B] [A] [E/G#] 
+[F#m] [C#m] [B] [C] [D] 
+[G] [D/F#] [C/E] [G/B] 
+[C] [G/B] [Am] [C/G] [D] `
 },
     // --- SECCIÓN: CANTOS DE Reflexión ---
     // --- SECCIÓN: CANTOS DE Adoración ---
@@ -3718,4 +3778,4 @@ Resuci[A]tó! [E/G#] [F#m] [D]
 Resuci[A]tó!`
 },
 ];
-// último id 172
+// último id 173
