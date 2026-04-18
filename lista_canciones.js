@@ -2916,27 +2916,27 @@ Que la familia nutrida sea un día reunida en el cielo.
 [A9]y jamás espe[E/G#]raban
 [F#m7]reencontrar al Se[C#m]ñor. [B]
 
-[E/G#]Aconteció sin espe[A9]rar
-Él apa[B/A]reció entre los dis[G#m]cípulos a cami[C#m]nar [E/B] [A9]
+A[E/G#]conteci[A9]ó sin espe[B/A]rar
+Él apareci[G#m]ó entre los di[C#m]scípulos [E/B]a cami[A9]nar
 Habla[B/A]ba de amor; tan solo su [G#m]voz
 Les ar[C#m7]día el cora[C#]zón
 Y de[B/D#]cían [C#/F]
 
-[F#m7]Quédate con no[B4]sotros [B]
-[G#m]Es tarde y el día de[C#4]clina [C#]
+[F#m7]Quédate con[B4] noso[B]tros 
+[G#m]Es tarde y el día[C#4] decli[C#]na 
 [F#m]Casi sin espe[B4]ranza
 [B]Nos vamos sin di[Bm]rección [E]
 [F#m7]En torno a la [B7(4/9)]mesa [B]
 [G#m]Se abrieron nuestros o[C#4]jos [C#]
-[F#m]Te reconocimos al par[B4]tir el [B]pan [E] [B7(4/9)]
+[F#m]Te recono[B4]cimos al [B]partir el [E]pan  [B7(4/9)]
 
 [E]Ya no llores, Jerusa[B/D#]lén
 [C#m7]La alegría vol[G#m]vió!
 [A9]Tu Señor está [E/G#]vivo!
 [F#m]Él resuci[C#m]tó! [B]
 
-[E/G#]Aconteció sin espe[A9]rar
-Él apa[B/A]reció entre los dis[G#m]cípulos a cami[C#m]nar [E/B] [A9]
+A[E/G#]conteci[A9]ó sin espe[B/A]rar
+Él apareci[G#m]ó entre los di[C#m]scípulos [E/B]a cami[A9]nar
 Habla[B/A]ba de amor; tan solo su [G#m]voz
 Les ar[C#m7]día el cora[C#]zón
 Y de[B/D#]cían [C#/F]
