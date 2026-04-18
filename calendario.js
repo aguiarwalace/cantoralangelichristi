@@ -30,14 +30,14 @@ const datosLiturgicos = {
 
         // SEMANA SANTA / PASCUA
         { id: "a_ramos", nombre: "Domingo de Ramos", cantos: [1,2,3,4,5] },
-        { id: "a_pascua", nombre: "Domingo de Pascua", cantos: [1,2,3,4,5] },
+        { id: "a_pascua", nombre: "Domingo de Pascua", cantos: [10,113,112,64,79,90,114,128,172,170,155] },
 
         // TIEMPO PASCUAL
-        { id: "a_pascua_2", nombre: "2º Domingo de Pascua", cantos: [1,2,3,4,5] },
-        { id: "a_pascua_3", nombre: "3º Domingo de Pascua", cantos: [1,2,3,4,5] },
-        { id: "a_pascua_4", nombre: "4º Domingo de Pascua", cantos: [1,2,3,4,5] },
-        { id: "a_pascua_5", nombre: "5º Domingo de Pascua", cantos: [1,2,3,4,5] },
-        { id: "a_pascua_6", nombre: "6º Domingo de Pascua", cantos: [1,2,3,4,5] },
+        { id: "a_pascua_2", nombre: "2º Domingo de Pascua", cantos: [10,113,112,64,79,90,114,128,172,170,155] },
+        { id: "a_pascua_3", nombre: "3º Domingo de Pascua", cantos: [10,113,112,64,79,90,114,128,172,170,155] },
+        { id: "a_pascua_4", nombre: "4º Domingo de Pascua", cantos: [10,113,112,64,79,90,114,128,172,170,155] },
+        { id: "a_pascua_5", nombre: "5º Domingo de Pascua", cantos: [10,113,112,64,79,90,114,128,172,170,155] },
+        { id: "a_pascua_6", nombre: "6º Domingo de Pascua", cantos: [10,113,112,64,79,90,114,128,172,170,155] },
 
         // TIEMPO ORDINARIO (9–34)
         ...Array.from({length: 26}, (_,i) => ({

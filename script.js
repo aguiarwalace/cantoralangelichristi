@@ -173,3 +173,15 @@ window.onload = () => {
     if (localStorage.getItem('darkTheme') === 'true') document.body.classList.add('dark-mode');
     console.log("Aplicación Angeli Christi lista.");
 };
+function generateRepertoire() {
+    // Verificamos si hay canciones seleccionadas
+    if (seleccionadas.length === 0) {
+        return alert("Selecciona al menos una canción para generar el repertorio.");
+    }
+    
+    // Guardamos el array de IDs en el almacenamiento local
+    localStorage.setItem('repertorioActual', JSON.stringify(seleccionadas));
+    
+    // Redirigimos a la página del repertorio
+    window.location.href = 'repertorio.html';
+}
