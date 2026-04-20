@@ -3848,7 +3848,7 @@ Para que así el cosmos entero se centre en Jesús
     id: 208,
     titulo: "RESUCITÓ",
     autor: "Anónimo",
-    categoria: "reflexion",
+    categoria: "salida",
     tonoOriginal: "Em",
     letra: `
 [Em]Resucitó, [D]Resucitó, [C]Resucitó, Ale[B7]luya,
