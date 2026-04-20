@@ -696,8 +696,8 @@ Cristo, ten piedad de nosotros, Cristo, ten piedad de nosotros.
     autor: "Anónimo",
     tonoOriginal: "D",
     categoria: "piedad",
-    letra: 
-`[D]Señor, ten pie[Bm]dad.
+    letra: `
+[D]Señor, ten pie[Bm]dad.
 [D]Cristo, ten pie[Bm]dad.
 [G]Señor, ten pie[A]dad. (2x)
 
@@ -2974,8 +2974,1670 @@ Final:
 [C] [G/B] [Am] [C/G] [D] `
 },
     // --- SECCIÓN: CANTOS DE Reflexión ---
+
+  
+  {
+    id: 174,
+    titulo: "ALMA MISIONERA",
+    autor: "Anónimo",
+    categoria: "reflexion, salida",
+    tonoOriginal: "G",
+    letra: `
+[G]Señor, toma mi [C]vida nueva
+[G]antes de que la espera
+[D]desgaste [C]años en [D]mi
+[G]Estoy dispuesto a lo que [C]quieras
+[G]no importa lo que sea
+[D]tu llámame a ser[G]vir. [D]
+
+[G]Llévame donde los [D]hombres
+[Em]necesiten tus pa[C]labras
+[G]necesiten mis [D]ganas de vivir
+[G]donde falte la es[D]peranza
+[Em]donde falte la ale[C]gría
+[G]simplemente [D]por no saber de [G]ti. [C] [D]
+
+[G]Te doy, mi cora[C]zón sincero
+[G]para gritar sin miedo,
+[D]tu gran[C]deza, Se[D]ñor.
+[G]Tendré, mis manos [C]sin cansancio,
+[G]tu historia entre mis labios,
+[D]y fuerza en la ora[G]ción. [D]
+
+[G]Y así, en marcha [C]iré cantando,
+[G]por calles predicando.
+[D]Lo be[C]llo que es tu [D]amor.
+[G]Señor, tengo alma [C]misionera,
+[G]condúceme a la tierra,
+[D]que tenga sed de [G]Dios.
+`
+  },
+  {
+    id: 175,
+    titulo: "ALIANZA DE AMOR",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "C",
+    letra: `
+[C]En la pobreza o en la ri[G]queza te ama[C]re,
+[C]En la salud o en la enferme[F]dad yo te ama[G]re,
+[Am]En la tristeza o [G]en la alegría,
+[F]En la tormenta o [C]en la paz,
+[Am]Ante todo y sobre [G]todo te amare.
+
+[F]Tú me ama[C]ras, [G]yo te ama[Am]re,
+[F]Alianza e[Dm]terna entre tú y [G]yo
+[F]Tú me ama[C]ras, [G]yo te ama[Am]re,
+[F]Hasta que la muerte nos una [G]más.
+
+[C]En las buenas o [G]en las malas te ama[C]re
+[C]En el pecado o en la [F]gracia te ama[G]re
+[Am]En la noche o [G]en el día
+[F]En la fuerza o la debili[C]dad
+[Am]Ante todo y sobre [G]todo te amare.
+`
+  },
+  {
+    id: 176,
+    titulo: "AMAR ES ENTREGARSE",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Amar es en[A]tregarse olvi[D]dándose de [A]si [D] [D7]
+[G]Buscando lo que a [D]otros pueda [A]hacer fe[D]liz, [D7]
+[G]Buscando lo que a [D]otros pueda [A]hacer fe[D]liz.
+
+[A]Qué lindo es vi[D]vir para amar
+[A]Qué grande es te[D]ner para dar
+[D7]Dar ale[G]gría y felici[D]dad
+[A]Darse uno [D]mismo eso es amar,
+[D7]Dar ale[G]gría y felici[D]dad
+[A]Darse uno [D]mismo eso es amar.
+
+[D]Si amas como a [A]ti mismo y te en[D]tregas a los de[A]más [D] [D7]
+[G]Verás que no hay ego[D]ísmo que no [A]puedas supe[D]rar, [D7]
+[G]Verás que no hay ego[D]ísmo que no [A]puedas supe[D]rar.
+`
+  },
+  {
+    id: 177,
+    titulo: "AMÉMONOS DE CORAZÓN",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Amémonos de Cora[B7]zón,
+[Em]No de labios ni de oídos. (x2)
+[E7] [Am]Para cuando Cristo [Em]venga,
+[B7]Para cuando Cristo venga,
+[Em]Nos encuentre bien unidos. (x2)
+
+[Em]Cuantas veces de[B7]bo yo,
+[Em]¿Perdonar al que me ofende? (x2)
+[E7] [Am]Setenta veces [Em]siete,
+[B7]Setenta veces siete,
+[Em]Perdonarás a tu hermano. (x2)
+
+[Em]Ven, acércate [B7]a Jesús,
+[Em]Y confiesa tus pecados. (x2)
+[E7] [Am]Porque justo es nues[Em]tro Dios,
+[B7]Porque justo es nuestro Dios,
+[Em]Y fiel para perdonarnos. (x2)
+
+[Em]Mandamiento nue[B7]vo os doy:
+[Em]Que os améis unos a otros, (x2)
+[E7] [Am]Como yo os he a[Em]mado,
+[B7]Como yo os he amado,
+[Em]Os améis también vosotros. (x2)
+`
+  },
+  {
+    id: 178,
+    titulo: "AMÉNSE",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "A",
+    letra: `
+[A]Hoy que [C#m]juntos es[F#m]tán, [Em7] [A7]
+[D]Uní[C#m]dos [Bm]fren[A]te a [G]él, en su a[E]mor, [E7]
+[A]Hoy que sus manos [Em7/A]juntas van a seguir
+[F#m]A luchar hasta el fi[C#m]nal,
+[D]Ámen[Bm]se, quiéran[D]se, únan[E]se.
+
+[A]HOY QUE LA TI[Em7/A]ENES JUNTO A TI
+[D]QUE DIOS YA [Dm7]TE LA HA DADO
+[A]AMALA, [F#m]HERMANO, [Bm7]AMALA, [E] [E7]
+[A]HOY QUE LA TI[Em7/A]ENES JUNTO A TI
+[D]QUE DIOS YA [Dm7]TE LA HA DADO
+[A]AMALO, [F#m]HERMANA, [Bm7]AMALO, [E] [E7]
+[A]ÁMENSE SIEMPRE ASI
+
+[A]Dios los ben[C#m]deci[F#m]rá, [Em7] [A7]
+[D]Él los ayu[C#m]dará [Bm]sin fa[A]llar, [G] [E] [E7]
+[A]Y aunque este mundo [Em7/A]trate de separar,
+[F#m]No podrá, jamás po[C#m]drá,
+[D]Tú la [Bm]amas, ella te [D]ama, y los dos [E]aman a Dios.
+`
+  },
+  {
+    id: 179,
+    titulo: "AQUÍ ESTOY SEÑOR",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]Aquí estoy Se[Bm]ñor te oiré,
+[C]Cumpliré Je[D]sús tu voluntad,
+[G]Aquí estoy Se[Bm]ñor y háblame,
+[C]Tu palabra [D]es mi salvación.
+
+[G]Aquí estoy Se[Bm]ñor escucharé,
+[C]Tu mensaje que a [D]todos daré,
+[Em]Corazones [Bm]muertos salvaré,
+[C]Y a todos los [D]hombres librare.
+
+[G]Quiero oír tu [Bm]voz y alabarte,
+[Em]Y saber que no es mi cora[Bm]zón,
+[C]Y poner mi [D]vida en la [G]tuya, [Em]
+[C]Y saber que [D]todo tuyo [G]es. [C] [D]
+`
+  },
+  {
+    id: 180,
+    titulo: "BAUTÍZAME, SEÑOR",
+    autor: "Anónimo",
+    categoria: "reflexion, aspersion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Bautízame Señor, con tu es[B7]píritu,
+[Em]Bautízame Señor, con tu espíritu,
+[Em]Bautízame Señor, con tu es[B7]píritu,
+[Em]Bautízame, bau[E7]tízame, Señor.
+
+[Am]Y déjame sen[Em]tir el fuego de tu Amor,
+[B7]Aquí en mi cora[Em]zón, Se[E7]ñor. (x2)
+
+[Em]Renuévame Señor, con tu es[B7]píritu...
+[Em]Condúceme Señor, con tu es[B7]píritu...
+[Em]Abrázame Señor, con tu es[B7]píritu...
+`
+  },
+  {
+    id: 181,
+    titulo: "CANTO DE LA PASCUA",
+    autor: "Anónimo",
+    categoria: "pascua, reflexion",
+    tonoOriginal: "D",
+    letra: `
+Intro: [D] [A] [G] [Em] [A] [D]
+
+[G]Renace la esperanza, la vida surge,
+[D]crece el amor, florece la alegria
+[D]en medio del pueblo, [F#]pues Jesús resuci[Bm]tó.
+
+[G]El dolor y la muerte
+[D]y las injusticias no han de vencer,
+[Bm]si Jesús resu[A]cita, otro ma[Bm]ñana,
+[A]pueblo que[Bm]rido, [F#]tú vas a [Bm]ver.
+
+[D]Un canto me llena el corazón
+y despierta la alegría en todo mi pueblo,
+la muerte no es la última palabra,
+[Bm]y tampoco nuestra historia de sufrimiento,
+[G] [D]Ha resucitado, [Em] [F#m] [Bm] [A]derroto a la [Bm]muerte. [A]
+
+[D]El que fue crucificado,
+[Bm]surgió triunfante como hombre nuevo,
+[G] [A]y su buena no[D]ticia [Em]va a[F#m]cabar con los [Bm]miedos.
+`
+  },
+  {
+    id: 182,
+    titulo: "CON ESTAS CENIZAS SEÑOR",
+    autor: "Anónimo",
+    categoria: "cuaresma,reflexion",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm]Con estas ceniza Se[Bb]ñor.
+[Csus4]Renunciamos [Fsus4]al [F]pe[A7]cado.
+[Dm]Con estas ceniza Se[Bb]ñor,
+[Csus4]Nos acer[C7]camos [F]a ti.
+
+[Bb]Arrepen[C/Bb]tidos Se[Am7]ñor, [Dm7]
+[Bb]Cami[Gm7]namos [A7]hacia ti.
+
+[Dm]Te piedad Je[Bb]sús,
+[Csus4]Porque somos peca[F]dores.
+[Dm]Desde lo hondo Se[Bb]ñor.
+[Csus4]Hoy cla[C7]mamos tu per[F]dón.
+`
+  },
+  {
+    id: 183,
+    titulo: "CREO EN UN SOLO DIOS",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Creo en un solo [C]Dios, [G]Padre omnipo[D]tente,
+[Em]creo en un solo [C]Dios, [G]creador de cielo y [D]tierra,
+[Em]de todo lo invi[C]sible y [G]de todo lo vi[D]sible,
+[Am]creo en [C]un solo [D]Dios, [Em]Amén.
+
+[F#m]Creo en un solo [D]Dios, [A]Nuestro Señor Jesu[E]cristo,
+[F#m]creo en un solo [D]Dios, [A]Hijo de Dios, uni[E]génito,
+[F#m]nacido del [D]Padre [A]antes del [E]tiempo,
+[Bm]creo en [D]un solo [E]Dios, [F#m]Amén.
+
+[G#m]Creo en un solo [E]Dios, [B]Espíritu [F#]Santo,
+[G#m]creo en un solo [E]Dios [B]vivo y vivifi[F#]cante,
+[G#m]que procede del [E]Padre, [B]señor y dador de [F#]vida,
+[C#m]Creo en [E]un solo [F#]Dios, [G#m]Amén.
+
+[Fm]Creo en un solo [C#]Dios, [G#]Padre omnipo[D#]tente;
+[Fm]creo en un solo [C#]Dios, [G#]Nuestro Señor Jesu[D#]cristo;
+[Fm]creo en un solo [C#]Dios, [G#]Espíritu [D#]Santo;
+[A#m]creo en [C#]un solo [D#]Dios, [Fm]Amén.
+[Cm]Aa[C#]men [D#]Ameeeeee[G#]en.
+`
+  },
+  {
+    id: 184,
+    titulo: "DAME UN NUEVO CORAZÓN",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]Dame un nuevo cora[Am7]zón, Se[D7]ñor,
+[Bm7]Un corazón para ado[Em7]rarte,
+[Am7]Un corazón para ser[D7]virte,
+[G]Dame un nuevo cora[G7]zón.
+
+[Cmaj7]Dulce, como la [D9]miel, [Bm7]Limpio como el cris[Em7]tal
+[Am7]Un corazón Se[D7]ñor, como el [G]tuyo.
+`
+  },
+  {
+    id: 185,
+    titulo: "DENLE AL SEÑOR SUS ALABANZAS",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "F",
+    letra: `
+[F]Den al Señor sus alabanzas,
+[Dm]Denle poder honor y gloria,
+[A#]A una voz [Gm]canten un himno al Se[C]ñor. (x2)
+
+[F]En siete días Dios cre[Dm]ó al mundo,
+[F]Adán pecó y per[Dm]dió el cielo,
+[F]Jesús vino para re[Dm]dimirnos,
+[A#]Murió en la cruz y nos sal[C]vó.
+
+[F]Dios dijo a Moisés: [Dm]haz mi pueblo libre.
+[F]Yo seré tu guía, [Dm]siempre sígueme.
+[F]Salidos ya de Egipto [Dm]y el mar pasado
+[A#]Cantaron y bailaron, se [C]llenaron de júbilo.
+`
+  },
+  {
+    id: 186,
+    titulo: "DIOS ES FIEL",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm]Dios es fiel. [Gm]Guarda siempre su ali[C7]anza [F]
+[Bb]Libra al [Gm]pueblo de [Am]toda esclavi[Dm]tud
+[D7]Su pa[Gm]labra re[C7]suena en los pro[F]fetas
+[Gm]Recla[Dm]mando el [A7]bien y la vir[Dm]tud.
+
+[Dm]Pueblo en marcha [Gm]por el de[C7]sierto ar[F]diente
+[Bb]Horizon[Gm]tes de [Am]paz y liber[Dm]tad
+[D7]Asam[Gm]blea de [C7]Dios eterna [F]fiesta
+[Gm]Tierra [Dm]nueva pe[A7]renne here[Dm]dad.
+
+[Dm]Si al mirar hacia [Gm]atrás [C7]somos ten[F]tados
+[Bb]De vol[Gm]ver a E[Am]gipto seduc[Dm]tor
+[D7]El es[Gm]píritu em[C7]puja con su [F]fuerza
+[Gm]A avan[Dm]zar por la [A7]vía del a[Dm]mor.
+`
+  },
+  {
+    id: 187,
+    titulo: "EL ENCUENTRO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Am",
+    letra: `
+[Am]Señor, per[A7]mite que te [Dm]hable hoy,
+[G]Del dulce encuentro que me [C]cambio,
+[F]La hora fe[Am]liz en que yo escuche,
+[E7]Tus palabras de A[Am]mor.
+
+[Am]Dime como [Dm]pudo suceder,
+[G]Si en la voz que el sol [C]vierte al surgir,
+[F]O en la clari[Am]dad que hace Vivir,
+[E7]O fue en la noche al vol[Am]ver.
+
+[Am]Fue cuando una [Dm]rosa deshoje,
+[G]O en la fuente el [C]Agua que bebí,
+[F]O fue en el ca[Am]lor del dulce hogar,
+[E7]Donde por fin te mi[Am]ré.
+`
+  },
+  {
+    id: 188,
+    titulo: "EL ESPÍRITU DE DIOS",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]El Espíritu de [G]Dios está en este lu[D]gar, [G]
+[D]El Espíritu de [G]Dios se mueve en este lu[A]gar,
+[D]Está aquí para con[G]solar, [D]está aquí para libe[G]rar,
+[D]Está aquí para guiar,
+[G]El Espíritu de [A]Dios está a[D]quí. (x2)
+
+[D7]Muévete en [G]mi[A]í, Muévete en [D]mí, [Bm]
+[G]Toca mi mente, mi [A]corazón,
+[F#m]Llena mi vida de [Bm]tu Amor,
+[G]Muévete en mi [A]Dios Espí[D]ritu muévete en [Bm]mi.
+[G]Muévete en mi [A]Dios Espí[G]ritu [Gm]muévete en [D]mi.
+`
+  },
+  
+  {
+    id: 189,
+    titulo: "EL LEÓN DE LA TRIBU DE JUDÁ",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]El león de la tribu de Judá,
+[Am]Jesús venció las cadenas y nos liberó,
+[Em]Él es nuestra antorcha de victo[B7]ria.
+[Em]Nuestra fortaleza en tiempos de flaqueza,
+[Am]Una torre en tiempos de guerra,
+[Em]¡Oh! La espe[B7]ranza de Is[Em]rael. [B7]
+
+[Em]Resucito hoo, hoo,
+[D]Resucito hoo ,hoo,
+[C]Resucito hoo, hoo ale[B7]luya. (x2)
+
+[Em]Venció la muerte con poder,
+[D]Venció la muerte con poder,
+[C]Venció la muerte con poder, se levan[B7]tó. (x2)
+
+[Em]Huyen lo demonios cuando canta el pueblo,
+[D]Huyen los demonios cuando cae el fuego,
+[C]Huyen los demonios porque no soportan
+[B7]La alabanza al Rey. (x2)
+
+[Em]Al rey Yahvé 3 veces santo,
+[D]Al rey Yahvé 3 veces santo,
+[C]Vida y canto son solo para [B7]él. (x2)
+`
+  },
+  {
+    id: 190,
+    titulo: "EL SEÑOR ES MI LUZ",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]El Señor es mi luz y mi salva[C]ción [G]
+[Em]El Señor es la de[A]fensa de mi [D]vida.
+[Bm]Si el Señor es mi [Em]luz, [C]¿a quién teme[G]ré?
+[C]¿Quién me ha[D]rá tem[G]blar?
+
+[C]Una cosa [D]pido al Se[G]ñor, [Em]
+[Am]Habitar por [D7]siempre en su [G]casa
+[C]Gozar de la dul[D]zura del Se[G]ñor [Em]
+[C]Contem[Am]plando su [D7]rostro santo.
+
+[C]No me es[D]condas tu [G]rostro Se[Em]ñor
+[Am]Buscaré to[D7]do el día tu [G]rostro;
+[C]Si mi padre y mi [D]madre me aban[G]donan [Em]
+[C]El Se[Am]ñor me re[D7]cogerá.
+
+[C]Oh Se[D]ñor en[G]séñame el ca[Em]mino
+[Am]Guíame por la [D7]senda verda[G]dera
+[C]Gozaré de la [D]dicha del Se[G]ñor [Em]
+[C]En la [Am]tierra de la [D7]vida.
+`
+  },
+  {
+    id: 191,
+    titulo: "EL SEÑOR ES MI PASTOR",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]El Señor es mi Pas[Bm]tor,
+[G]La [E]vida ha dado por [A]mí.
+[D]Yo su voz he de escu[Bm]char,
+[G]Y su[A]yo por siempre se[D]ré.
+
+[D]Yo Soy El Buen Pas[F#m]tor,
+[G]Doy la [A]vida a mis ovejas,
+[D]Por su nombre yo las [F#m]llamo,
+[G]Y con gran A[E]mor me si[A]guen. [Dmaj7]
+
+[D]Yo no soy el merce[F#m]nario,
+[G]Que aban[A]dona a las ovejas,
+[D]Cuando ve venir al [F#m]lobo,
+[G]Que las [E]mata y las dis[A]persa.
+
+[D]Mis ovejas mi voz [F#m]oyen,
+[G]Y me [A]siguen por doquiera,
+[D]Yo les doy la vida e[F#m]terna,
+[G]Ellas [E]no ve[A]rán la muerte.
+`
+  },
+  {
+    id: 192,
+    titulo: "EN JESÚS PUSE TODA MI ESPERANZA",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]En Jesús puse [Bm]toda [A#m]mi es[Am]peranza-aa-aa,
+[D7]Él se incli[G]nó [G7]hacia [C]mí y es[D7]cucho mi cla[G]mo-o-[Em]or.
+[C]Y es[D7]cucho mi cla[G]mor. [C] [D] [G]
+
+[G]Me saco de la [Bm]fosa [A#m]fata-[Am]al,
+[D7]Del fango cena[G]go[G7]so,
+[C]Asentó mis pies [D7]sobre la [G]ro-o-[Em]ca,
+[C]Mis pa[D7]sos conso[G]lido. [C] [D] [G]
+
+[G]Puso en mi [Bm]boca un [A#m]canto [Am]nuevo,
+[D7]Una alabanza a [G]nues[G7]tro Dios,
+[C]Muchos ve[D7]rán y cre[G]e[Em]rán,
+[C]Y en Je[D7]sús confia[G]rán. [C] [D] [G]
+
+[G]En ti se [Bm]gocen y [A#m]se [Am]alegren,
+[D7]Todos los [G]que te [G7]buscan,
+[C]Repitan [D7]sin ce[G]sar: [Em]
+[C]¡Qué [D7]grande es nues[G]tro Dios! [C] [D] [G]
+`
+  },
+  {
+    id: 193,
+    titulo: "ESPÍRITU DE DIOS",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Espíritu de Dios,
+[D]Llena mi vida,
+[C]Llena mi alma,
+[B7]Llena mi ser.
+
+[Em]Lléname, lléname,
+[D]Con tu presencia, lléname,
+[C]Lléname con tu poder, lléname,
+[B7]Lléname con tu bondad.
+
+[Em]Si Dios no vive en mí,
+[D]Vivo sin rumbo,
+[C]Vivo sin calma,
+[B7]Vivo sin luz.
+`
+  },
+  {
+    id: 194,
+    titulo: "GLORIA",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm]Gloria, [Dm/C] [Bb]Gloo[A]ria,
+[Dm]Gloria, [Dm/C] [Bb]Gloo[A]ria.
+
+[Gm]A Jesús el Se[C]ñor,
+[F]Al Cordero de [Dm]Dios.
+[Gm]Al nombre sobre [A9]todo [Dm]nombre. [D7]
+`
+  },
+  {
+    id: 195,
+    titulo: "HIMNO PASCUAL",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm]Cristo Jesús el [C]cual existía en la [Am]forma de [Dm]Dios,
+[Dm]No exigió tener la [G]gloria debida a su [C]divini[E7]dad. [Am]
+
+Se anonado tomando la forma del siervo de Dios,
+Y se asemejo a todos los hombres en su Condición.
+
+[Dm]Haciéndose [Am]hombre se humi[E7]llo, [Am]
+[Dm]Se hizo obe[Am]diente hasta mo[F]rir en la [E7]cruz. [Am]
+
+Por eso Dios de modo admirable a Cristo exalto
+Y le otorgo un nombre tan alto que a todo excedió.
+
+Para que así el cosmos entero se centre en Jesús
+Él es el Señor que a todos conduce al Padre: AMEN.
+`
+  },
+  {
+    id: 196,
+    titulo: "HOY EN ORACIÓN",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "E",
+    letra: `
+[E]Hoy en ora[A]ción, quiero pregun[E]tar Señor,
+[A]quiero escu[E]char tu voz, [A]tus palabras con a[B]mor.
+[E]Ser como [A]eres tú, servi[E]dor de los demás,
+[A]dime como en [E]qué lugar, [A]te hago [B]falta [E]más. [E7]
+
+[A]Dime Se[B]ñor en que [G#m]te puedo ser[C#m]vir,
+[A]déjame co[B]nocer tu volun[E]tad. [E7]
+[A]Dime Se[B]ñor, en [G#m]ti yo quiero vi[C#m]vir,
+[A]quiero de ti a[B]prender saber a[E]mar.
+
+[E]Hoy quiero se[A]guir, tu ca[E]mino junto al mar,
+[A]Tus pala[E]bras, tu ver[A]dad, ser imagen [B]de ti.
+[E]Ser como [A]eres tú, servi[E]dor de los demás,
+[A]Dime como en [E]qué lugar, [A]te hago [B]falta [E]más.
+`
+  },
+  {
+    id: 197,
+    titulo: "JUNTO A LA CRUZ",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Cuando el Se[Bm]ñor va a la [C]muerte,
+[Am]Junto al Se[C]ñor [D7]estás [G]tú.
+[Am]Lloran tus [Em]ojos de madre;
+[C]Lloran mi[D]rando a la [Em]Cruz.
+
+[Am]Pero [Em]tú, junto a la cruz,
+[B7]Olvidas el do[Em7]lor,
+[Am]Y nos [Em]das en tu mirar
+[B7]La fuerza del a[Em]mor.
+
+[Em]Virgen que [Bm]sufres y [C]lloras, junto a la [Am]Cruz
+[C]Tu do[D7]lor; [G]dime si [Am]ves a los [Em]hombres,
+[C]O sólo [D]ves al Se[Em]ñor.
+
+[Em]Ves el do[Bm]lor de los [C]hombres, [Am]Hombres cla[C]vados en [D7]cruz; [G]
+[Am]Hombres que [Em]miran al cielo; [C]Hombres se[D]dientos de [Em]luz.
+
+[Em]Ves esta [Bm]tierra gas[C]tada, [Am]En una [C]lucha sin [D7]fin. [G]
+[Am]Ves a los [Em]hombres que pasan, [C]Sin ilu[D]sión de vi[Em]vir.
+`
+  },
+  {
+    id: 198,
+    titulo: "LA LLAMADA",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Señor, algo nuevo sen[A]tí dentro de [Bm]mí, [F#m]
+[G]Y pensé que [Em]yo era tu mo[A]rada,
+[G]Cuando en ver[A]dad te cono[D]cí, [Bm]
+[G]Pude [Em]ver que Tú me lla[A]mabas.
+
+[D]A servirte a ti es[A]toy predestinado,
+[Bm]Llegaré hasta [F#m]ti,
+[G]Escucharé tu lla[Em]mada,
+[A]Amaré hasta morir. (x2)
+
+[D]Antes nada ve[A]ía pues ciego es[Bm]taba [F#m]
+[G]Me inun[Em]dó la fuerza de tu a[A]mor,
+[G]Seré fe[A]liz cumpliendo tus pre[D]ceptos, [Bm]
+[G]Enseñaré al [Em]mundo el mensaje con ca[A]lor.
+
+[D]Mi corazón no es [A]mío, sino del [Bm]mundo, [F#m]
+[G]Lo ofre[Em]cí por Cristo ilusio[A]nado,
+[G]El me com[A]pensa cada nuevo [D]día, [Bm]
+[G]Está con[Em]migo en cualquier sitio en que es[A]té.
+
+[D]Señor por ti ofre[A]ceré mi [Bm]vida, [F#m]
+[G]Canta[Em]ré mi can[A]ción,
+[G]Lleva[A]ré mi ale[D]gría [Bm]
+[G]Al más o[Em]culto rin[A]cón. (x2)
+`
+  },
+  {
+    id: 199,
+    titulo: "MISIONERO AMIGO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]Un nuevo día, [D]un nuevo cami[Em]nar,
+[C]Un nuevo sol que ilu[Am7]mina cada desper[D]tar,
+[Em]Contigo hoy vuelvo a empe[C]zar,
+[Am7]Cada paso que he de encon[D]trar.
+
+[G]Aquí estas misio[Em]nero amigo,
+[C]Caminando una vez [Am7]más,
+[D]Al lado mío.
+[G]Aquí en[B7]trego mi cora[Em]zón,
+[C]Y otra vez en tus [D]manos Se[G]ñor. [D] (x2)
+
+[G]No importa [D]cuán difícil [Em]es,
+[C]El camino [Am7]que yo en Ti con[D]fío,
+[Em]Misionero de Amor, me lla[C]mas Señor,
+[Am7]Para entregar tu pala[D]bra Hoy.
+`
+  },
+  {
+    id: 200,
+    titulo: "NADIE TE AMA COMO YO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "C",
+    letra: `
+[C]Cuanto de espe[Em]rado este mo[Am]mento,
+[F]Cuanto he espe[Dm]rado que estu[G]vieras así,
+[C]Cuanto he espe[Em]rado que me ha[Am]blaras,
+[F]Cuanto he espe[Dm]rado que vi[G]nieras a mí.
+
+[C]Yo sé [Em]bien lo que has vi[Am]vido,
+[F]Yo sé [Dm]bien lo que has llo[G]rado,
+[C]Yo sé [Em]bien lo que has su[Am]frido,
+[F]Pues de tu [Dm]lado, no me he [G]ido.
+
+[C]Pues nadie te [G]ama como [Am]yo,
+[F]Pues nadie te [Dm]ama como [G]yo,
+[C]Mira la [G]cruz esa es mi más grande [Am]prueba,
+[F]Nadie te [Dm]ama como [G]yo.
+
+[C]Pues nadie te [G]ama como [Am]yo,
+[F]Pues nadie te [Dm]ama como [G]yo,
+[C]Mira la [G]cruz fue por ti, fue porque te [Am]amo,
+[F]Pues nadie te [Dm]ama como [G]yo.
+
+[C]Yo sé [Em]bien lo que me [Am]dices,
+[F]Aunque a [Dm]veces no [G]hablas,
+[C]Yo sé [Em]bien lo que tú [Am]sientes,
+[F]Aunque [Dm]nunca lo com[G]partas.
+
+[C]Yo a tu [Em]lado he cami[Am]nado,
+[F]Junto a [Dm]ti yo siempre he [G]ido,
+[C]Aun a [Em]veces te he car[Am]gado,
+[F]Yo he sido [Dm]tu mejor a[G]migo.
+`
+  },
+  {
+    id: 201,
+    titulo: "PERDÓN HO DIOS MIO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Perdón oh Dios [B7]mío, per[Em]dón e indul[D]gencia,
+[G]Perdón y cle[D]mencia, Per[Em]dón y pie[B7]dad. [Em]
+
+[Em]Peque ya mi [B7]alma, su [Em]culpa con[D]fiesa,
+[G]Mil veces me [D]pesa de [Em]tanta mal[B7]dad. [Em]
+
+[Em]Mil veces me [B7]pesa, de [Em]haber obsti[D]nado,
+[G]Tu pecho ras[D]gado ¡Oh [Em]suma bon[B7]dad! [Em]
+
+[Em]Yo fui quien del [B7]duro ma[Em]dero incle[D]mente,
+[G]Te puso pen[D]diente con [Em]vil impie[B7]dad. [Em]
+
+[Em]Por mí en el tor[B7]mento, tu [Em]sangre ver[D]tiste,
+[G]Y prenda me [D]diste de a[Em]mor y humil[B7]dad. [Em]
+
+[Em]Y yo en recom[B7]pensa, pe[Em]cado a pe[D]cado,
+[G]La copa he lle[D]nado de [Em]ini[B7]quidad. [Em]
+
+[Em]Mas ya arrepen[B7]tido, te [Em]busco llo[D]roso,
+[G]¡Oh padre a[D]moroso! ¡Oh [Em]Dios de bon[B7]dad! [Em]
+`
+  },
+  {
+    id: 202,
+    titulo: "PERDONA A TU PUEBLO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Perdona a tu pueblo Se[B7]ñor,
+[Em]Perdona a tu [Am]pueblo [B7]Perdónale Se[Em]ñor.
+
+[Em]No estés eterna[C]mente eno[D]ja-[G]ado,
+[D]No estés eterna[Em]mente enojado,
+[B7]Perdónale Se[Em]ñor.
+
+[Em]Por tus profundas [C]llagas [D]cru[G]eles
+[D]Por tus sali[Em]vas y por tus hieles
+[B7]Perdónale Se[Em]ñor
+
+[Em]Por tus heridas de [C]pies y [D]ma[G]nos
+[D]Por los azotes [Em]tan inhumanos
+[B7]Perdónale Se[Em]ñor
+
+[Em]Por los tres clavos que [C]te cla[D]va[G]ron
+[D]Por las es[Em]pinas que te punzaron
+[B7]Perdónale Se[Em]ñor
+
+[Em]Por las tres horas de [C]ago[D]ní[G]a
+[D]En que por [Em]madre diste a María
+[B7]Perdónale Se[Em]ñor
+
+[Em]Por la abertura de [C]tu cos[D]ta[G]do
+[D]No estés eter[Em]namente enojado
+[B7]Perdónale Se[Em]ñor
+`
+  },
+  {
+    id: 203,
+    titulo: "PESCADOR DE HOMBRES",
+    autor: "Cesáreo Gabaráin",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Tú [A7]has venido a la [D]orilla, [D7]
+[G]No has buscado ni a [A]sabios ni a ricos,
+[D]Tan solo quieres [A]que yo te [D]siga. [D7]
+
+[G]Señor, [A] me has mirado a los [F#m]ojos, [Bm]
+[G]Sonriendo [A]has dicho mí [D]nombre. [D7]
+[G]En la arena [A]he dejado mi [F#m]barca, [Bm]
+[G]Junto a [A]ti buscaré otro [D]mar.
+
+[D]Tú sabes bien lo que [A7]tengo, [D] [D7]
+[G]En mi barca no hay [A]oro ni plata,
+[D]Tan solo [A]redes y mi tra[D]bajo. [D7]
+
+[D]Tú necesitas mis [A7]manos, [D] [D7]
+[G]Mi cansancio que [A]otros descanse,
+[D]Amor que [A]quiera seguir a[D]mando. [D7]
+
+[D]Tu pescador de otros [A7]mares, [D] [D7]
+[G]Ansia eterna de [A]almas que esperan,
+[D]Amigo [A]bueno que así me [D]llamas. [D7]
+`
+  },
+  {
+    id: 204,
+    titulo: "¿QUÉ SERÍA DE MÍ?",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]¿Qué sería de [D]mí, si no me [C]hubieras alcanzado?
+[G]¿Dónde esta[D]ría hoy, si no me [C]hubieras perdonado?
+
+[G]Tendría un va[D]ció en mi cora[Em]zón, vagaría sin [C]rumbo, sin direc[D]ción.
+[G]Si no fuera [D]por tu gracia y por tu [C]Amor. (x2)
+
+[Am]Sería como un [Em]pájaro herido, [D]que se muere en el suelo,
+[Am]sería como un [Em]siervo que brama, [D]por agua en un desierto.
+
+[C]Si no fuera [D]por tu gracia y por tu [Em]Amor.
+[C]Si no fuera [D]por tu gracia y por tu [G]Amor.
+`
+  },
+  {
+    id: 205,
+    titulo: "QUE VIVA MI CRISTO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "E",
+    letra: `
+[E]Que viva mi Cristo, que viva mi [B7]rey
+[A]¡Que im[E]pere doquiera triun[B7]fante su [E]ley!
+[B7]¡Viva Cristo [E]rey! ¡Viva Cristo [B7]rey!
+
+[E]Mexicanos un [A]padre tenemos,
+[B7]Que nos dio de la [E]patria la unión,
+[E7]A ese padre go[A]zoso can[Am]temos,
+[E]Empu[B7]ñando con fe su pen[E]dón.
+
+[E]El formó con voz [A]hacedora,
+[B7]cuanto existe de[E]bajo del sol,
+[E7]De la inercia y la [A]nada inco[Am]lora,
+[E]formó [B7]luz en candente arre[E]bol.
+`
+  },
+  {
+    id: 206,
+    titulo: "QUISIERA SER TU CRUZ",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]Quisiera ser [Bm]puente de amor,
+[Em]Donde tú y el [C]hombre se encontraran,
+[D]Y darlo todo [G]hasta la cruz,
+[G7]Para que el mundo en[C]tienda [D]cuanto lo [C]amas.[G]
+
+[G]Quisiera ser [Bm]fuente de paz,
+[Em]Donde aquél que [C]busca te encontrara,
+[D]Tomar del [G]hombre su dolor,
+[G7]Para que por tu a[C]mor se [D]vuelva [C]gracia.[G]
+
+[C]Quisiera [D]ser tu [Bm]cruz, [Em]quisiera ser tu cruz,
+[C]Donde tu cora[D]zón ar[G]diera, [F]y se abriera para [D]amar,
+[Em]Donde [F]sólo quede de [C]mí tu [D]volun[C]taaad.[G]
+`
+  },
+  {
+    id: 207,
+    titulo: "RENUÉVAME",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Renuéva[G]me, [A]Señor Je[D]sús,
+[G]Ya no [Em]quiero ser i[A]gual.
+[D]Renuéva[G]me, [A]Señor Je[D]sús,
+[G]Pon en [Em]mí tu cora[A]zón.
+
+[D]Porque todo lo que [A]hay dentro de [Bm]mí, [F#m]
+[G]Necesita ser [Em]cambiado Se[A]ñor.
+[D]Porque todo lo que [A]hay dentro de [Bm]mí, [F#m]
+[G]Corazón, necesita [A]más de [D]ti.
+`
+  },
+  {
+    id: 208,
+    titulo: "RESUCITÓ",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Resucitó, [D]Resucitó, [C]Resucitó, Ale[B7]luya,
+[Em]Aleluya, [D]Aleluya, [C]Aleluya, re[B7]sucitó.
+
+[Em]La muerte. ¿Don[D]de está la muerte?
+[C]¿Dónde está mi muerte? [B7]¿Dónde es su victoria?
+
+[Em]Gracias, sean [D]dadas al Padre,
+[C]Que nos pasó a su reino, [B7]donde se vive de Amor.
+
+[Em]Alegría, ale[D]gría hermanos,
+[C]Que si hoy nos queremos, [B7]Es que Él resucitó.
+`
+  },
+  {
+    id: 209,
+    titulo: "SACERDOTE PARA SIEMPRE",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]Porque eres la ra[D]zón de mi vida
+[C]MI fuerza con[D]suelo y ale[G]gría
+[C]Porque eres el a[G]mor que yo soñé
+[Em]Y sin Ti estoy per[D]dido y nada soy.
+
+[G]Aquí estoy Se[D]ñor toma mi vida
+[C]Sacerdote para [D]siempre quiero [G]ser
+[D]Aquí estoy Señor toma mi vida
+[C]Sacerdote para [D]siempre [Em]quiero [A]ser. [C] [D]
+
+[G]Al postrarme en tu pre[D]sencia estoy temblando
+[C]Consiente de mi [D]nada y peque[G]ñez
+[D]Y al levantarme con tu Es[D]píritu Divino
+[C]Tu siervo consa[D]grado [Em]yo se[D]ré.
+`
+  },
+  {
+    id: 210,
+    titulo: "SALMO (CANTEMOS AL SEÑOR)",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Cantemos al se[F#m]ñor, [G]Sublime es su vic[A]toria.
+[Gm]Cantad a Ya[C]vé, pues se cu[F]brió de glo[Dm]ria,
+[Gm]Los carros y ca[A]ballos arro[D]jó en el [D7]mar.
+
+[Gm]Mi forta[C]leza y mi [F]canto es Ya[Dm]ve,
+[Gm]Él es mi salva[A]ción.
+[Gm]Él es mi [C]Dios, y yo [F]le alaba[Dm]ré,
+[Gm]Es el Dios de mis [A]padres; [D]yo le can[D7]taré.
+
+[Gm]El señor es un gue[C]rrero, su [F]nombre es Ya[Dm]ve,
+[Gm]Él es nuestra salva[A]ción.
+[Gm]Los carros y ji[C]netes del fara[F]ón de E[Dm]gipto,
+[Gm]La flor de sus gue[A]rreros arro[D]jó en el [D7]mar.
+`
+  },
+  {
+    id: 211,
+    titulo: "SI CONOCIERAS EL DON DE DIOS",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "C",
+    letra: `
+[C]Si conocieras como te amo,
+[Em]Si conocieras como te amo,
+[F]Dejarías de vi[G]vir sin Amor.
+
+[C]Si conocieras como te amo,
+[Em]Si conocieras como te amo,
+[F]Dejarías de men[G]digar cualquier amor.
+
+[Am]Si conocieras como te [Em]amo, como te [F]amo,
+[G]Serias más fe[C]liz.
+
+[C]Si conocieras como te busco, (x2)
+[Em]Dejarías que te alcanza mi voz.
+[F]Si conocieras como te busco, (x2)
+[G]Dejarías que te hablara al corazón.
+`
+  },
+  {
+    id: 212,
+    titulo: "SI YO NO TENGO AMOR",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "E",
+    letra: `
+[E]Si yo no tengo A[C#m]mor, [F#m]yo [F#7]nada soy Se[B]ñor,
+[E]Si yo no tengo A[C#m]mor, [F#m]yo [B7]nada soy Se[E]ñor.
+
+[E]El Amor es com[G#m]prensivo, [A]el Amor es servi[E]cial,
+[A]El Amor no tiene [F#m]envidia, [A]el Amor no busca el [B7]mal.
+
+[E]El Amor nunca se i[G#m]rrita, [A]el Amor no es descor[E]tés,
+[A]El Amor no es ego[F#m]ísta, [A]el Amor nunca es do[B7]blez.
+`
+  },
+  {
+    id: 213,
+    titulo: "SUMÉRGEME",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "A",
+    letra: `
+[A]Cansado del camino, [C#m]Sediento de ti.
+[D]Un desierto he cruzado, [Bm]sin fuerzas he que[E]dado, vengo a ti.
+[A]Luché como un soldado, [C#m]Y a veces sufrí,
+[D]Y aunque la lucha he ganado, [Bm]mi armadura he desgas[E]tado, Vengo a ti.
+
+[A]Sumérgeme, [C#m]en el río de tu Espíritu,
+[D]Necesito refrescar, [Bm]esté seco corazón, [E]sediento de ti.
+`
+  },
+  {
+    id: 214,
+    titulo: "TAN CERCA DE MÍ",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Tan [A]cerca de [D]mí, [Am] [D7]
+[G]Tan [E]cerca de [A]mí,
+[D]Que hasta le [D7]puedo to[G]car, [Gm]
+[D]Jesús [A]está a[D]quí.
+
+[D]Míralo a tu [A]lado por la [D]calle, [D7]
+[G]Caminando en[A]tre la multi[D]tud,
+[G]Muchos [A]ciegos van [F#m]sin quererlo [Bm]ver,
+[Em]Llenos de ce[E]guera espiri[A]tual.
+
+[D]Le hablare muy [A]quedo al o[D]ído, [D7]
+[G]Le diré las [A]cosas que hay en [D]mí,
+[G]Y que [A]solo a [F#m]Él, le intere[Bm]saran,
+[Em]Él es un a[E]migo para [A]mí.
+`
+  },
+  {
+    id: 215,
+    titulo: "TESTIGO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Un día como [A]hoy que me lla[Bm]maste,
+[G]A seguir cami[E]nando tras de [A]ti,
+[G]Y al mirarte [A]yo a los ojos, [F#m]decidí de[Bm]cirte si,
+[G]Y en mi corazón, [E]una paz pu[A]siste Tú.
+
+[D]Buscando por las [A]calles y ve[Bm]redas,
+[G]A esa gente que una [E]vez rezo con[A]migo,
+[G]Y al gri[A]tarles se olvidaron, [F#m]se olvida[Bm]ron de ti,
+[G]Se olvidaron de [E]ese Cristo que vi[A]ví.
+
+[G]Yo quiero [A]ser testigo [D]del Amor de [Bm]Dios,
+[G]Buscar con[A]tigo la ver[D]dad, [D7]
+[G]Ser en el [A]mundo [F#m]instrumento de tu [Bm]paz,
+[G]Y hacia [A]ti Señor, cami[D]nar.
+`
+  },
+  {
+    id: 216,
+    titulo: "TRANSFÓRMAME",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Señor tu gusano sueña ser mari[Em]posa,
+[A7]Ya no quiero arras[D]trarme, [A7]tengo ansias de vo[D]lar.
+[D]Busco tu rostro, ardo en de[Em]seos de contem[A7]plarte,
+Suelta ya mis ca[D]denas, [A7]hazme sentir tú Ver[D]dad.
+
+[Em]Transfórma[A7]me, y reina en mi [D]vida,
+[Em]Mi Dios y Se[A7]ñor conviérteme a [D]ti,
+[Em]Transfórma[A7]me y quema mis [D]alas,
+[Em]Que ya no viva [A7]yo, que tú vivas en [D]mí.
+`
+  },
+  {
+    id: 217,
+    titulo: "TÚ ESTÁS AQUÍ",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "E",
+    letra: `
+[E]Aunque mis ojos, [C#m]no te puedan ver,
+[A]Te puedo sentir, [E]sé que estas aquí.
+[E]Aunque mis manos, [C#m]no pueden tocar,
+[A]Tu rostro Señor, [E]sé que estas a[B]quí.
+
+[C#m]Mi cora[A]zón, puede sentir Tú pre[E]sencia,
+[E]Tú estás a[B]quí, Tú estás aquí.
+[C#m]Puedo sen[A]tir tu majes[E]tad,
+[E]Tú estás a[B]quí, Tú estás aquí.
+`
+  },
+  {
+    id: 218,
+    titulo: "TU ME TRANSFORMAS",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Si no soy ca[A]paz de dar mi vida por amor,
+[Bm]si no puedo yo entre[F#m]garme todo a los demás,
+[G]si al abrir los [D]labios no pre[A]dico la ver[Bm]dad,
+[G]soy hoja en el [A]viento nada soy.
+
+[D]Si no puedo a[A]mar más que a mi propio corazón,
+[Bm]si no entiendo [A]pleno la palabra caridad,
+[D]si cuando he ca[A]ído no hago nada por cambiar,
+[Bm]soy grano de a[A]rena nada soy.
+
+[D]Tú me trans[A]formas señor, a cada instante,
+[Bm]por ti yo puedo cam[A]biar, para salvarme,
+[D]dame tu [A]mano y veraz, dame esperanza,
+[Bm]como la lluvia a la [A]flor, tú me haces falta.
+
+[G]soy otro [A]yo, ya lo ves, [D]tengo un nuevo [A]cora[Bm]zón,
+[G]tú tienes [A]tantas formas de a[D]mar.
+`
+  },
+  {
+    id: 219,
+    titulo: "TU REINARÁS",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "E",
+    letra: `
+[E]Tú reinaras este el grito,
+[A]Que ardiente ex[B7]hala nuestra fe,
+[E]Tu reinaras oh Rey Bendito,
+[F#]Pues tú dijiste rei[B]naré.
+
+[E]Reine Jesús por [B7]siempre,
+[E]Reine su corazón en nuestra patria,
+[E7]En [A]nuestro suelo es [E]de ma[F#]ría la na[B7]ción.
+[A]En nuestra patria en [E]nuestro suelo,
+[B7]Es de maría la na[E]ción.
+
+[E]¡Tú reinarás! Dulce es[A]peranza [B7]
+[E]que al alma llena de pla[F#]cer. [B]
+[E]Habrá por fin paz y bo[A]nanza, [B7]
+[E]felicidad habrá por do[F#]quier. [B]
+
+[E]¡Tú reinarás! Dicho[A]sa era, [B7]
+[E]dichoso pueblo con tal [F#]Rey; [B]
+[E]será tu cruz nuestra ban[A]dera, [B7]
+[E]Tu amor será la nuestra [F#]ley. [B]
+
+[E]¡Tú reinarás! Toda la [A]vida [B7]
+[E]trabajaremos con gran [F#]fe [B]
+[E]en realizar y ver cum[A]plida [B7]
+[E]la gran promesa: ¡Reina[F#]ré! [B]
+`
+  },
+  {
+    id: 220,
+    titulo: "TU SEÑOR",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]Tú Señor, [D]sabes bien
+[C]Lo que yo tengo guar[D]dado en mi inte[G]rior, [G7]
+[C]Todo aquello que me a[D]turde,
+[G]Lo que no puedo cam[Em]biar,
+[C]Esas cosas que no [D]dejan cami[G]nar.
+
+[G]Tú Señor, [D]hasta hoy
+[C]Me has seguido en cada [D]paso de mi [G]vida [G7]
+[C]Y me has dado grandes [D]cosas
+[G]Que no puedo olvi[Em]dar,
+[C]Los momentos que en mi [D]vida queda[G]rán.
+
+[G7]Por eso, [C]ven Señor Je[D]sús,
+[G]Que te quiero hoy de[Em]cir
+[C]Que mis ojos se han a[D]bierto
+[G]Y que sin ti no puedo [G7]más seguir.
+[C]Ven Señor Je[D]sús,
+[G]Que ahora tengo el cora[Em]zón
+[C]En un grito que te [D]pide tu a[G]mor.
+`
+  },
+  {
+    id: 221,
+    titulo: "TÚ Y YO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Cuanto he querido yo a[F#m]marte Jesús,
+[G]Como me [A]amas tú a mí.
+[D]En todo momento he que[F#m]rido Jesús,
+[G]Que me sonrías y me [A]hagas muy feliz.
+
+[G]Tú y Yo,
+[A]Siempre a[F#m]delante, hasta el final,
+[Bm]Tú y yo sin separarnos,
+[G]Cada momento pienso en [A]ti un poco más,
+[D]Un poco más.
+
+[D]Hoy volveré a recor[F#m]darte Jesús,
+[G]Te sentiré [A]dentro de mí, te cantare.
+[D]Porque tú me has transfor[F#m]mado Jesús,
+[G]Me haz ayudado a perdo[A]nar a los demás.
+`
+  },
+  {
+    id: 222,
+    titulo: "UN DÍA CAMINABA",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "C",
+    letra: `
+[C]Un día cami[Am]naba, muy triste por a[Dm]hí Señor,
+[G7]Mi corazón gritaba, ya no quiero vivir así.
+[C]Sintiendo mil tris[Am]tezas, oí hablar de [Dm]ti Jesús,
+[G7]Decían que me amabas, que habías muerto por mí en la cruz.
+
+[C]Lloré en ese mo[Am]mento, al recordar el [Dm]tiempo,
+[G7]Ese tiempo que perdí sin saber de ti.
+
+[C]Y aquí está mi [Am]vida y mi voz, para can[Dm]tar,
+[G7]Para alabarte Señor,
+[C]Y aquí están mis [Am]ansias de amar,
+[Dm]De vivir y de perdo[G7]nar.
+`
+  },
+  {
+    id: 223,
+    titulo: "UNA ALIANZA DE AMOR",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "E",
+    letra: `
+[E]Una alianza los dos,
+[B]Una alianza de amor,
+[C#m]Una alianza de fe y de es[A]peran[B]za,
+[E]Una alianza, Señor,
+[B]Hoy queremos en Ti empe[C#m]zar,
+[A]Y ya [B]nunca termi[E]nar. [E7]
+
+[A]Es la res[B]puesta de un cora[G#m]zón, [C#m]
+[A]Que has for[B]mado Tú,
+[E]Que has u[E7]nido Tú,
+[A]Es vida [B]nueva que nace [G#m]hoy, [C#m]
+[A]Y que sólo en Ti se puede vi[B7]vir.
+
+[E]Una alianza los dos, [B]una alianza de amor,
+[C#m]una alianza de fe y de es[A]peran[B]za,
+[E]Una alianza, Señor, [B]hoy queremos en Ti empe[C#m]zar,
+[A]Y ya [B]nunca termi[E]nar. [E7]
+
+[A]Es darte [B]gracias porque tu a[G#m]mor, [C#m]
+[A]Hoy po[B]demos ver,
+[E]En no[E7]sotros dos,
+[A]Ver el fu[B]turo con ilu[G#m]sión, [C#m]
+[A]Y saber que nunca nos falla[B7]rás.
+`
+  },
+  {
+    id: 224,
+    titulo: "UNA VEZ MÁS REZARÉ",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "C",
+    letra: `
+[C]Una vez más reza[G]ré, de rodillas me pon[F]dré,
+[G]Puede ser que una vez [C]más Él me per[G]done.
+[C]Le diré que soy hu[G]mano, que pequé, que lucho en [F]vano,
+[G]Puede ser que una vez [C]más Él me perdone.
+
+[C]Para un [G]Dios que cono[A]ció, la tenta[Em]ción,
+[F]del amigo la trai[Dm]ción, yo no [G]dudo me perdones Dios Amigo. (x2)
+
+[C]Yo vi Su[G]frir a mi her[F]mano, y no le ten[G]dí la mano,
+[G]Puede ser que una vez [C]más Él me per[G]done.
+[C]Lo vi solo y desahu[G]ciado, y yo de [F]brazos cruzados,
+[G]Puede ser que una vez [C]más Él me per[G]done.
+`
+  },
+  {
+    id: 225,
+    titulo: "VASO NUEVO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Gracias quiero darte, [G]por a[A]marme,
+[G]Gracias quiero [Gm]darte, [D]Yo a ti Señor.
+[D]Hoy soy fe[D7]liz, [G]porque te cono[Gm]cí,
+[D]Gracias por a[A]marme a mí tam[D]bién.
+
+[D]Yo quiero [D7]ser, [Em]Señor amado, como el [G]barro,
+[A]En las [D]manos del alfa[D7]rero
+[G]Toma mi [Gm]vida, y [D]hazla de nuevo,
+[A7]Yo quiero ser, yo quiero ser, [D]un vaso nuevo.
+
+[D]Te cono[G]cí y te a[A]me-e,
+[G]Te pedí per[Gm]dón y me escu[D]chaste.
+[D7]Hoy soy fe[G]liz, porque te cono[Gm]cí,
+[D]Gracias por a[A7]marme a mí tam[D]bién.
+`
+  },
+  {
+    id: 226,
+    titulo: "VEN PRONTO SEÑOR",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]Que los cielos [D7]lluevan al [G]justo,
+[Em]Que la tierra [G7]brote al salva[C]dor, [E7]
+[Am]Que nos ilu[D]mine el sol de la jus[Em]ticia, [G]
+[D]¡Ven [D7]pronto Se[G]ñor!
+
+[G7]¡Oh Señor [C]Pastor de la [G]casa de Isr[A7]ael,
+[D7]Ven a resca[Em]tarnos por el po[Bm]der [A7]¡De tu [D]Brazo! [D7]
+
+[G7]¡Oh sabi[C]duría, sa[G]lida de la [A7]boca del [D]Padre,
+[D7]¡Ven a en[Em]señarnos el ca[Bm]mino de sa[A7]lud! [D] [D7]
+`
+  },
+  {
+    id: 227,
+    titulo: "VEN SALVADOR",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "G",
+    letra: `
+[G]Ven salvador, ven [Em]sin tar[C]dar, [D]
+[D7]Danos tu [G]gracia y tu paz.
+[G]Ven salvador, ven [Em]sin tar[C]dar, [D]
+[D7]Danos tu [Em]fuerza y verdad.
+
+[Em]Nos diste tu palabra, [B]es firme nues[B7]tra es[Em]peera,
+[G]Iremos tras tus huellas, [D]sabemos que ven[Em]drás,
+[B]Ven, [B7]ven Señor Je[Em]sús. [D7]
+
+[Em]Los hombres de mi pueblo, [B]Esperan que [B7]tú ven[Em]gas,
+[G]Que se abran horizontes, [D]Por donde cami[Em]nar:
+[B]Ven, [B7]ven Señor Je[Em]sús.
+`
+  },
+  {
+    id: 228,
+    titulo: "VEN SEÑOR JESÚS",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "C",
+    letra: `
+[C]Ven Señor Jesús [G]porque sin ti,
+[Am]Ya no hay pai[G]saje, ven Señor Je[F]sús,
+[Dm]Porque sin ti no hay melo[G]día.
+
+[C]Ven Señor Jesús [G]porque sin ti,
+[Am]No encuentro [G]paz, nada, [F]sin ti ya mis [Dm]ojos no [G]brillan.
+
+[Am]La vida es [Em]poca cosa sin [F]ti, [C]sin ti, sin [Dm]ti, sin ti,
+[G]La vida es poca [C]cosa. [G] [Am]
+
+[G]Ven Señor Je[F]sús, ven pronto a mi [Dm]vida, [G]
+[G7]Ven pronto Se[C]ñor, ven [G]pronto, [Am]
+[G]Porque sin [F]ti, ya no quiero la [Dm]vida, [G]
+[G7]Ya no Canto con [C]alma, ya mis [G]manos no [Am]sirven,
+[G]Ya no escucho la[F]tidos, ya no a[Dm]brazo con fuerza,
+[G7]mi corazón no se en[C]sancha, mi [G]sonrisa no es [Am]plena. [G] [F] [Dm] [G]
+
+[G7]Y todo sin [C]ti, nada [G]vale la [Am]pena,
+[G]Porque sin [F]ti, ya no me [Dm]llena nada [G]
+[G7]Porque sin [C]ti, todo [E]suena va[Am]cíiio [G] [F] [Dm] [G]
+[C]Sin ti, todo me deja tris[Am]teza.
+
+[C]Porque sin ti ya no re[G]spiro hondo,
+[Am]Porque sin ti [G]todo me cansa,
+[F]Porque sin ti me falta [Dm]todo y me [G]sobra, todo, todo sin ti, sin ti...
+
+[G]Ven Señor Je[F]sús, ven pronto a mi [Dm]vida, [G]
+[G7]Ven pronto Se[C]ñor, ven [G]pronto, [Am]
+[G]Porque sin [F]ti no me importa mi [Dm]hermano,
+[G]No me importa el que [G7]sufre, porque sin [C]ti,
+Mi corazón es de [G]piedra, a [Am]quien todo re[G]sbala,
+acostum[F]brada a los pobres, acomo[Dm]dada en su casa,
+sin ju[G]garse la vida, sin gas[G7]tarla por nada.
+`
+  },
+  {
+    id: 229,
+    titulo: "YO TE BUSCO",
+    autor: "Anónimo",
+    categoria: "reflexion",
+    tonoOriginal: "D",
+    letra: `
+[D]Yo te [G]busco, [D]yo te [G]busco, con [D]fuego en mi cora[G]zón.
+[D]Yo te [G]busco, [D]yo te [G]busco, re[D]cibe mi adora[G]ción.
+
+[A]Te an[G]helo, te nece[Bm]sito, [A]te a[G]mo,
+[Em]Más que a mi [D]ser.
+`
+  },
     // --- SECCIÓN: CANTOS DE Adoración ---
     // --- SECCIÓN: CANTOS DEL Espíritu Santo ---
+    // --- SECCIÓN: CANTOS DE Salida ---
+    
+  {
+    id: 230,
+    titulo: "ÁNGELES DE DIOS",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "E",
+    letra: `
+[E]Si sentí su murmullo muy cerca de ti,
+[B]Un ángel llegando para recibir,
+[A]Todas tus oraciones y llevarlas al cielo.
+[E]Así abre el corazón y comienza alabar
+[B]el gozo del cielo todo sobre el altar
+[A]hay un ángel llegando y bendiciones en sus [B]manos.
+
+[E]Hay ángeles volando en este lugar
+[B]En medio del pueblo y junto al altar
+[A]Subiendo y bajando en todas las direcciones
+[E]No sé si la iglesia subió o si el cielo bajo
+[B]Si sé que está lleno de ángeles de Dios
+[A]Porque el [B]mismo Dios está a[E]quí.
+
+[E]Cuando los Ángeles pasan la iglesia se alegra,
+[B]Ella canta ella llora ella ríe y congrega,
+[A]Enfrenta el infierno disipa el mal.
+[E]Siente la brisa del vuelo de tu ángel ahora,
+[B]Confía hermano pues esta es tu hora,
+[A]La bendición llegó y [B]te la vas a lle[E]var.
+`
+  },
+  {
+    id: 231,
+    titulo: "DEMOS GRACIAS AL SEÑOR",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "A",
+    letra: `
+[A]Demos gracias al Señor, [D]demos gra[A]cias;
+[D]Demos [E]gracias al Se[A]ñor. (x2)
+
+[D]Por las mañanas las [A]aves cantan,
+[E]Las alabanzas a [A]Cristo Salvador;
+[D]Y tú, hermano, ¿por [A]qué no cantas
+[E]Las alabanzas a [A]Cristo Salvador?
+
+[D]Y por las tardes las [A]flores cantan,
+[E]Las alabanzas a [A]Cristo Salvador:
+[D]Y tú, hermano, ¿por [A]qué no cantas
+[E]Las alabanzas a [A]Cristo Salvador?
+
+[D]Y por las noches los [A]cielos cantan,
+[E]Las alabanzas a [A]Cristo Salvador;
+[D]Y tú, hermano, ¿por [A]qué no cantas
+[E]Las alabanzas a [A]Cristo Salvador?
+`
+  },
+  {
+    id: 232,
+    titulo: "ÉXODO Y LIBERACIÓN",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm]Peregrino a [F]dónde vas, [Gm]Sino sabes a [A7]donde ir,
+[Dm]Peregrino por un ca[C]mino, Que va mo[Dm]rir.
+[Dm]Si el desierto [F]es un arenal, [Gm]El desierto de [A7]tu vivir
+[Dm]Quien te guía y te a[C]compaña, En tu sole[Dm]dad.
+
+[Gm]Solo Él mi [Dm]Dios, que me [F]dio a liber[A7]tad
+[Gm]Solo Él mi [Dm]Dios, [C]me guia[Dm]ra.
+
+[Dm]Peregrino que a [F]veces vas, [Gm]Sin un rumbo en tu [A7]caminar,
+[Dm]Peregrino que vas, [C]Cansado de tanto an[Dm]dar.
+[B7]Busca [Em]fuentes para [G]tu sed [Am]Y un rincón donde [B7]descansar,
+[Em]Vuelve amigo que a[D]quí en mi casa [Em]Lo encontraras.
+
+[Am]Solo Él mi [Em]Dios, que me [G]dio a liber[B7]tad
+[Am]Solo Él mi [Em]Dios, [D]me guia[Em]ra.
+`
+  },
+  {
+    id: 233,
+    titulo: "HAY PRISA EN EL AIRE (Himno JMJ)",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "E",
+    letra: `
+Intro: [E] [Eadd9/G#] [C#m7] [Bsus4] [Asus2]
+
+[F#m11]De todo el mundo hacia [Eadd9/G#]este lugar
+[Asus2]partimos, vo[Bsus4]lamos, lle[C#m7]gamos a[Bsus4/D#]quí.
+[F#m11]Con María aprende[Emaj9]mos un sí.
+[F#m11]Queremos ser[Esus9/G#]vir a la volun[Asus2]tad del Se[Bsus4]ñor, [C#m7]Padre [G#/C#]Dios.
+
+[F#m11]Llamados a [Eadd9/G#]ser con [Asus2]Cristo Je[Bsus4]sús.
+[C#m7]Para [G#/C#]dar, para es[F#m11]tar dispos[Eadd9/G#]tos al [Asus2]sí, como hizo Ma[Bsus4]ría.
+
+[E]TODOS VAN A ESCUCHAR NUESTRA [Bsus4]VOZ
+[Asus2]LEVANTEMOS LOS [Bsus4]BRAZOS, HAY [C#m7]PRISA EN EL [Bsus4/D#]AIRE
+[E]JESÚS VIVE, NO TE ABANDO[Eadd9/G#]NARÁ
+[C#m7]NUNCA DEJA[Bsus4]REMOS DE A[Asus2]MAR.
+
+[E]Tú que siempre [Bsus4]estás buscándote,
+[Asus2]ven a descu[Bsus4]brir, [C#m7]ver lo que yo [Bsus4/D#]vi.
+[E]Con nosotros ven a [Eadd9/G#]ver más allá
+[C#m7]de aquello que [Bsus4]haces, y no te deja son[Asus2]reír y amar.
+[F#m11]No mires a[Eadd9/G#]trás, no [Asus2]digas que [Bsus4]no.
+[C#m7]Oye tu cora[G#/C#]zón y sal sin [F#m11]miedo a [Eadd9/G#]esta mi[Asus2]sión. [Bsus4]
+`
+  },
+  {
+    id: 234,
+    titulo: "OH PECADOR",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Oh! pecador ¿dónde vas errante?,
+[D]Oh! pecador ¿dónde vas errante?,
+[Em]Oh! pecador ¿dónde vas errante?,
+[C]¿A [B7]dónde i[Em]rás?
+
+[Em]De tu ambición el amor se esconde,
+[D]De tu ambición el amor se esconde,
+[Em]De tu ambición el amor se esconde,
+[C]¿A [B7]dónde i[Em]rás?
+
+[Em]Busca la paz el mal te esta asechando,
+[D]Busca la paz el mal te esta asechando,
+[Em]Busca la paz el mal te esta asechando,
+[C]¿A [B7]dónde i[Em]rás?
+`
+  },
+  {
+    id: 235,
+    titulo: "QUIERO ALABARTE",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "E",
+    letra: `
+[E]Quiero alabarte más y más aún,
+[C#m]Quiero alabarte más y más aún,
+[A]Buscar tu volun[F#m]tad, tu [F#]gracia conocer,
+[B]Quiero alabarte.
+
+[E]Quiero servirte más y más aún,
+[C#m]Quiero servirte más y más aún,
+[A]Buscar tu volun[F#m]tad, tu [F#]gracia conocer,
+[B]Quiero servirte.
+
+[E]Las aves del cielo cantan para ti,
+[C#m]Las bestias del campo reflejan su poder,
+[A]Quiero can[F#m]tar, quiero le[F#]vantar mis manos a [B]ti. (x2)
+
+[E]Gloria a Dios Aleluya,
+[C#m]Gloria a Dios Aleluya,
+[A]Gloria a Dios Aleluya,
+[B]Gloria a Dios Alelu[E]ya.
+`
+  },
+  {
+    id: 236,
+    titulo: "TE DOY GRACIAS JESÚS",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "D",
+    letra: `
+[D]Te doy gracias Jesús,
+[Bm]Por haberme encontrado,
+[G]Por haberme sal[A]vado,
+[D]Te doy gracias Jesús. (x2)
+
+[D]Hoy ya se el camino,
+[Bm]Y hacia él me dirijo,
+[G]Por la senda bendita,
+[A]Que representa al hijo.
+
+[D]Mi amor era pequeño,
+[Bm]Ya lo he encontrado,
+[G]Y ese pequeño amor,
+[A]Ya se ha agigan[D]tado.
+`
+  },
+  {
+    id: 237,
+    titulo: "TUS MARAVILLAS",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "Am",
+    letra: `
+Intro: [Am] [Em] [F] [C] [Dm] [Am] [F] [G] (x2) [Am]
+
+[F]Ahora puedes de[G]jarme
+[Em]Ir en paz, oh, Se[Am]ñor,
+[Dm]Porque he [C]visto tus [Bb]maravi[G]llas
+[F]Y tu pueblo en [G]fiesta
+[Em]Por las calles mar[Am]chará
+[Dm]Cantará [C]todas tus [Bb]maravi[G]llas.
+
+[Am]En tu pre[Em]sencia que [F]llena de a[C]mor
+[Am]Toda la [Em]vida y [F]cada jor[C]nada
+[Bb]Contigo un alma [F/A]sola
+[Gm]Somos un solo [F]corazón
+[Bb]La luz que ti re[F/A]splandece
+[Gm]Por siempre ilumi[C]nará.
+`
+  },
+  {
+    id: 238,
+    titulo: "TOMADO DE LA MANO",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "C",
+    letra: `
+[C]Tomado de la [F]mano con Jesús yo [G]voy,
+[Em]Le sigo como oveja que encon[Am]tró al pastor.
+[F]Tomado de la [G]mano con Jesús yo [C]voy,
+A donde Él va. (x2)
+
+[C]Si Jesús me [F]dice a[G]migo,
+[Em]Deja todo y [Am]ven conmigo,
+[F]Donde todo es [G]más hermoso y más fe[C]liz.
+
+[C]Si Jesús me [F]dice a[G]migo,
+[Em]Deja todo y [Am]ven conmigo,
+[F]Yo mi mano pon[G]dré en la suya e i[C]ré con Él.
+
+[C]Yo te lle[F]varé a[G]migo,
+[Em]A un lugar [Am]junto conmigo,
+[F]Donde el sol ya [G]las estrellas, aún bri[C]llan más.
+`
+  },
+  {
+    id: 239,
+    titulo: "UNO",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "G",
+    letra: `
+Intro: [G] [C] [Em] [D]
+
+[G]En un mundo [C]que no gira
+[Em]en mi direc[D]ción
+[G]Sobre caminos [C]qué no ofrecen
+[Em]Una solu[D]ción
+[G]No voy pues se [C]que hay algo me[Em]jor [D]
+[G]Y en mi inte[C]rior escucho [Em]tu voz [D]
+
+[Am]Ven a nuestra [Em]presencia [G]Danos esa [C]fuerza
+[D]De gritar a una voz
+Danos un solo corazón y una sola alma señor
+Qué tu amor sea de nosotros uno solo y el mismo Dios.
+
+[G]Y ahora a u[C]nidos con el [Em]fuego [D]De tu espíritu
+[G]Ya no hay [C]miedo de tor[Em]mentas [D]Pues aquí estas tu
+[G]¿Quién con[C]tra mi?, si es[Em]tás con[D]migo
+[G]Tu ha[C]blar en mi [Em]es mi des[D]tino.
+`
+  },
+  {
+    id: 240,
+    titulo: "VEN Y SÍGUEME",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "G",
+    letra: `
+[G]Ven y [D]sígueme, no [C]mires atrás
+[D]Que de[G]lante está el [C]reino, mi [D]reino de paz. (x2)
+
+[G]Desde antes de for[C]marte, aún
+[G]En mi mente te te[D]nía ya
+[Em]Ya te[Bm]nía asig[D]nado para [C]ti, [G] [Am] un lla[D]mado.
+
+[G]Y ahora, a ti te [C]toca actuar
+[G]Da el paso que [D]tienes que dar
+[Em]Deja [Bm]todo, [D]Toma [C]tu cruz [G] [Am] Y [D]sígueme.
+
+[G]Es tan grande mi a[C]mor por ti
+[G]Que para que pu[D]dieras tú vivir
+[Em]Mi [Bm]sangre, cla[D]vado en la [C]cruz [G] [Am] Yo ver[D]tí.
+`
+  },
     // --- SECCIÓN: CANTOS DE La Pasión ---
      {
     id: 156,
@@ -3292,7 +4954,7 @@ Empápalo sin [Gm]miedo, ahógalo en tu [F]sangre.
     titulo: "SOY LIBRE (“XV” ESTACIÓN)",
     autor: "Anónimo",
     categoria: "pasion",
-    tonoOriginal: "G",
+    tonoOriginal: "G (capo2)",
     letra: `
 [G]Mi mejor a[Em]migo de[C]cidió morir por [D]mí
 [G]Cargó con mi cas[Em]tigo para [C]que yo pudiera vi[D]vir
@@ -3303,15 +4965,27 @@ Empápalo sin [Gm]miedo, ahógalo en tu [F]sangre.
 [G]Todos mis pecados [C]arden [Em]En el fuego de tu a[C]mor
 [G]Y siempre que yo me [C]caiga [Em]Tú me levan[D]tarás.
 
-[G]Coronado con espinas, vestido de dolor
-En tu último suspiro mi mundo se apagó
-Pero al tercer día, un gran ruido se escuchó
-Fueron ángeles cantando: ¡Jesús resucitó!
+[G]Coronado con es[Em]pinas, [C]vestido de dolor[D] 
+[G]En tu último suspi[Em]ro [C]mi mundo se apa[D]gó
+[G]Pero al tercer [Em]día, un gran [C]ruido se escu[D]chó
+[G]Fueron ángeles can[Em]tando: [C]¡Jesús resuci[D]tó!
+
+[C]A[D]bráza[Em]me, [C]hoy me [D]dejo que[G]rer
+[G]Todos mis pecados [C]arden [Em]En el fuego de tu a[C]mor
+[G]Y siempre que yo me [C]caiga [Em]Tú me levan[D]tarás.
+
+[G] Quiero volver a nacer en [C]ti
+Quiero volver a nacer en [Em]ti
+Quiero volver a nacer en [D]ti
+
+[G]Uohh ¡Ahora soy [C]libre!
+Uohh ¡Ahora soy [Em]libre!
+¡Porque tú me haces [D]libre!
 `
   },
   {
     id: 171,
-    titulo: "VIACRUSIS",
+    titulo: "VIA CRUCIS",
     autor: "Verónica Sanfilippo",
     categoria: "pasion",
     tonoOriginal: "Bm",
@@ -3746,7 +5420,7 @@ Todo es tuyo Señor`
     titulo: "Resucitó",
     autor: "Comunidad Católica Shalom",
     tonoOriginal: "G",
-    categoria: "Pascua / Resurrección",
+    categoria: "pascua, salida",
     letra: 
 `[G] [D/F#] [Em] [D] [C] [G/B] [Am7] [D4] (Intro)
 [G] [D/F#] [Em] [D] [Am] [G/B] [C] [A/C#] [D4] [D]
@@ -3794,4 +5468,4 @@ Resuci[A]tó! [E/G#] [F#m] [D]
 Resuci[A]tó!`
 },
 ];
-// último id 174
+// último id 173
