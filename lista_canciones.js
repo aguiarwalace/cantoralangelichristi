@@ -695,7 +695,7 @@ Cristo, ten piedad de nosotros, Cristo, ten piedad de nosotros.
     titulo: "Piedad de Oliver",
     autor: "Anónimo",
     tonoOriginal: "D",
-    categoria: "Acto Penitencial",
+    categoria: "piedad",
     letra: 
 `[D]Señor, ten pie[Bm]dad.
 [D]Cristo, ten pie[Bm]dad.
