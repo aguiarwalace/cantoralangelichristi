@@ -3719,7 +3719,7 @@ Todo es tuyo Señor`
     titulo: "Rocíanos Señor",
     autor: "Tradicional Litúrgico",
     tonoOriginal: "A",
-    categoria: "entrada, aspersión, piedad",
+    categoria: "entrada, aspersion, piedad",
     letra: 
 `[A] [E] [D] [A] (Intro)
 
