@@ -690,6 +690,22 @@ Cristo, ten piedad de nosotros, Cristo, ten piedad de nosotros.
 [G]Señor, [Bm7]ten pie[Em]dad de nos[Bm7]otros.
 `
   },
+  {
+    id: 173,
+    titulo: "Piedad de Oliver",
+    autor: "Anónimo",
+    tonoOriginal: "D",
+    categoria: "Acto Penitencial",
+    letra: 
+`[D]Señor, ten pie[Bm]dad.
+[D]Cristo, ten pie[Bm]dad.
+[G]Señor, ten pie[A]dad. (2x)
+
+[D]Señor, ten pie[Bm]dad.
+[D]Cristo, ten pie[Bm]dad.
+[G]Señor, ten pie[A]dad de nos[D]otros. 
+`
+},
 
   // --- SECCIÓN: CANTOS DE GLORIA ---
   {
@@ -3778,4 +3794,4 @@ Resuci[A]tó! [E/G#] [F#m] [D]
 Resuci[A]tó!`
 },
 ];
-// último id 173
+// último id 174
