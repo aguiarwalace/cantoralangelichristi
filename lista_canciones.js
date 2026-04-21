@@ -731,9 +731,9 @@ Cristo, ten piedad de nosotros, Cristo, ten piedad de nosotros.
 },
 
   // --- SECCIÓN: CANTOS DE GLORIA ---
-   {
+   /*{
     id: 37,
-    titulo: "GLORIA",
+    titulo: "GLORIA 1",
     autor: "Anónimo",
     categoria: "Gloria",
     tonoOriginal: "D",
@@ -747,10 +747,10 @@ Cristo, ten piedad de nosotros, Cristo, ten piedad de nosotros.
 Tú eres el Cordero, que quita el pecado, ten piedad de nosotros, y escucha nuestra oración.
 Tú solo eres Santo, Tú solo el Altísimo, con el Espíritu Santo, en la Gloria de Dios Padre.
 `
-  },
+  },*/
   {
     id: 38,
-    titulo: "GLORIA",
+    titulo: "GLORIA 2",
     autor: "Mejía, Misa melódica",
     categoria: "Gloria",
     tonoOriginal: "E",
@@ -783,9 +783,9 @@ Tú solo eres Santo, Tú solo el Altísimo, con el Espíritu Santo, en la Gloria
 [C#m]Aaaaa [F#m]men, [G#7] [C#]aaa [F#m]men. [B7] [E]
 `
   },
-  {
+  /*{
     id: 39,
-    titulo: "GLORIA (LA, LA, LA)",
+    titulo: "GLORIA 3 (LA, LA, LA)",
     autor: "Anónimo",
     categoria: "Gloria",
     tonoOriginal: "G",
@@ -803,7 +803,7 @@ Porque solo Tú eres el Cordero, el que quita el pecado del mundo, ten Piedad de
   },
   {
     id: 40,
-    titulo: "GLORIA",
+    titulo: "GLORIA 4",
     autor: "Mejía, Misa rítmica",
     categoria: "Gloria",
     tonoOriginal: "Em",
@@ -823,10 +823,10 @@ Porque solo Tú eres el Cordero, el que quita el pecado del mundo, ten Piedad de
 [C]Jesu[B7]criis[Em]to, [Em]con el [G]Santo Espíritu, [B7]En la [Em]Gloria de Dios Padre,
 [G]Amén, a[D]mén, aaa[C]mén. [B7] [Em]
 `
-  },
+  },*/
   {
     id: 41,
-    titulo: "GLORIA",
+    titulo: "GLORIA 5",
     autor: "C. Camacho Misa de Juventud",
     categoria: "Gloria",
     tonoOriginal: "E",
@@ -850,9 +850,9 @@ Porque solo Tú eres el Cordero, el que quita el pecado del mundo, ten Piedad de
 [D]Aa[E]men, aa[D]men, aa[D]men. [E]
 `
   },
-  {
+  /*{
     id: 42,
-    titulo: "GLORIA",
+    titulo: "GLORIA 6",
     autor: "Anónimo",
     categoria: "Gloria",
     tonoOriginal: "C",
@@ -864,10 +864,10 @@ Porque solo Tú eres el Cordero, el que quita el pecado del mundo, ten Piedad de
 Gloria al Padre, Dios Creador, Gloria al Espíritu santificador.
 Solo tú eres Santo, solo tu Señor, solo tú Altísimo, Jesucristo.
 `
-  },
+  },*/
   {
     id: 43,
-    titulo: "GLORIA",
+    titulo: "GLORIA 7",
     autor: "Jeséd",
     categoria: "Gloria",
     tonoOriginal: "G",
@@ -892,9 +892,9 @@ Solo tú eres Santo, solo tu Señor, solo tú Altísimo, Jesucristo.
 [C]A[F]mén. [G](x2)
 `
   },
-  {
+  /*
     id: 44,
-    titulo: "GLORIA",
+    titulo: "GLORIA 8",
     autor: "Amigos",
     categoria: "Gloria",
     tonoOriginal: "D",
@@ -917,7 +917,7 @@ Gloria a Dios en el cielo... (x2)
 
 Gloria a Dios en el cielo... (x2)
 `
-  },
+  },*/
   {
     id: 45,
     titulo: "GLORIA",
@@ -1094,7 +1094,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a[A9]mados
 E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados 
 
 [F#m] Senhor Deus rei dos [G#m] céus, Deus [A] pai todo poderoso
-Nós vos lou [C#m7] vamos, vos bendi [B9] zemos
+Nós vos lou[C#m7]vamos, vos bendi [B9] zemos
 Nós vos ado [A] ramos e glorificamos
 [F#m] Nós vos damos [G#m] graças, por [A] vossa imensa [B9] glória
 
