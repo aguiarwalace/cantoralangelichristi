@@ -3,7 +3,7 @@ const canciones = [
   {
     id: 1,
     titulo: "A TI LEVANTO MIS OJOS",
-    autor: "Anónimo",
+    autor: "Miguel Manzano",
     categoria: "Entrada",
     tonoOriginal: "Dm",
     letra: `
@@ -28,7 +28,7 @@ por que es[A7]pero, [Dm]tu misericordia.
   {
     id: 2,
     titulo: "ALABANZAS",
-    autor: "Anónimo",
+    autor: "Eduardo Ortiz Tirado",
     categoria: "Entrada",
     tonoOriginal: "D",
     letra: `
@@ -51,7 +51,7 @@ por que es[A7]pero, [Dm]tu misericordia.
   {
     id: 3,
     titulo: "CAMINARÉ",
-    autor: "Anónimo",
+    autor: "J.A. Espinoza",
     categoria: "Entrada",
     tonoOriginal: "Em",
     letra: `
@@ -97,7 +97,7 @@ Del trono de David.
   {
     id: 5,
     titulo: "COMO EL CIERVO",
-    autor: "Anónimo",
+    autor: "Alejandro Mejía",
     categoria: "Entrada",
     tonoOriginal: "G",
     letra: `
@@ -130,7 +130,7 @@ Que nos une en el amor.
   {
     id: 6,
     titulo: "DE AQUÍ HASTA EL FINAL",
-    autor: "Anónimo",
+    autor: "Eduardo Ortiz Tirado",
     categoria: "Entrada",
     tonoOriginal: "D",
     letra: `
@@ -148,7 +148,7 @@ Que nos une en el amor.
   {
     id: 7,
     titulo: "DIOS ESPERA EN EL ALTAR",
-    autor: "Anónimo",
+    autor: "Brotes de Olivo",
     categoria: "Entrada",
     tonoOriginal: "E",
     letra: `
@@ -189,37 +189,37 @@ Ahora y siempre por los siglos de los siglos amen.
   },
   {
     id: 9,
-    titulo: "EL VIVE Y REINARÁ",
-    autor: "Anónimo",
+    titulo: "EL VIVE Y REINARÁ (Ele vive e reinará)",
+    autor: "Ministério Adoração e Vida",
     categoria: "Entrada",
     tonoOriginal: "F",
     letra: `
-Intro: [F] [A#] [F] [A#] [F] [A#] [F] [A#]
+Intro: [F] [Bb] [F] [Bb] [F] [Bb] [F] [Bb]
 
-[Dm]Hasta a[C]quí el Se[A#]ñor nos ayudó
-[Dm]Siempre [C]con su brazo [A#]fuerte
-[Dm]Resisti[C]remos para [A#]testimoniar
+[Dm]Hasta a[C]quí el Se[Bb]ñor nos ayudó
+[Dm]Siempre [C]con su brazo [Bb]fuerte
+[Dm]Resisti[C]remos para [Bb]testimoniar
 [F]Su po[Dm]der y [C]su amor
 
-[Dm]Hasta a[C]quí el Se[A#]ñor nos ayudó
-[Dm]Su pro[C]mesa es [A#]vida
-[F]Todo a[C]quel que en [A#]él confiar
+[Dm]Hasta a[C]quí el Se[Bb]ñor nos ayudó
+[Dm]Su pro[C]mesa es [Bb]vida
+[F]Todo a[C]quel que en [Bb]él confiar
 [Dm]Salva[F]ción y [C]vida tendrá
 
-[F]Ale[C]grense y rin[A#]danle glória
+[F]Ale[C]grense y rin[Bb ]danle glória
 [F]Cele[C]brar con can[Eb]ción de victoria
-[Dm]Si la [C]muerte no lo [A#]pudo ven[Dm]cer
+[Dm]Si la [C]muerte no lo [Bb]pudo ven[Dm]cer
 [Dm]¿Quién [Am]po[G]drá?
-[A#]El [C]vive y rei[F]na[C]rá! (x2)
+[Bb]El [C]vive y rei[F]na[C]rá! (x2)
 
-[F]¡Él [Eb]vive, [A#]Él [F]reina! [E] [A#]
-[F]Él [Eb]vive [A#]Él [F]vive y rei[E]na[A#]rá! [F]
+[F]¡Él [Eb]vive, [Bb]Él [F]reina! [E] [Bb]
+[F]Él [Eb]vive [Bb]Él [F]vive y rei[E]na[Bb]rá! [F]
 `
   },
   {
     id: 10,
     titulo: "HA VENCIDO EL CORDERO",
-    autor: "Anónimo",
+    autor: "Jésed",
     categoria: "Entrada",
     tonoOriginal: "F",
     letra: `
@@ -240,7 +240,7 @@ Intro: [F] [A#] [F] [A#] [F] [A#] [F] [A#]
   {
     id: 11,
     titulo: "HACIA TI, MORADA SANTA",
-    autor: "Anónimo",
+    autor: "Kiko Argüello",
     categoria: "Entrada",
     tonoOriginal: "Gm",
     letra: `
@@ -296,7 +296,7 @@ El pueblo de dios avanza hasta la cumbre pascual
   {
     id: 14,
     titulo: "JUNTOS CANTANDO LA ALEGRÍA",
-    autor: "Anónimo",
+    autor: "Cesáreo Gabaraín",
     categoria: "Entrada",
     tonoOriginal: "G",
     letra: `
@@ -324,7 +324,7 @@ Nuestro amigo Jesús nos salvará.
   {
     id: 15,
     titulo: "JUNTOS COMO HERMANOS",
-    autor: "Anónimo",
+    autor: "Cesáreo Gabaraín",
     categoria: "Entrada",
     tonoOriginal: "D",
     letra: `
@@ -344,7 +344,7 @@ Donde reinará el amor, donde reinará la paz.
   {
     id: 16,
     titulo: "QUE ALEGRÍA CUANDO ME DIJERON",
-    autor: "Anónimo",
+    autor: "Miguel Manzano",
     categoria: "Entrada",
     tonoOriginal: "B7",
     letra: `
@@ -371,7 +371,7 @@ Te deseo todo bien.
   {
     id: 17,
     titulo: "UN PUEBLO QUE CAMINA POR EL MUNDO",
-    autor: "Anónimo",
+    autor: "J. A. Espinoza",
     categoria: "Entrada",
     tonoOriginal: "Em",
     letra: `
@@ -424,7 +424,7 @@ Que nos ha reunido en torno a su mesa, para ser nuestro pan: la, la, la, la…
   {
     id: 20,
     titulo: "VEN, VEN SEÑOR NO TARDES",
-    autor: "Anónimo",
+    autor: "Cesáreo Gabaraín",
     categoria: "Entrada",
     tonoOriginal: "E",
     letra: `
@@ -484,7 +484,7 @@ Tú al darnos la vida, nos das la riqueza, tu eterna amistad.
   {
     id: 23,
     titulo: "VIENEN CON ALEGRÍA",
-    autor: "Anónimo",
+    autor: "Cesáreo Gabaraín",
     categoria: "Entrada",
     tonoOriginal: "E",
     letra: `
@@ -499,6 +499,29 @@ A un mundo que busca y que no alcanza, [B7]caminos de Amor y de Amis[E]tad.
 
 Vienen trayendo entre sus manos, esfuerzos de hermanos por la Paz,
 Deseos de un mundo más humano, que hable del bien y la Verdad.
+`
+  },
+    {
+    id: 241,
+    titulo: "ENTRA JESUS",
+    autor: "Anónimo",
+    categoria: "entrada",
+    tonoOriginal: "C",
+    letra: `
+[C]Cuando escuches la [A7]voz del Se[Dm]ñor, [G7]
+[C]Que te está hablando [Am]a tu corazón,
+[Dm]No te resistas, [G7]ni quieras seguir,
+[C]Como un rebelde.
+
+[C]Porque Él está espe[A7]rando a la [Dm]puerta, [G7]
+[C]A que le habrás [Am]tu corazón,
+[Dm]Para entrar y mo[G7]rar junto a ti,
+[C]Toda la vida.
+
+[F]Entra Je[G]sús toma mi [C]ser, [Am]
+[F]Toma mi [G]vida que es para [C]ti,
+[F]Y entre tus [G]brazos quiero sa[Em]ber, [Am]
+[F]Cuánto me [G]amas. (x2) [C]
 `
   },
 
@@ -607,17 +630,17 @@ Señor Señor…
     categoria: "Piedad",
     tonoOriginal: "E",
     letra: `
-[E]Señor, ten piedad de no[F#]sotros, [F#m]
-[E]Señor, ten pie[G#m]dad de nos[A]otros, [C#]
-[F#m]Señor, ten pie[F#]dad de nos[B]otros. [B*]
+[E]Señor, ten piedad de no[F#]sotros, [F#m] 
+[E]Señor, ten pie[G#m]dad de nos[A]otros, [C#] 
+[F#m]Señor, ten pie[F#]dad de nos[B]otros. [Bdim] 
 
-[E]Cristo ten piedad de no[F#]sotros, [F#m]
-[E]Cristo ten pie[G#m]dad de nos[A]otros, [C#]
-[F#m]Cristo ten pie[F#]dad de nos[B]otros. [B*]
+[E]Cristo ten piedad de no[F#]sotros, [F#m] 
+[E]Cristo ten pie[G#m]dad de nos[A]otros, [C#] 
+[F#m]Cristo ten pie[F#]dad de nos[B]otros. [Bdim] 
 
-[E]Señor, ten piedad de no[F#]sotros, [F#m]
+[E]Señor, ten piedad de no[F#]sotros, [F#m] 
 [E]Señor, ten pie[G#m]dad de nos[A]otros, [C#]
-[F#m]Señor, ten pie[B]dad de nos[E]otros. [D] [E]
+[F#m]Señor, ten pie[B]dad de nos[E]otros. [D] [E] 
 `
   },
   {
@@ -708,7 +731,7 @@ Cristo, ten piedad de nosotros, Cristo, ten piedad de nosotros.
 },
 
   // --- SECCIÓN: CANTOS DE GLORIA ---
-  {
+   {
     id: 37,
     titulo: "GLORIA",
     autor: "Anónimo",
@@ -898,20 +921,21 @@ Gloria a Dios en el cielo... (x2)
   {
     id: 45,
     titulo: "GLORIA",
-    autor: "Shalom",
-    categoria: "Gloria",
-    tonoOriginal: "Em",
+    autor: "Comunidad Católica Shalom - Na danca da Vida",
+    categoria: "gloria",
+    tonoOriginal: "G",
     letra: `
 Intro: [Em] [D/F#] [G] [A9] [Bm] [A/C#] [D/F#] [G] [A9] [G] [A] [Bm]
 
-[G]Gloria, [A9]gloria a [G]Dios [A]en el [Bm]cielo
-[D/F#]o-[A9]o [G] [A9]gloría, [G]y en la [A]tierra [Bm]reine paz. (x2)
+  [G]Gloria, [A9]gloria a [G]Dios [A]en el [Bm]cielo
+  [D/F#]o-[A9]o [G] [A9]gloría, [G]y en la [A]tierra [Bm]reine paz. (x2)
 
 [Em]Señor Dios, rey celes[A]tial, [Bm]Dios padre omnipo[F#m]tente
 [G]Te ala[A]bamos, bendi[Em7]cemos, ado[A4]ramos, te glori[F#7]ficamos
 [Bm]Señor [F#m]te damos [G]gracias, [Em]por tu.
 
-Gloria, gloria a Dios... (x2)
+  [G]Gloria, [A9]gloria a [G]Dios [A]en el [Bm]cielo
+  [D/F#]o-[A9]o [G] [A9]gloría, [G]y en la [A]tierra [Bm]reine paz. (x2)
 
 [Em]Jesucristo, se[A]ñor Dios, [Bm]Hijo [F#m]único del padre
 [G]Cordero de Dios que [A]quitas [Bm]El pecado del mundo, Ten piedad
@@ -919,14 +943,183 @@ Gloria, gloria a Dios... (x2)
 [G]Tu que [A]quitas el pecado del [Em]mundo, [D]Ten pie[A/C#]dad
 [Bm]Escucha [F#m]nuestras [G]súpli[Em]ca. [D/F#] [G]
 
-Gloria, gloria a Dios... (x2)
+  [G]Gloria, [A9]gloria a [G]Dios [A]en el [Bm]cielo
+  [D/F#]o-[A9]o [G] [A9]gloría, [G]y en la [A]tierra [Bm]reine paz. (x2)
 
 [Em]Solo tu [D/F#]eres [G]santo, señor, [A]El al[Bm]tísimo Se[Em]ñor [D]Jesu[A/C#]cristo
 [Bm]Con el [F#m]espí[G]ritu [D/F#]y el [G]padre, en su.
 
-Gloria, gloria a Dios... (x2)
-`
+  [G]Gloria, [A9]gloria a [G]Dios [A]en el [Bm]cielo
+  [D/F#]o-[A9]o [G] [A9]gloría, [G]y en la [A]tierra [Bm]reine paz. (x2)`
   },
+  {
+    id: 112,
+    titulo: "Rey del Cielo (Gloria)",
+    autor: "Comunidad Católica Shalom",
+    tonoOriginal: "E",
+    categoria: "Gloria",
+    letra: 
+`[E] [E/G#] [A] [E/G#] [A] [C#m] [B] (Intro)
+
+[C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
+[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!
+[C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
+[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!
+
+[C#m]Señor Dios, [A]Rey del cielo, [E]Dios Padre todo[B]poderoso 
+[C#m]Te alabamos, [A]te bendecimos, [E]te ado[B]ramos
+[F#m]Te glorifi[G#m]camos, te damos [A]gracias por [C#m]tu in[B]mensa 
+[C#m]Glo[A]______[E]ria [B]
+
+[C#m]Señor [A]Jesucristo, [E]Hijo uni[B]génito 
+[C#m]Señor Dios, [A]Cordero de Dios, [E]Hijo de Dios [B]Padre
+
+[A]Tu que quitas el pe[E/G#]cado del mundo, [F#m]ten piedad de no[B]sotros 
+[A]Tu que quitas el pe[E/G#]cado del mundo, [F#m]Atiende a nuestra [B]súplica 
+[A]Tu que estas a la de[B]recha del Padre, [E]ten piedad de no[G#]sotros 
+
+[A]Solo tu eres [B]Santo, Solo tu el Se[C#m]ñor 
+[E]Solo tu Al[A]tísimo, [B]Jesucristo, con el Es[C#m]píritu Santo 
+
+[F#m]En la gloria de Dios [A]Padre 
+¡Am[B]én!
+
+[C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
+[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!
+[C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
+[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!`
+},
+{
+  id: 242,
+  titulo: "Amados por Dios (Gloria)",
+  autor: "Comunidade Católica Shalom - Divino Corazón",
+  categoria: "gloria",
+  tonoOriginal: "A",
+  letra: `
+Intro: [D9] [A9] [D9] [E] / [D9] [A9] [F#m] [E]
+
+[D] Glo-[D9]ria, [A9] oooh [D/F#] gloria [F#m7] a [E4] Dios [E] en el [D9] cielo
+[A/C#] Paz en la [Bm7] tierra a los [E4] hombres [E] amados.
+[D] Glo-[D9]ria, [A9] oooh [D/F#] gloria [F#m7] a [E4] Dios, [E] en el [D9] cielo
+[A/C#] Paz en la [Bm7] tierra a los [E4] hombres [E] amados [G9] por Dios.
+
+( [E4] [E] [F#m] [E/G#] )
+
+[A9] Señor Dios, [D/A] rey celestial, [E/G#] Dios [A4] padre [A] omnipotente.
+[A] Te ala[D/A]bamos, te [E/G#] bendi[A4]ce[A]mos,
+te [D9] adoramos, te [A/C#] glorificamos, te [Bm7] damos gracias
+[E4] Por tu inmensa [G9] gloria.
+
+( [E4] [E] [F#m] [E/G#] )
+
+[A9] Señor [D/A] jesucristo, [E/G#] hijo [A4] unigé[A/C#]nito,
+Señor [D9] Dios, cordero de [A/C#] Dios, hijo de [Bm7] Dios [E4] pa[E]dre.
+
+[F#m7] Tú que quitas el [D] pecado del mundo, [A9] ¡ten piedad de [E4] nos[E]otros!
+[F#m] Tú que quitas el [D] pecado del mundo, [A] ¡atiende nuestra [E4] sú[E]plica!
+[D] Tú que estás a la [A/C#] derecha del padre, [G9] ¡ten piedad de [E4] nos[E]otros!
+
+[A] Sólo tú eres [D/A] santo, [E/G#] sólo tú el [A4] se[A/C#]ñor, el [D] altísimo, [A/C#] jesucristo
+con el [Bm7] espíritu santo [E4] en la gloria de [E] Dios [G9] padre. [E4] A[E]mén.
+
+[D] Glo-[D9]ria, [A] oooh [D/F#] gloria [F#m7] a [E4] Dios [E] en el [D9] cielo
+[A/C#] Paz en la [Bm7] tierra a los [E4] hombres [E] amados.
+[D] Glo-[D9]ria, [A9] oooh [D/F#] gloria [F#m7] a [E4] Dios, [E] en el [D9] cielo
+[A/C#] Paz en la [Bm] tierra a los [E4] hombres [E] ama[G9]dos [D/F#] por Dios,
+a los [Bm7] hombres [E4] ama[E]dos [G9] por [D/F#] Dios,
+a los [Bm7] hombres [E4] ama[E]dos por [A] Dios.
+
+Final: [A9] [D9] [A9]
+`
+},
+{
+  id: 243,
+  titulo: "GLORIA A DIOS EN EL CIELO",
+  autor: "Eliana Ribeiro",
+  categoria: "gloria",
+  tonoOriginal: "G",
+  letra: `
+Intro: [D9] [C9] [D9] 
+       [C9] [D9] [C9] 
+
+[D9] Gloria a Dios en el [C9] cielo
+y en la [G] tierra paz
+a los hombres que ama el [D9] Señor. ([D4] [D])
+[D9] Señor Dios, Rey [C9] celestial,
+[G] Dios Padre [D9] todopoderoso.
+
+[Am] Te ala [D9] bamos,
+te [Am] bendi [D9] cemos,
+te [Am] ado [D9] ramos,
+te [Am] glorifi [D9] camos.
+Te damos [C9] gracias
+por [G] tu inmensa [D9] gloria.
+
+[C9] Señor Jesucristo,
+[G] Hijo [D9] único del Padre. ([D4] [D])
+[D9] Señor Dios, [C9] Cordero de Dios,
+[G] Hijo del [D9] Padre.
+
+[Am] Tú que quitas el pe [G] cado del mundo,
+[C9] ten piedad de [D9] nosotros.
+[Am] Tú que quitas el pe [G] cado del mundo,
+[C9] atiende nuestra [D9] súplica.
+[Am] Tú que estás sentado a la de [G] recha del Padre,
+[C9] ten piedad de [D9] nosotros.
+
+[Am] Porque [D9] sólo tú eres Santo,
+sólo [Am] tú Se [D9] ñor,
+sólo [C9] tú Al [D9] tísimo, Jesucristo,
+[E] con el Espíritu [A] Santo
+
+[G] en la gloria de [D9] Dios Padre. Amén.
+[G] en la gloria de [D9] Dios Padre. Amén.
+[G] en la gloria de [D9] Dios Padre. Amén.
+[G] en la gloria de [D9] Dios Padre. Amén.
+`
+},
+ {
+  id: 245,
+  titulo: "GLÓRIA A DEUS NAS ALTURAS",
+  autor: "Ministério Amor e Adoração",
+  categoria: "gloria",
+  tonoOriginal: "E",
+  letra: `
+[E] Glória a Deus nas al[B9]turas
+[A9] Glória a Deus nas al[B9]turas
+E [C#m] paz na terra aos [B9] homens por Ele a[A9]mados 
+
+[E] Glória a Deus nas al [B9] turas
+[A9] Glória a Deus nas al [B9] turas
+E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados 
+
+[F#m] Senhor Deus rei dos [G#m] céus, Deus [A] pai todo poderoso
+Nós vos lou [C#m7] vamos, vos bendi [B9] zemos
+Nós vos ado [A] ramos e glorificamos
+[F#m] Nós vos damos [G#m] graças, por [A] vossa imensa [B9] glória
+
+[E] Glória a Deus nas al [B9] turas
+[A9] Glória a Deus nas al [B9] turas
+E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados 
+
+[F#m] Senhor Jesus [G#m] Cristo, [A] filho unigênito
+Senhor [C#m7] Deus, cordeiro de [B9] Deus, [A] filho de Deus [B9] pai
+[C#m] Vós que tirais o pe [B9] cado do mundo [A] tende piedade de [B9] nós [G#]
+[F#m7] Vós que tirais o pe [G#m7] cado do mundo, [A] acolhei a nossa [B9] súplica
+[C#m7] Vós que estais a di [B9] reita do Pai [A] tende piedade de [B9] nós [G#]
+Só [F#m] vós sois o [G#m] santo, só [A] vós o Se [B9] nhor
+Só [C#m7] vós o al [B9] tíssimo, Jesus [A] Cristo
+Com Es [F#m] pírito Santo na [A] glória de Deus [B9] pai a [E] mém [B9]
+
+[E] Glória a Deus nas al [B9] turas
+[A9] Glória a Deus nas al [B9] turas
+E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados 
+
+[E] Glória a Deus nas al [B9] turas
+[A9] Glória a Deus nas al [B9] turas
+E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
+`
+},
 
   // --- SECCIÓN: CANTOS DE ALELUYA ---
   {
@@ -1143,7 +1336,8 @@ Que lo diga la casa de Israel, [F#m]Es [E7]eterna su [A]misericordia [A7]
     categoria: "Aleluya",
     tonoOriginal: "Bm",
     letra: `
-[Bm]A-le-[A]lu-ya, [D]a lelu-[Em]u-ya [A] [Bm]A-le-[A]lu-ya, [D]a lelu-[Em]uu-[F#m]ya [Bm] (G)
+[Bm]A-le-[A]lu-[D]ya, alelu-[Em]u-ya [A] 
+[Bm]A-le-[A]lu-[D]ya, ale[Em]lu-[F#m]uu-[Bm]ya [G] 
 `
   },
   {
@@ -1162,6 +1356,23 @@ Que lo diga la casa de Israel, [F#m]Es [E7]eterna su [A]misericordia [A7]
 A-le-lu-ya-a A-le-lu-ya-a. (x2)
 `
   },
+   {
+  id: 244,
+  titulo: "ALELUIA (SÉCULO I)",
+  autor: "Século I",
+  categoria: "aleluya",
+  tonoOriginal: "D",
+  letra: `
+
+[G] Aleluia, [A] Aleluia, [Bm] Aleluia, [G] Aleluia, [A] Aleluia [Bm]
+
+[Bm] Mesmo sendo rico
+Cristo fez-se pobre
+Sua [G] pobreza nos [A] enrique [Bm] ceu
+
+[G] Aleluia, [A] Aleluia, [Bm] Aleluia, [G] Aleluia, [A] Aleluia [Bm]
+`
+},
 
   // --- SECCIÓN: CANTOS DE OFRENDAS ---
   {
@@ -5351,42 +5562,6 @@ Haz conmigo tu reino crecer
 Todo es tuyo Señor 
 Todo es tuyo Señor
 Todo es tuyo Señor`
-},{
-    id: 112,
-    titulo: "Rey del Cielo (Gloria)",
-    autor: "Comunidad Católica Shalom",
-    tonoOriginal: "E",
-    categoria: "Gloria",
-    letra: 
-`[E] [E/G#] [A] [E/G#] [A] [C#m] [B] (Intro)
-
-[C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
-[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!
-[C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
-[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!
-
-[C#m]Señor Dios, [A]Rey del cielo, [E]Dios Padre todo[B]poderoso 
-[C#m]Te alabamos, [A]te bendecimos, [E]te ado[B]ramos
-[F#m]Te glorifi[G#m]camos, te damos [A]gracias por [C#m]tu in[B]mensa 
-[C#m]Glo[A]______[E]ria [B]
-
-[C#m]Señor [A]Jesucristo, [E]Hijo uni[B]génito 
-[C#m]Señor Dios, [A]Cordero de Dios, [E]Hijo de Dios [B]Padre
-
-[A]Tu que quitas el pe[E/G#]cado del mundo, [F#m]ten piedad de no[B]sotros 
-[A]Tu que quitas el pe[E/G#]cado del mundo, [F#m]Atiende a nuestra [B]súplica 
-[A]Tu que estas a la de[B]recha del Padre, [E]ten piedad de no[G#]sotros 
-
-[A]Solo tu eres [B]Santo, Solo tu el Se[C#m]ñor 
-[E]Solo tu Al[A]tísimo, [B]Jesucristo, con el Es[C#m]píritu Santo 
-
-[F#m]En la gloria de Dios [A]Padre 
-¡Am[B]én!
-
-[C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
-[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!
-[C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
-[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!`
 },
 {
     id: 113, // Ajusta el ID según tu lista
