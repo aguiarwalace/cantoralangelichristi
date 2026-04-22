@@ -1,5 +1,5 @@
 const canciones = [
-  // --- SECCIÓN: CANTOS DE ENTRADA ---
+  // --- SECCIÓN: CANTOS DE ENTRADA status: terminado ---
   {
     id: 1,
     titulo: "A TI LEVANTO MIS OJOS",
@@ -525,7 +525,7 @@ Deseos de un mundo más humano, que hable del bien y la Verdad.
 `
   },
 
-  // --- SECCIÓN: CANTOS DE PIEDAD ((terminado)) ---
+  // --- SECCIÓN: CANTOS DE PIEDAD (status: verificar los no litúrgicos y comentarlos) ---
   {
     id: 24,
     titulo: "PIEDAD 1",
@@ -730,7 +730,7 @@ Cristo, ten piedad de nosotros, Cristo, ten piedad de nosotros.
 `
 },
 
-  // --- SECCIÓN: CANTOS DE GLORIA ---
+  // --- SECCIÓN: CANTOS DE GLORIA status: agregar gloria shalom ressuscitou---
    /*{
     id: 37,
     titulo: "GLORIA 1",
@@ -5215,7 +5215,498 @@ Uohh ¡Ahora soy [Em]libre!
   },
     // --- SECCIÓN: CANTOS Marianos ---
     // --- SECCIÓN: CANTOS DE Adviento, Navidad y Villancicos ---
-    // --- SECCIÓN: CANTOS DE Alabanza ---
+
+    // --- SECCIÓN: CANTOS DE Alabanza status:terminado---
+    //mover "El rock del Espíritu", "Pentecostés día de fiesta" y "Ya llegó, ya llegó", a la sección de Espíritu Santo
+  {
+    id: 246,
+    titulo: "ALABARÉ",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "E",
+    letra: `
+[E]Alabare, [C#m]alabare, [F#m]alabare, [B7]alabare,
+[E]Alabare a mi Señor. (x2)
+
+[E]Juan vio el número de los redimidos,
+[B7]Y todos alababan al Señor,
+[F#m]Unos cantaban [B7]otros oraban,
+[F#m]Y todos ala[B7]baban al Seño[E]r.
+
+[E]Todos unidos, alegres cantamos.
+[B7]Glorias y alabanzas al Señor,
+[F#m]Gloria al Padre, [B7]Gloria al hijo,
+[F#m]Y Gloria al Es[B7]píritu de amo[E]r.
+
+[E]Somos Tus hijos Dios Padre eterno,
+[B7]Tú nos has creado con amor.
+[F#m]Te bendecimos, [B7]te adoramos,
+[F#m]Y todos te ala[B7]bamos con a[E]mor.
+`
+  },
+  {
+    id: 247,
+    titulo: "BAJA EL RIO",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "G",
+    letra: `
+[G]Baja al rio, oooh, [C]baja al rio, oooh,
+[G]Baja al rio, oooh, [D7]Baja al Jor[G]dán. (x2)
+
+[G]Te voy a decir lo que va a pasar,
+Si tú y tu hermano bajan al Jordán,
+[C]Está Jesús y también está Juan,
+[G]Y uno de ellos te va a salvar,
+[D7]Y uno de ellos te va a sal[G]var.
+
+[G]Si estas abajo y estas ahí,
+Y uno de ellos te va a redimir,
+[C]Está Jesús y también está Juan,
+[G]Y uno de ellos te va a salvar,
+[D7]Y uno de ellos te va a sal[G]var.
+`
+  },
+  {
+    id: 248,
+    titulo: "CUANDO UN CRISTIANO BAILA",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "E",
+    letra: `
+[E]Cuando un cristiano baila, baila, baila, baila. (x2)
+[A]Así baila el cris[B7]tiano, [E]Así baila el cris[B7]tiano.
+
+[E]Dedo, dedo, dedo, dedo, dedo, dedo... (x2)
+[A]Así baila el cris[B7]tiano, [E]Así baila el cris[B7]tiano.
+
+[E]Mano... [A]Codo... [B7]Hombro... [E]Cabeza...
+`
+  },
+  {
+    id: 249,
+    titulo: "DAVID, DAVID",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "Am",
+    letra: `
+[Am]David, David, David, David, David, oraba,
+David, David, David, David, David, o[E7]raba. (x2)
+
+[A7]Y su esposa se eno[Dm]jaba... ¿Porque?
+[Am]Porque, porque, porque, porque, porque, oraba,
+[E7]Porque, porque, porque, porque, porque, o[Am]raba.
+
+[Am]David, David, David, David, David, BAILABA.
+[Am]David, David, David, David, David, APLAUDIA.
+`
+  },
+  {
+    id: 250,
+    titulo: "DEMOS GRACIAS AL SEÑOR",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "A",
+    letra: `
+[A]Demos gracias al Señor, [D]demos gra[A]cias;
+[D]Demos [E]gracias al Se[A]ñor. (x2)
+
+[D]Por las mañanas las [A]aves cantan,
+[E]Las alabanzas a [A]Cristo Salvador;
+[D]Y tú, hermano, ¿por [A]qué no cantas
+[E]Las alabanzas a [A]Cristo Salvador?
+
+[D]Y por las tardes las [A]flores cantan,
+[E]Las alabanzas a [A]Cristo Salvador:
+[D]Y tú, hermano, ¿por [A]qué no cantas
+[E]Las alabanzas a [A]Cristo Salvador?
+
+[D]Y por las noches los [A]cielos cantan,
+[E]Las alabanzas a [A]Cristo Salvador;
+[D]Y tú, hermano, ¿por [A]qué no cantas
+[E]Las alabanzas a [A]Cristo Salvador?
+`
+  },
+  {
+    id: 251,
+    titulo: "DIOS ESTÁ AQUÍ (Que hermoso es)",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "G",
+    letra: `
+[G]Dios está aquí, que her[C]moso es,
+[D7]Él lo prometió, donde hay [G]dos o tres.
+
+[C]Quédate Señor, [G]quédate Señor,
+[D7]Quédate Señor, en cada cora[G]zón. (x2)
+
+[D7]Oh! Cristo mío haz de mi [G]alma un altar,
+[D7]Para adorarte con devo[G]ción,
+[D7]Para beber el agua [G]de la vida,
+[C]Y así cal[D7]mar mi pobre Cora[G]zón.
+
+[G]El Espíritu de [D7]Dios se mueve,
+Se mueve, se [G]mueve,
+[G]El espíritu de [D7]Dios se mueve,
+Dentro de mi Cora[G]zón.
+
+[G]Oh! hermano deja [D7]que se mueva,
+Se mueva, se [G]mueve,
+[G]Oh! hermano deja [D7]que se mueva,
+Dentro de tu cora[G]zón.
+`
+  },
+  {
+    id: 252,
+    titulo: "EL AMOR DE DIOS",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "E",
+    letra: `
+[E]El amor de Dios es maravi[B7]lloso.
+[E]El amor de Dios es maravi[B7]lloso.
+[E7]El amor de Dios es maravi[A]lloso.
+[B7]¡Grande es el amor de [E]Dios!
+
+[E]Tan alto que no puedo estar más [B7]alto que El.
+[E]Tan bajo que no puedo estar más [B7]bajo que El.
+[E7]Tan ancho que no puedo estar a[A]fuera de Él.
+[B7]¡Grande es el amor de [E]Dios!
+`
+  },
+  {
+    id: 253,
+    titulo: "EL DIABLO ESTA ENOJADO",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "D",
+    letra: `
+[D]El diablo está enojado, hay una razón,
+[A7]El diablo está enojado, hay una ra[D]zón. (x2)
+
+[D7]El diablo está eno[G]jado, [Gm]hay una razón,
+[D]Cristo [Bm]vive en mi corazón
+[A]Y mis pe[G]cados, [A]son perdo[D]nados.
+
+[D]Yo amo a mi hermano... [A7]Yo amo a maría... [D]Yo amo a la iglesia...
+`
+  },
+  {
+    id: 254,
+    titulo: "EL PADRE ABRAHAM",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "E",
+    letra: `
+[E]Padre Abraham tenía muchos hijos,
+[B7]Muchos hijos tenía Padre Abraham,
+Yo soy uno, tu tam[E]bién
+Por eso vamos a alabar a nuestro Dios.
+
+[E]Mano derecha... [B7]Mano izquierda...
+Pie derecho... Pie izquierdo...
+La cabeza... La cadera...
+Dando vueltas... [E]SE ACABÓ.
+`
+  },
+  {
+    id: 255,
+    titulo: "EL ROCK DEL ESPÍRITU",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "D",
+    letra: `
+[D]Es como un río, es la [G]lluvia,
+[A]Es un soplo, es el [D]fuego... ¿Qué es?,
+[A]Es el Espíritu de Dios que quiere ac[D]tuar. (x2)
+
+[D]Ay va bajando, va cayendo,
+[G]Va soplando, va ardiendo,
+[A]Es el Espíritu de Dios que quiere ac[D]tuar.
+
+[D]Bajando en ti, [G]Cayendo en ti,
+[A]Soplando en ti, [D]Ardiendo en mí. (x2)
+`
+  },
+  {
+    id: 256,
+    titulo: "ESTAMOS DE FIESTA CON JESÚS",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "C",
+    letra: `
+[C]Estamos de fiesta con [G7]Jesús.
+[C]Al cielo queremos [F]ir. [G]
+[G]Estamos reunidos en la [G7]mesa
+Y es Cristo quien va a ser[C]vir.
+
+[G]Poderoso es nuestro [C]Dios,
+[G]Poderoso es nuestro [C]Dios. (x2)
+
+[C]Él sana, Él salva: [F]pode[G]roso es nuestro [C]Dios.
+[C]Bautiza y limpia: [F]pode[G]roso es nuestro [C]Dios.
+
+[G]Poderoso es nuestro [C]Dios,
+[G]Poderoso es nuestro [C]Dios. (x2)
+
+[C]El padre, el hijo, pode[G]roso es nuestro [C]Dios,
+[C]Espíritu Santo, pode[G]roso es nuestro [C]Dios.
+`
+  },
+  {
+    id: 257,
+    titulo: "GRANITO DE MOSTAZA",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "Am",
+    letra: `
+[Am]Si tuvieras Fe como un granito de mos[E7]taza,
+¿Quién Dice? [Am]Esto dice el Señor, (x2)
+
+[A7]Tú le di[Dm]rías a las mon[Am]tañas,
+[E7]Muévanse, Muévanse, Mu[Am]évanse. (x2)
+
+[E7]Y las montañas se moverán, (uh uh)
+Se Moverán (Uh Uh) [Am]Se Moverán. (x2)
+
+[Am]Y los enfermos sanaran... [Am]Y los hermanos se amarán...
+`
+  },
+  {
+    id: 258,
+    titulo: "HABIA UN SAPO",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "E",
+    letra: `
+[E]Había un sapo, sapo, sapo,
+[F#m]Que nadaba en el río, río, río,
+[B7]Con su traje verde, verde, verde,
+[E]Que se moría de frío, frío, frío.
+
+[E]La señora sapa, sapa, sapa,
+[F#m]Me conto, contó, Contó, contó,
+[B7]Que tenía un amigo, amigo, amigo.
+[E]Que se [B7]llama Je[E]sús.
+`
+  },
+  {
+    id: 259,
+    titulo: "HAY UNA PROMESA EN LA BIBLIA",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "A",
+    letra: `
+[A]Hay una promesa en la [E7]biblia,
+[A]Que es para ti y para mí, (x2)
+[E7]Cielo nuevo y tierra nueva,
+[A]Donde vamos a vivir. (x2)
+
+[E7]Saltando hermano saltando,
+[A]Saltando hermano saltando,
+[E7]Saltando hermano saltando,
+[A]Como cordero en la manada.
+
+[E7]Así, así, así, así se alaba a [A]Dios,
+[E7]Pero que lindo se ve el pueblo de [A]Dios,
+[E7]Maravilloso se ve, el pueblo de [A]Dios,
+[E7]Pero que chévere se ve, el pueblo de [A]Dios.
+
+Y dando media vueltita... la vuelta de la victoria.
+Y dando una vuelta entera... la vuelta de la victoria.
+`
+  },
+  {
+    id: 260,
+    titulo: "LA ALABANZA AL PATO",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "G",
+    letra: `
+[G]Hoy soy feliz (hoy soy feliz)
+[C]Porque sé (porque sé)
+[D]Que alguien me ama (que alguien me ama)
+[G]Y ese es Jesús (x2)
+
+[G]Cua, cua, cua ushucu, ushucu, ushucu shu
+[C]Cua, cua, cua ushucu, ushucu, ushucu shu
+[G]Cua, cua, cua ushucu, ushucu, ushucu shu
+[D]Cua, cua, [C]cua, cua, [D]cua, cua. (x2)
+
+[G]Puedo cantar (puedo cantar)
+[C]Puedo reír (puedo reír)
+[D]Pues por sus llagas (pues por sus llagas)
+[G]Soy libre al fin (x2)
+`
+  },
+  {
+    id: 261,
+    titulo: "MI MANO ESTA LLENA",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "D",
+    letra: `
+[D]Mi mano está llena [A7]De su bendición.
+Mi mano está llena [D]De su [D7]bendición.
+
+[G]Al hermano que toque bendito será,
+[D]Al hermano que toque bendito será,
+[A7]Mi mano está llena [D]De su bendición.
+
+[D]Mi brazo esta lleno... [D]Mi pie está lleno...
+
+[D]Porque Cristo ha tomado mi vida,
+[A7]Y no la quiere soltar, (x2)
+[D7]Estaba yo muy [G]triste, mas [Gm]ahora soy feliz,
+[D]Porque Cristo ha to[A7]mado mi vida, [D]Y no la quiere soltar.
+
+[D]Yo me sigo enamorando, me sigo enamorando,
+[A7]Me sigo enamorando de Dios. (x2)
+[A7]Que viva Cristo, que viva que viva [D]Cristo,
+[A7]Que viva, que viva Cristo, que viva el [D]Rey.
+`
+  },
+  {
+    id: 262,
+    titulo: "NO HAY DIOS TAN GRANDE COMO TU",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "G",
+    letra: `
+[G]No hay Dios tan grande como tú,
+[D7]No lo hay, no lo [G]hay. (x2)
+[G7]No hay Dios que [C]haga maravi[G]llas,
+[D7]Como las que haces [G]tú. (x2)
+
+[G]No con espadas, ni con ejércitos,
+[Am]Más con tu [D7]santo Espíri[G]tu. (x2)
+[G7]Y esos [C]montes se move[G]rán,
+[D7]Y esos montes se move[G]rán,
+[G7]Y esos [C]montes se move[G]rán,
+[Am]Más con tu [D7]santo Espíri[G]tu.
+`
+  },
+  {
+    id: 263,
+    titulo: "PENTECOSTÉS DÍA DE FIESTA",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "G",
+    letra: `
+[G]Pentecostés día de fiesta, Pentecostés día de [G7]gozo.
+[C]Pentecostés día de la [G]Iglesia, [D7]De la Iglesia del Se[G]ñor. (x2)
+
+[D7]Ya se derrama, ya se derrama,
+[G]Ya se derrama el Espíritu de Dios. (x2)
+
+[D7]Ya se siente, ya se siente...
+[G]Aleluya, aleluya, Aleluya al Espíritu de Dios.
+`
+  },
+  {
+    id: 264,
+    titulo: "SI EN VERDAD ERES SALVO",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "G",
+    letra: `
+[G]Si En Verdad Eres Salvo di A[D]mén, -Amén-
+Si En Verdad Eres Salvo di A[G]mén, -Amén-
+[C]Si En Verdad Eres Salvo, [G]Testifica Con Tu Vida,
+[D7]Si En Verdad Eres Salvo di A[G]mén.
+
+[G]Gloria a Dios... [G]Aplaudir... [G]Con los pies... [G]Con los cuatro... [G]Al revés...
+`
+  },
+  {
+    id: 265,
+    titulo: "UN JOVEN DE GALILEA",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "E",
+    letra: `
+[E]Por aquí va pasando un joven de gali[B7]lea. (x4)
+[A]Y me dijo [E]como ala[B7]bar a [E]Dios. (x2)
+
+[B7]Las manos arriba, las manos a[E]bajo,
+[B7]Las manos arriba, las manos a[E]bajo, Y alabando a Dios.
+
+[E]La cabeza a un lado... [E]La cadera a un lado...
+`
+  },
+  {
+    id: 266,
+    titulo: "YA LLEGÓ, YA LLEGÓ",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "G",
+    letra: `
+[G]Ya llegó, ya llegó, El [D7]Espíritu Santo ya lle[G]gó. (x2)
+[D7]Lo siento en las manos, lo siento en los pies,
+[G]Lo siento en el alma y en todo mi ser. (x2)
+
+[D7]Aquél que caminó sobre las [G]aguas. (x2)
+[D7]Está aquí, está a mi [G]lado. (x2)
+[D7]Como un rayo, cayendo sobre [G]mí. (x2)
+[D7]Me quema, me quema, me quema, [G]me quema, me quema, me quema. (x2)
+`
+  },
+  {
+    id: 267,
+    titulo: "YO LE QUIERO CANTAR",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "A",
+    letra: `
+[A]YO LE QUIERO CAN[D]TAR,
+[A]A LA VIRGEN MA[E]RÍA, UNA CANCIÓN. (x2)
+
+[D]CANTA, CANTA, CANTA, [A]CANTA,
+[E]CÁNTALE UNA CANCIÓN, A MA[A]RÍA. (x2) [A7]
+
+[A]Tú le quieres cantar... [A]Todos le quieren cantar...
+`
+  },
+  {
+    id: 268,
+    titulo: "YO TENGO UN AMIGO QUE ME AMA",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "D",
+    letra: `
+[D]Yo tengo un amigo que me ama,
+[A]Me ama, [D]me ama,
+Yo tengo un amigo que me ama,
+[G]Su nom[A]bre es Je[D]sús. [D7]
+
+[G]Que me ama, que me [D]ama,
+[A]Que me ama, con su tierno a[D]mor. (x2) [D7]
+
+[D]Tú tienes un amigo... [D]Tenemos un amigo...
+`
+  },
+  {
+    id: 269,
+    titulo: "YO TENGO UN GOZO EN EL ALMA",
+    autor: "Anónimo",
+    categoria: "alabanza",
+    tonoOriginal: "G",
+    letra: `
+[G]Yo tengo un gozo en el alma, gozo en el alma,
+[D]Gozo en el alma y en mi ser. ¡Aleluya! iGloria a Dios!
+[G]Es como ríos de agua viva, Ríos de agua viva.
+[Am]Ríos de agua [D7]viva en mí [G]ser.
+
+[G]No te avergüences y alaba a tu Se[D]ñor,
+No te avergüences y alaba a tu Se[G]ñor,
+[G7]Da gloria a [C]Dios, gloria [Cm]Dios, gloria a [D]Él,
+[G]No te avergüences y alaba a tu Señor.
+
+[G]Alza tus brazos... [G]Cierra los ojos... [G]Abre la boca...
+`
+  },
+
+    // --- SECCIÓN: CANTOS Angeli status: terminado ---
   {
     id: 102,
     titulo: "Oración de Santo Agustín",
@@ -5643,4 +6134,4 @@ Resuci[A]tó! [E/G#] [F#m] [D]
 Resuci[A]tó!`
 },
 ];
-// último id:240
+// último id:245
