@@ -4565,7 +4565,304 @@ sin ju[G]garse la vida, sin gas[G7]tarla por nada.
 `
   },
     // --- SECCIÓN: CANTOS DE Adoración ---
-    // --- SECCIÓN: CANTOS DEL Espíritu Santo ---
+    // --- SECCIÓN: CANTOS DEL Espíritu Santo status:terminado ---
+     {
+    id: 255,
+    titulo: "EL ROCK DEL ESPÍRITU",
+    autor: "Anónimo",
+    categoria: "alabanza, espiritusanto",
+    tonoOriginal: "D",
+    letra: `
+[D]Es como un río, es la [G]lluvia,
+[A]Es un soplo, es el [D]fuego... ¿Qué es?,
+[A]Es el Espíritu de Dios que quiere ac[D]tuar. (x2)
+
+[D]Ay va bajando, va cayendo,
+[G]Va soplando, va ardiendo,
+[A]Es el Espíritu de Dios que quiere ac[D]tuar.
+
+[D]Bajando en ti, [G]Cayendo en ti,
+[A]Soplando en ti, [D]Ardiendo en mí. (x2)
+`
+  },
+   {
+    id: 266,
+    titulo: "YA LLEGÓ, YA LLEGÓ",
+    autor: "Anónimo",
+    categoria: "alabanza, espiritusanto",
+    tonoOriginal: "G",
+    letra: `
+[G]Ya llegó, ya llegó, El [D7]Espíritu Santo ya lle[G]gó. (x2)
+[D7]Lo siento en las manos, lo siento en los pies,
+[G]Lo siento en el alma y en todo mi ser. (x2)
+
+[D7]Aquél que caminó sobre las [G]aguas. (x2)
+[D7]Está aquí, está a mi [G]lado. (x2)
+[D7]Como un rayo, cayendo sobre [G]mí. (x2)
+[D7]Me quema, me quema, me quema, [G]me quema, me quema, me quema. (x2)
+`
+  },
+   {
+    id: 263,
+    titulo: "PENTECOSTÉS DÍA DE FIESTA",
+    autor: "Anónimo",
+    categoria: "alabanza, espiritusanto",
+    tonoOriginal: "G",
+    letra: `
+[G]Pentecostés día de fiesta, Pentecostés día de [G7]gozo.
+[C]Pentecostés día de la [G]Iglesia, [D7]De la Iglesia del Se[G]ñor. (x2)
+
+[D7]Ya se derrama, ya se derrama,
+[G]Ya se derrama el Espíritu de Dios. (x2)
+
+[D7]Ya se siente, ya se siente...
+[G]Aleluya, aleluya, Aleluya al Espíritu de Dios.
+`
+  },
+   {
+    id: 270,
+    titulo: "ENCIÉNDEME",
+    autor: "Anónimo",
+    categoria: "espiritusanto",
+    tonoOriginal: "E",
+    letra: `
+[E]Hoy quiero, Señor, ponerlo todo en tu pre[A]sencia
+[C#m]Darme hasta gastarme conti[B]go y por Ti.
+[E]Hoy quiero, Señor, ponerlo todo ante tu [A]puerta
+[C#m]Para en todo a[B]marte y ser[E]vir.
+
+[B]Enciéndeme y déjame arder donde haga [A]falta,
+[E]Enciéndeme y déjame ser tu [A]luz,
+[B]Y así poder llevarte hasta todas las [A]almas,
+[E]Saciar la sed que [B]tienes Tú desde la [E]cruz.
+
+[E]Hoy quisiera madre, poner todo en tu pre[A]sencia,
+[C#m]Darme hasta gastarme, de[B]cirle que sí,
+[E]Hoy te pido madre, que dejes mi puerta a[A]bierta,
+[C#m]Para en todo a[B]marle y ser[E]vir.
+`
+  },
+  {
+    id: 271,
+    titulo: "EL ESPÍRITU DE DIOS",
+    autor: "Anónimo",
+    categoria: "espiritusanto",
+    tonoOriginal: "D",
+    letra: `
+[D]El Espíritu de [G]Dios está en este lu[D]gar, [G]
+[D]El Espíritu de [G]Dios se mueve en este lu[A]gar,
+[D]Está aquí para con[G]solar, [D]está aquí para libe[G]rar,
+[D]Está aquí para guiar,
+[G]El Espíritu de [A]Dios está a[D]quí. (x2)
+
+[D7]Muévete en [G]mi[A]í, Muévete en [D]mí, [Bm]
+[G]Toca mi mente, mi [A]corazón,
+[F#m]Llena mi vida de [Bm]tu Amor,
+[G]Muévete en mi [A]Dios Espí[D]ritu muévete en [Bm]mi.
+[G]Muévete en mi [A]Dios Espí[G]ritu [Gm]muévete en [D]mi.
+`
+  },
+  {
+    id: 272,
+    titulo: "VEN ESPÍRITU SANTO",
+    autor: "P. Cristóbal Fones",
+    categoria: "espiritusanto",
+    tonoOriginal: "D",
+    letra: `
+[D]Ven, Espíritu [Am7]Santo Crea[G]dor
+[Bm]Ven, Fuego que a[A]lienta la vida
+[F]Ven, [Cm]Agua que [Dm]limpia y nos fe[C]cunda
+[Bb]Soplo [Gm]que nos hace an[F]dar.
+
+[Bb]Empujas la his[Gm7]toria hacia la liber[F]tad
+[C]Deshaces los [Dm]miedos que atan
+[Bb]Derribas los yugos que o[A7]primen la voz
+Sacudes las cobardías.
+
+[F]Más dentro de [Cm7]mí que yo [Bb]mismo
+Me [A]habitas, Es[Gm7]píritu de amor
+[F]Me mueves por [Cm7]dentro, me [Bb]lanzas a amar
+Me [A]llenas de [Gm7]gracia y ternura.
+
+[F]Me alzas del [Cm7]polvo, me [Bb]pones de pie
+Me [A]abres de [Gm7]nuevo el camino
+[F]Me imprimes a [Cm7]fuego en el [Bb]corazón
+El [A]rostro de [Gm7]Cristo el Se[F]ñor.
+`
+  },
+  {
+    id: 273,
+    titulo: "ESPÍRITU DE DIOS",
+    autor: "Anónimo",
+    categoria: "espiritusanto",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Espíritu de Dios,
+[D]Llena mi vida,
+[C]Llena mi alma,
+[B7]Llena mi ser.
+
+[Em]Lléname, lléname,
+[D]Con tu presencia, lléname,
+[C]Lléname con tu poder, lléname,
+[B7]Lléname con tu bondad.
+
+[Em]Si Dios no vive en mí,
+[D]Vivo sin rumbo,
+[C]Vivo sin calma,
+[B7]Vivo sin luz.
+`
+  },
+  {
+    id: 274,
+    titulo: "ESPÍRITU SANTO (Athenas)",
+    autor: "Athenas",
+    categoria: "espiritusanto",
+    tonoOriginal: "G",
+    letra: `
+Intro: [Em] [G] [D]
+
+[D] Espí[Em]ritu de [G]Dios, espí[D]ritu santo
+[Em] Mi alma tiene [G]sed de ti, [A]mi alma tiene sed
+[Em] Espí[G]ritu de [D]Dios, espí[D]ritu santo
+[Em] Mi alma tiene [G]sed de ti, [A]mi alma tiene sed
+
+[D/F#] Espí[G]ritu santo ven a ar[A]der
+[Bm] Derrama tu [G]fuego y tu po[A]der
+[G] Actúa en [Bm]mí, actúa en [A]mí, actúa en mí
+
+[Em] Estás derra[Bm]mando la un[A]ción aquí (x4)
+`
+  },
+  {
+    id: 275,
+    titulo: "INUNDA ESTE LUGAR",
+    autor: "Anónimo",
+    categoria: "espiritusanto",
+    tonoOriginal: "G",
+    letra: `
+Intro: [Am] [C] [G] [D]
+
+[G] Tú eres la fuente de [D]vida que brota sin cesar
+[Am] Inunda este lu[C]gar, Espíritu Santo
+[G] Tú eres el río que [D]corre llevando vida donde no hay
+[Am] Inunda este lu[C]gar, Espíritu Santo
+
+[Em] Ven sobre nos[D]otros, llenar este lu[C]gar
+Con lluvia de [Am]gracia, Oh, oh [G]ven
+
+[G] Espí[D]ritu Santo, yo quiero can[Am]tar
+[C] Libre de todo y lleno de tu un[G]ción (x2)
+
+[Am] Derrama tu glo[C]ria, Derrama tu fuer[G]za
+Derrama tu po[D]der, Señor. (x3)
+`
+  },
+  {
+    id: 276,
+    titulo: "LENGUAS DE FUEGO",
+    autor: "Anónimo",
+    categoria: "espiritusanto",
+    tonoOriginal: "G",
+    letra: `
+Intro: [C9] [G/B] [D]
+
+[C9] Como en Pentecos[G]tés estamos aquí
+[C9] Todos ren[G/B]didos a tu a[D]mor
+[C9] Ven sobre nos[G/B]otros, Espíritu Santo
+[Am] Derrama tu [D]gloria aquí
+
+[C9] [G] [Em] [D]
+Ven, Santo Espíritu
+[C9] [G] [Em] [D]
+Derrama tus dones aquí
+[C9] Con lenguas de [D/F#]fuego
+[G] Reposa tu [C] glo[G/B]ria [Am]
+[D] ¡Oh ven!
+
+[Am] Llénanos con tu po[G/B]der, [D] Llénanos con tu unción
+[Am] Llénanos con tu a[G/B]mor, [D] Hasta desbor[C]dar [G/B] [D]
+`
+  },
+  {
+    id: 277,
+    titulo: "MIX DEL ESPÍRITU SANTO",
+    autor: "Anónimo",
+    categoria: "espiritusanto",
+    tonoOriginal: "E",
+    letra: `
+[E]Manda el fuego, Señor, [A] Manda el [Am]fuego, Señor
+[E]Y bautí[B7]zanos con tu po[E]der. (x2)
+
+[E]Señor libéranos, [A] Señor libéranos
+[B7]Señor libéranos con tu po[E]der. (x2)
+
+[E]El amor de Dios es maravi[B7]lloso. (x3)
+¡Grande es el amor de [E]Dios!
+
+[E]Tan alto que no puedo estar más [B7]alto que el
+[E]Tan bajo que no puedo estar más [B7]bajo que el
+[E7]Tan ancho que no puedo estar a[A]fuera de el
+[B7]¡Grande es el amor de [E]Dios!
+`
+  },
+  {
+    id: 278,
+    titulo: "SECUENCIA DEL ESPÍRITU SANTO",
+    autor: "Anónimo",
+    categoria: "espiritusanto",
+    tonoOriginal: "Am",
+    letra: `
+[Am]Ven, dulce [C]huésped del [Am]alma,
+[C]Descanso de [Am]nuestro esfuerzo.
+[C]Tregua en el [Am]duro trabajo,
+[C]Brisa en las [Am]horas de fuego,
+[C]Gozo que en[Am]juga las lágrimas,
+[C]Y recon[E]forta en los duelos.
+
+[Am]Ven, Espíritu [C]Santo de Dios,
+[Am]Mándanos tu luz.
+[F]Padre amoroso del [C]pobre,
+[Dm]Don, en tus dones es[E]pléndidos.
+[Am]Luz que penetra en las [C]almas:
+[Am]Te necesitamos.
+[F]Fuente del mayor con[C]suelo. Ven
+[Dm]Espíritu Di[E]vino.
+
+[Am]Entra hasta el [C]fondo del [Am]alma,
+[C]Divina [Am]luz y enriquécenos.
+[C]Mira el va[Am]cío del hombre
+[C]Si tú le [Am]faltas por dentro;
+[C]Mira el po[Am]der del pecado
+[C]Cuando no en[E]vías tu aliento.
+`
+  },
+  {
+    id: 279,
+    titulo: "SANTO ESPÍRITU",
+    autor: "Anónimo",
+    categoria: "espiritusanto",
+    tonoOriginal: "C",
+    letra: `
+Intro: [C] [F] [C] / [G] [C] [Am] [F] [C]
+
+[C]Santo espíritu ven, [G]santo espíritu ven a [C]mi
+[Am]Santo espíritu [F]ven a mi. (x2)
+
+[C]Ven espíritu santo, ven a lle[G]nar mi cora[C]zón
+[Am]Y enciende en el [F]fuego de tu amor.
+[C]Envía hoy tu espíritu. [G]Tu espíritu crea[C]dor
+[Am]Y renueva hoy la [F]tierra y tu cre[C]ación.
+
+[C]Oh dios que ilumi[G]naste mi cora[C]zón
+[Am]Conduce tu espí[F]ritu consola[C]dor.
+[C]Hazme más dócil [G]a tu inspira[C]ción
+[Am]Quiero gozar [F]siempre de bien y de tu con[C]suelo.
+
+[D]Santo espíritu ven, [A]santo espíritu ven a [D]mi
+[Bm]Santo espíritu [G]ven a mi. (x2)
+`
+  },
     // --- SECCIÓN: CANTOS DE Salida ---
     
   {
@@ -5410,25 +5707,6 @@ Dando vueltas... [E]SE ACABÓ.
 `
   },
   {
-    id: 255,
-    titulo: "EL ROCK DEL ESPÍRITU",
-    autor: "Anónimo",
-    categoria: "alabanza",
-    tonoOriginal: "D",
-    letra: `
-[D]Es como un río, es la [G]lluvia,
-[A]Es un soplo, es el [D]fuego... ¿Qué es?,
-[A]Es el Espíritu de Dios que quiere ac[D]tuar. (x2)
-
-[D]Ay va bajando, va cayendo,
-[G]Va soplando, va ardiendo,
-[A]Es el Espíritu de Dios que quiere ac[D]tuar.
-
-[D]Bajando en ti, [G]Cayendo en ti,
-[A]Soplando en ti, [D]Ardiendo en mí. (x2)
-`
-  },
-  {
     id: 256,
     titulo: "ESTAMOS DE FIESTA CON JESÚS",
     autor: "Anónimo",
@@ -5587,23 +5865,6 @@ Mi mano está llena [D]De su [D7]bendición.
 `
   },
   {
-    id: 263,
-    titulo: "PENTECOSTÉS DÍA DE FIESTA",
-    autor: "Anónimo",
-    categoria: "alabanza",
-    tonoOriginal: "G",
-    letra: `
-[G]Pentecostés día de fiesta, Pentecostés día de [G7]gozo.
-[C]Pentecostés día de la [G]Iglesia, [D7]De la Iglesia del Se[G]ñor. (x2)
-
-[D7]Ya se derrama, ya se derrama,
-[G]Ya se derrama el Espíritu de Dios. (x2)
-
-[D7]Ya se siente, ya se siente...
-[G]Aleluya, aleluya, Aleluya al Espíritu de Dios.
-`
-  },
-  {
     id: 264,
     titulo: "SI EN VERDAD ERES SALVO",
     autor: "Anónimo",
@@ -5632,23 +5893,6 @@ Si En Verdad Eres Salvo di A[G]mén, -Amén-
 [B7]Las manos arriba, las manos a[E]bajo, Y alabando a Dios.
 
 [E]La cabeza a un lado... [E]La cadera a un lado...
-`
-  },
-  {
-    id: 266,
-    titulo: "YA LLEGÓ, YA LLEGÓ",
-    autor: "Anónimo",
-    categoria: "alabanza",
-    tonoOriginal: "G",
-    letra: `
-[G]Ya llegó, ya llegó, El [D7]Espíritu Santo ya lle[G]gó. (x2)
-[D7]Lo siento en las manos, lo siento en los pies,
-[G]Lo siento en el alma y en todo mi ser. (x2)
-
-[D7]Aquél que caminó sobre las [G]aguas. (x2)
-[D7]Está aquí, está a mi [G]lado. (x2)
-[D7]Como un rayo, cayendo sobre [G]mí. (x2)
-[D7]Me quema, me quema, me quema, [G]me quema, me quema, me quema. (x2)
 `
   },
   {
@@ -6134,4 +6378,4 @@ Resuci[A]tó! [E/G#] [F#m] [D]
 Resuci[A]tó!`
 },
 ];
-// último id:245
+// último id:279
