@@ -8706,7 +8706,7 @@ Por la [Dm]noche i[D7(4/9)]gual.
     letra: `
 Capo 4\n
 (Verso 1-Walace) 
-[C] [G] [Em] [D]
+[C] [G] [Em] [D] 
 Estoy con el agua al cuello,
 me hundo en un mar sin fin.
 No hay suelo bajo mis pies cansados,
@@ -8726,10 +8726,10 @@ y yo no sé porqué
 ¿Callaré lo que no hice?
 Tú conoces mi necedad,
 tú has visto lo que escondí.\n
-(Pre-Coro, Jessica) [Am] [C] [G]
+(Pre-Coro, Jessica) [Am] [C] [G] 
 Y si caigo, no dejes que tro[C]piecen por mi error,
 no dejes que se aver[G]güencen los que esperan tu amor.\n
-(Coro, apoyo todos) [Em] [C] [G] [D]
+(Coro, apoyo todos) [Em] [C] [G] [D] 
 Estoy cansado de gritar,
 y mi alma se desgasta en soledad.
 Pero sigo aquí, hablando con el cielo gris,
