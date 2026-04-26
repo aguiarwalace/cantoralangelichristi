@@ -3185,8 +3185,6 @@ Final:
 [C] [G/B] [Am] [C/G] [D] `
 },
     // --- SECCIÓN: CANTOS DE Reflexión ---
-
-  
   {
     id: 174,
     titulo: "ALMA MISIONERA",
@@ -4565,6 +4563,1041 @@ sin ju[G]garse la vida, sin gas[G7]tarla por nada.
 `
   },
     // --- SECCIÓN: CANTOS DE Adoración ---
+     {
+    id: 337,
+    titulo: "AL CONTEMPLARTE EN LA CRUZ",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "F",
+    letra: `
+Intro: [Dm] [Bb] [F] [C]
+
+[F]Siendo Dios [C]Fuiste tan humilde
+[Gm]Hombre tu te hiciste [C]Traicionado y rechazado
+[F]Siendo Dios [C]Tomaste mi lugar
+[Gm]Cargaste en tus hombros [C]mis heridas y pecados
+
+[Gm]Fue por mi, [Dm]Te entregaste
+[Bb]Para darme [Gm]vida nueva [C]Y rescatarme
+
+[F]Al contemplarte en la Cruz [C]Al contemplar tanto amor
+[Gm]No puedo más que Adorarte [Am]Y mi vida [Bb]entre[C]garte
+[F]Al contemplarte en la Cruz [C]Al contemplar tanto amor
+[Gm]No puedo más que Adorarte [Am]Y mi vida [Bb]entre[C]garte, [F]Jesús.
+
+[F]Siendo Dios [C]Tomaste mi lugar
+[Gm]Cargaste en tus hombros [C]mis heridas y pecados
+[Gm]Fue por mi [Dm]Te entregaste
+[Bb]Para darme [Gm]vida nueva [C]Y rescatarme. [1], [2], [3]
+`
+  },
+  {
+    id: 338,
+    titulo: "ANÍMATE",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+Intro: [C] [C] [F/G]
+
+[C]Ya confese mi fe ante ti,
+Hoy me revelaste el camino que ele[F]gí, [G]
+[C]Que es renunciar a todo lo que un día fui,
+Cargar mi cruz y seguirte hasta el [F]fin. [G]
+
+[C]Y en esta vida junto a ti,
+Me ensañas que no solo se trata de [F]mi, [G]
+[C]Me invitas a que abra el corazón,
+A que pierda el miedo a tu per[F]dón. [G]
+
+[Am]Oh anímate, a [F]salir de ti, [C]a morir a ti, [G]oh anímate,
+[Am]Cargaremos la [F]cruz, [C]y te seguire[G]mos, oh anímate,
+[Am]A perderte en [G]mí, una y otra vez,
+[Am]Oh [F]anímate, [C]a que tu vida sea mi [Am]respuesta [G]de [C]amor. [4], [5], [6]
+`
+  },
+  {
+    id: 339,
+    titulo: "APÓSTOL DE TU LUZ",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+Intro: [C] [F] [G] (x2)
+
+[C]No me dejes [F]solo en este cami[G]nar,
+[C]Sin tu [F]mano yo no sé [G]andar.
+[Am]Quiero ser dócil a [G]ti, [F]señor yo estoy [C]dispuesto,
+[F]Le digo si a tu en[G]vío [C]ya quiero empezar a andar,
+[F]decirle al mundo que estas vivo,
+[G]que el camino y la [Am]ver[Dm]dad eres tu,
+[G]quiero ser apóstol de tu [Am]luz. [G] [F]
+
+[F]bajo tu luz mi [G]fe no tiene [C]lími[Am]tes,
+[F]bajo tu luz mi [G]fe no tiene [C]lími[F]tes. [G]
+
+[C]Mi voz se ha [F]vuelto un eco de tu [G]voz,
+[C]Y en cada [F]paso encuentro una ra[G]zón para seguir,
+[Am]para nunca du[G]dar, [F]yo sé que hablas por [C]mi,
+[F]Me has dado fuerzas para [G]poder cam[C]biar,
+[F]Sé que mis ojos te pueden reflejar,
+[G]señor yo estoy [Am]dis[Dm]puesto. [6], [7], [8], [9]
+`
+  },
+  {
+    id: 340,
+    titulo: "AQUÍ ESTOY YO",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "G",
+    letra: `
+Intro: [G] [C]
+
+[G]No quiero perder [Em]Las cosas que me quedan por hacer,
+[C]Las cosas que me quedan por vi[G]vir en ti.
+[G]No quiero olvidar [Em]Las cosas que planeaste para mi,
+[C]Los sueños que me diste quiero [G]ver cumplir.
+
+[D]Aquí estoy yo, [C]listo para lo que [G]quieras,
+[D]Aquí estoy yo, [C]en tus manos mi [G]vida entera.
+[Em]Úsame [D]Señor, [C]úsame [G]Señor,
+[D]Aquí es[C]toy yo. [G]
+
+[G]Listo quiero estar, [Em]Los dones que me diste voy a usar,
+[C]Los años que me has dado vi[G]viré Por ti.
+[G]Voy a conquistar [Em]La tierra que me diste sin dudar,
+[C]Viviré por [G]ti. [9], [10], [11]
+`
+  },
+  {
+    id: 341,
+    titulo: "BIENAVENTURADOS (Himno JMJ)",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "E",
+    letra: `
+[C#m7]Levanto mis [A2]ojos a los [E]montes, [D]¿Quién me ayu[A2]da[E]rá?
+[Bsus]La ayuda me [B]viene del Se[F#sus]ñor, [F#]por [A]Su gran com[B]pa[C#sus]sión. [C#]
+[C#m7]Aun cuando es[A2]tamos en el e[E]rror, [D]nos a[A2]braza con Su a[E]mor,
+[Bsus]con Su [B]sangre nuestro do[F#sus]lor [F#]al [A]fin se [B]sa[C#sus]na[C#]rá.
+
+[E]Bienaventura[B]dos los misericor[C#m7]dio[A]sos,
+[E]porque ellos alcan[Bsus]za[B]rán miseri[F#sus]cor[F#]dia. (x2)
+
+[C#m7]Si no perdo[A2]namos, ¿Quién ga[E]nará? [D]¿Quién puede soste[A2]nerse en [E]pie?
+[Bsus]¡Si Él nos per[B]dona, nosotros tam[F#sus]bién [F#]ha[A]gamos como [B]nuestro [C#sus]Dios! [C#]
+
+[C#m7]En la [A2]cruz Él nos re[E]dimió, [D]de la [A2]tumba resuci[E]tó.
+[Bsus]¡Jesucris[B]to es el Se[F#sus]ñor! [F#]¡Al [A]mundo hay que anun[B]ciar! [C#sus] [C#]
+
+[A]Hay que soltar el [B]miedo y ser [C#m]fiel, [A]con la mi[E]rada en Su [B]amor, [A]
+Confiar por[B]que Él resuci[C#m]tó. [A] [B]¡Vive el Se[C#sus]ñor! [C#] [11], [12], [13], [14], [15]
+`
+  },
+  {
+    id: 342,
+    titulo: "CONFESIÓN DE FE",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+Intro: [F] [G] [C] [Am] [G] [C]
+
+[F]Muchas cosas me han con[G]tado de [C]ti,
+[Am]Tus milagros y lo que hi[G]ciste por [C]mi,
+[F]Sin embargo no supe de [G]ti se[C]ñor,
+[Am]Hasta que por fin tu a[G]mor me conquis[C]to.
+
+[F] [G] [C] Ohh [Am] oohh [G] oohh [C] ooohh
+
+[F]Y si pre[G]guntas [C]¿quién eres tu? [Am]Quien [G]es Je[C]sús,
+[F]Es quien me [G]salva, me da [C]vida y paz,
+[Am]El hijo de dios [G]vivo, mi camino y mi ver[C]dad.
+
+[F]Es esta mi confe[G]sión de fe se[C]ñor,
+[Am]Se que habitas en mi [G]cora[C]zón,
+[F]Me has dado un nombre que [G]marca mi mi[C]sión,
+[Am]Y quieres que se cumpla en [G]mi tu plan de a[C]mor. [15], [16], [17]
+`
+  },
+  {
+    id: 343,
+    titulo: "DÉJATE",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+[C]Hace ya tiempo que comprendí, [F]Tú me bus[G]caste en todas [C]partes,
+[Am]La llama que un día empe[Em]zó a fallar, [F]Tú no de[G]jaste se apagara.
+[C]Yo lo contemplo y digo ¿qué será?, [F]Será que es[G]taba equivo[C]cado,
+[Am]Y he descubierto que este [Em]loco está, [F]De amor mu[G]riendo porque le ame.
+
+[C]Yo gozo al ver que quieres re[G]gresar, [Am]Déjame [Em]que Yo te levante,
+[F]Señor no ves que quiero re[C]gresar, [Dm]Pero me [G]pesa mi pasado.
+[C]Acaso pides lo que no sé [G]dar, [Am]El tiempo me ha lim[Em]piado el alma,
+[F]Tanto he besado el suelo ¿no lo [C]ves?, [Dm]Mis manos se han ce[G]rrado tanto.
+
+[Am]No te preocupes no te deja[Em]ré, [F]Mi vida [G]cambio por la [C]tuya,
+[F]Y tú me [G]dices… [C]Déjate… [F]No apagues [G]ya más esta ho[C]guera,
+[F]Que Yo en[G]cendí en tu cora[C]zón. [18], [19], [20]
+`
+  },
+  {
+    id: 344,
+    titulo: "DELANTE DEL REY",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "A",
+    letra: `
+[A]Ven Se[E]ñor Jesús,
+[F#m]El corazón ya late fuerte al [C#m]verte a ti,
+[D]tu gracia quiero en mi [A]vida recibir,
+[Bm]sin tu bendición Señor, no [E]se vivir.
+
+[A]Ven Se[E]ñor Jesús,
+[F#m]Mirar el pueblo entorno a ti me [C#m]hace acordar,
+[D]la multitud que aguar[A]daba tu llegar,
+[Bm]Ven Oh Santo de Israel, pasa también [E]en este lugar.
+
+[D]Es el [E]Rey, y al [C#m]frente nuestro es[D]tá, es fe[D]liz quien le a[E]dora,
+[D]Es Je[E]sús el gran ma[C#m]estro y [D]Rey, que a[D]quí, muy cerca se deja encon[Bm]trar,
+delante del Rey de [E]Reyes, las rodillas se han de do[A]blar. [20], [21], [22], [23]
+`
+  },
+  {
+    id: 345,
+    titulo: "DIGNO DE ALABAR",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "A",
+    letra: `
+[A]Levanto mis manos, [F#m]Cierro mis ojos,
+[D]Para proclamar tu [E]nombre, [A]Dios de poder. (x2)
+
+[D]Digno de ala[E]bar, señor, [F#m]Gloria y ma[E]jestad, sean [A]a ti,
+[D]Rey de la cre[E]ación, [F#m]Por [E]siempre [A]Ameeeen.
+
+[A]Levanto mis manos, [F#m]Cierro mis ojos,
+[E]Para proclamar tu nombre, [F#m]Dios [E]de podeeeee[A]er.
+
+[D]Digno de ala[E]bar, señor, [F#m]Gloria y ma[E]jestad, sean [A]a ti,
+[D]Rey de la cre[E]ación, [F#m]Por [E]siempre [A]Ameeeen. [23], [24], [25]
+`
+  },
+  {
+    id: 346,
+    titulo: "DIME PADRE",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Bm",
+    letra: `
+Intro: [Bm]
+
+[Bm]Dime Padre ¿Qué po[Em7]demos hacer? Tus hijos se [A]pierden y no en[F#]tiendo por [Bm]qué, [A]
+[Bm]Dime Padre, cada [Em7]día se alejan más y de ver[A]dad que no he [F#]hecho nada mal,
+[Bm]pero curan sus he[A]ridas con lo que no les cu[G]rará.
+
+[G]Les di el Mandamiento del a[Bm]mor me crucificaría mil veces [A]más,
+[D]pero ellos [F#]huyen de su cre[G]ador y de su eterna felicidad.
+[G]Y es que los hemos hecho [Em]tan libres que a veces me duele pen[A]sar,
+[F#]que este don, que este regalo lo utili[Bm]cen para el mal.
+
+[Bm]Dime Padre, ¿Cómo a [Em7]nuestra familia reunir?,
+[A]les ofrecemos la eter[F#]nidad, [Bm]pero pre[A]fieren huir.
+[Bm]Dime Padre, ¿Cómo ablan[Em7]dar su corazón?
+[A]¿Cómo quitar esta co[F#]raza formada por el do[Bm]lor? [25], [26], [27], [28], [29], [30]
+`
+  },
+  {
+    id: 347,
+    titulo: "EL CIELO EN LA TIERRA",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "G",
+    letra: `
+[G]En el silencio, [D]Espero respuestas, [Em]Señor háblame, [C]Señor háblame.
+[G]Aquí en tu casa, [D]Veo tu belleza, [Em]Y tu corazón, [C]Y tu corazón.
+
+[G]Es el cielo en la tierra, Aquí veo tu gloria,
+[D]Regalo de amor, de tu corazón,
+[Em]Es el cielo en la tierra, este es mi lu[C]gar. (x2)
+
+[G]Mi alma sedienta, [D]De misericordia, [Em]Necesita de ti, [C]Señor ven a mi.
+[G]Pobre te busco, [D]humilde me acerco, [Em]A ti oh Jesús, [C]a tu inmenso amor.
+
+[G]Maestroooo, [D]que bueno, [Em]Que bello, que bello estar a[C]quí (x3) [30], [31], [32]
+`
+  },
+  {
+    id: 348,
+    titulo: "EL QUE MUERE POR MI",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "D",
+    letra: `
+[D]Todo empezó en una [G]cruz, [Bm]Donde un hombre murió y un [A]Dios se entregó.
+[D]Silenciosa la muerte lle[G]gó, [Bm]En un fuerte grito el [A]padre nos acogió.
+[Bm]Y mientras lloraban su [G]suerte, [D]Él sonreía ven[A]ciendo a la muerte.
+
+[D]Siendo carga pesada, pro[G]fesor y aprendiz,
+[A]Entregó hasta su cuerpo en el [A]pan y en la [D]vid.
+[Bm]Desde en[G]tonces lo he visto cami[D]nar a mi [A]lado, [Bm]
+A ese [G]Dios que se hu[D]milla y [A]muere por [Bm]mí.
+Es la [G]barca en mi [D]playa, el [A]ruido del si[Bm]lencio,
+Que se [G]acerca a su [D]hijo y me a[A]braza fe[Em]liz,
+Que se [G]acerca a su [A]hijo y me abraza fe[D]liz.
+
+[D]Viendo un humilde cal[G]vario, [Bm]Con un rostro cansado, so[A]porta la cruz.
+[D]Y al verme rezando a sus [G]pies, [Bm]Se olvida de Él, me [A]toma en sus brazos. [32], [33], [34], [35], [36]
+`
+  },
+  {
+    id: 349,
+    titulo: "ENCONTRÉ MI LUGAR",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+[C]A Tus pies, [Am]Soy feliz, [F]Jesús mi Rey, [G]Vivo por Ti.
+[C]Encontré, [Am]Mi lugar, [F]Tu corazón, [Dm]Es mi hogar.
+[Am]Bendita la hora en [G]que me acer[Dm]qué,
+[Am]Bendito el momento en [G]que Te escu[Dm]ché,
+[Am]Que hermoso llamado, que [G]hermosa Tu [Dm]voz,
+[Am]Me Llama mi Amado, y [C]yo te [G]digo Señor:
+
+[F]Aquí es[Am]toy, [G]A ofrecerme, [F]Aquí es[Am]toy, [G]A entregarme,
+[Dm]Aquí es[Am]toy, [G]A servirte, [F]Aquí es[C]toy, [G]A adorarte.
+
+[Dm]Aquí está mi tiempo, [Am]Aquí está mi his[G]toria,
+[Dm]Aquí está mi vida, [Am]A Tú disposi[G]ción. (x2)
+[Dm]Mi vida es [Am]tuya Se[G]ñor. [36], [37], [38]
+`
+  },
+  {
+    id: 350,
+    titulo: "ES EL SEÑOR",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm]Confiaré y [Bb]no temeré, [F]Porque él es mi fuerza [C]Y mi protección.
+[Dm]Aunque oscuros, [Bm]Sean los cielos,
+[Gm]O fuerte sople el viento, [C]Dios tiene el control.
+
+[Bm]Es el señor [F]Quien conduce mi barca [C]En medio de tormentas, [Dm]En medio de las aguas.
+[Bm]Es el señor [F]De la tierra y los mares [C]Quien tiene el timón, [Dm]Quien tiene el control.
+
+[Dm]Y yo descan[Bb]saré en su volun[F]tad... [C]
+[Dm]Es el [Bb]Señor... [F] [C] [39], [40]
+`
+  },
+  {
+    id: 351,
+    titulo: "ESTOY A LA PUERTA Y LLAMO",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+Intro: [Am] [G] [Am] [G]
+
+[C]Estoy a la [Em]puerta y [F]llamo, [C]
+[Em]Esperando a [F]que me [Dm]abras, [G]Ábreme que quiero entrar,
+[F]Que estoy a la [G]puerta y [F]llamo. [Am] [G]
+
+[C]El corazón que [Em]te he [F]dado, [C]
+[Em]Es mo[F]rada que yo [Dm]anhelo, [G]Pero es tan digno y sagrado,
+[F]Que estoy a la [G]puerta y [F]llamo. [Am] [G]
+
+[C]Si me abres entra[G]ré, [Dm]Y yo ce[Am]naré [G]con[F]tigo,
+[C]Si me abres entra[G]ré, [Dm]Y yo seré [Am]tu [G]me[F]jor amigo. [40], [41]
+`
+  },
+  {
+    id: 352,
+    titulo: "ETERNO VIAJERO",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "D",
+    letra: `
+[D]Redes al [C]hombre sol [G]bajo, [A]cierto extraño se em[D]barcó, [C] [G] [A]
+[D]con su mi[C]rada a lo [G]largo, [A]con el viento se ale[D]jó. [C] [G] [A]
+[D]Después de [C]haber nave[G]gado, [A]solitario se encon[D]tró, [C] [G] [A]
+[D]muy pocos [C]peces que[G]daron, [A]atrapados en su a[D]mor. [C] [G] [A]
+
+[A]Quiero ir con[G]tigo, Espé[A]rame señor,
+[G]Aun no ter[A]mino, espera por fa[G]vor,
+[A]Escucha el canto que nace de mi [A7]voz.
+
+[D]Te quie[G]rooo[A]oooo, [G]señor yo te [D]quiero, [G] [A] [G]
+[D]Te quie[G]rooo[A]ooo, [G]eterno via[D]jero. [G] [A] [G]
+
+[D]Con su mi[C]rada de [G]niño, [A]izó velas y mar[D]chó, [C] [G] [A]
+[D]y un ave [C]vino y me [G]dijo, [A]que en su rostro había do[D]lor. [C] [G] [A]
+[D]Es noche y [C]duerme can[G]sado, [A]otro día termi[D]nó, [C] [G] [A]
+[D]tal vez ma[C]ñana a su [G]lado, [A]pescador me vuelva [D]yo. [C] [G] [A]
+`
+  },
+  {
+    id: 354,
+    titulo: "HURACÁN",
+    autor: "Hakuna",
+    categoria: "reflexion, adoracion",
+    tonoOriginal: "B",
+    letra: `
+Intro: [G] [D] [Em] [C]
+
+[G]Me he hecho tantas pre[D]guntas [Em]intentando enten[C]der,
+[G]Me he lanzado a bus[D]carte [Em]sin saberte [C]ver.
+[G]Me he asomado al a[D]bismo, [Em]me he atrevido a sal[C]tar y ca[G]er. [D] [Em]
+
+[G]Y un hura[D]cán [Em]rompe[C]rá
+[G]el cielo desde mi gar[D]ganta gri[C]tándote:
+¿[G]dónde estás [D]cuando me haces [C]falta?
+
+[G]Me han dado res[D]puestas [Em]pero no sé qué ha[C]cer,
+[G]He prometido se[D]guirte [Em]sin enten[C]der.
+[G]Y hay un eco en lo [D]hondo [Em]que me empuja hacia [C]ti
+y aunque [G]sea sin sen[D]tirte te busca[Em]ré.
+
+[G]Estoy aquí, soy el si[D]lencio, [Em]Estoy aquí, soy este [C]viento,
+[G]Estoy aquí, soy este [D]trozo de [C]pan.
+[G]Estoy aquí, soy tu la[D]mento, [Em]Estoy aquí, soy este [C]eco,
+[G]Estoy aquí, soy este [D]trozo de [C]pan.
+`
+  },
+  {
+    id: 355,
+    titulo: "JESUS CARPINTERO",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "E",
+    letra: `
+Intro: [A] [E] [A] [B] (x2)
+
+[A]En el bosque per[E]dido de mi corazón,
+[A]No hay camino ni sen[E]tido ni una dirección.
+[A]Me has amado siempre y [E]yo te di la espalda,
+[F#m]Ahora soy un madero en medio de la [B]nada.
+
+[A]Vacío sin forma [E]sólo y sin amor,
+[A]Astillado y malhe[E]rido invadido por el temor.
+[A]Tú me tomas en tus [E]manos, clavas tu mirada,
+[F#m]Me renuevas todo, vuelve la espe[B]ranza.
+
+[E]Tómame, Conviérte[G#m]me como [Am]tú me pen[A]saste,
+[B]Cómo tú me soñaste.
+[E]Tallame, Transfórma[C#m]me [Am]vuelve hacer que yo [A]crea,
+[E]Con tus manos mol[C#m]dea, [E]Jesús Carpintero.
+
+[F#m]Y ahora que estoy con[C#m]tigo [B]ya no hay nada que me pueda derrumbar,
+[F#m]Ahora eres mi ca[C#m]mino [B]encontré un sentido para caminar,
+[F#m]Invítame a tu [C#m]barca [B]ahora yo ya estoy listo para nave[A]gar.
+`
+  },
+  {
+    id: 356,
+    titulo: "LLEGAS TU (Pedro)",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Bb",
+    letra: `
+Intro: [Bb] [F/A] [Gm] [Bm] [Eb] [Bb/D] [Eb] [F] (x2)
+
+[Bb]Tú me has en[F/A]viado mar a[Gm]dentro [F]
+[Eb]Aun sa[Bb/D]biendo mi fragili[F]dad.
+[Bb]Yo no sé si [F/A]es el mo[Gm]mento [F]
+[Eb]Pero tú co[Bb/D]noces mi ver[F]dad.
+
+[Bb]Y este viaje [F/A]yo lo em[Gm]prendo [F]
+[Eb]Confi[Bb/D]ando en que tú me guia[F]rás.
+[Gm]Pero azota el [F]viento en [Eb]mí, [Gm]no te en[F]cuentro a[Eb]quí.
+
+[Bb]Llegas [F]Tu, me le[Gm]vantas Se[Dm]ñor,
+[Eb]Pues mi poca fe no me [F]deja ver [Eb]tu milagro en [F]mí.
+[Bb]Ven a [F]Mí [Bb]y no temas más [Eb]pues estoy aquí,
+[Dm]junto a ti cami[Eb]nando cru[F]cemos el [Bb]mar.
+
+[Bb]Esa voz que [F/A]calma el [Gm]viento [F]
+[Eb]Es la [Bb/D]misma que calma mi [F]mar.
+[Bb]Y si clavo la mi[F/A]rada en [Gm]ti [F]
+¿[Eb]Cómo puedo [Bb/D]ver la tempes[F]tad?
+`
+  },
+  {
+    id: 357,
+    titulo: "LO PEQUEÑO",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "D",
+    letra: `
+Intro: [C] [Am] [F] [G] (Capo 2)
+
+[C]Gracias señor, por sem[Am]brar en mi interior
+[F]Regalando tu palabra [G]Que renueva el corazón.
+[C]Quiero recibir, tu se[Am]milla en mi para que [F]crezca, y permanezca.
+
+[Am]Y transforme mi [F]ser en un nuevo amanecer
+[C]Dejando a[G]trás Toda oscuridad.
+
+[C]Gracias señor por ha[Am]blar al corazón
+[F]Y enseñar que en lo pe[G]queño Esta la clave de tu reino.
+[C]Quiero recibir, tu [Am]gracia en mi para que [F]crezca y permanezca.
+
+[Am]Esa peque[F]ñez, que encierra inmensidad
+[C]Esa peque[G]ñez, que todo puede transformar.
+`
+  },
+  {
+    id: 358,
+    titulo: "ME RINDO ANTE TI",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Ab",
+    letra: `
+[Ab]Cuántas vir[Cm]tudes han [Bb]de ador[Ab]nar
+[Cm]Mi cora[Bb]zón al consa[Ab]grarse en el altar.
+[Fm]Al Dios indefenso que ha na[Bb]cido en un portal
+[Fm]Y ha muerto en la cruz para las [Bb]almas salvar.
+
+[Gm]¿Será po[Ab]sible tanto amor para mí?
+[Fm]¿Tendré yo el [Fm7]valor para a[Bb]marte solo a ti?
+
+[G]Me rindo ante [Ab]ti, Je[Bb]sús, [Cm7]me rindo ante ti.
+[Ab]Me rindo ante [Bb]ti, Je[Cm]sús, me rindo ante ti.
+[Ab]Con todo mi [Bb]ser y mi a[Eb]mor, [Bb]Te con[Cm]sagro el cora[Bb]zón,
+[Ab]Me rindo ante [Bb]ti Mi dulce Je[Eb]sús, me rindo ante ti.
+`
+  },
+  {
+    id: 359,
+    titulo: "NECESITO DE TU AMOR",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Ab",
+    letra: `
+Intro: [G] [C] [G] [C] (Capo 1)
+
+[G]Una vez más, tu pa[C]labra me enseña,
+[G]Una vez más, en [C]ella te revelas,
+[G]Una vez más, puedo escu[C]char tú voz que me [G]llama a toda [C]hora,
+[G]Porque quieres, re[C]galarme tu amor.
+
+[G]Siempre es[C]tas, bus[G]cando mi [C]alma
+Sin mi[G]rar, cuantas [C]horas tra[G]baja, [C]
+Por qué a [G]ti no te im[C]porta el tiempo,
+Tu bon[G]dad supera [C]todo porque quieres para [G]mí el [C]cielo.
+
+[G]Hoy vuelvo a ti con mi humani[C]dad,
+[G]Dejo atrás mi justicia y mi ver[C]dad.
+[Am]Quiero abrir mi cora[G]zón
+[F]A esta despropor[C]ción del amor de [G]Dios.
+[C]Necito de tu amor, se[G]ñor, [C]Necesito de tu amor, se[G]ñor.
+`
+  },
+  {
+    id: 360,
+    titulo: "NOCHE",
+    autor: "Hakuna",
+    categoria: "adoracion",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm]Por tu iglesia que te es[A#]pera a oscuras
+[F]Por tu pueblo que te [Am]reza aguardando la aurora,
+[Dm]Te ro[A#]gamos, [F]te ro[Am]gamos.
+
+[Dm]Por las naciones paganas, que [A#]tienen sed de ti sin sa[F]berlo
+[Am]Ten piedad, ten piedad.
+[Dm]Por los pueblos oprimidos por el [A#]totalitarismo, [F]Y la opre[Am]sión de la mentira.
+
+[Dm]Por aquellos perseguidos por tu [A#]nombre Que se [F]ocultan para orar
+[Am]Y aquellos extraídos de su hogar.
+[Dm]Por sus perseguidores, ce[A#]gados por el odio,
+[F]Perdonalеs Padre, [Am]no saben lo que hacen.
+
+[A#]Kyrie E[F]leison, [Am]Kyrie E[A7]lei[A]son, [Dm]
+[A#]Kyrie E[F]leison, [Am]Kyrie E[A7]lei[A]son, [Dm]Kyrie E[A7]lei[A]son.
+`
+  },
+  {
+    id: 361,
+    titulo: "NOMBRE SOBRE TODO NOMBRE",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Am",
+    letra: `
+Intro: [Dm] [G] [C] [Am] (x4)
+
+[Am]Cristo a pesar de su condi[G]ción Divina
+[Am]Por amor se despren[G]dió de su rango
+[Am]Pasando por [G]uno de [C]tantos [D]Y tomó condi[F]ción de es[G]clavo.
+
+[Am]Por eso Dios lo levan[F]tó Sobre el [C7]mundo en[G]tero,
+[Am]Por eso Dios le conce[F]dió El [C]nombre sobre [G]todo nombre. (x2)
+
+[Am]Al nombre de Jesús [F]Toda lengua pro[G]clame
+[Am]Cristo es el Se[F]ñor [G]Para gloria del Padre.
+[Am]Toda rodilla se [G]doble en el [C]Cielo [D]En el cielo, [F]tierra y a[G]bismo.
+
+[Dm]Nombre sobre [G]todo nombre [C]Y Salva[Am]dor,
+[Dm]Nombre sobre [G]todo nombre [C]Mi Reden[Am]tor,
+[Dm]Nombre sobre [G]todo nombre [C]Sobre [E7]todo, te levan[Am]tó.
+`
+  },
+  {
+    id: 362,
+    titulo: "PAJARITO",
+    autor: "Hakuna",
+    categoria: "adoracion",
+    tonoOriginal: "E",
+    letra: `
+[E]Pajarito [B]no sabe volar [C#m]Y Se pregunta [A]Cuando podrá despegar,
+[E]El quisiera [B]ser una águila [C#m]Pero comprende lo que [A]puede dar.
+
+[E]Dime que mis[C#m]terio es este [A]Que, aunque sea peque[E]ñito Te fijas en [B]él
+[C#m]Y aunque sea dis[A]traído [E]No lo moverán de [B]su lugar.
+
+[C#m]Quiere seguir mirando Al di[A]vino sol [E]Que le brinda su a[B]mor.
+[C#m]Nada podrá asus[A]tarlo Ni el viento ni la [E]lluvia Ni nada que sa[B]cuda.
+[C#m]Más allá de la nubes Os[A]curas Sigue bri[E]llando Su sol de ve[B]rano.
+[C#m]Pajarito Sabe muy [A]bien Que le cuida El mo[E]mento para despe[B]gar.
+`
+  },
+  {
+    id: 363,
+    titulo: "PERDONAR DE CORAZÓN",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+[C]Cuantas veces mi humani[C]dad [C]No me deja procla[F]mar tu ver[G]dad.
+[C]Cuantas veces no hable de [C]ti [F]Cuando frente a mi her[G]mano no me compade[C]cí.
+
+[C]Hoy me enseñas, que hay que perdonar [C]Y no importa, la cantidad,
+Si no [F]ser como tú Que tanto a[G]maste que te [C]diste en la cruz.
+
+[F]Yo quiero [G]ser, como tú, [F]Quiero que mi vida sea un reflejo de tu [G]luz.
+[F]Quiero de tu [G]paz, en mi inte[Em]rior [Am]
+[F]Para ver a mi hermano y perdo[G]nar de cora[C]zón. (x2)
+`
+  },
+  {
+    id: 364,
+    titulo: "POR EL RESTO DE MIS DÍAS",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "F",
+    letra: `
+Intro: [F] [G] [C]
+
+[F]A partir de este mo[G]mento una vida comen[C]zamos,
+[F]por el resto de mis [G]días estaré junto a tu [C]lado.
+[F]una alianza e[Em]terna de a[Am]mor [F]que nos une y nos ben[G]dice desde [C]hoy.
+
+[F]Compartiendo [G]día a día eres mi feli[C]cidad,
+[F]y aunque estés a la dis[G]tancia en mi mente siempre es[C]tás,
+[F]hoy decido a[Em]marte por la eterni[Am]dad, [F]mi amor por ti no [G]perece[C]rá.
+
+[F]Eres mi [G]luz, mi inspira[C]ción, [F]el re[G]galo que [C]llega del cielo,
+[F]Y que llena de ale[Em]gría mi [Am]cora[F]zón, [G]mi cora[C]zón.
+`
+  },
+  {
+    id: 365,
+    titulo: "PORQUE TE AMO",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Bm",
+    letra: `
+[Bm]Hoy que te veo a[G]sí [D]No puedo más que mi[A]rarte con dulzura y su[Bm]frir contigo,
+[G]Quiero que sepas que [D]siempre estado a tu lado, [A]Lo que has llorado lo he llo[Bm]rado tam[G]bién. [D] [A]
+
+[Em]Y date cuenta que tu sole[A]dad, que tu incompren[Bm]sión [G]Han sido [A]mías también,
+[Em]que ningún hombre por más que [A]amo Se hubiera entre[Bm]gado al do[G]lor, como [A]yo por ti.
+
+[Bm]Porque te aaa[G]moo, y fue por a[D]mor que yo te [A]cree, [Bm]
+[G]Mírame en la cruu[D]zz, no hay nada que yo no [A]haga por [Bm]ti.
+
+[Bm]Déjame entrar en tu [G]vida [D]quiero vendar [A]tus heridas,
+[Bm]Traigo las mías para cu[G]rar las tuyaaa[D]s Pues vengo hacer [A]mío todo tu do[Em]lor.
+`
+  },
+  {
+    id: 366,
+    titulo: "QUE BIEN SE ESTA AQUÍ (Transfiguración)",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "G",
+    letra: `
+Intro: [C] [D]
+
+[Am]Que bien se [D]está aquí, señor,
+[G]No hay otro lu[D]gar donde es[Em]tar mejor.
+[A]Tus manos nos guían, [C]Tu amor nos protege, [D]Confiamos en [G]ti. (x2)
+
+[C]Seremos tus [D]manos Para cons[G]truir un mundo nuevo,
+[C]Seremos tu [D]boca Para no ca[G]llar la verdad,
+[C]Seremos tus [Bm]ojos para mi[A]rarnos con ternura,
+[Am]Y tú miseri[C]cordia Para escu[F]char sin juz[D]gar…
+`
+  },
+  {
+    id: 367,
+    titulo: "QUÉ BIEN SE ESTÁ AQUÍ",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "A",
+    letra: `
+[A]Qué bien se está aquí [D]en tu presencia
+[Bm]Glorioso por [E]siempre Señor
+[A]Qué bien se está aquí [D]a tu lado
+[Bm]Sintiendo tu [E]paz y tu amor
+
+[D]Cuán hermoso [A]eres, Señor
+[D]Tú no tienes [A]comparación
+[D]Quiero [E]perma[F#m]necer [D]por siempre [E]en tu amor
+
+[D] [A] Con todo, [E] mi cora[F#m]zón [D] [A] te adoro, [E] Señor.
+[D] [A] Con todo, [E] mi cora[F#m]zón [D] [A] te alabo, [E] Señor.
+`
+  },
+  {
+    id: 368,
+    titulo: "QUEBRÁNTAME",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+Intro: [Am] [C] [F]
+
+[C]Oh, Señor mi Dios, te he buscado tanto tiempo [Am]y te encuentro hoy
+[F]Y te hablo en oración, pero en mi corazón [Dm]hay heridas sin sanar,
+[Fm]y en mi alma solo hay [G]oscuridad.
+
+[C]Quebrántame, toma lo que soy y [Am]Renuévame, hazme como tu, Señor
+[F]Transfórmame, [Dm]a tu imagen, [G]Quiero Renacer en ti.
+
+[C]Oh, Señor mi Dios, me abandono en tus manos [Am]pues de barro soy,
+[F]y tu eres el alfarero vuelve a hacerme oh, Dios [Dm]Reconstrúyeme Señor
+[Fm]Y mi ser proclama[G]rá tu salvación.
+`
+  },
+  {
+    id: 369,
+    titulo: "QUÉDATE SEÑOR (Oración de los esposos)",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+Intro: [C] [Am] [F] [C] [G]
+
+[C]Hoy venimos a tu casa [Am]A ofrendarte nuestro amor
+[F]Queremos que tu gracia nos inunde [C]Y consagre [G]nuestra u[Am]nión.
+[C]Te entregamos los que somos [Am]Te abrimos nuestro corazón
+[F]Ven entra a nuestra casa [C]Ven y [G]quédate, Señor.
+
+[G]Y danos [Am]de tu paz, [F]alumbra con tu luz, [C]bendice nuestro hogar,
+[G]ven y quédate, Jesús.
+[G]Y enciende en nuestro [Am]corazón [F]el fuego de tu amor
+[C]para que esta familia [G]sea un reflejo de tu luz.
+
+[C]Bendice a este esposo, [Am]bendice a esta esposa, [F]bendice a esta familia
+que hoy [C]te consa[G]gra su amor.
+`
+  },
+  {
+    id: 370,
+    titulo: "RECIBE MI CORAZÓN",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "D",
+    letra: `
+[D]En la intimidad de tu pre[G]sencia
+[D]Te rindo hoy mi ser y mi cora[G]zón
+[Bm]No hay lu[A]gar mejor, [G9]que a tus pies Se[D]ñor
+[D]En ti encuentro paz, encuentro a[A]mor.
+
+[Bm]Recibe mi [G]corazón, [D]Jesús mi buen [A]pastor
+[Bm]Recibe mi [G]oración, [D]te entrego hoy [A]mi cora[D]zón.
+`
+  },
+  {
+    id: 371,
+    titulo: "SENCILLAMENTE",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Creo sencilla[C]mente
+[G]Quiero disfrutar de la sere[B7]nidad del cre[Em]er,
+desligar el cre[C]er del sentir, [G]creo, mi Dios [B7]¡y basta!
+
+[Em]Te creo en tus misterios [C]sin entenderlos.
+[G]Te creo en mí y en el [B7]Pan Blanco,
+[Em]en el prójimo [C]y en la creación [G]sin verte en [B7]ningún lado.
+
+[Em]Creo, Señor, sencilla[C]mente [G]porque creer es con[B7]fiar.
+¡Y cómo me gusta cre[Em]erte [C]sintiendo [G]dudas! [B7] (x3)
+
+[Em]Digo que eres amor, [C]escucho que soy tu amado,
+[G]no siento y ¡qué más da! [B7]¡Te quiero y eso basta!
+`
+  },
+  {
+    id: 372,
+    titulo: "SI TIENES FE",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Bm",
+    letra: `
+[Bm]Cada noche o[A]ré, [F#m]no sé si alguien me escu[Bm]cho
+[Bm/A]En el alma una can[G]ción [Em]que nunca enten[F#m]dí
+No hay miedo en mi interior, aunque haya tanto que temer
+Moverás montañas porque en ti está el poder.
+
+[D]Habrá milagros [A]hoy si tienes [Bm]fe [F#m]
+[G]La ilusión [D]no ha de mo[A]rir
+[D]Un gran milagro [A]hoy al fin ve[Bm]ré [F#m]
+[G]Si tienes fe [Em]lo logra[A]rás, [Bm]podrás si tienes fe.
+
+[Em]Malos tiempos [A]son, [F#m]ni la oración ayu[Bm]da ya
+[Em/A]La esperanza puede [G#7]huir [Em]cual pájaro y vo[F#m]lar
+Mas hoy yo sigo aquí creciendo en gozo y en amor
+Con la fe y la devoción que nunca imagine.
+`
+  },
+  {
+    id: 373,
+    titulo: "SIEMPRE",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "A",
+    letra: `
+[A]Siempre, te he bus[D]cado a ti, [A]siempre, he so[D]ñado en ti
+[F#m]Y aunque mi con[E]ciencia, no enten[D]día cual era tu melo[A]día
+[F#m]Y mi igno[E]rancia me impe[D]día conocerte de verdad.
+
+[A]Tu fideli[E]dad me com[D]pleta mas
+[F#m]No quiero se[E]guir perdido en el [D]ruido del afán
+[A]Y no tendré [E]miedo aunque a [D]veces nos sepa hablar
+[F#m]Pues tu no me [E]hablas tú me [D]cantas [Dm]y me enseñas a bailar.
+
+[A]Nunca me sepa[D]raré de ti, [A]nunca mori[D]rá el amor por ti.
+`
+  },
+  {
+    id: 374,
+    titulo: "SIEMPRE TE AMARÉ",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "G",
+    letra: `
+[G]Te conozco desde [D]antes que nacieras
+[Em]se tu historia, co[C]nozco tus problemas
+[G]vi tus llantos y [D]tus alegrías, [Am]y aún así te [C]amo.
+
+[G]Te amo, no importa [D]lo que hagas
+[Em]Te amo, no importa [C]donde vayas
+[G]Te amo, no importa [D]lo que digas
+[Am]por siempre te [C]amo, y siempre te ama[G]ré.
+
+[Em]Nunca temas, [D]siempre esta[C]ré [D]
+[Em]y en mi mano [D]yo te sosten[C]dré.
+`
+  },
+  {
+    id: 375,
+    titulo: "SIENTO",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C#m",
+    letra: `
+[C#m]Cuántas veces me hablaron de felicidad
+[A]Que podía encontrarla en la fiesta, en el bar
+[E]Al principio lo disfrutaba, y pensaba que me sa[G#]ciaba
+[C#m]Pero en mí encontraba jamás la razón
+[A]Porque fue más profunda la desilusión y el [E]miedo de no ser un hombre [B]nuevo.
+
+[A]Ahora siento que eres más que un senti[B]miento
+[E]Tu plenitud más que un momento [B]porque no había nadie [C#m]más
+[A]Contigo yo descanso y [B]siento que tú te mueves en el [E]viento
+Tanta sole[B]dad clamaba un a[C#m]brazo que fal[B]taba y que siempre lo so[F#m]ñé
+[A]Estaba muerto, [B]pero en ti, volví a na[C#m]cer.
+`
+  },
+  {
+    id: 376,
+    titulo: "TEMPLO DE ALABANZA",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+[C]Señor, puedes conver[G]tir mi cora[Am]zón
+[F]En un templo de ala[C]banza [F]y continua ado[G]ración.
+
+[F]He pasado por la [G]puerta que es Je[Em]sús [Am]
+[F]He tomado el sacri[G]ficio de la [Em]cruz [Am]
+[F]Caminaré [G]hacia tu [C]luz. [G]
+
+[C]Mírame y que[G]brántame, [Am]hazme humilde y pe[Em]queño
+[F]Aquí estoy señor, [C]hazlo hoy, [F]esta es mi vida, te la o[G]frezco.
+`
+  },
+  {
+    id: 377,
+    titulo: "TODA TUYA",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Tengo ya desde hace [G]tiempo mi mi[Bm]rada en el [A]cielo
+[Em]Más tu amor voy cono[G]ciendo, más miseri[Bm]cordia en[A]cuentro.
+[Em]Oh Jesús, tu dime a [A]quién i[D]remos [Bm]si en ti, todo lo en[A]cuentro
+[Em]Quiero estar, con[A]tigo cada [D]día [Bm]hoy y toda mi [A]vida.
+
+[G]Yo, toda [Em]tuya, [Bm]Tú, todo [A]mío
+[G]Eternamente [Em]tuya, [Bm]Eternamente, eterna[A]mente.
+
+Tanto amor me ha conquistado Cristo rey Eucaristía
+De la fuente de este amor brota el fruto de mi vida.
+Por amor, tú por mí diste la vida, por amor te doy yo la mía.
+`
+  },
+  {
+    id: 378,
+    titulo: "TÓMAME",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+[C]Cuanto espe[G]ré [Am]encontrarme con[F]tigo otra vez
+[C]Alumbras mi [G]fe [Am]y contigo yo [F]siempre estaré
+[C]Vienes, me buscas, aunque huya de [G]ti
+[Am]Conquistas mi alma, y me vuelvo hacia [F]ti
+
+[F]Tu mi Se[G]ñor [Em]has venido para que[Am]darte [G]por a[F]mor
+[F]Hoy vengo a pe[Fm]dirte:
+[C]Tómame todo como soy, [G]transforma mi vida y mi interior
+[Am]Enséñame a amarte [F]como sólo tu amaste Señor.
+`
+  },
+  {
+    id: 379,
+    titulo: "TRANQUILO",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "D",
+    letra: `
+[D]Miras al frente y no sabes [G]dónde vas
+[D]Propones planes que no logras reali[G]zar
+[A]Será el miedo el que te nuble la razón, te para[A]liza y congela el corazón.
+[D]No te [F#m]rindas hay [G]mucho más por conocer
+[A]En la pa[D]ciencia tu [F#m]corazón [G]vuelve a [A]ver.
+
+[Bm]¡Tranquilo! [G]Que no estás solo siempre hay alguien con[D]tigo
+[A]Y que en sus brazos te carga ren[Bm]dido
+[G]Te vuelves más ligero si te aban[D]donas en [A]mí.
+[Bm]No te agites, [G]cierra los ojos, abre el alma y ven con[D]migo
+[A]Soy tu refugio, tu resguardo, y tu a[Bm]migo
+[G]En mi palabra sabrás donde es[D]tá el ca[A]mino.
+`
+  },
+  {
+    id: 380,
+    titulo: "TRES CORAZONES",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Eb",
+    letra: `
+[Eb]Su corazón acep[Gm]taba vivir la ale[Bb]gría ligada al do[F]lor
+[Eb]En sueños le confir[Gm]maban y aún con te[Bb]mor aceptó la mi[F]sión
+[Eb]Dos corazones u[Gm]nidos entrela[Bb]zados rogaban a [F]Dios
+[Eb]Cuidar del tesoro más [Gm]grande, ofrenda di[Eb]vina, el Hijo de [F]Dios.
+
+[Bb]Son los cora[Eb]zones [Gm]que le dan vida a lo que [F]soy
+[Bb]Jesús, José y Ma[Eb]ría, Tres Cora[Gm]zones, en un solo A[F]mor.
+
+[Eb]Entregará [Bb] [Gm]Confiaré [F] [Eb]Descansaré [Bb] [Gm]Unido a [F]ellos.
+`
+  },
+  {
+    id: 381,
+    titulo: "TÚ EN MÍ, YO EN TI",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+[C]Me amas tanto que te [Em]das para [D]mí
+[C]Te haces pequeño para ha[Em]bitar en [D]mí
+[C]Tú en [Em]mí, [D]Yo en Ti.
+
+Me amas tanto que quisiste quedarte
+Vives verdaderamente en cuerpo y sangre
+Tú en mí, Yo en Ti.
+
+[Am]No soy [G]digno de que [C]entres en mi [D]casa
+Pero una pa[Am]labra basta[G]rá para sa[C]narme.
+`
+  },
+  {
+    id: 382,
+    titulo: "UNA LUZ",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "C",
+    letra: `
+[C]Hay una [F]luz que ilu[C]mina mis ca[F]mi[C]nos
+[C]Que me acom[F]paña en la oscuri[G]dad
+[F]Aunque ca[G]mine por de[Am]siertos y mon[G]ta[C]ñas
+[F]Es esa [G]luz la que siempre esta[C]rá.
+
+[F]Él es Je[G]sús mi amigo incompa[C]rable
+[F]Y de su [G]mano aprendo a cami[C]nar
+[F]Cuando me [E7]caigo él es quien me le[Am]van[D9]ta
+[F]Él va con[G]tigo, me cubre con su [C]paz.
+
+[F]Luz que ilu[G]mina, luz que da [C]vida, [G]luz que [Am]llena [G]mi exis[F]tir
+[F]Luz que me a[G]lumbra, [C]luz [G]de mi [Am]vi[G]da.
+`
+  },
+  {
+    id: 383,
+    titulo: "VIDA EN ABUNDANCIA",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "G",
+    letra: `
+[G]Los lirios del [C]campo y las [D]aves del cielo
+[G]No se preo[C]cupan por que es[D]tán en mis manos
+[Em]Tené con[C]fianza en mí, [G]acá estoy [D]junto a vos.
+
+[G]Amá lo que [C]sos y tus circuns[D]tancias
+[G]Estoy con [C]vos, con tu [D]cruz en mi espalda
+[Em]Todo termi[C]nará bien, [G]yo hago nuevas [D]todas las cosas.
+
+[Em]Yo vengo a tra[C]erte vida, [G]vida en abun[D]dancia.
+[Em]Yo soy el ca[C]mino, [G]la verdad y la [D]vida.
+`
+  },
+  {
+    id: 384,
+    titulo: "YO TE MIRO (Pan del cielo)",
+    autor: "Anónimo",
+    categoria: "adoracion",
+    tonoOriginal: "Am",
+    letra: `
+[Am]Ahí estas yo te [F]miro
+[C]Tu me miras a [G]mí, nos miramos a[Am]sí
+Una con[F]quista, un a[C]mor
+Que por las [G]grietas tu en[Am]tras
+A lo más pro[F]fundo [D]de mi cora[G]zón.
+
+[F]Pan del [G]cielo, [Am]Pan de amor, [C]alimento de mi vida
+[F]Pan del [G]cielo, [Am]pan de amor, [C]sangre y cuerpo del señor.
+
+No hay amor, más grande que el que has dado por mi
+Te dejaste, tu cuerpo para poderte mirar así.
+`
+  },
     // --- SECCIÓN: CANTOS DEL Espíritu Santo status:terminado ---
      {
     id: 255,
@@ -4864,7 +5897,6 @@ Intro: [C] [F] [C] / [G] [C] [Am] [F] [C]
 `
   },
     // --- SECCIÓN: CANTOS DE Salida ---
-    
   {
     id: 230,
     titulo: "ÁNGELES DE DIOS",
@@ -5511,11 +6543,1485 @@ Uohh ¡Ahora soy [Em]libre!
 `
   },
     // --- SECCIÓN: CANTOS Marianos ---
-    // --- SECCIÓN: CANTOS DE Adviento, Navidad y Villancicos ---
-
-    // --- SECCIÓN: CANTOS DE Alabanza status:terminado---
-    //mover "El rock del Espíritu", "Pentecostés día de fiesta" y "Ya llegó, ya llegó", a la sección de Espíritu Santo
   {
+    id: 280,
+    titulo: "¿ACASO NO ESTOY YO AQUÍ?",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "G",
+    letra: `
+Intro: [G] [Em] [C] [G]
+
+[G]Hijo mío, lo que te aflige y asusta
+[Em]Se encuentra en las manos de Dios
+[C]Se encuentra en las manos de Dios [G]
+Hijo mío, no temas ninguna angustia.
+No se turbe tu corazón,
+No se turbe tu corazón
+
+[C]Acaso no estoy yo aquí [G]que soy tu madre?
+[Am]Bajo mi manto y en mi regazo [Em]Te cuidaré [D]
+Acaso no estoy yo aquí que soy tu madre?
+Toma mi mano y hacia mi Hijo Te llevaré
+
+[G]Hijo mío, lo que te aflige y asusta
+[Em]Se encuentra en las manos de Dios
+[C]Nada es imposible para nuestro Dios [G]
+Hijo mío, no temas ninguna angustia.
+No se turbe tu corazón [Em]
+No se turbe tu corazón
+
+[C]Déjame consolarte [Em]Déjame a Jesús llevarte
+[C]Déjame ser tu [D]madre [Em] [G] (x2)
+`
+  },
+  {
+    id: 281,
+    titulo: "ACASO NO ESTOY YO AQUÍ QUE SOY TU MADRE",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "C",
+    letra: `
+[C]Hijo mío el más pe[G]queño de mis [D]hijos
+[C]No te angusties [G]nada tienes que te[D]mer
+[C]Ninguna pena te aflija yo te vengo a soco[G]rrer
+
+[C]Tu estas bajo mi [G]mando yo te [D]cuido
+[C]En el hueco de mis [G]manos siempre es[D]tás
+[C]Te encuentras bajo mi sombra no te falta [G]mas
+
+[C]¿Acaso no estoy yo a[G]quí que soy tu [D]madre?
+[C]¿Acaso no soy tu ale[G]gría y tu protec[D]ción?
+[C]¿Acaso no estoy yo a[G]quí que soy tu [D]madre?
+[C]¿Acaso no soy la ale[G]gría de tu cora[D]zón?
+
+[C]Niña mía la más pe[G]queña de mis [D]hijas
+[C]Madre mía virgen[G]cita aquí es[D]toy yo
+[C]Son tantos tus emisarios y me escoges por tu [G]amor
+`
+  },
+  {
+    id: 282,
+    titulo: "ADIÓS REINA DEL CIELO",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "C",
+    letra: `
+[C]Adiós, [C7]reina del [F]cielo Madre del salvador,
+[Dm]Adiós, ¡OH madre [G7]mía!, adiós, adiós, a[C]diós.
+
+[C]De tu di[C7]vino [F]rostro, la belleza al dejar,
+[Dm]Permíteme que [G7]vuelva Tus plantas a be[C]sar.
+
+[C]A de[C7]jarte ¡OH Ma[F]ria! No acierta El corazón,
+[Dm]Te lo en[G7]trego, señora, dame tu bendi[C]ción.
+
+[C]Adiós [C7]hija del [F]Padre, madre del hijo Adiós,
+[Dm]Del Es[G7]píritu Santo, ¡OH casta esposa! A[C]diós.
+
+[C]Adiós, ¡OH [C7]madre [F]virgen!, mas pura Que la luz,
+[Dm]Jamás, ja[G7]más me olvides delante De Je[C]sús.
+`
+  },
+  {
+    id: 283,
+    titulo: "ALABEMOS A MARÍA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "D",
+    letra: `
+[D]Alabemos a Ma[G]ría, la [A]Madre de [D]Dios,
+[D]Ensalcemos a Ma[G]ría, la [A]Madre de [D]Dios,
+[D]Glorifiquemos a Ma[G]ría, la [A]Madre de [D]Dios.[D7]
+
+[G]Alabé[A]mosla, [D]Ensal[Bm]cémosla, [G]Glorifi[A]quémosla,
+[A]Eterna[D]mente Amén. (x2)
+`
+  },
+  {
+    id: 284,
+    titulo: "AVE MARÍA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "D",
+    letra: `
+Intro: [D] [A] [Bm] [G] [D] [A] [Em] [G]
+
+[D] A [A] v e [Bm] M a [G] r í [D] a, [A] A [Em] v [G] e
+[D] A [A] v e [Bm] M a [G] r í [D] a, [A] A [D] v e
+
+[D]Madre de las espera y [Bm]mujer de esperanza
+[A]Ora por [G]nobis
+[D]Madre de sonrisa y [Bm]mujer de los silencios
+[A]Ora por [G]nobis
+
+[D]Madre de fron[A]tera y mujer apasionada
+[A]Ora por [G]nobis
+[D]Madre de des[A]canso y mujer de los cambios
+[A]Ora por [G]nobis
+
+[D]Madre del re[Bm]spiro y mujer de los desiertos
+[A]Ora por [G]nobis
+[D]Madre del o[Bm]caso y mujer de los recuerdos
+[A]Ora por [G]nobis
+`
+  },
+  {
+    id: 285,
+    titulo: "BENDITA MARÍA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "C",
+    letra: `
+[C]Oh madre [Em]mía, bendita seas [F]tú,
+Por habernos [G]dado a tu hijo Jesús,
+[C]Yo tu e[Em]jemplo quisiera se[F]guir,
+Siendo hu[G]milde como lo fuiste tú.
+
+[C]Oh se[Em]ñora que [F]Linda eres [G]tú,
+[C]Madre [Em]mía que [F]buena eres [G]tú.
+
+[C]Ma[Em]ría, ma[F]ría, tú que nos [G]llenas de todo tu amor,
+[C]Ma[Em]ría, ma[F]ría, con tu dul[G]zura nos llevas a Dios.
+
+[C] [Em] [F] [G] (Oh bendita)
+`
+  },
+  {
+    id: 286,
+    titulo: "CONTIGO MARÍA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "D",
+    letra: `
+Intro: [D] [G] [D] [G]
+
+[D]Quiero caminar con[G]tigo María
+[D]Pues tu eres mi Madre [G]eres mi guía
+[A]Tu eres para mi el mas [G]grande ejemplo
+[D]de santi[A]dad, de humildad.
+
+[D]Guia mis [G]pasos [D]Llévame al [A]cielo
+[Bm]Bajo tu [G]manto [A]No tengo miedo
+[D]Llena de [G]gracia [D]Ave Ma[A]ría
+[Bm]Hoy yo te o[A]frezco [D]toda mi vida
+
+[Em]Celestial prin[Bm]cesa, mírame con compa[A]sión
+[G]Hoy te doy mi [A]alma, vida y corazón
+`
+  },
+  {
+    id: 287,
+    titulo: "DE PIEL MORENA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "Am",
+    letra: `
+[Am]Camino a [G]Tlatelolco [Em]iba Juan [Am]Diego
+[Em]su fe inquebrantable su mo[Am]tor
+[F]el viento trajo [G]música del [C]cielo [Am]
+[F]visión maravillosa anun[G]cio del amor.
+
+[C]De piel mo[Am]rena apareció
+[Em]amor materno de rosas y de color
+[F]camino del Ce[G]rrito María se mos[C]tró [Am]
+[F]Tzenzontles de mi tierra en ora[G]ción
+
+[C]De piel mo[Am]rena; su corazón
+[Em]preñada del mesías, de mi Redentor
+[F]revuelo de Cam[G]panas en el cora[C]zón [Am]
+[F]presencia majestuosa: la madre del Se[G]ñor.
+`
+  },
+  {
+    id: 288,
+    titulo: "DIOS TE SALVE (Novena)",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "G",
+    letra: `
+[G]Dios te salve ma[C]ría, maría,
+[D]Llena eres de [G]gracia de gracia,
+[G]El señor es con[C]tigo es con[Am]tigo,
+[D]Y bendita, bendita tú eres.
+
+[C]Entre todas las mu[G]jeres,
+[C]Y bendito es el [G]fruto,
+[Am]De tu [D7]vientre Je[G]sús.
+
+[G]Santa ma[C]ría [D]madre de [G]Dios,
+[C]Ruega por no[D]sotros los peca[G]dores.
+[C]Ahora y en la [G]hora de nuestra [C]muerte, [G]
+[D7]Amen Je[G]sús, [D7]Amen Je[G]sús.
+`
+  },
+  {
+    id: 289,
+    titulo: "DIOS TE SALVE MARÍA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "D",
+    letra: `
+[D]Dios te [A]salve, [A#/D] Ma[Bm]ría,
+[G]llena [E]eres de [A]gracia,
+[G]el Se[A]ñor es con[D]tigo, [Bm]
+[Em]el Se[A]ñor es con[D]tigo.
+
+[D]Bendita [A]eres, [A#/D] Ma[Bm]ría,
+[G]entre [E]todas las [A]mujeres,
+[G]y ben[A]dito es el [D]fruto, [Bm]
+[Em]de tu [A]vientre, Je[D]sús.
+
+[D]Santa [A]Madre [A#/D] de [Bm]Dios,
+[G]por no[E]sotros, peca[A]dores,
+[G]ruega a[A]hora y en la [D]hora, [Bm]
+[Em]de nues[A]tra muerte, a[D]mén.
+`
+  },
+  {
+    id: 290,
+    titulo: "DULCE MADRE",
+    autor: "Jeséd",
+    categoria: "marianos",
+    tonoOriginal: "C",
+    letra: `
+[C]Dulce Madre,
+[Em]No te a[F]lejes, tu [G]vista de mi no a[C]partes,
+Ven con[Em]migo a [F]todas partes, y [G]solo nunca me [C]dejes.
+
+[Am]Y ya que me pro[Em]teges tanto,
+[F]Como verda[G]dera [C]Madre,
+[F]Haz que me ben[Em]diga el [Am]Padre,
+[F]El Hijo y el Es[G]píritu [C]Santo.
+`
+  },
+  {
+    id: 291,
+    titulo: "ELLA ES",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "A",
+    letra: `
+[A]Ella es, [C#m]Ella es, [D]Ella es [E]María.
+[A]Ella es, [F#m]Ella es, [D]Ella es [E]Marí[A]iiia.
+
+[A]Aquella que en sus [C#m]brazos a [D]Dios lo acari[E]ciaba
+[A]Ese Sol que al mi[C#m]rarla en sus [D]brazos se dor[E]mía.
+
+[A]Luego de su[F#m]frir la [D]muerte de ese [E]Hijo que ella a[A]maba
+Llevó en si[F#m]lencio al [D]mundo la ver[E]dad de sus pa[A]labras.
+
+[A]Dame tus [C#m]fuerzas Ma[D]ría para que [E]pueda encon[A]trar,
+El ca[F#m]mino que en su [D]vida [E]Dios nos quiso seña[A]lar.
+`
+  },
+  {
+    id: 292,
+    titulo: "HIMNO A LA GUADALUPANA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "G",
+    letra: `
+[G]Desde el cielo una hermosa mañana. (x2)
+[C]La Guadalu[D]pana, la Guadalu[G]pana,
+[Em]La Guadalu[C]pana ba[D]jó al Tepe[G]yac.
+
+[G]Suplicante juntaba sus manos, (x2)
+Y eran mexi[C]canos, (x3) [D]Su porte y su [G]faz.
+
+[G]Juan Dieguito, la virgen le dijo, (x2)
+Este cerro e[C]lijo, (x3) [D]Para hacer mi al[G]tar.
+
+[G]Y en la tilma entre rosas pintadas, (x2)
+Su imagen a[C]mada, (x3) [D]Se dignó de[G]jar.
+
+[G]Desde entonces para el mexicano, (x2)
+Ser guadalu[C]pano, (x3) [D]Es algo esen[G]cial.
+`
+  },
+  {
+    id: 293,
+    titulo: "HIMNO DE NUESTRA SEÑORA DEL SAGRADO CORAZÓN",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "D",
+    letra: `
+[D]Que tu amable protección
+Nos asista a cada hora
+[A]Soberana señora
+[G]Del sagrado cora[D]zón
+
+[D]La reina la dulce madre
+Desde su trono amorosa
+Se [A]muestra hoy bondadosa
+[G]Cual celesta apari[D]ción
+
+[D]Aurora pura y risueña
+Que al sol divino sustentas
+Y en tus [A]manos nos presentas
+[G]Su sagrado cora[D]zón
+`
+  },
+  {
+    id: 294,
+    titulo: "JUNTO A TI MARÍA",
+    autor: "Kairoi",
+    categoria: "marianos",
+    tonoOriginal: "G",
+    letra: `
+[G]Junto a ti ma[D]ría,
+[Em]Como niño quiero es[Bm]tar,
+[C]Tómame en tus [G]brazos,
+[Am]Guíame en mí cami[D7]nar.
+
+[G]Quiero que me e[D]duques,
+[Em]Que me enseñes a re[Bm]zar,
+[C]Hazme transpa[G]rente,
+[D]Lléname de [G]paz.
+
+[G]Ma[D]dre, [Em]ma[Bm]dre, [C]Ma[G]dre, [Am]ma[D7]dre. (x2)
+
+[G]Gracias madre [D]mía, por lle[Em]varnos a Je[Bm]sús,
+[C]Haznos más hu[G]mildes, tan sen[Am]cillos como [D7]tú.
+`
+  },
+  {
+    id: 295,
+    titulo: "EL DIARIO DE MARÍA",
+    autor: "Martín Valverde",
+    categoria: "marianos",
+    tonoOriginal: "Am",
+    letra: `
+[Am]Te miro a los ojos y [A7]entre tanto [Dm]llanto
+[G]Parece men[G7]tira que te [C]hallan cla[C7]vado
+[F]Que seas el pe[G]queño al que [Em]he acu[Am]nado.
+[Dm]Y que se dor[G]mía tan [C]pronto en mis [C7]brazos,
+[Em]El que se re[Am]ía al mi[F]rar el [G]cielo,
+[Dm]y cuando re[G]zaba se po[C]nía se[E7]rio.
+
+[Am]Sobre ese ma[A7]dero, veo al pe[Dm]queño
+[G]Que entre los doc[G7]tores ha[C]blaba en el [C7]templo
+[F]Que cuando pregun[G]té, respon[Em]dió con [Am]calma
+[Dm]Que de los a[G]suntos de [C]Dios se en[C7]cargaba,
+[Em]Ese mismo [Am]niño, el que [F]está en la [G]cruz
+[Dm]El Rey de los [G]hombres se [C]llama Je[E7]sús.
+
+[Am]Ese mismo [A7]hombre, ya no [Dm]era un niño,
+[G]Y en aquella [G7]boda le pe[C]dí más [C7]vino,
+[F]Que dio de co[G]mer a un mi[Em]llar de [Am]gente,
+[Dm]Y a pobres y en[G]fermos los mi[C]ró de [C7]frente,
+[Em]rió con a[Am]quellos a [F]quienes más [G]quiso,
+[Dm]Y lloro en si[G]lencio al mo[C]rir su a[E7]migo.
+
+[Am]Ya cae la [A7]tarde, se [Dm]nublan los cielos
+[G]Pronto volve[G7]rás a tu [C]padre e[C7]terno.
+[F]Duérmete pe[G]queño, quérme[Em]te mi [Am]niño
+[Dm]Que yo te he en[G]tregado [C]todo mi ca[C7]riño
+[Em]Como en Naza[Am]ret a[F]quella ma[G]ñana
+[Dm]He aquí tu [G]sierva, he a[C]quí tu es[E7]clava.
+`
+  },
+  {
+    id: 296,
+    titulo: "LA FE DE MARÍA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "Dm",
+    letra: `
+Intro: [Dm] [C] [Bb]
+
+[Dm]Que hubiese pa[Bb]sado si ella [C]hubiese dicho que [F]no, [C]o igno[Dm]rado
+[Bb]O dila[Gm]tado, el a[C]nuncio de tu ángel de [F]amor.
+[C]En cambio cre[Dm]yó, en tu pa[Dmmaj7]labra [Dm7]
+[Dm6]Y se hizo tu es[Bb]clava, en un [Gm]acto per[Bb]fecto y de [C]fe. [A7]
+
+[Dm]Y hoy, quiero [Dmmaj7]ser como [Dm7]ella
+[Dm6]Y amarte aunque [Bb]duelan, las es[Gm]pinas y el ca[C]mino de la [F]cruz.
+
+[Bb]Dame la fe se[C]ñor, La fe de Ma[F]ría [C] [Dm]
+[Bb]Para de[C]cirte sí, oh [F]sí, un [C]sí sin me[Dm]didas.
+[Bb]Dame la fe se[C]ñor, la fe de Ma[F]ría [C] [Dm]
+[Bb]Para renun[Cadd2]ciar a [C]mí y entre[F]garte mi [Bb]vida. [C]
+
+[Dm]Aunque traspa[Bb]saron con una es[C]pada su cora[F]zón
+[C]Y su [Dm]alma lloro, el do[Bb]lor de tus heridas
+[Gm]A los [C]pies del ma[F]dero se quedó.
+[C]Y hoy ella [Dm]es nuestra [Dmmaj7]reina y se[Dm7]ñora
+[Dm6]Y tú nos incor[Bb]poras a tu e[Gm]terna fami[Bb]lia de a[C]mor. [A7]
+
+[Dm]Y yo en tu a[Dmmaj7]mor quiero perma[Dm7]necer [Dm6]Postrado a tus [Bb]pies
+[Gm]Es lo [C]único que un [F]día llevaré.
+`
+  },
+  {
+    id: 297,
+    titulo: "LETANIAS A LA VIRGEN",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm]Hoy te digo, cosas bo[A7]nitas,
+Cosas bonitas te digo [Dm]hoy, [D7]
+[Gm]Y te digo con ale[Dm]gría santa maría,
+[A7]Te digo hoy. [Dm] [D7]
+
+[Gm]Eres María de do[Dm]lores,
+[A7]María de las flores,
+[Dm]Nos diste el a[D7]mor,
+[Gm]Eres Arca de la A[Dm]lianza
+[A7]Y eres esperanza para el peca[Dm]dor.
+
+[Gm]Eres la puerta del [Dm]cielo,
+[A7]Salud del enfermo,
+[Dm]Estrella del [D7]mar,
+[Gm]Eres María Inmacu[Dm]lada
+[A7]Por Dios preservada, eres sole[Dm]dad.
+
+[Gm]Eres Virgen pode[Dm]rosa,
+[A7]Misericordiosa,
+[Dm]Eres Virgen [D7]Fiel,
+[Gm]Eres la Madre admi[Dm]rable,
+[A7]Solo comparable con el mismo E[Dm]dén.
+
+[Gm]Eres la casa de [Dm]oro,
+[A7]Eres un tesoro
+[Dm]Torre de mar[D7]fil,
+[Gm]Eres la Reina del [Dm]Cielo,
+[A7]Y eres el Consuelo torre de Da[Dm]vid.
+`
+  },
+  {
+    id: 298,
+    titulo: "LLENA DE GRACIA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "C",
+    letra: `
+Intro: [C] [Am] [F] [G]
+
+[C]No existe un cora[Am]zón que ame más
+[C]que aquel que dijo [Am]sí hasta el final,
+[F]no descan[G]só, nunca du[Dm]dó,
+lo hizo todo con [G]fe y con amor.
+
+[C]Desde el princi[Am]pio reci[F]bió [G]
+[C]la gracia que [Am]viene solo de [G]Dios.
+[C]Con su peque[Am]ñez y su humil[F]dad
+[G]nos muestra el camino a la santi[C]dad.
+
+[F]Madre de [Am]Dios, llena de gracia,
+[Dm]Reina de [G]paz, Consuelo del alma,
+[F]María cuí[C]dame, con tu manto cúbreme,
+[Dm]sé mi puente al cielo, llévame a [G]Dios.
+
+[F]y así como [C]Tú quiero llenarme de su gracia
+[Dm]que se refleje en mi alma
+[G]la alegría de su amor,
+[F]De su a[Am]mor, de su a[Dm]mor. [G]
+
+[C]María cuí[Am]dame, con tu manto cúbreme
+[C]Trasforma mi [Am]corazón, sé mi compa[G]ñía.
+`
+  },
+  {
+    id: 299,
+    titulo: "MADRE ERES TERNURA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "G",
+    letra: `
+[G]Madre eres ter[Am]nura,
+[D7]Eres una [G]flor,
+[Em]Blanca y pre[Am]ciosa,
+[D7]Llena de a[G]mor. [C] [D7]
+
+[G]Si, señora [Am]ven a mí,
+[D7]Ven, ven a [G]mí,
+[Em]Cúbreme con tu [Am]manto,
+[D7]Lleno de a[G]mor. [C] [D7] [G]
+
+[G]Madre eres ter[Am]nura,
+[D7]Eres una [G]flor,
+[Em]Blanca y pre[Am]ciosa,
+[D7]Llena de a[G]mor.
+`
+  },
+  {
+    id: 300,
+    titulo: "MAGNIFICAT",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "E",
+    letra: `
+[E]Proclama mi alma la grandeza de Dios
+[B]Se alegra mi espíritu en Dios mi Salva[C#m]dor
+[A]Porque ha mirado mi humillación.
+
+[E]Desde ahora me felicita[B]rán todas las generaciones
+[C#m]Porque el Poderoso ha hecho [A]obras grandes por mí
+[E]Su nombre es [B]santo y su misericordia llega
+[C#m]A sus fieles de gene[A]ración en generación.
+
+[E]Él hace proezas con su [B]brazo,
+[C#m]Dispersa a los soberbios de [A]corazón,
+[E]Derriba del trono a los pode[B]rosos,
+[C#m]Y enaltece a los hu[A]mildes.
+
+[E]A los hambrientos los colma de [B]bienes,
+[C#m]A los ricos des[A]pide vacíos
+[E]Auxilia a Israel acordándose de [B]Su Misericordia
+[C#m]Según lo había prometido a [A]nuestros padres.
+`
+  },
+  {
+    id: 301,
+    titulo: "MARÍA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "C",
+    letra: `
+Intro: [C] [G] [C] [Dm] [F]
+
+[C]Ella co[G]noce mis fla[Dm]quezas y mi pobre cora[F]zón y aun así me llama
+[C]Estrella...que [G]guía en la tor[Dm]menta y apaga el te[F]mor
+lo llena de su Gracia
+
+[Am]sólo un [Dm]paso debo dar
+[Am]si con [Dm]ella quiero estar
+[Am]no me solta[Dm]ré jamás
+[F]con ella al cielo [G]quiero llegar..
+
+[C]de su mano [G]voy hasta la [Dm]puesta de sol Ma[F]ria...
+[C]ella es fiel es[G]trella que guía [Dm]hacia Dios Ma[F]ria...
+[C]su pro[G]mesa regala en [Dm]nombre del Amor Ma[F]ría...
+[Am]que ja[G]más perece[F]rá un hijo de Ma[C]ría...
+
+[C]ella es la [G]luz que [Dm]guía mi ca[F]mino
+[C]segura es[G]toy que [Dm]siempre está con[F]migo
+[C]siento su a[G]mor pues [Dm]Ella es madre de la Crea[F]ción
+[C]transforma mi [G]corazón cuida de sus [Dm]hijos los [G]vuelve hacia [C]Dios..
+`
+  },
+  {
+    id: 302,
+    titulo: "MARIA MIRAME",
+    autor: "Betsaida",
+    categoria: "marianos",
+    tonoOriginal: "C",
+    letra: `
+[C]María míra[G]me,
+[Am]María míra[G]me,
+[C]Si tú me miras [F]Él también me mira[G]ra.
+[Am]Madre mía míra[F]me,
+[C]De la mano lléva[F]me,
+[C]Muy cerca de [G]Él que Ahí me quiero que[C]dar.
+
+[Am]María [Dm]cúbreme con tu [Am]manto,
+[F]Que tengo [G]miedo, no se re[C]zar. [C7]
+[F]Que por tus [G]ojos miseri[C]cordi[Am]osos,
+[F]Tendré la [G]fuerza tendré la [C]paz.
+
+[Am]Madre con[Dm]suélame de mis [Am]penas,
+[F]Es que no [G]quiero ofen[C]derle [C7]más,
+[F]Que por tus [G]ojos miseri[C]cordi[Am]osos,
+[F]Quiero ir al [G]cielo y verlos [C]ya.
+`
+  },
+  {
+    id: 303,
+    titulo: "MÁS CERCA DE JESÚS",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "F",
+    letra: `
+[F]Tu lo tuviste más [C]cerca que nadie
+[Am]Llevaste en tu vientre al [G]mismo Jesús
+[F]Con Él compar[C]tiste hasta tu sangre
+[Am]que años más tarde derra[G]mó en la Cruz.
+
+[F]Un sólo cora[C]zón, [G]un solo la[F]tido
+[C]Entre Tú y el Se[G]ñor.
+
+[F]Escuchar tus pa[C]labras [G]es hacer lo que [Am]Él nos diga
+[F]Caminar a tu [C]lado [G]es caminar junto al Señor
+[F]Estar cerca [C]tuyo, [G]Madre [Am]mía [Em]
+[F]Es estar más [C]cerca... [G]más cerca de Je[F]sús.
+`
+  },
+  {
+    id: 304,
+    titulo: "MI ALMA GLORIFICA AL SEÑOR",
+    autor: "Alejandro Mejía",
+    categoria: "marianos",
+    tonoOriginal: "E",
+    letra: `
+[E]Mi alma glori[C#m]fica al Se[B7]ñor, mi Dios,
+[C#m]Gozase mi es[G#m]píritu en mi Salva[A]dor.
+[B7]El es mi ale[E]gría, es mi [C#m]plenitud,
+[F#7]El es [B7]todo para [E]mí.
+
+[G#7]Ha mi[C#m]rado la bajeza de su esclava,
+[B7]Muy dichosa me di[E]rán todos los pueblos
+[C#7]Porque en mí ha hecho [F#m]grandes maravillas
+[C#m]El que todo [B7]puede, [G#7]cuyo nombre es [C#m]Santo. [B7]
+
+[G#7]Su cle[C#m]mencia se derrama por los siglos,
+[B7]Sobre aquellos que le [E]temen y le aman,
+[C#7]Desplegó el gran po[F#m]der de su derecha,
+[C#m]Dispersó a los [B7]que [G#7]piensan que son [C#m]algo. [B7]
+
+[G#7]Derri[C#m]bó a los potentados de sus tronos,
+[B7]Elevó a los hu[E]mildes y a los pobres,
+[C#7]Los hambrientos se sa[F#m]ciaron con sus bienes,
+[C#m]Y ale[B7]jó de [G#7]sí, vacíos a los [C#m]ricos. [B7]
+`
+  },
+  {
+    id: 305,
+    titulo: "MI VIRGEN BELLA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "D",
+    letra: `
+[D]Tú eres la Espe[D7]ranza que a nos[Em]otros,
+[A7]En forma de mujer, man[D]dó el Señor,
+[D7]Le pides con pa[Em]ciencia que su enojo,
+[A7]No caiga sobre el mundo peca[D]dor.
+
+[D]Tan puro es tu a[D7]mor y tan her[Em]moso,
+[A7]que, humildes, nos pos[D]tramos a tus pies.
+[D7]No me atrevo a mi[Em]rarte a los ojos,
+[A7]indigna que me siento ante tu [D]ser.
+
+[D7]Como qui[Em]siera, ¡ayy!, mi Virgen [A7]Bella,
+[D7]Que mi ca[Em]riño se convir[G]tiera en una o[A7]frenda,
+[D]y así entre[A7]garte lo [D]mejor de [Bm]mí.
+
+[D7]Tú eres la espe[Em]ranza de mi [A7]pueblo,
+[D]pues México esco[D7]giste para [Em]ser,
+[A7]Lugar en que los pobre tú pu[D]dieras
+[A7]Tu amor y bendi[D]ciones conce[Bm]der.
+`
+  },
+  {
+    id: 306,
+    titulo: "OH MARÍA MADRE MÍA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "D",
+    letra: `
+[D]¡OH Ma[G]ría, Madre mía!
+[D]¡OH con[A]suelo del mor[D]tal!
+[A]Amparadme y guiadme,
+[G]A la [D]patria celestial,
+[A]Amparadme y guiadme,
+[G]A la [D]patria celestial.
+
+[D]Con el [G]ángel de Ma[D]ría,
+[A]Las gran[D]dezas cele[A]brad,
+Transportados de ale[G]gría,
+[D]Sus fi[A]nezas publi[D]cad.
+
+[D]Salve [G]júbilo del [D]cielo,
+[A]Un ex[D]celso dulce i[A]mán,
+Salve hechizo de este [G]suelo,
+[D]Triunfa[A]dora de sa[D]tán.
+
+[D]Quien en [G]ti ferviente [D]clama,
+[A]Halla [D]gloria en el pe[A]nar,
+Pues tu nombre luz de[G]rrama,
+[D]Gozo [A]bálsamo sin [D]par.
+`
+  },
+  {
+    id: 307,
+    titulo: "PADRE AMERINDIA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "G",
+    letra: `
+[G]Quiero decirte Padre en Ai[E]mara
+[C]Quiero can[A]tarte Padre en Arau[C]cano [A]
+[G]Quiero mostrarte Padre mi Ota[E]valo
+[C]Quiero darte las gracias por mi amer[D]india
+
+[G]Quiero decirte fuerte que te amo en [E]Quechua
+[C]Quiero sem[A]brar tu reino con trigo [C]Maya [A]
+[G]Quiero darte mi vida como Az[E]teca
+[C]Quiero adornar tu frente con oro [D]Inca
+
+[G]Mi Padre en tu cora[Em7]zón en[E]cuentro
+[C]mi sinto[A]nía, mi sinto[D]nía
+[G]Y puedo consa[Em7]grar ahora a mi [E]pueblo
+[C]Todo a Ma[A]ría, [G]todo [D]a Ma[G]ría
+`
+  },
+  {
+    id: 308,
+    titulo: "QUIÉN SERÁ LA MUJER",
+    autor: "Cesáreo Gabaráin",
+    categoria: "marianos",
+    tonoOriginal: "G",
+    letra: `
+[G]Quién se[G7]rá la mu[C]jer que a tantos inspi[G]ró,
+[C]Poemas [A7]bellos de a[D7]mor.
+[C]Le rinden ho[B7]nor la [Em]música, la [G]luz,
+[C]El mármol, la pa[A7]labra y el co[D7]lor.
+
+[G]Quién se[G7]rá la mu[C]jer que el rey y el labra[G]dor,
+[C]Invocan [A7]en su do[D7]lor;
+[C]El sabio, el igno[B7]rante, el [Em]pobre y el se[G]ñor,
+[C]El santo al i[A7]gual que el peca[D7]dor.
+
+[G]Ma[G7]ría es esa mu[C]jer,
+[D7]Que desde siempre el Señor se prepa[G]ró,
+[G]Para na[G7]cer como una [C]flor,
+[D7]En el jardín que a Dios enamo[G]ró. (x2)
+
+[G]Quién se[G7]rá la mu[C]jer radiante como el [G]sol,
+[C]Vestida [A7]de resplan[D7]dor,
+[C]La luna a sus [B7]pies, el [Em]cielo en derre[G]dor,
+[C]Y angeles can[A7]tándole su a[D7]mor.
+`
+  },
+  {
+    id: 309,
+    titulo: "SALUTACIÓN",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "D",
+    letra: `
+[D]Buenas noches paloma blanca,
+[A]Hoy te vengo a salu[D]dar,
+[D]Contem[G]plando la belleza de tu
+[A]Rostro celes[D]tial.
+
+[D]Dulce amor de mis a[A]mores,
+No des[D]precie mi cantar,
+[D]Y mira [G]desde tu trono,
+[A]Mi aflicción me hace llo[D]rar.
+
+[D]Si me siento atribu[A]lado,
+Si me a[D]gobia algún pesar,
+[D]A tus [G]plantas, Madre mía,
+[A]Vengo cantos a ento[D]rar.
+
+[D]Tierra Madre del im[A]perio,
+Madre de [D]Dios inmortal,
+[D]No me [G]dejes padeciendo,
+[A]Un tormento sin i[D]gual.
+`
+  },
+   {
+    id: 310,
+    titulo: "SALVE REGINA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "G",
+    letra: `
+[G]Saaaaal[D]ve Re[C]gina, [Bm]Madre de [Am]miseri[G]cordia
+[D]Vida y dul[C]zura, esperanza [G]nuestra, Salve. (x2)
+
+[D]Salve Regina.
+[G]A ti lla[Am]mamos los deste[D]rrados hijos de [G]Eva
+[Bm]A ti suspi[C]ramos y lloramos
+[Am]En este valle de [D]lagrimas.
+
+[G]Abogada [Am]nuestra vuelve a no[D]sotros tus [G]ojos
+[Bm]Muéstranos tras [C]este destierro el [Bm]fruto
+[Am]De tu [D]vientre Jesús.
+
+[G]Saaaaal[D]ve Re[C]gina, [Bm]Madre, [A7]de miseri[G]cordia
+[D]Oh cle[C]mente, oh [G]pía, oh dulce Virgen María.
+
+[D]Salve Regina.
+[G]Salve Re[D]gina, [C]Saaa[Bm]aaaa[Am]aaaaaa[G]lve.
+`
+  },
+  {
+    id: 311,
+    titulo: "SANTA GEMMA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "Bm",
+    letra: `
+Intro: [Bm] [A] [D] [G]
+
+[Bm]Parecía que cada ma[A]ñana
+[D]Su corazón se prepa[G]raba
+[Bm]A recibirte en la eucaris[A]tía
+[D]Con un amor que no se aca[G]baba.
+
+[G]Muéstra[A]me a Jesús
+[D]Oh prin[A]cesa, santa [G]Gemma
+[G]Como [A]puedo supor[D]tar
+[D]Cada sufri[A]miento, en cada [G]día
+[A]Para poderlo conso[Bm]lar.
+
+[Bm]Y mientras ella se humi[A]llaba
+[D]Tu amor en ella se desbor[G]daba
+[Bm]Unida siempre a la [A]Cruz
+[D]Su alma entera te entre[G]gaba.
+`
+  },
+  {
+    id: 312,
+    titulo: "SANTA MARÍA DEL CAMINO",
+    autor: "Juan Antonio Espinosa",
+    categoria: "marianos",
+    tonoOriginal: "D",
+    letra: `
+[D]Mientras re[G]corres la [D]vi-da,
+[G]Tú nunca [A]solo es[D]tás,
+[G]Contigo por el ca[D]mi-[Bm]no,
+[G]Santa Ma[A]ría [D]va.
+
+[G]Ven con no[D]sotros a [Bm]cami-nar,
+[A]Santa Ma[D]ría ven. (x2)
+
+[D]Aunque te [G]digan al[D]gunos,
+[G]Que nada [A]puedes cam[D]biar,
+[G]Lucha por un mundo [D]nue[Bm]vo,
+[G]Lucha [A]por la ver[D]dad.
+
+[D]Si por el [G]mundo los [D]hombres,
+[G]Sin cono[A]cerse [D]van,
+[G]No niegues nunca tu [D]ma[Bm]no,
+[G]Al que con[A]tigo es[D]tá.
+`
+  },
+  {
+    id: 313,
+    titulo: "SEA BENDITO Y ALABADO",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "G",
+    letra: `
+[G]Sea ben[C]dito y ala[G]bado por [D]toda la eter[Em]nidad, [D] [G]
+Del di[C]vino sacra[G]mento, sacrosan[D]to del al[Em]tar. [D] [G]
+
+[G]Y ma[C]ría conce[G]bida sin pe[D]cado origi[Em]nal, [D] [G]
+Desde a[C]quel primer ins[G]tante de su [D]ser natu[Em]ral. [D] [G]
+
+[G]Amén Je[C]sús y Ma[G]ría, Je[D]sús, María y Jo[Em]sé, [D] [G]
+Así [C]sea por los [G]siglos y de los [D]siglos A[Em]mén. [D] [G]
+`
+  },
+  {
+    id: 314,
+    titulo: "TRAIGO UNA ROSA BLANCA",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "Db",
+    letra: `
+Intro: [Db] [Gb] [Db] [Gb]
+
+[Db]Traigo una rosa [Db/F]blanca para Ma[Gb]ría,
+[Ab]para Ma[Db]ría, para Ma[Ab7]ría.
+[Db]Es una rosa [Db/F]suave y sin es[Gb]pinas,
+[Ab]y sin es[Db]pinas y sin es[Ab7]pinas
+
+[Gb]porque el pe[Ab]cado no ha cono[Fm7]cido, [Bbm]
+[Gb]porque sin [Ab]mancha ella ha vi[Db]vido, [Db7]
+[Gb]por su pu[Ab]reza, su ser mater[Fm7]nal, [Bbm]
+[Gb]por su dul[Ab]zura y su santi[Db]dad. (x2)
+
+[Db]Traigo una rosa [Db/F]roja para Ma[Gb]ría,
+[Ab]para Ma[Db]ría, para Ma[Ab7]ría.
+Como ella [Db/F]quiero darle [Gb]toda mi vida,
+[Ab]toda mi [Db]vida, toda mi [Ab7]vida.
+
+[Gb]porque al mi[Ab]rar a su hijo en la [Fm7]Cruz [Bbm]
+[Gb]su cora[Ab]zón traspa[Db]sado quedó [Db7]
+[Gb]y aquella he[Ab]rida se transfor[Fm7]mó [Bbm]
+[Gb]en el ca[Ab]mino más grande de [Db]amor. (x2)
+`
+  },
+  {
+    id: 315,
+    titulo: "UNA VEZ MÁS",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "Em",
+    letra: `
+[Em]Quizás no soy, [D]quien quise ser,
+[G]pero ahora soy, [Em]quien tú dejas de ser.
+[Am]Las gracias te doy, madre por tanto amor,
+[B7]por lo que soy, [Em]y por lo que seré.
+
+[Em]Madre te pido hoy, por toda la niñez,
+[D]por la juventud, [G]y por la vejez.
+[Em]Y una vez más [C]madre te voy a pedir,
+[D]que por favor tú [G]nunca nos desampares,
+[Em]y nos cubras de [C]amor con tu manto por favor,
+[D]y ruegues por no[G]sotros a nuestro padre.
+[B7]Oh gracias [Em]madre.
+
+[Em]Te dedico hoy, una dulce oración,
+[D]de mi cantar, [G]y mi corazón.
+[Em]Oh madre de bon[D]dad, sé que me escucharas,
+[G]y a la inmensi[B7]dad, te apia[Em]daras.
+`
+  },
+  {
+    id: 316,
+    titulo: "YO LE QUIERO CANTAR",
+    autor: "Anónimo",
+    categoria: "marianos",
+    tonoOriginal: "A",
+    letra: `
+[A]Yo le quiero can[D]tar,
+[A]A la Virgen Ma[E]ría, una canción. (x2)
+
+[D]Canta, canta, [A]canta, canta,
+[E]Cántale una can[A]ción, a Ma[A7]ría. (x2)
+
+[A]Tú le quieres can[D]tar...
+[A]Todos le quieren can[E]tar...
+`
+  },
+   {
+    id: 1000,
+    titulo: "Mi alma glorifica",
+    autor: "Misionario Shalom",
+    categoria: "marianos",
+    tonoOriginal: "Am",
+    letra: `
+Estoy aquí...
+`
+  },
+    // --- SECCIÓN: CANTOS DE Adviento, Navidad y Villancicos ---
+{
+    id: 107,
+    titulo: "Piel de porcelana",
+    autor: "Arturo Estrella",
+    categoria: "navidad, villancico",
+    tonoOriginal: "G",
+    letra: `
+[C] [D] [Em] [C] [D]\n
+[C]Piel de porce[D]lana, o[Em]jitos de [C]miel[D]
+[C]Vámonos via[D]jeros a [Em]ver a Emma[C]nuel[D]
+Para es[C]tar [D]con [G]él.\n
+[G]Vamos aparceros vamos a Belén
+[C]Vamos sin du[D]dar
+[G]Por el caminito que está iluminado
+[C]Por el Sirio es[D]telar
+[B4]Vamos pere[Em]grinos
+[C]Tocando el tam[D]bor
+[B4]Llevemos bai[Em]lando y chiflando
+[C]Una bella can[D]ción
+Para el [C]salva[D]dor[G]\n
+[C]Piel de porce[D]lana, o[Em]jitos de [C]miel[D]
+[C]Toma lo que [D]tengo para ofre[Em]cer[C] [D]
+[C]Piel de porce[D]lana o[Em]jitos de [C]miel[D]
+[C]Vámonos via[D]jeros a [Em]ver a Emma[C]nuel[D]
+Para es[C]tar [D]con [G]él.\n
+[G]Llegamos al portalito
+Para encon[C]trar[D]
+Que [G]todos se inclinan al ver al niñito
+Que llo[C]rando es[D]tá
+La [B4]luna le [Em]canta 
+Un a[C]rrullo al be[D]bé
+A mi [B4]niñito del [Em]alma 
+Al [C]niño Emma[D]nuel 
+Le can[C]taré [D]a [G]Él\n
+[G]Traemos de ofrendas 
+[C]Pan, atolito y [D]mucho amor 
+Y [G]aunque somos pobres niño hermoso 
+[C]Te entrego el cora[D]zón
+Pues lle[B4]gaste al [Em]mundo
+Para ilu[C]mi[D]nar
+Con tu [B4]dulce mi[Em]rada
+Nuestra humani[C]dad[D]
+Nuestra eterni[C]dad[G]\n
+[G]Que tu llegada [D]traiga [Em]esperanza al cora[Bm]zón
+[C]Descansa mi [D]niño, des[Em]cansa mi [Bm]Dios
+[C]Gracias por tu son[D]risa, [Em]Nuestro reden[Bm]tor.
+[C]Gracias por tu a[D]mor.[G]
+    `
+},
+{
+    id: 317,
+    titulo: "AGUINALDO INDÍGENA",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "C",
+    letra: `
+[C]DUM-DU-RU-DUM, [G]DUM-DU-RU-DUM
+[C]DUM-DU-RU-DUM, DUM-DU-RU-DUM
+
+[C]Corra[G]mos, corramos la [C]música suena,
+[C]Corra[G]mos, corramos la [C]música suena.
+[F]A Can[G]tar al [C]Niño en La Nochebuena,
+[F]A Can[G]tar al [C]Niño en La Nochebuena.
+
+[G]Venid, venid, pas[C]tores Venid a adorar,
+[G]Venid, venid, pas[C]tores Venid a adorar.
+[F]Que el [G]Rey de los [C]cielos ha nacido ya,
+[F]Que el [G]Rey de los [C]cielos ha nacido ya.
+
+[G7]Hace mucho [C]frío el Niño tirita,
+[G7]Hace mucho [C]frío el Niño tirita.
+[F]Y no [G]hay quién le [C]dé una cobijita,
+[F]Y no [G]hay quién le [C]dé una cobijita.
+`
+  },
+  {
+    id: 318,
+    titulo: "ALÉGRENSE DE CORAZÓN",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "G",
+    letra: `
+[G]Alegres de cora[D]zón,
+[G]Llenos de espe[D]ranza,
+[Em]Venimos hasta Be[D]lén [A7]para ver a Je[D]sús.
+
+[G]Sue[D7]nen cam[G]pa[D7]nas, [G]
+[D]Que ya es[G]tá a[Em]quí el [A]niño [D]Dios,
+[G]Los [D]án[G]ge[D7]les [G]del [D]cie-lo,
+[G]Can[D]tan [G]de [D7]con[G]ten[D]tos,
+[C]Que sepa el mundo en[D]tero,
+[C]Que [D]Dios, [G]Llegó.
+`
+  },
+  {
+    id: 319,
+    titulo: "ARRE BORREQUITO",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "G",
+    letra: `
+[G]Tengo puesto un nacimiento, [D]en un rincón de mi [G]casa,
+con pastores y pastoras [C]y un palacio en la mon[G]taña.
+[C]Allí vive el rey He[G]rodes, [D]allí viven sus sol[G]dados,
+[C]todos están espe[G]rando [D]que lleguen los Reyes [G]Magos.
+
+[C]Arre borriquito, arre burro arre,
+[F]anda más de [G]prisa, [F]que [G]llega[C]mos tarde.
+[C]Arre borriquito, vamos a Belén,
+[F]que mañana es [G]fiesta [C]y al otro también.
+
+[G]En el cielo hay una estrella [D]que a los Reyes Magos [G]guía,
+hacia Belén para ver [C]a Dios hijo de Ma[G]ría.
+[C]Cuando pasan los mo[G]narcas [D]sale la gente al ca[G]mino,
+[C]y alegres se van con [G]ellos [D]para ver al tierno [G]niño.
+`
+  },
+  {
+    id: 320,
+    titulo: "BIENVENIDO A CASA NIÑO",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "D",
+    letra: `
+[D]Bienve[A7]nido a casa [D]Niño,
+[A7]Te queremos desde hoy,
+[D]Ya están abiertas las puertas,
+[A7]Ven, ven a mi cora[D]zón.
+
+[G]Al coro de los [D]ángeles,
+[A7]Quiero unir mi [D]voz,
+[E]Y can[A7]tarle a Dios muy fuerte,
+[D]Gra[A7]cias por tu gran a[D]mor.
+
+[D]Llevo [A7]junto a Ma[D]ría,
+[A7]Mi gran ilusión,
+[D]Es decirte despacito,
+[A7]Mamá tu hijo [D]soy.
+`
+  },
+  {
+    id: 321,
+    titulo: "CAMPANA SOBRE CAMPANA",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "D",
+    letra: `
+[D]Campana sobre cam[A]pana, [D]y sobre campana [A]una,
+asómate a la ven[D]tana, veras al niño en la [A]cuna. [D]
+
+[D]Be[G]lén, cam[D]panas de Belén,
+[G]que los [D]ángeles tocan, [A]que nuevas nos [D]traes.
+
+[D]Recogido tu re[A]baño, [D]¿a dónde vas pastor[A]cillo?
+[D]Voy a llevar al por[A]tal [D]requesón, manteca y [A]vino. [D]
+
+[D]Campana sobre cam[A]pana, [D]y sobre campana [A]dos,
+asómate a la ven[D]tana, veras al Niño [A]Dios. [D]
+`
+  },
+  {
+    id: 322,
+    titulo: "CHOCOLATE CON PAN BUENO",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "D",
+    letra: `
+[D]Chocolate con pan [A]bueno le vengo a tra[Bm]er [F#m]
+[G]Al por[Em]tal donde ha na[A]cido.
+[D]Vengo de un pueblo le[A]jano y le quiero ofre[Bm]cer [F#m]
+[G]Mi ca[A]riño y mi can[D]ción.
+
+[D]Una es[Bm]trella guio [G]a ese gran Mo[A]loch de gente
+[D]Que al [Bm]niño llevo [G]regalos del [A]mundo que no ima[F#m]ginó. [Bm]
+[G]Unos dieron cosas [Em]raras, [A]otros solo amor.
+
+[D]Ciricote para [A]dulces y arepas con [Bm]miel [F#m]
+[G]Arepas a mi [A]niño que ha na[D]cido.
+[D]Él es muy chiqui[A]to y tal vez no pueda co[Bm]mer, [F#m]
+[G]A su [A]madre le ira [D]bien.
+`
+  },
+  {
+    id: 323,
+    titulo: "EL BURRITO SABANERO",
+    autor: "Hugo Blanco",
+    categoria: "navidad",
+    tonoOriginal: "E",
+    letra: `
+[E]Con mi burrito saba[A]nero voy ca[B7]mino de Be[E]lén,
+[E]Con mi burrito saba[A]nero voy ca[B7]mino de Be[E]lén.
+[A]Si me ven, [E]si me ven, [B7]voy camino de Be[E]lén,
+[A]Si me ven, [E]si me ven, [B7]voy camino de Be[E]lén.
+
+[E]El lucerito maña[A]nero ilu[B7]mina mi sen[E]dero,
+[E]El lucerito maña[A]nero ilu[B7]mina mi sen[E]dero.
+[A]Si me ven, [E]si me ven, [B7]voy camino de Be[E]lén.
+
+[G#]Tuqui tuqui tuqui [C#]tuqui, [G#]tuqui tuqui tuqui [C#]ta,
+[F#]Apúrate mi bu[F#]rrito que ya [B7]vamos a llegar.
+[G#]Tuqui tuqui tuqui [C#]tuqui, [G#]tuqui tuqui tuqui [C#]ta,
+[A]Apúrate mi bu[E]rrito vamos a [B7]ver a Je[E]sús.
+`
+  },
+  {
+    id: 324,
+    titulo: "EL ESPÍRITU Y LA NOVIA",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "Gm",
+    letra: `
+[Gm]Mira el río de [Cm]agua de vida, [F]brillante como el cris[Bb]tal, [D7]
+[Gm]mira que brota del [Cm]trono de Dios [F]y del cor[Bb]dero.
+[Cm]Y a cada lado del [Gm]río [Eb]crecen árboles llenos de [D7]vida.
+[Gm]Ven Señor, [Bb]ven Señor, [Cm]ven Se[D7]ñor Je[Gm]sús.
+
+[Gm]Ven pronto, ven Señor, [Eb]ven Se[F]ñor, ven Señor Je[Bb]sús.
+[D]Ven [Bb]pronto, [D]ven [Gm]pronto.
+[Bb]El Espíritu y la [F]Novia dicen [Bb]ven,
+[Eb]Y que todo el que es[F]cuche diga [Gm]ven.
+
+[Cm]Y si alguno tiene [Gm]sed que beba [F]del agua de la [Eb]vida,
+[Cm]Que el Se[Dm]ñor gratuita[Gm]mente le dará.
+`
+  },
+  {
+    id: 325,
+    titulo: "EL REY VENDRÁ",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "D",
+    letra: `
+[D]El Rey ven[A]drá al ama[G]necer [A]y [Bm]luz triun[F#m]fante bri[G]lla[A]rá,
+[Bm]Su glo[F#m]ria cu[G]bri[A]rá el pa[D]ís [G]y el [A]gozo abunda[D]rá.
+
+[D]Ven, oh [A]ven, oh [G]Rey Je[A]sús. [Bm]Ven Em[F#m]manu[G]el. [A]
+[Bm]La Igle[F#m]sia te es[G]pera, [A]pronto [D]ven.
+[Bm]Oh ven Emma[A]nuel, [G]ven Emma[A]nu[D]el.
+
+[D]No como un [A]niño como a[G]yer, [A]ya [Bm]no ven[F#m]drá a lu[G]char; [A]
+[Bm]Vendrá coro[F#m]nado de [G]esplen[A]dor: [D]Su [G]luz re[A]fulgi[D]rá.
+`
+  },
+  {
+    id: 326,
+    titulo: "EL SILENCIO DE MEDIANOCHE",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "F",
+    letra: `
+[F]En el silencio de la oscuridad el nacimiento del Rey proclamad.
+[C]Id pastores, que ha nacido, [F]salvación nos ha tra[C]ído,
+[Dm]Cristo [C]nuestro [F]Rey. [A#]Cristo [C]nuestro [F]Rey. (x2)
+
+[G]En el silencio de la oscuridad el nacimiento del Rey proclamad.
+[D]Id pastores, que ha nacido, [G]salvación nos ha tra[D]ído,
+[Em]Cristo [D]nuestro [G]Rey. [C]Cristo [D]nuestro [G]Rey.
+
+[A]Regocijados fueron a Belén donde encontraron al niñito Rey.
+[E]Los pastores le ado[A]raron con a[E]mor, [D] [E]
+[F#m]Con amor, con fer[A]viente a[E]mor, [F#m]
+[D]A [E]Cristo el sal[F#m]vador, [D]Cristo [E]salva[A]dor.
+`
+  },
+  {
+    id: 327,
+    titulo: "ENTRE SANTOS PREREGRINOS",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "D",
+    letra: `
+[D]En nombre del [A7]cielo, os pido po[D]sada,
+[D7]Pues no puede [G]andar, [D]mi es[A7]posa a-ma[D]-da.
+(Aquí no es mesón, sigan adelante, yo no puedo abrir, no sea algún tunante)
+
+[D]No seas inhu[A7]mano, tennos cari[D]dad,
+[D7]Que el Dios de los [G]cielos, [D]te [A7]lo premia[D]rá.
+(Ya se pueden ir, y no molestar, porque si me enfado, los voy a apalear)
+
+[D]Venimos ren[A7]didos, desde Naza[D]ret,
+[D7]Yo soy carpin[G]tero, [D]de [A7]nombre Jo[D]sé.
+(No me importa el nombre, déjenme dormir, pues que ya les digo, que no hemos de abrir)
+
+[D]Entren Santos Pere[A7]grinos, [D]reciban este rincón,
+[D]Que aunque es pobre la mo[A7]rada, se las doy de cora[D]zón.
+`
+  },
+  {
+    id: 328,
+    titulo: "GLORIA CANTA LOS QUERUBINES",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "E",
+    letra: `
+[E]Gloria canta [A]los queru[E]bes, [A]en los campos [E]en Belén.
+[A]Vieron que[E]rubes que entonaban, [A]cantares [E]a nuestro rey.
+
+[E]Glo-oo-oo-oo-oo-[C#m]ria, [F#m]in e-[B7]xelce-[E]sis [C#m]De-[F#m]o, [B7]
+[E]Glo-oo-oo-oo-oo-[C#m]ria, [F#m]in e-[B7]xelce-[E]sis [C#m]De-[F#m]e [B7]o. [E]
+
+[E]Unos pas[A]tores que ve[E]laban, [A]en los campos [E]de belén.
+[A]Y el e[E]co de valle en valle, [A]repite [E]una y otra vez.
+`
+  },
+  {
+    id: 329,
+    titulo: "HA TRAÍDO LA ESPERANZA",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "Dm",
+    letra: `
+[Dm]Desde el cielo a ba[C]jado la pro[Gm]mesa celestial
+[Bb]es el hijo de ma[C]ría que la ben[Dm]dición traerá.
+[Dm]A un rey han espe[C]rado coro[Gm]nado de esplendor
+[Bb]pero Dios se ha presen[C]tado pobre hu[Dm]milde y redentor. [C]
+
+[F]Hoy la humani[C]dad celebra y los [Gm]ángeles aclaman
+[Bb]que el señor se hizo pre[C]sente ha tra[F]ído la esperanza.
+[C]Este niño inde[Gm]fenso acostado en el pesebre
+[Bb]es el salvador del [C]mundo y nos [Dm]da vida perenne.
+
+[Dm]Él nos da la euca[C]ristía ali[Gm]mento celestial
+[Bb]se ha quedado con no[C]sotros en un [Dm]pedazo de pan.
+`
+  },
+  {
+    id: 330,
+    titulo: "LA MARIMORENA",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "A",
+    letra: `
+[A]Ande, ande, ande, la Mari[E7]morena
+[D]Ande, ande, [E7]ande que es la Noche[A]buena. (x2)
+
+[A]En el Portal de Be[D]lén, hay es[A]trellas, Sol y Luna,
+la [E7]Virgen y San José, y el [A]Niño que está en la cuna.
+
+[A]En el Portal de Be[D]lén, hacen [A]fuego los pastores,
+para [E7]calentar al niño, que ha na[A]cido entre las flores.
+
+[A]Una estrella se ha per[D]dido, y en el [A]cielo no aparece,
+se ha me[E7]tido en el Portal, y en Su [A]rostro resplandece.
+`
+  },
+  {
+    id: 331,
+    titulo: "LOS PECES EN EL RÍO",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "Am",
+    letra: `
+[Am]La virgen se está pei[E7]nando, [Am]entre cortina y cortina.
+[E7]Los cabellos son de oro, [Am]y el peine de plata fina.
+
+[E7]Pero mira como beben los peces en el río,
+[Am]pero mira como beben por ver al Dios nacido.
+[E7]Beben y beben y vuelven a beber,
+[Am]los peces en el río por ver a Dios nacer.
+
+[Am]La virgen está la[E7]vando, [Am]y tendiendo en el romero,
+[E7]los pajarillos cantando, [Am]y el romero ofreciendo.
+`
+  },
+   {
+    id: 332,
+    titulo: "NO ME DIRÉIS MARÍA",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "Dm",
+    letra: `
+Intro: [Dm] [Gm] [A7] [Dm]
+
+[Dm]¿No me di[Gm]réis María
+[A#]Quien fue el primer mor[A7]tal
+[Dm]Quien ala[Gm]bó a tu hijito
+[A7]En el pobre por[Dm]tal?
+
+[D7]Un pobre pas[A#]torcito
+[C]Que acaso ya lle[F]gó
+[Dm]Con cuanto a[Gm]mor mi niño
+[A7]Le dio su bendi[Dm]ción.
+
+[Dm]No me di[Gm]réis María
+Si a[A#]caso ya lle[A7]gó
+[Dm]También lle[Gm]vo al establo
+[A7]Sus dones ofre[Dm]cer.
+
+[Dm]Tres reyes [Gm]del desierto
+[A#]Llegaron a Be[A7]lén
+[Dm]Ellos tra[Gm]jeron dones
+[A7]Jesús les dio su [Dm]fe.
+`
+  },
+  {
+    id: 333,
+    titulo: "NOCHE DE PAZ",
+    autor: "Joseph Mohr",
+    categoria: "navidad",
+    tonoOriginal: "A",
+    letra: `
+[A]Noche de paz, noche de amor,
+[E7]Todo duerme en derre[A]dor,
+[D]Entre los astros que es[A]parcen su luz,
+[D]Bella anun[A]ciando al niñito Jesús,
+[E7]Brilla la estrella de pa[A]az,
+[A]Brilla la es[E7]trella de [A]paz.
+
+[A]Noche de paz, noche de amor,
+Todo duerme en derre[A]dor,
+Sólo velan mi[D]rando la [A]faz,
+De su [D]niño angélica [A]paz,
+[E7]José y Ma[A]ría en Belén,
+[A]José y Ma[E7]ría en Be[A]lén.
+
+[A]Noche de paz, noche de amor,
+Ven, Je[E7]sús, ven Se[A]ñor.
+[D]Danos a [A]todos tu divinidad,
+[D]En esta [A]noche de felicidad.
+[E7]Danos a todos tu a[A]mor,
+[A]Danos a [E7]todos tu a[A]mor.
+`
+  },
+  {
+    id: 334,
+    titulo: "TU PUEBLO TE ESPERA",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "F",
+    letra: `
+[F]Ven, Se[C]ñor, tu [Bb]pueblo te es[F]pera.
+[F]Ven, Se[C]ñor, de [Bb]vida y ver[C]dad.
+[Dm]Llega[Am]rá tu [Bb]paz a la [F]tie[A]rra;
+[G#m]por [C]siempre Tú reina[F]rás. (Bis)
+
+[Dm]Una voz clama en el de[G]sierto:
+[G#m]¡prepa[A]ren la senda al Se[Dm]ñor,
+[Dm]tracen caminos claros y [G]rectos,
+[C#m]que va a pa[A]sar nuestro [Dm]Dios!
+
+[Bb]Que se allanen colinas y [F]montes,
+[Bb]se rellenen valles y ba[C]rrancas,
+[Bb]que se anuncie al Señor y su [F]nombre,
+[Bb]que a los pueblos su amor salva[C]rá.
+
+[Dm]El Señor reinará con jus[G]ticia
+[G#m]y con [A]fuego los bauti[Dm]zará.
+`
+  },
+  {
+    id: 335,
+    titulo: "VEN A CANTAR",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "E",
+    letra: `
+[E]Otro año que queda a[A]trás, [E]
+[B7]Mil momentos que recor[E]dar.
+[A]Otro año mil sueños más,
+[E]Hechos reali[B7]dad. [E]
+
+[E]Los problemas vienen y [A]van, [E]
+Y al fi[B7]nal todo sigue i[E]gual.
+[A]No hay montaña que pueda más,
+[E]Que la volun[B7]tad. [E]
+
+[E]Navidad feliz navi[A]dad,
+[E]Vuelva a casa vuelve al ho[B7]gar.
+Navidad dulce navi[E]dad,
+[A]El ca[E]lor de ho[B7]gar.
+
+[E]Ven a cantar, ven a can[A]tar,
+[E]Que ya lle[C]gó la navi[B]dad.
+[A]Ven a cantar, ven a cantar,
+[B]Que ya es[F]tá aquí la navidad.
+
+[A#]Ven a cantar, ven a can[C]tar,
+[F]Que ya llegó la navidad.
+[A#]Ven a cantar, ven a can[C]tar,
+[F]Que ya está aquí la navidad.
+`
+  },
+  {
+    id: 336,
+    titulo: "VEN Y ADOREMOS",
+    autor: "Anónimo",
+    categoria: "navidad",
+    tonoOriginal: "A",
+    letra: `
+Intro: [A] [D] [A] [D]
+
+[A]Si esta noche te encon[D]traras
+Con la estrella de [F#m]paz
+Dejarías que su [E]luz
+Guíe tu cami[A]nar
+Sin saber a dónde [D]lleva
+Su perfecto resplan[F#m]dor
+El camino que re[E]gala
+A Jesús, el salva[A]dor.
+
+[A]Si supieras que los [D]pasos
+De este gran peregri[F#m]nar
+Dan respuesta a lo que [E]buscas
+Y es un niño que ado[A]rar
+Dejarías que se en[D]cienda
+En lo más hondo de tu [F#m]ser
+El anhelo fervo[E]roso
+De encontrarte con el rey.
+
+[D]Ven y adoremos, el nos trae la [A]paz
+[D]Dios con nosotros, para siempre esta[A]rá
+[F#m]Que resuene la tierra, este canto de a[E]mor
+[D]Ha nacido el mesías, la promesa cum[E]plió.
+[A] (La promesa cum[D]plió)
+
+[A]Si esta noche pregun[D]taras
+¿Qué regalo puedes [F#m]dar?
+Una ofrenda que sea [E]digna
+De aquel que es la ver[A]dad
+No hace falta grandes [D]cosas
+Solo entrega el cora[F#m]zón
+El prefiere lo pe[E]queño
+Para derramar su a[A]mor.
+
+[F#m] (Gloria) Los [E]ángeles cantan
+[D] (Gloria) Y la [E]tierra proclama
+[F#m] (Gloria) Ha na[E]cido el salva[D]dor [E]
+`
+  },
+    // --- SECCIÓN: CANTOS DE Alabanza status:terminado---
+    {
     id: 246,
     titulo: "ALABARÉ",
     autor: "Anónimo",
@@ -5899,7 +8405,7 @@ Si En Verdad Eres Salvo di A[G]mén, -Amén-
     id: 267,
     titulo: "YO LE QUIERO CANTAR",
     autor: "Anónimo",
-    categoria: "alabanza",
+    categoria: "alabanza, marianos",
     tonoOriginal: "A",
     letra: `
 [A]YO LE QUIERO CAN[D]TAR,
@@ -5949,7 +8455,38 @@ No te avergüences y alaba a tu Se[G]ñor,
 [G]Alza tus brazos... [G]Cierra los ojos... [G]Abre la boca...
 `
   },
+  {
+    id: 353,
+    titulo: "FORÓFOS",
+    autor: "Hakuna",
+    categoria: "alabanzas",
+    tonoOriginal: "D",
+    letra: `
+[D]Que seamos todos uno como el Padre y tú sois [G]uno
+[D]Todos forofos de todos, [G]Que nos queramos siempre más.
+[Em]Por los que viven para mi[A]rarte y nada [D]más, [A] [Bm]
+[Em]Fuerza de todos, [A]Adelantando el [D]cielo.
 
+[D]Hermanas de Belén, Benedictinos, Cister, [G]Iesu Communio, Clarisas,
+[Bm]Concepcionistas, Carmelitas y tantos [A]más. (Y tantos más)
+
+[D]Que seamos todos uno como el Padre y tú sois [G]uno
+[D]Todos forofos de todos, [G]Que nos queramos siempre más.
+[Em]Por los que son tu prima[A]vera pentecos[D]tal, [A] [Bm]
+[Em]Llenos de vida, [A]Movidos por el es[D]píritu.
+
+[D]Cursillos, Comunión y Liberación, Renovación Carismática, [G]Schöenstatt,
+[Bm]Opus Dei, Focolares, Hakuna, Camino, Effetá [A]Y tantos más.
+
+[D]Que seamos todos uno como el Padre y tú sois [G]uno
+[D]Todos forofos de todos, [G]Que nos queramos siempre más.
+[Em]Por los que son con[A]suelo tuyo en el do[D]lor, [A] [Bm]
+[Em]Besando heridas, [A]En tu pobreza y margina[D]ción.
+
+[D]Hijas y Misioneras de la Caridad, Mercedarios, [G]Trinitarios,
+[Bm]Hospitalarios, Hermanitas y tantos [A]más. (Y tantos más)
+`
+  },
     // --- SECCIÓN: CANTOS Angeli status: terminado ---
   {
     id: 102,
@@ -6106,55 +8643,6 @@ Y en [D#m7(5b)]verdes pastos me hace re[G#m7]posar.\n
 [B]Mi gran Rey
 [F#m7]solo Tú eres
 [A]Mi Se[Am]ñor.
-    `
-},
-{
-    id: 107,
-    titulo: "Piel de porcelana",
-    autor: "Arturo Estrella",
-    categoria: "navidad, villancico",
-    tonoOriginal: "G",
-    letra: `
-[C] [D] [Em] [C] [D]\n
-[C]Piel de porce[D]lana, o[Em]jitos de [C]miel[D]
-[C]Vámonos via[D]jeros a [Em]ver a Emma[C]nuel[D]
-Para es[C]tar [D]con [G]él.\n
-[G]Vamos aparceros vamos a Belén
-[C]Vamos sin du[D]dar
-[G]Por el caminito que está iluminado
-[C]Por el Sirio es[D]telar
-[B4]Vamos pere[Em]grinos
-[C]Tocando el tam[D]bor
-[B4]Llevemos bai[Em]lando y chiflando
-[C]Una bella can[D]ción
-Para el [C]salva[D]dor[G]\n
-[C]Piel de porce[D]lana, o[Em]jitos de [C]miel[D]
-[C]Toma lo que [D]tengo para ofre[Em]cer[C] [D]
-[C]Piel de porce[D]lana o[Em]jitos de [C]miel[D]
-[C]Vámonos via[D]jeros a [Em]ver a Emma[C]nuel[D]
-Para es[C]tar [D]con [G]él.\n
-[G]Llegamos al portalito
-Para encon[C]trar[D]
-Que [G]todos se inclinan al ver al niñito
-Que llo[C]rando es[D]tá
-La [B4]luna le [Em]canta 
-Un a[C]rrullo al be[D]bé
-A mi [B4]niñito del [Em]alma 
-Al [C]niño Emma[D]nuel 
-Le can[C]taré [D]a [G]Él\n
-[G]Traemos de ofrendas 
-[C]Pan, atolito y [D]mucho amor 
-Y [G]aunque somos pobres niño hermoso 
-[C]Te entrego el cora[D]zón
-Pues lle[B4]gaste al [Em]mundo
-Para ilu[C]mi[D]nar
-Con tu [B4]dulce mi[Em]rada
-Nuestra humani[C]dad[D]
-Nuestra eterni[C]dad[G]\n
-[G]Que tu llegada [D]traiga [Em]esperanza al cora[Bm]zón
-[C]Descansa mi [D]niño, des[Em]cansa mi [Bm]Dios
-[C]Gracias por tu son[D]risa, [Em]Nuestro reden[Bm]tor.
-[C]Gracias por tu a[D]mor.[G]
     `
 },
 {
