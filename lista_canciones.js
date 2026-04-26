@@ -729,6 +729,33 @@ Cristo, ten piedad de nosotros, Cristo, ten piedad de nosotros.
 [G]Señor, ten pie[A]dad de nos[D]otros. 
 `
 },
+{
+    id: 113, // Ajusta el ID según tu lista
+    titulo: "Rocíanos Señor",
+    autor: "Tradicional Litúrgico",
+    tonoOriginal: "A",
+    categoria: "entrada, aspersion, piedad",
+    letra: 
+`[A] [E] [D] [A] (Intro)
+
+[A]Rocíanos, Se[E]ñor, con [D]tu bendi[A]ción,
+[Bm]rocíanos [F#m]con tu a[D]mor. [E]Ale[A]luya.
+
+[F#m]Vi agua bro[C#m]tar de [D]lado de[E]recho del [A]Templo..
+[F#m]Renueva, [C#m]Dios de a[D]mor, nuestro bau[B7]tis[E7]mo.
+
+[F#m]Vi que tus e[C#m]legidos re[D]cibí[E]an el [A]agua.
+[F#m]Santifica, [C#m]Dios de a[D]mor, [B7]nuestra [E7]vida.
+
+[F#m]Vi sur[C#m]gir vida [D]nueva en [E]todo tu [A]pueblo.
+[F#m]Salva, [C#m]Dios de a[D]mor, a [B7]todos tus [E7]hijos.
+
+[F#m]Vi can[C#m]tar con [D]gozo a [E]los rena[A]cidos.
+[F#m]Purifica, [C#m]Dios de a[D]mor, a tu I[B7]glesia [E7]santa.
+
+[F#m]Gloria al [C#m]Padre, y al [D]Hijo, y al Es[E]píritu [A]Santo,
+[F#m]a Tí la ala[C#m]banza por [D]siempre, Se[B7]ñor.[E7]`
+},
 
   // --- SECCIÓN: CANTOS DE GLORIA status: agregar gloria shalom ressuscitou---
    /*{
@@ -3185,42 +3212,6 @@ Final:
 [C] [G/B] [Am] [C/G] [D] `
 },
     // --- SECCIÓN: CANTOS DE Reflexión ---
-  {
-    id: 174,
-    titulo: "ALMA MISIONERA",
-    autor: "Anónimo",
-    categoria: "reflexion, salida",
-    tonoOriginal: "G",
-    letra: `
-[G]Señor, toma mi [C]vida nueva
-[G]antes de que la espera
-[D]desgaste [C]años en [D]mi
-[G]Estoy dispuesto a lo que [C]quieras
-[G]no importa lo que sea
-[D]tu llámame a ser[G]vir. [D]
-
-[G]Llévame donde los [D]hombres
-[Em]necesiten tus pa[C]labras
-[G]necesiten mis [D]ganas de vivir
-[G]donde falte la es[D]peranza
-[Em]donde falte la ale[C]gría
-[G]simplemente [D]por no saber de [G]ti. [C] [D]
-
-[G]Te doy, mi cora[C]zón sincero
-[G]para gritar sin miedo,
-[D]tu gran[C]deza, Se[D]ñor.
-[G]Tendré, mis manos [C]sin cansancio,
-[G]tu historia entre mis labios,
-[D]y fuerza en la ora[G]ción. [D]
-
-[G]Y así, en marcha [C]iré cantando,
-[G]por calles predicando.
-[D]Lo be[C]llo que es tu [D]amor.
-[G]Señor, tengo alma [C]misionera,
-[G]condúceme a la tierra,
-[D]que tenga sed de [G]Dios.
-`
-  },
   {
     id: 175,
     titulo: "ALIANZA DE AMOR",
@@ -6178,6 +6169,94 @@ Qué tu amor sea de nosotros uno solo y el mismo Dios.
 [Em]Mi [Bm]sangre, cla[D]vado en la [C]cruz [G] [Am] Yo ver[D]tí.
 `
   },
+  {
+    id: 174,
+    titulo: "ALMA MISIONERA",
+    autor: "Anónimo",
+    categoria: "salida",
+    tonoOriginal: "G",
+    letra: `
+[G]Señor, toma mi [C]vida nueva
+[G]antes de que la espera
+[D]desgaste [C]años en [D]mi
+[G]Estoy dispuesto a lo que [C]quieras
+[G]no importa lo que sea
+[D]tu llámame a ser[G]vir. [D]
+
+[G]Llévame donde los [D]hombres
+[Em]necesiten tus pa[C]labras
+[G]necesiten mis [D]ganas de vivir
+[G]donde falte la es[D]peranza
+[Em]donde falte la ale[C]gría
+[G]simplemente [D]por no saber de [G]ti. [C] [D]
+
+[G]Te doy, mi cora[C]zón sincero
+[G]para gritar sin miedo,
+[D]tu gran[C]deza, Se[D]ñor.
+[G]Tendré, mis manos [C]sin cansancio,
+[G]tu historia entre mis labios,
+[D]y fuerza en la ora[G]ción. [D]
+
+[G]Y así, en marcha [C]iré cantando,
+[G]por calles predicando.
+[D]Lo be[C]llo que es tu [D]amor.
+[G]Señor, tengo alma [C]misionera,
+[G]condúceme a la tierra,
+[D]que tenga sed de [G]Dios.
+`
+  },
+  {
+    id: 155,
+    titulo: "Resucitó",
+    autor: "Comunidad Católica Shalom",
+    tonoOriginal: "G",
+    categoria: "pascua, salida",
+    letra: 
+`[G] [D/F#] [Em] [D] [C] [G/B] [Am7] [D4] (Intro)
+[G] [D/F#] [Em] [D] [Am] [G/B] [C] [A/C#] [D4] [D]
+
+[G]Nuevo día sur[D]gió 
+Y el [Em]pueblo que en las ti[C]nieblas vió
+Una in[G]tensa luz, tu [D]brillo
+Y Tu [C]gloria [Am] a resplande[D]cer
+
+[G]Todos a cami[D]nar
+Un ca[Em]mino abierto por [C]tus manos
+Nueva [G]obra al fin ya po[D]demos ver,
+[C]nueva cre[G/B]ación
+
+[Am]Nosotros somos los al[Em]canzados por tu [G]luz [D]
+[Am]Fruto de [C]tu [Em]obra en la [D4]cruz [D]
+
+El Se[G]ñor, [D/F#]nuestro Dios
+Quien me[Em]rece el loor, todo [C]nuestro amor
+Es el [G]Rey que ven[D/F#]ció 
+Al Cor[Em]dero, Vic[C]toria, po[D]der, honor, gloria (x2)
+Resuci[G]tó! [D/F#] [Em] [C]
+
+[G]Solo un pueblo, un [D/F#]cuerpo, un [Em]canto a Tu lo[C]or
+[G]Tu Iglesia, tu es[Am]posa ce[Em]lebra Tu a[C]mor
+
+[G]Soberano / [D]Majestuoso / [Em]Glorioso / [C]Ven[G/B]-[Am]ce-[D]dor!
+[G]Todos juntos / [D]Y en fiesta
+[Em]Un banquete que [C]no ce[D4]sa[D]rá. (Repite Coro)
+
+[E4]¡Que no ce[E]sará!
+
+El Se[A]ñor, [E/G#]nuestro Dios
+Quien me[F#m]rece el loor, todo [D]nuestro amor
+Es el [A]Rey que ven[E/G#]ció 
+Al Cor[F#m]dero, Vic[D]toria, po[E]der, honor, gloria.
+
+El Se[A]ñor, [E/G#]nuestro Dios
+Quien me[F#m]rece el loor, todo [D]nuestro amor
+Es el [A]Rey que ven[E/G#]ció 
+Al Cor[F#m]dero, Vic[D]toria, po[Bm]der, [F#m]honor, [E]gloria 
+
+Resuci[A]tó! [E/G#] [F#m] [D]
+Resuci[A]tó! [E/G#] [F#m] [D]
+Resuci[A]tó!`
+},
     // --- SECCIÓN: CANTOS DE La Pasión ---
      {
     id: 156,
@@ -8786,84 +8865,5 @@ Todo es tuyo Señor
 Todo es tuyo Señor
 Todo es tuyo Señor`
 },
-{
-    id: 113, // Ajusta el ID según tu lista
-    titulo: "Rocíanos Señor",
-    autor: "Tradicional Litúrgico",
-    tonoOriginal: "A",
-    categoria: "entrada, aspersion, piedad",
-    letra: 
-`[A] [E] [D] [A] (Intro)
-
-[A]Rocíanos, Se[E]ñor, con [D]tu bendi[A]ción,
-[Bm]rocíanos [F#m]con tu a[D]mor. [E]Ale[A]luya.
-
-[F#m]Vi agua bro[C#m]tar de [D]lado de[E]recho del [A]Templo..
-[F#m]Renueva, [C#m]Dios de a[D]mor, nuestro bau[B7]tis[E7]mo.
-
-[F#m]Vi que tus e[C#m]legidos re[D]cibí[E]an el [A]agua.
-[F#m]Santifica, [C#m]Dios de a[D]mor, [B7]nuestra [E7]vida.
-
-[F#m]Vi sur[C#m]gir vida [D]nueva en [E]todo tu [A]pueblo.
-[F#m]Salva, [C#m]Dios de a[D]mor, a [B7]todos tus [E7]hijos.
-
-[F#m]Vi can[C#m]tar con [D]gozo a [E]los rena[A]cidos.
-[F#m]Purifica, [C#m]Dios de a[D]mor, a tu I[B7]glesia [E7]santa.
-
-[F#m]Gloria al [C#m]Padre, y al [D]Hijo, y al Es[E]píritu [A]Santo,
-[F#m]a Tí la ala[C#m]banza por [D]siempre, Se[B7]ñor.[E7]`
-},
-{
-    id: 155,
-    titulo: "Resucitó",
-    autor: "Comunidad Católica Shalom",
-    tonoOriginal: "G",
-    categoria: "pascua, salida",
-    letra: 
-`[G] [D/F#] [Em] [D] [C] [G/B] [Am7] [D4] (Intro)
-[G] [D/F#] [Em] [D] [Am] [G/B] [C] [A/C#] [D4] [D]
-
-[G]Nuevo día sur[D]gió 
-Y el [Em]pueblo que en las ti[C]nieblas vió
-Una in[G]tensa luz, tu [D]brillo
-Y Tu [C]gloria [Am] a resplande[D]cer
-
-[G]Todos a cami[D]nar
-Un ca[Em]mino abierto por [C]tus manos
-Nueva [G]obra al fin ya po[D]demos ver,
-[C]nueva cre[G/B]ación
-
-[Am]Nosotros somos los al[Em]canzados por tu [G]luz [D]
-[Am]Fruto de [C]tu [Em]obra en la [D4]cruz [D]
-
-El Se[G]ñor, [D/F#]nuestro Dios
-Quien me[Em]rece el loor, todo [C]nuestro amor
-Es el [G]Rey que ven[D/F#]ció 
-Al Cor[Em]dero, Vic[C]toria, po[D]der, honor, gloria (x2)
-Resuci[G]tó! [D/F#] [Em] [C]
-
-[G]Solo un pueblo, un [D/F#]cuerpo, un [Em]canto a Tu lo[C]or
-[G]Tu Iglesia, tu es[Am]posa ce[Em]lebra Tu a[C]mor
-
-[G]Soberano / [D]Majestuoso / [Em]Glorioso / [C]Ven[G/B]-[Am]ce-[D]dor!
-[G]Todos juntos / [D]Y en fiesta
-[Em]Un banquete que [C]no ce[D4]sa[D]rá. (Repite Coro)
-
-[E4]¡Que no ce[E]sará!
-
-El Se[A]ñor, [E/G#]nuestro Dios
-Quien me[F#m]rece el loor, todo [D]nuestro amor
-Es el [A]Rey que ven[E/G#]ció 
-Al Cor[F#m]dero, Vic[D]toria, po[E]der, honor, gloria.
-
-El Se[A]ñor, [E/G#]nuestro Dios
-Quien me[F#m]rece el loor, todo [D]nuestro amor
-Es el [A]Rey que ven[E/G#]ció 
-Al Cor[F#m]dero, Vic[D]toria, po[Bm]der, [F#m]honor, [E]gloria 
-
-Resuci[A]tó! [E/G#] [F#m] [D]
-Resuci[A]tó! [E/G#] [F#m] [D]
-Resuci[A]tó!`
-},
 ];
-// último id:279
+// último id:384
