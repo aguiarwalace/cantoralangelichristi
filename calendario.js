@@ -38,7 +38,7 @@ const datosLiturgicos = {
         // TIEMPO PASCUAL
         { id: "a_pascua_2", nombre: "2º Domingo de Pascua - Domingo de la Misericordia", cantos: [10,113,112,64,79,90,114,128,172,170,155] },
         { id: "a_pascua_3", nombre: "3º Domingo de Pascua", cantos: [10,173,112,64,79,90,114,128,172,170, 155] },
-        { id: "a_pascua_4", nombre: "4º Domingo de Pascua", cantos: [10,173,112,64,79,90,114,128,172,170,155] },
+        { id: "a_pascua_4", nombre: "4º Domingo de Pascua", cantos: [10,173,112,64,79,90,114,128,191,172,170,155] },
         { id: "a_pascua_5", nombre: "5º Domingo de Pascua", cantos: [10,173,112,64,79,90,114,128,172,170,155] },
         { id: "a_pascua_6", nombre: "6º Domingo de Pascua", cantos: [10,173,112,64,79,90,114,128,172,170,155] },
 
