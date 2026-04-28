@@ -7,13 +7,13 @@
     <title>Cantos por Celebración</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* HEADER IGUAL AL INDEX */
+        /* Ajustes de estilo para mantener consistencia */
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 0 20px;
-            background-color: #004488;
+            background-color: var(--primary, #004488);
             color: white;
             height: 70px;
         }
@@ -26,7 +26,6 @@
             color: white;
         }
 
-        /* SELECTORES LIMPIOS */
         .selector-container { 
             display: flex; 
             gap: 10px; 
@@ -44,29 +43,51 @@
             cursor: pointer;
         }
 
-        /* TÍTULO DE MISA SELECCIONADA */
         .misa-titulo { 
             color: #004488; 
             border-bottom: 2px solid #004488; 
             padding-bottom: 10px; 
-            margin: 20px 0 40px 0; 
+            margin: 20px 0 20px 0; 
             text-align: center;
             font-size: 1.8rem;
         }
 
-        .song-card {
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
+        /* Barra de controles superiores */
+        .barra-herramientas {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #eee;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
 
-        .song-card h3 { color: #004488; margin-top: 0; }
+        body.dark-mode .barra-herramientas { background: #333; }
+
+        .song-card {
+            background: var(--bg-card, #fff);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .song-card h3 { color: var(--primary, #004488); margin: 0; }
         
         body.dark-mode { background: #1a1a1a; color: white; }
         body.dark-mode .song-card { background: #2d2d2d; color: white; }
         body.dark-mode .misa-titulo { color: #5dade2; border-color: #5dade2; }
+
+        /* Ocultar elementos al imprimir PDF */
+        @media print {
+            header, .selector-container, .barra-herramientas, .controles-tono, #btn-volver {
+                display: none !important;
+            }
+            .song-card { box-shadow: none; border: 1px solid #eee; page-break-after: always; }
+            body { background: white; color: black; }
+        }
     </style>
 </head>
 <body>
@@ -99,6 +120,10 @@
 
         <div id="contenedor-misa">
             </div>
+
+        <div id="btn-volver-container" style="text-align: center; margin-top: 20px; display: none;">
+            <button onclick="location.reload()" class="btn-primary" style="width: auto; padding: 10px 30px;">Nueva Búsqueda</button>
+        </div>
     </main>
 
     <script src="lista_canciones.js"></script>
@@ -106,6 +131,8 @@
     <script src="script.js"></script> 
     
     <script>
+        let fontSizeGlobal = 1.2;
+
         function cargarCelebraciones() {
             const ciclo = document.getElementById('select-ciclo').value;
             const selectMisa = document.getElementById('select-misa');
@@ -124,41 +151,82 @@
             }
         }
 
+        function cambiarTextoGlobal(delta) {
+            fontSizeGlobal += delta;
+            if (fontSizeGlobal < 0.8) fontSizeGlobal = 0.8;
+            if (fontSizeGlobal > 2.5) fontSizeGlobal = 2.5;
+            
+            document.querySelectorAll('.lyrics-container').forEach(el => {
+                el.style.fontSize = fontSizeGlobal + 'rem';
+            });
+        }
+
         function mostrarMisa() {
             const ciclo = document.getElementById('select-ciclo').value;
             const misaId = document.getElementById('select-misa').value;
             const contenedor = document.getElementById('contenedor-misa');
             const zonaSeleccion = document.getElementById('zona-seleccion');
+            const btnVolver = document.getElementById('btn-volver-container');
             
             if (!misaId) return;
 
             const misa = datosLiturgicos[ciclo].find(m => m.id === misaId);
             if (!misa) return;
 
-            // 1. OCULTAMOS TODA LA ZONA DE SELECCIÓN
             zonaSeleccion.style.display = 'none';
+            btnVolver.style.display = 'block';
 
-            // 2. DIBUJAMOS LA MISA
-            contenedor.innerHTML = `<h2 class="misa-titulo">${misa.nombre}</h2>`;
+            // Dibujar cabecera y controles globales
+            contenedor.innerHTML = `
+                <h2 class="misa-titulo">${misa.nombre}</h2>
+                <div class="barra-herramientas">
+                    <div class="controles-tono">
+                        <button onclick="cambiarTextoGlobal(-0.1)">A-</button>
+                        <button onclick="cambiarTextoGlobal(0.1)">A+</button>
+                        <span style="font-size:0.8rem; margin-left:10px;">Texto</span>
+                    </div>
+                    <button onclick="window.print()" class="btn-primary" style="width:auto; padding: 5px 15px;">Generar PDF</button>
+                </div>
+            `;
 
             misa.cantos.forEach(id => {
                 const song = canciones.find(s => s.id === id);
                 if (song) {
-                    const div = document.createElement('div');
-                    div.className = 'song-card';
-                    div.innerHTML = `
+                    const card = document.createElement('div');
+                    card.className = 'song-card';
+                    card.innerHTML = `
                         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
                             <h3 style="margin:0;">${song.titulo}</h3>
-                            <span style="font-size:0.8rem; background:#f0f0f0; padding:4px 8px; border-radius:4px; color:#666;">${song.tonoOriginal}</span>
+                            <div class="controles-tono">
+                                <button onclick="cambiarTonoLocal(${song.id}, -1)">-</button>
+                                <button onclick="cambiarTonoLocal(${song.id}, 0)">⟳</button>
+                                <button onclick="cambiarTonoLocal(${song.id}, 1)">+</button>
+                            </div>
                         </div>
-                        <div class="lyrics-container">
-                            ${formatearAcordesEnLetra(song.letra, 0, escSost)}
+                        <div id="song-body-${song.id}" class="lyrics-container" data-offset="0" style="font-size: ${fontSizeGlobal}rem">
+                            ${formatearAcordesEnLetra(song.letra, 0, escSost, song.tonoOriginal)}
                         </div>
                     `;
-                    contenedor.appendChild(div);
+                    contenedor.appendChild(card);
                 }
             });
             window.scrollTo(0, 0);
+        }
+
+        // Función para cambiar tono individualmente dentro de esta página
+        function cambiarTonoLocal(id, delta) {
+            const song = canciones.find(s => s.id === id);
+            const container = document.getElementById(`song-body-${id}`);
+            if (!song || !container) return;
+
+            let offset = parseInt(container.getAttribute('data-offset'));
+            offset = (delta === 0) ? 0 : offset + delta;
+            container.setAttribute('data-offset', offset);
+
+            const nuevoTono = calcularNombreTono(song.tonoOriginal, offset);
+            const escala = preferSost.some(t => nuevoTono.startsWith(t)) ? escSost : escBem;
+
+            container.innerHTML = formatearAcordesEnLetra(song.letra, offset, escala, nuevoTono);
         }
     </script>
 </body>
