@@ -108,5 +108,11 @@ const datosLiturgicos = {
         { id: "sol_cristo_rey", nombre: "Cristo Rey", cantos: [1,2,3,4,5] },
         { id: "sol_inmaculada", nombre: "Inmaculada Concepción", cantos: [19,2,5,4,20] },
         { id: "sol_navidad", nombre: "Navidad del Señor", cantos: [1,2,3,4,5] }
-    ]
+    ],
+     "Eventos": [
+        // EVENTOS
+        { id: "vocafest_semi_concierto", nombre: "VocaFest - Seminario mayor (16/05/2026)", cantos: [270,275,106,280,104,354,110,384,277,109] },
+        { id: "vocafest_semi_adoracion", nombre: "Adoración - Seminario mayor (16/05/2026)", cantos: [1,2,3,4,5] },
+        { id: "vig_pentecostes", nombre: "Vigilia de Pentecostés - Motul (23/05/2026)", cantos: [1,2,3,4,5] },
+     ],
 };
