@@ -8566,6 +8566,42 @@ No te avergüences y alaba a tu Se[G]ñor,
 [Bm]Hospitalarios, Hermanitas y tantos [A]más. (Y tantos más)
 `
   },
+  {
+  id: 385,
+  titulo: "CON UN PASO DE FE",
+  autor: "Jeséd",
+  categoria: "alabanzas",
+  tonoOriginal: "G",
+  letra: `
+Intro: [G] [D] [Em] [C] [D] (x2)
+
+[C] [D] [C] MOVERÁS LAS MONTAÑAS
+[D] [C] CAMINAR SOBRE AGUA (x2)
+[C] [D] [C] CAMINAR SOBRE FUEGO
+[D] [C] PROCLAMAR SU PALABRA (x2)
+
+[G] [C] [D] [C] CON UN PASO DE FE A CRISTO VERÁS (x4)
+
+MOVERÁS LAS MONTAÑAS CAMINAR SOBRE AGUA (x2)
+
+CON UN PASO DE FE A CRISTO VERÁS (x4)
+
+CAMINAR SOBRE FUEGO PROCLAMAR SU PALABRA (x2)
+
+[G] [C] [D] [C] Baja el rio, baja el rio
+[G] [C] [D] [C] baja el rio hacia el jordan
+
+CON UN PASO DE FE A CRISTO VERÁS (x4)
+
+MOVERÁS LAS MONTAÑAS
+CAMINAR SOBRE AGUA
+CAMINAR SOBRE FUEGO
+PROCLAMAR SU PALABRA
+
+Baja el rio…
+Con un paso de fe
+`
+},
     // --- SECCIÓN: CANTOS Angeli status: terminado ---
   {
     id: 102,
@@ -8866,4 +8902,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:384
+// último id:385

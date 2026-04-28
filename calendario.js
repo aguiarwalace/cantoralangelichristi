@@ -111,7 +111,7 @@ const datosLiturgicos = {
     ],
      "Eventos": [
         // EVENTOS
-        { id: "vocafest_semi_concierto", nombre: "VocaFest - Seminario mayor (16/05/2026)", cantos: [270,275,106,280,104,354,110,384,277,109] },
+        { id: "vocafest_semi_concierto", nombre: "VocaFest - Seminario mayor (16/05/2026)", cantos: [270,275,106,280,104,354,110,385,277,109] },
         { id: "vocafest_semi_adoracion", nombre: "Adoración - Seminario mayor (16/05/2026)", cantos: [1,2,3,4,5] },
         { id: "vig_pentecostes", nombre: "Vigilia de Pentecostés - Motul (23/05/2026)", cantos: [1,2,3,4,5] },
      ],
