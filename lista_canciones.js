@@ -989,9 +989,9 @@ Intro: [Em] [D/F#] [G] [A9] [Bm] [A/C#] [D/F#] [G] [A9] [G] [A] [Bm]
 `[E] [E/G#] [A] [E/G#] [A] [C#m] [B] (Intro)
 
 [C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
-[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!
+[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [A] [D]hombres por [A]Él a[E]mados!
 [C#m]Glo[A]_____ria a [E]Dios en el [B]cielo!
-[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [D]hombres por [A]Él a[E]mados!
+[C#m]Glo[A]_____ria y [E]paz en la [B]tierra a los [A] [D]hombres por [A]Él a[E]mados!
 
 [C#m]Señor Dios, [A]Rey del cielo, [E]Dios Padre todo[B]poderoso 
 [C#m]Te alabamos, [A]te bendecimos, [E]te ado[B]ramos
