@@ -8617,6 +8617,32 @@ Baja el rio…
 Con un paso de fe
 `
 },
+{
+    id: 386,
+    titulo: "Nadie como Dios",
+    autor: "Comunidad Católica Shalom",
+    tonoOriginal: "G",
+    categoria: "alabanzas",
+    letra: 
+`[Intro] Em  C  Am  G/B  C  Em
+
+[Em] Somos tu pueblo, [G] pueblo consagrado
+[Am] Susten[G/B]tados [C] por Tu amor.
+[Em] Somos tu pueblo, [G] pueblo escogido
+[Am] Traemos en el corazón la brasa del lo[B7]vor.
+
+[C] Palmas en las [D] manos, [Em] y gritos de vic[G]toria
+[C] Cielos y tierra se [Am] unen para procla[B7]mar:
+
+¡¿[Em] Quién como Dios?! ¡[G] Nadie como Dios!
+[Am] Solo Él es santo y [B7] digno de honor.
+¡¿[Em] Quién como Dios?! ¡[G] Nadie como Dios!
+[Am] Solo Él es santo y [B7] digno de honor.
+
+Es [Em] poderoso el Señor,
+Mara[G]villoso el Señor,
+Victo[Am]rioso [G/B] el Se[C]ñor.`
+},
     // --- SECCIÓN: CANTOS Angeli status: terminado ---
   {
     id: 102,
@@ -8917,4 +8943,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:385
+// último id:386
