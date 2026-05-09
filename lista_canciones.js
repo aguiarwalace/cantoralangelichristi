@@ -4576,19 +4576,36 @@ Intro: [Dm] [Bb] [F] [C]
 [F]Al contemplarte en la Cruz [C]Al contemplar tanto amor
 [Gm]No puedo más que Adorarte [Am]Y mi vida [Bb]entre[C]garte, [F]Jesús.
 
+[Dm] [Bb] [F] [C] 
+
 [F]Siendo Dios [C]Tomaste mi lugar
 [Gm]Cargaste en tus hombros [C]mis heridas y pecados
+
 [Gm]Fue por mi [Dm]Te entregaste
-[Bb]Para darme [Gm]vida nueva [C]Y rescatarme. [1], [2], [3]
+[Bb]Para darme [Gm]vida nueva [C]Y rescatarme.
+
+[F]Al contemplarte en la Cruz 
+[C]Al contemplar tanto amor
+[Gm]No puedo más que Adorarte 
+[Am]Y mi vida [Bb]entre[C]garte (2x)
+
+(suave/forte) 
+[Bb/D] [C/E] [F]
+[F]Al contemplarte en la Cruz [C]Al contemplar tanto amor
+[Gm]No puedo más que Adorarte [Am]Y mi vida [Bb]entre[C]garte
+[F]Al contemplarte en la Cruz [C]Al contemplar tanto amor
+[Gm]No puedo más que Adorarte [Am]Y mi vida [Bb]entre[C]garte, [F]Jesús.
+
+[F] [Bb] [F] [C] [F]
 `
   },
   {
-    id: 338,
-    titulo: "ANÍMATE",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "C",
-    letra: `
+  id: 338,
+  titulo: "ANÍMATE",
+  autor: "Verónica Sanfilippo",
+  categoria: "adoracion",
+  tonoOriginal: "C (capo 1)",
+  letra: `
 Intro: [C] [C] [F/G]
 
 [C]Ya confese mi fe ante ti,
@@ -4599,42 +4616,72 @@ Cargar mi cruz y seguirte hasta el [F]fin. [G]
 [C]Y en esta vida junto a ti,
 Me ensañas que no solo se trata de [F]mi, [G]
 [C]Me invitas a que abra el corazón,
-A que pierda el miedo a tu per[F]dón. [G]
+Para mirar al otro y ver en su inte[F]rior: [G]
 
-[Am]Oh anímate, a [F]salir de ti, [C]a morir a ti, [G]oh anímate,
-[Am]Cargaremos la [F]cruz, [C]y te seguire[G]mos, oh anímate,
-[Am]A perderte en [G]mí, una y otra vez,
-[Am]Oh [F]anímate, [C]a que tu vida sea mi [Am]respuesta [G]de [C]amor. [4], [5], [6]
+[C] Lo que lo hace [C] sufrir,
+[C] Lo que hiere su [C] sentir,
+[C] Lo que le quita la [C] paz,
+[C] Lo que no puede car[G]gar.
+
+[F] [G] [C] Y tú me dices anímate,
+[Am] A salir de ti, [G] a morir a tí.
+[Am] [G] [C] Ohh anímate, [Am] a cargar tu cruz,
+[G] Ven y sígueme, [F] [G] [C] oh anímate,
+[Am] A perderte en mí, [G] una y otra vez.
+[Am] [F] [C] Oh anímate, [C] a que tu vida sea mi [Am] respuesta [G] de [C] amor.
+
+[Am] Y con tu gracia yo me ani[F]mare,
+[C] A salir de mí, [G] de morir a mi.
+[Am] Yo me ani[F]mare,
+[C] Cargare mi cruz [G] y te seguiré.
+[Am] Yo me ani[F]mare, [C] a perderme en [G] ti,
+[Am] Una u [F] otra vez.
+[Am] Yo me ani[F]mare, [C] a que mi vida sea [Am] respuesta [G] de [C] amor.
+
+[F] [G] [C] Ooh, [F] [G] [C] Yo quiero que mi vida sea [Am] respuesta [G] de [C] amor.
 `
-  },
+},
   {
-    id: 339,
-    titulo: "APÓSTOL DE TU LUZ",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "C",
-    letra: `
+  id: 339,
+  titulo: "APÓSTOL DE TU LUZ",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "C",
+  letra: `
 Intro: [C] [F] [G] (x2)
 
-[C]No me dejes [F]solo en este cami[G]nar,
-[C]Sin tu [F]mano yo no sé [G]andar.
-[Am]Quiero ser dócil a [G]ti, [F]señor yo estoy [C]dispuesto,
-[F]Le digo si a tu en[G]vío [C]ya quiero empezar a andar,
-[F]decirle al mundo que estas vivo,
-[G]que el camino y la [Am]ver[Dm]dad eres tu,
-[G]quiero ser apóstol de tu [Am]luz. [G] [F]
+[C] Sentí muy dentro la[F]tir mi cora[G]zón
+[C] mire tu rostro y [F] luego oí tu [Dm] voz y te creí [G] 
+creí en tu forma de [C] amar y en tu forma de [F] vivir [G] 
 
-[F]bajo tu luz mi [G]fe no tiene [C]lími[Am]tes,
-[F]bajo tu luz mi [G]fe no tiene [C]lími[F]tes. [G]
+[C] dijiste vayan yo [F] los envío a[G]hí
+[C] donde tu hermano ne[F]cesite oír ha[Dm]blar de mi [G]
+del amor
 
-[C]Mi voz se ha [F]vuelto un eco de tu [G]voz,
-[C]Y en cada [F]paso encuentro una ra[G]zón para seguir,
-[Am]para nunca du[G]dar, [F]yo sé que hablas por [C]mi,
-[F]Me has dado fuerzas para [G]poder cam[C]biar,
-[F]Sé que mis ojos te pueden reflejar,
-[G]señor yo estoy [Am]dis[Dm]puesto. [6], [7], [8], [9]
+[C] Le digo si a tu en[F]vío [G] ya quiero empezar a [C] andar,
+[F] decirle al mundo que estas vivo
+[G] que el camino y la [Am] ver[Dm]dad eres tu
+[G] quiero ser apóstol de tu [Am] luz [G] [F]
+
+[F] bajo tu luz mi [G] fe no tiene [C] lími[Am]tes
+[F] bajo tu luz mi [G] fe no tiene [C] lími[F]tes [G]
+
+[C] Mi voz se ha [F] vuelto un eco de tu [G] voz
+[C] Y en cada [F] paso encuentro una ra[G]zón para seguir,
+[Am] para nunca du[G]dar, [F] yo sé que hablas por [C] mi,
+[F] Me has dado fuerzas para [G] poder cam[C]biar,
+[F] Sé que mis ojos te pueden reflejar,
+[G] Señor yo estoy dispuesto.
+
+[C] Le digo si a tu en[F]vío [G] ya quiero empezar a [C] andar,
+[F] decirle al mundo que estas vivo
+[G] que el camino y la [Am] ver[Dm]dad eres tu
+[G] quiero ser apóstol de tu [Am] luz [G] [F]
+
+[F] bajo tu luz mi [G] fe no tiene [C] lími[Am]tes
+[F] bajo tu luz mi [G] fe no tiene [C] lími[F]tes [G]
 `
-  },
+}, 
   {
     id: 340,
     titulo: "AQUÍ ESTOY YO",
@@ -4657,12 +4704,12 @@ Intro: [G] [C]
 [G]Listo quiero estar, [Em]Los dones que me diste voy a usar,
 [C]Los años que me has dado vi[G]viré Por ti.
 [G]Voy a conquistar [Em]La tierra que me diste sin dudar,
-[C]Viviré por [G]ti. [9], [10], [11]
+[C]Viviré por [G]ti.
 `
   },
   {
     id: 341,
-    titulo: "BIENAVENTURADOS (Himno JMJ)",
+    titulo: "BIENAVENTURADOS (Himno JMJ 2016 - Cracovia)",
     autor: "Anónimo",
     categoria: "adoracion",
     tonoOriginal: "E",
@@ -4681,10 +4728,13 @@ Intro: [G] [C]
 [C#m7]En la [A2]cruz Él nos re[E]dimió, [D]de la [A2]tumba resuci[E]tó.
 [Bsus]¡Jesucris[B]to es el Se[F#sus]ñor! [F#]¡Al [A]mundo hay que anun[B]ciar! [C#sus] [C#]
 
-[A]Hay que soltar el [B]miedo y ser [C#m]fiel, [A]con la mi[E]rada en Su [B]amor, [A]
-Confiar por[B]que Él resuci[C#m]tó. [A] [B]¡Vive el Se[C#sus]ñor! [C#] [11], [12], [13], [14], [15]
+[A]Hay que soltar el [B]miedo y ser [C#m]fiel, [A]con la mi[E]rada en Su [B]amor, [A] 
+Confiar por[B]que Él resuci[C#m]tó. [A] [B]¡Vive el Se[C#sus]ñor! [C#] 
+
+[E]Bienaventura[B]dos los misericor[C#m7]dio[A]sos,
+[E]porque ellos alcan[Bsus]za[B]rán miseri[F#sus]cor[F#]dia. (x2)
 `
-  },
+  },// --- revisado até aqui ---
   {
     id: 342,
     titulo: "CONFESIÓN DE FE",
@@ -4775,7 +4825,7 @@ delante del Rey de [E]Reyes, las rodillas se han de do[A]blar. [20], [21], [22],
 [D]Rey de la cre[E]ación, [F#m]Por [E]siempre [A]Ameeeen. [23], [24], [25]
 `
   },
-  {
+   {
     id: 346,
     titulo: "DIME PADRE",
     autor: "Anónimo",
@@ -4786,17 +4836,52 @@ Intro: [Bm]
 
 [Bm]Dime Padre ¿Qué po[Em7]demos hacer? Tus hijos se [A]pierden y no en[F#]tiendo por [Bm]qué, [A]
 [Bm]Dime Padre, cada [Em7]día se alejan más y de ver[A]dad que no he [F#]hecho nada mal,
-[Bm]pero curan sus he[A]ridas con lo que no les cu[G]rará.
+[Bm]pero curan sus he[A]ridas con lo que no les cu[G]rará. [4]
 
 [G]Les di el Mandamiento del a[Bm]mor me crucificaría mil veces [A]más,
 [D]pero ellos [F#]huyen de su cre[G]ador y de su eterna felicidad.
 [G]Y es que los hemos hecho [Em]tan libres que a veces me duele pen[A]sar,
-[F#]que este don, que este regalo lo utili[Bm]cen para el mal.
+[F#]que este don, que este regalo lo utili[Bm]cen para el mal. [5]
 
 [Bm]Dime Padre, ¿Cómo a [Em7]nuestra familia reunir?,
 [A]les ofrecemos la eter[F#]nidad, [Bm]pero pre[A]fieren huir.
 [Bm]Dime Padre, ¿Cómo ablan[Em7]dar su corazón?
-[A]¿Cómo quitar esta co[F#]raza formada por el do[Bm]lor? [25], [26], [27], [28], [29], [30]
+[A]¿Cómo quitar esta co[F#]raza formada por el do[Bm]lor? [6]
+
+[G]Si supieran cuánto les a[Em]mamos, si supieran que todo tiene un por [A]qué
+Dime Padre, ¿Cómo sus [D]almas acoger?.
+[Em]Si supieran que [F#]ahora somos depen[Bm]dientes [A]de que [G]nuestra creación nos quiera
+[Gm]Nuestro único deseo es que sus [A]almas estén llenas. [7]
+
+[Bm]Dime Padre, ¿Cómo les expli[Em7]camos que son [A]lo que [F#]más a[Bm]mamos? [A]
+[Bm]Dime Padre, ¿Cómo les [Em7]guiamos a a[A]quello que les com[F#]pleta
+si es que se [Bm]refugian en [A]falsas metas? [8]
+
+[G]Y nos destroza [Gm]verles odiarse, verles o[Bm]diarse con tanta fuerza.
+[Em]Dime Padre, ¿[F#]Cómo parar este do[Bm]lor?
+[Em]Quiero que me [F#]quieran pero no es obli[Bm]gación. [B7]
+[Em]Les mi[A]ro con mis ojos, [D]llenos de compasión
+[Em]y te aseguro que a[Em]cepto cualquier tipo de per[D]dón. [8, 9]
+
+[Em]Solo nos queda espe[Bm]rar a que escuchen nuestra voz
+[D]y que vean las puertas a[A]biertas de este cielo acogedor.
+[Em]Qué siempre serán bienve[Bm]nidos a los brazos de este corazón
+[D]que solo quiere [A]verlos unidos en la [G]tierra con su Salva[Gm]dor. [9, 10]
+
+[Bm]Y me hago pan, pero no me [Em]ven. Me cuelo en sus pensamientos, pero no me ven
+[A]Me meto en sus entrañas una y otra [D]vez. [A/C#]Lloro todos los días pero no me ven
+[Bm]Dime Padre qué puedo ha[Em]cer, tus hijos se pierden y se alejan
+[F#]y me da miedo que no [Bm]sepan volver. [10]
+
+(Instrumental: [Em] [F#m] [Bm] - [G] - [A] | [Em] [F#m] [Bm] - [D] - [E] x2)
+
+[G]Pa[A]pá, deja[D]rán de llorar.
+[G]Espero que esos ca[A]minos vacíos se [D]puedan solucionar.
+[G]Espe[A]raré hasta el [D]último se[A]gundo para [G]volverlo a intentar,
+[A]no me rendiré, quiero a tus [Gm]hijos [Em]de ver[A]dad. [10, 11]
+
+[G]No ven qué bien ya he ven[A]cido a la ser[D]piente que [A/C#]les hace tem[Bm]blar.
+[G]Ya la ha pisado mi [A]Madre, solo tienen que [D]mirarme y vivirán. [12]
 `
   },
   {
@@ -4986,7 +5071,7 @@ Intro: [A] [E] [A] [B] (x2)
 `
   },
   {
-    id: 356,
+    id: 356, //--- revisado
     titulo: "LLEGAS TU (Pedro)",
     autor: "Anónimo",
     categoria: "adoracion",
@@ -4998,20 +5083,41 @@ Intro: [Bb] [F/A] [Gm] [Bm] [Eb] [Bb/D] [Eb] [F] (x2)
 [Eb]Aun sa[Bb/D]biendo mi fragili[F]dad.
 [Bb]Yo no sé si [F/A]es el mo[Gm]mento [F]
 [Eb]Pero tú co[Bb/D]noces mi ver[F]dad.
-
 [Bb]Y este viaje [F/A]yo lo em[Gm]prendo [F]
 [Eb]Confi[Bb/D]ando en que tú me guia[F]rás.
+
 [Gm]Pero azota el [F]viento en [Eb]mí, [Gm]no te en[F]cuentro a[Eb]quí.
 
 [Bb]Llegas [F]Tu, me le[Gm]vantas Se[Dm]ñor,
-[Eb]Pues mi poca fe no me [F]deja ver [Eb]tu milagro en [F]mí.
-[Bb]Ven a [F]Mí [Bb]y no temas más [Eb]pues estoy aquí,
+[Eb]Pues mi poca fe no me [F]deja ver 
+[Eb]tu milagro en [F]mí.
+[Bb]Ven a [F]Mí [Bb]y no temas más 
+[Eb]pues estoy aquí,
 [Dm]junto a ti cami[Eb]nando cru[F]cemos el [Bb]mar.
 
-[Bb]Esa voz que [F/A]calma el [Gm]viento [F]
+[Bb]Esa voz que [F/A]calma el [Gm]viento [F] 
 [Eb]Es la [Bb/D]misma que calma mi [F]mar.
 [Bb]Y si clavo la mi[F/A]rada en [Gm]ti [F]
 ¿[Eb]Cómo puedo [Bb/D]ver la tempes[F]tad?
+
+Y ahora azota el viento  en mí
+Sé que tú estás aquí.
+
+[Bb]Llegas [F]Tu, me le[Gm]vantas Se[Dm]ñor,
+[Eb]Pues mi poca fe no me [F]deja ver 
+[Eb]tu milagro en [F]mí.
+[Bb]Ven a [F]Mí [Bb]y no temas más 
+[Eb]pues estoy aquí,
+[Dm]junto a ti cami[Eb]nando cru[F]cemos el [Bb]mar.
+
+[Db]Tu presencia en [Eb]mi será 
+[Db]fuerza para [Eb]a[F]mar. 
+
+[Bb] [F/A] [Gm] Bm] [Eb] [Bb/D] [Eb] [F] (x2)
+
+[Bb]Ven a [F]Mí [Bb]y no temas más 
+[Eb]pues estoy aquí,
+[Dm]junto a ti cami[Eb]nando cru[F]cemos el [Bb]mar.
 `
   },
   {
@@ -5141,6 +5247,8 @@ Intro: [Dm] [G] [C] [Am] (x4)
     categoria: "adoracion",
     tonoOriginal: "E",
     letra: `
+Intro: [C#m] [E] [A] [B] [C#m] [E] [A] [Am]
+
 [E]Pajarito [B]no sabe volar [C#m]Y Se pregunta [A]Cuando podrá despegar,
 [E]El quisiera [B]ser una águila [C#m]Pero comprende lo que [A]puede dar.
 
@@ -5149,8 +5257,12 @@ Intro: [Dm] [G] [C] [Am] (x4)
 
 [C#m]Quiere seguir mirando Al di[A]vino sol [E]Que le brinda su a[B]mor.
 [C#m]Nada podrá asus[A]tarlo Ni el viento ni la [E]lluvia Ni nada que sa[B]cuda.
+
 [C#m]Más allá de la nubes Os[A]curas Sigue bri[E]llando Su sol de ve[B]rano.
 [C#m]Pajarito Sabe muy [A]bien Que le cuida El mo[E]mento para despe[B]gar.
+
+[C#m]Pajarito se queda mi[A]rando a lo alto, [E]a ver si logra algún [B]día volar.
+[C#m]Y aunque los buitres [A]vengan no les temerá, [E]sus amigas las águilas [B]lo protege[C#m]rán.
 `
   },
   {
@@ -5192,7 +5304,7 @@ Intro: [F] [G] [C]
 [F]Y que llena de ale[Em]gría mi [Am]cora[F]zón, [G]mi cora[C]zón.
 `
   },
-  {
+ {
     id: 365,
     titulo: "PORQUE TE AMO",
     autor: "Anónimo",
@@ -5200,7 +5312,7 @@ Intro: [F] [G] [C]
     tonoOriginal: "Bm",
     letra: `
 [Bm]Hoy que te veo a[G]sí [D]No puedo más que mi[A]rarte con dulzura y su[Bm]frir contigo,
-[G]Quiero que sepas que [D]siempre estado a tu lado, [A]Lo que has llorado lo he llo[Bm]rado tam[G]bién. [D] [A]
+[G]Quiero que sepas que [D]siempre estado a tu lado, [A]Lo que has llorado lo he llo[Bm]rado tam[G]bién. [D] [A] 
 
 [Em]Y date cuenta que tu sole[A]dad, que tu incompren[Bm]sión [G]Han sido [A]mías también,
 [Em]que ningún hombre por más que [A]amo Se hubiera entre[Bm]gado al do[G]lor, como [A]yo por ti.
@@ -5210,6 +5322,11 @@ Intro: [F] [G] [C]
 
 [Bm]Déjame entrar en tu [G]vida [D]quiero vendar [A]tus heridas,
 [Bm]Traigo las mías para cu[G]rar las tuyaaa[D]s Pues vengo hacer [A]mío todo tu do[Em]lor.
+
+[Bm]Y vengo a reno[G]varte y darte [D]nueva [A]vida. [Em]Y ábreme tu [A]corazón y déjame en[Bm]trar,
+[G]quiero que seas fe[D]liz. [A]Y abre tus [Bm]ojos camina en mi [G]senda y yo te guia[D]ré hasta el [A]fin.
+
+[Bm]Te aa[G]mooo, [D]y es que te a[A]moooo, [Bm]asiii[G]iee oooo[D]ooooo. [A]
 `
   },
   {
@@ -5502,12 +5619,18 @@ Por amor, tú por mí diste la vida, por amor te doy yo la mía.
 [Eb]Su corazón acep[Gm]taba vivir la ale[Bb]gría ligada al do[F]lor
 [Eb]En sueños le confir[Gm]maban y aún con te[Bb]mor aceptó la mi[F]sión
 [Eb]Dos corazones u[Gm]nidos entrela[Bb]zados rogaban a [F]Dios
-[Eb]Cuidar del tesoro más [Gm]grande, ofrenda di[Eb]vina, el Hijo de [F]Dios.
+[Eb]Cuidar del tesoro más [Gm]grande, ofrenda di[Eb]vina, el Hijo de [F]Dios. [27]
 
 [Bb]Son los cora[Eb]zones [Gm]que le dan vida a lo que [F]soy
 [Bb]Jesús, José y Ma[Eb]ría, Tres Cora[Gm]zones, en un solo A[F]mor.
 
-[Eb]Entregará [Bb] [Gm]Confiaré [F] [Eb]Descansaré [Bb] [Gm]Unido a [F]ellos.
+[Eb]Dónde cabe tanto a[Gm]mor, que un [Bb]único Dios quiso un Cora[F]zón.
+[Eb]Un Corazón prisio[Gm]nero, se que[Bb]dó en la tierra ex[F]puesto al do[Eb]lor. [28]
+
+[Eb]Dos corazones u[Gm]nidos entrela[Bb]zados ro[F]gaban a Dios.
+[Eb]Cuidar del tesoro más [Gm]grande, ofrenda di[Eb]vina, el Hijo de [F]Dios. [29]
+
+[Eb]Entrega[Bb]ré [Gm]Confia[F]ré [Eb]Descansa[Bb]ré [Gm]Unido a [F]ellos. (x2)
 `
   },
   {
@@ -5584,24 +5707,33 @@ Pero una pa[Am]labra basta[G]rá para sa[C]narme.
 [Em]Vida en abun[C]dancia, [D]en abundancia. [4]
 `
 },
-  {
+   {
     id: 384,
     titulo: "YO TE MIRO (Pan del cielo)",
     autor: "Anónimo",
     categoria: "adoracion",
     tonoOriginal: "Am",
     letra: `
+Intro: [Am] [F] [C] [G]
+
 [Am]Ahí estas yo te [F]miro
 [C]Tu me miras a [G]mí, nos miramos a[Am]sí
 Una con[F]quista, un a[C]mor
 Que por las [G]grietas tu en[Am]tras
-A lo más pro[F]fundo [D]de mi cora[G]zón.
+A lo más pro[F]fundo [D]de mi cora[G]zón. [31]
 
 [F]Pan del [G]cielo, [Am]Pan de amor, [C]alimento de mi vida
-[F]Pan del [G]cielo, [Am]pan de amor, [C]sangre y cuerpo del señor.
+[F]Pan del [G]cielo, [Am]pan de amor, [C]sangre y cuerpo del señor. [32]
 
-No hay amor, más grande que el que has dado por mi
-Te dejaste, tu cuerpo para poderte mirar así.
+[F]No hay a[G]mor, más [Am]grande que el que has [C]Dado por mi
+[F]Te de[G]jaste, tu [Am]cuerpo para po[C]derte mirar así. [32]
+
+[Am]Yo te [F]miro, [C]Tu me [G]miras, nos mi[Am]ramos a[F]sí, es[C]tas a[G]hí. (x3) [33]
+
+[F]Pan del cielo pan de [G]amor [Am]sana todas mis he[C]ridas
+[F]Pan del cielo, pan de [G]amor [Am]hasta que se a[C]pague mi [G]voz. [33]
+
+[Am]Ahí es[F]tas, yo te [C]miro. Tu me [G]miras a [Am]mí, estas a[F]hí. [33]
 `
   },
     // --- SECCIÓN: CANTOS DEL Espíritu Santo status:terminado ---
@@ -8553,13 +8685,13 @@ No te avergüences y alaba a tu Se[G]ñor,
     id: 353,
     titulo: "FORÓFOS",
     autor: "Hakuna",
-    categoria: "alabanzas",
+    categoria: "adoracion",
     tonoOriginal: "D",
     letra: `
 [D]Que seamos todos uno como el Padre y tú sois [G]uno
 [D]Todos forofos de todos, [G]Que nos queramos siempre más.
 [Em]Por los que viven para mi[A]rarte y nada [D]más, [A] [Bm]
-[Em]Fuerza de todos, [A]Adelantando el [D]cielo.
+[Em]Fuerza de todos, [A]Adelantando el [D]cielo. [13]
 
 [D]Hermanas de Belén, Benedictinos, Cister, [G]Iesu Communio, Clarisas,
 [Bm]Concepcionistas, Carmelitas y tantos [A]más. (Y tantos más)
@@ -8567,7 +8699,7 @@ No te avergüences y alaba a tu Se[G]ñor,
 [D]Que seamos todos uno como el Padre y tú sois [G]uno
 [D]Todos forofos de todos, [G]Que nos queramos siempre más.
 [Em]Por los que son tu prima[A]vera pentecos[D]tal, [A] [Bm]
-[Em]Llenos de vida, [A]Movidos por el es[D]píritu.
+[Em]Llenos de vida, [A]Movidos por el es[D]píritu. [14]
 
 [D]Cursillos, Comunión y Liberación, Renovación Carismática, [G]Schöenstatt,
 [Bm]Opus Dei, Focolares, Hakuna, Camino, Effetá [A]Y tantos más.
@@ -8575,10 +8707,28 @@ No te avergüences y alaba a tu Se[G]ñor,
 [D]Que seamos todos uno como el Padre y tú sois [G]uno
 [D]Todos forofos de todos, [G]Que nos queramos siempre más.
 [Em]Por los que son con[A]suelo tuyo en el do[D]lor, [A] [Bm]
-[Em]Besando heridas, [A]En tu pobreza y margina[D]ción.
+[Em]Besando heridas, [A]En tu pobreza y margina[D]ción. [15]
 
 [D]Hijas y Misioneras de la Caridad, Mercedarios, [G]Trinitarios,
 [Bm]Hospitalarios, Hermanitas y tantos [A]más. (Y tantos más)
+
+[D]Que seamos todos uno como el Padre y tú sois [G]uno
+[D]Todos forofos de todos, [G]Que nos queramos siempre más.
+[Em]Por los que te es[A]tudian y predican, [D]Inconfor[A]mistas sin [Bm]límites
+[Em]Siempre mar a[A]dentro. [16]
+
+[D]Maristas, Salesianos, Escolapios, Agustinos, [G]Franciscanos
+[Bm]Mercenarios, Jesuitas, Dominicos y tantos [A]más.
+
+[D]Que seamos todos uno como el Padre y tú sois [G]uno
+[D]Todos forofos de todos, [D]Que nos queramos siempre más.
+[Em]Por los que sos[A]tienen tu fa[D]milia día a [A]día, [Bm]Siervos de todos.
+
+[Em]Sacerdotes dioce[A]sanos, parroquias, semi[D]naristas, [A]misio[Bm]neros
+[Em]Obispos junto a [A]Pedro, el [E]Papa.
+
+[A]Que seamos todos uno como el Padre y tú sois [E]uno
+[A]Somos forofos de todos, que nos queramos siempre [E]más. (x2)
 `
   },
   {
