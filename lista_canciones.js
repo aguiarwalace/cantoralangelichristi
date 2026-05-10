@@ -4734,55 +4734,97 @@ Confiar por[B]que Él resuci[C#m]tó. [A] [B]¡Vive el Se[C#sus]ñor! [C#]
 [E]Bienaventura[B]dos los misericor[C#m7]dio[A]sos,
 [E]porque ellos alcan[Bsus]za[B]rán miseri[F#sus]cor[F#]dia. (x2)
 `
-  },// --- revisado até aqui ---
+  },
   {
-    id: 342,
-    titulo: "CONFESIÓN DE FE",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "C",
-    letra: `
+  id: 342,
+  titulo: "CONFESIÓN DE FE",
+  autor: "Verónica Sanfilippo",
+  categoria: "adoracion",
+  tonoOriginal: "C (capo 1)",
+  letra: `
 Intro: [F] [G] [C] [Am] [G] [C]
 
-[F]Muchas cosas me han con[G]tado de [C]ti,
-[Am]Tus milagros y lo que hi[G]ciste por [C]mi,
-[F]Sin embargo no supe de [G]ti se[C]ñor,
-[Am]Hasta que por fin tu a[G]mor me conquis[C]to.
+[F] Muchas cosas me han con[G]tado de [C]ti
+[Am] Tus milagros y lo que hi[G]ciste por [C]mi
+[F] Sin embargo no supe de [G]ti se[C]ñor
+[Am] Hasta que por fin tu a[G]mor me conquis[C]to
 
 [F] [G] [C] Ohh [Am] oohh [G] oohh [C] ooohh
 
-[F]Y si pre[G]guntas [C]¿quién eres tu? [Am]Quien [G]es Je[C]sús,
-[F]Es quien me [G]salva, me da [C]vida y paz,
-[Am]El hijo de dios [G]vivo, mi camino y mi ver[C]dad.
+[F] Y si pre[G]guntas [C] ¿quién eres tu?
+[Am] Quien [G] es Je[C]sús
+[F] Es quien me [G] salva, me da [C] vida y paz
+[Am] El hijo de dios [G] vivo, mi camino y mi ver[C]dad
 
-[F]Es esta mi confe[G]sión de fe se[C]ñor,
-[Am]Se que habitas en mi [G]cora[C]zón,
-[F]Me has dado un nombre que [G]marca mi mi[C]sión,
-[Am]Y quieres que se cumpla en [G]mi tu plan de a[C]mor. [15], [16], [17]
+[F] [G] [C] Ooh [Am] oooh [G] ooh [C] oooh
+
+[F] Es esta mi confe[G]sión de fe se[C]ñor
+[Am] Se que habitas en mi [G]cora[C]zón
+[F] Me has dado un nombre que [G]marca mi mi[C]sión
+[Am] Y quieres que se cumpla en [G]mi tu plan de a[C]mor
+
+[F] Y si pre[G]guntas [C] quién eres tu?
+[Am] Quien [G] es Jesús
+[F] Es quien me [G] salva, me da [C] vida y paz
+[Am] El hijo de dios [G] vivo, mi camino y mi ver[C]dad (x2)
+
+[F] [G] [C] Ooooh [Am] oooh [G] oooh [C] oooh
+
+[F] Es esta mi confe[G]sión de fe se[C]ñor
+[Am] Se que habitas en mi [G]cora[C]zón
 `
-  },
+},
   {
-    id: 343,
-    titulo: "DÉJATE",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "C",
-    letra: `
-[C]Hace ya tiempo que comprendí, [F]Tú me bus[G]caste en todas [C]partes,
-[Am]La llama que un día empe[Em]zó a fallar, [F]Tú no de[G]jaste se apagara.
-[C]Yo lo contemplo y digo ¿qué será?, [F]Será que es[G]taba equivo[C]cado,
-[Am]Y he descubierto que este [Em]loco está, [F]De amor mu[G]riendo porque le ame.
+  id: 343,
+  titulo: "DÉJATE",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "C (capo 1)",
+  letra: `
+[C] Hace ya tiempo que comprendí
+[F] Tú me bus[G] caste en todas [C] partes
+[Am] La llama que un día empe[Em] zó a fallar
+[F] Tú no de[G] jaste se apa[C] gase
 
-[C]Yo gozo al ver que quieres re[G]gresar, [Am]Déjame [Em]que Yo te levante,
-[F]Señor no ves que quiero re[C]gresar, [Dm]Pero me [G]pesa mi pasado.
-[C]Acaso pides lo que no sé [G]dar, [Am]El tiempo me ha lim[Em]piado el alma,
-[F]Tanto he besado el suelo ¿no lo [C]ves?, [Dm]Mis manos se han ce[G]rrado tanto.
+[C] Yo lo contemplo y digo ¿qué será?
+[F] Será que es[G] taba equi[C] vocado
+[Am] Y he descubierto que este [Em] loco está
+[F] De amor mu[G] riendo porque le [C] ame
 
-[Am]No te preocupes no te deja[Em]ré, [F]Mi vida [G]cambio por la [C]tuya,
-[F]Y tú me [G]dices… [C]Déjate… [F]No apagues [G]ya más esta ho[C]guera,
-[F]Que Yo en[G]cendí en tu cora[C]zón. [18], [19], [20]
+[C] Yo no he querido saber más
+[F] De la lo[G] cura que me [C] late
+[Am] Pero la fiebre quiere re[Em] gresar
+[F] Y Él no de[G] jó de predi[C] carme
+
+Y Tú me dices…
+[C] Déja [G] te, [F] que te con [G] suma este [Am] fuego [Em]
+[F] No apa [G] gues ya más esta ho [Am] guera [Em]
+[F] Que si no hay fuego no ha [G] brá luz
+
+[C] Créeme que estoy clavado
+[F] Porque te [G] amo [C]
+[Am] No encontrarás en [Em] otro lado
+[F] Quien quiera [G] ya morir por [C] ti
+
+[C] No tengas miedo no te deja [G] ré
+[Am] Las veces [Em] que tú me reclames
+[C] Yo gozo al ver que quieres re [G] gresar
+[Am] Déjame [Em] que Yo te levante
+
+[F] Señor no ves que quiero re [C] gresar
+[Dm] Pero me [G] pesa mi pasado
+[C] Acaso pides lo que no [G] sé dar
+[Am] El tiempo me ha lim [Em] piado el alma
+
+[F] Tanto he besado el suelo ¿no lo [C] ves?
+[Dm] Mis manos se han ce [G] rrado tanto
+[Am] No te preocupes no te deja [Em] ré
+[F] Mi vida [G] cambio por la [C] tuya
+
+Y tú me dices… [C] Déja [G] te… [F] No apa [G] gues ya más esta ho [C] guera
+[F] Que Yo en [G] cendí en tu cora [C] zón.
 `
-  },
+},
   {
     id: 344,
     titulo: "DELANTE DEL REY",
@@ -4800,9 +4842,19 @@ Intro: [F] [G] [C] [Am] [G] [C]
 [D]la multitud que aguar[A]daba tu llegar,
 [Bm]Ven Oh Santo de Israel, pasa también [E]en este lugar.
 
-[D]Es el [E]Rey, y al [C#m]frente nuestro es[D]tá, es fe[D]liz quien le a[E]dora,
-[D]Es Je[E]sús el gran ma[C#m]estro y [D]Rey, que a[D]quí, muy cerca se deja encon[Bm]trar,
-delante del Rey de [E]Reyes, las rodillas se han de do[A]blar. [20], [21], [22], [23]
+[D]Es el Rey, y al frente [E]nuestro está, 
+es fe[C#m]liz quien le a[D]dora,
+[D]Es Jesús el gran ma[E]estro y Rey,
+que a[C#m]quí, muy cerca se [D]deja encontrar,
+delante [D]del Rey de Reyes, 
+las rodi[Bm]llas se [E]han de do[A]blar.
+
+[D]Es el Rey, y al frente [E]nuestro está, 
+es fe[C#m]liz quien le a[D]dora,
+[D]Es Jesús el gran ma[E]estro y Rey,
+que a[C#m]quí, muy cerca se [D]deja encontrar,
+delante [D]del Rey de Reyes, 
+las rodi[Bm]llas se [E]han de do[A]blar. (x3)
 `
   },
   {
@@ -4815,14 +4867,14 @@ delante del Rey de [E]Reyes, las rodillas se han de do[A]blar. [20], [21], [22],
 [A]Levanto mis manos, [F#m]Cierro mis ojos,
 [D]Para proclamar tu [E]nombre, [A]Dios de poder. (x2)
 
-[D]Digno de ala[E]bar, señor, [F#m]Gloria y ma[E]jestad, sean [A]a ti,
+[D]Digno de ala[E]bar, Señor, [F#m]Gloria y ma[E]jestad, sean [A]a ti,
 [D]Rey de la cre[E]ación, [F#m]Por [E]siempre [A]Ameeeen.
 
 [A]Levanto mis manos, [F#m]Cierro mis ojos,
 [E]Para proclamar tu nombre, [F#m]Dios [E]de podeeeee[A]er.
 
-[D]Digno de ala[E]bar, señor, [F#m]Gloria y ma[E]jestad, sean [A]a ti,
-[D]Rey de la cre[E]ación, [F#m]Por [E]siempre [A]Ameeeen. [23], [24], [25]
+[D]Digno de ala[E]bar, Señor, [F#m]Gloria y ma[E]jestad, sean [A]a ti,
+[D]Rey de la cre[E]ación, [F#m]Por [E]siempre [A]Ameeeen.
 `
   },
    {
@@ -4834,54 +4886,54 @@ delante del Rey de [E]Reyes, las rodillas se han de do[A]blar. [20], [21], [22],
     letra: `
 Intro: [Bm]
 
-[Bm]Dime Padre ¿Qué po[Em7]demos hacer? Tus hijos se [A]pierden y no en[F#]tiendo por [Bm]qué, [A]
+[Bm]Dime Padre ¿Qué po[Em7]demos hacer? Tus hijos se [A]pierden y no en[F#]tiendo por [Bm]qué, [A] 
 [Bm]Dime Padre, cada [Em7]día se alejan más y de ver[A]dad que no he [F#]hecho nada mal,
-[Bm]pero curan sus he[A]ridas con lo que no les cu[G]rará. [4]
+[Bm]pero curan sus he[A]ridas con lo que no les cu[G]rará.
 
 [G]Les di el Mandamiento del a[Bm]mor me crucificaría mil veces [A]más,
 [D]pero ellos [F#]huyen de su cre[G]ador y de su eterna felicidad.
 [G]Y es que los hemos hecho [Em]tan libres que a veces me duele pen[A]sar,
-[F#]que este don, que este regalo lo utili[Bm]cen para el mal. [5]
+[F#]que este don, que este regalo lo utili[Bm]cen para el mal.
 
 [Bm]Dime Padre, ¿Cómo a [Em7]nuestra familia reunir?,
 [A]les ofrecemos la eter[F#]nidad, [Bm]pero pre[A]fieren huir.
 [Bm]Dime Padre, ¿Cómo ablan[Em7]dar su corazón?
-[A]¿Cómo quitar esta co[F#]raza formada por el do[Bm]lor? [6]
+[A]¿Cómo quitar esta co[F#]raza formada por el do[Bm]lor?
 
 [G]Si supieran cuánto les a[Em]mamos, si supieran que todo tiene un por [A]qué
 Dime Padre, ¿Cómo sus [D]almas acoger?.
 [Em]Si supieran que [F#]ahora somos depen[Bm]dientes [A]de que [G]nuestra creación nos quiera
-[Gm]Nuestro único deseo es que sus [A]almas estén llenas. [7]
+[Gm]Nuestro único deseo es que sus [A]almas estén llenas. 
 
-[Bm]Dime Padre, ¿Cómo les expli[Em7]camos que son [A]lo que [F#]más a[Bm]mamos? [A]
+[Bm]Dime Padre, ¿Cómo les expli[Em7]camos que son [A]lo que [F#]más a[Bm]mamos? [A] 
 [Bm]Dime Padre, ¿Cómo les [Em7]guiamos a a[A]quello que les com[F#]pleta
-si es que se [Bm]refugian en [A]falsas metas? [8]
+si es que se [Bm]refugian en [A]falsas metas? 
 
 [G]Y nos destroza [Gm]verles odiarse, verles o[Bm]diarse con tanta fuerza.
 [Em]Dime Padre, ¿[F#]Cómo parar este do[Bm]lor?
-[Em]Quiero que me [F#]quieran pero no es obli[Bm]gación. [B7]
+[Em]Quiero que me [F#]quieran pero no es obli[Bm]gación. [B7] 
 [Em]Les mi[A]ro con mis ojos, [D]llenos de compasión
-[Em]y te aseguro que a[Em]cepto cualquier tipo de per[D]dón. [8, 9]
+[Em]y te aseguro que a[Em]cepto cualquier tipo de per[D]dón. 
 
 [Em]Solo nos queda espe[Bm]rar a que escuchen nuestra voz
 [D]y que vean las puertas a[A]biertas de este cielo acogedor.
 [Em]Qué siempre serán bienve[Bm]nidos a los brazos de este corazón
-[D]que solo quiere [A]verlos unidos en la [G]tierra con su Salva[Gm]dor. [9, 10]
+[D]que solo quiere [A]verlos unidos en la [G]tierra con su Salva[Gm]dor. 
 
 [Bm]Y me hago pan, pero no me [Em]ven. Me cuelo en sus pensamientos, pero no me ven
 [A]Me meto en sus entrañas una y otra [D]vez. [A/C#]Lloro todos los días pero no me ven
 [Bm]Dime Padre qué puedo ha[Em]cer, tus hijos se pierden y se alejan
-[F#]y me da miedo que no [Bm]sepan volver. [10]
+[F#]y me da miedo que no [Bm]sepan volver. 
 
 (Instrumental: [Em] [F#m] [Bm] - [G] - [A] | [Em] [F#m] [Bm] - [D] - [E] x2)
 
 [G]Pa[A]pá, deja[D]rán de llorar.
 [G]Espero que esos ca[A]minos vacíos se [D]puedan solucionar.
 [G]Espe[A]raré hasta el [D]último se[A]gundo para [G]volverlo a intentar,
-[A]no me rendiré, quiero a tus [Gm]hijos [Em]de ver[A]dad. [10, 11]
+[A]no me rendiré, quiero a tus [Gm]hijos [Em]de ver[A]dad. 
 
 [G]No ven qué bien ya he ven[A]cido a la ser[D]piente que [A/C#]les hace tem[Bm]blar.
-[G]Ya la ha pisado mi [A]Madre, solo tienen que [D]mirarme y vivirán. [12]
+[G]Ya la ha pisado mi [A]Madre, solo tienen que [D]mirarme y vivirán. 
 `
   },
   {
@@ -4891,6 +4943,7 @@ si es que se [Bm]refugian en [A]falsas metas? [8]
     categoria: "adoracion",
     tonoOriginal: "G",
     letra: `
+Intro: [G] [D] [Em] [C]
 [G]En el silencio, [D]Espero respuestas, [Em]Señor háblame, [C]Señor háblame.
 [G]Aquí en tu casa, [D]Veo tu belleza, [Em]Y tu corazón, [C]Y tu corazón.
 
@@ -4901,32 +4954,68 @@ si es que se [Bm]refugian en [A]falsas metas? [8]
 [G]Mi alma sedienta, [D]De misericordia, [Em]Necesita de ti, [C]Señor ven a mi.
 [G]Pobre te busco, [D]humilde me acerco, [Em]A ti oh Jesús, [C]a tu inmenso amor.
 
-[G]Maestroooo, [D]que bueno, [Em]Que bello, que bello estar a[C]quí (x3) [30], [31], [32]
+[G]Maestroooo, [D]que bueno, [Em]Que bello, que bello estar a[C]quí (x3)
+
+[G]Es el cielo en la tierra, Aquí veo tu gloria,
+[D]Regalo de amor, de tu corazón,
+[Em]Es el cielo en la tierra, este es mi lu[C]gar. (x2)
 `
   },
   {
-    id: 348,
-    titulo: "EL QUE MUERE POR MI",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "D",
-    letra: `
-[D]Todo empezó en una [G]cruz, [Bm]Donde un hombre murió y un [A]Dios se entregó.
-[D]Silenciosa la muerte lle[G]gó, [Bm]En un fuerte grito el [A]padre nos acogió.
-[Bm]Y mientras lloraban su [G]suerte, [D]Él sonreía ven[A]ciendo a la muerte.
+  id: 348,
+  titulo: "EL QUE MUERE POR MI",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "D",
+  letra: `
+[D] Todo empezó en una [G] cruz
+[Bm] Donde un hombre murió y un [A] Dios se entregó
+[D] Silenciosa la muerte lle[G] gó
+[Bm] Extinguiendo la luz que en un [A] grito se ahogó
 
-[D]Siendo carga pesada, pro[G]fesor y aprendiz,
-[A]Entregó hasta su cuerpo en el [A]pan y en la [D]vid.
-[Bm]Desde en[G]tonces lo he visto cami[D]nar a mi [A]lado, [Bm]
-A ese [G]Dios que se hu[D]milla y [A]muere por [Bm]mí.
-Es la [G]barca en mi [D]playa, el [A]ruido del si[Bm]lencio,
-Que se [G]acerca a su [D]hijo y me a[A]braza fe[Em]liz,
-Que se [G]acerca a su [A]hijo y me abraza fe[D]liz.
+[D] Viendo su faz de do[G] lor
+[Dm] Una madre lloró y su [A] amigo calló
+[D] Pero siendo una entre[G] ga de amor
+[Bm] Su ca[A] mino si[G] guió y en algún otro lado
+[A] Una luz se encen[D] dió [A]
 
-[D]Viendo un humilde cal[G]vario, [Bm]Con un rostro cansado, so[A]porta la cruz.
-[D]Y al verme rezando a sus [G]pies, [Bm]Se olvida de Él, me [A]toma en sus brazos. [32], [33], [34], [35], [36]
+[G] Siendo hombre, amigo, es[A] clavo y ma[Bm] estro
+[A] Siendo carga pe[G] sada, profesor y aprendiz
+[A] Entregó hasta su [A] cuerpo en el pan y en la [D] vid
+
+[Bm] Desde en[G] tonces lo he visto cami[D] nar a mi [A] lado [Bm]
+A ese [G] Dios que se hu[D] milla y [A] muere por [Bm] mí
+Es la [G] barca en mi [D] playa, el [A] ruido del si[Bm] lencio
+Que se [G] acerca a su [D] hijo y me a[A] braza fe[Em] liz
+Que se [G] acerca a su [A] hijo y me abraza fe[D] liz
+
+Viendo un humilde calvario
+Con un rostro cansado, soporta la cruz
+Y al verme rezando a sus pies
+Se olvida de Él, me toma en sus brazos
+Me acoge otra vez
+
+Siendo fuego, paloma, el agua, y el viento
+Siendo un niño inocente, un padre y pastor
+Voy a aceptar mi ofrenda que mi vida señor
+
+Desde entonces lo he visto caminar a mi lado
+A ese Dios que se humilla y muere por mí
+En la barca en mi playa, el ruido del silencio
+Que se acerca a su hijo y me abraza feliz
+Que se acerca a su hijo y me abraza feliz
+
+[G] Y si ahora yo a[A] cepto esa cruz
+[F#m] Fue por esa per[Bm] sona, [A] ese [G] Dios
+[A] Fue por Cristo Je[D] sús [A]
+
+Desde entonces lo he visto caminar a mi lado
+A ese Dios que se humilla y muere por mí
+En la barca en mi playa, el ruido del silencio
+Que se acerca a su hijo y me abraza feliz
+Que se acerca a su hijo y me abraza feliz
 `
-  },
+},
   {
     id: 349,
     titulo: "ENCONTRÉ MI LUGAR",
@@ -4946,108 +5035,216 @@ Que se [G]acerca a su [A]hijo y me abraza fe[D]liz.
 
 [Dm]Aquí está mi tiempo, [Am]Aquí está mi his[G]toria,
 [Dm]Aquí está mi vida, [Am]A Tú disposi[G]ción. (x2)
-[Dm]Mi vida es [Am]tuya Se[G]ñor. [36], [37], [38]
+[Dm]Mi vida es [Am]tuya Se[G]ñor. [Dm] [Am] [G]
 `
   },
   {
-    id: 350,
-    titulo: "ES EL SEÑOR",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "Dm",
-    letra: `
-[Dm]Confiaré y [Bb]no temeré, [F]Porque él es mi fuerza [C]Y mi protección.
-[Dm]Aunque oscuros, [Bm]Sean los cielos,
-[Gm]O fuerte sople el viento, [C]Dios tiene el control.
+  id: 350,
+  titulo: "ES EL SEÑOR",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "Dm",
+  letra: `
+Intro: [Bm] [F] [C] [C]
 
-[Bm]Es el señor [F]Quien conduce mi barca [C]En medio de tormentas, [Dm]En medio de las aguas.
-[Bm]Es el señor [F]De la tierra y los mares [C]Quien tiene el timón, [Dm]Quien tiene el control.
+[Dm] Confiaré y [Bb] no temeré,
+[F] Porque él es mi fuerza [C] Y mi protección
+[Dm] Aunque oscuros, [Bm] Sean los cielos
+[Gm] O fuerte sople el viento, [C] Dios tiene el control
 
-[Dm]Y yo descan[Bb]saré en su volun[F]tad... [C]
-[Dm]Es el [Bb]Señor... [F] [C] [39], [40]
+[Bm] Es el señor
+[F] Quien conduce mi barca
+[C] En medio de tormentas
+[Dm] En medio de las aguas
+[Bm] Es el señor
+[F] De la tierra y los mares
+[C] Quien tiene el timón
+[Dm] Quien tiene el control
+[Bm] Y yo descan[F]saré en su volun[C]tad
+
+Confiaré, En él esperaré
+Porque él va conmigo
+Mi guardián y salvador
+Aunque el futuro
+Hoy sea incierto, Y más allá del miedo
+Sé que él tiene el control
+
+Es el señor
+Quien conduce mi barca
+En medio de tormentas
+En medio de las aguas
+Es el señor
+De la tierra y los mares
+Quien tiene el timón
+Quien tiene el control
+Y yo descansaré en su voluntad
+
+Oh-oh
+A la otra orilla cruzaré
+Aunque hoy no pueda ver
+En cada prueba mi señor
+Ha sido fiel
+Una palabra bastará
+Y calmará la tempestad
+En cada prueba en Jesús
+Yo confiaré
+
+A la otra orilla cruzaré
+Aunque hoy no pueda ver
+En cada prueba mi señor
+Ha sido fiel
+Una palabra bastará
+Y calmará la tempestad
+En cada prueba en Jesús
+Yo confiaré
+
+Es el señor
+Quien conduce mi barca
+En medio de tormentas
+En medio de las aguas
+Es el señor
+De la tierra y los mares
+Quien tiene el timón
+Quien tiene el control
+Y yo descansaré en su voluntad…
 `
-  },
+},
   {
-    id: 351,
-    titulo: "ESTOY A LA PUERTA Y LLAMO",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "C",
-    letra: `
+  id: 351,
+  titulo: "ESTOY A LA PUERTA Y LLAMO",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "C",
+  letra: `
 Intro: [Am] [G] [Am] [G]
 
-[C]Estoy a la [Em]puerta y [F]llamo, [C]
-[Em]Esperando a [F]que me [Dm]abras, [G]Ábreme que quiero entrar,
-[F]Que estoy a la [G]puerta y [F]llamo. [Am] [G]
+[C] Estoy a la [Em] puerta y [F] llamo [C]
+[Em] Esperando a [F] que me [Dm] abras
+[G] Ábreme que quiero entrar
+[F] Que estoy a la [G] puerta y [F] llamo [Am] [G]
 
-[C]El corazón que [Em]te he [F]dado, [C]
-[Em]Es mo[F]rada que yo [Dm]anhelo, [G]Pero es tan digno y sagrado,
-[F]Que estoy a la [G]puerta y [F]llamo. [Am] [G]
+[C] El corazón que [Em] te he [F] dado [C]
+[Em] Es mo[F] rada que yo [Dm] anhelo
+[G] Pero es tan digno y sagrado
+[F] Que estoy a la [G] puerta y [F] llamo [Am] [G]
 
-[C]Si me abres entra[G]ré, [Dm]Y yo ce[Am]naré [G]con[F]tigo,
-[C]Si me abres entra[G]ré, [Dm]Y yo seré [Am]tu [G]me[F]jor amigo. [40], [41]
+[C] Si me abres entra[G] ré [Dm]
+[Am] Y yo ce[G] naré [F] contigo
+[G] Sino me abres segui[D] ré [F]
+[Dm] Afuera como un men[G] digo [Am] [G]
+
+[C] [Em] [F] [G] Llamando, llamando
+[Am] [G] [F] [G] Llamando, llamando
 `
-  },
+},
   {
-    id: 352,
-    titulo: "ETERNO VIAJERO",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "D",
-    letra: `
-[D]Redes al [C]hombre sol [G]bajo, [A]cierto extraño se em[D]barcó, [C] [G] [A]
-[D]con su mi[C]rada a lo [G]largo, [A]con el viento se ale[D]jó. [C] [G] [A]
-[D]Después de [C]haber nave[G]gado, [A]solitario se encon[D]tró, [C] [G] [A]
-[D]muy pocos [C]peces que[G]daron, [A]atrapados en su a[D]mor. [C] [G] [A]
+  id: 352,
+  titulo: "ETERNO VIAJERO",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "D",
+  letra: `
+[D] Redes al [C] hombre sol [G] bajo, [A] cierto extraño se em [D] barcó, [C] [G] [A]
+con su mirada a lo largo, con el viento se alejó,
+Después de haber navegado, solitario se encontró,
+muy pocos peces quedaron, atrapados en su amor.
 
-[A]Quiero ir con[G]tigo, Espé[A]rame señor,
-[G]Aun no ter[A]mino, espera por fa[G]vor,
-[A]Escucha el canto que nace de mi [A7]voz.
+[A] Quiero ir con [G] tigo, Espé [A] rame señor,
+[G] Aun no ter [A] mino, espera por fa [G] vor,
+[A] Escucha el canto que nace de mi voz.
 
-[D]Te quie[G]rooo[A]oooo, [G]señor yo te [D]quiero, [G] [A] [G]
-[D]Te quie[G]rooo[A]ooo, [G]eterno via[D]jero. [G] [A] [G]
+[D] Te quie [G] [A] rooo [G] oooo, [D] señor yo te [G] [A] [G] quiero,
+[D] Te quie [G] [A] ooo [G] ooo, [D] eterno via [G] [A] [G] jero.
 
-[D]Con su mi[C]rada de [G]niño, [A]izó velas y mar[D]chó, [C] [G] [A]
-[D]y un ave [C]vino y me [G]dijo, [A]que en su rostro había do[D]lor. [C] [G] [A]
-[D]Es noche y [C]duerme can[G]sado, [A]otro día termi[D]nó, [C] [G] [A]
-[D]tal vez ma[C]ñana a su [G]lado, [A]pescador me vuelva [D]yo. [C] [G] [A]
+Con su mirada de niño, izó velas y marchó,
+y un ave vino y me dijo, que en su rostro había dolor.
+Es noche y duerme cansado, otro día terminó,
+tal vez mañana a su lado, pescador me vuelva yo.
+
+Quiero ir contigo, Espérame señor,
+Aun no termino, espera por favor,
+Escucha el canto que nace de mi voz.
+
+Te quiero, señor yo te quiero,
+Te quiero, eterno viajero.
+
+[D] Pienso y no [G] dejo de [A] pensar,
+[G] en el ex [D] traño que em [G] [A] [G] barcó,
+quiero y no quiero recordar, el recuerdo de su voz.
+Te quiero, señor yo te quiero, Te quiero, eterno viajero.
 `
-  },
+},
   {
-    id: 354,
-    titulo: "HURACÁN",
-    autor: "Hakuna",
-    categoria: "reflexion, adoracion",
-    tonoOriginal: "B",
-    letra: `
-Intro: [G] [D] [Em] [C]
+  id: 354,
+  titulo: "HURACÁN",
+  autor: "Hakuna",
+  categoria: "adoracion",
+  tonoOriginal: "G (capo 4)",
+  letra: `
+Cejilla en 4
+Intro: [G] [D] [Em] [C] (x2)
 
-[G]Me he hecho tantas pre[D]guntas [Em]intentando enten[C]der,
-[G]Me he lanzado a bus[D]carte [Em]sin saberte [C]ver.
-[G]Me he asomado al a[D]bismo, [Em]me he atrevido a sal[C]tar y ca[G]er. [D] [Em]
+[G]Me he hecho tantas pre[D]guntas
+[Em]intentando enten[C]der
+[G]Me he lanzado a bus[D]carte
+[Em]sin saberte [C]ver
+[G]Me he asomado al a[D]bismo
+[Em]me he atrevido a sal[C]tar
+[G]y ca[D]er [Em]
 
-[G]Y un hura[D]cán [Em]rompe[C]rá
-[G]el cielo desde mi gar[D]ganta gri[C]tándote:
-¿[G]dónde estás [D]cuando me haces [C]falta?
+[G]Y un huracán
+[D]romperá
+[Em]el cielo desde mi gar[C]ganta
+[G]gritándote
+[D]¿dónde estás [C]cuando me haces falta?
 
-[G]Me han dado res[D]puestas [Em]pero no sé qué ha[C]cer,
-[G]He prometido se[D]guirte [Em]sin enten[C]der.
-[G]Y hay un eco en lo [D]hondo [Em]que me empuja hacia [C]ti
-y aunque [G]sea sin sen[D]tirte te busca[Em]ré.
+Me han dado respuestas
+pero no se que hacer
+He prometido seguirte
+sin entender
+Y hay un eco en lo hondo
+que me empuja hacia ti
+y aunque sea sin sentirte
+te buscaré
 
-[G]Estoy aquí, soy el si[D]lencio, [Em]Estoy aquí, soy este [C]viento,
-[G]Estoy aquí, soy este [D]trozo de [C]pan.
-[G]Estoy aquí, soy tu la[D]mento, [Em]Estoy aquí, soy este [C]eco,
-[G]Estoy aquí, soy este [D]trozo de [C]pan.
+Y un huracán, romperá
+el cielo desde mi garganta, gritándote
+¿dónde estás cuando me haces falta?
+
+[G]Estoy aqui,soy el si[D]lencio
+[Em]Estoy aquí,soy este [C]viento
+[G]Estoy aquí,soy este [D]trozo de [C]pan
+[G]Estoy aqui,soy tu la[D]mento
+[Em]Estoy aquí, soy este [C]eco
+[G]Estoy aquí, soy este [D]trozo de [C]pan
+
+Y un huracán, romperá
+el cielo desde mi garganta, gritándote
+¿dónde estás cuando me haces falta?
+Y un huracán
+(estoy aquí)
+romperá
+(estoy aquí)
+el cielo desde mi garganta
+gritándote
+(estoy aquí)
+¿dónde estás cuando me haces falta?
+(soy este trozo de pan)
+
+[G]Y tú huracán
+[D]romperá
+[Em]el cielo desde mi gar[C]ganta
+[G]gritándome
+[D]cuanto me ha[C]ces falta
 `
-  },
+},
   {
-    id: 355,
-    titulo: "JESUS CARPINTERO",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "E",
-    letra: `
+  id: 355,
+  titulo: "JESÚS CARPINTERO",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "E",
+  letra: `
 Intro: [A] [E] [A] [B] (x2)
 
 [A]En el bosque per[E]dido de mi corazón,
@@ -5060,19 +5257,35 @@ Intro: [A] [E] [A] [B] (x2)
 [A]Tú me tomas en tus [E]manos, clavas tu mirada,
 [F#m]Me renuevas todo, vuelve la espe[B]ranza.
 
-[E]Tómame, Conviérte[G#m]me como [Am]tú me pen[A]saste,
-[B]Cómo tú me soñaste.
-[E]Tallame, Transfórma[C#m]me [Am]vuelve hacer que yo [A]crea,
-[E]Con tus manos mol[C#m]dea, [E]Jesús Carpintero.
+[E]Tómame, Conviérte[G#m]me
+[Am]Como tú me pen[A]saste,
+[B]Cómo tu me soñaste.
+[E]Tallame, Transfórma[C#m]me
+[Am]Vuelve hacer que yo [A]crea,
+[E]Con tus manos mol[C#m]dea,
+[E]Jesús Carpintero.
 
-[F#m]Y ahora que estoy con[C#m]tigo [B]ya no hay nada que me pueda derrumbar,
-[F#m]Ahora eres mi ca[C#m]mino [B]encontré un sentido para caminar,
-[F#m]Invítame a tu [C#m]barca [B]ahora yo ya estoy listo para nave[A]gar.
+Instrumental: [E] [C#m7] [A] [B]
+
+[F#m]Y ahora que estoy con[C#m]tigo
+[B]Ya no hay nada que me pueda derrumbar.
+[F#m]Ahora eres mi ca[C#m]mino
+[B]Encontré un sentido para caminar.
+[F#m]Invítame a tu [C#m]barca
+[B]Ahora yo ya estoy listo para nave[A]gar, Señor.
+
+[E]Tómame, Conviérte[G#m]me
+[Am]Como tú me pen[A]saste,
+[B]Cómo tu me soñaste.
+[E]Tallame, Transfórma[C#m]me
+[Am]Vuelve hacer que yo [A]crea,
+[E]Con tus manos mol[C#m]dea,
+[E]Jesús Carpintero.
 `
-  },
+},
   {
-    id: 356, //--- revisado
-    titulo: "LLEGAS TU (Pedro)",
+    id: 356,
+    titulo: "LLEGAS TÚ (Pedro)",
     autor: "Anónimo",
     categoria: "adoracion",
     tonoOriginal: "Bb",
@@ -5121,50 +5334,87 @@ Sé que tú estás aquí.
 `
   },
   {
-    id: 357,
-    titulo: "LO PEQUEÑO",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "D",
-    letra: `
-Intro: [C] [Am] [F] [G] (Capo 2)
+  id: 357,
+  titulo: "LO PEQUEÑO",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "C",
+  letra: `
+Capo 2
+Intro: [C] [Am] [F] [G]
 
 [C]Gracias señor, por sem[Am]brar en mi interior
-[F]Regalando tu palabra [G]Que renueva el corazón.
-[C]Quiero recibir, tu se[Am]milla en mi para que [F]crezca, y permanezca.
+[F]Regalando tu palabra
+[G]Que renueva el corazón
+[C]Quiero recibir, tu se[Am]milla en mi
+Para que crezca, y permanezca
 
-[Am]Y transforme mi [F]ser en un nuevo amanecer
-[C]Dejando a[G]trás Toda oscuridad.
+[Am]Y transforme mi ser
+[F]En un nuevo amanecer
+[C]Dejando atrás
+[G]Toda oscuridad
 
-[C]Gracias señor por ha[Am]blar al corazón
-[F]Y enseñar que en lo pe[G]queño Esta la clave de tu reino.
-[C]Quiero recibir, tu [Am]gracia en mi para que [F]crezca y permanezca.
+[C] [Am] [F] [G] Mmmh mmmh ooh ooh
 
-[Am]Esa peque[F]ñez, que encierra inmensidad
-[C]Esa peque[G]ñez, que todo puede transformar.
+Gracias señor por hablar al corazón
+Y enseñar que en lo pequeño
+Esta la clave de tu reino
+Quiero recibir, tu gracia en mi
+Para que crezca y permanezca
+
+Esa pequeñez, que encierra inmensidad
+Esa pequeñez, que todo puede transformar
+Mmmh mmmh ooh ooh
+
+Gracias Señor, por hablar al corazón
+Y enseñar que en lo pequeño
+Está la clave de tu reino
 `
-  },
+},
   {
-    id: 358,
-    titulo: "ME RINDO ANTE TI",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "Ab",
-    letra: `
+  id: 358,
+  titulo: "ME RINDO ANTE TI",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "Ab",
+  letra: `
 [Ab]Cuántas vir[Cm]tudes han [Bb]de ador[Ab]nar
-[Cm]Mi cora[Bb]zón al consa[Ab]grarse en el altar.
+[Cm]Mi cora[Bb]zón al consa[Ab]grarse en el altar
 [Fm]Al Dios indefenso que ha na[Bb]cido en un portal
-[Fm]Y ha muerto en la cruz para las [Bb]almas salvar.
+[Fm]Y ha muerto en la cruz para las [Bb]almas salvar 
 
 [Gm]¿Será po[Ab]sible tanto amor para mí?
-[Fm]¿Tendré yo el [Fm7]valor para a[Bb]marte solo a ti?
+[Fm]¿Tendré yo el [Fm7]valor para a[Bb]marte solo a ti? 
 
-[G]Me rindo ante [Ab]ti, Je[Bb]sús, [Cm7]me rindo ante ti.
-[Ab]Me rindo ante [Bb]ti, Je[Cm]sús, me rindo ante ti.
-[Ab]Con todo mi [Bb]ser y mi a[Eb]mor, [Bb]Te con[Cm]sagro el cora[Bb]zón,
-[Ab]Me rindo ante [Bb]ti Mi dulce Je[Eb]sús, me rindo ante ti.
+[G] [Ab] [Bb] Me rindo ante ti, Jesús
+[Cm7]Me rindo ante ti
+[Ab] [Bb] Me rindo ante ti, Jesús
+[Cm]Me rindo ante ti
+[Ab]Con todo mi ser
+[Bb]Y mi amor
+[Eb]Te con[Bb]sagro el [Cm]corazón
+[Bb] [Ab] Me rindo ante ti
+[Bb]Mi dulce Je[Eb]sús, me rindo ante ti 
+
+¿Será posible tanto amor para mí?
+¿Tendré yo el valor para amarte solo a ti?
+
+Me rindo ante ti, Jesús
+Me rindo ante ti
+Me rindo ante ti, Jesús
+Me rindo ante ti
+[Ab]Con todo mi ser
+[Bb]Y mi amor
+[Eb]Te con[Bb]sagro el [Cm]corazón
+Mi dulce Jesús, me rindo ante ti 
+
+[Ab]Con todo mi ser
+[Bb]Y mi amor
+[Eb]Te con[Bb]sagro el [Cm]corazón
+[Bb] [Ab] Me rindo ante ti
+[Bb]Mi dulce Je[Eb]sús, me rindo ante ti 
 `
-  },
+}, // --- revisado até aqui ---
   {
     id: 359,
     titulo: "NECESITO DE TU AMOR",
@@ -8683,9 +8933,9 @@ No te avergüences y alaba a tu Se[G]ñor,
   },
   {
     id: 353,
-    titulo: "FORÓFOS",
+    titulo: "FORÓFOS", //necesita revisión de acordes
     autor: "Hakuna",
-    categoria: "adoracion",
+    categoria: "alabanza",
     tonoOriginal: "D",
     letra: `
 [D]Que seamos todos uno como el Padre y tú sois [G]uno
@@ -8715,7 +8965,7 @@ No te avergüences y alaba a tu Se[G]ñor,
 [D]Que seamos todos uno como el Padre y tú sois [G]uno
 [D]Todos forofos de todos, [G]Que nos queramos siempre más.
 [Em]Por los que te es[A]tudian y predican, [D]Inconfor[A]mistas sin [Bm]límites
-[Em]Siempre mar a[A]dentro. [16]
+[Em]Siempre mar a[A]dentro.
 
 [D]Maristas, Salesianos, Escolapios, Agustinos, [G]Franciscanos
 [Bm]Mercenarios, Jesuitas, Dominicos y tantos [A]más.
