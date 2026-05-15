@@ -5414,57 +5414,110 @@ Mi dulce Jesús, me rindo ante ti
 [Bb] [Ab] Me rindo ante ti
 [Bb]Mi dulce Je[Eb]sús, me rindo ante ti 
 `
-}, // --- revisado até aqui ---
+},
   {
-    id: 359,
-    titulo: "NECESITO DE TU AMOR",
-    autor: "Anónimo",
-    categoria: "adoracion",
-    tonoOriginal: "Ab",
-    letra: `
-Intro: [G] [C] [G] [C] (Capo 1)
+  id: 359,
+  titulo: "NECESITO DE TU AMOR",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "G (capo 1)",
+  letra: `
+Capo 1
+Intro: [G] [C] [G] [C]
 
-[G]Una vez más, tu pa[C]labra me enseña,
-[G]Una vez más, en [C]ella te revelas,
-[G]Una vez más, puedo escu[C]char tú voz que me [G]llama a toda [C]hora,
-[G]Porque quieres, re[C]galarme tu amor.
+[G] Una vez más, tu palabra me en[C]seña
+[G] Una vez más, en ella te re[C]velas
+[G] Una vez más, puedo escuchar tu [C]voz
+[G] Que me llama a toda [C]hora
+[G] Porque quieres, regalarme tu a[C]mor
 
-[G]Siempre es[C]tas, bus[G]cando mi [C]alma
-Sin mi[G]rar, cuantas [C]horas tra[G]baja, [C]
-Por qué a [G]ti no te im[C]porta el tiempo,
-Tu bon[G]dad supera [C]todo porque quieres para [G]mí el [C]cielo.
+[G] [C] [G] [C] 
 
-[G]Hoy vuelvo a ti con mi humani[C]dad,
-[G]Dejo atrás mi justicia y mi ver[C]dad.
-[Am]Quiero abrir mi cora[G]zón
-[F]A esta despropor[C]ción del amor de [G]Dios.
-[C]Necito de tu amor, se[G]ñor, [C]Necesito de tu amor, se[G]ñor.
+[G] Siempre estás, buscando mi [C]alma
+[G] Sin mirar, cuántas horas tra[C]baja
+[G] Porque a ti no te importa el [C]tiempo
+[G] Tu bondad supera todo porque [C]quieres
+[G] Para mí el [C]cielo
+
+[G] Hoy vuelvo a ti con mi humani[C]dad
+[G] Dejo atrás mi justicia y mi ver[C]dad
+[Am] Quiero abrir mi cora[G]zón
+[F] A esta despropor[C]ción del amor de [G]Dios
+
+[C] Necesito de tu amor, Se[G]ñor
+[C] Necesito de tu amor, Se[G]ñor (x2)
+
+[G] Hoy vuelvo a ti con mi humani[C]dad
+[G] Dejo atrás mi justicia y mi ver[C]dad
+[Am] Quiero abrir mi cora[G]zón
+[F] A esta despropor[C]ción del amor de [G]Dios
+[Am] Quiero abrir mi cora[G]zón
+[F] A esta despropor[C]ción del amor de [G]Dios
 `
-  },
+},
   {
-    id: 360,
-    titulo: "NOCHE",
-    autor: "Hakuna",
-    categoria: "adoracion",
-    tonoOriginal: "Dm",
-    letra: `
-[Dm]Por tu iglesia que te es[A#]pera a oscuras
-[F]Por tu pueblo que te [Am]reza aguardando la aurora,
-[Dm]Te ro[A#]gamos, [F]te ro[Am]gamos.
+  id: 360,
+  titulo: "NOCHE",
+  autor: "Anónimo",
+  categoria: "adoracion",
+  tonoOriginal: "Dm",
+  letra: `
+Intro: [Dm] [Bb] [F] [Am]
 
-[Dm]Por las naciones paganas, que [A#]tienen sed de ti sin sa[F]berlo
-[Am]Ten piedad, ten piedad.
-[Dm]Por los pueblos oprimidos por el [A#]totalitarismo, [F]Y la opre[Am]sión de la mentira.
+[Dm] Por tu iglesia que te espera a oscuras
+[Bb] Por tu pueblo que te reza aguardando la aurora
+[F] [Am] Te rogamos, [Dm] [Bb] [F] [Am] te rogamos.
 
-[Dm]Por aquellos perseguidos por tu [A#]nombre Que se [F]ocultan para orar
-[Am]Y aquellos extraídos de su hogar.
-[Dm]Por sus perseguidores, ce[A#]gados por el odio,
-[F]Perdonalеs Padre, [Am]no saben lo que hacen.
+[Dm] Por las naciones paganas, [Bb] que tienen sed de ti sin saberlo
+[F] [Am] Ten piedad, [Dm] [Bb] [F] [Am] ten piedad.
+[Dm] Por los pueblos oprimidos por el totalitarismo, [Bb] y la opresión de la mentira
+[F] [Am] Te rogamos, [Dm] [Bb] [F] [Am] te rogamos.
 
-[A#]Kyrie E[F]leison, [Am]Kyrie E[A7]lei[A]son, [Dm]
-[A#]Kyrie E[F]leison, [Am]Kyrie E[A7]lei[A]son, [Dm]Kyrie E[A7]lei[A]son.
+[Dm] Por aquellos perseguidos por tu nombre [Bb] que se ocultan para orar
+[F] [Am] Y aquellos extraídos de su hogar.
+[Dm] Por sus perseguidores, cegados por el odio [Bb]
+[F] [Am] Perdónales Padre, no saben lo que hacen.
+
+[Dm] Por los que no nos aman, [Bb] por los que no sabemos amar
+[F] Por los que sufren y agonizan [Am] y hoy duermen en el hospital.
+[Dm] Por los que hoy es su última noche [Bb] y cuyos ojos no verán el nuevo día
+[F] [Am] Ten piedad, [Dm] [Bb] [F] [Am] ten piedad.
+
+[Dm] Por todos los que sufren la tentación del suicidio, [Bb]
+[F] [Am] Por los dispuestos a dejar ganar al mal.
+[Dm] Por aquellos cuyas noches son interminables [Bb]
+[F] Y a los que la angustia les ha [Am] quitado la [A7] paz. [A] [Dm]
+
+[Bb] Kyrie [F] Eleison, [Am] Kyrie [A7] Eleison
+[Dm] Kyrie [Bb] Eleison, [F] Kyrie [Am] Eleison, [A7] Kyrie Eleison.
+
+[Dm] Por aquellos que trabajan en la prostitución [Bb] y se ven obligados a vender su amor
+[F] Por los que caen en la trampa [Am] del vicio y las drogas.
+[Dm] Por los que hoy duermen en prisión [Bb] por los que hoy esperan su ejecución
+[F] [Am] Por aquellos a los que torturan.
+[Dm] Por criminales, por los ladrones, [Bb] por los que erran en soledad
+[F] [Am] Por los que sufren la [A7] indiferencia [A] de los [Dm] demás.
+
+[Bb] Kyrie [F] Eleison, [Am] Kyrie [A7] Eleison
+[Dm] Kyrie [Bb] Eleison, [F] Kyrie [Am] Eleison, [A7] Kyrie Eleison.
+
+[Dm] Por la ciudad, [Bb] por todos sus habitantes
+[F] [Am] Que en sus sueños solo existas tú.
+[Dm] Por nuestros difuntos, [Bb] que aún no han visto tu rostro
+[F] [Am] Por los alejados entre la multitud.
+
+[Dm] Por los niños que descansan en el seno de su madre, [Bb]
+[F] [Am] Por las mujeres que van a dar a luz.
+[Dm] Para que reine tu paz en cada hogar, [Bb]
+[F] Por los que quieren [Am] saciar su [A7] sed de [A] amar. [Dm]
+
+[Bb] Kyrie [F] Eleison, [Am] Kyrie [A7] Eleison
+[Dm] Kyrie [Bb] Eleison, [F] Kyrie [Am] Eleison, [A7] Kyrie Eleison.
+
+[Dm] Ten piedad, ten piedad, ten piedad (x3)
+Ten piedad, Señor, ten piedad.
 `
-  },
+},
   {
     id: 361,
     titulo: "NOMBRE SOBRE TODO NOMBRE",
@@ -5474,20 +5527,35 @@ Tu bon[G]dad supera [C]todo porque quieres para [G]mí el [C]cielo.
     letra: `
 Intro: [Dm] [G] [C] [Am] (x4)
 
-[Am]Cristo a pesar de su condi[G]ción Divina
-[Am]Por amor se despren[G]dió de su rango
-[Am]Pasando por [G]uno de [C]tantos [D]Y tomó condi[F]ción de es[G]clavo.
+[Am] La verdad en la que vi[G]vimos,
+[Am] Cristo, a pesar de su condi[G]ción Divina,
+[Am] por amor se despren[G]dió de su [C]rango
+[D] pasando por uno de [F]tantos [G] y tomó condi[Am]ción de es[E]clavo.
+[F] Y así, actuando como un [C]hombre cual[G]quiera,
+[Dm] se rebajó hasta so[Em]meterse incluso a la [F]muerte,
+[G] y una muerte en la cruz.
 
-[Am]Por eso Dios lo levan[F]tó Sobre el [C7]mundo en[G]tero,
-[Am]Por eso Dios le conce[F]dió El [C]nombre sobre [G]todo nombre. (x2)
+[Am] Por eso Dios lo levan[F]tó 
+[C7] sobre el mundo en[G]tero.
+[Am] Por eso Dios le conce[F]dió 
+[C] el nombre sobre todo [G]nombre. (x2)
 
-[Am]Al nombre de Jesús [F]Toda lengua pro[G]clame
-[Am]Cristo es el Se[F]ñor [G]Para gloria del Padre.
-[Am]Toda rodilla se [G]doble en el [C]Cielo [D]En el cielo, [F]tierra y a[G]bismo.
+[Am] Al nombre de Jesús, 
+[F] toda lengua pro[G]clame:
+[Am] ¡Cristo es el Se[F]ñor! 
+[G] para gloria del Padre.
+[Am] Toda rodilla se [G]doble en el [C]Cielo,
+[D] en el cielo, [F] tierra y abismo, 
+[G] que se grite su nombre:
 
-[Dm]Nombre sobre [G]todo nombre [C]Y Salva[Am]dor,
-[Dm]Nombre sobre [G]todo nombre [C]Mi Reden[Am]tor,
-[Dm]Nombre sobre [G]todo nombre [C]Sobre [E7]todo, te levan[Am]tó.
+[Dm] Nombre sobre [G]todo nombre 
+[C] y Salva[Am]dor.
+[Dm] Nombre sobre [G]todo nombre, 
+[C] mi Reden[Am]tor.
+[Dm] Nombre sobre [G]todo nombre, 
+[C] [E7] sobre todo, te levan[Am]tó. 
+
+[Dm] [G] [Am] 
 `
   },
   {
@@ -5499,20 +5567,31 @@ Intro: [Dm] [G] [C] [Am] (x4)
     letra: `
 Intro: [C#m] [E] [A] [B] [C#m] [E] [A] [Am]
 
-[E]Pajarito [B]no sabe volar [C#m]Y Se pregunta [A]Cuando podrá despegar,
-[E]El quisiera [B]ser una águila [C#m]Pero comprende lo que [A]puede dar.
+[E] Pajarito [B] no sabe volar 
+[C#m] y se pregunta [A] cuándo podrá despegar.
+[E] Él quisiera [B] ser un águila, 
+[C#m] pero comprende lo que [A] puede dar.
 
-[E]Dime que mis[C#m]terio es este [A]Que, aunque sea peque[E]ñito Te fijas en [B]él
-[C#m]Y aunque sea dis[A]traído [E]No lo moverán de [B]su lugar.
+[E] Dime qué mis[C#m]terio es este, 
+[A] que, aunque sea peque[E]ñito, 
+te fijas en [B]él.
+[C#m] Y aunque sea dis[A]traído, 
+[E] no lo moverán de [B] su lugar.
 
-[C#m]Quiere seguir mirando Al di[A]vino sol [E]Que le brinda su a[B]mor.
-[C#m]Nada podrá asus[A]tarlo Ni el viento ni la [E]lluvia Ni nada que sa[B]cuda.
+[C#m] Quiere seguir mirando al di[A]vino 
+Sol [E] que le brinda su a[B]mor.
+[C#m] Nada podrá asus[A]tarlo: ni el viento, ni la [E]lluvia, 
+ni nada que sa[B]cuda.
 
-[C#m]Más allá de la nubes Os[A]curas Sigue bri[E]llando Su sol de ve[B]rano.
-[C#m]Pajarito Sabe muy [A]bien Que le cuida El mo[E]mento para despe[B]gar.
+[C#m] Más allá de las nubes os[A]curas, 
+sigue bri[E]llando su sol de ve[B]rano.
+[C#m] Pajarito sabe muy [A] bien que le cuida 
+el mo[E]mento para despe[B]gar.
 
-[C#m]Pajarito se queda mi[A]rando a lo alto, [E]a ver si logra algún [B]día volar.
-[C#m]Y aunque los buitres [A]vengan no les temerá, [E]sus amigas las águilas [B]lo protege[C#m]rán.
+[C#m] Pajarito se queda mi[A]rando a lo alto, 
+[E] a ver si logra algún [B] día volar.
+[C#m] Y aunque los buitres [A] vengan, no les temerá; 
+[E] sus amigas las águilas [B] lo protege[C#m]rán.
 `
   },
   {
@@ -5522,15 +5601,25 @@ Intro: [C#m] [E] [A] [B] [C#m] [E] [A] [Am]
     categoria: "adoracion",
     tonoOriginal: "C",
     letra: `
-[C]Cuantas veces mi humani[C]dad [C]No me deja procla[F]mar tu ver[G]dad.
-[C]Cuantas veces no hable de [C]ti [F]Cuando frente a mi her[G]mano no me compade[C]cí.
+[C] Cuántas veces mi humani[C]dad 
+[C] no me deja procla[F]mar tu ver[G]dad.
+[C] Cuántas veces no hablé de [C]ti, 
+[F] cuando frente a mi her[G]mano no me compade[C]cí.
 
-[C]Hoy me enseñas, que hay que perdonar [C]Y no importa, la cantidad,
-Si no [F]ser como tú Que tanto a[G]maste que te [C]diste en la cruz.
+[C] Hoy me enseñas que hay que perdo[C]nar 
+[C] y no importa la can[F]tidad,[G]
+[C] sino ser como [C]tú, 
+[F] que tanto a[G]maste que te diste en la [C]cruz.
 
-[F]Yo quiero [G]ser, como tú, [F]Quiero que mi vida sea un reflejo de tu [G]luz.
-[F]Quiero de tu [G]paz, en mi inte[Em]rior [Am]
-[F]Para ver a mi hermano y perdo[G]nar de cora[C]zón. (x2)
+[F] Yo quiero [G]ser como tú,
+[F] quiero que mi vida sea un reflejo de tu [G]luz.
+[F] Quiero de tu [G]paz en mi inte[Em]rior [Am]
+[F] para ver a mi hermano y perdo[G]nar de cora[C]zón. (x2)
+
+[F] Yo quiero [G]ser como tú,
+[F] quiero que mi vida sea un reflejo de tu [G]luz.
+[F] Quiero de tu [G]paz en mi inte[Em]rior,
+[F] para ver a mi hermano y perdo[G]nar de cora[C]zón.
 `
   },
   {
@@ -5538,128 +5627,174 @@ Si no [F]ser como tú Que tanto a[G]maste que te [C]diste en la cruz.
     titulo: "POR EL RESTO DE MIS DÍAS",
     autor: "Anónimo",
     categoria: "adoracion",
-    tonoOriginal: "F",
+    tonoOriginal: "C",
     letra: `
 Intro: [F] [G] [C]
 
-[F]A partir de este mo[G]mento una vida comen[C]zamos,
-[F]por el resto de mis [G]días estaré junto a tu [C]lado.
-[F]una alianza e[Em]terna de a[Am]mor [F]que nos une y nos ben[G]dice desde [C]hoy.
+[F] A partir de este mo[G]mento una vida comen[C]zamos,
+[F] por el resto de mis [G]días estaré junto a tu [C]lado.
+[F] Una alianza e[Em]terna de a[Am]mor
+[F] que nos une y nos ben[G]dice desde [C]hoy.
 
-[F]Compartiendo [G]día a día eres mi feli[C]cidad,
-[F]y aunque estés a la dis[G]tancia en mi mente siempre es[C]tás,
-[F]hoy decido a[Em]marte por la eterni[Am]dad, [F]mi amor por ti no [G]perece[C]rá.
+[F] Compartiendo día a [G]día eres mi felici[C]dad,
+[F] y aunque estés a la dis[G]tancia en mi mente siempre es[C]tás,
+[F] hoy de[Em]cido a[Am]marte por la eternidad,
+[F] mi amor por [G]ti no perece[C]rá.
 
-[F]Eres mi [G]luz, mi inspira[C]ción, [F]el re[G]galo que [C]llega del cielo,
-[F]Y que llena de ale[Em]gría mi [Am]cora[F]zón, [G]mi cora[C]zón.
+[F] Eres mi [G]luz, mi inspira[C]ción,
+[F] el re[Em]galo que llega del [Am]cielo
+[F] y que llena de ale[G]gría mi cora[C]zón.
+
+[F] Y que todo el mundo [G]sepa que te [C]amo,
+[F] y que tu pre[G]sencia es el mejor re[C]galo.
+[F] En las [Em]pruebas y ale[Am]grías,
+[F] en tris[G]tezas y poe[C]sías, te amaré.
 `
   },
- {
+  {
     id: 365,
     titulo: "PORQUE TE AMO",
     autor: "Anónimo",
     categoria: "adoracion",
     tonoOriginal: "Bm",
     letra: `
-[Bm]Hoy que te veo a[G]sí [D]No puedo más que mi[A]rarte con dulzura y su[Bm]frir contigo,
-[G]Quiero que sepas que [D]siempre estado a tu lado, [A]Lo que has llorado lo he llo[Bm]rado tam[G]bién. [D] [A] 
+Capo 4
+Intro: [Bm] [G] [D] [A]
 
-[Em]Y date cuenta que tu sole[A]dad, que tu incompren[Bm]sión [G]Han sido [A]mías también,
-[Em]que ningún hombre por más que [A]amo Se hubiera entre[Bm]gado al do[G]lor, como [A]yo por ti.
+[Bm] Hoy que te veo a[G]sí,
+[D] no puedo más que mirarte con dul[A]zura y sufrir con[Bm]tigo.
+[G] Quiero que sepas que [D]siempre he estado a tu lado,
+[A] lo que has llorado lo he llo[Bm]rado tam[G]bién, [D]e[A]ee.
 
-[Bm]Porque te aaa[G]moo, y fue por a[D]mor que yo te [A]cree, [Bm]
-[G]Mírame en la cruu[D]zz, no hay nada que yo no [A]haga por [Bm]ti.
+[Em] Y date cuenta que tu sole[A]dad, que tu incompre[Bm]nsión,
+[G] han [A]sido [Em]mías también; que ningún hombre por más que a[A]mó,
+[Bm] se hubiera entre[G]gado al do[A]lor como yo por ti.
 
-[Bm]Déjame entrar en tu [G]vida [D]quiero vendar [A]tus heridas,
-[Bm]Traigo las mías para cu[G]rar las tuyaaa[D]s Pues vengo hacer [A]mío todo tu do[Em]lor.
+[Bm] Porque te a[G]mooo, y fue por a[D]mor que yo te cre[A]é.
+[Bm] Mírame en la [G]cruuuz, no hay [D]nada que yo no [A]haga por [Bm]ti.
+[Bm] Eeee [G]uuuu [D]uu [A]
 
-[Bm]Y vengo a reno[G]varte y darte [D]nueva [A]vida. [Em]Y ábreme tu [A]corazón y déjame en[Bm]trar,
-[G]quiero que seas fe[D]liz. [A]Y abre tus [Bm]ojos camina en mi [G]senda y yo te guia[D]ré hasta el [A]fin.
+[Bm] Déjame entrar en tu [G]vida, [D]quiero ven[A]dar tus heridas,
+[Bm] traigo las [G]mías para cu[D]rar las tuya[A]as,
+[A] pues vengo a ha[Em]cer mío todo tu dolor.
+[Bm] Y vengo a reno[G]varte y darte nueva vida,
+[D] quiero que [A]seas e[Em]terno y feliz.
 
-[Bm]Te aa[G]mooo, [D]y es que te a[A]moooo, [Bm]asiii[G]iee oooo[D]ooooo. [A]
+[Bm] No temas que a mi lado no hay [G]viento ni tormenta,
+[D] yo te pro[A]tejo con el [Bm]muro de mi amor.
+[G] Y es que te a[D]aaamooo y fue por a[A]mor que yo te cre[Bm]é.
+[G] Mírame en la [D]cruuuz no hay nada que yo no [A]haga por [Bm]tii.
+
+[G] Y ábreme tu cora[D]zón y déjame en[A]trar, quiero que [Bm]seas feliz.
+[G] Y abre tus ojos, ca[D]mina en mi senda y [A]yo te guiaré hasta el fin.
+[Bm] Te a[G]mooooo, [D] y es que te a[A]moooooooooo
+[Bm] asiii[G]iiiiee [D]oooooo[A]ooooo
 `
   },
   {
     id: 366,
-    titulo: "QUE BIEN SE ESTA AQUÍ (Transfiguración)",
+    titulo: "QUE BIEN SE ESTÁ AQUÍ (Transfiguración)",
     autor: "Anónimo",
     categoria: "adoracion",
     tonoOriginal: "G",
     letra: `
 Intro: [C] [D]
 
-[Am]Que bien se [D]está aquí, señor,
-[G]No hay otro lu[D]gar donde es[Em]tar mejor.
-[A]Tus manos nos guían, [C]Tu amor nos protege, [D]Confiamos en [G]ti. (x2)
+[Am] Que bien se está a[D]quí, Señor,
+[G] no hay otro lu[D]gar donde es[Em]tar mejor.
+[A] Tus manos nos guían, [C] tu amor nos protege,
+[D] confiamos en [G]ti. (x2)
 
-[C]Seremos tus [D]manos Para cons[G]truir un mundo nuevo,
-[C]Seremos tu [D]boca Para no ca[G]llar la verdad,
-[C]Seremos tus [Bm]ojos para mi[A]rarnos con ternura,
-[Am]Y tú miseri[C]cordia Para escu[F]char sin juz[D]gar…
+[C] Seremos tus manos [D] para construir un mundo [G]nuevo,
+[C] Seremos tu boca [D] para no callar la ver[G]dad.
+[C] Seremos tus [Bm]ojos para mi[A]rarnos con ternura,
+[Am] y tu miseri[C]cordia [F] para escuchar sin juz[D]gar…
 `
   },
   {
     id: 367,
-    titulo: "QUÉ BIEN SE ESTÁ AQUÍ",
+    titulo: "QUE BIEN SE ESTÁ AQUÍ",
     autor: "Anónimo",
     categoria: "adoracion",
-    tonoOriginal: "A",
+    tonoOriginal: "A (capo 1)",
     letra: `
-[A]Qué bien se está aquí [D]en tu presencia
-[Bm]Glorioso por [E]siempre Señor
-[A]Qué bien se está aquí [D]a tu lado
-[Bm]Sintiendo tu [E]paz y tu amor
+Intro: [A] [D] [Bm] [E]
 
-[D]Cuán hermoso [A]eres, Señor
-[D]Tú no tienes [A]comparación
-[D]Quiero [E]perma[F#m]necer [D]por siempre [E]en tu amor
+[A] Qué bien se está a[D]quí, en tu pre[Bm]sencia,
+[E] glorioso por siempre Se[A]ñor.
+[A] Qué bien se está a[D]quí, a tu [Bm]lado,
+[E] sintiendo tu paz y tu a[A]mor.
 
-[D] [A] Con todo, [E] mi cora[F#m]zón [D] [A] te adoro, [E] Señor.
-[D] [A] Con todo, [E] mi cora[F#m]zón [D] [A] te alabo, [E] Señor.
+[D] Cuán hermoso [A]eres, Señor,
+[D] tú no tienes [A]comparación.
+[D] Quiero [E]perma[F#m]necer
+[D] por siempre [E]en tu a[A]mor. (da capo ad fine)
+
+[D] Con [A]todo [E]mi cora[F#m]zón
+[D] te a[A]doro, Se[E]ñor.
+[D] Con [A]todo [E]mi cora[F#m]zón
+[D] te a[A]labo, Se[E]ñor.
+
+[D] Cuán hermoso [A]eres, Señor,
+[D] tú no tienes [A]comparación.
+[D] Quiero [E]perma[F#m]necer
+[D] por siempre [E]en tu a[A]mor.
+
+[A] Qué bien se está a[D]quí, en tu pre[Bm]sencia.
 `
   },
   {
     id: 368,
     titulo: "QUEBRÁNTAME",
-    autor: "Anónimo",
+    autor: "Jésed",
     categoria: "adoracion",
     tonoOriginal: "C",
     letra: `
 Intro: [Am] [C] [F]
 
-[C]Oh, Señor mi Dios, te he buscado tanto tiempo [Am]y te encuentro hoy
-[F]Y te hablo en oración, pero en mi corazón [Dm]hay heridas sin sanar,
-[Fm]y en mi alma solo hay [G]oscuridad.
+[C] Oh, Señor mi Dios, te he buscado tanto [Am]tiempo y te encuentro hoy.
+[F] Y te hablo en oración, pero en mi [Dm]corazón hay heridas sin sa[Fm]nar,
+y en mi alma solo hay [G]oscuridad.
 
-[C]Quebrántame, toma lo que soy y [Am]Renuévame, hazme como tu, Señor
-[F]Transfórmame, [Dm]a tu imagen, [G]Quiero Renacer en ti.
+[C] Oh, Jesús mi Señor, tú moriste en una [Am]cruz para mi salvación.
+[F] Y tu sangre derramaste por mi re[Dm]dención. Solo tú tienes po[Fm]der,
+solo en ti mi alma puede [G]renacer.
 
-[C]Oh, Señor mi Dios, me abandono en tus manos [Am]pues de barro soy,
-[F]y tu eres el alfarero vuelve a hacerme oh, Dios [Dm]Reconstrúyeme Señor
-[Fm]Y mi ser proclama[G]rá tu salvación.
+[C] Quebrántame, toma lo que soy y [Am]renuévame, hazme como tú, Señor.
+[F] Transfórmame, [Dm] a tu imagen, [G] quiero renacer en ti.
+
+[C] Oh, Señor mi Dios, me abandono en tus [Am]manos pues de barro soy,
+[F] y tú eres el alfarero, vuelve a ha[Dm]cerme oh, Dios.
+[Fm] Reconstrúyeme Señor [G] y mi ser proclamará tu salvación.
+
+[F] Toma lo que [G]soy, quiero re[Am]nacer en [G]ti.
 `
   },
   {
     id: 369,
     titulo: "QUÉDATE SEÑOR (Oración de los esposos)",
-    autor: "Anónimo",
+    autor: "Verónica Sanfilippo",
     categoria: "adoracion",
     tonoOriginal: "C",
     letra: `
 Intro: [C] [Am] [F] [C] [G]
 
-[C]Hoy venimos a tu casa [Am]A ofrendarte nuestro amor
-[F]Queremos que tu gracia nos inunde [C]Y consagre [G]nuestra u[Am]nión.
-[C]Te entregamos los que somos [Am]Te abrimos nuestro corazón
-[F]Ven entra a nuestra casa [C]Ven y [G]quédate, Señor.
+[C] Hoy venimos a tu casa [Am] a ofrendarte nuestro amor.
+[F] Queremos que tu gracia nos inunde [C] y consagre [G] nuestra u[Am]nión.
+[C] Te entregamos los que somos, [Am] te abrimos nuestro corazón.
+[F] Ven entra a nuestra casa, [C] ven y [G] quédate, Señor.
 
-[G]Y danos [Am]de tu paz, [F]alumbra con tu luz, [C]bendice nuestro hogar,
-[G]ven y quédate, Jesús.
-[G]Y enciende en nuestro [Am]corazón [F]el fuego de tu amor
-[C]para que esta familia [G]sea un reflejo de tu luz.
+[G] Y danos [Am] de tu paz, [F] alumbra con tu luz,
+[C] bendice nuestro hogar, [G] ven y quédate, Jesús.
+[Am] Y enciende en nuestro corazón [F] el fuego de tu amor,
+[C] para que esta familia [G] sea un reflejo de tu luz.
 
-[C]Bendice a este esposo, [Am]bendice a esta esposa, [F]bendice a esta familia
-que hoy [C]te consa[G]gra su amor.
+[C] Bendice a este esposo, [Am] bendice a esta esposa,
+[F] bendice a esta familia que hoy [C] te con[G]sagra su a[Am]mor.
+
+[Am] Ven y quédate, Se[F]ñor, ohh ohh
+[C] Ven y quédate, Se[G]ñor, ohh ohh
+ven y quédate, Se[C]ñor.
 `
   },
   {
@@ -5669,15 +5804,17 @@ que hoy [C]te consa[G]gra su amor.
     categoria: "adoracion",
     tonoOriginal: "D",
     letra: `
-[D]En la intimidad de tu pre[G]sencia
-[D]Te rindo hoy mi ser y mi cora[G]zón
-[Bm]No hay lu[A]gar mejor, [G9]que a tus pies Se[D]ñor
-[D]En ti encuentro paz, encuentro a[A]mor.
+[D] En la intimidad de tu pre[G]sencia,
+[D] te rindo hoy mi ser y mi cora[G]zón.
+[Bm] No hay [A] lugar mejor [G] que a tus [D] pies Señor,
+[D] en ti encuentro [A] paz, encuentro amor.
 
-[Bm]Recibe mi [G]corazón, [D]Jesús mi buen [A]pastor
-[Bm]Recibe mi [G]oración, [D]te entrego hoy [A]mi cora[D]zón.
+[Bm] Recibe mi [G] corazón, [D] Jesús mi buen pas[A]tor,
+[Bm] recibe mi o[G]ración, te [D] entrego hoy mi [A] corazón.
+
+[D] En la intimidad de tu pre[G]sencia.
 `
-  },
+  },// --- revisado até aqui ---
   {
     id: 371,
     titulo: "SENCILLAMENTE",
@@ -5986,6 +6123,91 @@ A lo más pro[F]fundo [D]de mi cora[G]zón. [31]
 [Am]Ahí es[F]tas, yo te [C]miro. Tu me [G]miras a [Am]mí, estas a[F]hí. [33]
 `
   },
+  {
+  id: 387,
+  titulo: "Derrama tu gracia",
+  autor: "Verónica Sanfilippo",
+  tonoOriginal: "Em",
+  categoria: "adoracion",
+  letra: `[Intro] Em - C - D (x2)
+
+[C] Tu pre[D]sencia es [Em] como un [D] manan[C]tial de agua [G] viva que fluye sobre mí.
+[Em] Un fuego ar[D]diente que re[C]aviva y quema mi exis[Em]tir.
+
+[C] Oh [Em] oh [D] oh (x2)
+
+[C] Derrama tu [D] gracia, [Em] bendita pre[D]sencia,
+[C] resguardo de mi [G] alma, [D] quiero ala[Em]barte por la eternidad.
+
+[C] Oh [Em] oh [D] oh (x2)
+
+[Em] Como jar[D]dín en [C] prima[G]vera florece en mi interior,
+[Em] como el in[D]cienso que se [C] quema, eleva mi ora[Em]ción.
+
+[C] Oh [Em] oh [D] oh (x2)
+
+[C] Derrama tu [D] gracia, [Em] bendita pre[D]sencia,
+[C] resguardo de mi [G] alma, [D] quiero ala[Em]barte.
+[C] Derrama tu [D] gracia, [Em] bendita pre[D]sencia,
+[C] resguardo de mi [G] alma, [D] quiero ala[Em]barte por la eternidad.
+
+[C] Oh [G] oh [D] (x2)
+
+[C] Rey de [G] reyes; Se[D]ñor de se[Em]ñores,
+[C] Rey de la cre[G]ación; [D] Todopode[Em]roso [D].
+[C] Cristo [G] Rey; Cor[D]dero de [Em] Dios,
+[C] Vida de ver[G]dad; [D] Príncipe de [Em] paz.`
+},
+{
+  id: 388,
+  titulo: "Instrumento de tu amor",
+  autor: "Verónica Sanfilippo",
+  tonoOriginal: "A",
+  categoria: "adoracion",
+  letra: `[A] Así como el [E] ave vuela y la [F#m] flor crece
+[Bm] todo porque tu amor lo [E] quiere.
+[A] Así como el [E] árbol es re[F#m]fugio cuando llueve
+[D] porque tu amor todo lo [Bm] puede.
+
+[D] [E] Puedo [F#m] oír tu voz [D] [E] llamán[F#m]dome al desierto
+[D] [E] no puedo de[F#m]cir no, [D] te [Bm] sigo aún sin [E] verlo.
+
+Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
+[Bm] [A] quiero [D] ir contigo cami[E]nando.
+
+[F#m] Aquí [E] está mi [D] voz [E] úsala y [F#m] hazla un [E] instru[D]mento de tu [E] amor.
+[F#m] Contigo [E] yo [D] voy, [E] tu gracia [F#m] me sos[E]tiene y [D] forta[E]lece el corazón.
+
+[D] [E] A todo lu[F#m]gar [D] [E] donde [F#m] quieras llegar
+[D] [E] mi vida es [F#m] para ti, [Bm] te quiero se[E]guir.`
+},
+{
+  id: 389,
+  titulo: "Sopla",
+  autor: "Verónica Sanfilippo",
+  tonoOriginal: "Dm",
+  categoria: "Adoración / Espíritu Santo",
+  letra: `[Dm] Sopla, como [Bb] suave brisa [C] siempre [Dm] sopla
+[Bb] Como viento [C] que renueva [F] sopla,
+[Gm] y cambia [Dm] todo de lugar.
+
+[Dm] Inunda, cada [Bb] espacio de mi [C] ser in[Dm]unda
+[Bb] Con su fuego [C] abraza[F]dor inunda
+[Gm] y llena [C] todo de su paz.
+
+[F] Es el Es[C]píritu de Dios,
+[Dm] luz que pe[Bb]netra el corazón
+[F] y toca mi [C] alma,
+[Dm] toca mi [Bb] alma.
+
+[F] Ven a mo[C]rar en mí,
+[Dm] inúndame y [Bb] cambia todo mi existir.
+
+[Gm] Sopla [F] sobre [C] mí,
+[Gm] llena [F] mi exis[C]tir.
+[Gm] Toca [F] mi [C] alma,
+[Gm] toca mi [Bb] [C] alma.`
+},
     // --- SECCIÓN: CANTOS DEL Espíritu Santo status:terminado ---
      {
     id: 255,
