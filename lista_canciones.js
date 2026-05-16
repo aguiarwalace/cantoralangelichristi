@@ -1,10 +1,13 @@
 const canciones = [
-  // --- SECCIÓN: CANTOS DE ENTRADA status: terminado ---
+/*Categorías siempre en minúsculas y sin acentos, para facilitar la búsqueda. 
+Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo, doxologia, padrenuestro, cordero, comunion, reflexion, salida, adoracion, espiritusanto, mariano, navidad, alabanza,pasion,angelichristi.*/
+  
+// --- SECCIÓN: CANTOS DE ENTRADA status: terminado ---
   {
     id: 1,
     titulo: "A TI LEVANTO MIS OJOS",
     autor: "Miguel Manzano",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "Dm",
     letra: `
 Intro: [Dm] [D7]
@@ -29,7 +32,7 @@ por que es[A7]pero, [Dm]tu misericordia.
     id: 2,
     titulo: "ALABANZAS",
     autor: "Eduardo Ortiz Tirado",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "D",
     letra: `
 [D]Este es el día y el [E]lugar,
@@ -52,7 +55,7 @@ por que es[A7]pero, [Dm]tu misericordia.
     id: 3,
     titulo: "CAMINARÉ",
     autor: "J.A. Espinoza",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "Em",
     letra: `
 [Em]Cami[A]na[Am]ré en [Em]presencia del Se[B7]ñor. [Em](x2)
@@ -75,7 +78,7 @@ Mis [C]ojos de las lágrimas, mis pies de la ca[B7]ída.
     id: 4,
     titulo: "CUANTO GOZO ME DIO AL OÍR",
     autor: "Anónimo",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "D",
     letra: `
 [D]Cuanto gozo me [A]dio al o[Em]ír, [G]
@@ -98,7 +101,7 @@ Del trono de David.
     id: 5,
     titulo: "COMO EL CIERVO",
     autor: "Alejandro Mejía",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "G",
     letra: `
 [G]Como el cier[C]vo al agua [D7]va, [G]
@@ -131,7 +134,7 @@ Que nos une en el amor.
     id: 6,
     titulo: "DE AQUÍ HASTA EL FINAL",
     autor: "Eduardo Ortiz Tirado",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "D",
     letra: `
 [D]De aquí hasta el fi[A]nal con[Bm]tigo, [D7]
@@ -149,7 +152,7 @@ Que nos une en el amor.
     id: 7,
     titulo: "DIOS ESPERA EN EL ALTAR",
     autor: "Brotes de Olivo",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "E",
     letra: `
 [E]Dios es[A]pera en el al[E]tar, [B7]Vamos todos hacia El,
@@ -174,7 +177,7 @@ Y pensar que al salir más he de amar.
     id: 8,
     titulo: "DIOS ESTÁ AQUÍ",
     autor: "Anónimo",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "D",
     letra: `
 [D]Dios está a[A7]quí [Bm](si está aquí)
@@ -191,7 +194,7 @@ Ahora y siempre por los siglos de los siglos amen.
     id: 9,
     titulo: "EL VIVE Y REINARÁ (Ele vive e reinará)",
     autor: "Ministério Adoração e Vida",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "F",
     letra: `
 Intro: [F] [Bb] [F] [Bb] [F] [Bb] [F] [Bb]
@@ -220,7 +223,7 @@ Intro: [F] [Bb] [F] [Bb] [F] [Bb] [F] [Bb]
     id: 10,
     titulo: "HA VENCIDO EL CORDERO",
     autor: "Jésed",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "F",
     letra: `
 [F]Toda la tierra te a[Dm]labe Señor,
@@ -241,7 +244,7 @@ Intro: [F] [Bb] [F] [Bb] [F] [Bb] [F] [Bb]
     id: 11,
     titulo: "HACIA TI, MORADA SANTA",
     autor: "Kiko Argüello",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "Gm",
     letra: `
 [Gm]Hacia ti, mo[D]rada Santa,
@@ -263,7 +266,7 @@ Tú vas entre nosotros, tu amor nos guiará.
     id: 12,
     titulo: "ME ACERCARÉ",
     autor: "Anónimo",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "G",
     letra: `
 [G] [Bm] [C]Me acer[G]caré, al altar de Dios,
@@ -280,7 +283,7 @@ La, la, la, la…
     id: 13,
     titulo: "NOS HAS LLAMADO AL DESIERTO",
     autor: "Anónimo",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "Em",
     letra: `
 [Em]Nos has llamado al desierto [Am]Señor [B7]de la liber[Em]tad
@@ -297,7 +300,7 @@ El pueblo de dios avanza hasta la cumbre pascual
     id: 14,
     titulo: "JUNTOS CANTANDO LA ALEGRÍA",
     autor: "Cesáreo Gabaraín",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "G",
     letra: `
 [G]Juntos can[D7]tando la ale[G]gría [G7]
@@ -325,7 +328,7 @@ Nuestro amigo Jesús nos salvará.
     id: 15,
     titulo: "JUNTOS COMO HERMANOS",
     autor: "Cesáreo Gabaraín",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "D",
     letra: `
 [D]Juntos como her[Bm]manos [G]Miembros de una i[A]glesia,
@@ -345,7 +348,7 @@ Donde reinará el amor, donde reinará la paz.
     id: 16,
     titulo: "QUE ALEGRÍA CUANDO ME DIJERON",
     autor: "Miguel Manzano",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "B7",
     letra: `
 [B7]Qué ale[E]gría [A]cuando me di[B7]jeron, [E]
@@ -372,7 +375,7 @@ Te deseo todo bien.
     id: 17,
     titulo: "UN PUEBLO QUE CAMINA POR EL MUNDO",
     autor: "J. A. Espinoza",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "Em",
     letra: `
 [Em]Un pueblo que camina por el [D]mundo,
@@ -390,7 +393,7 @@ Te deseo todo bien.
     id: 18,
     titulo: "VAMOS CAMINANDO",
     autor: "Anónimo",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "C",
     letra: `
 [C]Vamos cami[Em]nado a la [F]casa del Se[G]ñor,
@@ -406,7 +409,7 @@ Te deseo todo bien.
     id: 19,
     titulo: "VAMOS, VAMOS, VAMOS",
     autor: "Anónimo",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "E",
     letra: `
 [E]Vamos, [C#m]vamos, [F#m]vamos,
@@ -425,7 +428,7 @@ Que nos ha reunido en torno a su mesa, para ser nuestro pan: la, la, la, la…
     id: 20,
     titulo: "VEN, VEN SEÑOR NO TARDES",
     autor: "Cesáreo Gabaraín",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "E",
     letra: `
 [E]Ven, ven Señor no [F#m]tardes, [E]
@@ -449,7 +452,7 @@ Al mundo le falta cielo, al mundo le faltas tú.
     id: 21,
     titulo: "VENID A CELEBRAR",
     autor: "Anónimo",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "E",
     letra: `
 [E]Venid a cele[C#m]brar, la [E]Pascua del Se[C#m]ñor,
@@ -468,7 +471,7 @@ hoy resucito, y la libertad nos abre el corazón.
     id: 22,
     titulo: "VENIMOS HOY A TU ALTAR",
     autor: "Anónimo",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "G",
     letra: `
 [G]Venimos [Bm]hoy a tu altar, [C]A can[D]tarte Señor,
@@ -485,7 +488,7 @@ Tú al darnos la vida, nos das la riqueza, tu eterna amistad.
     id: 23,
     titulo: "VIENEN CON ALEGRÍA",
     autor: "Cesáreo Gabaraín",
-    categoria: "Entrada",
+    categoria: "entrada",
     tonoOriginal: "E",
     letra: `
 [E]Vienen con ale[B7]gría Se[E]ñor,
@@ -5714,7 +5717,7 @@ Intro: [C] [D]
   {
     id: 367,
     titulo: "QUE BIEN SE ESTÁ AQUÍ",
-    autor: "Anónimo",
+    autor: "Athenas",
     categoria: "adoracion",
     tonoOriginal: "A (capo 1)",
     letra: `
@@ -6186,7 +6189,7 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
   titulo: "Sopla",
   autor: "Verónica Sanfilippo",
   tonoOriginal: "Dm",
-  categoria: "Adoración / Espíritu Santo",
+  categoria: "adoracion, espiritusanto",
   letra: `[Dm] Sopla, como [Bb] suave brisa [C] siempre [Dm] sopla
 [Bb] Como viento [C] que renueva [F] sopla,
 [Gm] y cambia [Dm] todo de lugar.
@@ -6266,7 +6269,7 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
     id: 270,
     titulo: "ENCIÉNDEME",
     autor: "Anónimo",
-    categoria: "espiritusanto",
+    categoria: "adoracion, espiritusanto",
     tonoOriginal: "E",
     letra: `
 [E]Hoy quiero, Señor, ponerlo todo en tu pre[A]sencia
