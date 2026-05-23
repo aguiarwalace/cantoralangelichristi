@@ -8188,7 +8188,23 @@ Como ella [Db/F]quiero darle [Gb]toda mi vida,
     categoria: "marianos",
     tonoOriginal: "Am",
     letra: `
-Estoy aquí...
+[Am] [G] [F] [E7] 
+Estoy aquí
+Porque sobreviví a la tempestad
+Que cayó sobre mí
+Los poderosos no mi dieron la victoria
+Fue mi confianza puesta en Rey de la gloria
+
+Voy a alabar y el desierto atravesar
+Voy a danzar, hasta que se abre el mar
+Voy a cantar, nada me abalará
+Derribó los poderosos, y exaltó a los humildes
+El poder de su brazo nos liberó
+
+Oh, oh, oh, mi alma glorifica al señor
+Oh, oh, oh, mi espíritu se alegra en Dios, mi salvador
+Oh, oh, oh, mi alma glorifica al señor
+Oh, oh, oh, mi espíritu se alegra en Dios, mi salvador.
 `
   },
     // --- SECCIÓN: CANTOS DE Adviento, Navidad y Villancicos ---
