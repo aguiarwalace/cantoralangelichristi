@@ -6211,6 +6211,29 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
 [Gm] Toca [F] mi [C] alma,
 [Gm] toca mi [Bb] [C] alma.`
 },
+  {
+  id: 390,
+  titulo: "En ti perfecto",
+  autor: "Trigo 13",
+  tonoOriginal: "G (capo 3)",
+  categoria: "adoracion",
+  letra: `
+
+[C] Cuantas veces le he pre[D]guntado la ra[G]zón de mi exis[Em]tir,
+[C] cuantas veces he du[D]dado de por [G] qué me hizo a[C]sí.
+[G] Tan desnudo, tan he[D]rido,
+[G] incapaz de dar a[C]mor,
+[D] hoy te pido de ro[G]dillas un por [C] qué Se[D]ñor.
+
+[Em] Pues Yo te hice a[C]sí per[G]fecto, de ver[D]dad,
+[Em] pensé en cada [C] uno de tus [G] gestos para a[D]mar,
+[Em] pues en ti están mis [C] huellas
+[G] para que otros puedan [D] ver
+[C] a través de alguien pre[G]cioso
+[D] maravillas que cre[C]é. (x2)
+
+[D] Que tú eres mi re[C]flejo... [D] aquí tienes tu por[C]qué.`
+},
     // --- SECCIÓN: CANTOS DEL Espíritu Santo status:terminado ---
      {
     id: 255,
@@ -9584,4 +9607,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:386
+// último id:390
