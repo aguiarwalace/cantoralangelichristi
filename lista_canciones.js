@@ -6291,7 +6291,7 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
    {
     id: 270,
     titulo: "ENCIÉNDEME",
-    autor: "Anónimo",
+    autor: "Hakuna",
     categoria: "adoracion, espiritusanto",
     tonoOriginal: "E",
     letra: `
@@ -6300,9 +6300,9 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
 [E]Hoy quiero, Señor, ponerlo todo ante tu [A]puerta
 [C#m]Para en todo a[B]marte y ser[E]vir.
 
-[B]Enciéndeme y déjame arder donde haga [A]falta,
+[E]Enciéndeme y déjame arder donde haga [A]falta,
 [E]Enciéndeme y déjame ser tu [A]luz,
-[B]Y así poder llevarte hasta todas las [A]almas,
+[E]Y así poder llevarte hasta todas las [A]almas,
 [E]Saciar la sed que [B]tienes Tú desde la [E]cruz.
 
 [E]Hoy quisiera madre, poner todo en tu pre[A]sencia,
