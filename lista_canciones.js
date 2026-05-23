@@ -4649,8 +4649,8 @@ Para mirar al otro y ver en su inte[F]rior: [G]
   titulo: "APÓSTOL DE TU LUZ",
   autor: "Anónimo",
   categoria: "adoracion",
-  tonoOriginal: "C",
-  letra: `
+  tonoOriginal: "C (capo 1)",
+  letra: `(capo 1)
 Intro: [C] [F] [G] (x2)
 
 [C] Sentí muy dentro la[F]tir mi cora[G]zón
@@ -4780,10 +4780,10 @@ Intro: [F] [G] [C] [Am] [G] [C]
   {
   id: 343,
   titulo: "DÉJATE",
-  autor: "Anónimo",
+  autor: "Pais misión",
   categoria: "adoracion",
   tonoOriginal: "C (capo 1)",
-  letra: `
+  letra: `(capo 1)
 [C] Hace ya tiempo que comprendí
 [F] Tú me bus[G] caste en todas [C] partes
 [Am] La llama que un día empe[Em] zó a fallar
@@ -6213,12 +6213,12 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
 },
   {
   id: 390,
-  titulo: "En ti perfecto",
+  titulo: "EN TI PERFECTO",
   autor: "Trigo 13",
   tonoOriginal: "G (capo 3)",
   categoria: "adoracion",
   letra: `
-
+(capo 3)
 [C] Cuantas veces le he pre[D]guntado la ra[G]zón de mi exis[Em]tir,
 [C] cuantas veces he du[D]dado de por [G] qué me hizo a[C]sí.
 [G] Tan desnudo, tan he[D]rido,
