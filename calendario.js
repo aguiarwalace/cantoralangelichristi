@@ -42,6 +42,7 @@ const datosLiturgicos = {
         { id: "a_pascua_5", nombre: "5º Domingo de Pascua", cantos: [10,173,112,64,79,90,114,128,383,172,170,155] },
         { id: "a_pascua_6", nombre: "6º Domingo de Pascua", cantos: [10,173,112,64,79,90,114,128,172,170,155] },
         { id: "a_pascua_7", nombre: "7º Domingo de Pascua - Ascensión del Señor", cantos: [10,173,112,64,79,90,114,128,172,170,155] },
+        { id: "a_pentecostes", nombre: "¨Pentecostés", cantos: [263,173,112,64,79,90,114,128,276,270,277] },
 
         // TIEMPO ORDINARIO (9–34)
         /*...Array.from({length: 26}, (_,i) => ({
@@ -112,8 +113,8 @@ const datosLiturgicos = {
     ],
      "Eventos": [
         // EVENTOS
-        { id: "vocafest_semi_concierto", nombre: "VocaFest - Seminario mayor (16/05/2026)", cantos: [270,275,106,110,385,277,109,155,386] },
-        { id: "vocafest_semi_adoracion", nombre: "Adoración - Seminario mayor (16/05/2026)", cantos: [344,387,383,339,388,367,379,136,270] },
+        /*{ id: "vocafest_semi_concierto", nombre: "VocaFest - Seminario mayor (16/05/2026)", cantos: [270,275,106,110,385,277,109,155,386] },
+        { id: "vocafest_semi_adoracion", nombre: "Adoración - Seminario mayor (16/05/2026)", cantos: [344,387,383,339,388,367,379,136,270] },*/
         { id: "vig_pentecostes_hsanta", nombre: "Vigilia de Pentecostés - Motul - H.Santa (23/05/2026)", cantos: [137,389,390,343,339,136] },
         { id: "vig_pentecostes_anima", nombre: "Vigilia de Pentecostés - Motul - Animación (23/05/2026)", cantos: [270,275,106,1000,385,277,109] },
      ],
