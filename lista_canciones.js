@@ -2354,6 +2354,7 @@ Ten piedad de nosotros
 Y danos de tu paz. (x2)
 `
   },
+  
     // --- SECCIÓN: CANTOS DE Comunión ---
   {
     id: 132,
@@ -6184,33 +6185,57 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
 [D] [E] A todo lu[F#m]gar [D] [E] donde [F#m] quieras llegar
 [D] [E] mi vida es [F#m] para ti, [Bm] te quiero se[E]guir.`
 },
-{
-  id: 389,
-  titulo: "Sopla",
-  autor: "Verónica Sanfilippo",
-  tonoOriginal: "Dm",
-  categoria: "adoracion, espiritusanto",
-  letra: `[Dm] Sopla, como [Bb] suave brisa [C] siempre [Dm] sopla
+  {
+    id: 389,
+    titulo: "Sopla",
+    autor: "Veronica Sanfilippo",
+    categoria: "adoracion, espiritusanto",
+    tonoOriginal: "F",
+    letra: `
+[Dm] Sopla, como [Bb] suave brisa [C] siempre [Dm] sopla
 [Bb] Como viento [C] que renueva [F] sopla,
 [Gm] y cambia [Dm] todo de lugar.
 
-[Dm] Inunda, cada [Bb] espacio de mi [C] ser in[Dm]unda
-[Bb] Con su fuego [C] abraza[F]dor inunda
+[Dm] Inunda, cada [Bb] espacio de mi [C] ser [Dm] inunda
+[Bb] Con su fuego [C] abrazador [F] inunda,
 [Gm] y llena [C] todo de su paz.
 
-[F] Es el Es[C]píritu de Dios,
-[Dm] luz que pe[Bb]netra el corazón
-[F] y toca mi [C] alma,
-[Dm] toca mi [Bb] alma.
+[F] Es el Espíritu de [C] Dios
+[Dm] Luz que penetra el [Bb] corazón
+[F] Y toca mi [C] alma
+[Dm] Y toca mi [Bb] alma
 
-[F] Ven a mo[C]rar en mí,
-[Dm] inúndame y [Bb] cambia todo mi existir.
+[F] Ven a morar en [C] mí
+[Dm] Inúndame y cambia
+[Bb] Todo mi existir
+[F] Ven a morar en [C] mí
+[Dm] Inúndame y cambia
+[Bb] Todo mi existir
 
-[Gm] Sopla [F] sobre [C] mí,
-[Gm] llena [F] mi exis[C]tir.
-[Gm] Toca [F] mi [C] alma,
-[Gm] toca mi [Bb] [C] alma.`
-},
+[F] Sopla sobre [C] mí
+[Gm] Llena [F] mi exis[C]tir
+[Gm] Toca mi [F] alma; toca, Se[C]ñor
+[Bb] Toca mi [C] alma
+
+[F] Ven a morar en [C] mí
+[Dm] Inúndame y cambia
+[Bb] Todo mi existir
+[F] Ven a morar en [C] mí
+[Dm] Inúndame y cambia
+[Bb] Todo mi existir
+
+[C] Espíritu de [F] Dios [C] 
+[Dm] Espíritu [Bb] Santo
+[F] Espíritu de [C] Dios
+[Dm] Espíritu [Bb] Santo
+
+[F] Toca mi [C] alma
+[Dm] Toca mi [Bb] alma
+[F] Toca mi [C] alma
+[Dm] Toca mi [Bb] alma
+[F] Espíritu de Dios
+`
+  },
   {
   id: 390,
   titulo: "EN TI PERFECTO",
@@ -6465,6 +6490,12 @@ Derrama tus dones aquí
 
 [E]Señor libéranos, [A] Señor libéranos
 [B7]Señor libéranos con tu po[E]der. (x2)
+
+Yo tengo un gozo en el alma (donde?)
+gozo en el alma (donde?)
+gozo en el alma y en mi ser (aleluya gloria a Dios)
+son como rios de agua viva 
+rios de agua viva, rios de agua viva en mi ser 
 
 [E]El amor de Dios es maravi[B7]lloso. (x3)
 ¡Grande es el amor de [E]Dios!
