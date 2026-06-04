@@ -50,7 +50,9 @@ const datosLiturgicos = {
             nombre: `${i+9}º Domingo del Tiempo Ordinario`,
             cantos: [1,2,3,4,5]
         }))*/
-    ],
+      { id: "a_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] }
+{ id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,padredebondad,144,133,239] },
+        { id: "a_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },    ],
 
     "Ciclo B": [
         { id: "b_adv_1", nombre: "1º Domingo de Adviento", cantos: [1,2,3,4,5] },
