@@ -63,7 +63,7 @@ function displaySong() {
 
     const tonoDestino = calcularNombreTono(song.tonoOriginal, trasposicionActual);
     
-    // NUEVO: Extraemos la base inteligente (Ej: si dice F#m7(b5), extrae solo F#m)
+    // Extraemos la base inteligente
     const match = tonoDestino.match(/^([A-G][#b]?m?)/);
     const tonoBase = match ? match[1] : tonoDestino;
     
@@ -71,6 +71,20 @@ function displaySong() {
     const escalaElegida = tonosConBemoles.includes(tonoBase) ? escBem : escSost;
 
     const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida, tonoDestino);
+
+    // --- NUEVO: LÓGICA PARA LOS LINKS EXTERNOS ---
+    let botonesLinksHtml = '';
+    
+    if (song.linkYoutube) {
+        botonesLinksHtml += `<a href="${song.linkYoutube}" target="_blank" style="display:inline-block; background:#ff0000; color:white; padding:5px 12px; border-radius:5px; text-decoration:none; font-size:0.9rem; margin-right:10px;">▶ YouTube</a>`;
+    }
+    if (song.linkPartitura) {
+        botonesLinksHtml += `<a href="${song.linkPartitura}" target="_blank" style="display:inline-block; background:var(--accent); color:white; padding:5px 12px; border-radius:5px; text-decoration:none; font-size:0.9rem; margin-right:10px;">🎼 Partitura / Audio</a>`;
+    }
+
+    // Contenedor que solo aparece si hay al menos un link
+    let seccionRecursos = botonesLinksHtml ? `<div style="margin-top: 15px;">${botonesLinksHtml}</div>` : '';
+    // ---------------------------------------------
 
     display.innerHTML = `
         <div class="song-card">
@@ -90,7 +104,7 @@ function displaySong() {
                     </div>
                 </div>
                 <p style="color: #666; margin-top:10px;"><em>Autor: ${song.autor}</em></p>
-            </div>
+                ${seccionRecursos} </div>
             <div class="lyrics-container" style="font-size: ${fontSizeActual}rem; line-height: 2.8;">
                 ${letraFormateadaHtml}
             </div>

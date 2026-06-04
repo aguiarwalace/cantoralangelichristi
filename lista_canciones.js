@@ -9,6 +9,8 @@ Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo
     autor: "Miguel Manzano",
     categoria: "entrada",
     tonoOriginal: "Dm",
+    //linkYoutube: "https://www.youtube.com/watch?v=ejemplo", // NUEVO
+    //linkPartitura: "https://drive.google.com/file/d/ejemplo", // NUEVO
     letra: `
 Intro: [Dm] [D7]
 
@@ -2436,8 +2438,9 @@ Y danos de tu paz. (x2)
     autor: "Mons. Marco Frisina",
     categoria: "comunion",
     tonoOriginal: "Bbm",
+        linkPartitura: "https://www.andsolm.info/scores/AnimaChristi.pdf",
+
     letra: 
-    // https://www.andsolm.info/scores/AnimaChristi.pdf
     `
 [Bbm] Anima [Gb] Christi, [Ab] sanctifica [Bbm] me.
 [Ebm] Corpus [Bbm] Christi, [Gb7] salva [F] me.
