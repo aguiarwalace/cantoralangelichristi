@@ -49,7 +49,7 @@ const datosLiturgicos = {
             id: `a_to_${i+9}`,
             nombre: `${i+9}º Domingo del Tiempo Ordinario`,
             cantos: [1,2,3,4,5]
-        }))*/
+        }))
         { id: "a_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
         { id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,padredebondad,144,133,239] },
         { id: "a_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },    
@@ -75,7 +75,7 @@ const datosLiturgicos = {
         { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
         { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
         { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
-        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [1,2,3,4,5] },
+        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [1,2,3,4,5] },*/
     ],
 
     "Ciclo B": [
