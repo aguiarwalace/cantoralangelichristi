@@ -1822,7 +1822,28 @@ Pero, tú, por tu bondad, transformas nuestra ofrenda en ti, Señor.
 Toma mi vida, Y también cambiará, llena mi alma, De tu gracia y tu paz, amén.
 `
   },
+{
+  id: 391,
+  titulo: "Padre de Bondad",
+  autor: "Anónimo",
+  tonoOriginal: "C",
+  categoria: "Ofertorio",
+  letra: `
+[C] Padre de bon[Dm]dad hoy te ofre[G]cemos,
+[Dm] el fruto de la [G] tierra y de la humani[C]dad.
+[C/D] El pan de nuestro es[Am]fuerzo de la diaria fa[Dm]tiga,
+[G] el pan de nuestra [C] vida que se entrega a los de[E]más.
 
+[Am] Recíbelo por las [Dm] manos de María,
+[G] transfórmalo en el [C] fuego de tu a[C7]mor.
+[F] Y conviértelo se[Dm]ñor en pan de vida
+[Bb] y bebida de salva[G]ción.
+
+[C] Cristo Je[Dm]sús hoy te ofre[G]cemos,
+[Dm] el fruto de la [G] tierra y de la humani[C]dad,
+[C/D] el vino del do[Am]lor y de nuestra ale[Dm]gría,
+[G] el vino que es la [C] fuerza en nuestro diario cami[E]nar.`
+},
   // --- SECCIÓN: CANTOS DE SANTO ---
   {
     id: 88,
@@ -9655,4 +9676,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:390
+// último id:391
