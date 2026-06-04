@@ -1154,7 +1154,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   // --- SECCIÓN: CANTOS DE ALELUYA ---
   {
     id: 46,
-    titulo: "ALELUYA (BUSCA PRIMERO)",
+    titulo: "1. ALELUYA (BUSCA PRIMERO)",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "D",
@@ -1165,7 +1165,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 47,
-    titulo: "ALELUYA",
+    titulo: "2. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "Em",
@@ -1175,7 +1175,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 48,
-    titulo: "ALELUYA (EL SEÑOR RESUCITÓ)",
+    titulo: "3. ALELUYA (EL SEÑOR RESUCITÓ)",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "E",
@@ -1189,7 +1189,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 49,
-    titulo: "ALELUYA",
+    titulo: "4. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "G",
@@ -1199,7 +1199,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 50,
-    titulo: "HONOR Y GLORIA",
+    titulo: "5. HONOR Y GLORIA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "C",
@@ -1209,7 +1209,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 51,
-    titulo: "ALELUYA",
+    titulo: "6. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "G",
@@ -1219,7 +1219,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 52,
-    titulo: "ALELUYA",
+    titulo: "7. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "Am",
@@ -1229,7 +1229,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 53,
-    titulo: "ALELUYA",
+    titulo: "8. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "F",
@@ -1239,7 +1239,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 54,
-    titulo: "ALELUYA",
+    titulo: "9. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "D",
@@ -1250,7 +1250,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 55,
-    titulo: "ALELUYA",
+    titulo: "10. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "G",
@@ -1260,7 +1260,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 56,
-    titulo: "ALELUYA",
+    titulo: "11. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "F",
@@ -1270,7 +1270,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 57,
-    titulo: "ALELUYA",
+    titulo: "12. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "C",
@@ -1280,7 +1280,7 @@ E [C#m] paz na terra aos [B9] homens por Ele a [A9] mados [E]
   },
   {
     id: 58,
-    titulo: "EL NIÑO DIOS HA NACIDO",
+    titulo: "13. EL NIÑO DIOS HA NACIDO",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "G",
@@ -1298,7 +1298,7 @@ Para los hombres de Fe y voluntad, Aleluya, aleluya.
   },
   {
     id: 59,
-    titulo: "ALELUYA",
+    titulo: "14. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "C#m",
@@ -1308,17 +1308,20 @@ Para los hombres de Fe y voluntad, Aleluya, aleluya.
   },
   {
     id: 60,
-    titulo: "ALELUYA",
+    titulo: "15. ALELUYA",
     autor: "P. Cristobal fones, la mesa de todos",
     categoria: "Aleluya",
     tonoOriginal: "G",
     letra: `
-[G]Ale-lu-[C]ya, ale-lu-[D]ya, [G]Ale-lu-[C]ya, ale-lu-[D]ya.
-`
+[G] Ale[C]lu[D]ya, [C] ale[D]lu[G]ya,
+[G] ale[C]lu[D]ya, [C] ale[D]lu[G]ya.
+
+[G] El Padre [C] me ha en[D]viado para [C] anun[D]ciar,
+[G] la buena [C] nueva a los [Dsus4] pobres, ale[D7]luya.`
   },
   {
     id: 61,
-    titulo: "ESTE ES EL DÍA QUE ACTUÓ EL SEÑOR",
+    titulo: "16. ESTE ES EL DÍA QUE ACTUÓ EL SEÑOR",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "D",
@@ -1336,7 +1339,7 @@ Que lo diga la casa de Israel, [F#m]Es [E7]eterna su [A]misericordia [A7]
   },
   {
     id: 62,
-    titulo: "HONOR Y GLORIA A TI",
+    titulo: "17. HONOR Y GLORIA A TI",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "D",
@@ -1347,7 +1350,7 @@ Que lo diga la casa de Israel, [F#m]Es [E7]eterna su [A]misericordia [A7]
   },
   {
     id: 63,
-    titulo: "ALELUYA",
+    titulo: "18. ALELUYA",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "A",
@@ -1361,7 +1364,7 @@ Que lo diga la casa de Israel, [F#m]Es [E7]eterna su [A]misericordia [A7]
   },
   {
     id: 64,
-    titulo: "ALELUYA (VERBUM PANIS)",
+    titulo: "19. ALELUYA (VERBUM PANIS)",
     autor: "Anónimo",
     categoria: "Aleluya",
     tonoOriginal: "Bm",
@@ -1372,7 +1375,7 @@ Que lo diga la casa de Israel, [F#m]Es [E7]eterna su [A]misericordia [A7]
   },
   {
     id: 65,
-    titulo: "ALELUYA",
+    titulo: "20. ALELUYA",
     autor: "Shalom",
     categoria: "Aleluya",
     tonoOriginal: "G",
@@ -1388,7 +1391,7 @@ A-le-lu-ya-a A-le-lu-ya-a. (x2)
   },
    {
   id: 244,
-  titulo: "ALELUIA (SÉCULO I)",
+  titulo: "20. ALELUIA (SÉCULO I)",
   autor: "Século I",
   categoria: "aleluya",
   tonoOriginal: "D",
