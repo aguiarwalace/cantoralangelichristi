@@ -130,8 +130,13 @@
     <script src="calendario.js"></script>
     <script src="script.js"></script> 
     
-    <script>
+<script>
         let fontSizeGlobal = 1.2;
+
+        // Lógica de Teoría Musical (Aislada para evitar errores)
+        const escalaSostenidosLocal = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+        const escalaBemolesLocal = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+        const tonosConBemolesLocal = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm', 'Ebm'];
 
         function cargarCelebraciones() {
             const ciclo = document.getElementById('select-ciclo').value;
@@ -176,7 +181,6 @@
             zonaSeleccion.style.display = 'none';
             btnVolver.style.display = 'block';
 
-            // Dibujar cabecera y controles globales
             contenedor.innerHTML = `
                 <h2 class="misa-titulo">${misa.nombre}</h2>
                 <div class="barra-herramientas">
@@ -192,19 +196,29 @@
             misa.cantos.forEach(id => {
                 const song = canciones.find(s => s.id === id);
                 if (song) {
+                    const escalaInicial = tonosConBemolesLocal.includes(song.tonoOriginal) ? escalaBemolesLocal : escalaSostenidosLocal;
+
                     const card = document.createElement('div');
                     card.className = 'song-card';
                     card.innerHTML = `
-                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
-                            <h3 style="margin:0;">${song.titulo}</h3>
-                            <div class="controles-tono">
-                                <button onclick="cambiarTonoLocal(${song.id}, -1)">-</button>
-                                <button onclick="cambiarTonoLocal(${song.id}, 0)">⟳</button>
-                                <button onclick="cambiarTonoLocal(${song.id}, 1)">+</button>
+                        <div style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
+                            <div style="display:flex; justify-content:space-between; align-items:center;">
+                                <h3 style="margin:0;">${song.titulo}</h3>
+                                <div class="controles-tono">
+                                    <button onclick="cambiarTonoLocal(${song.id}, -1)">-</button>
+                                    <button onclick="cambiarTonoLocal(${song.id}, 0)">⟳</button>
+                                    <button onclick="cambiarTonoLocal(${song.id}, 1)">+</button>
+                                </div>
+                            </div>
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-top: 8px; font-size: 0.9rem; opacity: 0.8;">
+                                <span style="font-style: italic;">Autor: ${song.autor || 'Desconocido'}</span>
+                                <span style="background: rgba(128,128,128,0.15); padding: 3px 8px; border-radius: 5px; font-weight: bold;">
+                                    Tono: <span id="tono-label-${song.id}">${song.tonoOriginal}</span>
+                                </span>
                             </div>
                         </div>
                         <div id="song-body-${song.id}" class="lyrics-container" data-offset="0" style="font-size: ${fontSizeGlobal}rem">
-                            ${formatearAcordesEnLetra(song.letra, 0, escSost, song.tonoOriginal)}
+                            ${formatearAcordesEnLetra(song.letra, 0, escalaInicial, song.tonoOriginal)}
                         </div>
                     `;
                     contenedor.appendChild(card);
@@ -213,7 +227,6 @@
             window.scrollTo(0, 0);
         }
 
-        // Función para cambiar tono individualmente dentro de esta página
         function cambiarTonoLocal(id, delta) {
             const song = canciones.find(s => s.id === id);
             const container = document.getElementById(`song-body-${id}`);
@@ -224,9 +237,15 @@
             container.setAttribute('data-offset', offset);
 
             const nuevoTono = calcularNombreTono(song.tonoOriginal, offset);
-            const escala = preferSost.some(t => nuevoTono.startsWith(t)) ? escSost : escBem;
+            const escala = tonosConBemolesLocal.includes(nuevoTono) ? escalaBemolesLocal : escalaSostenidosLocal;
 
             container.innerHTML = formatearAcordesEnLetra(song.letra, offset, escala, nuevoTono);
+
+            // NUEVA SECCIÓN: Actualiza el indicador visual de Tono
+            const labelTono = document.getElementById(`tono-label-${id}`);
+            if (labelTono) {
+                labelTono.textContent = nuevoTono;
+            }
         }
     </script>
 </body>

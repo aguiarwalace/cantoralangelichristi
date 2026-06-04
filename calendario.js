@@ -1,7 +1,7 @@
 const datosLiturgicos = {
     "Ciclo A": [
         // ADVIENTO
-        { id: "a_adv_1", nombre: "1º Domingo de Adviento", cantos: [1,2,3,4,5] },
+        { id: "a_adv_1", nombre: "1º Domingo de Adviento", cantos: [134,2,3,4,5] },
         { id: "a_adv_2", nombre: "2º Domingo de Adviento", cantos: [1,2,3,4,5] },
         { id: "a_adv_3", nombre: "3º Domingo de Adviento", cantos: [1,2,3,4,5] },
         { id: "a_adv_4", nombre: "4º Domingo de Adviento", cantos: [1,2,3,4,5] },
@@ -9,7 +9,6 @@ const datosLiturgicos = {
         // NAVIDAD
         { id: "a_navidad", nombre: "Navidad del Señor", cantos: [1,2,3,4,5] },
         { id: "a_sagrada_familia", nombre: "Sagrada Familia", cantos: [1,2,3,4,5] },
-        { id: "a_maria_madre", nombre: "Santa María Madre de Dios", cantos: [1,2,3,4,5] },
 
         // TIEMPO ORDINARIO (1–8 antes de cuaresma aprox.)
         { id: "a_to_1", nombre: "1º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },

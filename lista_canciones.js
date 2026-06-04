@@ -2436,8 +2436,9 @@ Y danos de tu paz. (x2)
     autor: "Mons. Marco Frisina",
     categoria: "comunion",
     tonoOriginal: "Bbm",
-    letra: `
-    /* https://www.andsolm.info/scores/AnimaChristi.pdf */
+    letra: 
+    // https://www.andsolm.info/scores/AnimaChristi.pdf
+    `
 [Bbm] Anima [Gb] Christi, [Ab] sanctifica [Bbm] me.
 [Ebm] Corpus [Bbm] Christi, [Gb7] salva [F] me.
 [Bbm] Sanguis [Gb] Christi, [Ab] inebria [Gb] me.
