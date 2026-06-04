@@ -192,7 +192,7 @@ Ahora y siempre por los siglos de los siglos amen.
   },
   {
     id: 9,
-    titulo: "EL VIVE Y REINARÁ (Ele vive e reinará)",
+    titulo: "ÉL VIVE Y REINARÁ (Ele vive e reinará)",
     autor: "Ministério Adoração e Vida",
     categoria: "entrada",
     tonoOriginal: "F",

@@ -1,7 +1,8 @@
 // --- 1. VARIABLES Y ESCALAS ---
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-const preferSost = ['G', 'D', 'A', 'E', 'B', 'F#', 'C#', 'Em', 'Bm', 'F#m', 'C#m', 'G#m', 'D#m'];
+// NUEVO: Lista gramatical exacta de los tonos que llevan bemoles
+const tonosConBemoles = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm', 'Ebm'];
 
 let seleccionadas = [];
 let cancionActualId = null;
@@ -61,8 +62,13 @@ function displaySong() {
     if (!song || !display) return;
 
     const tonoDestino = calcularNombreTono(song.tonoOriginal, trasposicionActual);
-    const usaSost = preferSost.some(t => tonoDestino.startsWith(t));
-    const escalaElegida = usaSost ? escSost : escBem;
+    
+    // NUEVO: Extraemos la base inteligente (Ej: si dice F#m7(b5), extrae solo F#m)
+    const match = tonoDestino.match(/^([A-G][#b]?m?)/);
+    const tonoBase = match ? match[1] : tonoDestino;
+    
+    // Elegimos la escala correcta según nuestra nueva regla
+    const escalaElegida = tonosConBemoles.includes(tonoBase) ? escBem : escSost;
 
     const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida, tonoDestino);
 
@@ -106,10 +112,17 @@ function calcularNombreTono(tonoOriginal, semitonos) {
     if (indice === -1) indice = escBem.indexOf(raiz);
     
     let nuevoIndice = (indice + semitonos + 12) % 12;
-    const provisional = escSost[nuevoIndice];
-    const usaSost = preferSost.includes(provisional) || preferSost.includes(provisional + adorno);
     
-    return (usaSost ? escSost[nuevoIndice] : escBem[nuevoIndice]) + adorno;
+    // NUEVO: Creamos la versión bemol y le preguntamos a la regla si debe ir así
+    const baseBem = escBem[nuevoIndice] + adorno;
+    const matchBase = baseBem.match(/^([A-G][#b]?m?)/);
+    const tonoParaComparar = matchBase ? matchBase[1] : baseBem;
+    
+    if (tonosConBemoles.includes(tonoParaComparar)) {
+        return escBem[nuevoIndice] + adorno;
+    } else {
+        return escSost[nuevoIndice] + adorno;
+    }
 }
 
 function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
@@ -173,15 +186,11 @@ window.onload = () => {
     if (localStorage.getItem('darkTheme') === 'true') document.body.classList.add('dark-mode');
     console.log("Aplicación Angeli Christi lista.");
 };
+
 function generateRepertoire() {
-    // Verificamos si hay canciones seleccionadas
     if (seleccionadas.length === 0) {
         return alert("Selecciona al menos una canción para generar el repertorio.");
     }
-    
-    // Guardamos el array de IDs en el almacenamiento local
     localStorage.setItem('repertorioActual', JSON.stringify(seleccionadas));
-    
-    // Redirigimos a la página del repertorio
     window.location.href = 'repertorio.html';
 }
