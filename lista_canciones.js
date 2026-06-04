@@ -2417,7 +2417,7 @@ Y danos de tu paz. (x2)
 [D]Agua de su costado, [C9]láva[G]me.
 
 [D]Pasión de Cristo, [C9]con [G]fórta[D]me,
-[RE]Oh buen Jesús, [DO9]ó [SOL]ye [RE]me.
+[D]Oh buen Jesús, [C9]ó [G]ye [D]me.
 
 [Bm]Dentro de tus [G]llagas, es[D]cónde[A]me.
 [Bm]No permitas que me a[G]parte de [D]Ti.
@@ -2435,28 +2435,29 @@ Y danos de tu paz. (x2)
     titulo: "ANIMA CHRISTI",
     autor: "Mons. Marco Frisina",
     categoria: "comunion",
-    tonoOriginal: "A#m",
+    tonoOriginal: "Bbm",
     letra: `
-[A#m]Anima [F#]Christi, [G#]sanctifi[A#m]ca me
-[D#m]Corpus [A#m]Christi, [F#7]salva [F]me.
-[A#m]Sanguis [F#]Christi, [G#]inebri[F#]a me
-[A#m]Aqua [D#m]lateris [A#m]Christi, [F]lava [A#m]me.
+    https://www.andsolm.info/scores/AnimaChristi.pdf
+[Bbm] Anima [Gb] Christi, [Ab] sanctifica [Bbm] me.
+[Ebm] Corpus [Bbm] Christi, [Gb7] salva [F] me.
+[Bbm] Sanguis [Gb] Christi, [Ab] inebria [Gb] me.
+[Bbm] Aqua la[Ebm]teris [Bbm] Christi, [F] lava [Bbm] me.
 
-[A#m]Passio [F#]Christi, [G#]confor[A#m]ta me.
-[D#m]O bone [A#m]Iesu, [F#7]exau[F]di me.
-[A#m]Intra [F#]vulnera [G#]tu-[F#]a
-[D#m]Abs--con[A#m]de abs[F#7]con-[F]de [A#m]me.
+[Bbm] Passio [Gb] Christi, [Ab] conforta [Bbm] me.
+[Ebm] O bone [Bbm] Iesu, [Gb7] exaudi [F] me.
+[Bbm] Intra [Gb] vulnera [Ab] tu[Gb]a
+[Ebm] Abs[Bbm]conde, [Gb7] abscon[F]de [Bbm] me.
 
-[A#m]Ne per[F#]mittas a [G#]te me sepa[A#m]rari.
-[D#m]Ab hoste ma[A#m]ligno de[F#7]fende [F]me.
-[A#m]In hora [F#]mortis me.[G#]æ [F#]voca me, [A#m]vo--ca-[D#m]me
-[A#m]Et iu-be me ve[F]nire ad [A#m]te,
+[Bbm] Ne per[Gb]mittas [Ab] a te me se[Bbm]parari.
+[Ebm] Ab hoste ma[Bbm]ligno [Gb7] defende [F] me.
+[Bbm] In hora [Gb] mortis [Ab] me[Gb]æ
+[Bbm] voca [Ebm] me, [Bbm] vo[F]ca [Bbm] me.
 
-[A#m]ut cum [F#]sanctis tuis [G#]lau[A#m]dem te
-[D#m]per infi[A#m]nita [F#7]sæ[F]cula
-[A#m]sæcu[F#]lo[G#]rum. [F#]A|----a-[A#m]men
-`
-  },
+[Bbm] Et iu[Gb]be me ve[Ab]nire ad [Bbm] te,
+[Ebm] ut cum sanctis [Bbm] tuis [Gb7] laudem [F] te,
+[Bbm] per infi[Gb]nita [Ab] sæcula sæcu[Gb]lorum.
+[Bb] Amen.`
+},
   {
     id: 135,
     titulo: "AQUÍ HAY UN MUCHACHO",
