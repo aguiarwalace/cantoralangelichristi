@@ -6802,26 +6802,40 @@ A donde Él va. (x2)
     categoria: "salida",
     tonoOriginal: "G",
     letra: `
-Intro: [G] [C] [Em] [D]
+[Intro] G C Em D
 
-[G]En un mundo [C]que no gira
-[Em]en mi direc[D]ción
-[G]Sobre caminos [C]qué no ofrecen
-[Em]Una solu[D]ción
-[G]No voy pues se [C]que hay algo me[Em]jor [D]
-[G]Y en mi inte[C]rior escucho [Em]tu voz [D]
+[G] En un mundo [C] que no gira [Em] en mi direc[D]ción,
+[G] sobre caminos [C] que no ofrecen [Em] una solu[D]ción.
+[G] No voy pues [C] sé que hay [Em] algo me[D]jor,
+[G] y en mi inte[C]rior es[Em]cucho tu [D] voz.
 
-[Am]Ven a nuestra [Em]presencia [G]Danos esa [C]fuerza
-[D]De gritar a una voz
-Danos un solo corazón y una sola alma señor
-Qué tu amor sea de nosotros uno solo y el mismo Dios.
+[G] Y al estar yo [C] caminando en [Em] contra del re[D]loj,
+[G] fui un iluso [C] al pensar que [Em] estaba solo [D] yo.
+[G] Tu fuego en [C] mí lo es[Em]tá pidien[D]do:
+[G] unirme en [C] ti, ser [Em] uno so[D]lo.
 
-[G]Y ahora a u[C]nidos con el [Em]fuego [D]De tu espíritu
-[G]Ya no hay [C]miedo de tor[Em]mentas [D]Pues aquí estas tu
-[G]¿Quién con[C]tra mi?, si es[Em]tás con[D]migo
-[G]Tu ha[C]blar en mi [Em]es mi des[D]tino.
-`
-  },
+[Am] Ven a nuestra [Em] presen[G]cia,
+[C] danos esa fuerza [D] de gritar a una voz.
+[G] Danos un [C] solo cora[Em]zón y una [D] sola alma Señor,
+[G] que tu amor [C] sea de no[Em]sotros, uno [D] solo y el mismo Dios.
+Ooh [C] eooo [D]
+
+[G] Y ahora u[C]nidos con el [Em] fuego de tu Es[D]píritu,
+[G] ya no hay miedo [C] de tormen[Em]tas pues a[D]quí estás tú.
+[G] ¿Quién contra [C] mí?, si es[Em]tás conmi[D]go,
+[G] tu hablar en [C] mí es [Em] mi desti[D]no.
+
+[Am] Ven a nuestra [Em] presen[G]cia,
+[C] danos esa fuerza [D] de gritar a una voz.
+[G] Danos un [C] solo cora[Em]zón y una [D] sola alma Señor,
+[G] que tu amor [C] sea de no[Em]sotros, uno [D] solo el reino de Dios.
+Oooh [C] eo [D]
+
+[G] Uno solo [C] y el mismo [Em] Dios, [D]
+[G] Uno solo [C] y el mismo [Em] Dios. [D]
+([Am] Ven a nuestra pre[Em]sencia, [G] ven a [C] mí) [D]
+[G] Uno solo [C] y el mismo [Em] Dios. (x5) [D]`
+},
   {
     id: 240,
     titulo: "VEN Y SÍGUEME",

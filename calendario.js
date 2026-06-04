@@ -50,9 +50,33 @@ const datosLiturgicos = {
             nombre: `${i+9}º Domingo del Tiempo Ordinario`,
             cantos: [1,2,3,4,5]
         }))*/
-      { id: "a_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] }
-{ id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,padredebondad,144,133,239] },
-        { id: "a_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },    ],
+        { id: "a_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,padredebondad,144,133,239] },
+        { id: "a_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },    
+        { id: "a_to_12", nombre: "12º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_13", nombre: "13º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_14", nombre: "14º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_15", nombre: "15º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_16", nombre: "16º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_17", nombre: "17º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_18", nombre: "18º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_19", nombre: "19º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_20", nombre: "20º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_21", nombre: "21º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_22", nombre: "22º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_23", nombre: "23º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_24", nombre: "24º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_25", nombre: "25º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_26", nombre: "26º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_27", nombre: "27º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_28", nombre: "28º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_29", nombre: "29º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_30", nombre: "30º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [1,2,3,4,5] },
+    ],
 
     "Ciclo B": [
         { id: "b_adv_1", nombre: "1º Domingo de Adviento", cantos: [1,2,3,4,5] },
@@ -116,9 +140,9 @@ const datosLiturgicos = {
      "Eventos": [
         // EVENTOS
         /*{ id: "vocafest_semi_concierto", nombre: "VocaFest - Seminario mayor (16/05/2026)", cantos: [270,275,106,110,385,277,109,155,386] },
-        { id: "vocafest_semi_adoracion", nombre: "Adoración - Seminario mayor (16/05/2026)", cantos: [344,387,383,339,388,367,379,136,270] },*/
+        { id: "vocafest_semi_adoracion", nombre: "Adoración - Seminario mayor (16/05/2026)", cantos: [344,387,383,339,388,367,379,136,270] },
         { id: "vig_pentecostes_hsanta", nombre: "Vigilia de Pentecostés - Motul - H.Santa (23/05/2026)", cantos: [137,389,390,343,339,136] },
         { id: "vig_pentecostes_anima", nombre: "Vigilia de Pentecostés - Motul - Animación (23/05/2026)", cantos: [270,275,106,1000,385,277,109] },
-        {id: "fies_patronal_nssc", nombre: "Fiesta patronal NSSC", cantos: [293,173,112,65,64,82,90,128,183,303,316,312] },
+        {id: "fies_patronal_nssc", nombre: "Fiesta patronal NSSC", cantos: [293,173,112,65,64,82,90,128,183,303,316,312] },*/
      ],
 };
