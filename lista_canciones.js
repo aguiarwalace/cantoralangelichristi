@@ -1081,11 +1081,11 @@ a los hombres por Él [D9] amados. [(D4)] [(D)]
 [G] Dios Padre [D9] todopoderoso.
 
 [Am] Te ala [D9] bamos,
-te [Am] bendi [D9] cemos,
-te [Am] ado [D9] ramos,
-te [Am] glorifi [D9] camos.
+Te [Am] bende[D9]cimos,
+Te [Am] ado [D9] ramos,
+Te [Am] glorifi [D9] camos.
 Te damos [C9] gracias
-por [G] tu inmensa [D9] gloria.
+por [G] Tu inmensa [D9] gloria.
 
 [C9] Señor Jesucristo,
 [G] Hijo [D9] unigénito. ([D4] [D])
