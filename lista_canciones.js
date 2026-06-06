@@ -1076,7 +1076,7 @@ Intro: [D9] [C9] [D9]
 
 [D9] Gloria a Dios en el [C9] cielo
 y en la [G] tierra paz
-a los hombres que ama el [D9] Señor. ([D4] [D])
+a los hombres por Él [D9] amados. [(D4)] [(D)] 
 [D9] Señor Dios, Rey [C9] celestial,
 [G] Dios Padre [D9] todopoderoso.
 
@@ -1088,7 +1088,7 @@ Te damos [C9] gracias
 por [G] tu inmensa [D9] gloria.
 
 [C9] Señor Jesucristo,
-[G] Hijo [D9] único del Padre. ([D4] [D])
+[G] Hijo [D9] unigénito. ([D4] [D])
 [D9] Señor Dios, [C9] Cordero de Dios,
 [G] Hijo del [D9] Padre.
 
@@ -1096,18 +1096,18 @@ por [G] tu inmensa [D9] gloria.
 [C9] ten piedad de [D9] nosotros.
 [Am] Tú que quitas el pe [G] cado del mundo,
 [C9] atiende nuestra [D9] súplica.
-[Am] Tú que estás sentado a la de [G] recha del Padre,
+[Am] Tú que estás a la de [G] recha del Padre,
 [C9] ten piedad de [D9] nosotros.
 
-[Am] Porque [D9] sólo tú eres Santo,
-sólo [Am] tú Se [D9] ñor,
-sólo [C9] tú Al [D9] tísimo, Jesucristo,
+[Am] Sólo tú eres [D9] Santo,
+sólo [Am] tú Se[D9]ñor,
+sólo [C9] tú Al[D9]tísimo, Jesucristo,
 [E] con el Espíritu [A] Santo
 
-[G] en la gloria de [D9] Dios Padre. Amén.
-[G] en la gloria de [D9] Dios Padre. Amén.
-[G] en la gloria de [D9] Dios Padre. Amén.
-[G] en la gloria de [D9] Dios Padre. Amén.
+En la gloria de Dios [G]Padre. [D9]Amén.
+En la gloria de Dios [G]Padre. [D9]Amén.
+En la gloria de Dios [G]Padre. [D9]Amén.
+En la gloria de Dios [G]Padre. [D9]Amén.
 `
 },
  {
