@@ -50,7 +50,7 @@ const datosLiturgicos = {
             cantos: [1,2,3,4,5]
         }))*/
         { id: "a_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
-        { id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,144,133,239] },
+        { id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
         { id: "a_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,144,133,239] },    
         { id: "a_to_12", nombre: "12º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,144,133,239] },
         { id: "a_to_13", nombre: "13º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,144,133,239] },
