@@ -1999,14 +1999,13 @@ Bendito es el que viene, en el nombre del Señor. Hosanna…
     categoria: "Santo",
     tonoOriginal: "C",
     letra: `
-[C]San[G]to, [Am]es el [Em]Señor, Dios [F]poderoso del [C]universo.
-[Dm]Su Gloria inmensa [F]llena _los cielos y la [G]tierra.
+[C]San[G]to, [Am]es el [Em]Señor, [F]Dios poderoso [C]del universo.
+[Dm]Su Gloria inmensa [F]llena los cielos y la [G]tierra.
 
 [C]Hosan[G]na, [Am]Hosan[Em]na, [F]Hosanna,
 En el [C]cie[G]lo. (x2)
 
 [Dm]Bendito es el que viene, [C]en nombre del Señor,
-F G
 [F]Hosanna en las altu[G]ras.
 
 [C]Hosan[G]na, [Am]Hosan[Em]na, [F]Hosanna,
