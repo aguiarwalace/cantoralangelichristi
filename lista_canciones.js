@@ -1846,7 +1846,7 @@ Toma mi vida, Y también cambiará, llena mi alma, De tu gracia y tu paz, amén.
 [C/D] el vino del do[Am]lor y de nuestra ale[Dm]gría,
 [G] el vino que es la [C] fuerza en nuestro diario cami[E]nar.`
 },
-  // --- SECCIÓN: CANTOS DE SANTO ---
+  // --- SECCIÓN: CANTOS DE SANTO No terminado---
   {
     id: 88,
     titulo: "SANTO 1",
@@ -1917,8 +1917,8 @@ Hosanna en el cielo y las alturas.
   },
   {
     id: 93,
-    titulo: "SANTO 6",
-    autor: "Ópera",
+    titulo: "SANTO 6 - Ópera",
+    autor: "Anónimo",
     categoria: "Santo",
     tonoOriginal: "Em",
     letra: `
@@ -1955,7 +1955,7 @@ Bendito es el que viene, en el nombre del Señor. Hosanna…
   {
     id: 96,
     titulo: "SANTO 9",
-    autor: "Gen Rosso",
+    autor: "P. Cristóbal Fones, La mesa de todos",
     categoria: "Santo",
     tonoOriginal: "B",
     letra: 
@@ -1971,7 +1971,7 @@ Bendito es el que viene, en el nombre del Señor. Hosanna…
   {
     id: 97,
     titulo: "SANTO 10",
-    autor: "Anónimo",
+    autor: "Gen Rosso",
     categoria: "Santo",
     tonoOriginal: "",
     letra: ""
@@ -1994,8 +1994,28 @@ Bendito es el que viene, en el nombre del Señor. Hosanna…
   },
   {
     id: 100,
-    titulo: "SANTO",
-    autor: "A. Mejía",
+    titulo: "SANTO 13",
+    autor: "Anónimo",
+    categoria: "Santo",
+    tonoOriginal: "C",
+    letra: `
+[C]San[G]to, [Am]es el [Em]Señor, Dios [F]poderoso del [C]universo.
+[Dm]Su Gloria inmensa [F]llena _los cielos y la [G]tierra.
+
+[C]Hosan[G]na, [Am]Hosan[Em]na, [F]Hosanna,
+En el [C]cie[G]lo. (x2)
+
+[Dm]Bendito es el que viene, [C]en nombre del Señor,
+F G
+[F]Hosanna en las altu[G]ras.
+
+[C]Hosan[G]na, [Am]Hosan[Em]na, [F]Hosanna,
+En el [C]ci[G]e[C]lo. (x2)`
+  },
+    {
+    id: 392,
+    titulo: "SANTO 14",
+    autor: "A Mejía",
     categoria: "Santo",
     tonoOriginal: "",
     letra: ""
@@ -9681,4 +9701,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:391
+// último id:392
