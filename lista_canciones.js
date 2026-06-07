@@ -2000,12 +2000,12 @@ Bendito es el que viene, en el nombre del Señor. Hosanna…
     tonoOriginal: "C",
     letra: `
 [C]San[G]to, [Am]es el [Em]Señor, [F]Dios poderoso [C]del universo.
-[Dm]Su Gloria inmensa [F]llena los cielos y la [G]tierra.
+Su[Dm] Gloria inmensa [F]llena los cielos y la [G]tierra.
 
 [C]Hosan[G]na, [Am]Hosan[Em]na, [F]Hosanna,
 En el [C]cie[G]lo. (x2)
 
-[Dm]Bendito es el que viene, [C]en nombre del Señor,
+B[Dm]endito es el que viene, [C]en nombre del Señor,
 [F]Hosanna en las altu[G]ras.
 
 [C]Hosan[G]na, [Am]Hosan[Em]na, [F]Hosanna,
