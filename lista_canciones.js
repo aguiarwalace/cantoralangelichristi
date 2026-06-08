@@ -1378,7 +1378,7 @@ Que lo diga la casa de Israel, [F#m]Es [E7]eterna su [A]misericordia [A7]
   {
     id: 65,
     titulo: "20. ALELUYA",
-    autor: "Shalom",
+    autor: "Comunidade Católica Shalom",
     categoria: "Aleluya",
     tonoOriginal: "G",
     letra: `
@@ -8325,6 +8325,54 @@ Oh, oh, oh, mi espíritu se alegra en Dios, mi salvador.
   },
     // --- SECCIÓN: CANTOS DE Adviento, Navidad y Villancicos ---
 {
+  id: 393,
+  titulo: "Vamos a ver al Rey",
+  autor: "Comunidade Catótica Shalom",
+  tonoOriginal: "A",
+  categoria: "entrada, navidad",
+  letra: `
+[A]Vamos a ver al [C#m]rey
+[D]Vamos a ver al [E]rey
+[A]Vamos a ver al [C#m]rey
+[D]Vamos a ver al [E]rey
+[Bm]Tanto tiempo esperamos llegar este [C#m]dia
+[D]Ver la esperanza na[C#m]cer
+[Bm]Tanto tiempo esperamos llegar este [C#m]dia
+[G]Vamos a ver al [E]rey
+
+[A]Ya podemos sen[C#m]tir
+[D]Una nueva mañana lle[E]gando
+[A]Una nueva luz clarea el cora[C#m]zón
+[D]Que en la sombra estaba cami[E]nando
+[Bm]Nuestros ojos por fin pueden
+[C#m]Contempla[D#m]aar
+[D]el niñito rey con nosotros vino a
+[E]Habitar
+
+  [A]Vamos a ver al [C#m]rey
+  [D]Vamos a ver al [E]rey
+  [A]Vamos a ver al [C#m]rey
+  [D]Vamos a ver al [E]rey
+  [Bm]Tanto tiempo esperamos llegar este [C#m]dia
+  [D]Ver la esperanza na[C#m]cer
+  [Bm]Tanto tiempo esperamos llegar este [C#m]dia
+  [G]Vamos a ver al [E]rey
+
+[D]¿Como puede haber tanta gran[C#]deza
+[F#]en tan pequeñito y frágil be[D#]bé?
+[Bm]Paradoja de amor, nuestro [C#m]Dios se encarnó
+[D]Vamos a ver al [E]rey
+
+[A]Vamos a ver al [C#m]rey
+[D]Vamos a ver al [E]rey
+[A]Vamos a ver al [C#m]rey
+[D]Vamos a ver al [E]rey
+[Bm]Tanto tiempo esperamos llegar este [C#m]dia
+[D]Ver la esperanza na[C#m]cer
+[Bm]Tanto tiempo esperamos llegar este [C#m]dia
+[G]Vamos a ver al [E]rey`
+},
+    {
     id: 107,
     titulo: "Piel de porcelana",
     autor: "Arturo Estrella",
@@ -8853,6 +8901,114 @@ Para derramar su a[A]mor.
 [F#m] (Gloria) Ha na[E]cido el salva[D]dor [E]
 `
   },
+{
+  id: 394,
+  titulo: "Emmanuel",
+  autor: "Verónica Sanfilippo",
+  tonoOriginal: "G",
+  categoria: "Reflexión",
+  letra: `(Capo 6)
+[G]Cuando miro al [D]cielo [Em]
+[C]Siento que [G]puedo imagi[D]nar
+[G]Esos ojitos [D]tier[Em]nos
+[C]Y tu son[G]risa al desper[D]tar
+
+[G]Traerás la [D]luz, la espe[Em]ranza
+[C]Y la ale[G]gría a mi ho[D]gar
+[G]Aquí te [D]espero, aquí te [Em]sueño
+[C]Mientras pre[G]paro tu lu[D]gar
+
+[Em]Mi Niño Jesús
+[G]Pequeño Emmanuel
+[C]Eres la promesa [G]de un Dios que es [D]fiel
+
+[Em]Mi Niño Jesús
+[G]Que pronto vendrá
+[C]A sanar corazones y al [D]mundo traer la [G]paz
+
+[G]Quiero contarte [D]mil his[Em]torias
+[C]De tu [G]mano cami[D]nar
+[G]Aunque no es [D]mucho lo que [Em]tengo
+[C]Todo te [G]quiero entre[D]gar
+
+[G]Tu amor suavi[D]zará he[Em]ridas
+[C]Tu luz disi[G]pará el [D]mal
+[G]Tu voz procla[D]mará gran[Em]dezas
+[C]Tu nombre a [G]Dios nos lleva[D]rá
+
+[Em]Mi Niño Jesús
+[G]Pequeño Emmanuel
+[C]Eres la promesa [G]de un Dios que es [D]fiel
+
+[Em]Mi Niño Jesús
+[G]Que pronto vendrá
+[C]A sanar corazones y al [D]mundo traer la [G]paz
+Traerás la paz
+
+[G]EMMANU[D]EL, Dios con no[Em]sotros
+[C]EMMANU[G]EL, no te tardes [D]quiero ver tu rostro
+[G]EMMANU[D]EL, la promesa [Em]que se vuelve vida
+[C]EMMANU[G]EL, reinarás, sana[D]rás toda herida
+[G]EMMANU[D]EL, para siempre [Em]Dios con nosotros
+[C]EMMANU[G]EL, no te tardes [D]quiero ver tu rostro
+[G]EMMANU[D]EL, la promesa [Em]que se vuelve vida
+[C]EMMANU[G]EL, reinarás, sana[D]rás toda herida
+
+[Em]Mi Niño Jesús
+[G]Pequeño Emmanuel
+[C]Eres la promesa [G]de un Dios que es [D]fiel
+
+[Em]Mi Niño Jesús
+[G]Que pronto vendrá
+[C]A sanar corazones y al [D]mundo traer la [G]paz
+
+Traerás la paz
+Vendrás y reinarás
+EMMANUEL`
+},
+{
+  id: 394,
+  titulo: "Nace en tu corazón",
+  autor: "Arturo Estrella (Coro Juntos por María)",
+  tonoOriginal: "G",
+  categoria: "Reflexión",
+  letra: `
+Que suene el pandero que suene el tambor
+Por qué hoy ha nacido nuestro salvador
+Vámonos Pastores demos gloria a Dios
+Que el pesebre sea tu corazón
+
+José y María no encuentran lugar
+El día se acaba dónde quedarán. 
+Solo encuentran un triste portal 
+Y el rey al mundo llegará 
+
+Coro
+
+En aquel sendero vienen los pastores 
+Todos retumbando sus finos tambores
+Con regocijo cantan gloria a Dios 
+Hoy ha nacido el señor
+
+Coro
+
+❤️Entre animalitos Pastores y angelitos 
+Se encuentra entre pañales envuelto el pequeñito
+María lo abraza y le da calor 
+San José los cuida con mucho amor. 
+
+Coro
+
+❤️Llegan los reyes y traen regalos
+Oro a la realeza, Incienso a nuestro Dios, y la mirra que preparara al hombre que sufrirá
+
+Que suene el pandero que suene el tambor
+Por qué hoy ha nacido nuestro salvador
+Vamonos pastores demos gloria a Dios
+Que el pesebre sea tu corazón (2)
+
+Porque hoy nace en tu corazón`
+},
     // --- SECCIÓN: CANTOS DE Alabanza status:terminado---
     {
     id: 246,
@@ -9700,4 +9856,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:392
+// último id:395

@@ -126,7 +126,7 @@ const datosLiturgicos = {
         { id: "sol_epifania", nombre: "Epifanía del Señor", cantos: [1,2,3,4,5] },
         { id: "sol_san_jose", nombre: "San José", cantos: [1,2,3,4,5] },
         { id: "sol_anunciacion", nombre: "Anunciación del Señor", cantos: [1,2,3,4,5] },
-        { id: "sol_trinidad", nombre: "Santísima Trinidad", cantos: [2,9] },
+        { id: "sol_sstrinidad", nombre: "Santísima Trinidad", cantos: [2,9] },
         { id: "sol_corpus", nombre: "Corpus Christi", cantos: [1,2,3,4,5] },
         { id: "sol_sagrado_corazon", nombre: "Sagrado Corazón de Jesús", cantos: [1,2,3,4,5] },
         { id: "sol_pedro_pablo", nombre: "San Pedro y San Pablo", cantos: [1,2,3,4,5] },
@@ -134,7 +134,8 @@ const datosLiturgicos = {
         { id: "sol_todos_santos", nombre: "Todos los Santos", cantos: [1,2,3,4,5] },
         { id: "sol_cristo_rey", nombre: "Cristo Rey", cantos: [1,2,3,4,5] },
         { id: "sol_inmaculada", nombre: "Inmaculada Concepción", cantos: [19,2,5,4,20] },
-        { id: "sol_navidad", nombre: "Navidad del Señor", cantos: [1,2,3,4,5] }
+        { id: "sol_navid_noche", nombre: "Navidad del Señor - Noche", cantos: [393,25,112,65,322,97,128,318,394,336,394,107] },
+        { id: "sol_navid_dia", nombre: "Navidad del Señor - Día", cantos: [393,25,112,65,322,97,128,318,394,336,394,107] }
     ],
      "Eventos": [
         // EVENTOS
