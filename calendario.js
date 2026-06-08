@@ -1,7 +1,7 @@
 const datosLiturgicos = {
     "Ciclo A": [
         // ADVIENTO
-        { id: "a_adv_1", nombre: "1º Domingo de Adviento", cantos: [134,2,3,4,5] },
+        /*{ id: "a_adv_1", nombre: "1º Domingo de Adviento", cantos: [134,2,3,4,5] },
         { id: "a_adv_2", nombre: "2º Domingo de Adviento", cantos: [1,2,3,4,5] },
         { id: "a_adv_3", nombre: "3º Domingo de Adviento", cantos: [1,2,3,4,5] },
         { id: "a_adv_4", nombre: "4º Domingo de Adviento", cantos: [1,2,3,4,5] },
@@ -41,7 +41,7 @@ const datosLiturgicos = {
         { id: "a_pascua_5", nombre: "5º Domingo de Pascua", cantos: [10,173,112,64,79,90,114,128,383,172,170,155] },
         { id: "a_pascua_6", nombre: "6º Domingo de Pascua", cantos: [10,173,112,64,79,90,114,128,172,170,155] },
         { id: "a_pascua_7", nombre: "7º Domingo de Pascua - Ascensión del Señor", cantos: [10,173,112,64,79,90,114,128,172,170,155] },
-        { id: "a_pentecostes", nombre: "¨Pentecostés", cantos: [263,173,112,64,79,90,114,128,276,270,277] },
+        { id: "a_pentecostes", nombre: "Pentecostés", cantos: [263,173,112,64,79,90,114,128,276,270,277] },*/
 
         // TIEMPO ORDINARIO (9–34)
         /*...Array.from({length: 26}, (_,i) => ({
