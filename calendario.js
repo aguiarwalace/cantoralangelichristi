@@ -134,8 +134,8 @@ const datosLiturgicos = {
         { id: "sol_todos_santos", nombre: "Todos los Santos", cantos: [1,2,3,4,5] },
         { id: "sol_cristo_rey", nombre: "Cristo Rey", cantos: [1,2,3,4,5] },
         { id: "sol_inmaculada", nombre: "Inmaculada Concepción", cantos: [19,2,5,4,20] },
-        { id: "sol_navid_noche", nombre: "Navidad del Señor - Noche", cantos: [393,25,112,65,322,97,128,318,394,336,394,107] },
-        { id: "sol_navid_dia", nombre: "Navidad del Señor - Día", cantos: [393,25,112,65,322,97,128,318,394,336,394,107] }
+        { id: "sol_navid_noche", nombre: "Navidad del Señor - Noche", cantos: [393,25,112,65,322,97,128,318,394,336,395,107] },
+        { id: "sol_navid_dia", nombre: "Navidad del Señor - Día", cantos: [393,25,112,65,322,97,128,318,394,336,395,107] }
     ],
      "Eventos": [
         // EVENTOS
