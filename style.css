@@ -278,7 +278,7 @@ input[type="text"], select {
     background-image: url('img/banner.png'); /* Ruta de tu imagen */
     background-size: cover;    /* Reajusta la foto para que cubra todo el espacio sin deformarse */
     background-position: center;/* Centra la escena del coro */
-    opacity: 0.20;             /* Controla la transparencia (0.12 = 12% visible, muy sutil) */
+    opacity: 1;             /* Controla la transparencia (0.12 = 12% visible, muy sutil) */
     z-index: 0;                /* La posiciona al fondo de todo */
     pointer-events: none;      /* Hace que la imagen sea invisible a los clics, permitiendo tocar las tarjetas */
 }
