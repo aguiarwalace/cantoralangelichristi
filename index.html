@@ -19,23 +19,63 @@
         <button id="menu-btn" onclick="window.location.href='celebraciones.html'" >📅</button>
     </header>
 <main id="main-content">
-    <div id="welcome-screen" class="welcome-container">
-        
-        <!-- --- NUEVO HERO BANNER CON LA IMAGEN DEL CORO --- -->
-        <div class="hero-banner-box">
-            <img src="img/banner.png" alt="¿Quién como Dios?" class="hero-banner-img">
-        </div>
-        
-        <p class="welcome-subtitle">Selecciona una opción para empezar a armar tu repertorio musical:</p>
+        <div id="welcome-screen" class="welcome-container">
+            
+            <!-- CAPA DE FOTO DE FONDO (Controlada por CSS) -->
+            <div class="welcome-bg-image"></div>
 
-        <!-- CUADRÍCULA DE ACCESOS RÁPIDOS (Tu Dashboard de tarjetas se queda aquí abajo) -->
-        <div class="dashboard-grid">
-            <!-- ... aquí van las 4 tarjetas (Buscar Cantos, Celebraciones, PDFs) ... -->
+            <!-- CONTENIDO EN PRIMER PLANO -->
+            <img src="img/angeli_christi_logo.png" alt="Logo Grande" class="logo-large">
+            <h2 class="welcome-title">Cantoral Angeli Christi</h2>
+            <p class="coro-lema">"¿Quién como Dios? ¡Nadie como Dios!"</p>
+            <p class="welcome-subtitle">Selecciona una opción para empezar a armar tu repertorio musical:</p>
+
+            <!-- CUADRÍCULA DE ACCESOS RÁPIDOS -->
+            <!--<div class="dashboard-grid">
+                
+                 Tarjeta 1: Buscar Cantos -->
+                <!--<div class="dash-card" onclick="toggleMenu()">
+                    <div class="dash-icon" style="background: rgba(0, 52, 104, 0.1); color: var(--primary);">🔍</div>
+                    <div class="dash-info">
+                        <h3>Buscar Cantos</h3>
+                        <p>Explora por títulos, frases o apartados litúrgicos.</p>
+                    </div>
+                </div>-->
+
+                <!-- Tarjeta 2: Calendario de Celebraciones -->
+                <!--<div class="dash-card" onclick="window.location.href='celebraciones.html'">
+                    <div class="dash-icon" style="background: rgba(212, 175, 55, 0.15); color: #bfa02c;">📅</div>
+                    <div class="dash-info">
+                        <h3>Celebraciones</h3>
+                        <p>Revisa las fechas y los cantos asignados para cada misa.</p>
+                    </div>
+                </div>-->
+
+                <!-- Tarjeta 3: Cantoral PDF 2014 -->
+                <a href="https://drive.google.com/file/d/1JOed7rWY1Z5teke4MkoTM_XlD02eKipz/view" target="_blank" class="dash-card-link">
+                    <div class="dash-card">
+                        <div class="dash-icon" style="background: rgba(231, 76, 60, 0.1); color: #e74c3c;">📕</div>
+                        <div class="dash-info">
+                            <h3>Cantoral 2014</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Tarjeta 4: Cantoral PDF 2024 -->
+                <a href="https://drive.google.com/file/d/19IIiFJIrRiLCUJafd9kcmC7axcjZ9Aa5/view" target="_blank" class="dash-card-link">
+                    <div class="dash-card">
+                        <div class="dash-icon" style="background: rgba(52, 152, 219, 0.1); color: #3498db;">📘</div>
+                        <div class="dash-info">
+                            <h3>Cantoral 2024</h3>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
         </div>
-    </div>
-    
-    <div id="song-display"></div>
-</main>
+        
+        <div id="song-display"></div>
+    </main>
     <!--<main id="main-content">
         <div id="welcome-screen" class="center" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 50px 20px;">
             <img src="img/angeli_christi_logo.png" alt="Logo Grande" class="logo-large">

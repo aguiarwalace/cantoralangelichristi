@@ -252,40 +252,45 @@ input[type="text"], select {
     margin-right: auto;
 }
 
-/* --- BIENVENIDA --- */
+/* --- CONFIGURACIÓN DE LA PÁGINA INICIAL CON FOTO DE FONDO --- */
+
 .welcome-container {
+    position: relative;     /* Permite que la imagen de fondo se alinee dentro de esta caja */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 40px 20px;
-}
-
-.coro-lema {
-    font-size: 1.1rem;
-    color: var(--accent);
-    font-style: italic;
-    margin-top: 5px;
-}
-/* --- DOCUMENTACIÓN: ESTILOS PARA EL BANNER INTEGRADO 1000083962.png --- */
-
-/* Caja contenedora del banner */
-.hero-banner-box {
+    padding: 30px 15px;
     width: 100%;
-    max-width: 480px;        /* Controla qué tan grande se verá en pantallas de PC */
-    margin: 0 auto 20px auto;/* Centra el contenedor y añade separación con las tarjetas */
-    border-radius: 16px;     /* Redondea las esquinas para hacer el diseño más suave */
-    overflow: hidden;        /* Fuerza a la imagen interna a respetar las esquinas redondeadas */
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15); /* Añade una sombra elegante para darle relieve */
-    border: 1px solid rgba(0,0,0,0.08); /* Un borde casi invisible para definir los límites */
+    max-width: 800px;
+    box-sizing: border-box;
+    overflow: hidden;       /* ¡SOLUCIÓN! Corta cualquier exceso y repara el menú de búsqueda */
+    border-radius: 16px;
 }
 
-/* Comportamiento de la imagen interna */
-.hero-banner-img {
-    width: 100%;             /* Hace que la imagen ocupe el 100% del ancho de su caja */
-    height: auto;            /* Mantiene la proporción original de la foto sin deformarla */
-    display: block;          /* Quita un pequeño espacio en blanco que los navegadores ponen bajo las imágenes */
+/* Capa especial para la foto '1000083962.png' actuando como marca de agua */
+.welcome-bg-image {
+    position: absolute;     /* Se independiza del texto y se pega a las esquinas */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/banner.png'); /* Ruta de tu imagen */
+    background-size: cover;    /* Reajusta la foto para que cubra todo el espacio sin deformarse */
+    background-position: center;/* Centra la escena del coro */
+    opacity: 0.20;             /* Controla la transparencia (0.12 = 12% visible, muy sutil) */
+    z-index: 0;                /* La posiciona al fondo de todo */
+    pointer-events: none;      /* Hace que la imagen sea invisible a los clics, permitiendo tocar las tarjetas */
 }
 
-/* Ajuste visual para el Modo Oscuro */
-body.dark-mode .hero-banner-box {
-    border-color: #444;      /* Cambia el borde a uno más grisáceo en modo oscuro */
-    box-shadow: 0 8px 30px rgba(0,0,0,0.5); /* Incrementa la fuerza de la sombra en fondo negro */
+/* Forzar que el texto y las tarjetas se dibujen por encima de la foto de fondo */
+.logo-large, 
+.welcome-title, 
+.coro-lema, 
+.welcome-subtitle, 
+.dashboard-grid {
+    position: relative;
+    z-index: 1;                /* Capa 1 (por encima de la capa 0 del fondo) */
 }
+
+/* El resto de estilos de tus tarjetas (dashboard-grid, dash-card, etc.) se quedan exactamente igual */
