@@ -54,8 +54,8 @@ header {
 .logo-mini { 
     height: 45px; 
     width: 45px;
-    border-radius: 50%; 
-    border: 2px solid var(--accent);
+    /* border-radius: 50%; */
+    /* border: 2px solid var(--accent); */
     object-fit: cover;
 }
 
@@ -243,9 +243,9 @@ input[type="text"], select {
 }
 
 .logo-large {
-    max-width: 140px;
-    border-radius: 50%;
-    border: 3px solid var(--accent);
+    max-width: 200px;
+    /* border-radius: 50%; */
+    /* border: 3px solid var(--accent); */
     margin-bottom: 15px;
     display: block;
     margin-left: auto;
