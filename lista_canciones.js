@@ -8971,7 +8971,7 @@ EMMANUEL`
   titulo: "Nace en tu corazón",
   autor: "Arturo Estrella (Coro Juntos por María)",
   tonoOriginal: "G",
-  categoria: "Reflexión",
+  categoria: "reflexion, navidad",
   letra: `
 Que suene el pandero que suene el tambor
 Por qué hoy ha nacido nuestro salvador

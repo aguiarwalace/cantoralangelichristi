@@ -7,8 +7,8 @@ const datosLiturgicos = {
         { id: "a_adv_4", nombre: "4º Domingo de Adviento", cantos: [1,2,3,4,5] },
 
         // NAVIDAD
-        { id: "a_navidad", nombre: "Navidad del Señor", cantos: [1,2,3,4,5] },
         { id: "a_sagrada_familia", nombre: "Sagrada Familia", cantos: [1,2,3,4,5] },
+        { id: "a_bautismo", nombre: "Bautismo del Señor", cantos: [1,2,3,4,5] },
 
         // TIEMPO ORDINARIO (1–8 antes de cuaresma aprox.)
         { id: "a_to_1", nombre: "1º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
@@ -21,6 +21,7 @@ const datosLiturgicos = {
         { id: "a_to_8", nombre: "8º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
 
         // CUARESMA
+        { id: "a_cenizas", nombre: "Miércoles de Cenizas", cantos: [1,2,3,4,5] },
         { id: "a_cua_1", nombre: "1º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
         { id: "a_cua_2", nombre: "2º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
         { id: "a_cua_3", nombre: "3º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
@@ -122,6 +123,10 @@ const datosLiturgicos = {
     ],
 
     "Solemnidades": [
+        { id: "sol_inmaculada", nombre: "Inmaculada Concepción", cantos: [19,2,5,4,20] },
+        { id: "sol_guadalupe", nombre: "Nuestra Señora de Guadalupe", cantos: [1,2,3,4,5] },
+        { id: "sol_navid_noche", nombre: "Navidad del Señor - Noche", cantos: [393,25,112,65,322,97,128,318,394,336,395,107] },
+        { id: "sol_navid_dia", nombre: "Navidad del Señor - Día", cantos: [393,25,112,65,322,97,128,318,394,336,395,107] },
         { id: "sol_maria_madre", nombre: "Santa María Madre de Dios", cantos: [1,2,3,4,5] },
         { id: "sol_epifania", nombre: "Epifanía del Señor", cantos: [1,2,3,4,5] },
         { id: "sol_san_jose", nombre: "San José", cantos: [1,2,3,4,5] },
@@ -129,13 +134,12 @@ const datosLiturgicos = {
         { id: "sol_sstrinidad", nombre: "Santísima Trinidad", cantos: [2,9] },
         { id: "sol_corpus", nombre: "Corpus Christi", cantos: [1,2,3,4,5] },
         { id: "sol_sagrado_corazon", nombre: "Sagrado Corazón de Jesús", cantos: [1,2,3,4,5] },
+        { id: "sol_nacim_juanbautista", nombre: "Nacimiento de San Juan Bautista", cantos: [1,2,3,4,5] },
         { id: "sol_pedro_pablo", nombre: "San Pedro y San Pablo", cantos: [1,2,3,4,5] },
         { id: "sol_asuncion", nombre: "Asunción de la Virgen María", cantos: [1,2,3,4,5] },
         { id: "sol_todos_santos", nombre: "Todos los Santos", cantos: [1,2,3,4,5] },
-        { id: "sol_cristo_rey", nombre: "Cristo Rey", cantos: [1,2,3,4,5] },
-        { id: "sol_inmaculada", nombre: "Inmaculada Concepción", cantos: [19,2,5,4,20] },
-        { id: "sol_navid_noche", nombre: "Navidad del Señor - Noche", cantos: [393,25,112,65,322,97,128,318,394,336,395,107] },
-        { id: "sol_navid_dia", nombre: "Navidad del Señor - Día", cantos: [393,25,112,65,322,97,128,318,394,336,395,107] }
+        { id: "commem_fieles_difuntos", nombre: "Conmemoración de todos los Fieles Difuntos", cantos: [1,2,3,4,5] },
+        { id: "sol_cristo_rey", nombre: "Nuestro Señor Jesucristo, Rey del Universo", cantos: [1,2,3,4,5] },
     ],
      "Eventos": [
         // EVENTOS
