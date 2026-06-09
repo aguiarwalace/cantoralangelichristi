@@ -264,3 +264,28 @@ input[type="text"], select {
     font-style: italic;
     margin-top: 5px;
 }
+/* --- DOCUMENTACIÓN: ESTILOS PARA EL BANNER INTEGRADO 1000083962.png --- */
+
+/* Caja contenedora del banner */
+.hero-banner-box {
+    width: 100%;
+    max-width: 480px;        /* Controla qué tan grande se verá en pantallas de PC */
+    margin: 0 auto 20px auto;/* Centra el contenedor y añade separación con las tarjetas */
+    border-radius: 16px;     /* Redondea las esquinas para hacer el diseño más suave */
+    overflow: hidden;        /* Fuerza a la imagen interna a respetar las esquinas redondeadas */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15); /* Añade una sombra elegante para darle relieve */
+    border: 1px solid rgba(0,0,0,0.08); /* Un borde casi invisible para definir los límites */
+}
+
+/* Comportamiento de la imagen interna */
+.hero-banner-img {
+    width: 100%;             /* Hace que la imagen ocupe el 100% del ancho de su caja */
+    height: auto;            /* Mantiene la proporción original de la foto sin deformarla */
+    display: block;          /* Quita un pequeño espacio en blanco que los navegadores ponen bajo las imágenes */
+}
+
+/* Ajuste visual para el Modo Oscuro */
+body.dark-mode .hero-banner-box {
+    border-color: #444;      /* Cambia el borde a uno más grisáceo en modo oscuro */
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5); /* Incrementa la fuerza de la sombra en fondo negro */
+}
