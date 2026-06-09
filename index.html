@@ -31,9 +31,7 @@
             <p class="welcome-subtitle">Selecciona una opción para empezar a armar tu repertorio musical:</p>
 
             <!-- CUADRÍCULA DE ACCESOS RÁPIDOS -->
-            <div class="dashboard-grid">
-                
-                <!--Tarjeta 1: Buscar Cantos -->
+            <div class="dashboard-grid">               
                 <div class="dash-card" onclick="toggleMenu()">
                     <div class="dash-icon" style="background: rgba(0, 52, 104, 0.1); color: var(--primary);">🔍</div>
                     <div class="dash-info">
@@ -42,7 +40,6 @@
                     </div>
                 </div>
 
-                <!-- Tarjeta 2: Calendario de Celebraciones -->
                 <div class="dash-card" onclick="window.location.href='celebraciones.html'">
                     <div class="dash-icon" style="background: rgba(212, 175, 55, 0.15); color: #bfa02c;">📅</div>
                     <div class="dash-info">
@@ -51,28 +48,26 @@
                     </div>
                 </div>
 
-                <!-- Tarjeta 3: Cantoral PDF 2014 -->
                 <a href="https://drive.google.com/file/d/1JOed7rWY1Z5teke4MkoTM_XlD02eKipz/view" target="_blank" class="dash-card-link">
                     <div class="dash-card">
                         <div class="dash-icon" style="background: rgba(231, 76, 60, 0.1); color: #e74c3c;">📕</div>
                         <div class="dash-info">
                             <h3>Cantoral 2014</h3>
+                            <p>Ver o descargar el cancionero original en PDF.</p>
                         </div>
                     </div>
                 </a>
 
-                <!-- Tarjeta 4: Cantoral PDF 2024 -->
                 <a href="https://drive.google.com/file/d/19IIiFJIrRiLCUJafd9kcmC7axcjZ9Aa5/view" target="_blank" class="dash-card-link">
                     <div class="dash-card">
                         <div class="dash-icon" style="background: rgba(52, 152, 219, 0.1); color: #3498db;">📘</div>
                         <div class="dash-info">
                             <h3>Cantoral 2024</h3>
+                            <p>Accede al archivo PDF con las últimas actualizaciones.</p>
                         </div>
                     </div>
                 </a>
-
             </div>
-        </div>
         
         <div id="song-display"></div>
     </main>
