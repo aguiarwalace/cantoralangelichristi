@@ -5852,8 +5852,8 @@ ven y quédate, Se[C]ñor.
   {
     id: 370,
     titulo: "RECIBE MI CORAZÓN",
-    autor: "Anónimo",
-    categoria: "adoracion",
+    autor: "Verónica Sanfilippo",
+    categoria: "comunion, adoracion",
     tonoOriginal: "D",
     letra: `
 [D] En la intimidad de tu pre[G]sencia,
