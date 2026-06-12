@@ -4700,38 +4700,40 @@ Para mirar al otro y ver en su inte[F]rior: [G]
   categoria: "adoracion",
   tonoOriginal: "C (capo 1)",
   letra: `(capo 1)
-Intro: [C] [F] [G] (x2)
+Intro: [C] [F] [G] [(x2)]
 
-[C] Sentí muy dentro la[F]tir mi cora[G]zón
-[C] mire tu rostro y [F] luego oí tu [Dm] voz y te creí [G] 
-creí en tu forma de [C] amar y en tu forma de [F] vivir [G] 
+[C]Sentí muy dentro la[F]tir mi cora[G]zón
+[C]mire tu rostro y [F]luego oí tu voz y te creí [Dm] 
+creí en tu forma de [G]amar y en tu forma de [C]vivir [F] [G] 
 
-[C] dijiste vayan yo [F] los envío a[G]hí
-[C] donde tu hermano ne[F]cesite oír ha[Dm]blar de mi [G]
-del amor
+[C]dijiste vayan yo [F]los envío a[G]hí
+[C]donde tu hermano ne[F]cesite oír hablar de mi [Dm] 
+del [G]amor
 
-[C] Le digo si a tu en[F]vío [G] ya quiero empezar a [C] andar,
-[F] decirle al mundo que estas vivo
-[G] que el camino y la [Am] ver[Dm]dad eres tu
-[G] quiero ser apóstol de tu [Am] luz [G] [F]
+[C]Le digo si a tu en[F]vío 
+[G]ya quiero empezar a [C] andar,
+decirle al mundo que estas [F]vivo
+que el [G]camino y la ver[Am]dad eres [Dm]Tú
+quiero [G]ser apóstol de tu [Am]luz [G] [F] 
 
-[F] bajo tu luz mi [G] fe no tiene [C] lími[Am]tes
-[F] bajo tu luz mi [G] fe no tiene [C] lími[F]tes [G]
+[F]bajo tu luz mi [G]fe no tiene [C]lími[Am]tes
+[F]bajo tu luz mi [G]fe no tiene [C]límites [F] [G] 
 
-[C] Mi voz se ha [F] vuelto un eco de tu [G] voz
-[C] Y en cada [F] paso encuentro una ra[G]zón para seguir,
-[Am] para nunca du[G]dar, [F] yo sé que hablas por [C] mi,
-[F] Me has dado fuerzas para [G] poder cam[C]biar,
-[F] Sé que mis ojos te pueden reflejar,
-[G] Señor yo estoy dispuesto.
+[C]Mi voz se ha vuelto un [F]eco de tu [G]voz
+[C]Y en cada paso encu[F]entro una razón para [Dm]seguir,
+para nunca du[G]dar, yo sé que hablas por [C]mi [F][G] ,
+[C]Me has dado fuerzas para [F]poder cam[G]biar,
+[C]Sé que mis ojos te [F]pueden reflejar, Señor yo [Dm]estoy 
+[G]dispuesto.
 
-[C] Le digo si a tu en[F]vío [G] ya quiero empezar a [C] andar,
-[F] decirle al mundo que estas vivo
-[G] que el camino y la [Am] ver[Dm]dad eres tu
-[G] quiero ser apóstol de tu [Am] luz [G] [F]
+[C]Le digo si a tu en[F]vío 
+[G]ya quiero empezar a [C] andar,
+decirle al mundo que estas [F]vivo
+que el [G]camino y la ver[Am]dad eres [Dm]Tú
+quiero [G]ser apóstol de tu [Am]luz [G] [F] 
 
-[F] bajo tu luz mi [G] fe no tiene [C] lími[Am]tes
-[F] bajo tu luz mi [G] fe no tiene [C] lími[F]tes [G]
+[F]bajo tu luz mi [G]fe no tiene [C]lími[Am]tes
+[F]bajo tu luz mi [G]fe no tiene [C]lími[Am]tes [F][G]
 `
 }, 
   {
