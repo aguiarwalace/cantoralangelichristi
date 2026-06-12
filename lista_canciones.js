@@ -761,6 +761,20 @@ Cristo, ten piedad de nosotros, Cristo, ten piedad de nosotros.
 [F#m]Gloria al [C#m]Padre, y al [D]Hijo, y al Es[E]píritu [A]Santo,
 [F#m]a Tí la ala[C#m]banza por [D]siempre, Se[B7]ñor.[E7]`
 },
+{
+     id: 396,
+    titulo: "KYRIE - Misa de Angelis (Kyriale VIII)",
+    autor: "Gregoriano",
+    categoria: "piedad",
+    tonoOriginal: "Dm",
+    //linkYoutube: "https://www.youtube.com/watch?v=ejemplo",
+    linkPartitura: "https://www.el-atril.com/partituras/Gregoriano/AngKyrieGR.pdf",
+    linkPartitura: "https://www.verbumgloriae.es/project/misa-viii-de-angelis/",
+    letra: `
+[Dm]Kyrie eleison, [A7]Kyrie eleison, [Dm]Kyrie eleison.
+[D7]Christe eleison, [Gm]Christe eleison, [Dm]Christe eleison.
+[Dm]Kyrie eleison, [A7]Kyrie eleison, [Dm]Kyrie eleison.`
+},
 
   // --- SECCIÓN: CANTOS DE GLORIA status: agregar gloria shalom ressuscitou---
    /*{
@@ -9858,4 +9872,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:395
+// último id:396
