@@ -1846,7 +1846,6 @@ Vino es el fruto de gran dolor, que padeciste, por nosotros en la cruz.
 [Am]Vino y [Dm]Pan [Am]en obla[G]ción, [C]Esperan el mi[F]lagro del Se[G]ñor.
 [C]Ve nuestra o[Em]frenda, [F]Sobre tu [G]santo al[C]tar.
 [G#]Era en Los [D#]campos [C#]dulce [C]vid y tri[G]gal.
-
 Pero, tú, por tu bondad, transformas nuestra ofrenda en ti, Señor.
 Toma mi vida, Y también cambiará, llena mi alma, De tu gracia y tu paz, amén.
 `
@@ -7024,6 +7023,60 @@ Resuci[A]tó! [E/G#] [F#m] [D]
 Resuci[A]tó! [E/G#] [F#m] [D]
 Resuci[A]tó!`
 },
+{
+    id: 398,
+    titulo: "Corazón de Padre (San José)",
+    autor: "Anónimo",
+    tonoOriginal: "C (capo 1)",
+    categoria: "salida",
+    letra:` (capo 1)
+[C]Venimos a ti San [G]José, 
+con [Am]un corazón de [Em]madera,
+para que [F]talles en tu [C]taller,
+Humil[F]dad, [C]ternura, pu[G]reza.
+
+[C]Queremos de ti [G]aprender 
+a soñar sin dar [Am]paso a la[Em]duda,
+a ser [F]fiel sin dejarse [C]vencer por el
+[F]camino, la fa[C]tiga, la [G]lucha.
+
+    [F]Escucha nuestra ora[C]ción,
+    [G]Fiel custodio de Ma[C]ría,
+    [F]Modela en nuestros cora[C]zones
+    [F]El Rostro del Me[G]sías.
+
+[C]Enséñanos, Buen Jo[G]sé,
+[Dm]cómo hacer frente a tanta desesper[Am]anza,
+[F]cómo se sirve sin mirar a [C]quién,
+[F]cómo en silencio se vive, se a[G]vanza.
+
+[C]Enséñanos cómo a[G]mar
+[Dm]con libertad y ternura de [Am]madre,
+[F]Cómo se puede ser luz sin bri[C]llar,
+[F]cómo tener como [G]tú,
+un corazón de [C]padre.
+
+[C]Venimos a ti, San [G]José,
+[Am]para escucharte hablar con tu [Em]vida,
+[F]porque tú sabes obe[C]decer,
+[F]sin protestar, sin [C]que haya he[G]ridas.
+
+[C]Queremos de ti apren[G]der
+[Am]a morir en dulce aban[Em]dono
+[F]Y en los brazos de la Buena [C]Madre,
+[F]como tú, ce[C]rrar los [G]ojos.
+
+[F]Escucha nuestra ora[C]ción,
+[G]Fiel custodio de Ma[C]ría,
+[F]Modela en nuestros cora[C]zones
+[F]El Rostro del Me[G]sías.
+
+[(Sube un tono)]
+[G]Escucha nuestra ora[D]ción,
+[A]Fiel custodio de Ma[D]ría,
+[G]Modela en nuestros cora[D]zones
+[G]El Rostro del Me[A]sías. [D] 
+`},
     // --- SECCIÓN: CANTOS DE La Pasión ---
      {
     id: 156,
@@ -9885,4 +9938,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:397
+// último id:398
