@@ -7028,7 +7028,7 @@ Resuci[A]tó!`
     titulo: "Corazón de Padre (San José)",
     autor: "Anónimo",
     tonoOriginal: "C (capo 1)",
-    categoria: "salida",
+    categoria: "reflexion, salida",
     letra:` (capo 1)
 [C]Venimos a ti San [G]José, 
 con [Am]un corazón de [Em]madera,
