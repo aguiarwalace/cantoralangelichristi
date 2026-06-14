@@ -1423,6 +1423,19 @@ Sua [G] pobreza nos [A] enrique [Bm] ceu
 `
 },
 
+  // --- SECCIÓN: CANTOS DE CREDO ---
+     {
+  id: 397,
+  titulo: "Credo - Padre Jorge",
+  autor: "Padre Jorge",
+  categoria: "credo",
+  tonoOriginal: "G",
+  letra: `
+
+[G]Creo, Señor, pero [C]aumenta mi [G]fe.
+[C]Creo, [G]Señor, pero [D7]aumenta mi [G]fe.
+`
+},
   // --- SECCIÓN: CANTOS DE OFRENDAS ---
   {
     id: 66,
@@ -9872,4 +9885,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:396
+// último id:397
