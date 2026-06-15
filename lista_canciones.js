@@ -9937,5 +9937,178 @@ Todo es tuyo Señor
 Todo es tuyo Señor
 Todo es tuyo Señor`
 },
+    {
+    id: 399,
+    titulo: "El profeta",
+    autor: "Anónimo",
+    categoria: "",
+    tonoOriginal: "Am",
+    letra: `
+[Intro]
+Am C G C Dm Am E7 Am
+ 
+ 
+[Verse]
+Am               C               
+Antes que te formaras deltro del 
+            G     C
+vientre de tu madre
+Dm              Am            E7      
+Antes que tú nacieras te conocía y te 
+      Am
+consagré
+Am              C                     
+Para ser mi profeta de las naciones yo
+  G      C
+ te escogí:
+Dm               Am            E7   
+Irás donde te envíe lo que te mande 
+         Am
+proclamarás.
+ 
+
+
+
+
+ 
+[Coro]
+   Am                C        
+[ Tengo que gritar, tengo que 
+                   G          
+arriesgar. ¡Ay de mí si no lo 
+ C
+hago!
+  G        Am           G      
+¿Cómo escapar de tí?, ¿cómo no 
+   Am            E7           
+hablar?, ¡si tu voz me quema 
+Am
+dentro! ] (Bis)
+ 
+ 
+[Verse]
+Am              C                     
+No temas arriesgarte porque contigo yo
+ G    C
+ estaré.
+Dm             Am                 E7  
+No temas anunciarme porque en tu boca 
+         Am
+yo hablaré.
+Am                 C                  
+Te encargo hoy mi pueblo para arrancar
+    G    C
+ y derribar.
+Dm        Am          E7          Am
+Para edificar destruirás y plantarás.
+ 
+ 
+[Coro]
+   Am                C        
+[ Tengo que gritar, tengo que 
+                   G          
+arriesgar. ¡Ay de mí si no lo 
+ C
+hago!
+  G        Am           G      
+¿Cómo escapar de tí?, ¿cómo no 
+   Am            E7           
+hablar?, ¡si tu voz me quema 
+Am
+dentro! ] (Bis)
+ 
+Am             C                      
+Deja a tus hermanos, deja a tu padre y
+   G     C
+ a tu madre,
+Dm          Am              E7    
+Abandona tu casa porque la tierra 
+           Am
+gritando está.
+Am               C                    
+Nada traigas contigo porque a tu lado 
+   G    C
+yo estaré.
+Dm            Am              E7   
+Es hora de luchar poruqe mi pueblo 
+             Am
+sufriendo está.
+ 
+ 
+[Coro]
+   Am                C        
+[ Tengo que gritar, tengo que 
+                   G          
+arriesgar. ¡Ay de mí si no lo 
+ C
+hago!
+  G        Am           G      
+¿Cómo escapar de tí?, ¿cómo no 
+   Am            E7           
+hablar?, ¡si tu voz me quema 
+Am
+dentro! ] (Bis)
+ 
+ 
+[Coro]
+   Am                C        
+[ Tengo que gritar, tengo que 
+                   G          
+arriesgar. ¡Ay de mí si no lo 
+ C
+hago!
+  G        Am           G      
+¿Cómo escapar de tí?, ¿cómo no 
+   Am            E7           
+hablar?, ¡si tu voz me quema 
+Am
+dentro! ] (Bis)
+`
+  },
+    {
+    id: 400,
+    titulo: "Aquí estoy Señor",
+    autor: "Anónimo",
+    categoria: "",
+    tonoOriginal: "A",
+    letra: `
+A C#m 
+Aquí estoy Señor te oiré, 
+D Bm E 
+cumpliré Jesús tu voluntad. 
+A C#m 
+Aquí estoy Señor y háblame,
+D Bm E 
+tu palabra es mi salvación. 
+A C#m 
+Aquí estoy Señor, escucharé, 
+D Dm E 
+tu mensaje que a todos daré, 
+F#m C#m 
+corazones muertos salvaré, 
+D Dm E 
+y a todos los hombres libraré. 
+A C#m 
+Quiero oír tu voz y alabarte, 
+F#m C#m 
+y saber que no es mi corazón, 
+D E A 
+y poner mi vida en la tuya, 
+D E A D E A 
+y saber que todo tuyo es. 
+ C#m 
+Quiero oír tu voz y alabarte, 
+F#m C#m 
+y saber que no es mi corazón 
+D E A 
+y ponernos todos en tus manos 
+D E A 
+y saber que el mundo salvo es. 
+2. Aquí estoy Señor y guíame, 
+sólo un hombre es lo que yo soy, 
+pero Tú me quieres y me llamas 
+aquí estoy Señor, Sí, aquí estoy
+`
+  },
 ];
 // último id:398
