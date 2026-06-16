@@ -3406,20 +3406,38 @@ Final:
     tonoOriginal: "G",
     letra: `
 [G]Aquí estoy Se[Bm]ñor te oiré,
-[C]Cumpliré Je[D]sús tu voluntad,
-[G]Aquí estoy Se[Bm]ñor y háblame,
-[C]Tu palabra [D]es mi salvación.
+[C]Cumpliré Je[Am]sús tu volun[D]tad,
+[G]Aquí estoy Señor y [Bm]háblame,
+[C]Tu palabra [Am]es mi [D]salvación.
 
 [G]Aquí estoy Se[Bm]ñor escucharé,
-[C]Tu mensaje que a [D]todos daré,
-[Em]Corazones [Bm]muertos salvaré,
-[C]Y a todos los [D]hombres librare.
+[C]Tu mensaje [Cm]que a todos [D]daré,
+[Em]Corazones muertos [Bm]salvaré,
+[C]Y a todos los [Cm]hombres [D]librare.
 
-[G]Quiero oír tu [Bm]voz y alabarte,
-[Em]Y saber que no es mi cora[Bm]zón,
-[C]Y poner mi [D]vida en la [G]tuya, [Em]
-[C]Y saber que [D]todo tuyo [G]es. [C] [D]
-`
+    [G]Quiero oír tu [Bm]voz y alabarte,
+    [Em]Y saber que no es mi cora[Bm]zón,
+    [C]Y poner mi [D]vida en la [G]tuya, [Em] 
+    [C]Y saber que [D]todo tuyo [G]es. [C] [D] 
+    [G]Quiero oír tu [Bm]voz y alabarte,
+    [Em]Y saber que no es mi cora[Bm]zón,
+    [C]Y ponernos [D]todos en tus [G]manos, [Em] 
+    [C]Y saber que [D]el mundo salvo [G]es.
+
+[G]Aquí estoy Señor y [Bm]guíame, 
+[C]sólo un hombre [Cm]es lo que yo [D]soy, 
+[Em]pero Tú me quieres y [Bm]me llamas 
+[C]aquí estoy [Cm]Señor, Sí, aquí [D]estoy
+
+    [G]Quiero oír tu [Bm]voz y alabarte,
+    [Em]Y saber que no es mi cora[Bm]zón,
+    [C]Y poner mi [D]vida en la [G]tuya, [Em] 
+    [C]Y saber que [D]todo tuyo [G]es. [C] [D] 
+    [G]Quiero oír tu [Bm]voz y alabarte,
+    [Em]Y saber que no es mi cora[Bm]zón,
+    [C]Y ponernos [D]todos en tus [G]manos, [Em] 
+    [ral.][C]Y saber que [D]el mundo salvo [G]es.
+    `
   },
   {
     id: 180,
@@ -7077,6 +7095,68 @@ un corazón de [C]padre.
 [G]Modela en nuestros cora[D]zones
 [G]El Rostro del Me[A]sías. [D] 
 `},
+{
+id: 399,
+titulo: "El profeta",
+autor: "Anónimo",
+categoria: "salida",
+tonoOriginal: "Am",
+letra: `
+[Intro]
+[Am] [C] [G] [C] [Dm] [Am] [E7] [Am]
+ 
+[Verse]
+[Am]Antes que te [C]formaras deltro del 
+[G]vientre de tu [C]madre
+[Dm]Antes que tú [Am]nacieras te 
+[E7]conocía y te [Am]consagré
+[Am]Para ser mi [C]profeta de las 
+[G]naciones yo te [C]escogí:
+[Dm]Irás donde te [Am]envíe lo que te 
+[E7]mande [Am]proclamarás.
+ 
+[Coro]
+[Am]Tengo que gritar, [C]tengo que arriesgar. 
+[G]¡Ay de mí si no lo [C]hago!
+[G]¿Cómo [Am]escapar de tí?, 
+[G]¿cómo no[Am]hablar?, 
+[E7]¡si tu voz me quema [Am]dentro! [(bis)]
+
+[Verse]
+[Am]No temas [C]arriesgarte porque 
+[G]contigo yo [C]estaré.
+[Dm]No temas [Am]anunciarme porque en tu 
+[E7]boca yo [Am]hablaré.
+[Am]Te encargo hoy mi [C]pueblo para 
+[G]arrancar y [C]derribar.
+[Dm]Para [Am]edificar 
+[E7]destruirás y [Am]plantarás.
+
+[Coro]
+[Am]Tengo que gritar, [C]tengo que arriesgar. 
+[G]¡Ay de mí si no lo [C]hago!
+[G]¿Cómo [Am]escapar de tí?, 
+[G]¿cómo no[Am]hablar?, 
+[E7]¡si tu voz me quema [Am]dentro! [(bis)]
+
+[verso]
+[Am]Deja a tus [C]hermanos, deja a tu 
+[G]padre y a tu [C]madre,
+[Dm]Abandona tu [Am]casa porque la 
+[E7]tierra gritando [Am]está.
+[Am]Nada traigas [C]contigo porque a tu 
+[G]lado yo [C]estaré.
+[Dm]Es hora de [Am]luchar poruqe mi 
+[E7]pueblo sufriendo [Am]está.
+
+[Coro]
+[Am]Tengo que gritar, [C]tengo que arriesgar. 
+[G]¡Ay de mí si no lo [C]hago!
+[G]¿Cómo [Am]escapar de tí?, 
+[G]¿cómo no[Am]hablar?, 
+[E7]¡si tu voz me quema [Am]dentro! [(bis)]
+`
+},
     // --- SECCIÓN: CANTOS DE La Pasión ---
      {
     id: 156,
@@ -9937,178 +10017,5 @@ Todo es tuyo Señor
 Todo es tuyo Señor
 Todo es tuyo Señor`
 },
-    {
-    id: 399,
-    titulo: "El profeta",
-    autor: "Anónimo",
-    categoria: "",
-    tonoOriginal: "Am",
-    letra: `
-[Intro]
-Am C G C Dm Am E7 Am
- 
- 
-[Verse]
-Am               C               
-Antes que te formaras deltro del 
-            G     C
-vientre de tu madre
-Dm              Am            E7      
-Antes que tú nacieras te conocía y te 
-      Am
-consagré
-Am              C                     
-Para ser mi profeta de las naciones yo
-  G      C
- te escogí:
-Dm               Am            E7   
-Irás donde te envíe lo que te mande 
-         Am
-proclamarás.
- 
-
-
-
-
- 
-[Coro]
-   Am                C        
-[ Tengo que gritar, tengo que 
-                   G          
-arriesgar. ¡Ay de mí si no lo 
- C
-hago!
-  G        Am           G      
-¿Cómo escapar de tí?, ¿cómo no 
-   Am            E7           
-hablar?, ¡si tu voz me quema 
-Am
-dentro! ] (Bis)
- 
- 
-[Verse]
-Am              C                     
-No temas arriesgarte porque contigo yo
- G    C
- estaré.
-Dm             Am                 E7  
-No temas anunciarme porque en tu boca 
-         Am
-yo hablaré.
-Am                 C                  
-Te encargo hoy mi pueblo para arrancar
-    G    C
- y derribar.
-Dm        Am          E7          Am
-Para edificar destruirás y plantarás.
- 
- 
-[Coro]
-   Am                C        
-[ Tengo que gritar, tengo que 
-                   G          
-arriesgar. ¡Ay de mí si no lo 
- C
-hago!
-  G        Am           G      
-¿Cómo escapar de tí?, ¿cómo no 
-   Am            E7           
-hablar?, ¡si tu voz me quema 
-Am
-dentro! ] (Bis)
- 
-Am             C                      
-Deja a tus hermanos, deja a tu padre y
-   G     C
- a tu madre,
-Dm          Am              E7    
-Abandona tu casa porque la tierra 
-           Am
-gritando está.
-Am               C                    
-Nada traigas contigo porque a tu lado 
-   G    C
-yo estaré.
-Dm            Am              E7   
-Es hora de luchar poruqe mi pueblo 
-             Am
-sufriendo está.
- 
- 
-[Coro]
-   Am                C        
-[ Tengo que gritar, tengo que 
-                   G          
-arriesgar. ¡Ay de mí si no lo 
- C
-hago!
-  G        Am           G      
-¿Cómo escapar de tí?, ¿cómo no 
-   Am            E7           
-hablar?, ¡si tu voz me quema 
-Am
-dentro! ] (Bis)
- 
- 
-[Coro]
-   Am                C        
-[ Tengo que gritar, tengo que 
-                   G          
-arriesgar. ¡Ay de mí si no lo 
- C
-hago!
-  G        Am           G      
-¿Cómo escapar de tí?, ¿cómo no 
-   Am            E7           
-hablar?, ¡si tu voz me quema 
-Am
-dentro! ] (Bis)
-`
-  },
-    {
-    id: 400,
-    titulo: "Aquí estoy Señor",
-    autor: "Anónimo",
-    categoria: "",
-    tonoOriginal: "A",
-    letra: `
-A C#m 
-Aquí estoy Señor te oiré, 
-D Bm E 
-cumpliré Jesús tu voluntad. 
-A C#m 
-Aquí estoy Señor y háblame,
-D Bm E 
-tu palabra es mi salvación. 
-A C#m 
-Aquí estoy Señor, escucharé, 
-D Dm E 
-tu mensaje que a todos daré, 
-F#m C#m 
-corazones muertos salvaré, 
-D Dm E 
-y a todos los hombres libraré. 
-A C#m 
-Quiero oír tu voz y alabarte, 
-F#m C#m 
-y saber que no es mi corazón, 
-D E A 
-y poner mi vida en la tuya, 
-D E A D E A 
-y saber que todo tuyo es. 
- C#m 
-Quiero oír tu voz y alabarte, 
-F#m C#m 
-y saber que no es mi corazón 
-D E A 
-y ponernos todos en tus manos 
-D E A 
-y saber que el mundo salvo es. 
-2. Aquí estoy Señor y guíame, 
-sólo un hombre es lo que yo soy, 
-pero Tú me quieres y me llamas 
-aquí estoy Señor, Sí, aquí estoy
-`
-  },
 ];
-// último id:398
+// último id:399
