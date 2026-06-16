@@ -148,5 +148,6 @@ const datosLiturgicos = {
         { id: "vig_pentecostes_hsanta", nombre: "Vigilia de Pentecostés - Motul - H.Santa (23/05/2026)", cantos: [137,389,390,343,339,136] },
         { id: "vig_pentecostes_anima", nombre: "Vigilia de Pentecostés - Motul - Animación (23/05/2026)", cantos: [270,275,106,1000,385,277,109] },
         {id: "fies_patronal_nssc", nombre: "Fiesta patronal NSSC", cantos: [293,173,112,65,64,82,90,128,183,303,316,312] },*/
+        {id: "seminario_entrega_ministerios", nombre: "Seminario - Entrega de Ministerios (20/06/2026)", cantos: [179] },
      ],
 };
