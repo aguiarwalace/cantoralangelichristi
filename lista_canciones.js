@@ -6163,7 +6163,7 @@ Pero una pa[Am]labra basta[G]rá para sa[C]narme.
   titulo: "VIDA EN ABUNDANCIA",
   autor: "Anónimo",
   categoria: "adoracion",
-  tonoOriginal: "G",
+  tonoOriginal: "G (capo 1)",
   letra: `
 [G]Los lirios del [C]campo y las [D]aves del cielo
 [G]No se preo[C]cupan por que es[D]tán en mis manos
