@@ -6167,29 +6167,29 @@ Pero una pa[Am]labra basta[G]rá para sa[C]narme.
   letra: `
 [G]Los lirios del [C]campo y las [D]aves del cielo
 [G]No se preo[C]cupan por que es[D]tán en mis manos
-[Em]Tené con[C]fianza en mí, [G]acá estoy [D]junto a vos. [1]
+[Em]Tené con[C]fianza en mí, [G]acá estoy [D]junto a vos.
 
 [G]Amá lo que [C]sos y tus circuns[D]tancias
 [G]Estoy con [C]vos, con tu [D]cruz en mi espalda
-[Em]Todo termi[C]nará bien, [G]yo hago nuevas [D]todas las cosas. [1, 2]
+[Em]Todo termi[C]nará bien, [G]yo hago nuevas [D]todas las cosas.
 
 [Em]Yo vengo a tra[C]erte vida, [G]vida en abun[D]dancia.
 [Em]Vida en abun[C]dancia, [D]en abundancia.
 [Em]Yo soy el ca[C]mino, [G]la verdad y la [D]vida.
-[Em]Vida en abun[C]dancia, [D]en abundancia. [2]
+[Em]Vida en abun[C]dancia, [D]en abundancia.
 
 [G]No hice al [C]hombre para que es[D]té solo
 [G]Caminen [C]juntos como [D]hermanos
-[Em]Sopórtense [C]mutuamente, [G]ámense [D]unos a otros. [2, 3]
+[Em]Sopórtense [C]mutuamente, [G]ámense [D]unos a otros.
 
 [G]La felici[C]dad de la vida [D]eterna
 [G]Empie..[C]za con[D]migo en la tierra
-[Em]Senti..[C]te vivo, [G]la fiesta del [D]reino comienza acá. [3, 4]
+[Em]Senti..[C]te vivo, [G]la fiesta del [D]reino comienza acá.
 
 [Em]Yo vengo a tra[C]erte vida, [G]vida en abun[D]dancia.
 [Em]Vida en abun[C]dancia, [D]en abundancia.
 [Em]Yo soy el ca[C]mino, [G]la verdad y la [D]vida.
-[Em]Vida en abun[C]dancia, [D]en abundancia. [4]
+[Em]Vida en abun[C]dancia, [D]en abundancia.
 `
 },
    {
