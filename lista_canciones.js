@@ -535,7 +535,7 @@ Deseos de un mundo más humano, que hable del bien y la Verdad.
     autor: "David Julien",
     categoria: "entrada",
     tonoOriginal: "Dm",
-    //linkYoutube: "https://www.youtube.com/watch?v=ejemplo", // NUEVO
+    linkYoutube: "https://www.youtube.com/watch?v=mEAxL2huaWg",
     linkPartitura: "https://emreligiosa.cl/partituras/marcha_de_la_iglesia.pdf",
     letra: `
 Intro: 
