@@ -529,6 +529,48 @@ Deseos de un mundo más humano, que hable del bien y la Verdad.
 [F]Cuánto me [G]amas. (x2) [C]
 `
   },
+    {
+    id: 400,
+    titulo: "Marcha de la Iglesia (Marche d'Eglise)",
+    autor: "David Julien",
+    categoria: "entrada",
+    tonoOriginal: "Dm",
+    //linkYoutube: "https://www.youtube.com/watch?v=ejemplo", // NUEVO
+    linkPartitura: "https://emreligiosa.cl/partituras/marcha_de_la_iglesia.pdf",
+    letra: `
+Intro: 
+[Em]Todos unidos a los pastores, [C]vamos [Am]hacia [Em]ti.
+[C]Todos unidos en una fe, [Am]vamos hacia [Em]ti.
+[Em]Todos armados de fortaleza,   [C]vamos [Am]hacia [Em]ti.
+[C]Todos radiantes de caridad,  [Am]vamos hacia [Em]ti.
+
+    [F]Ciudad [Em]celeste, [Dm]tierra del [G]Señor.
+    [Em]Gloria a [Am]ti, [G]Iglesia [F]Santa,
+    [Em]Patria de la [Am]cristiandad.
+    [Am]Que algún [F]día en [G]tu [F]recinto,
+    consi[Em]gamos la [Am]unidad.
+
+2.[Em]Desde los pueblos y las ciudades, [C]vamos [Am]hacia [Em]ti.
+[C]Desde los valles y las montañas, [Am]vamos hacia [Em]ti.
+[Em]Desde las chozas y los cobijos, [C]vamos [Am]hacia [Em]ti.
+[C]Desde las fábricas y oficinas, [Am]vamos hacia [Em]ti.
+
+3.[Em]LLenos de angustias y de esperanzas, [C]vamos [Am]hacia [Em]ti.
+[C]LLenos de penas y de alegrías, [Am]vamos hacia [Em]ti.
+[Em]LLenos de gracias y de flaquezas, [C]vamos [Am]hacia [Em]ti.
+[C]LLenos de bienes y de indigencias, [Am]vamos hacia [Em]ti.
+
+4.[Em]Con la fatiga de los trabajos, [C]vamos [Am]hacia [Em]ti.
+[C]Con la vileza de los pecados, [Am]vamos hacia [Em]ti.
+[Em]Hijos alegres del Dios eterno, [C]vamos [Am]hacia [Em]ti.
+[C]Miembros gozosos de Jesucristo, [Am]vamos hacia [Em]ti.
+
+5.[Em]Pueblo de Dios orientado al futuro, [C]vamos [Am]hacia [Em]ti.
+[C]Pueblo de Dios enemigo del mal, [Am]vamos hacia [Em]ti.
+[Em]Pueblo de Dios, sembrador de esperanzas, [C]vamos [Am]hacia [Em]ti.
+[C]Piedras vivas del templo de Dios, [Am]vamos hacia [Em]ti.
+`
+  },
 
   // --- SECCIÓN: CANTOS DE PIEDAD (status: verificar los no litúrgicos y comentarlos) ---
   {
@@ -10018,4 +10060,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:399
+// último id:400
