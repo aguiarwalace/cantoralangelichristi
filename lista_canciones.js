@@ -4815,10 +4815,10 @@ Me ensañas que no solo se trata de [F]mi, [G]
 [C]Me invitas a que abra el corazón,
 Para mirar al otro y ver en su inte[F]rior: [G]
 
-[C] Lo que lo hace [C] sufrir,
-[C] Lo que hiere su [C] sentir,
-[C] Lo que le quita la [C] paz,
-[C] Lo que no puede car[G]gar.
+[C]Lo que lo hace [C] sufrir,
+[C]Lo que hiere su [C] sentir,
+[C]Lo que le quita la [C] paz,
+[C]Lo que no puede car[G]gar.
 
 [F] [G] [C] Y tú me dices anímate,
 [Am] A salir de ti, [G] a morir a tí.
@@ -6298,28 +6298,43 @@ Pero una pa[Am]labra basta[G]rá para sa[C]narme.
     titulo: "YO TE MIRO (Pan del cielo)",
     autor: "Anónimo",
     categoria: "adoracion",
-    tonoOriginal: "Am",
+    tonoOriginal: "Am(capo3)",
     letra: `
 Intro: [Am] [F] [C] [G]
 
 [Am]Ahí estas yo te [F]miro
-[C]Tu me miras a [G]mí, nos miramos a[Am]sí
-Una con[F]quista, un a[C]mor
-Que por las [G]grietas tu en[Am]tras
-A lo más pro[F]fundo [D]de mi cora[G]zón. [31]
+Tú me [C]miras a mí, nos mi[G]ramos así
 
-[F]Pan del [G]cielo, [Am]Pan de amor, [C]alimento de mi vida
-[F]Pan del [G]cielo, [Am]pan de amor, [C]sangre y cuerpo del señor. [32]
+Una con[Am]quista, un a[F]mor
+Que por las [C]grietas tu en[G]tras
+A lo [Am]más pro[F]fundo [D]de mi cora[G]zón.
 
-[F]No hay a[G]mor, más [Am]grande que el que has [C]Dado por mi
-[F]Te de[G]jaste, tu [Am]cuerpo para po[C]derte mirar así. [32]
+[F]Pan del [G]cielo, [Am]Pan de amor, alimento de mi [C]vida
+[F]Pan del [G]cielo, [Am]pan de amor, Sangre y Cuerpo del [C]Señor.
+[F]Ooh[G][Am] 
 
-[Am]Yo te [F]miro, [C]Tu me [G]miras, nos mi[Am]ramos a[F]sí, es[C]tas a[G]hí. (x3) [33]
+No hay a[Am]mor, más [F]grande
+[C]que el que has Dado por [G]mí
+Te de[Am]jaste, tu [F]cuerpo
+[D]para poderte mirar [G]así.
 
-[F]Pan del cielo pan de [G]amor [Am]sana todas mis he[C]ridas
-[F]Pan del cielo, pan de [G]amor [Am]hasta que se a[C]pague mi [G]voz. [33]
+[F]Pan del [G]cielo, [Am]Pan de amor, alimento de mi [C]vida
+[F]Pan del [G]cielo, [Am]pan de amor, Sangre y Cuerpo del [C]Señor.
+[F]Ooh[G][Am] 
 
-[Am]Ahí es[F]tas, yo te [C]miro. Tu me [G]miras a [Am]mí, estas a[F]hí. [33]
+[(Am] [F] [C] [G)]
+
+[Am]Yo te miro,[F]tú me miras, 
+nos [C]miramos así, e[G]stás ahí.
+
+[F]Pan del [G]cielo, [Am]Pan de amor, alimento de mi [C]vida
+[F]Pan del [G]cielo, [Am]pan de amor, Sangre y Cuerpo del [C]Señor. [(x2)]
+
+[F]Pan del [G]cielo, [Am]Pan de amor, alimento de mi [C]vida
+[F]Pan del [G]cielo, [Am]pan de amor, hasta que se apague mi [C]voz. [F] [G] [Am] 
+
+[Am]Ahí estas yo te [F]miro
+Tú me [C]miras a mí, nos mi[G]ramos así
 `
   },
   {
@@ -7778,16 +7793,37 @@ Intro: [D] [G] [D] [G]
 
 [D]Quiero caminar con[G]tigo María
 [D]Pues tu eres mi Madre [G]eres mi guía
-[A]Tu eres para mi el mas [G]grande ejemplo
-[D]de santi[A]dad, de humildad.
+[A]Tu eres para mí el mas [G]grande ejemplo
+de santi[D]dad, de humil[A]dad.
 
-[D]Guia mis [G]pasos [D]Llévame al [A]cielo
-[Bm]Bajo tu [G]manto [A]No tengo miedo
-[D]Llena de [G]gracia [D]Ave Ma[A]ría
-[Bm]Hoy yo te o[A]frezco [D]toda mi vida
+[D]Quiero caminar con[G]tigo María
+[D]No solo un momento, todos los [G]días
+[A]Necesito tu amor de [G]Madre
+Tu interce[D]sión ante el [A]Señor.
+
+Guía mis [D]pasos [G]Llévame al [D]cielo [(A)]
+Bajo tu [Bm]manto [G]No tengo [A]miedo
+Llena de [D]gracia [G]Ave Ma[D]ría [(A)]
+Hoy yo te o[Bm]frezco [A]toda mi [D]vida
+[D] [G] [D] [G] 
+
+[D]Quiero caminar contigo [G]María
+[D]Madre en el dolor y en la [G]alegría
+[A]Tu que que fuiste fiel hasta el [G]extremo
+Fiel en la la [D]cruz, fiel a [A]Jesús.
+
+Guía mis [D]pasos [G]Llévame al [D]cielo [(A)]
+Bajo tu [Bm]manto [G]No tengo [A]miedo
+Llena de [D]gracia [G]Ave Ma[D]ría [(A)]
+Hoy yo te o[Bm]frezco [A]toda mi [D]vida
 
 [Em]Celestial prin[Bm]cesa, mírame con compa[A]sión
-[G]Hoy te doy mi [A]alma, vida y corazón
+[G]Hoy te doy mi alma, vida y [A]corazón
+
+Guía mis [D]pasos [G]Llévame al [D]cielo [(A)]
+Bajo tu [Bm]manto [G]No tengo [A]miedo
+Llena de [D]gracia [G]Ave Ma[D]ría [(A)]
+Hoy yo te o[Bm]frezco [A]toda mi [D]vida [(x2)]
 `
   },
   {
