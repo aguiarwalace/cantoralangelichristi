@@ -1464,7 +1464,26 @@ Sua [G] pobreza nos [A] enrique [Bm] ceu
 [G] Aleluia, [A] Aleluia, [Bm] Aleluia, [G] Aleluia, [A] Aleluia [Bm]
 `
 },
+{
+  id: 402,
+  titulo: "21. ALELUYA (Cuando estamos unidos)",
+  autor: "Padre Zeca",
+  categoria: "aleluya",
+  tonoOriginal: "E",
+  letra: `
+[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [E]ale[B7]luia
+[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
 
+[F#m]Cuando estamos [G#m]unidos, [A]con nosotros [C#m]estás
+[A]Y nos [F#m]hablarás de Tu [B7(4)]vida[B7] 
+
+[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [E]ale[B7]luia
+[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
+
+[F#m]Este nuestro [G#m]mundo [A]sentido [C#m]tendrá
+[A]Si Tu [F#m]palabra [B7(4)]renovar[B7] 
+`
+},
   // --- SECCIÓN: CANTOS DE CREDO ---
      {
   id: 397,
@@ -3098,7 +3117,7 @@ Que la familia nutrida sea un día reunida en el cielo.
 [Dm]Vamos can[F]tando a comulgar,
 [Dm]Con el Se[F]ñor que nos dejó,
 [Dm]La misma [A#]Fe para mirar
-[C] _La vida e[Dm]terna que nos dio.
+[C]La vida e[Dm]terna que nos dio.
 
 [Dm]Porque tú [A#]y yo,
 [C]Somos en [Dm]El un solo ser. (x2)
@@ -4689,6 +4708,46 @@ sin ju[G]garse la vida, sin gas[G7]tarla por nada.
 
 [A]Te an[G]helo, te nece[Bm]sito, [A]te a[G]mo,
 [Em]Más que a mi [D]ser.
+`
+  },
+  {
+    id: 401,
+    titulo: "Quien pierde su vida",
+    autor: "Hermana Glenda",
+    categoria: "comunion, reflexion",
+    tonoOriginal: "D",
+    letra: `
+Intro:
+Intro
+e|-------5--------------3---------------|
+B|-7--7-5--3--3---7--------7-5-3-3---3--|
+G|--------------6---4--4-----------6----|
+D|--------------------------------------|
+A|--------------------------------------|
+E|--------------------------------------|
+
+Quien [D]pierde su [A]vida por [Bm]mí,
+La en[F#m]contra[G]rá,
+La encontra[A]rá, La encontra[D]rá.
+
+Quien [D]deja su [A]padre por [Bm]mí,
+su [F#m]madre por [G]mí,
+me encontra[A]rá, me encontra[D]rá.
+
+No [A]tengas [Bm]miedo, no [F#m]tengas [G]miedo
+yo estoy [A]aquí, yo estoy [D]aquí.
+
+Quién [D]deja su [A]tierra por [Bm]mí,
+sus [F#m]bienes por [G]mí,
+sus hijos por [A]mí la encontra[D]rá.
+
+No t[A]engas [Bm]miedo, 
+[F#m]yo [G]conozco a quienes ele[A]gí,
+a quienes ele[D]gí.
+
+Quien [D]pierde su [A]vida por [Bm]mí,
+La en[F#m]contra[G]rá,
+La encontra[A]rá, La encontra[D]rá.
 `
   },
     // --- SECCIÓN: CANTOS DE Adoración ---
@@ -7188,7 +7247,7 @@ letra: `
 [E7]tierra gritando [Am]está.
 [Am]Nada traigas [C]contigo porque a tu 
 [G]lado yo [C]estaré.
-[Dm]Es hora de [Am]luchar poruqe mi 
+[Dm]Es hora de [Am]luchar porque mi 
 [E7]pueblo sufriendo [Am]está.
 
 [Coro]

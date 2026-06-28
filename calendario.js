@@ -54,7 +54,7 @@ const datosLiturgicos = {
         { id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,151,339,239] },    
         { id: "a_to_12", nombre: "12º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,191,370,398,239] },
-        { id: "a_to_13", nombre: "13º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,144,133,239] },
+        { id: "a_to_13", nombre: "13º Domingo del Tiempo Ordinario", cantos: [4,399,25,243,402,397,391,100,151,401,338,339] },
         { id: "a_to_14", nombre: "14º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,144,133,239] },
         { id: "a_to_15", nombre: "15º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,144,133,239] },
         { id: "a_to_16", nombre: "16º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,144,133,239] },
@@ -147,7 +147,7 @@ const datosLiturgicos = {
         { id: "vocafest_semi_adoracion", nombre: "Adoración - Seminario mayor (16/05/2026)", cantos: [344,387,383,339,388,367,379,136,270] },
         { id: "vig_pentecostes_hsanta", nombre: "Vigilia de Pentecostés - Motul - H.Santa (23/05/2026)", cantos: [137,389,390,343,339,136] },
         { id: "vig_pentecostes_anima", nombre: "Vigilia de Pentecostés - Motul - Animación (23/05/2026)", cantos: [270,275,106,1000,385,277,109] },
-        {id: "fies_patronal_nssc", nombre: "Fiesta patronal NSSC", cantos: [293,173,112,65,64,82,90,128,183,303,316,312] },*/
-        {id: "seminario_entrega_ministerios", nombre: "Seminario - Entrega de Ministerios (20/06/2026)", cantos: [4,25,60,179,391,100,122,143,383,133,198] },
+        {id: "fies_patronal_nssc", nombre: "Fiesta patronal NSSC", cantos: [293,173,112,65,64,82,90,128,183,303,316,312] },
+        {id: "seminario_entrega_ministerios", nombre: "Seminario - Entrega de Ministerios (20/06/2026)", cantos: [4,25,60,179,391,100,122,143,383,133,198] },*/
      ],
 };
