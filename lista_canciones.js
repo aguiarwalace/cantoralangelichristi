@@ -1474,13 +1474,13 @@ Sua [G] pobreza nos [A] enrique [Bm] ceu
 [E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
 [E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
 
-[F#m]Cuando estamos [G#m]unidos, [A]con nosotros [C#m]estás
+[F#m]Cuando estamos [G#m]unidos, [A]con nosotros [G#m]estás
 [A]Y nos [F#m]hablarás de Tu [B7(4)]vida[B7] 
 
 [E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
 [E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
 
-[F#m]Este nuestro [G#m]mundo [A]sentido [C#m]tendrá
+[F#m]Este nuestro [G#m]mundo [A]sentido [G#m]tendrá
 [A]Si Tu [F#m]palabra [B7(4)]renovar[B7] 
 `
 },
