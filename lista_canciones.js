@@ -1471,13 +1471,13 @@ Sua [G] pobreza nos [A] enrique [Bm] ceu
   categoria: "aleluya",
   tonoOriginal: "E",
   letra: `
-[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [E]ale[B7]luia
+[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
 [E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
 
 [F#m]Cuando estamos [G#m]unidos, [A]con nosotros [C#m]estás
 [A]Y nos [F#m]hablarás de Tu [B7(4)]vida[B7] 
 
-[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [E]ale[B7]luia
+[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
 [E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
 
 [F#m]Este nuestro [G#m]mundo [A]sentido [C#m]tendrá
@@ -4801,41 +4801,44 @@ Intro: [Dm] [Bb] [F] [C]
   titulo: "ANÍMATE",
   autor: "Verónica Sanfilippo",
   categoria: "adoracion",
-  tonoOriginal: "C (capo 1)",
+  tonoOriginal: "Am (capo 1)",
   letra: `
-Intro: [C] [C] [F/G]
+[Am]Ya confe[G]sé mi fe ante [C]ti,
+[Am]Hoy me re[G]velaste el ca[C]mino que ele[F]gí.
+[Am]Que es renun[G]ciar a todo [C]lo que un día fui,
+[Am]Cargar mi [G]cruz y segui[C]rte hasta el [F]fin.
 
-[C]Ya confese mi fe ante ti,
-Hoy me revelaste el camino que ele[F]gí, [G]
-[C]Que es renunciar a todo lo que un día fui,
-Cargar mi cruz y seguirte hasta el [F]fin. [G]
+[Am]Y en esta [G]vida junto a [C]ti,
+[Am]Me en[G]señas que no [C]solo se trata de [F]mi.
+[Am]Me invitas [G]a que abra el [C]corazón,
+[Am]Para mir[G]ar al otro y [C]ver en su inte[F]rior.
 
-[C]Y en esta vida junto a ti,
-Me ensañas que no solo se trata de [F]mi, [G]
-[C]Me invitas a que abra el corazón,
-Para mirar al otro y ver en su inte[F]rior: [G]
+Lo que lo hace [Am]sufrir,
+Lo que hiere su [F]sentir,
+Lo que le quita la [C]paz,
+Lo que no puede car[G]gar.
 
-[C]Lo que lo hace [C] sufrir,
-[C]Lo que hiere su [C] sentir,
-[C]Lo que le quita la [C] paz,
-[C]Lo que no puede car[G]gar.
+Y tú me dices a[Am]ní[G]ma[C]te,
+A sal[F]ir de ti, [G]a morir a tí.
+Ohh a[Am]ní[G]ma[C]te,
+a car[F]gar tu cruz,
+Ven y [G]sígueme,
+Oh a[Am]ní[G]ma[C]te,
+A perde[F]rte en mí,
+una y [G]otra vez.
+Oh a[Am]ní[G]ma[C]te,
+a que tu [F]vida sea res[G]puesta de amor.[Am][G][C][F][G] 
 
-[F] [G] [C] Y tú me dices anímate,
-[Am] A salir de ti, [G] a morir a tí.
-[Am] [G] [C] Ohh anímate, [Am] a cargar tu cruz,
-[G] Ven y sígueme, [F] [G] [C] oh anímate,
-[Am] A perderte en mí, [G] una y otra vez.
-[Am] [F] [C] Oh anímate, [C] a que tu vida sea mi [Am] respuesta [G] de [C] amor.
+Y con tu gracia yo me a[Am]ni[G]ma[C]ré,
+A sa[F]lir de mí, [G]de morir a mi.
+Yo me a[Am]ni[G]ma[C]ré,
+Cargar[F]é mi cruz [G]y te seguiré.
+Yo me a[Am]ni[G]ma[C]ré,
+a perde[F]rme en ti, Una y [G]otra vez.
+Yo me a[Am]ni[G]ma[C]ré, 
+a que mi [F]vida sea respu[G]esta de amor.[Am][G][C][F][G] 
 
-[Am] Y con tu gracia yo me ani[F]mare,
-[C] A salir de mí, [G] de morir a mi.
-[Am] Yo me ani[F]mare,
-[C] Cargare mi cruz [G] y te seguiré.
-[Am] Yo me ani[F]mare, [C] a perderme en [G] ti,
-[Am] Una u [F] otra vez.
-[Am] Yo me ani[F]mare, [C] a que mi vida sea [Am] respuesta [G] de [C] amor.
-
-[F] [G] [C] Ooh, [F] [G] [C] Yo quiero que mi vida sea [Am] respuesta [G] de [C] amor.
+Yo [Am]quiero que mi [F]vida sea resp[G]uesta de amor.[Am][G][C][F][G] [Am] 
 `
 },
   {
@@ -7010,7 +7013,7 @@ A donde Él va. (x2)
     titulo: "UNO",
     autor: "Anónimo",
     categoria: "salida",
-    tonoOriginal: "G",
+    tonoOriginal: "G(capo3)",
     letra: `
 [Intro] G C Em D
 
@@ -7789,7 +7792,7 @@ Siendo hu[G]milde como lo fuiste tú.
     categoria: "marianos",
     tonoOriginal: "D",
     letra: `
-Intro: [D] [G] [D] [G]
+[Intro:] [D] [G] [D] [G]
 
 [D]Quiero caminar con[G]tigo María
 [D]Pues tu eres mi Madre [G]eres mi guía
@@ -7823,7 +7826,7 @@ Hoy yo te o[Bm]frezco [A]toda mi [D]vida
 Guía mis [D]pasos [G]Llévame al [D]cielo [(A)]
 Bajo tu [Bm]manto [G]No tengo [A]miedo
 Llena de [D]gracia [G]Ave Ma[D]ría [(A)]
-Hoy yo te o[Bm]frezco [A]toda mi [D]vida [(x2)]
+Hoy yo te o[Bm]frezco [A]toda mi [D]vida [(x2)] 
 `
   },
   {
