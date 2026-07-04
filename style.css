@@ -339,6 +339,13 @@ body.dark-mode .welcome-title {
     height: 100%;
     box-sizing: border-box;
 }
+.calendar-container h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-main);
+    text-align: center;
+}
 
 /* Contenedor en cuadrícula (Responsive: 1 col en celular, 2 cols en pantallas más grandes) */
 .dashboard-grid {
