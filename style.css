@@ -82,6 +82,7 @@ header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
     padding: 20px;
     display: flex;
     justify-content: center;
+    background-color: rgb(207, 237, 255);
 }
 
 .song-card {
