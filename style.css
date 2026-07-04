@@ -288,6 +288,7 @@ input[type="text"], select {
 .welcome-title, 
 .coro-lema, 
 .welcome-subtitle, 
+.calendar-container,
 .dashboard-grid {
     position: relative;
     z-index: 1;                /* Capa 1 (por encima de la capa 0 del fondo) */
@@ -319,6 +320,13 @@ body.dark-mode .welcome-title {
     font-size: 1rem;
     margin-bottom: 30px;
     opacity: 0.8;
+}
+
+.calendar-container {
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.541);
 }
 
 /* Contenedor en cuadrícula (Responsive: 1 col en celular, 2 cols en pantallas más grandes) */
