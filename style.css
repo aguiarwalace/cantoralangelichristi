@@ -7,6 +7,7 @@
     --text-main: #333;
     --red-chord: #e74c3c;
     --shadow: 0 4px 6px rgba(0,0,0,0.1);
+    --bg-box: #ffffff81;
 }
 
 /* --- BASE --- */
@@ -26,6 +27,7 @@ body.dark-mode {
     --bg-card: #2d2d2d;
     --text-main: #f4f4f4;
     --red-chord: #ff7675;
+    --bg-box: #2d2d2d
 }
 
 /* --- HEADER --- */
@@ -325,8 +327,17 @@ body.dark-mode .welcome-title {
 .calendar-container {
     margin-bottom: 30px;
     width: 100%;
-    max-width: 400px;
-    background-color: rgba(255, 255, 255, 0.541);
+    max-width: 600px;
+    background: var(--bg-box);
+    border-radius: 12px;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.05);
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 /* Contenedor en cuadrícula (Responsive: 1 col en celular, 2 cols en pantallas más grandes) */
