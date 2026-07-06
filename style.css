@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Thelorin';
-    src: url('Thelorin.otf') format('otf');
+    src: url('fonts/Thelorin.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -21,12 +21,17 @@
 body {
     background-color: var(--bg-body);
     color: var(--text-main);
-    font-family: 'Thelorin', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     transition: background 0.3s, color 0.3s;
+}
+
+h1, h2, h3, .welcome-title {
+    font-family: 'Thelorin', 'Segoe UI', Arial, sans-serif;
+    font-weight: 600; /* Controla el grosor de la fuente de tus títulos */
 }
 
 body.dark-mode {
