@@ -9,8 +9,7 @@ const ASSETS_TO_CACHE = [
     './lista_canciones.js',
     './img/angeli_christi_logo.png',
     './img/1000083962.png',
-    // Si tu fuente 'Thelorin' es local, asegúrate de poner su ruta exacta aquí abajo:
-    // './fonts/Thelorin.otf' 
+    './fonts/Thelorin.otf' 
 ];
 
 // 1. INSTALACIÓN: Descarga los archivos y los guarda en el celular
