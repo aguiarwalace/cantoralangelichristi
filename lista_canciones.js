@@ -4774,7 +4774,7 @@ A ti siempre [Am]iré, contigo [F]me quedaré
 tengo la cer[C]teza de que me amas
 en ti pongo [G]mi confianza.
 A ti siempre [Am]iré. [F] [C] [G] [Am]`
-}
+},
 
     // --- SECCIÓN: CANTOS DE Adoración ---
      {
