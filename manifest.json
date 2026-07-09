@@ -16,14 +16,14 @@
   ],
   "screenshots": [
     {
-      "src": "img/1000083962.png",
+      "src": "img/banner.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Pantalla de inicio móvil"
     },
     {
-      "src": "img/1000083962.png",
+      "src": "img/banner.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
