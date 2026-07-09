@@ -268,49 +268,50 @@
 
     <script src="lista_canciones.js"></script>
     <script src="script.js"></script>
-<script>
+    <script>
     // Variables globales para controlar la instalación
     let eventoInstalacion;
     const botonInstalar = document.getElementById('btn-instalar-app');
 
     // 1. Escuchar el evento de PWA lista para instalar
     window.addEventListener('beforeinstallprompt', (e) => {
-        // Evita que Chrome muestre su banner automático por defecto
+        // Evita que Chrome muestre su banner automático por defecto de forma agresiva
         e.preventDefault();
         // Guarda el evento en nuestra variable para usarlo al hacer clic
         eventoInstalacion = e;
-        // Hace visible nuestro botón personalizado cambiando el 'none' por 'block'
+        
+        // CORRECCIÓN: Se eliminó el doble 'style' para que el botón se muestre correctamente
         if (botonInstalar) {
-            botonInstalar.style.style.display = 'inline-block';
+            botonInstalar.style.display = 'inline-block';
         }
     });
 
-    // 2. Lógica cuando el usuario hace clic en nuestro botón
+    // 2. Lógica cuando el usuario hace clic en nuestro botón personalizado
     if (botonInstalar) {
         botonInstalar.addEventListener('click', async () => {
             if (eventoInstalacion) {
-                // Muestra la ventana nativa de instalación del teléfono
+                // Muestra la ventana de confirmación en el teléfono
                 eventoInstalacion.prompt();
                 // Espera a que el usuario elija "Instalar" o "Cancelar"
                 const { outcome } = await eventoInstalacion.userChoice;
                 console.log(`El usuario eligió: ${outcome}`);
-                // Limpiamos la variable ya que el prompt solo se puede usar una vez
+                // Limpiamos la variable para liberar memoria
                 eventoInstalacion = null;
-                // Ocultamos el botón nuevamente
-                botonInstalar.style.style.display = 'none';
+                // Ocultamos el botón ya que la acción se completó
+                botonInstalar.style.display = 'none';
             }
         });
     }
 
-    // 3. Ocultar el botón si la aplicación ya se instaló con éxito
+    // 3. Ocultar el botón si la aplicación ya se instaló con éxito en el celular
     window.addEventListener('appinstalled', () => {
         console.log('¡Cantoral instalado con éxito en el dispositivo!');
         if (botonInstalar) {
-            botonInstalar.style.style.display = 'none';
+            botonInstalar.style.display = 'none';
         }
     });
 
-    // Registro estándar de tu Service Worker existente
+    // Registro estándar de tu Service Worker existente para el modo Offline
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('sw.js')
@@ -318,6 +319,6 @@
                 .catch(err => console.log('Error al activar modo offline', err));
         });
     }
-    </script>
+</script>
 </body>
 </html>
