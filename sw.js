@@ -1,5 +1,5 @@
 // Cambiamos el nombre a v2 para obligar al teléfono a borrar el caché viejo roto y descargar el nuevo completo
-const CACHE_NAME = 'cantoral-angeli-v3';
+const CACHE_NAME = 'cantoral-angeli-v4';
 
 const ASSETS_TO_CACHE = [
     './',
