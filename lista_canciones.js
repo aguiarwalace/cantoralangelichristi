@@ -5538,7 +5538,7 @@ Sé que tú estás aquí.
   {
   id: 357,
   titulo: "LO PEQUEÑO",
-  autor: "Anónimo",
+  autor: "Verónica Sanfilippo",
   categoria: "adoracion",
   tonoOriginal: "C",
   letra: `
