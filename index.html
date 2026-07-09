@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="img/angeli_christi_logo.ico" type="image/x-icon">
     <title>Cantoral Online Angeli Christi</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <header>
@@ -26,7 +27,7 @@
 
             <!-- CONTENIDO EN PRIMER PLANO -->
             <img src="img/angeli_christi_logo.png" alt="Logo Grande" class="logo-large">
-            <h2 class="welcome-title">¿Quién como Dios?<br>¡Nadie como Dios!</h2>
+            <h2 class="welcome-title">¿Quién Como Dios?<br>¡Nadie Como Dios!</h2>
             <p></p>
             <!--<h2 class="coro-lema">"¿Quién como Dios?<br>¡Nadie como Dios!"</h2>-->
             <!--<p class="welcome-subtitle">Selecciona una opción para empezar a armar tu repertorio musical:</p>-->
@@ -35,10 +36,7 @@
             <div class="calendar-container">
                 
                 <h3>Save the date!</h3>
-                <p>07/07: 18h (armar sonido a las 17h)<br>
-                    Convento de las <a href="https://maps.app.goo.gl/PhGsFX8iLrQYgQYo9">hermanas josefinas</a></p>
-                <p>08/07: 20h <br>
-                    Ensayo - Rectoría</p>
+
                 <p>09/07: 20h <br>
                     Ensayo con lectores y salmistas - Rectoría</p>
                 <p>10/07: 18h (armar sonido a las 17h)<br>
@@ -275,5 +273,14 @@
 
     <script src="lista_canciones.js"></script>
     <script src="script.js"></script>
+<script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('¡Modo offline activado con éxito!', reg))
+                    .catch(err => console.log('Error al activar modo offline', err));
+            });
+        }
+    </script>
 </body>
 </html>
