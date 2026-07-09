@@ -4754,9 +4754,10 @@ La encontra[A]rá, La encontra[D]rá.
   id: 403, 
   titulo: "A Ti siempre iré",
   autor: "Verónica Sanfilippo",
-  tonoOriginal: "C (capo1)",
-  categoria: "adoracion",
-  letra: `[C]Hoy quiero elevar esta ora[Am]ción
+  tonoOriginal: "C (capo2)",
+  categoria: "reflexion, adoracion",
+  letra: `
+[C]Hoy quiero elevar esta ora[Am]ción
 para mi [F]padre, para mi [G]Dios.
 
 Con [C]ella quiero pedirte un nuevo cora[Am]zón.
@@ -4768,7 +4769,7 @@ Que reveles tu [C]gloria y majestad en mi [G]alma.
 Dame la [Am]gracia de tu pequeñez
 para bus[F]carte y poderte ver
 y en ti encon[C]trar mi paz,
-en ti des[G]cansar mi corazón.) x2
+en ti des[G]cansar mi corazón. (x2)
 
 A ti siempre [Am]iré, contigo [F]me quedaré
 tengo la cer[C]teza de que me amas
