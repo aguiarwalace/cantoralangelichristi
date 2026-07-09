@@ -4755,7 +4755,7 @@ La encontra[A]rá, La encontra[D]rá.
   titulo: "A Ti siempre iré",
   autor: "Verónica Sanfilippo",
   tonoOriginal: "C (capo1)",
-  categoria: "Adoración",
+  categoria: "adoracion",
   letra: `[C]Hoy quiero elevar esta ora[Am]ción
 para mi [F]padre, para mi [G]Dios.
 
