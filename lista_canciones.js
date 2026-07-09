@@ -4750,6 +4750,32 @@ La en[F#m]contra[G]rá,
 La encontra[A]rá, La encontra[D]rá.
 `
   },
+  {
+  id: 403, 
+  titulo: "A Ti siempre iré",
+  autor: "Verónica Sanfilippo",
+  tonoOriginal: "C (capo1)",
+  categoria: "Adoración",
+  letra: `[C]Hoy quiero elevar esta ora[Am]ción
+para mi [F]padre, para mi [G]Dios.
+
+Con [C]ella quiero pedirte un nuevo cora[Am]zón.
+Que pueda [F]verte y escuchar tu [G]voz.
+
+[Am](Quiero abrirme al misterio de tu amor.
+Sentir tu pre[F]sencia en mi corazón.
+Que reveles tu [C]gloria y majestad en mi [G]alma.
+Dame la [Am]gracia de tu pequeñez
+para bus[F]carte y poderte ver
+y en ti encon[C]trar mi paz,
+en ti des[G]cansar mi corazón.) x2
+
+A ti siempre [Am]iré, contigo [F]me quedaré
+tengo la cer[C]teza de que me amas
+en ti pongo [G]mi confianza.
+A ti siempre [Am]iré. [F] [C] [G] [Am]`
+}
+
     // --- SECCIÓN: CANTOS DE Adoración ---
      {
     id: 337,
