@@ -5567,9 +5567,8 @@ Sé que tú estás aquí.
   titulo: "LO PEQUEÑO",
   autor: "Verónica Sanfilippo",
   categoria: "adoracion",
-  tonoOriginal: "C",
+  tonoOriginal: "C (capo2)",
   letra: `
-Capo 2
 Intro: [C] [Am] [F] [G]
 
 [C]Gracias señor, por sem[Am]brar en mi interior
