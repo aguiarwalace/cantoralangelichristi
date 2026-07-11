@@ -18,6 +18,12 @@
         </div>
         <button id="menu-btn" onclick="toggleMenu()">☰</button>
         <button id="menu-btn" onclick="window.location.href='celebraciones.html'" >📅</button>
+        <!-- NOVO: Texto de ajuda para quem não vê o botão (Inicia oculto) -->
+<div id="ajuda-instalacao" style="display: none; background: #f8f9fa; border-left: 4px solid #003468; padding: 10px; margin: 15px 0; text-align: left; border-radius: 4px; font-size: 0.9rem; color: #333;">
+    <p style="margin: 0 0 5px 0; font-weight: bold;">💡 ¿No ves el botón de instalar?</p>
+    <p style="margin: 0;">1. Si estás dentro de WhatsApp, toca los 3 puntos arriba e selecciona <b>"Abrir en Chrome"</b> (o Safari).<br>
+    2. En iPhone: Toca el botón <b>Compartir</b> 📤 y selecciona <b>"Añadir a la pantalla de inicio"</b>.</p>
+</div>
     </header>
 <main id="main-content">
         <div id="welcome-screen" class="welcome-container">
@@ -265,54 +271,60 @@
     <script src="lista_canciones.js"></script>
     <script src="script.js"></script>
     <script>
-    // Variables globales para controlar la instalación
     let eventoInstalacion;
     const botonInstalar = document.getElementById('btn-instalar-app');
+    const ajudaInstalacao = document.getElementById('ajuda-instalacao');
 
-    // 1. Escuchar el evento de PWA lista para instalar
+    // 1. Tentar ativar o botão automático (Apenas Android/Chrome real)
     window.addEventListener('beforeinstallprompt', (e) => {
-        // Evita que Chrome muestre su banner automático por defecto de forma agresiva
         e.preventDefault();
-        // Guarda el evento en nuestra variable para usarlo al hacer clic
         eventoInstalacion = e;
-        
-        // CORRECCIÓN: Se eliminó el doble 'style' para que el botón se muestre correctamente
         if (botonInstalar) {
             botonInstalar.style.display = 'inline-block';
         }
+        // Se o botão funciona, não precisamos do texto de ajuda manual
+        if (ajudaInstalacao) {
+            ajudaInstalacao.style.display = 'none';
+        }
     });
 
-    // 2. Lógica cuando el usuario hace clic en nuestro botón personalizado
+    // 2. Se passaram 3 segundos e o botão não apareceu, mostramos a ajuda manual
+    setTimeout(() => {
+        // Se a app já está instalada, não mostra nada
+        if (window.matchMedia('(display-mode: standalone)').matches) {
+            return;
+        }
+        // Se o botão continua oculto, ativa o texto de ajuda
+        if (botonInstalar && botonInstalar.style.display === 'none' && ajudaInstalacao) {
+            ajudaInstalacao.style.display = 'block';
+        }
+    }, 3000);
+
+    // 3. Clique do botão verde
     if (botonInstalar) {
         botonInstalar.addEventListener('click', async () => {
             if (eventoInstalacion) {
-                // Muestra la ventana de confirmación en el teléfono
                 eventoInstalacion.prompt();
-                // Espera a que el usuario elija "Instalar" o "Cancelar"
                 const { outcome } = await eventoInstalacion.userChoice;
-                console.log(`El usuario eligió: ${outcome}`);
-                // Limpiamos la variable para liberar memoria
+                console.log(`Usuario eligió: ${outcome}`);
                 eventoInstalacion = null;
-                // Ocultamos el botón ya que la acción se completó
                 botonInstalar.style.display = 'none';
             }
         });
     }
 
-    // 3. Ocultar el botón si la aplicación ya se instaló con éxito en el celular
+    // 4. Sumir com tudo se já foi instalado
     window.addEventListener('appinstalled', () => {
-        console.log('¡Cantoral instalado con éxito en el dispositivo!');
-        if (botonInstalar) {
-            botonInstalar.style.display = 'none';
-        }
+        if (botonInstalar) botonInstalar.style.style.display = 'none';
+        if (ajudaInstalacao) ajudaInstalacao.style.display = 'none';
     });
 
-    // Registro estándar de tu Service Worker existente para el modo Offline
+    // 5. Registro do Service Worker
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('sw.js')
-                .then(reg => console.log('¡Modo offline activado con éxito!', reg))
-                .catch(err => console.log('Error al activar modo offline', err));
+                .then(reg => console.log('Modo offline listo', reg))
+                .catch(err => console.log('Error SW', err));
         });
     }
 </script>
