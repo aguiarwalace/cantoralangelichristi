@@ -2979,37 +2979,44 @@ Así de par en [C]par, eres mi mejor a[F]migo, Jesús.
     categoria: "comunion",
     tonoOriginal: "G",
     letra: `
-[G]Tan simple a[D]sí, tan fácil a[C]sí
-A[Am]cepta y prueba de esa [G]gracia
-El pan sus[D]tenta al hombre
-[Em]Jesús sus[C]tenta al [D]alma
-[Am7]Milagro a[C]sí, no hay quien [D4][D]haga
+[G]Tan simple así, tan [D]fácil así
+A[C]cepta y [Am]prueba de esa [D]gracia
+El [G]pan sustenta al hombre
+[D]Jesús sustenta al alma
+[Am7]Milagro a[C]sí, no hay quien [D4] [D]haga
 
-[Am]Cuerpo que era [D]pan
-[Am]Sangre [C]que era [D]vino
+[Am7]Cuerpo que era pan, Sangre que era [D]vino
 [Am]hacia la eter[C]nidad es el ca[D]mino
 
-[G]Pan que los ángeles [D]comen
-Transfor[Em]mado en pan del [C]hombre
-[Am]Son los hijos que con[D]sumen
-[Am7]Pan del [C]alma que tiene [D]hambre
+[G]Pan que los ángeles comen
+Transfor[D/F#]mado en pan del hombre
+Son los [Em]hijos que consumen
+Pan del [C]alma que tiene [D]hambre
 
-[G]A los mortales das co[D]mida, das tam[Em]bién el pan de [C]vida
-[Am]Que la familia nu[D]trida sea un [C]día reuni[G]da en el cielo
+[G]A los mortales das comida, 
+das tam[D/F#]bién el pan de vida
+Que la [Em7]familia nutrida 
+sea un [C]día reuni[D]da en el [G]cielo [C/G] [D/G] [C/G] 
 
-[G]Trigo tritu[D]rado Cristo inmo[C]lado
-[Am]Ambos se [D]tornan en pan
-[G]Uno que pe[D]rece [Em]Otro que perma[C]nece
-[Am]Para [C]nuestra salva[D]ción
+[G]Trigo triturado [D/F#]Cristo inmolado
+[Am]Ambos [C]se tornan en [D]pan
+[G]Uno que perece [D/F#]Otro que permanece
+[Am7]Para [C]nuestra salva[D]ción
 
-[G]¡Oh, Señor de la uni[D]dad! [Em]Quítanos la orfan[C]dad
-Pan que los ángeles comen
-Transformado en pan del hombre
-Son los hijos que consumen
-Pan del alma que tiene hambre
+[Am7]¡Oh, Señor de la uni[D]dad!
+[Am7]Quítanos[C] la orfan[D]dad
 
-A los mortales das comida, das también el pan de vida
-Que la familia nutrida sea un día reunida en el cielo.
+[G]Pan que los ángeles comen
+Transfor[D/F#]mado en pan del hombre
+Son los [Em]hijos que consumen
+Pan del [C]alma que tiene [D]hambre
+
+[G]A los mortales das comida, 
+das tam[D/F#]bién el pan de vida
+Que la [Em7]familia nutrida 
+sea un [C]día reuni[D]da en el [G]cielo [C/G] [D/G] [C/G] [bis.]
+
+[G]Tan simple así, tan [D/F#]fácil así [Em7/9] 
 `
   },
   {
