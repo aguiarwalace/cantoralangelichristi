@@ -1,6 +1,6 @@
 {
   "name": "Cantoral Angeli Christi",
-  "short_name": "Cantoral",
+  "short_name": "Cantoral Angeli Christi",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -16,9 +16,9 @@
   ],
   "screenshots": [
     {
-      "src": "img/banner.png",
-      "sizes": "1366x1536",
-      "type": "image/png",
+      "src": "img/vertical.jpeg",
+      "sizes": "610x1356",
+      "type": "image/jpeg",
       "form_factor": "narrow",
       "label": "Pantalla de inicio"
     }

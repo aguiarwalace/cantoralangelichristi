@@ -29,13 +29,7 @@
             <img src="img/angeli_christi_logo.png" alt="Logo Grande" class="logo-large">
             <h2 class="welcome-title">¿Quién Como Dios?<br>¡Nadie Como Dios!</h2>
             
-            <!-- BOTÓN DE INSTALACIÓN PERSONALIZADO (Inicia oculto con display: none) -->
-<button id="btn-instalar-app" style="display: none; background: #2ecc71; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; margin: 15px 0; cursor: pointer; width: 100%; max-width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    📲 Instalar como Aplicación
-</button>
             <p></p>
-            <!--<h2 class="coro-lema">"¿Quién como Dios?<br>¡Nadie como Dios!"</h2>-->
-            <!--<p class="welcome-subtitle">Selecciona una opción para empezar a armar tu repertorio musical:</p>-->
 
             <!-- CALENDARIO DEL MES -->
             <div class="calendar-container">
@@ -60,6 +54,7 @@
                     Curso de Liturgia - Rectoría</p>
                 <p>30/07: 18h <br>
                     Hora Santa - CP4</p>
+
                 <!-- Eventos futuros
                 <p>05/08 - 20h  <br>
                     Ensayo - Rectoría</p>
@@ -136,7 +131,7 @@
                     <div class="dash-icon" style="background: rgba(212, 175, 55, 0.15); color: #bfa02c;">📅</div>
                     <div class="dash-info">
                         <h3>Celebraciones</h3>
-                        <p>Revisa las fechas y los cantos asignados para cada misa.</p>
+                        <p>Revisa las fechas y los cantos assigned para cada misa.</p>
                     </div>
                 </div>
 
@@ -150,16 +145,6 @@
                     </div>
                 </a>
 
-               <!-- <a href="https://arquidiocesisdeyucatan.org.mx/wp-content/uploads/2026/08/PalabraVivaAgosto26.pdf" target="_blank" class="dash-card-link">
-                    <div class="dash-card">
-                        <div class="dash-icon" style="background: rgba(6, 192, 31, 0.1); color: #2bff00;">⛪</div>
-                        <div class="dash-info">
-                            <h3>Misal Agosto 2026</h3>
-                            <p>Antífona, oraciones y lecturas para la Misa</p>
-                        </div>
-                    </div>
-                </a> -->
-
                 <a href="https://arquidiocesisdeyucatan.org.mx/wp-content/uploads/2026/07/PalabraVivaJulio26.pdf" target="_blank" class="dash-card-link">
                     <div class="dash-card">
                         <div class="dash-icon" style="background: rgba(6, 192, 31, 0.1); color: #2bff00;">⛪</div>
@@ -169,6 +154,16 @@
                         </div>
                     </div>
                 </a>
+
+                <!-- <a href="https://arquidiocesisdeyucatan.org.mx/wp-content/uploads/2026/08/PalabraVivaAgosto26.pdf" target="_blank" class="dash-card-link">
+                    <div class="dash-card">
+                        <div class="dash-icon" style="background: rgba(6, 192, 31, 0.1); color: #2bff00;">⛪</div>
+                        <div class="dash-info">
+                            <h3>Misal Agosto 2026</h3>
+                            <p>Antífona, oraciones y lecturas para la Misa</p>
+                        </div>
+                    </div>
+                </a> -->
 
                 <a href="https://drive.google.com/file/d/1JOed7rWY1Z5teke4MkoTM_XlD02eKipz/view" target="_blank" class="dash-card-link">
                     <div class="dash-card">
@@ -189,28 +184,26 @@
                         </div>
                     </div>
                 </a>
-                <div>
-                    <button id="btn-instalar-app" style="display: none; background: #2ecc71; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; margin: 15px 0; cursor: pointer; width: 100%; max-width: 300px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    📲 Instalar como Aplicación
-                    </button>
+
+                <!-- NOVO: CARTÃO DE INSTALAÇÃO INTEGRADO AO GRID (SEMPRE VISÍVEL) -->
+                <div id="btn-instalar-app" class="dash-card" style="cursor: pointer; background: rgba(46, 204, 113, 0.4); border: 1px solid rgba(46, 204, 113, 0.2);">
+                    <div class="dash-icon" style="background: rgba(46, 204, 112, 0.6); color: #2ecc71;">📲</div>
+                    <div class="dash-info">
+                        <h3>Instalar Aplicación</h3>
+                        <p>Usa el cantoral sin internet directamente en tu pantalla de inicio.</p>
+                    </div>
+                </div>
+
+                <!-- NOVO: TEXTO DE AJUDA EXPANSÍVEL INTEGRADO DENTRO DO GRID -->
+                <div id="ajuda-instalacao" style="display: none; grid-column: 1 / -1; background: #f8f9fa; border-left: 4px solid #003468; padding: 12px; margin-top: 5px; border-radius: 6px; font-size: 0.9rem; color: #333;">
+                    <p style="margin: 0 0 6px 0; font-weight: bold;">💡 ¿No aparece la ventana de instalación?</p>
+                    <p style="margin: 0; line-height: 1.4;">1. Si estás abriendo el enlace desde WhatsApp, toca los 3 puntos arriba a la derecha y selecciona <b>"Abrir en Chrome"</b> (o Safari).<br>
+                    2. En iPhone (iOS): Toca el botón de <b>Compartir</b> 📤 en Safari y elige <b>"Añadir a la pantalla de inicio"</b>.</p>
                 </div>
             </div>
         
         <div id="song-display"></div>
     </main>
-    <!--<main id="main-content">
-        <div id="welcome-screen" class="center" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 50px 20px;">
-            <img src="img/angeli_christi_logo.png" alt="Logo Grande" class="logo-large">
-            <p class="coro-lema" style="font-style: italic; margin-top: 20px;">¿Quién como Dios? ¡Nadie como Dios!</p>
-            <p>Abre el menú para buscar canciones y armar tu repertorio.</p>
-        </div>
-        <div id="links-cantoral">
-            <p><a href="https://drive.google.com/file/d/1JOed7rWY1Z5teke4MkoTM_XlD02eKipz/view" target="_blank">Cantoral 2014</a></p>
-            <p><a href="https://drive.google.com/file/d/19IIiFJIrRiLCUJafd9kcmC7axcjZ9Aa5/view" target="_blank">Cantoral 2024</a></p>
-        </div>
-        
-        <div id="song-display"></div>
-    </main>-->
 
     <nav id="sidebar">
         <div class="sidebar-header">
@@ -250,10 +243,9 @@
         </div>
 
         <button class="btn-clear" onclick="clearSearch()" style="width: 100%; margin-bottom: 10px; background: #eee; color: #333; border: 1px solid #ccc; padding: 5px; cursor: pointer; border-radius: 4px;">
-    🧹 Limpiar búsqueda
-</button>
+            掃除 🧹 Limpiar búsqueda
+        </button>
 
-        
         <div id="song-list-container" style="max-height: 60vh; overflow-y: auto; margin-bottom: 15px;">
         </div>
 
@@ -274,51 +266,53 @@
     const botonInstalar = document.getElementById('btn-instalar-app');
     const ajudaInstalacao = document.getElementById('ajuda-instalacao');
 
-    // 1. Tentar ativar o botão automático (Apenas Android/Chrome real)
+    // 1. Capturar o evento de instalação se o navegador for compatível
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         eventoInstalacion = e;
-        if (botonInstalar) {
-            botonInstalar.style.display = 'inline-block';
-        }
-        // Se o botão funciona, não precisamos do texto de ajuda manual
-        if (ajudaInstalacao) {
-            ajudaInstalacao.style.display = 'none';
-        }
+        // O cartão já está visível por padrão, não precisamos alterar o display dele aqui
     });
 
-    // 2. Se passaram 3 segundos e o botão não apareceu, mostramos a ajuda manual
-    setTimeout(() => {
-        // Se a app já está instalada, não mostra nada
-        if (window.matchMedia('(display-mode: standalone)').matches) {
-            return;
-        }
-        // Se o botão continua oculto, ativa o texto de ajuda
-        if (botonInstalar && botonInstalar.style.display === 'none' && ajudaInstalacao) {
-            ajudaInstalacao.style.display = 'block';
-        }
-    }, 3000);
-
-    // 3. Clique do botão verde
+    // 2. Lógica de controle ao clicar no Cartão do Grid
     if (botonInstalar) {
         botonInstalar.addEventListener('click', async () => {
             if (eventoInstalacion) {
+                // Se o prompt automático estiver disponível, executa-o
                 eventoInstalacion.prompt();
                 const { outcome } = await eventoInstalacion.userChoice;
                 console.log(`Usuario eligió: ${outcome}`);
                 eventoInstalacion = null;
-                botonInstalar.style.display = 'none';
+            } else {
+                // Se não houver evento nativo (ex: iPhone ou WhatsApp), expande ou recolhe as instruções
+                if (ajudaInstalacao) {
+                    if (ajudaInstalacao.style.display === 'none' || ajudaInstalacao.style.display === '') {
+                        ajudaInstalacao.style.display = 'block';
+                    } else {
+                        ajudaInstalacao.style.display = 'none';
+                    }
+                }
             }
         });
     }
 
-    // 4. Sumir com tudo se já foi instalado
+    // 3. Modificar o texto se o aplicativo for instalado com sucesso neste momento
     window.addEventListener('appinstalled', () => {
-        if (botonInstalar) botonInstalar.style.style.display = 'none';
         if (ajudaInstalacao) ajudaInstalacao.style.display = 'none';
+        const tituloCard = botonInstalar ? botonInstalar.querySelector('h3') : null;
+        const descCard = botonInstalar ? botonInstalar.querySelector('p') : null;
+        if (tituloCard) tituloCard.innerText = '¡Aplicación Instalada!';
+        if (descCard) descCard.innerText = 'Ya tienes el cantoral guardado en tu pantalla de inicio.';
     });
 
-    // 5. Registro do Service Worker
+    // 4. Verificar na inicialização se o usuário JÁ está usando o app instalado (Modo Standalone)
+    if (window.matchMedia('(display-mode: standalone)').matches) {
+        const tituloCard = botonInstalar ? botonInstalar.querySelector('h3') : null;
+        const descCard = botonInstalar ? botonInstalar.querySelector('p') : null;
+        if (tituloCard) tituloCard.innerText = '¡Aplicación Instalada!';
+        if (descCard) descCard.innerText = 'Estás usando la versión oficial offline en tu dispositivo.';
+    }
+
+    // 5. Registro do Service Worker para o Modo Offline
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('sw.js')
