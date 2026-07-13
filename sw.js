@@ -1,5 +1,5 @@
 // Atualizamos para v2.2 com pontos para forçar o celular a baixar a correção dos botões
-const CACHE_NAME = 'cantoral-angeli-v2.3';
+const CACHE_NAME = 'cantoral-angeli-v20260713.1';
 
 const ASSETS_TO_CACHE = [
     './',
@@ -14,6 +14,7 @@ const ASSETS_TO_CACHE = [
     './img/angeli_christi_logo_blc.png',
     './img/angeli_christi_logo.ico',
     './img/banner.png',
+    './pdf/preces-leoninas.pdf',
     './fonts/Thelorin.otf' 
 ];
 

@@ -37,15 +37,11 @@
                 <h3>Save the date!</h3>
 
                 <p>15/07: 20h <br>
-                    Ensayo para evento - Rectoría</p>
+                    Ensayo - Rectoría</p>
                 <p>17/07: 20h <br>
                     Formación - Rectoría</p>
                 <p>22/07: 20h <br>
-                    Ensayo para evento - Rectoría</p>
-                <p>24/07 : 20h<br>
-                    Ensayo para evento - Rectoría</p>
-                <p>25/07: 19h (salida a las 15h)<br>
-                    Hora Santa y concierto (animación) - <a href="https://maps.app.goo.gl/9Ryuy5QdGzZNkYhz9">Chichimilá (Dec.10)</a></p>
+                    Ensayo - Rectoría</p>
                 <p>27/07: 20h <br>
                     Curso de Liturgia - Rectoría</p>
                 <p>28/07: 20h <br>
@@ -77,6 +73,8 @@
                     Ensayo - Rectoría</p>
                 <p>23/09 - 20h  <br>
                     Ensayo - Rectoría</p>
+                <p>25/07: 19h (salida a las 15h)<br>
+                    Hora Santa y concierto (animación) - <a href="https://maps.app.goo.gl/9Ryuy5QdGzZNkYhz9">Chichimilá (Dec.10)</a></p>
                 <p>30/09 - 20h  <br>
                     Ensayo - Rectoría</p>
 
@@ -194,12 +192,12 @@
                     </div>
                 </div>
 
-                <!-- NOVO: TEXTO DE AJUDA EXPANSÍVEL INTEGRADO DENTRO DO GRID -->
+                <!-- NOVO: TEXTO DE AJUDA EXPANSÍVEL INTEGRADO DENTRO DO GRID
                 <div id="ajuda-instalacao" style="display: none; grid-column: 1 / -1; background: #f8f9fa; border-left: 4px solid #003468; padding: 12px; margin-top: 5px; border-radius: 6px; font-size: 0.9rem; color: #333;">
                     <p style="margin: 0 0 6px 0; font-weight: bold;">💡 ¿No aparece la ventana de instalación?</p>
                     <p style="margin: 0; line-height: 1.4;">1. Si estás abriendo el enlace desde WhatsApp, toca los 3 puntos arriba a la derecha y selecciona <b>"Abrir en Chrome"</b> (o Safari).<br>
                     2. En iPhone (iOS): Toca el botón de <b>Compartir</b> 📤 en Safari y elige <b>"Añadir a la pantalla de inicio"</b>.</p>
-                </div>
+                </div>-->
             </div>
         
         <div id="song-display"></div>
@@ -243,7 +241,7 @@
         </div>
 
         <button class="btn-clear" onclick="clearSearch()" style="width: 100%; margin-bottom: 10px; background: #eee; color: #333; border: 1px solid #ccc; padding: 5px; cursor: pointer; border-radius: 4px;">
-            掃除 🧹 Limpiar búsqueda
+            🧹 Limpiar búsqueda
         </button>
 
         <div id="song-list-container" style="max-height: 60vh; overflow-y: auto; margin-bottom: 15px;">
@@ -266,7 +264,7 @@
     const botonInstalar = document.getElementById('btn-instalar-app');
     const ajudaInstalacao = document.getElementById('ajuda-instalacao');
 
-    // 1. Capturar o evento de instalação se o navegador for compatível
+    /*// 1. Capturar o evento de instalação se o navegador for compatível
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         eventoInstalacion = e;
@@ -310,7 +308,7 @@
         const descCard = botonInstalar ? botonInstalar.querySelector('p') : null;
         if (tituloCard) tituloCard.innerText = '¡Aplicación Instalada!';
         if (descCard) descCard.innerText = 'Estás usando la versión oficial offline en tu dispositivo.';
-    }
+    }*/
 
     // 5. Registro do Service Worker para o Modo Offline
     if ('serviceWorker' in navigator) {

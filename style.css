@@ -68,8 +68,6 @@ header {
 .logo-mini { 
     height: 45px; 
     width: 45px;
-    /* border-radius: 50%; */
-    /* border: 2px solid var(--accent); */
     object-fit: cover;
 }
 
@@ -120,36 +118,66 @@ body.dark-mode .song-header h2 {
     border-bottom-color: #444;
 }
 
-/* --- MOTOR DE ACORDES RECALIBRADO --- */
+/* --- MOTOR DE ACORDES HÍBRIDO (SIN DESFASES NI SOLAPAMIENTOS) --- */
 .lyrics-container {
     font-size: 1.2rem;
-    line-height: 2.8; /* Espacio equilibrado */
+    line-height: 3.4; /* Espacio vertical amplio y seguro para la fila de acordes */
     margin-top: 30px;
     white-space: pre-wrap;
     word-wrap: break-word;
     transition: font-size 0.2s ease;
 }
 
-/* Alineación precisa de Acorde sobre Letra */
-ruby {
-    display: inline-flex;
-    flex-direction: column-reverse;
+/* 1. ESTILO PARA ESTROFAS: Bloque invisible de ancho cero (Evita separar palabras) */
+.acorde-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 0;
     vertical-align: bottom;
-    align-items: center;
-    margin-right: 2px;
-    height: auto; 
-    justify-content: flex-start;
 }
 
-rt {
-    display: block;
-    line-height: 1.1; 
-    color: var(--red-chord);
+.acorde-interno {
+    position: absolute;
+    bottom: 1.4em; /* Eleva el acorde sobre el renglón */
+    left: 0;
     font-weight: bold;
-    font-size: 0.9em; /* Ligeramente más pequeño que la letra para estética */
-    text-align: center;
-    margin-bottom: 0.1em; /* Pegado a la letra pero legible */
+    color: var(--red-chord); /* Recupera tu color rojo variable (Claro/Oscuro) */
     font-family: 'Segoe UI', sans-serif;
+    font-size: 0.85em;
+    white-space: nowrap;
+}
+
+/* 2. ESTILO PARA INTROS: Bloque elástico con ancho real (Evita la sobreescritura) */
+.acorde-bloque {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    color: var(--red-chord); /* Mismo color rojo de tu identidad visual */
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.85em;
+    white-space: nowrap;
+    margin-right: 10px; /* Margen de seguridad horizontal entre acordes seguidos */
+    transform: translateY(-1.4em); /* Lo eleva visualmente a la misma altura que los demás */
+}
+
+/* Contenedor invisible que evita el desplazamiento horizontal del texto */
+.acorde-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    vertical-align: bottom;
+}
+
+/* Acorde flotante alineado milimétricamente arriba de la letra */
+.acorde-interno {
+    position: absolute;
+    bottom: 1.4em; /* Eleva el acorde con precisión matemática sobre el renglón */
+    left: 0;
+    font-weight: bold;
+    color: var(--red-chord); /* Se vincula automáticamente a tus variables de tema */
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.85em; /* Ajuste estético sutil */
+    white-space: nowrap; /* Impide saltos de línea dentro de acordes complejos */
 }
 
 /* --- CONTROLES (TONO Y TAMAÑO) --- */
@@ -259,8 +287,6 @@ input[type="text"], select {
 
 .logo-large {
     max-width: 200px;
-    /* border-radius: 50%; */
-    /* border: 3px solid var(--accent); */
     margin-bottom: 15px;
     display: block;
     margin-left: auto;
@@ -268,9 +294,8 @@ input[type="text"], select {
 }
 
 /* --- CONFIGURACIÓN DE LA PÁGINA INICIAL CON FOTO DE FONDO --- */
-
 .welcome-container {
-    position: relative;     /* Permite que la imagen de fondo se alinee dentro de esta caja */
+    position: relative;     
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,26 +304,24 @@ input[type="text"], select {
     width: 100%;
     max-width: 800px;
     box-sizing: border-box;
-    overflow: hidden;       /* ¡SOLUCIÓN! Corta cualquier exceso y repara el menú de búsqueda */
+    overflow: hidden;       
     border-radius: 16px;
 }
 
-/* Capa especial para la foto '1000083962.png' actuando como marca de agua */
 .welcome-bg-image {
-    position: absolute;     /* Se independiza del texto y se pega a las esquinas */
+    position: absolute;     
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('img/banner.png'); /* Ruta de tu imagen */
-    background-size: cover;    /* Reajusta la foto para que cubra todo el espacio sin deformarse */
-    background-position: center;/* Centra la escena del coro */
-    opacity: 1.0;             /* Controla la transparencia (0.12 = 12% visible, muy sutil) */
-    z-index: 0;                /* La posiciona al fondo de todo */
-    pointer-events: none;      /* Hace que la imagen sea invisible a los clics, permitiendo tocar las tarjetas */
+    background-image: url('img/banner.png'); 
+    background-size: cover;    
+    background-position: center;
+    opacity: 1.0;             
+    z-index: 0;                
+    pointer-events: none;      
 }
 
-/* Forzar que el texto y las tarjetas se dibujen por encima de la foto de fondo */
 .logo-large, 
 .welcome-title, 
 .coro-lema, 
@@ -306,19 +329,7 @@ input[type="text"], select {
 .calendar-container,
 .dashboard-grid {
     position: relative;
-    z-index: 1;                /* Capa 1 (por encima de la capa 0 del fondo) */
-}
-
-/* El resto de estilos de tus tarjetas (dashboard-grid, dash-card, etc.) se quedan exactamente igual */
-/* --- NUEVOS ESTILOS PARA EL DASHBOARD DE INICIO --- */
-.welcome-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 30px 10px;
-    width: 100%;
-    max-width: 800px;
+    z-index: 1;                
 }
 
 .welcome-title {
@@ -361,7 +372,6 @@ body.dark-mode .welcome-title {
     text-align: center;
 }
 
-/* Contenedor en cuadrícula (Responsive: 1 col en celular, 2 cols en pantallas más grandes) */
 .dashboard-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -371,14 +381,12 @@ body.dark-mode .welcome-title {
     padding: 10px;
 }
 
-/* El enlace que envuelve a las tarjetas de Google Drive */
 .dash-card-link {
     text-decoration: none;
     color: inherit;
     display: block;
 }
 
-/* Diseño base de la tarjeta */
 .dash-card {
     background: var(--bg-card);
     border-radius: 12px;
@@ -400,14 +408,12 @@ body.dark-mode .dash-card {
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
-/* Animación al pasar el mouse por encima */
 .dash-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
     border-color: var(--accent);
 }
 
-/* Círculo contenedor del icono */
 .dash-icon {
     font-size: 1.8rem;
     width: 55px;
@@ -419,7 +425,6 @@ body.dark-mode .dash-card {
     flex-shrink: 0;
 }
 
-/* Textos internos de las tarjetas */
 .dash-info h3 {
     margin: 0 0 5px 0;
     font-size: 1.1rem;

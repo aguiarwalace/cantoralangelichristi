@@ -10022,7 +10022,7 @@ Soy tu hija, en tu amor hallé mi vida.
     categoria: "angelichristi",
     tonoOriginal: "C#m",
     letra: `
-[C#m] [B] [E] [A] [D#m7(5b)] [G#m7]\n 
+[C#m B E A D#m7(5b) G#m7]\n 
 [C#m]El Se[B]ñor es [E]mi pas[A]tor
 Y [D#m7(5b)]nada me fal[G#m7]tará 
 A las [C#m]aguas tran[B]quilas [E]me con[A]duce 

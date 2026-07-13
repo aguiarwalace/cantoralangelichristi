@@ -1,7 +1,7 @@
 // --- 1. VARIABLES Y ESCALAS ---
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-// NUEVO: Lista gramatical exacta de los tonos que llevan bemoles
+// Lista gramatical exacta de los tonos que llevan bemoles
 const tonosConBemoles = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm', 'Ebm'];
 
 let seleccionadas = [];
@@ -72,7 +72,7 @@ function displaySong() {
 
     const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida, tonoDestino);
 
-    // --- NUEVO: LÓGICA PARA LOS LINKS EXTERNOS ---
+    // --- LÓGICA PARA LOS LINKS EXTERNOS ---
     let botonesLinksHtml = '';
     
     if (song.linkYoutube) {
@@ -84,7 +84,6 @@ function displaySong() {
 
     // Contenedor que solo aparece si hay al menos un link
     let seccionRecursos = botonesLinksHtml ? `<div style="margin-top: 15px;">${botonesLinksHtml}</div>` : '';
-    // ---------------------------------------------
 
     display.innerHTML = `
         <div class="song-card">
@@ -127,7 +126,7 @@ function calcularNombreTono(tonoOriginal, semitonos) {
     
     let nuevoIndice = (indice + semitonos + 12) % 12;
     
-    // NUEVO: Creamos la versión bemol y le preguntamos a la regla si debe ir así
+    // Creamos la versión bemol y le preguntamos a la regla si debe ir así
     const baseBem = escBem[nuevoIndice] + adorno;
     const matchBase = baseBem.match(/^([A-G][#b]?m?)/);
     const tonoParaComparar = matchBase ? matchBase[1] : baseBem;
@@ -149,15 +148,31 @@ function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
     });
 }
 
+// FUNCIÓN RENOVA: Motor Híbrido que diferencia acordes en texto de acordes en intros
 function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida, tonoDestino) {
+    // 1. Convertimos los saltos de línea del texto a etiquetas <br>
     let textoHtml = letraRaw.replace(/\n/g, '<br>');
-    const regexAcordeTexto = /\[(.*?)\]([^\[\n<]*)/g;
+    
+    // 2. Expresión que captura el acorde y el carácter que viene inmediatamente después
+    const regexAcordePerfecto = /\[(.*?)\]([^\[<]?)/g;
 
-    return textoHtml.replace(regexAcordeTexto, (match, acorde, textoSiguiente) => {
-        let baseTexto = textoSiguiente;
-        if (!baseTexto || baseTexto.trim() === "") baseTexto = "&nbsp;&nbsp;"; 
+    // 3. Evaluamos cada acorde de forma individual
+    return textoHtml.replace(regexAcordePerfecto, (match, acorde, siguienteCaracter) => {
         let acordeFinal = trasponerAcorde(acorde, semitonos, escalaElegida);
-        return `<ruby>${baseTexto}<rt>${acordeFinal}</rt></ruby>`;
+        
+        // Evaluamos mediante una expresión regular si el carácter siguiente es una letra o número
+        const esLetraOTexto = siguienteCaracter && /[a-zA-Z0-9áéíóúÁÉÍÓÚñÑíÍóÓúÚüÜ]/.test(siguienteCaracter);
+        
+        if (esLetraOTexto) {
+            // CASO 1: El acorde está sobre una palabra.
+            // Usamos el sistema de ANCHO CERO absoluto para que las letras no se separen.
+            return `<span class="acorde-wrapper"><span class="acorde-interno">${acordeFinal}</span></span>${siguienteCaracter}`;
+        } else {
+            // CASO 2: Es un acorde independiente (Intro, acordes seguidos o al final del renglón).
+            // Conserva su ancho real para que se empujen entre sí, pero se eleva con CSS.
+            let espacioBase = siguienteCaracter === " " ? "&nbsp;" : siguienteCaracter;
+            return `<span class="acorde-bloque">${acordeFinal}</span>${espacioBase}`;
+        }
     });
 }
 
