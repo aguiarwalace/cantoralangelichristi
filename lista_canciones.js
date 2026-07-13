@@ -83,10 +83,10 @@ Mis [C]ojos de las lágrimas, mis pies de la ca[B7]ída.
     categoria: "entrada",
     tonoOriginal: "D",
     letra: `
-[D]Cuanto gozo me [A]dio al o[Em]ír, [G]
-[D]Vamos [A]ya a la casa de [Em]Dio[G]oo[A]os.
-[D]A tus [A]puertas Jerusa[Em]lén, [G]
-[D]Vamos [A]ya a la casa de [D]Dios.
+[D]Cuanto [A]gozo me [Em]dio al o[G]ír,
+[D]Vamos [A]ya a la [Em]casa de [G]Diooo[A]os.
+[D]A tus [A]puertas Je[Em]rusa[G]lén,
+Vamos [D]ya a la [A]casa de [D]Dios.
 
 [D]Fuerte y bien cons[A]truida,
 [G]Es la ciudad de [A]Sion,
