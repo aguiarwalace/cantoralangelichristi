@@ -1728,7 +1728,7 @@ Y por fin llegó el gran día la semilla germinó, Jesucristo había nacido y co
   },
   {
     id: 78,
-    titulo: "HEMMOS ENTREGADO",
+    titulo: "HEMOS ENTREGADO",
     autor: "Anónimo",
     categoria: "Ofertorio",
     tonoOriginal: "C",
