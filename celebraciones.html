@@ -80,6 +80,66 @@
         body.dark-mode .song-card { background: #2d2d2d; color: white; }
         body.dark-mode .misa-titulo { color: #5dade2; border-color: #5dade2; }
 
+        /* NUEVAS CLASES: Controlan la distribución de las tarjetas de cantos */
+        .song-header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .song-header-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 8px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* ========================================================
+           MODIFICACIÓN MÓVIL: Media Query para eliminar scroll lateral 
+           ======================================================== */
+        @media (max-width: 600px) {
+            #main-content {
+                padding: 10px; /* Reducimos el espacio exterior en teléfonos */
+            }
+
+            .song-card {
+                padding: 20px 15px; /* Menos espacio interno para dar más aire a la letra */
+            }
+
+            /* La barra de herramientas superior se vuelve vertical */
+            .barra-herramientas {
+                flex-direction: column;
+                gap: 12px;
+                align-items: stretch;
+                text-align: center;
+            }
+
+            .barra-herramientas .controles-tono {
+                justify-content: center;
+            }
+
+            /* El título del canto y sus botones se apilan verticalmente */
+            .song-header-top {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+
+            .song-header-top .controles-tono {
+                align-self: flex-end; /* Mueve los botones +/- a la derecha de forma armónica */
+            }
+
+            /* El autor y el tono también se acomodan uno abajo del otro */
+            .song-header-meta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+            }
+        }
+
         /* Ocultar elementos al imprimir PDF */
         @media print {
             header, .selector-container, .barra-herramientas, .controles-tono, #btn-volver {
@@ -98,14 +158,10 @@
                 <h1>Celebración</h1>
             </a>
         </div>
-        <button onclick="location.reload()" class="btn-primary" style="background:none; border:none; color:white; font-size:1.5rem; cursor:pointer;">↩️</button>
         <button onclick="toggleDarkMode()" style="background:none; border:none; color:white; font-size:1.5rem; cursor:pointer;">🌓</button>
     </header>
 
-    <!-- 1. MODIFICACIÓN: Se removieron los estilos en línea de ancho máximo del contenedor principal -->
     <main id="main-content">
-        
-        <!-- 2. MODIFICACIÓN: Nueva caja contenedora interna con ancho controlado y apilamiento vertical -->
         <div style="width: 100%; max-width: 800px; display: flex; flex-direction: column;">
             
             <div id="zona-seleccion" class="selector-container">
@@ -124,12 +180,12 @@
             </div>
 
             <div id="contenedor-misa">
-                <!-- Las tarjetas de cantos se inyectan dinámicamente aquí -->
+                <!-- Las tarjetas se inyectan dinámicamente aquí -->
             </div>
 
-            <!--<div id="btn-volver-container" style="text-align: center; margin-top: 20px; display: none;">
+            <div id="btn-volver-container" style="text-align: center; margin-top: 20px; display: none;">
                 <button onclick="location.reload()" class="btn-primary" style="width: auto; padding: 10px 30px;">↩️</button>
-            </div>-->
+            </div>
             
         </div>
     </main>
@@ -198,7 +254,6 @@
                             <span style="font-size:0.8rem; margin-left:10px;">Texto</span>
                         </div>
                         <button onclick="window.print()" class="btn-primary" style="width:auto; padding: 5px 15px;">Generar PDF</button>
-                        <button onclick="location.reload()" class="btn-primary" style="width:auto; padding: 5px 15px;">Nueva búsqueda</button>
                     </div>
                 `;
 
@@ -209,9 +264,11 @@
 
                         const card = document.createElement('div');
                         card.className = 'song-card';
+                        
+                        // ACTUALIZACIÓN: Se implementaron las clases responsivas en lugar de estilos rígidos inline
                         card.innerHTML = `
                             <div style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
-                                <div style="display:flex; justify-content:space-between; align-items:center;">
+                                <div class="song-header-top">
                                     <h3 style="margin:0;">${song.titulo}</h3>
                                     <div class="controles-tono">
                                         <button onclick="cambiarTonoLocal(${song.id}, -1)">-</button>
@@ -219,7 +276,7 @@
                                         <button onclick="cambiarTonoLocal(${song.id}, 1)">+</button>
                                     </div>
                                 </div>
-                                <div style="display:flex; justify-content:space-between; align-items:center; margin-top: 8px; font-size: 0.9rem; opacity: 0.8;">
+                                <div class="song-header-meta">
                                     <span style="font-style: italic;">Autor: ${song.autor || 'Desconocido'}</span>
                                     <span style="background: rgba(128,128,128,0.15); padding: 3px 8px; border-radius: 5px; font-weight: bold;">
                                         Tono: <span id="tono-label-${song.id}">${song.tonoOriginal}</span>
