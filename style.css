@@ -9,7 +9,7 @@
 :root {
     --primary: #003468;
     --accent: #d4af37;
-    --bg-body: #f8f9fa;
+    --bg-body: #cfedff;
     --bg-card: #ffffff;
     --text-main: #333;
     --red-chord: #e74c3c;
@@ -92,7 +92,7 @@ header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
     padding: 20px;
     display: flex;
     justify-content: center;
-    background-color: rgb(207, 237, 255);
+    background-color:var(--bg-body);
 }
 
 .song-card {
