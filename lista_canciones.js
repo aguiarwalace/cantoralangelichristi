@@ -1130,40 +1130,40 @@ Final: [A9] [D9] [A9]
 Intro: [D9] [C9] [D9] 
        [C9] [D9] [C9] 
 
-[D9] Gloria a Dios en el [C9] cielo
-y en la [G] tierra paz
-a los hombres por Él [D9] amados. [(D4)] [(D)] 
-[D9] Señor Dios, Rey [C9] celestial,
-[G] Dios Padre [D9] todopoderoso.
+[D9]Gloria a Dios en el [C9]cielo
+y en la [G]tierra paz
+a los hombres por Él [D9]amados. [(D4)] [(D)] 
+[D9]Señor Dios, Rey [C9]celestial,
+[G]Dios Padre [D9]todopoderoso.
 
-[Am] Te ala [D9] bamos,
-Te [Am] bende[D9]cimos,
-Te [Am] ado [D9] ramos,
-Te [Am] glorifi [D9] camos.
-Te damos [C9] gracias
-por [G] Tu inmensa [D9] gloria.
+[Am]Te ala[D9]bamos,
+[Am]Te bende[D9]cimos,
+[Am]Te ado[D9]ramos,
+[Am]Te glorifi[D9]camos.
+Te damos [C9]gracias
+por [G]Tu inmensa [D9]gloria.
 
-[C9] Señor Jesucristo,
-[G] Hijo [D9] unigénito. ([D4] [D])
-[D9] Señor Dios, [C9] Cordero de Dios,
-[G] Hijo del [D9] Padre.
+[D9]Señor Jesu[C9]cristo,
+[G]Hijo uni[D9]génito. ([D4] [D])
+[D9]Señor Dios, [C9]Cordero de Dios,
+[G]Hijo del [D9]Padre.
 
-[Am] Tú que quitas el pe [G] cado del mundo,
-[C9] ten piedad de [D9] nosotros.
-[Am] Tú que quitas el pe [G] cado del mundo,
-[C9] atiende nuestra [D9] súplica.
-[Am] Tú que estás a la de [G] recha del Padre,
-[C9] ten piedad de [D9] nosotros.
+[Am]Tú que quitas el pe [G]cado del mundo,
+[C9]ten piedad de [D9]nosotros.
+[Am]Tú que quitas el pe[G]cado del mundo,
+[C9]atiende nuestra [D9]súplica.
+[Am]Tú que estás a la de[G]recha del Padre,
+[C9]ten piedad de [D9]nosotros.
 
-[Am] Sólo tú eres [D9] Santo,
-sólo [Am] tú Se[D9]ñor,
-sólo [C9] tú Al[D9]tísimo, Jesucristo,
-[E] con el Espíritu [A] Santo
+Sólo tú eres [Am]San[D9]to,
+Sólo tú Se[Am]ño[D9]or,
+sólo tú Al[C9]tísimo, Jesu[D9]cristo,
+[E]con el Espíritu [A]Santo
 
 En la gloria de Dios [G]Padre. [D9]Amén.
 En la gloria de Dios [G]Padre. [D9]Amén.
 En la gloria de Dios [G]Padre. [D9]Amén.
-En la gloria de Dios [G]Padre. [D9]Amén.
+En la gloria de Dios [G]Padre.[A] [D9]Amén.
 `
 },
  {
