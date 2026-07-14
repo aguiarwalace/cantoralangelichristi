@@ -7,6 +7,23 @@
     <title>Cantos por Celebración</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        /* ========================================================
+           NUEVO: CANDADO DE SEGURIDAD CONTRA SCROLL LATERAL 
+           ======================================================== */
+        /* 1. Obliga a todos los elementos a calcular su tamaño correctamente */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        /* 2. Elimina márgenes de fábrica del teléfono y prohíbe el desborde horizontal */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden; /* Candado definitivo: elimina el scroll lateral */
+        }
+
         /* Ajustes de estilo para mantener consistencia */
         header {
             display: flex;
@@ -16,6 +33,7 @@
             background-color: var(--primary, #004488);
             color: white;
             height: 70px;
+            width: 100%;
         }
 
         .header-left a {
@@ -32,6 +50,7 @@
             margin: 30px 0;
             justify-content: center;
             flex-wrap: wrap;
+            width: 100%;
         }
 
         select { 
@@ -50,6 +69,7 @@
             margin: 20px 0 20px 0; 
             text-align: center;
             font-size: 1.8rem;
+            width: 100%;
         }
 
         /* Barra de controles superiores */
@@ -61,6 +81,7 @@
             padding: 10px 20px;
             border-radius: 8px;
             margin-bottom: 20px;
+            width: 100%;
         }
 
         body.dark-mode .barra-herramientas { background: #333; }
@@ -72,6 +93,8 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             margin-bottom: 30px;
             position: relative;
+            width: 100%;
+            overflow-x: hidden; /* Evita que acordes largos al final del renglón estiren la tarjeta */
         }
 
         .song-card h3 { color: var(--primary, #004488); margin: 0; }
@@ -80,12 +103,13 @@
         body.dark-mode .song-card { background: #2d2d2d; color: white; }
         body.dark-mode .misa-titulo { color: #5dade2; border-color: #5dade2; }
 
-        /* NUEVAS CLASES: Controlan la distribución de las tarjetas de cantos */
+        /* Clases para la distribución responsiva de las tarjetas */
         .song-header-top {
             display: flex;
             justify-content: space-between;
             align-items: center;
             gap: 10px;
+            width: 100%;
         }
 
         .song-header-meta {
@@ -95,21 +119,26 @@
             margin-top: 8px;
             font-size: 0.9rem;
             opacity: 0.8;
+            width: 100%;
         }
 
         /* ========================================================
-           MODIFICACIÓN MÓVIL: Media Query para eliminar scroll lateral 
+           MODIFICACIÓN MÓVIL: Ajustes finos para pantallas móviles 
            ======================================================== */
         @media (max-width: 600px) {
             #main-content {
-                padding: 10px; /* Reducimos el espacio exterior en teléfonos */
+                padding: 10px;
+            }
+
+            /* Evitamos que la caja elástica interna intente medir más de la pantalla */
+            #main-content > div {
+                padding: 0 5px !important;
             }
 
             .song-card {
-                padding: 20px 15px; /* Menos espacio interno para dar más aire a la letra */
+                padding: 20px 15px;
             }
 
-            /* La barra de herramientas superior se vuelve vertical */
             .barra-herramientas {
                 flex-direction: column;
                 gap: 12px;
@@ -121,7 +150,6 @@
                 justify-content: center;
             }
 
-            /* El título del canto y sus botones se apilan verticalmente */
             .song-header-top {
                 flex-direction: column;
                 align-items: flex-start;
@@ -129,10 +157,9 @@
             }
 
             .song-header-top .controles-tono {
-                align-self: flex-end; /* Mueve los botones +/- a la derecha de forma armónica */
+                align-self: flex-end;
             }
 
-            /* El autor y el tono también se acomodan uno abajo del otro */
             .song-header-meta {
                 flex-direction: column;
                 align-items: flex-start;
@@ -162,7 +189,8 @@
     </header>
 
     <main id="main-content">
-        <div style="width: 100%; max-width: 800px; display: flex; flex-direction: column;">
+        <!-- Contenedor interno restringido herméticamente al ancho del dispositivo móvil -->
+        <div style="width: 100%; max-width: 800px; display: flex; flex-direction: column; overflow: hidden;">
             
             <div id="zona-seleccion" class="selector-container">
                 <select id="select-ciclo" onchange="cargarCelebraciones()">
@@ -180,7 +208,7 @@
             </div>
 
             <div id="contenedor-misa">
-                <!-- Las tarjetas se inyectan dinámicamente aquí -->
+                <!-- Las tarjetas de cantos se inyectan dinámicamente aquí -->
             </div>
 
             <div id="btn-volver-container" style="text-align: center; margin-top: 20px; display: none;">
@@ -265,7 +293,6 @@
                         const card = document.createElement('div');
                         card.className = 'song-card';
                         
-                        // ACTUALIZACIÓN: Se implementaron las clases responsivas en lugar de estilos rígidos inline
                         card.innerHTML = `
                             <div style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
                                 <div class="song-header-top">
