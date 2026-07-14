@@ -1,5 +1,5 @@
 // Atualizamos para v2.2 com pontos para forçar o celular a baixar a correção dos botões
-const CACHE_NAME = 'cantoral-angeli-v20260714.2';
+const CACHE_NAME = 'cantoral-angeli-v20260714.3';
 
 const ASSETS_TO_CACHE = [
     './',
