@@ -7050,37 +7050,43 @@ A donde Él va. (x2)
     letra: `
 [Intro] G C Em D
 
-[G] En un mundo [C] que no gira [Em] en mi direc[D]ción,
-[G] sobre caminos [C] que no ofrecen [Em] una solu[D]ción.
-[G] No voy pues [C] sé que hay [Em] algo me[D]jor,
-[G] y en mi inte[C]rior es[Em]cucho tu [D] voz.
+[G]En un [C]mundo que no [Em]gira en mi [D]dirección,
+[G]sobre ca[C]minos que no of[Em]recen una [D]solución.
+[G]No [C]voy pues [Em]sé que hay [D]algo mejor,
+[G]y en [C]mi inte[Em]rior es[D]cucho tu voz.
 
-[G] Y al estar yo [C] caminando en [Em] contra del re[D]loj,
-[G] fui un iluso [C] al pensar que [Em] estaba solo [D] yo.
-[G] Tu fuego en [C] mí lo es[Em]tá pidien[D]do:
-[G] unirme en [C] ti, ser [Em] uno so[D]lo.
+[G]Y al est[C]ar yo camin[Em]ando en contra [D]del reloj,
+[G]fui un i[C]luso al pen[Em]sar que estaba [D]solo yo.
+[G]Tu f[C]uego en [Em]mí lo es[D]tá pidiendo:
+[G]un[C]irme en [Em]ti, ser [D]uno solo.[Am]
 
-[Am] Ven a nuestra [Em] presen[G]cia,
-[C] danos esa fuerza [D] de gritar a una voz.
-[G] Danos un [C] solo cora[Em]zón y una [D] sola alma Señor,
-[G] que tu amor [C] sea de no[Em]sotros, uno [D] solo y el mismo Dios.
-Ooh [C] eooo [D]
+[Am]Ven a nuest[Em]ra presen[G]cia,
+danos [C]esa fuerza de gri[D]tar a una voz.
 
-[G] Y ahora u[C]nidos con el [Em] fuego de tu Es[D]píritu,
-[G] ya no hay miedo [C] de tormen[Em]tas pues a[D]quí estás tú.
-[G] ¿Quién contra [C] mí?, si es[Em]tás conmi[D]go,
-[G] tu hablar en [C] mí es [Em] mi desti[D]no.
+[G]Danos[C] un [Em]solo cora[D]zón 
+[G]y[C] una [Em]sola [D]alma Señor,
+[G]que [C]tu amo[Em]r sea [D]de nosotros,
+uno [D]solo y el mismo 
+[G]Dios. [C]EOoh [C]eooo [D]eooo
 
-[Am] Ven a nuestra [Em] presen[G]cia,
-[C] danos esa fuerza [D] de gritar a una voz.
-[G] Danos un [C] solo cora[Em]zón y una [D] sola alma Señor,
-[G] que tu amor [C] sea de no[Em]sotros, uno [D] solo el reino de Dios.
-Oooh [C] eo [D]
+[G]Y ahora u[C]nidos con el [Em]fuego de tu Es[D]píritu,
+[G]ya no hay [C]miedo de tor[Em]mentas pues a[D]quí estás Tú.
+[G]¿Quién [C]contra [Em]mí?, si es[D]tás conmigo,
+[G]tu ha[C]blar en [Em]mí es [D]mi destino.
 
-[G] Uno solo [C] y el mismo [Em] Dios, [D]
-[G] Uno solo [C] y el mismo [Em] Dios. [D]
-([Am] Ven a nuestra pre[Em]sencia, [G] ven a [C] mí) [D]
-[G] Uno solo [C] y el mismo [Em] Dios. (x5) [D]`
+[Am]Ven a nuest[Em]ra presen[G]cia,
+danos [C]esa fuerza de gri[D]tar a una voz.
+
+[G]Danos[C] un [Em]solo cora[D]zón 
+[G]y[C] una [Em]sola [D]alma Señor,
+[G]que [C]tu amo[Em]r sea [D]de nosotros,
+uno [D]solo el reino de
+[G]Dios. [C]EOoh [C]eooo [D]eooo
+
+[G]Uno solo [C]y el mismo [Em]Dios, [D]
+[G]Uno solo [C]y el mismo [Em]Dios. [D]
+([Am]Ven a nuestra pre[Em]sencia, [G]ven a [C]mí) [D]
+[G]Uno solo [C]y el mismo [Em]Dios. (x5) [D]`
 },
   {
     id: 240,
