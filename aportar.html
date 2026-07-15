@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/angeli_christi_logo.ico" type="image/x-icon">
+    <title>Colaborar - Angeli Christi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f4f6f9;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .admin-container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .form-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #004488;
+            margin-top: 0;
+            border-bottom: 2px solid #004488;
+            padding-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        label {
+            font-weight: bold;
+            color: #333;
+        }
+        input[type="text"], select, textarea {
+            padding: 10px;
+            border: 2px solid #dce4ec;
+            border-radius: 6px;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+            font-family: monospace;
+        }
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .btn-success {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            flex: 1;
+        }
+        .btn-success:hover { background-color: #219150; }
+        
+        .output-card {
+            background: #2d3748;
+            color: #a0aec0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            display: none;
+        }
+        .output-card h3 { color: #fff; margin-top: 0; }
+        pre {
+            background: #1a202c;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            color: #38bdf8;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #004488; color: white; padding: 15px 20px; text-align: center;">
+        <h1>Creador de Cantos Colaborativo</h1>
+    </header>
+
+    <main class="admin-container">
+        <div class="form-card">
+            <h2>Agregar Nuevo Canto</h2>
+            <p style="color: #666; font-size: 0.9rem;">Completa los datos del canto. Recuerda escribir los acordes entre corchetes justo antes de la sílaba correspondiente. Ejemplo: <i>[C]Dios está [G]aquí</i>.</p>
+            
+            <div class="form-group">
+                <label for="titulo">Título del Canto:</label>
+                <input type="text" id="titulo" placeholder="Ej. Pescador de Hombres" required>
+            </div>
+
+            <div class="form-group">
+                <label for="autor">Autor / Ministerio:</label>
+                <input type="text" id="autor" placeholder="Ej. Cesáreo Gabaráin (o Tradicional)" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tono">Tono Original:</label>
+                <select id="tono">
+                    <option value="C">Do (C)</option>
+                    <option value="C#">Do# (C#)</option>
+                    <option value="D">Re (D)</option>
+                    <option value="D#">Re# (D#)</option>
+                    <option value="E">Mi (E)</option>
+                    <option value="F">Fa (F)</option>
+                    <option value="F#">Fa# (F#)</option>
+                    <option value="G">Sol (G)</option>
+                    <option value="G#">Sol# (G#)</option>
+                    <option value="A">La (A)</option>
+                    <option value="A#">La# (A#)</option>
+                    <option value="B">Si (B)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="letra">Letra con Acordes:</label>
+                <textarea id="letra" rows="10" placeholder="[C]Tú has venido a la [G]orilla..." required></textarea>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn-success" onclick="generarCodigoCanto()">Generar Canto ✨</button>
+            </div>
+        </div>
+
+        <!-- Tarjeta de Salida con el Código Generado -->
+        <div id="output-area" class="output-card">
+            <h3>¡Canto Procesado con Éxito!</h3>
+            <p style="color: #cbd5e0; font-size: 0.9rem;">Pídele al administrador que copie este bloque de código y lo pegue dentro de su archivo <code>lista_canciones.js</code>.</p>
+            
+            <pre id="codigo-resultado"></pre>
+            
+            <div class="btn-group">
+                <button class="btn-success" style="background-color: #3182ce;" onclick="copiarCodigo()">📋 Copiar Código</button>
+                <button class="btn-success" style="background-color: #25d366;" id="btn-whatsapp" onclick="enviarPorWhatsApp()">💬 Enviar al Administrador</button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Cambia este número por tu propio teléfono móvil con el código de país adelante (ej. 52 para México, 34 para España, etc.)
+        const TELEFONO_ADMINISTRADOR = "521234567890"; 
+        
+        let bloqueCodigoGenerado = "";
+
+        function generarCodigoCanto() {
+            const tituloVal = document.getElementById('titulo').value.trim();
+            const autorVal = document.getElementById('autor').value.trim();
+            const tonoVal = document.getElementById('tono').value;
+            const letraVal = document.getElementById('letra').value.trim();
+
+            if (!tituloVal || !autorVal || !letraVal) {
+                alert("Por favor, rellena todos los campos antes de generar el canto.");
+                return;
+            }
+
+            // Generamos un ID único usando la estampa de tiempo actual en milisegundos
+            const nuevoId = Date.now();
+
+            // Construimos la estructura de datos exacta que requiere tu lista de canciones
+            bloqueCodigoGenerado = `{\n  id: ${nuevoId},\n  titulo: "${tituloVal}",\n  autor: "${autorVal}",\n  tonoOriginal: "${tonoVal}",\n  letra: \`${letraVal}\`\n},`;
+
+            // Mostramos el bloque de salida con el código
+            document.getElementById('codigo-resultado').textContent = bloqueCodigoGenerado;
+            document.getElementById('output-area').style.display = "block";
+            
+            // Scroll suave hacia abajo para ver el resultado
+            document.getElementById('output-area').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function copiarCodigo() {
+            navigator.clipboard.writeText(bloqueCodigoGenerado);
+            alert("¡Código copiado al portapapeles! Ya puedes enviárselo al administrador.");
+        }
+
+        function enviarPorWhatsApp() {
+            const tituloVal = document.getElementById('titulo').value.trim();
+            
+            // Creamos un mensaje amigable para WhatsApp
+            const mensaje = `¡Hola! Aquí tienes un nuevo canto para el repertorio de Angeli Christi:\n\n*${tituloVal}*\n\n\`\`\`${bloqueCodigoGenerado}\`\`\``;
+            
+            // Codificamos el texto para que pueda viajar de forma segura en la URL
+            const mensajeCodificado = encodeURIComponent(mensaje);
+            
+            // Abrimos WhatsApp directamente en el chat del administrador
+            window.open(`https://wa.me/${TELEFONO_ADMINISTRADOR}?text=${mensajeCodificado}`, '_blank');
+        }
+    </script>
+</body>
+</html>
