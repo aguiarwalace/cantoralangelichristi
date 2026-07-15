@@ -3,6 +3,127 @@ const canciones = [
 Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo, doxologia, padrenuestro, cordero, comunion, reflexion, salida, adoracion, espiritusanto, mariano, navidad, alabanza,pasion,angelichristi.*/
   
 // --- SECCIÓN: CANTOS DE ENTRADA status: terminado ---
+
+{
+  id: 1784158231367,
+  titulo: "(Tu) El único rey",
+  autor: "Tuyo",
+  categoria: "adoracion",
+  tonoOriginal: "A (capo 1)",
+  letra: `
+[Estribillo]
+T[A]ú, el Único R[F#m7]ey
+Que tiene que rein[D2]ar
+El Único Señ[E]or al que voy a 
+alaba[A]r
+Hoy levanto el c[E/G#]ora__z[F#m7]ón
+Al que lo conquist[D2]ó
+Simplem[E4]ente porque Tú eres Di[A]os
+[A2]   Quiero ponerte
+Por encima de t[D2(6)]odo
+En cada mom[F#m7(11)]ento
+Sentarte en el tr[E11]ono
+
+Que tu alab[A2]anza
+Tono: Bb (con forma de A)Capo: 1.er traste
+
+[Estribillo]
+
+T[A]ú, el Único R[F#m7]ey
+Que tiene que rein[D2]ar
+El Único Señ[E]or al que voy a 
+alaba[A]r
+Hoy levanto el c[E/G#]ora__z[F#m7]ón
+Al que lo conquist[D2]ó
+Simplem[E4]ente porque Tú eres Di[A]os
+
+[Interlúdio 1] A2
+
+[Tab - Interlúdio 1]
+
+[Primera Parte]
+
+[Tab - Primeira Parte - 2x]
+
+Parte 1 de 4
+
+Parte 2 de 4
+
+Parte 3 de 4
+
+Parte 4 de 4
+
+[A2]   Quiero ponerte
+Por encima de t[D2(6)]odo
+En cada mom[F#m7(11)]ento
+Sentarte en el tr[E11]ono
+
+Que tu alab[A2]anza
+Continúa después del anuncioEliminar anuncios
+Esté siempre en mi b[D2(6)]oca
+Y reconoc[F#m7(11)]er que Tú eres Di[E11]os
+
+[Pre-Estribillo]
+
+Que alab[D]arte a Ti, Señ[E11]or
+Sea si[A]empre l[E/G#]o prim[F#m7(11)]ero
+[A/C#]
+
+F[D]ijo mi mirada en el ci[E]elo
+
+[Estribillo]
+
+T[A]ú, el [E/G#]Único R[F#m]ey que tiene 
+que re[D]inar
+El Único Señ[E4]or al que voy a 
+alaba[A2]r
+Hoy lev[E/G#]anto el coraz[F#m]ón
+Al que lo conquist[D]ó
+Simplem[E4]ente porque Tú eres Di[A]os
+
+[Interlúdio 2] A  D  A/C#  
+
+[Bm7] [E]
+
+[Segunda Parte]
+
+Y a T[D]i, toda la alab[C#m]anza
+Todo el pod[Bm7]er y el honor
+Toda la gl[E]oria al Señor
+
+Y a T[D]i, toda la alab[C#m]anza
+Todo el pod[Bm7]er y el honor
+Toda la gl[E]oria al Señor
+
+Y a T[D]i, toda la alab[C#m]anza
+Todo el pod[Bm7]er y el honor
+Toda la gl[E]oria al Señor
+
+Y a T[D]i, toda la alab[C#m]anza
+Todo el pod[Bm7]er y el honor
+Toda la gl[E]oria al Señor
+
+[Estribillo Final]
+
+T[A]ú, el Únic[E/G#]o    R[F#m]ey que tiene
+ que r[E]ein[D]ar
+El Único Señ[E]or al que voy a 
+alaba[A]r
+Hoy levanto el c[E/G#]ora__z[F#m]ón
+Al que lo conqu[E]ist[D]ó
+Simplem[E]ente porque Tú eres
+
+T[A]ú, el Único R[F#m]ey que tiene que
+ r[E]ein[D]ar
+El Único Señ[E]or al que voy a 
+alaba[A]r
+Hoy levanto el c[E/G#]ora__z[F#m]ón
+Al qu[E]e lo conquist[D]ó
+Simplem[E]ente porque Tú eres Di[A]os
+
+[Final] D  A  D  A
+`
+},
   {
     id: 1,
     titulo: "A TI LEVANTO MIS OJOS",
