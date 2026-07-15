@@ -12,6 +12,10 @@
             font-family: sans-serif;
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        *, *::before, *::after {
+            box-sizing: inherit;
         }
         .admin-container {
             max-width: 700px;
@@ -36,6 +40,26 @@
             flex-direction: column;
             gap: 8px;
         }
+        .form-row-double {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .form-row-double .form-group {
+            flex: 1;
+            margin-bottom: 0;
+        }
+        .form-group-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 12px;
+            background: #f8fafc;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px dashed #004488;
+            margin-bottom: 20px;
+        }
         label {
             font-weight: bold;
             color: #333;
@@ -46,12 +70,59 @@
             border-radius: 6px;
             font-size: 16px;
             width: 100%;
-            box-sizing: border-box;
         }
         textarea {
             resize: vertical;
             font-family: monospace;
         }
+
+        /* ========================================================
+           NUEVO: DISEÑO PARA LA SELECCIÓN DE CATEGORÍAS 
+           ======================================================== */
+        .categories-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 5px;
+        }
+        
+        .category-pill {
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        /* Ocultamos el checkbox real del navegador */
+        .category-pill input {
+            display: none;
+        }
+        
+        /* Diseñamos el botón o etiqueta interactiva */
+        .category-pill span {
+            display: inline-block;
+            padding: 8px 14px;
+            background: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #475569;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+        
+        .category-pill:hover span {
+            background: #e2e8f0;
+        }
+        
+        /* Cuando el input oculto está seleccionado, pintamos el botón */
+        .category-pill input:checked + span {
+            background: #004488;
+            color: white;
+            border-color: #004488;
+            box-shadow: 0 2px 6px rgba(0, 68, 136, 0.3);
+        }
+
+        /* Botones de acción */
         .btn-group {
             display: flex;
             gap: 10px;
@@ -88,6 +159,13 @@
             font-family: monospace;
             white-space: pre-wrap;
         }
+
+        @media (max-width: 500px) {
+            .form-row-double {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -98,7 +176,7 @@
     <main class="admin-container">
         <div class="form-card">
             <h2>Agregar Nuevo Canto</h2>
-            <p style="color: #666; font-size: 0.9rem;">Completa los datos del canto. Recuerda escribir los acordes entre corchetes justo antes de la sílaba correspondiente. Ejemplo: <i>[C]Dios está [G]aquí</i>.</p>
+            <p style="color: #666; font-size: 0.9rem;">Completa los datos del canto. Si activas la casilla de "Acordes arriba", el sistema se encargará de acomodar los acordes automáticamente dentro de la letra.</p>
             
             <div class="form-group">
                 <label for="titulo">Título del Canto:</label>
@@ -110,27 +188,80 @@
                 <input type="text" id="autor" placeholder="Ej. Cesáreo Gabaráin (o Tradicional)" required>
             </div>
 
+            <!-- NUEVA SECCIÓN: Selección Múltiple de Categorías -->
             <div class="form-group">
-                <label for="tono">Tono Original:</label>
-                <select id="tono">
-                    <option value="C">Do (C)</option>
-                    <option value="C#">Do# (C#)</option>
-                    <option value="D">Re (D)</option>
-                    <option value="D#">Re# (D#)</option>
-                    <option value="E">Mi (E)</option>
-                    <option value="F">Fa (F)</option>
-                    <option value="F#">Fa# (F#)</option>
-                    <option value="G">Sol (G)</option>
-                    <option value="G#">Sol# (G#)</option>
-                    <option value="A">La (A)</option>
-                    <option value="A#">La# (A#)</option>
-                    <option value="B">Si (B)</option>
-                </select>
+                <label>Categorías (Selecciona todas las que apliquen):</label>
+                <div class="categories-grid">
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="entrada"><span>Entrada</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="piedad"><span>Piedad</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="aspersion"><span>Aspersión</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="gloria"><span>Gloria</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="aleluya"><span>Aleluya</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="ofrendas"><span>Ofrendas</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="ofertorio"><span>Ofertorio</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="santo"><span>Santo</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="doxologia"><span>Doxología</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="padrenuestro"><span>Padre Nuestro</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="cordero"><span>Cordero</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="comunion"><span>Comunión</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="reflexion"><span>Reflexión</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="salida"><span>Salida</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="adoracion"><span>Adoración</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="espiritusanto"><span>Espíritu Santo</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="mariano"><span>Mariano</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="navidad"><span>Navidad</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="alabanza"><span>Alabanza</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="pasion"><span>Pasión</span></label>
+                    <label class="category-pill"><input type="checkbox" name="categorias" value="angelichristi"><span>Angeli Christi</span></label>
+                </div>
+            </div>
+
+            <!-- Fila doble: Tono con bemoles y Selector de Capo -->
+            <div class="form-row-double">
+                <div class="form-group">
+                    <label for="tono">Tono Original:</label>
+                    <select id="tono">
+                        <option value="C">Do (C)</option>
+                        <option value="Db">Reb (Db)</option>
+                        <option value="D">Re (D)</option>
+                        <option value="Eb">Mib (Eb)</option>
+                        <option value="E">Mi (E)</option>
+                        <option value="F">Fa (F)</option>
+                        <option value="F#">Fa# (F#)</option>
+                        <option value="G">Sol (G)</option>
+                        <option value="Ab">Lab (Ab)</option>
+                        <option value="A">La (A)</option>
+                        <option value="Bb">Sib (Bb)</option>
+                        <option value="B">Si (B)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="capo">Capo (Cejilla):</label>
+                    <select id="capo">
+                        <option value="0">Sin Capo</option>
+                        <option value="1">Capo 1</option>
+                        <option value="2">Capo 2</option>
+                        <option value="3">Capo 3</option>
+                        <option value="4">Capo 4</option>
+                        <option value="5">Capo 5</option>
+                        <option value="6">Capo 6</option>
+                        <option value="7">Capo 7</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Casilla de verificación para activar la conversión automática -->
+            <div class="form-group-row">
+                <input type="checkbox" id="acordes-arriba" style="width: auto; transform: scale(1.3); cursor: pointer;">
+                <label for="acordes-arriba" style="margin: 0; cursor: pointer; font-size: 0.95rem; color: #004488;">
+                    Pegar con acordes en la línea de arriba (ej. LaCuerda / Ultimate Guitar)
+                </label>
             </div>
 
             <div class="form-group">
-                <label for="letra">Letra con Acordes:</label>
-                <textarea id="letra" rows="10" placeholder="[C]Tú has venido a la [G]orilla..." required></textarea>
+                <label for="letra">Letra del Canto:</label>
+                <textarea id="letra" rows="12" placeholder="Pega aquí la letra..." required></textarea>
             </div>
 
             <div class="btn-group">
@@ -153,33 +284,115 @@
     </main>
 
     <script>
-        // Cambia este número por tu propio teléfono móvil con el código de país adelante (ej. 52 para México, 34 para España, etc.)
+        // Cambia este número por tu propio teléfono móvil (con código de país, sin espacios ni el signo +)
         const TELEFONO_ADMINISTRADOR = "521234567890"; 
         
         let bloqueCodigoGenerado = "";
+
+        // Algoritmo alineador de acordes superiores CORREGIDO Y ULTRA ROBUSTO
+        function procesarAcordesSuperiores(textoOriginal) {
+            const lineas = textoOriginal.split('\n');
+            const lineasProcesadas = [];
+            
+            const patronAcorde = /^[A-G][b#]?(m|maj|min|sus|dim|aug|add|alt|\d)*(\([^)]+\))?(\/[A-G][b#]?(m)?)?$/i;
+            
+            function esLineaDeAcordes(linea) {
+                const l = linea.trim();
+                if (!l) return false;
+                
+                const palabras = l.split(/\s+/);
+                return palabras.every(palabra => patronAcorde.test(palabra));
+            }
+            
+            for (let i = 0; i < lineas.length; i++) {
+                const lineaActual = lineas[i];
+                
+                if (esLineaDeAcordes(lineaActual)) {
+                    const lineaSiguiente = lineas[i + 1];
+                    
+                    if (lineaSiguiente !== undefined && !esLineaDeAcordes(lineaSiguiente) && lineaSiguiente.trim() !== "") {
+                        const acordesEncontrados = [];
+                        let indiceBusqueda = 0;
+                        const palabrasDeAcordes = lineaActual.match(/\S+/g) || [];
+                        
+                        palabrasDeAcordes.forEach(acorde => {
+                            const posicionChar = lineaActual.indexOf(acorde, indiceBusqueda);
+                            acordesEncontrados.push({ acorde, posicion: posicionChar });
+                            indiceBusqueda = posicionChar + acorde.length;
+                        });
+                        
+                        acordesEncontrados.sort((a, b) => b.posicion - a.posicion);
+                        
+                        let letraConAcordes = lineaSiguiente;
+                        
+                        acordesEncontrados.forEach(item => {
+                            const pos = item.posicion;
+                            const bloqueAcorde = `[${item.acorde}]`;
+                            
+                            if (pos >= letraConAcordes.length) {
+                                letraConAcordes = letraConAcordes.padEnd(pos) + bloqueAcorde;
+                            } else {
+                                letraConAcordes = letraConAcordes.slice(0, pos) + bloqueAcorde + letraConAcordes.slice(pos);
+                            }
+                        });
+                        
+                        lineasProcesadas.push(letraConAcordes);
+                        i++; 
+                    } else {
+                        const acordesSolos = lineaActual.split(/\s+/).filter(a => a.trim() !== "");
+                        const introFormateada = acordesSolos.map(a => `[${a}]`).join(' ');
+                        lineasProcesadas.push(introFormateada);
+                    }
+                } else {
+                    lineasProcesadas.push(lineaActual);
+                }
+            }
+            
+            return lineasProcesadas.join('\n');
+        }
 
         function generarCodigoCanto() {
             const tituloVal = document.getElementById('titulo').value.trim();
             const autorVal = document.getElementById('autor').value.trim();
             const tonoVal = document.getElementById('tono').value;
-            const letraVal = document.getElementById('letra').value.trim();
+            const capoVal = document.getElementById('capo').value;
+            let letraVal = document.getElementById('letra').value;
 
-            if (!tituloVal || !autorVal || !letraVal) {
+            if (!tituloVal || !autorVal || !letraVal.trim()) {
                 alert("Por favor, rellena todos los campos antes de generar el canto.");
                 return;
             }
 
-            // Generamos un ID único usando la estampa de tiempo actual en milisegundos
+            // ========================================================
+            // NUEVO: PROCESAMIENTO DE CATEGORÍAS SELECCIONADAS
+            // ========================================================
+            const checkboxes = document.querySelectorAll('input[name="categorias"]:checked');
+            const listaCategorias = [];
+            checkboxes.forEach(cb => {
+                listaCategorias.push(cb.value); // El valor ya es lowercase y sin acentos
+            });
+            const categoriasSeleccionadas = listaCategorias.join(", ");
+
+            // Procesamos la lógica del Tono final
+            let tonoFinal = tonoVal;
+            if (capoVal !== "0") {
+                tonoFinal += ` (capo ${capoVal})`;
+            }
+
+            const usarAcordesArriba = document.getElementById('acordes-arriba').checked;
+            if (usarAcordesArriba) {
+                letraVal = procesarAcordesSuperiores(letraVal);
+            } else {
+                letraVal = letraVal.trim();
+            }
+
             const nuevoId = Date.now();
 
-            // Construimos la estructura de datos exacta que requiere tu lista de canciones
-            bloqueCodigoGenerado = `{\n  id: ${nuevoId},\n  titulo: "${tituloVal}",\n  autor: "${autorVal}",\n  tonoOriginal: "${tonoVal}",\n  letra: \`${letraVal}\`\n},`;
+            // NUEVA SALIDA: Incluye el campo "categoria" justo donde lo solicitaste
+            bloqueCodigoGenerado = `{\n  id: ${nuevoId},\n  titulo: "${tituloVal}",\n  autor: "${autorVal}",\n  categoria: "${categoriasSeleccionadas}",\n  tonoOriginal: "${tonoFinal}",\n  letra: \`${letraVal}\`\n},`;
 
-            // Mostramos el bloque de salida con el código
             document.getElementById('codigo-resultado').textContent = bloqueCodigoGenerado;
             document.getElementById('output-area').style.display = "block";
-            
-            // Scroll suave hacia abajo para ver el resultado
             document.getElementById('output-area').scrollIntoView({ behavior: 'smooth' });
         }
 
@@ -190,14 +403,8 @@
 
         function enviarPorWhatsApp() {
             const tituloVal = document.getElementById('titulo').value.trim();
-            
-            // Creamos un mensaje amigable para WhatsApp
             const mensaje = `¡Hola! Aquí tienes un nuevo canto para el repertorio de Angeli Christi:\n\n*${tituloVal}*\n\n\`\`\`${bloqueCodigoGenerado}\`\`\``;
-            
-            // Codificamos el texto para que pueda viajar de forma segura en la URL
             const mensajeCodificado = encodeURIComponent(mensaje);
-            
-            // Abrimos WhatsApp directamente en el chat del administrador
             window.open(`https://wa.me/${TELEFONO_ADMINISTRADOR}?text=${mensajeCodificado}`, '_blank');
         }
     </script>
