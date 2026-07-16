@@ -1472,14 +1472,14 @@ Sua [G] pobreza nos [A] enrique [Bm] ceu
   categoria: "aleluya",
   tonoOriginal: "E",
   letra: `
-[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
-[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
+[E]A---le[B7]luia,  [C#m]a---le[G#m]luia,  [A]ale[E]luia[B7]
+[E]A---le[B7]luia,  [C#m]a---le[G#m]luia,  [A]ale[E]luia[B7]
 
 [F#m]Cuando estamos [G#m]unidos, [A]con nosotros [G#m]estás
 [A]Y nos [F#m]hablarás de Tu [B7(4)]vida[B7] 
 
-[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
-[E]Ale[B7]luia,  [C#m]ale[G#m]luia,  [A]ale[E]luia[B7]
+[E]A---le[B7]luia,  [C#m]a---le[G#m]luia,  [A]ale[E]luia[B7]
+[E]A---le[B7]luia,  [C#m]a---le[G#m]luia,  [A]ale[E]luia[B7]
 
 [F#m]Este nuestro [G#m]mundo [A]sentido [G#m]tendrá
 [A]Si Tu [F#m]palabra [B7(4)]renovar[B7] 
@@ -5377,27 +5377,27 @@ Y yo descansaré en su voluntad…
   titulo: "ESTOY A LA PUERTA Y LLAMO",
   autor: "Anónimo",
   categoria: "adoracion",
-  tonoOriginal: "C",
+  tonoOriginal: "C (capo1)",
   letra: `
 Intro: [Am] [G] [Am] [G]
 
-[C] Estoy a la [Em] puerta y [F] llamo [C]
-[Em] Esperando a [F] que me [Dm] abras
-[G] Ábreme que quiero entrar
-[F] Que estoy a la [G] puerta y [F] llamo [Am] [G]
+[C]Estoy a la [Em]puerta y [F]llamo
+[C]Espera[Em]ndo a que me [F]abras
+[Dm]Ábreme que quiero ent[G]rar
+[F]Que estoy a la [G]puerta y [F]llamo
 
-[C] El corazón que [Em] te he [F] dado [C]
-[Em] Es mo[F] rada que yo [Dm] anhelo
-[G] Pero es tan digno y sagrado
-[F] Que estoy a la [G] puerta y [F] llamo [Am] [G]
+El[C]cora[Em]zón que te he [F]dado
+[C]Es mo[Em]rada que yo [F]anhelo
+[Dm]Pero es tan digno y s[G]agrado
+Que esto[F]y a la [G]puerta y [F]llamo
 
-[C] Si me abres entra[G] ré [Dm]
-[Am] Y yo ce[G] naré [F] contigo
-[G] Sino me abres segui[D] ré [F]
-[Dm] Afuera como un men[G] digo [Am] [G]
+[C]Si me abres entra[G]ré [Dm]
+[Am]Y yo ce[G]naré [F]contigo
+[G]Si no me abres segui[D]ré [F]
+[Dm]Afuera como un men[G]digo [Am] [G]
 
-[C] [Em] [F] [G] Llamando, llamando
-[Am] [G] [F] [G] Llamando, llamando
+L[C]laman[Em]do, ll[F]amand[G]o
+L[Am]laman[G]do, l[F]lamand[G]o
 `
 },
   {
@@ -7422,7 +7422,7 @@ letra: `
 [Coro]
 [Am]Tengo que gritar, [C]tengo que arriesgar. 
 [G]¡Ay de mí si no lo [C]hago!
-[G]¿Cómo [Am]escapar de tí?, 
+[G]¿Cómo [Am]escapar de tí?,
 [G]¿cómo no[Am]hablar?, 
 [E7]¡si tu voz me quema [Am]dentro! [(bis)]
 
@@ -10326,4 +10326,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:404
+// último id:405
