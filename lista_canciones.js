@@ -415,9 +415,9 @@ Te deseo todo bien.
     tonoOriginal: "E",
     letra: `
 [E]Vamos, [C#m]vamos, [F#m]vamos,
-[B7]Vamos al al[E]tar, al al[C#m]tar de [F#m]Dios,
-[B7]Que en Cristo te[E]nemos nuestra ale[C#m]gría, [F#m]
-[B7]Y nuestra juven[E]tud: [C#m]la, la, [F#m]la, [D7]la… [G]
+[B7]Vamos al al[E]tar, al [C#m]altar de [F#m]Dios,
+[B7]Que en Cristo te[E]nemos nuestr[C#m]a ale[F#m]gría,
+[B7]Y nuestra juven[E]tud: [C#m]la, [F#m]la, la, [D7]la… [G]
 
 Cristo, Cristo, Cristo, nos ofrecerá, nos ofrecerá,
 Su verdad y vida, con su palabra, cantaremos ya: la, la, la, la…
@@ -2129,6 +2129,14 @@ En el [C]ci[G]e[C]lo. (x2)`
 [F]El Se[G]ñor Dios del u[C]niverso. ([G7] [C])
     `
 },
+    {
+    id: 405,
+    titulo: "SANTO Oli",
+    autor: "A Mejía",
+    categoria: "Santo",
+    tonoOriginal: "",
+    letra: ""
+  },
 
    // --- SECCIÓN: CANTOS DE Doxología ---
   {
