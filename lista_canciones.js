@@ -2139,21 +2139,21 @@ En el [C]ci[G]e[C]lo. (x2)`
     letra: `
     [A]Santo, Santo, Santo (ooooo)
     [E]Santo es el Señor, 
-    [D]Dios del uni[Bm]verso.
+    Dios del uni[D]verso.[D]
     Dios del uni[E]verso. (2x)
 
-    [F#m]LLenos están el cielo y la tierra de tu [B#m]gloria
+    [F#m]LLenos están el cielo y la tierra de tu [C#m]gloria
     Hosanna en el c[D]ielo, [A]Hosanna en el c[E]ielo
 
-    [F#m]Bendito el que viene en el nombre del S[B#m]eñor
+    [F#m]Bendito el que viene en el nombre del S[C#m]eñor
     Hosanna en el c[D]ielo, Hos[A]anna en el c[E]ielo
     
     [A]Santo, Santo, Santo (ooooo)
     [E]Santo es el Señor, 
-    [D]Dios del uni[Bm]verso.
+    Dios del uni[D]verso.[Bm]
     Dios del uni[E]verso.
     [A]Santo, Santo, Santo (ooooo)
-    [E]Santo es [E]]el Señ[A]or. 
+    [D]Santo es [E]]el Señ[A]or. 
     `
   },
 
