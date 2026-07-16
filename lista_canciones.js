@@ -417,7 +417,8 @@ Te deseo todo bien.
 [E]Vamos, [C#m]vamos, [F#m]vamos,
 [B7]Vamos al al[E]tar, al [C#m]altar de [F#m]Dios,
 [B7]Que en Cristo te[E]nemos nuestr[C#m]a ale[F#m]gría,
-[B7]Y nuestra juven[E]tud: [C#m]la, [F#m]la, la, [D7]la… [G]
+[B7]Y nuestra juven[E]tud: [C#m]la, [F#m]la, [B7]la, 
+[E]la, [C#m]la, [F#m]la, [B7]la, [E]laaa
 
 Cristo, Cristo, Cristo, nos ofrecerá, nos ofrecerá,
 Su verdad y vida, con su palabra, cantaremos ya: la, la, la, la…
@@ -2134,8 +2135,26 @@ En el [C]ci[G]e[C]lo. (x2)`
     titulo: "SANTO Oli",
     autor: "A Mejía",
     categoria: "Santo",
-    tonoOriginal: "",
-    letra: ""
+    tonoOriginal: "A (capo3)",
+    letra: `
+    [A]Santo, Santo, Santo (ooooo)
+    [E]Santo es el Señor, 
+    [D]Dios del uni[Bm]verso.
+    Dios del uni[E]verso. (2x)
+
+    [F#m]LLenos están el cielo y la tierra de tu [B#m]gloria
+    Hosanna en el c[D]ielo, [A]Hosanna en el c[E]ielo
+
+    [F#m]Bendito el que viene en el nombre del S[B#m]eñor
+    Hosanna en el c[D]ielo, Hos[A]anna en el c[E]ielo
+    
+    [A]Santo, Santo, Santo (ooooo)
+    [E]Santo es el Señor, 
+    [D]Dios del uni[Bm]verso.
+    Dios del uni[E]verso.
+    [A]Santo, Santo, Santo (ooooo)
+    [E]Santo es [E]]el Señ[A]or. 
+    `
   },
 
    // --- SECCIÓN: CANTOS DE Doxología ---
