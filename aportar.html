@@ -27,10 +27,20 @@
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
         }
-        h2 {
+        .import-card {
+            background: #e0f2fe;
+            border: 2px solid #38bdf8;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+        h2, h3 {
             color: #004488;
             margin-top: 0;
+        }
+        h2 {
             border-bottom: 2px solid #004488;
             padding-bottom: 10px;
         }
@@ -64,7 +74,7 @@
             font-weight: bold;
             color: #333;
         }
-        input[type="text"], select, textarea {
+        input[type="text"], input[type="url"], select, textarea {
             padding: 10px;
             border: 2px solid #dce4ec;
             border-radius: 6px;
@@ -76,27 +86,20 @@
             font-family: monospace;
         }
 
-        /* ========================================================
-           NUEVO: DISEÑO PARA LA SELECCIÓN DE CATEGORÍAS 
-           ======================================================== */
+        /* Diseño de Categorías */
         .categories-grid {
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
             margin-top: 5px;
         }
-        
         .category-pill {
             cursor: pointer;
             display: inline-block;
         }
-        
-        /* Ocultamos el checkbox real del navegador */
         .category-pill input {
             display: none;
         }
-        
-        /* Diseñamos el botón o etiqueta interactiva */
         .category-pill span {
             display: inline-block;
             padding: 8px 14px;
@@ -109,12 +112,9 @@
             transition: all 0.2s ease;
             user-select: none;
         }
-        
         .category-pill:hover span {
             background: #e2e8f0;
         }
-        
-        /* Cuando el input oculto está seleccionado, pintamos el botón */
         .category-pill input:checked + span {
             background: #004488;
             color: white;
@@ -140,6 +140,16 @@
             flex: 1;
         }
         .btn-success:hover { background-color: #219150; }
+        .btn-primary {
+            background-color: #0284c7;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-primary:hover { background-color: #0369a1; }
         
         .output-card {
             background: #2d3748;
@@ -174,9 +184,19 @@
     </header>
 
     <main class="admin-container">
+        
+        <!-- SECCIÓN NUEVA: Importador desde Enlaces Externos -->
+        <div class="import-card">
+            <h3>⚡ Importador Rápido</h3>
+            <p style="color: #0369a1; font-size: 0.9rem; margin-top: 0;">Pega un enlace de LaCuerda o CifraClub para auto-rellenar los datos principales del canto.</p>
+            <div style="display: flex; gap: 10px;">
+                <input type="url" id="link-importar" placeholder="Ej: https://lacuerda.net/char/cancion_ejemplo">
+                <button class="btn-primary" id="btn-importar" onclick="importarDesdeEnlace()">Importar</button>
+            </div>
+        </div>
+
         <div class="form-card">
             <h2>Agregar Nuevo Canto</h2>
-            <p style="color: #666; font-size: 0.9rem;">Completa los datos del canto. Si activas la casilla de "Acordes arriba", el sistema se encargará de acomodar los acordes automáticamente dentro de la letra.</p>
             
             <div class="form-group">
                 <label for="titulo">Título del Canto:</label>
@@ -188,7 +208,7 @@
                 <input type="text" id="autor" placeholder="Ej. Cesáreo Gabaráin (o Tradicional)" required>
             </div>
 
-            <!-- NUEVA SECCIÓN: Selección Múltiple de Categorías -->
+            <!-- Selección Múltiple de Categorías -->
             <div class="form-group">
                 <label>Categorías (Selecciona todas las que apliquen):</label>
                 <div class="categories-grid">
@@ -251,6 +271,18 @@
                 </div>
             </div>
 
+            <!-- Enlaces multimedia Opcionales -->
+            <div class="form-row-double">
+                <div class="form-group">
+                    <label for="linkYoutube">Link de YouTube (Opcional):</label>
+                    <input type="url" id="linkYoutube" placeholder="https://www.youtube.com/watch?v=...">
+                </div>
+                <div class="form-group">
+                    <label for="linkPartitura">Link de Partitura/Drive (Opcional):</label>
+                    <input type="url" id="linkPartitura" placeholder="https://drive.google.com/file/d/...">
+                </div>
+            </div>
+
             <!-- Casilla de verificación para activar la conversión automática -->
             <div class="form-group-row">
                 <input type="checkbox" id="acordes-arriba" style="width: auto; transform: scale(1.3); cursor: pointer;">
@@ -284,12 +316,87 @@
     </main>
 
     <script>
-        // Cambia este número por tu propio teléfono móvil (con código de país, sin espacios ni el signo +)
-        const TELEFONO_ADMINISTRADOR = "5219999944550"; 
-        
+        const TELEFONO_ADMINISTRADOR = "521234567890"; 
         let bloqueCodigoGenerado = "";
 
-        // Algoritmo alineador de acordes superiores CORREGIDO Y ULTRA ROBUSTO
+        // NUEVO: Función para Importar desde LaCuerda o CifraClub
+        async function importarDesdeEnlace() {
+            const url = document.getElementById('link-importar').value.trim();
+            const btn = document.getElementById('btn-importar');
+
+            if (!url) {
+                alert("Por favor, ingresa un enlace de LaCuerda o CifraClub.");
+                return;
+            }
+
+            btn.textContent = "Cargando... ⏳";
+            btn.disabled = true;
+
+            try {
+                // Usamos AllOrigins para saltar la restricción de CORS
+                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+                const response = await fetch(proxyUrl);
+                
+                if (!response.ok) throw new Error("No se pudo conectar al servidor de importación.");
+                
+                const data = await response.json();
+                const htmlText = data.contents;
+
+                // Creamos un DOM virtual para leer las etiquetas del HTML descargado
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(htmlText, "text/html");
+
+                let titulo = "";
+                let autor = "";
+                let letraConAcordes = "";
+
+                if (url.includes("lacuerda.net")) {
+                    // PARSEO PARA LA CUERDA
+                    const h1Element = doc.querySelector("h1");
+                    const h2Element = doc.querySelector("h2");
+                    const preElement = doc.querySelector("pre");
+
+                    titulo = h1Element ? h1Element.textContent.replace(/\(.*?\)/g, "").trim() : "";
+                    autor = h2Element ? h2Element.textContent.trim() : "";
+                    letraConAcordes = preElement ? preElement.textContent : "";
+
+                } else if (url.includes("cifraclub.com")) {
+                    // PARSEO PARA CIFRA CLUB
+                    const h1Element = doc.querySelector(".t1") || doc.querySelector(".t3") || doc.querySelector("h1");
+                    const artistElement = doc.querySelector(".cifra-artist") || doc.querySelector("h2");
+                    const preElement = doc.querySelector("pre");
+
+                    titulo = h1Element ? h1Element.textContent.trim() : "";
+                    autor = artistElement ? artistElement.textContent.trim() : "";
+                    letraConAcordes = preElement ? preElement.textContent : "";
+                } else {
+                    throw new Error("Por ahora solo se soportan enlaces de lacuerda.net o cifraclub.com.");
+                }
+
+                if (!letraConAcordes) {
+                    throw new Error("No pudimos extraer la letra. Verifica que el enlace sea de una canción con acordes activa.");
+                }
+
+                // Autorellenamos los campos del formulario
+                document.getElementById('titulo').value = titulo;
+                document.getElementById('autor').value = autor;
+                document.getElementById('letra').value = letraConAcordes;
+                
+                // Forzamos que se marque el checkbox de 'acordes arriba' porque estas webs usan ese formato
+                document.getElementById('acordes-arriba').checked = true;
+
+                alert("¡Datos importados con éxito! Ahora revisa la letra y haz los ajustes que creas necesarios.");
+
+            } catch (error) {
+                console.error("Error al importar:", error);
+                alert("Ocurrió un error al intentar importar: " + error.message);
+            } finally {
+                btn.textContent = "Importar";
+                btn.disabled = false;
+            }
+        }
+
+        // Algoritmo alineador de acordes superiores
         function procesarAcordesSuperiores(textoOriginal) {
             const lineas = textoOriginal.split('\n');
             const lineasProcesadas = [];
@@ -358,18 +465,20 @@
             const capoVal = document.getElementById('capo').value;
             let letraVal = document.getElementById('letra').value;
 
+            // Enlaces multimedia opcionales
+            const linkYoutubeVal = document.getElementById('linkYoutube').value.trim();
+            const linkPartituraVal = document.getElementById('linkPartitura').value.trim();
+
             if (!tituloVal || !autorVal || !letraVal.trim()) {
                 alert("Por favor, rellena todos los campos antes de generar el canto.");
                 return;
             }
 
-            // ========================================================
-            // NUEVO: PROCESAMIENTO DE CATEGORÍAS SELECCIONADAS
-            // ========================================================
+            // Procesamiento de categorías seleccionadas
             const checkboxes = document.querySelectorAll('input[name="categorias"]:checked');
             const listaCategorias = [];
             checkboxes.forEach(cb => {
-                listaCategorias.push(cb.value); // El valor ya es lowercase y sin acentos
+                listaCategorias.push(cb.value);
             });
             const categoriasSeleccionadas = listaCategorias.join(", ");
 
@@ -388,8 +497,17 @@
 
             const nuevoId = Date.now();
 
-            // NUEVA SALIDA: Incluye el campo "categoria" justo donde lo solicitaste
-            bloqueCodigoGenerado = `{\n  id: ${nuevoId},\n  titulo: "${tituloVal}",\n  autor: "${autorVal}",\n  categoria: "${categoriasSeleccionadas}",\n  tonoOriginal: "${tonoFinal}",\n  letra: \`${letraVal}\`\n},`;
+            // Construimos dinámicamente las líneas opcionales del objeto final
+            let lineasOpcionales = "";
+            if (linkYoutubeVal !== "") {
+                lineasOpcionales += `\n  linkYoutube: "${linkYoutubeVal}",`;
+            }
+            if (linkPartituraVal !== "") {
+                lineasOpcionales += `\n  linkPartitura: "${linkPartituraVal}",`;
+            }
+
+            // Armamos la salida final limpia
+            bloqueCodigoGenerado = `{\n  id: ${nuevoId},\n  titulo: "${tituloVal}",\n  autor: "${autorVal}",\n  categoria: "${categoriasSeleccionadas}",\n  tonoOriginal: "${tonoFinal}",${lineasOpcionales}\n  letra: \`${letraVal}\`\n},`;
 
             document.getElementById('codigo-resultado').textContent = bloqueCodigoGenerado;
             document.getElementById('output-area').style.display = "block";
