@@ -223,3 +223,94 @@ function generateRepertoire() {
     localStorage.setItem('repertorioActual', JSON.stringify(seleccionadas));
     window.location.href = 'repertorio.html';
 }
+
+/**
+ * Cantoral Online Angeli Christi
+ * Módulo de Actualización Automática de Canciones
+ */
+
+// Clave donde guardaremos la copia local offline de las canciones
+const CLAVE_LOCAL_CANCIONES = 'angeli_christi_canciones_v1';
+
+/**
+ * Carga las canciones desde la memoria local inmediatamente
+ * para que el usuario no espere nada al abrir la app.
+ */
+function obtenerCancionesLocales() {
+    const cancionesGuardadas = localStorage.getItem(CLAVE_LOCAL_CANCIONES);
+    if (cancionesGuardadas) {
+        try {
+            return JSON.parse(cancionesGuardadas);
+        } catch (e) {
+            console.error("Error al leer canciones guardadas localmente:", e);
+        }
+    }
+    // Si no hay nada guardado aún, retorna la variable global de lista_canciones.js
+    return typeof canciones !== 'undefined' ? canciones : [];
+}
+
+/**
+ * Busca la lista más reciente en el servidor de forma silenciosa.
+ * Si encuentra cambios, actualiza la pantalla y la memoria local.
+ */
+async function comprobarActualizacionesCanciones() {
+    try {
+        // 1. Pedimos lista_canciones.js con un timestamp para traspasar cualquier caché
+        const urlAntiCache = `lista_canciones.js?t=${Date.now()}`;
+        const respuesta = await fetch(urlAntiCache);
+
+        if (!respuesta.ok) return;
+
+        // 2. Leemos el texto del archivo script descargado
+        const textoScript = await respuesta.text();
+
+        // 3. Comprobamos si el contenido es diferente al que tenemos guardado
+        const scriptAnterior = localStorage.getItem('angeli_christi_script_raw');
+
+        if (textoScript !== scriptAnterior) {
+            console.log("🎵 ¡Nuevas canciones o correcciones detectadas! Actualizando repertorio...");
+            
+            // Guardamos la nueva versión en la memoria del celular
+            localStorage.setItem('angeli_christi_script_raw', textoScript);
+
+            // Ejecutamos el nuevo script en memoria para actualizar las variables
+            const nuevoScript = document.createElement('script');
+            nuevoScript.text = textoScript;
+            document.head.appendChild(nuevoScript);
+
+            // Guardamos la lista de canciones actualizada
+            if (typeof canciones !== 'undefined') {
+                localStorage.setItem(CLAVE_LOCAL_CANCIONES, JSON.stringify(canciones));
+            }
+
+            // 4. Refrescamos la lista visible en pantalla si la función existe
+            if (typeof filterSongs === 'function') {
+                filterSongs();
+            } else if (typeof renderizarCanciones === 'function') {
+                renderizarCanciones();
+            }
+        } else {
+            console.log("✅ El repertorio ya está en su versión más reciente.");
+        }
+
+    } catch (error) {
+        console.warn("📡 Modo Offline activado: Usando canciones guardadas en el dispositivo.");
+    }
+}
+
+// 🚀 INICIALIZACIÓN AUTOMÁTICA AL ABRIR Y AL RE-ENFOCAR LA APP
+document.addEventListener("DOMContentLoaded", () => {
+    // 1. Cargar inmediatamente desde LocalStorage o script inicial
+    if (typeof filterSongs === 'function') {
+        filterSongs();
+    }
+
+    // 2. Buscar actualizaciones en segundo plano
+    comprobarActualizacionesCanciones();
+});
+
+// 3. Si el usuario minimiza la app y la vuelve a abrir, comprobar de nuevo
+window.addEventListener("focus", () => {
+    comprobarActualizacionesCanciones();
+});
+                     
