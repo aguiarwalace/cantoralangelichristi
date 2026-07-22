@@ -1,6 +1,8 @@
-// Atualizamos para v2.2 com pontos para forçar o celular a baixar a correção dos botões
-const CACHE_NAME = 'cantoral-angeli-v20260722.1';
+// Cantoral Online Angeli Christi - Service Worker (sw.js)
+// IMPORTANTE: Incrementa este número de versión cada vez que hagas cambios en el código o canciones.
+const CACHE_NAME = 'cantoral-angeli-v20260722.2';
 
+// Lista de archivos esenciales que se guardarán para el uso sin internet
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -18,21 +20,57 @@ const ASSETS_TO_CACHE = [
     './fonts/Thelorin.otf' 
 ];
 
-// 1. INSTALÇÃO: Guarda todos os arquivos essenciais na memória interna
-self.addEventListener('install', event => {
+// 1. INSTALACIÓN: Guarda los archivos en la memoria interna del navegador
+self.addEventListener('install', (event) => {
+    // Forzamos al nuevo Service Worker a activarse sin esperar
+    self.skipWaiting();
+    
     event.waitUntil(
-        caches.open(CACHE_NAME).then(cache => {
-            console.log('Guardando lógica e design na memória local...');
+        caches.open(CACHE_NAME).then((cache) => {
+            console.log('✅ [Service Worker] Guardando archivos esenciales en memoria...');
             return cache.addAll(ASSETS_TO_CACHE);
         })
     );
 });
 
-// 2. INTERCEPCIÓN: Responde usando a memória local quando estiver offline
-self.addEventListener('fetch', event => {
+// 2. ACTIVACIÓN: Elimina versiones antiguas de caché cuando cambias CACHE_NAME
+self.addEventListener('activate', (event) => {
+    event.waitUntil(
+        caches.keys().then((cacheNames) => {
+            return Promise.all(
+                cacheNames.map((cache) => {
+                    if (cache !== CACHE_NAME) {
+                        console.log('🧹 [Service Worker] Eliminando caché antiguo:', cache);
+                        return caches.delete(cache);
+                    }
+                })
+            );
+        }).then(() => self.clients.claim()) // Toma el control de la aplicación inmediatamente
+    );
+});
+
+// 3. INTERCEPTACIÓN DE PETICIONES (Estrategia Network-First / Primero Red)
+self.addEventListener('fetch', (event) => {
+    // Solo interceptamos peticiones HTTP/HTTPS (ignoramos extensiones de Chrome, etc.)
+    if (!event.request.url.startsWith('http')) return;
+
     event.respondWith(
-        caches.match(event.request).then(cachedResponse => {
-            return cachedResponse || fetch(event.request);
-        })
+        // Intenta obtener la versión más reciente de la red
+        fetch(event.request)
+            .then((networkResponse) => {
+                // Si la red responde correctamente, actualizamos la copia guardada en caché
+                if (networkResponse && networkResponse.status === 200) {
+                    const responseClone = networkResponse.clone();
+                    caches.open(CACHE_NAME).then((cache) => {
+                        cache.put(event.request, responseClone);
+                    });
+                }
+                return networkResponse;
+            })
+            .catch(() => {
+                // Si NO hay red (modo offline), entregamos la versión guardada en caché
+                console.log('📡 [Service Worker] Sin conexión. Entregando desde memoria local:', event.request.url);
+                return caches.match(event.request);
+            })
     );
 });
