@@ -2839,6 +2839,9 @@ Aquí hay un muchacho
     categoria: "comunion",
     tonoOriginal: "C",
     letra: `
+    Intro: [C] [Am] [F] [G]
+           [Em] [Am] [F] [G] [C]
+           
 [C]Estás a[Em]quí, aunque [F]no te pueda [G]ver,
 [F]Pues es[Dm]condes tu gloria y majes[G]tad.
 [C]Estás a[Em]quí reves[F]tido sola[Dm]mente del a[G]mor,
