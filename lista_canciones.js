@@ -7406,7 +7406,7 @@ letra: `
 [Am]Tengo que gritar, [C]tengo que arriesgar. 
 [G]¡Ay de mí si no lo [C]hago!
 [G]¿Cómo [Am]escapar de tí?, 
-[G]¿cómo no[Am]hablar?, 
+[G]¿cómo no [Am]hablar?, 
 [E7]¡si tu voz me quema [Am]dentro! [(bis)]
 
 [Verse]
