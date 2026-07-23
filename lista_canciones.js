@@ -7393,7 +7393,7 @@ letra: `
 [Am] [C] [G] [C] [Dm] [Am] [E7] [Am]
  
 [Verse]
-[Am]Antes que te [C]formaras deltro del 
+[Am]Antes que te [C]formaras dentro del 
 [G]vientre de tu [C]madre
 [Dm]Antes que tú [Am]nacieras te 
 [E7]conocía y te [Am]consagré
