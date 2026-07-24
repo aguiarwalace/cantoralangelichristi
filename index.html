@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="img/angeli_christi_logo.ico" type="image/x-icon">
     <title>Cantoral Online Angeli Christi</title>
     
-    <!-- 🛑 ETIQUETAS META ANTI-CACHÉ (Evitan que el HTML quede desactualizado) -->
+    <!-- ETIQUETAS META ANTI-CACHÉ (Evitan que el HTML quede desactualizado) -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
@@ -16,115 +16,51 @@
 </head>
     
 <body>
+    <!-- ENCABEZADO PRINCIPAL -->
     <header>
         <div class="header-left">
-            <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 15px;">
+            <a href="index.html">
                 <img src="img/angeli_christi_logo_blc.png" alt="Logo" class="logo-mini">
                 <h1>Cantoral Angeli Christi</h1>
             </a>
         </div>
-        <button id="menu-btn" onclick="toggleMenu()">☰</button>
-        <button id="menu-btn" onclick="window.location.href='celebraciones.html'" >📅</button>
+        <button id="menu-btn" onclick="toggleMenu()" aria-label="Abrir menú">☰</button>
+        <button id="cal-btn" onclick="window.location.href='celebraciones.html'" aria-label="Ver celebraciones">📅</button>
     </header>
-<main id="main-content">
+
+    <!-- CONTENEDOR PRINCIPAL DE CONTENIDO / CANCIONES -->
+    <main id="main-content">
         <div id="welcome-screen" class="welcome-container">
             
-            <!-- CAPA DE FOTO DE FONDO (Controlada por CSS) -->
+            <!-- CAPA DE FOTO DE FONDO -->
             <div class="welcome-bg-image"></div>
 
             <!-- CONTENIDO EN PRIMER PLANO -->
             <img src="img/angeli_christi_logo.png" alt="Logo Grande" class="logo-large">
             <h2 class="welcome-title">¿Quién Como Dios?<br>¡Nadie Como Dios!</h2>
-            
-            <p></p>
 
             <!-- CALENDARIO DEL MES -->
             <div class="calendar-container">
-                
                 <h3>Save the date!</h3>
 
-                <p>22/07: 20h <br>
-                    Ensayo - Rectoría</p>
-                <p>29/07: 20h <br>
-                    Ensayo - Rectoría</p>
+                <p>22/07: 20h <br> Ensayo - Rectoría</p>
+                <p>29/07: 20h <br> Ensayo - Rectoría</p>
                 <p>30/07: 18h <br>
                     Hora Santa - CP4<br>
-                Juanita Meneses Tah<br>
-                Calle 90 A número 483 por 84 A y 47 Colonia Petronila Centro<a href="https://maps.app.goo.gl/28daQyuNyBEZbMoG9">📍</a></p>
+                    Juanita Meneses Tah<br>
+                    Calle 90 A número 483 por 84 A y 47 Colonia Petronila Centro
+                    <a href="https://maps.app.goo.gl/28daQyuNyBEZbMoG9" target="_blank" rel="noopener">📍</a>
+                </p>
 
-                <p>05/08 - 20h  <br>
-                    Presentación de pbro. Rolando al consejo de coordinadores<br>
-                    Ensayo - Rectoría</p>
-                <p>12/08 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>14/08 - 19h  <br>
-                    Misa de despedida de padre Jorge y convivio posterior</p>
-                <p>18/08 - 19h  <br>
-                    Misa de toma de padre Jorge en la cuasiparroquia de los Heroes<a href="https://maps.app.goo.gl/xmCYvqAU4AxRw3rX6">📍</a></p>
-                <p>19/08 - 19h  <br>
-                    Misa de toma de padre Rolando en la Rectoría</p>
-                <p>23/08<br>
-                    Asamblea Diocesana de adolescentes - Seminario menor</p>
-                <p>26/08 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>27/08: 18h <br>
-                    Hora Santa - CP4<br>
-                <i>insertarnombre</i><br>
-                <i>insertardireccion</i><a href="#">📍</a></p>
-                <p>29/08: todo el día<br>
-                    EJC - Centro de convenciones Siglo XXI</p>
-
-<!-- Eventos futuros
-                <p>02/09 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>09/09 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>11/09 - 20h  <br>
-                    Formación - Rectoría</p>
-                <p>16/09 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>23/09 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>25/07: 19h (salida a las 15h)<br>
-                    Hora Santa y concierto (animación) - <a href="https://maps.app.goo.gl/9Ryuy5QdGzZNkYhz9">Chichimilá (Dec.10)</a></p>
-                <p>30/09 - 20h  <br>
-                    Ensayo - Rectoría</p>
-
-                <p>07/10 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>09/10 - 20h  <br>
-                    Formación - Rectoría</p>
-                <p>14/10 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>21/10 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>28/10 - 20h  <br>
-                    Ensayo - Rectoría</p>
-
-                <p>04/11 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>11/11 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>13/11 - 20h  <br>
-                    Formación - Rectoría</p>
-                <p>18/11 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>25/11 - 20h  <br>
-                    Ensayo - Rectoría</p>
-
-                <p>02/12 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>09/12 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>11/12 - 20h  <br>
-                    Formación - Rectoría</p>
-                <p>16/12 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>23/12 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                <p>30/12 - 20h  <br>
-                    Ensayo - Rectoría</p>
-                -->
+                <p>05/08 - 20h <br> Presentación de pbro. Rolando al consejo de coordinadores<br> Ensayo - Rectoría</p>
+                <p>12/08 - 20h <br> Ensayo - Rectoría</p>
+                <p>14/08 - 19h <br> Misa de despedida de padre Jorge y convivio posterior</p>
+                <p>18/08 - 19h <br> Misa de toma de padre Jorge en la cuasiparroquia de los Heroes <a href="https://maps.app.goo.gl/xmCYvqAU4AxRw3rX6" target="_blank" rel="noopener">📍</a></p>
+                <p>19/08 - 19h <br> Misa de toma de padre Rolando en la Rectoría</p>
+                <p>23/08 <br> Asamblea Diocesana de adolescentes - Seminario menor</p>
+                <p>26/08 - 20h <br> Ensayo - Rectoría</p>
+                <p>27/08: 18h <br> Hora Santa - CP4<br> <i>insertarnombre</i><br> <i>insertardireccion</i> <a href="#">📍</a></p>
+                <p>29/08: todo el día <br> EJC - Centro de convenciones Siglo XXI</p>
             </div>
 
             <!-- CUADRÍCULA DE ACCESOS RÁPIDOS -->
@@ -141,7 +77,7 @@
                     <div class="dash-icon" style="background: rgba(212, 175, 55, 0.15); color: #bfa02c;">📅</div>
                     <div class="dash-info">
                         <h3>Celebraciones</h3>
-                        <p>Revisa las fechas y los cantos assignados para cada Misa.</p>
+                        <p>Revisa las fechas y los cantos asignados para cada Misa.</p>
                     </div>
                 </div>
 
@@ -165,16 +101,6 @@
                     </div>
                 </a>
 
-                <!-- <a href="https://arquidiocesisdeyucatan.org.mx/wp-content/uploads/2026/08/PalabraVivaAgosto26.pdf" target="_blank" class="dash-card-link">
-                    <div class="dash-card">
-                        <div class="dash-icon" style="background: rgba(6, 192, 31, 0.1); color: #2bff00;">⛪</div>
-                        <div class="dash-info">
-                            <h3>Misal Agosto 2026</h3>
-                            <p>Antífona, oraciones y lecturas para la Misa</p>
-                        </div>
-                    </div>
-                </a> -->
-
                 <a href="https://drive.google.com/file/d/1JOed7rWY1Z5teke4MkoTM_XlD02eKipz/view" target="_blank" class="dash-card-link">
                     <div class="dash-card">
                         <div class="dash-icon" style="background: rgba(231, 76, 60, 0.1); color: #e74c3c;">📕</div>
@@ -194,27 +120,11 @@
                         </div>
                     </div>
                 </a>
-
-                <!-- NOVO: CARTÃO DE INSTALAÇÃO INTEGRADO AO GRID (SEMPRE VISÍVEL) -->
-                <!--<div id="btn-instalar-app" class="dash-card" style="cursor: pointer; background: rgba(46, 204, 113, 0.4); border: 1px solid rgba(46, 204, 113, 0.2);">
-                    <div class="dash-icon" style="background: rgba(46, 204, 112, 0.6); color: #2ecc71;">📲</div>
-                    <div class="dash-info">
-                        <h3>Instalar Aplicación</h3>
-                        <p>Usa el cantoral sin internet directamente en tu pantalla de inicio.</p>
-                    </div>
-                </div>-->
-
-                <!-- NOVO: TEXTO DE AJUDA EXPANSÍVEL INTEGRADO DENTRO DO GRID
-                <div id="ajuda-instalacao" style="display: none; grid-column: 1 / -1; background: #f8f9fa; border-left: 4px solid #003468; padding: 12px; margin-top: 5px; border-radius: 6px; font-size: 0.9rem; color: #333;">
-                    <p style="margin: 0 0 6px 0; font-weight: bold;">💡 ¿No aparece la ventana de instalación?</p>
-                    <p style="margin: 0; line-height: 1.4;">1. Si estás abriendo el enlace desde WhatsApp, toca los 3 puntos arriba a la derecha y selecciona <b>"Abrir en Chrome"</b> (o Safari).<br>
-                    2. En iPhone (iOS): Toca el botón de <b>Compartir</b> 📤 en Safari y elige <b>"Añadir a la pantalla de inicio"</b>.</p>
-                </div>-->
             </div>
-        
-        <div id="song-display"></div>
+        </div>
     </main>
 
+    <!-- MENÚ LATERAL (SIDEBAR) -->
     <nav id="sidebar">
         <div class="sidebar-header">
             <h3>Menú</h3>
@@ -256,80 +166,30 @@
             🧹 Limpiar búsqueda
         </button>
 
-        <div id="song-list-container" style="max-height: 60vh; overflow-y: auto; margin-bottom: 15px;">
+        <div id="song-list-container" style="max-height: 60vh; overflow-y: auto; margin-bottom: 15px;"></div>
+
+        <div class="sidebar-footer" style="display: flex; flex-direction: column; gap: 10px;">
+            <button id="gen-repertorio-btn" onclick="generateRepertoire()" style="background: var(--accent); color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+                📊 Generar Repertorio
+            </button>
+            
+            <button onclick="toggleDarkMode()" style="background: #444; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">
+                🌓 Modo Oscuro/Claro
+            </button>
         </div>
+    </nav>
 
-    <div class="sidebar-footer" style="display: flex; flex-direction: column; gap: 10px;">
-        <button id="gen-repertorio-btn" onclick="generateRepertoire()" style="background: var(--accent); color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
-            📊 Generar Repertorio
-        </button>
-        
-        <button onclick="toggleDarkMode()" style="background: #444; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">
-            🌓 Modo Oscuro/Claro
-        </button>
-    </div>
-
+    <!-- SCRIPTS PRINCIPALES -->
     <script src="lista_canciones.js"></script>
     <script src="script.js"></script>
     <script>
-    let eventoInstalacion;
-    const botonInstalar = document.getElementById('btn-instalar-app');
-    const ajudaInstalacao = document.getElementById('ajuda-instalacao');
-
-    /*// 1. Capturar o evento de instalação se o navegador for compatível
-    window.addEventListener('beforeinstallprompt', (e) => {
-        e.preventDefault();
-        eventoInstalacion = e;
-        // O cartão já está visível por padrão, não precisamos alterar o display dele aqui
-    });
-
-    // 2. Lógica de controle ao clicar no Cartão do Grid
-    if (botonInstalar) {
-        botonInstalar.addEventListener('click', async () => {
-            if (eventoInstalacion) {
-                // Se o prompt automático estiver disponível, executa-o
-                eventoInstalacion.prompt();
-                const { outcome } = await eventoInstalacion.userChoice;
-                console.log(`Usuario eligió: ${outcome}`);
-                eventoInstalacion = null;
-            } else {
-                // Se não houver evento nativo (ex: iPhone ou WhatsApp), expande ou recolhe as instruções
-                if (ajudaInstalacao) {
-                    if (ajudaInstalacao.style.display === 'none' || ajudaInstalacao.style.display === '') {
-                        ajudaInstalacao.style.display = 'block';
-                    } else {
-                        ajudaInstalacao.style.display = 'none';
-                    }
-                }
-            }
-        });
-    }
-
-    // 3. Modificar o texto se o aplicativo for instalado com sucesso neste momento
-    window.addEventListener('appinstalled', () => {
-        if (ajudaInstalacao) ajudaInstalacao.style.display = 'none';
-        const tituloCard = botonInstalar ? botonInstalar.querySelector('h3') : null;
-        const descCard = botonInstalar ? botonInstalar.querySelector('p') : null;
-        if (tituloCard) tituloCard.innerText = '¡Aplicación Instalada!';
-        if (descCard) descCard.innerText = 'Ya tienes el cantoral guardado en tu pantalla de inicio.';
-    });
-
-    // 4. Verificar na inicialização se o usuário JÁ está usando o app instalado (Modo Standalone)
-    if (window.matchMedia('(display-mode: standalone)').matches) {
-        const tituloCard = botonInstalar ? botonInstalar.querySelector('h3') : null;
-        const descCard = botonInstalar ? botonInstalar.querySelector('p') : null;
-        if (tituloCard) tituloCard.innerText = '¡Aplicación Instalada!';
-        if (descCard) descCard.innerText = 'Estás usando la versión oficial offline en tu dispositivo.';
-    }*/
-
-    // 5. Registro do Service Worker para o Modo Offline
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('sw.js')
-                .then(reg => console.log('Modo offline listo', reg))
-                .catch(err => console.log('Error SW', err));
-        });
-    }
-</script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('Modo offline listo', reg))
+                    .catch(err => console.log('Error SW', err));
+            });
+        }
+    </script>
 </body>
 </html>
