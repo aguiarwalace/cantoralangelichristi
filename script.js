@@ -1,3 +1,5 @@
+// Cantoral Online Angeli Christi - Lógica Principal (script.js)
+
 // --- 1. VARIABLES Y ESCALAS ---
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
@@ -17,16 +19,23 @@ function toggleMenu() {
 }
 
 function filterSongs() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const categoryTerm = document.getElementById('category-filter').value;
+    const searchInput = document.getElementById('search-input');
+    const categoryFilter = document.getElementById('category-filter');
     const container = document.getElementById('song-list-container');
     
-    if(!container) return;
+    if (!container || !searchInput || !categoryFilter) return;
+
+    const searchTerm = searchInput.value.toLowerCase();
+    const categoryTerm = categoryFilter.value;
+    
     container.innerHTML = ''; 
 
     if (searchTerm.trim() === "" && categoryTerm === "todos") return; 
 
-    const filtradas = canciones.filter(s => {
+    // Obtener la lista activa (Memoria o LocalStorage)
+    const listaBase = (typeof canciones !== 'undefined') ? canciones : obtenerCancionesLocales();
+
+    const filtradas = listaBase.filter(s => {
         const coincideTitulo = s.titulo.toLowerCase().includes(searchTerm);
         const coincideLetra = s.letra.toLowerCase().includes(searchTerm);
         const coincideCategoria = (categoryTerm === 'todos' || 
@@ -57,7 +66,8 @@ function prepararDisplay(id) {
 }
 
 function displaySong() {
-    const song = canciones.find(s => s.id === cancionActualId);
+    const listaBase = (typeof canciones !== 'undefined') ? canciones : obtenerCancionesLocales();
+    const song = listaBase.find(s => s.id === cancionActualId);
     const display = document.getElementById('main-content');
     if (!song || !display) return;
 
@@ -67,10 +77,11 @@ function displaySong() {
     const match = tonoDestino.match(/^([A-G][#b]?m?)/);
     const tonoBase = match ? match[1] : tonoDestino;
     
-    // Elegimos la escala correcta según nuestra nueva regla
+    // Elegimos la escala correcta según regla de bemoles
     const escalaElegida = tonosConBemoles.includes(tonoBase) ? escBem : escSost;
 
-    const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida, tonoDestino);
+    // Formateo dinámico en Flexbox
+    const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida);
 
     // --- LÓGICA PARA LOS LINKS EXTERNOS ---
     let botonesLinksHtml = '';
@@ -82,7 +93,6 @@ function displaySong() {
         botonesLinksHtml += `<a href="${song.linkPartitura}" target="_blank" style="display:inline-block; background:var(--accent); color:white; padding:5px 12px; border-radius:5px; text-decoration:none; font-size:0.9rem; margin-right:10px;">🎼 Partitura / Audio</a>`;
     }
 
-    // Contenedor que solo aparece si hay al menos un link
     let seccionRecursos = botonesLinksHtml ? `<div style="margin-top: 15px;">${botonesLinksHtml}</div>` : '';
 
     display.innerHTML = `
@@ -103,8 +113,9 @@ function displaySong() {
                     </div>
                 </div>
                 <p style="color: #666; margin-top:10px;"><em>Autor: ${song.autor}</em></p>
-                ${seccionRecursos} </div>
-            <div class="lyrics-container" style="font-size: ${fontSizeActual}rem; line-height: 2.8;">
+                ${seccionRecursos}
+            </div>
+            <div class="lyrics-container" style="font-size: ${fontSizeActual}rem;">
                 ${letraFormateadaHtml}
             </div>
         </div>
@@ -126,7 +137,6 @@ function calcularNombreTono(tonoOriginal, semitonos) {
     
     let nuevoIndice = (indice + semitonos + 12) % 12;
     
-    // Creamos la versión bemol y le preguntamos a la regla si debe ir así
     const baseBem = escBem[nuevoIndice] + adorno;
     const matchBase = baseBem.match(/^([A-G][#b]?m?)/);
     const tonoParaComparar = matchBase ? matchBase[1] : baseBem;
@@ -148,35 +158,77 @@ function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
     });
 }
 
-// FUNCIÓN RENOVA: Motor Híbrido que diferencia acordes en texto de acordes en intros
-function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida, tonoDestino) {
-    // 1. Convertimos los saltos de línea del texto a etiquetas <br>
-    let textoHtml = letraRaw.replace(/\n/g, '<br>');
-    
-    // 2. Expresión que captura el acorde y el carácter que viene inmediatamente después
-    const regexAcordePerfecto = /\[(.*?)\]([^\[<]?)/g;
+/**
+ * MOTOR RESPONSIVO FLEXBOX: Convierte la letra con [Acordes] en contenedores
+ * indivisibles para evitar solapamientos y cortes de palabras en celulares.
+ */
+function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
+    if (!letraRaw) return '';
 
-    // 3. Evaluamos cada acorde de forma individual
-    return textoHtml.replace(regexAcordePerfecto, (match, acorde, siguienteCaracter) => {
-        let acordeFinal = trasponerAcorde(acorde, semitonos, escalaElegida);
-        
-        // Evaluamos mediante una expresión regular si el carácter siguiente es una letra o número
-        const esLetraOTexto = siguienteCaracter && /[a-zA-Z0-9áéíóúÁÉÍÓÚñÑíÍóÓúÚüÜ]/.test(siguienteCaracter);
-        
-        if (esLetraOTexto) {
-            // CASO 1: El acorde está sobre una palabra.
-            // Usamos el sistema de ANCHO CERO absoluto para que las letras no se separen.
-            return `<span class="acorde-wrapper"><span class="acorde-interno">${acordeFinal}</span></span>${siguienteCaracter}`;
-        } else {
-            // CASO 2: Es un acorde independiente (Intro, acordes seguidos o al final del renglón).
-            // Conserva su ancho real para que se empujen entre sí, pero se eleva con CSS.
-            let espacioBase = siguienteCaracter === " " ? "&nbsp;" : siguienteCaracter;
-            return `<span class="acorde-bloque">${acordeFinal}</span>${espacioBase}`;
+    const lineas = letraRaw.trim().split('\n');
+    let htmlFinal = '<div class="visor-cancion">';
+
+    lineas.forEach(linea => {
+        // Línea vacía entre estrofas
+        if (!linea.trim()) {
+            htmlFinal += '<div class="linea-vacia"></div>';
+            return;
         }
+
+        htmlFinal += '<div class="linea-cancion">';
+        const palabras = linea.split(' ');
+
+        palabras.forEach((palabra, index) => {
+            if (!palabra) return;
+
+            // Envoltorio para evitar que la palabra se divida al final del renglón
+            htmlFinal += '<span class="contenedor-palabra">';
+
+            // Separar acordes [X] del texto
+            const partes = palabra.split(/(\[[^\]]+\])/g);
+            let acordeActual = '';
+
+            partes.forEach(parte => {
+                if (!parte) return;
+
+                if (parte.startsWith('[') && parte.endsWith(']')) {
+                    const acordeLimpio = parte.slice(1, -1);
+                    acordeActual = trasponerAcorde(acordeLimpio, semitonos, escalaElegida);
+                } else {
+                    htmlFinal += `
+                        <div class="par-acorde-palabra">
+                            <span class="acorde-texto">${acordeActual}</span>
+                            <span class="palabra-texto">${parte}</span>
+                        </div>`;
+                    acordeActual = '';
+                }
+            });
+
+            // Si quedó un acorde solo al final (ej. Intros)
+            if (acordeActual) {
+                htmlFinal += `
+                    <div class="par-acorde-palabra">
+                        <span class="acorde-texto">${acordeActual}</span>
+                        <span class="palabra-texto">&nbsp;</span>
+                    </div>`;
+            }
+
+            htmlFinal += '</span>';
+
+            // Espacio entre palabras
+            if (index < palabras.length - 1) {
+                htmlFinal += '<span class="espacio-palabra"></span>';
+            }
+        });
+
+        htmlFinal += '</div>';
     });
+
+    htmlFinal += '</div>';
+    return htmlFinal;
 }
 
-// --- 4. UTILIDADES ---
+// --- 4. UTILIDADES Y CONTROLES ---
 
 function cambiarTono(valor) {
     trasposicionActual = (valor === 0) ? 0 : trasposicionActual + valor;
@@ -201,8 +253,10 @@ function toggleSelect(id) {
 }
 
 function clearSearch() {
-    document.getElementById('search-input').value = "";
-    document.getElementById('category-filter').selectedIndex = 0;
+    const searchInput = document.getElementById('search-input');
+    const categoryFilter = document.getElementById('category-filter');
+    if (searchInput) searchInput.value = "";
+    if (categoryFilter) categoryFilter.selectedIndex = 0;
     filterSongs();
 }
 
@@ -224,18 +278,10 @@ function generateRepertoire() {
     window.location.href = 'repertorio.html';
 }
 
-/**
- * Cantoral Online Angeli Christi
- * Módulo de Actualización Automática de Canciones
- */
+// --- 5. ACTUALIZACIÓN AUTOMÁTICA Y SOPORTE OFFLINE ---
 
-// Clave donde guardaremos la copia local offline de las canciones
 const CLAVE_LOCAL_CANCIONES = 'angeli_christi_canciones_v1';
 
-/**
- * Carga las canciones desde la memoria local inmediatamente
- * para que el usuario no espere nada al abrir la app.
- */
 function obtenerCancionesLocales() {
     const cancionesGuardadas = localStorage.getItem(CLAVE_LOCAL_CANCIONES);
     if (cancionesGuardadas) {
@@ -245,49 +291,37 @@ function obtenerCancionesLocales() {
             console.error("Error al leer canciones guardadas localmente:", e);
         }
     }
-    // Si no hay nada guardado aún, retorna la variable global de lista_canciones.js
     return typeof canciones !== 'undefined' ? canciones : [];
 }
 
-/**
- * Busca la lista más reciente en el servidor de forma silenciosa.
- * Si encuentra cambios, actualiza la pantalla y la memoria local.
- */
 async function comprobarActualizacionesCanciones() {
     try {
-        // 1. Pedimos lista_canciones.js con un timestamp para traspasar cualquier caché
         const urlAntiCache = `lista_canciones.js?t=${Date.now()}`;
         const respuesta = await fetch(urlAntiCache);
 
         if (!respuesta.ok) return;
 
-        // 2. Leemos el texto del archivo script descargado
         const textoScript = await respuesta.text();
-
-        // 3. Comprobamos si el contenido es diferente al que tenemos guardado
         const scriptAnterior = localStorage.getItem('angeli_christi_script_raw');
 
         if (textoScript !== scriptAnterior) {
             console.log("🎵 ¡Nuevas canciones o correcciones detectadas! Actualizando repertorio...");
             
-            // Guardamos la nueva versión en la memoria del celular
             localStorage.setItem('angeli_christi_script_raw', textoScript);
 
-            // Ejecutamos el nuevo script en memoria para actualizar las variables
             const nuevoScript = document.createElement('script');
             nuevoScript.text = textoScript;
             document.head.appendChild(nuevoScript);
 
-            // Guardamos la lista de canciones actualizada
             if (typeof canciones !== 'undefined') {
                 localStorage.setItem(CLAVE_LOCAL_CANCIONES, JSON.stringify(canciones));
             }
 
-            // 4. Refrescamos la lista visible en pantalla si la función existe
             if (typeof filterSongs === 'function') {
                 filterSongs();
-            } else if (typeof renderizarCanciones === 'function') {
-                renderizarCanciones();
+            }
+            if (cancionActualId !== null && typeof displaySong === 'function') {
+                displaySong();
             }
         } else {
             console.log("✅ El repertorio ya está en su versión más reciente.");
@@ -298,19 +332,13 @@ async function comprobarActualizacionesCanciones() {
     }
 }
 
-// 🚀 INICIALIZACIÓN AUTOMÁTICA AL ABRIR Y AL RE-ENFOCAR LA APP
 document.addEventListener("DOMContentLoaded", () => {
-    // 1. Cargar inmediatamente desde LocalStorage o script inicial
     if (typeof filterSongs === 'function') {
         filterSongs();
     }
-
-    // 2. Buscar actualizaciones en segundo plano
     comprobarActualizacionesCanciones();
 });
 
-// 3. Si el usuario minimiza la app y la vuelve a abrir, comprobar de nuevo
 window.addEventListener("focus", () => {
     comprobarActualizacionesCanciones();
 });
-                     
