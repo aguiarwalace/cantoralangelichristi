@@ -11,13 +11,42 @@ let cancionActualId = null;
 let trasposicionActual = 0;
 let fontSizeActual = 1.2; // Tamaño base en rem
 
-// --- 2. LÓGICA DE INTERFAZ Y FILTROS ---
+// --- 2. FUNCIÓN AUXILIAR DE NORMALIZACIÓN DE TEXTO ---
+
+/**
+ * Normaliza una cadena de texto para facilitar búsquedas flexibles:
+ * 1. Convierte a minúsculas.
+ * 2. Remueve acentos y tildes (NFD + Regex).
+ * 3. Elimina signos de puntuación, símbolos y caracteres especiales.
+ * 4. Recorta espacios innecesarios.
+ * 
+ * @param {string} texto - Cadena de texto original.
+ * @returns {string} Texto limpio sin acentos ni puntuación.
+ */
+function normalizarTexto(texto) {
+    if (!texto) return '';
+    return texto
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '') // Elimina acentos/diacríticos
+        .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'¡!¿«»]/g, '') // Elimina signos de puntuación
+        .trim();
+}
+
+// --- 3. LÓGICA DE INTERFAZ Y FILTROS OPTIMIZADOS ---
 
 function toggleMenu() {
     const sidebar = document.getElementById('sidebar');
     if (sidebar) sidebar.classList.toggle('active');
 }
 
+/**
+ * Filtra la lista de canciones considerando:
+ * - Búsqueda insensible a tildes, mayúsculas y signos de puntuación.
+ * - Coincidencia por palabras independientes (Multi-palabra).
+ * - Búsqueda en Título, Autor y Letra.
+ * - Categoría o apartado litúrgico seleccionado.
+ */
 function filterSongs() {
     const searchInput = document.getElementById('search-input');
     const categoryFilter = document.getElementById('category-filter');
@@ -25,24 +54,42 @@ function filterSongs() {
     
     if (!container || !searchInput || !categoryFilter) return;
 
-    const searchTerm = searchInput.value.toLowerCase();
+    const rawSearchTerm = searchInput.value;
     const categoryTerm = categoryFilter.value;
     
     container.innerHTML = ''; 
 
-    if (searchTerm.trim() === "" && categoryTerm === "todos") return; 
+    if (rawSearchTerm.trim() === "" && categoryTerm === "todos") return; 
 
     // Obtener la lista activa (Memoria o LocalStorage)
     const listaBase = (typeof canciones !== 'undefined') ? canciones : obtenerCancionesLocales();
 
+    // Normalizamos el texto de búsqueda y lo dividimos en palabras clave individuales
+    const textoBusquedaNorm = normalizarTexto(rawSearchTerm);
+    const palabrasClave = textoBusquedaNorm.split(/\s+/).filter(palabra => palabra.length > 0);
+
     const filtradas = listaBase.filter(s => {
-        const coincideTitulo = s.titulo.toLowerCase().includes(searchTerm);
-        const coincideLetra = s.letra.toLowerCase().includes(searchTerm);
+        // 1. Validar categoría
         const coincideCategoria = (categoryTerm === 'todos' || 
                                     s.categoria.toLowerCase().includes(categoryTerm.toLowerCase()));
-        return (coincideTitulo || coincideLetra) && coincideCategoria;
+        if (!coincideCategoria) return false;
+
+        // Si no se escribió nada en el buscador pero hay una categoría activa
+        if (palabrasClave.length === 0) return true;
+
+        // 2. Normalizar campos de la canción
+        const tituloNorm = normalizarTexto(s.titulo);
+        const autorNorm = normalizarTexto(s.autor || '');
+        const letraNorm = normalizarTexto(s.letra);
+
+        // Combinar los campos para permitir búsquedas cruzadas (ej: "autor palabra_letra")
+        const contenidoCompleto = `${tituloNorm} ${autorNorm} ${letraNorm}`;
+
+        // 3. Verificar que TODAS las palabras clave buscadas existan dentro del contenido de la canción
+        return palabrasClave.every(palabra => contenidoCompleto.includes(palabra));
     });
 
+    // Renderizar resultados
     filtradas.forEach(s => {
         const div = document.createElement('div');
         div.className = 'song-item';
@@ -122,7 +169,7 @@ function displaySong() {
     `;
 }
 
-// --- 3. LÓGICA MUSICAL ---
+// --- 4. LÓGICA MUSICAL ---
 
 function calcularNombreTono(tonoOriginal, semitonos) {
     const regex = /^([A-G][#b]?)(.*)$/;
@@ -158,10 +205,6 @@ function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
     });
 }
 
-/**
- * MOTOR RESPONSIVO FLEXBOX: Convierte la letra con [Acordes] en contenedores
- * indivisibles para evitar solapamientos y cortes de palabras en celulares.
- */
 function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
     if (!letraRaw) return '';
 
@@ -169,7 +212,6 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
     let htmlFinal = '<div class="visor-cancion">';
 
     lineas.forEach(linea => {
-        // Línea vacía entre estrofas
         if (!linea.trim()) {
             htmlFinal += '<div class="linea-vacia"></div>';
             return;
@@ -181,10 +223,7 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
         palabras.forEach((palabra, index) => {
             if (!palabra) return;
 
-            // Envoltorio para evitar que la palabra se divida al final del renglón
             htmlFinal += '<span class="contenedor-palabra">';
-
-            // Separar acordes [X] del texto
             const partes = palabra.split(/(\[[^\]]+\])/g);
             let acordeActual = '';
 
@@ -204,7 +243,6 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
                 }
             });
 
-            // Si quedó un acorde solo al final (ej. Intros)
             if (acordeActual) {
                 htmlFinal += `
                     <div class="par-acorde-palabra">
@@ -215,7 +253,6 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
 
             htmlFinal += '</span>';
 
-            // Espacio entre palabras
             if (index < palabras.length - 1) {
                 htmlFinal += '<span class="espacio-palabra"></span>';
             }
@@ -228,7 +265,7 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
     return htmlFinal;
 }
 
-// --- 4. UTILIDADES Y CONTROLES ---
+// --- 5. UTILIDADES Y CONTROLES ---
 
 function cambiarTono(valor) {
     trasposicionActual = (valor === 0) ? 0 : trasposicionActual + valor;
@@ -278,7 +315,7 @@ function generateRepertoire() {
     window.location.href = 'repertorio.html';
 }
 
-// --- 5. ACTUALIZACIÓN AUTOMÁTICA Y SOPORTE OFFLINE ---
+// --- 6. ACTUALIZACIÓN AUTOMÁTICA Y SOPORTE OFFLINE ---
 
 const CLAVE_LOCAL_CANCIONES = 'angeli_christi_canciones_v1';
 
