@@ -11,7 +11,7 @@
     --accent: #d4af37;
     --bg-body: #cfedff;
     --bg-card: #ffffff;
-    --text-main: #333;
+    --text-main: #333333;
     --red-chord: #e74c3c;
     --shadow: 0 4px 6px rgba(0,0,0,0.1);
     --bg-box: #ffffff81;
@@ -31,7 +31,7 @@ body {
 
 h1, h2, h3, .welcome-title {
     font-family: 'Thelorin', 'Segoe UI', Arial, sans-serif;
-    font-weight: 600; /* Controla el grosor de la fuente de tus títulos */
+    font-weight: 600;
 }
 
 body.dark-mode {
@@ -39,7 +39,7 @@ body.dark-mode {
     --bg-card: #2d2d2d;
     --text-main: #f4f4f4;
     --red-chord: #ff7675;
-    --bg-box: #2d2d2d
+    --bg-box: #2d2d2d;
 }
 
 /* --- HEADER --- */
@@ -92,7 +92,7 @@ header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
     padding: 20px;
     display: flex;
     justify-content: center;
-    background-color:var(--bg-body);
+    background-color: var(--bg-body);
 }
 
 .song-card {
@@ -116,68 +116,6 @@ header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
 body.dark-mode .song-header h2 { 
     color: var(--accent); 
     border-bottom-color: #444;
-}
-
-/* --- MOTOR DE ACORDES HÍBRIDO (SIN DESFASES NI SOLAPAMIENTOS) --- */
-.lyrics-container {
-    font-size: 1.2rem;
-    line-height: 3.4; /* Espacio vertical amplio y seguro para la fila de acordes */
-    margin-top: 30px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    transition: font-size 0.2s ease;
-}
-
-/* 1. ESTILO PARA ESTROFAS: Bloque invisible de ancho cero (Evita separar palabras) */
-.acorde-wrapper {
-    position: relative;
-    display: inline-block;
-    width: 0;
-    vertical-align: bottom;
-}
-
-.acorde-interno {
-    position: absolute;
-    bottom: 1.4em; /* Eleva el acorde sobre el renglón */
-    left: 0;
-    font-weight: bold;
-    color: var(--red-chord); /* Recupera tu color rojo variable (Claro/Oscuro) */
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 0.85em;
-    white-space: nowrap;
-}
-
-/* 2. ESTILO PARA INTROS: Bloque elástico con ancho real (Evita la sobreescritura) */
-.acorde-bloque {
-    display: inline-block;
-    position: relative;
-    font-weight: bold;
-    color: var(--red-chord); /* Mismo color rojo de tu identidad visual */
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 0.85em;
-    white-space: nowrap;
-    margin-right: 10px; /* Margen de seguridad horizontal entre acordes seguidos */
-    transform: translateY(-1.4em); /* Lo eleva visualmente a la misma altura que los demás */
-}
-
-/* Contenedor invisible que evita el desplazamiento horizontal del texto */
-.acorde-wrapper {
-    position: relative;
-    display: inline-block;
-    width: 0;
-    vertical-align: bottom;
-}
-
-/* Acorde flotante alineado milimétricamente arriba de la letra */
-.acorde-interno {
-    position: absolute;
-    bottom: 1.4em; /* Eleva el acorde con precisión matemática sobre el renglón */
-    left: 0;
-    font-weight: bold;
-    color: var(--red-chord); /* Se vincula automáticamente a tus variables de tema */
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 0.85em; /* Ajuste estético sutil */
-    white-space: nowrap; /* Impide saltos de línea dentro de acordes complejos */
 }
 
 /* --- CONTROLES (TONO Y TAMAÑO) --- */
@@ -364,6 +302,7 @@ body.dark-mode .welcome-title {
     height: 100%;
     box-sizing: border-box;
 }
+
 .calendar-container h3 {
     margin: 0 0 10px 0;
     font-size: 1.2rem;
@@ -444,16 +383,16 @@ body.dark-mode .dash-info p {
 }
 
 /* =======================================================
-   ESTILOS DO VISOR DE CIFRAS (Sem sobreposições)
+   ESTILOS DEL VISOR DE CIFRAS RESPONSIVO (FLEXBOX)
    ======================================================= */
 
 .visor-cancion {
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
     box-sizing: border-box;
 }
 
-/* Linha da música que permite quebrar palavras inteiras para a linha seguinte */
+/* Fila de la canción que permite envolver palabras completas */
 .linea-cancion {
     display: flex;
     flex-wrap: wrap;
@@ -462,39 +401,39 @@ body.dark-mode .dash-info p {
     row-gap: 8px;
 }
 
-/* Espaçamento para linhas em branco entre estrofes */
+/* Espacio libre para líneas en blanco entre estrofas */
 .linea-vacia {
     height: 18px;
 }
 
-/* IMPEDE que a palavra seja cortada ao meio na quebra de linha */
+/* Impide que la palabra se rompa por la mitad al cambiar de fila */
 .contenedor-palabra {
     display: inline-flex;
     white-space: nowrap;
 }
 
-/* Bloco vertical: Acorde em cima, Sílaba/Palavra em baixo */
+/* Estructura vertical: Acorde ARRIBA, Texto ABAJO */
 .par-acorde-palabra {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-/* Estilo do Acorde (Texto Vermelho) */
+/* Estilo del Acorde (Dinámico con tema claro/oscuro) */
 .acorde-texto {
-    color: #d9534f;
+    color: var(--red-chord);
     font-weight: bold;
     font-size: 0.9em;
-    min-height: 1.2em; /* Reserva espaço vertical mesmo sem acorde */
+    min-height: 1.2em; /* Reserva espacio vertical uniforme */
 }
 
-/* Estilo da Letra (Texto Escuro) */
+/* Estilo de la Letra (Dinámico con tema claro/oscuro) */
 .palabra-texto {
-    color: #333333;
+    color: var(--text-main);
     font-size: 1em;
 }
 
-/* Espaço natural entre palavras */
+/* Espaciado natural entre palabras */
 .espacio-palabra {
     display: inline-block;
     width: 0.4em;
