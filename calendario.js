@@ -58,7 +58,7 @@ const datosLiturgicos = {
         { id: "a_to_14", nombre: "14º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_15", nombre: "15º Domingo del Tiempo Ordinario", cantos: [4,25,243,402,397,391,100,122,357,403,239] },
         { id: "a_to_16", nombre: "16º Domingo del Tiempo Ordinario", cantos: [19,25,243,402,397,77,405,122,351,133,399] },
-        { id: "a_to_17", nombre: "17º Domingo del Tiempo Ordinario", cantos: [19,25,243,402,397,77,405,122,351,133,399] },
+        { id: "a_to_17", nombre: "17º Domingo del Tiempo Ordinario", cantos: [19,25,243,402,397,77,405,122,351,142,399] },
         { id: "a_to_18", nombre: "18º Domingo del Tiempo Ordinario", cantos: [19,25,243,402,397,77,405,122,351,133,399] },
         { id: "a_to_19", nombre: "19º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_20", nombre: "20º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
