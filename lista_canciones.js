@@ -2139,7 +2139,7 @@ En el [C]ci[G]e[C]lo. (x2)`
     letra: `
     [A]Santo, Santo, Santo (ooooo)
     [E]Santo es el Señor, 
-    Dios del uni[D]verso.[D]
+    Dios del uni[D]verso.[Bm]
     Dios del uni[E]verso. (2x)
 
     [F#m]LLenos están el cielo y la tierra de tu [C#m]gloria
