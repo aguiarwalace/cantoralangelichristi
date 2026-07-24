@@ -420,8 +420,11 @@ Te deseo todo bien.
 [B7]Y nuestra juven[E]tud: [C#m]la, [F#m]la, [B7]la, 
 [E]la, [C#m]la, [F#m]la, [B7]la, [E]laaa
 
-Cristo, Cristo, Cristo, nos ofrecerá, nos ofrecerá,
-Su verdad y vida, con su palabra, cantaremos ya: la, la, la, la…
+[E]Cristo, [C#m]Cristo, [F#m]Cristo, 
+[B7]nos ofrece[E]rá, nos o[C#m]frece[F#m]rá,
+[B7]Su verdad y [E]vida, con [C#m]su pal[F#m]abra, 
+[B7]cantaremos [E]ya: [C#m]la, [F#m]la, [B7]la,
+[E]la, [C#m]la, [F#m]la, [B7]la, [E]laaa
 
 Gloria, gloria, gloria, al Dios del Amor, al Dios del Amor,
 Que nos ha reunido en torno a su mesa, para ser nuestro pan: la, la, la, la…
