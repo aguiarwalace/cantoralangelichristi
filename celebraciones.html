@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/angeli_christi_logo.ico" type="image/x-icon">
     <title>Cantos por Celebración</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="styles.css">
+
     <style>
         /* ========================================================
-           NUEVO: CANDADO DE SEGURIDAD CONTRA SCROLL LATERAL 
+           CANDADO DE SEGURIDAD CONTRA SCROLL LATERAL 
            ======================================================== */
-        /* 1. Obliga a todos los elementos a calcular su tamaño correctamente */
         *, *::before, *::after {
             box-sizing: border-box;
         }
 
-        /* 2. Elimina márgenes de fábrica del teléfono y prohíbe el desborde horizontal */
         html, body {
             margin: 0;
             padding: 0;
             width: 100%;
             max-width: 100%;
-            overflow-x: hidden; /* Candado definitivo: elimina el scroll lateral */
+            overflow-x: hidden;
         }
 
         /* Ajustes de estilo para mantener consistencia */
@@ -63,8 +64,8 @@
         }
 
         .misa-titulo { 
-            color: #004488; 
-            border-bottom: 2px solid #004488; 
+            color: var(--primary, #004488); 
+            border-bottom: 2px solid var(--primary, #004488); 
             padding-bottom: 10px; 
             margin: 20px 0 20px 0; 
             text-align: center;
@@ -94,14 +95,32 @@
             margin-bottom: 30px;
             position: relative;
             width: 100%;
-            overflow-x: hidden; /* Evita que acordes largos al final del renglón estiren la tarjeta */
+            overflow-x: hidden;
         }
 
         .song-card h3 { color: var(--primary, #004488); margin: 0; }
         
         body.dark-mode { background: #1a1a1a; color: white; }
         body.dark-mode .song-card { background: #2d2d2d; color: white; }
-        body.dark-mode .misa-titulo { color: #5dade2; border-color: #5dade2; }
+        body.dark-mode .misa-titulo { color: var(--accent, #5dade2); border-color: var(--accent, #5dade2); }
+
+        /* Estilos para etiquetas de momentos litúrgicos */
+        .badge-liturgico {
+            display: inline-block;
+            background-color: var(--primary, #004488);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        body.dark-mode .badge-liturgico {
+            background-color: var(--accent, #d4af37);
+            color: #1a1a1a;
+        }
 
         /* Clases para la distribución responsiva de las tarjetas */
         .song-header-top {
@@ -122,22 +141,11 @@
             width: 100%;
         }
 
-        /* ========================================================
-           MODIFICACIÓN MÓVIL: Ajustes finos para pantallas móviles 
-           ======================================================== */
+        /* Ajustes para dispositivos móviles */
         @media (max-width: 600px) {
-            #main-content {
-                padding: 10px;
-            }
-
-            /* Evitamos que la caja elástica interna intente medir más de la pantalla */
-            #main-content > div {
-                padding: 0 5px !important;
-            }
-
-            .song-card {
-                padding: 20px 15px;
-            }
+            #main-content { padding: 10px; }
+            #main-content > div { padding: 0 5px !important; }
+            .song-card { padding: 20px 15px; }
 
             .barra-herramientas {
                 flex-direction: column;
@@ -146,9 +154,7 @@
                 text-align: center;
             }
 
-            .barra-herramientas .controles-tono {
-                justify-content: center;
-            }
+            .barra-herramientas .controles-tono { justify-content: center; }
 
             .song-header-top {
                 flex-direction: column;
@@ -156,9 +162,7 @@
                 gap: 12px;
             }
 
-            .song-header-top .controles-tono {
-                align-self: flex-end;
-            }
+            .song-header-top .controles-tono { align-self: flex-end; }
 
             .song-header-meta {
                 flex-direction: column;
@@ -167,9 +171,9 @@
             }
         }
 
-        /* Ocultar elementos al imprimir PDF */
+        /* Estilos de impresión (PDF) */
         @media print {
-            header, .selector-container, .barra-herramientas, .controles-tono, #btn-volver {
+            header, .selector-container, .barra-herramientas, .controles-tono, #btn-volver-container {
                 display: none !important;
             }
             .song-card { box-shadow: none; border: 1px solid #eee; page-break-after: always; }
@@ -189,7 +193,6 @@
     </header>
 
     <main id="main-content">
-        <!-- Contenedor interno restringido herméticamente al ancho del dispositivo móvil -->
         <div style="width: 100%; max-width: 800px; display: flex; flex-direction: column; overflow: hidden;">
             
             <div id="zona-seleccion" class="selector-container">
@@ -212,12 +215,13 @@
             </div>
 
             <div id="btn-volver-container" style="text-align: center; margin-top: 20px; display: none;">
-                <button onclick="location.reload()" class="btn-primary" style="width: auto; padding: 10px 30px;">↩️</button>
+                <button onclick="location.reload()" class="btn-primary" style="width: auto; padding: 10px 30px;">↩️ Nueva Búsqueda</button>
             </div>
             
         </div>
     </main>
 
+    <!-- Carga de Scripts -->
     <script src="lista_canciones.js"></script>
     <script src="calendario.js"></script>
     <script src="script.js"></script> 
@@ -229,12 +233,17 @@
         const escalaBemolesLocal = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
         const tonosConBemolesLocal = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm', 'Ebm'];
 
+        // Función para cambiar modo oscuro si no existe en script.js
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+
         function cargarCelebraciones() {
             const ciclo = document.getElementById('select-ciclo').value;
             const selectMisa = document.getElementById('select-misa');
             selectMisa.innerHTML = '<option value="">Celebración...</option>';
             
-            if (ciclo && datosLiturgicos[ciclo]) {
+            if (ciclo && typeof datosLiturgicos !== 'undefined' && datosLiturgicos[ciclo]) {
                 datosLiturgicos[ciclo].forEach(misa => {
                     let opt = document.createElement('option');
                     opt.value = misa.id;
@@ -257,6 +266,9 @@
             });
         }
 
+        /* ========================================================
+           FUNCIÓN CORREGIDA PARA MOSTRAR CANTOS DE LA MISA
+           ======================================================== */
         function mostrarMisa() {
             const ciclo = document.getElementById('select-ciclo').value;
             const misaId = document.getElementById('select-misa').value;
@@ -264,9 +276,9 @@
             const zonaSeleccion = document.getElementById('zona-seleccion');
             const btnVolver = document.getElementById('btn-volver-container');
             
-            if (!misaId) return;
+            if (!misaId || typeof datosLiturgicos === 'undefined') return;
 
-            const misa = datosLiturgicos[ciclo].find(m => m.id === misaId);
+            const misa = datosLiturgicos[ciclo].find(m => String(m.id) === String(misaId));
             if (!misa) return;
 
             if (zonaSeleccion) zonaSeleccion.style.display = 'none';
@@ -286,8 +298,32 @@
                     </div>
                 `;
 
-                misa.cantos.forEach(id => {
-                    const song = canciones.find(s => s.id === id);
+                // 1. Extraer los cantos de forma uniforme (Soporta Arrays u Objetos)
+                let listaCantosNormalizada = [];
+
+                if (Array.isArray(misa.cantos)) {
+                    listaCantosNormalizada = misa.cantos.map(id => ({ id: id, momento: 'Canto' }));
+                } else if (typeof misa.cantos === 'object' && misa.cantos !== null) {
+                    for (const keyMomento in misa.cantos) {
+                        const valor = misa.cantos[keyMomento];
+                        const ids = Array.isArray(valor) ? valor : [valor];
+                        ids.forEach(songId => {
+                            listaCantosNormalizada.push({
+                                id: songId,
+                                momento: keyMomento.toUpperCase()
+                            });
+                        });
+                    }
+                }
+
+                // 2. Renderizar cada canto encontrado
+                if (listaCantosNormalizada.length === 0) {
+                    contenedor.innerHTML += `<p style="text-align:center; color:#888;">No hay cantos registrados para esta celebración.</p>`;
+                    return;
+                }
+
+                listaCantosNormalizada.forEach(item => {
+                    const song = canciones.find(s => String(s.id) === String(item.id));
                     if (song) {
                         const escalaInicial = tonosConBemolesLocal.includes(song.tonoOriginal) ? escalaBemolesLocal : escalaSostenidosLocal;
 
@@ -296,6 +332,7 @@
                         
                         card.innerHTML = `
                             <div style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
+                                <span class="badge-liturgico">📌 ${item.momento}</span>
                                 <div class="song-header-top">
                                     <h3 style="margin:0;">${song.titulo}</h3>
                                     <div class="controles-tono">
@@ -312,7 +349,9 @@
                                 </div>
                             </div>
                             <div id="song-body-${song.id}" class="lyrics-container" data-offset="0" style="font-size: ${fontSizeGlobal}rem">
-                                ${formatearAcordesEnLetra(song.letra, 0, escalaInicial, song.tonoOriginal)}
+                                ${typeof formatearAcordesEnLetra === 'function' 
+                                    ? formatearAcordesEnLetra(song.letra, 0, escalaInicial, song.tonoOriginal) 
+                                    : `<pre>${song.letra}</pre>`}
                             </div>
                         `;
                         contenedor.appendChild(card);
@@ -323,7 +362,7 @@
         }
 
         function cambiarTonoLocal(id, delta) {
-            const song = canciones.find(s => s.id === id);
+            const song = canciones.find(s => String(s.id) === String(id));
             const container = document.getElementById(`song-body-${id}`);
             if (!song || !container) return;
 
@@ -331,10 +370,15 @@
             offset = (delta === 0) ? 0 : offset + delta;
             container.setAttribute('data-offset', offset);
 
-            const nuevoTono = calcularNombreTono(song.tonoOriginal, offset);
+            const nuevoTono = (typeof calcularNombreTono === 'function') 
+                ? calcularNombreTono(song.tonoOriginal, offset) 
+                : song.tonoOriginal;
+
             const escala = tonosConBemolesLocal.includes(nuevoTono) ? escalaBemolesLocal : escalaSostenidosLocal;
 
-            container.innerHTML = formatearAcordesEnLetra(song.letra, offset, escala, nuevoTono);
+            if (typeof formatearAcordesEnLetra === 'function') {
+                container.innerHTML = formatearAcordesEnLetra(song.letra, offset, escala, nuevoTono);
+            }
 
             const labelTono = document.getElementById(`tono-label-${id}`);
             if (labelTono) {
