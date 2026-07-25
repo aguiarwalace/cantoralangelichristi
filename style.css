@@ -15,6 +15,11 @@
     --red-chord: #e74c3c;
     --shadow: 0 4px 6px rgba(0,0,0,0.1);
     --bg-box: #ffffff81;
+    
+    /* Cores das Etiquetas Litúrgicas */
+    --badge-bg: #2c3e50;
+    --badge-text: #ffffff;
+    --badge-border: rgba(0, 0, 0, 0.1);
 }
 
 /* --- BASE --- */
@@ -40,6 +45,11 @@ body.dark-mode {
     --text-main: #f4f4f4;
     --red-chord: #ff7675;
     --bg-box: #2d2d2d;
+    
+    /* Cores das Etiquetas no Modo Escuro */
+    --badge-bg: #34495e;
+    --badge-text: #f4f4f4;
+    --badge-border: rgba(255, 255, 255, 0.15);
 }
 
 /* --- HEADER --- */
@@ -73,7 +83,7 @@ header {
 
 header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
 
-#menu-btn {
+#menu-btn, #cal-btn {
     background: transparent;
     border: 1px solid rgba(255,255,255,0.3);
     color: white;
@@ -84,20 +94,7 @@ header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
     transition: 0.3s;
 }
 
-#menu-btn:hover { background: rgba(255,255,255,0.1); }
-
-#cal-btn {
-    background: transparent;
-    border: 1px solid rgba(255,255,255,0.3);
-    color: white;
-    font-size: 1.5rem;
-    padding: 5px 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#cal-btn:hover { background: rgba(255,255,255,0.1); }
+#menu-btn:hover, #cal-btn:hover { background: rgba(255,255,255,0.1); }
 
 /* --- CONTENEDOR DE CANCIÓN --- */
 #main-content {
@@ -112,10 +109,11 @@ header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
     background: var(--bg-card);
     width: 100%;
     max-width: 800px;
-    padding: 40px;
-    border-radius: 8px;
+    padding: 30px;
+    border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
     border-top: 5px solid var(--accent);
+    box-sizing: border-box;
 }
 
 .song-header h2 {
@@ -154,14 +152,15 @@ body.dark-mode .controles-tono { background: #444; }
     background: white;
     border: 1px solid #ccc;
     border-radius: 50%;
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
     cursor: pointer;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.2s;
+    touch-action: manipulation;
 }
 
 .controles-tono button:hover { 
@@ -236,15 +235,7 @@ input[type="text"], select {
     width: 100%;
 }
 
-.logo-large {
-    max-width: 200px;
-    margin-bottom: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* --- CONFIGURACIÓN DE LA PÁGINA INICIAL CON FOTO DE FONDO --- */
+/* --- CONFIGURACIÓN DE LA PÁGINA INICIAL --- */
 .welcome-container {
     position: relative;     
     display: flex;
@@ -405,7 +396,6 @@ body.dark-mode .dash-info p {
     box-sizing: border-box;
 }
 
-/* Fila de la canción que permite envolver palabras completas */
 .linea-cancion {
     display: flex;
     flex-wrap: wrap;
@@ -414,40 +404,115 @@ body.dark-mode .dash-info p {
     row-gap: 8px;
 }
 
-/* Espacio libre para líneas en blanco entre estrofas */
 .linea-vacia {
     height: 18px;
 }
 
-/* Impide que la palabra se rompa por la mitad al cambiar de fila */
 .contenedor-palabra {
     display: inline-flex;
     white-space: nowrap;
 }
 
-/* Estructura vertical: Acorde ARRIBA, Texto ABAJO */
 .par-acorde-palabra {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-/* Estilo del Acorde (Dinámico con tema claro/oscuro) */
 .acorde-texto {
     color: var(--red-chord);
     font-weight: bold;
     font-size: 0.9em;
-    min-height: 1.2em; /* Reserva espacio vertical uniforme */
+    min-height: 1.2em;
 }
 
-/* Estilo de la Letra (Dinámico con tema claro/oscuro) */
 .palabra-texto {
     color: var(--text-main);
     font-size: 1em;
 }
 
-/* Espaciado natural entre palabras */
 .espacio-palabra {
     display: inline-block;
     width: 0.4em;
+}
+
+/* =======================================================
+   NUEVOS ESTILOS: ETIQUETAS LITÚRGICAS Y RECURSOS
+   ======================================================= */
+
+/* Contêiner de Etiquetas no Cabeçalho */
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Etiquetas Litúrgicas (Momentos da Missa) */
+.badge-liturgico {
+    display: inline-block;
+    background-color: var(--badge-bg);
+    color: var(--badge-text);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid var(--badge-border);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Etiqueta compacta para a lista lateral (Sidebar) */
+.badge-list {
+    background-color: var(--primary);
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+    text-transform: uppercase;
+}
+
+body.dark-mode .badge-list {
+    background-color: var(--accent);
+    color: #1a1a1a;
+}
+
+/* Botões de Recursos Externos (YouTube e Partitura) */
+.seccion-recursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn-recurso {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn-recurso:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.btn-youtube {
+    background-color: #ff0000;
+}
+
+.btn-partitura {
+    background-color: var(--primary);
+}
+
+body.dark-mode .btn-partitura {
+    background-color: var(--accent);
+    color: #1a1a1a;
 }
