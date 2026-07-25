@@ -1,363 +1,329 @@
-// Cantoral Online Angeli Christi - Lógica Principal (script.js)
+/* =======================================================
+   SISTEMA DE VISOR DE CIFRAS Y CANCIONERO LITÚRGICO
+   ======================================================= */
 
-// --- 1. VARIÁVEIS E ESCALAS MUSICAIS ---
-const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
-const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+// Escalas musicales para transposición
+const escalaSostenidos = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+const escalaBemoles    = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+const tonosConBemoles  = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm', 'Ebm'];
 
-// Lista exata dos tons que utilizam bemóis por regra harmónica
-const tonosConBemoles = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm', 'Ebm'];
+let currentSong = null;
+let currentOffset = 0;
+let fontSizeActual = 1.0;
 
-let seleccionadas = [];
-let cancionActualId = null;
-let trasposicionActual = 0;
-let fontSizeActual = 1.2; // Tamanho base em rem
-
-// --- 2. NORMALIZAÇÃO DE TEXTO PARA BUSCAS ---
-
-/**
- * Normaliza uma string de texto para facilitar buscas flexíveis:
- * 1. Converte para minúsculas.
- * 2. Remove acentos e til.
- * 3. Elimina pontuação e símbolos especiais.
- * 4. Remove espaços desnecessários.
- */
-function normalizarTexto(texto) {
-    if (!texto) return '';
-    return texto
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'¡!¿«»]/g, '')
-        .trim();
+/* --- MODO OSCURO GLOBAL --- */
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+    const isDark = document.body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
 }
 
-// --- 3. LÓGICA DE INTERFACE E FILTROS ---
+// Cargar preferencia de modo oscuro guardada
+if (localStorage.getItem('darkMode') === 'enabled') {
+    document.body.classList.add('dark-mode');
+}
 
-function toggleMenu() {
+/* --- CONTROL DE SIDEBAR / MENÚ --- */
+function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
-    if (sidebar) sidebar.classList.toggle('active');
+    if (sidebar) {
+        sidebar.classList.toggle('active');
+    }
 }
 
-/**
- * Filtra a lista de músicas considerando termo de pesquisa e categoria.
- */
+/* --- BÚSQUEDA Y FILTRADO DE CANCIONES --- */
 function filterSongs() {
-    const searchInput = document.getElementById('search-input');
-    const categoryFilter = document.getElementById('category-filter');
+    const query = document.getElementById('search-input')?.value.toLowerCase() || '';
+    const category = document.getElementById('filter-category')?.value || 'all';
     const container = document.getElementById('song-list-container');
-    
-    if (!container || !searchInput || !categoryFilter) return;
 
-    const rawSearchTerm = searchInput.value;
-    const categoryTerm = categoryFilter.value;
-    
-    container.innerHTML = ''; 
+    if (!container || typeof canciones === 'undefined') return;
 
-    if (rawSearchTerm.trim() === "" && categoryTerm === "todos") return; 
+    container.innerHTML = '';
 
-    const listaBase = (typeof canciones !== 'undefined') ? canciones : obtenerCancionesLocales();
+    const filtered = canciones.filter(song => {
+        const matchesQuery = song.titulo.toLowerCase().includes(query) || 
+                             (song.autor && song.autor.toLowerCase().includes(query)) ||
+                             song.letra.toLowerCase().includes(query);
+                             
+        const matchesCategory = (category === 'all') || (song.categoria === category);
 
-    const textoBusquedaNorm = normalizarTexto(rawSearchTerm);
-    const palabrasClave = textoBusquedaNorm.split(/\s+/).filter(palabra => palabra.length > 0);
-
-    const filtradas = listaBase.filter(s => {
-        const coincideCategoria = (categoryTerm === 'todos' || 
-                                    s.categoria.toLowerCase().includes(categoryTerm.toLowerCase()));
-        if (!coincideCategoria) return false;
-
-        if (palabrasClave.length === 0) return true;
-
-        const tituloNorm = normalizarTexto(s.titulo);
-        const autorNorm = normalizarTexto(s.autor || '');
-        const letraNorm = normalizarTexto(s.letra);
-
-        const contenidoCompleto = `${tituloNorm} ${autorNorm} ${letraNorm}`;
-
-        return palabrasClave.every(palabra => contenidoCompleto.includes(palabra));
+        return matchesQuery && matchesCategory;
     });
 
-    filtradas.forEach(s => {
-        const div = document.createElement('div');
-        div.className = 'song-item';
-        const isChecked = seleccionadas.includes(s.id) ? 'checked' : '';
-        div.innerHTML = `
-            <input type="checkbox" onchange="toggleSelect(${s.id})" ${isChecked}>
-            <div onclick="prepararDisplay(${s.id})" style="flex-grow:1; cursor:pointer">
-                <strong>${s.titulo}</strong><br>
-                <small>${s.autor} - (${s.tonoOriginal})</small>
+    filtered.forEach(song => {
+        const item = document.createElement('div');
+        item.className = 'song-item';
+        item.style.cursor = 'pointer';
+        
+        // Obtener el primer momento litúrgico si existe
+        const momentos = obtenerMomentosLiturgicosCancion(song.id);
+        const badgeHtml = momentos.length > 0 
+            ? `<span class="badge-list">${momentos[0].momento}</span>` 
+            : '';
+
+        item.innerHTML = `
+            <div onclick="prepararDisplay(${song.id})" style="flex-grow:1;">
+                <strong>${song.titulo}</strong> ${badgeHtml}
+                <br><small style="opacity:0.7;">${song.autor || 'Desconocido'} (${song.tonoOriginal || ''})</small>
             </div>
         `;
-        container.appendChild(div);
+        container.appendChild(item);
     });
 }
 
-function prepararDisplay(id) {
-    cancionActualId = id;
-    trasposicionActual = 0;
-    displaySong();
-    toggleMenu();
+/* --- BÚSQUEDA ROBUSTA EN DATOS LITÚRGICOS --- */
+function obtenerMomentosLiturgicosCancion(songId, filtroCelebracionId = null) {
+    if (typeof datosLiturgicos === 'undefined' || !datosLiturgicos) return [];
+
+    const resultados = [];
+    const nombresMomentos = {
+        entrada: 'Entrada', piedad: 'Piedad', gloria: 'Gloria', aleluya: 'Aleluya',
+        credo: 'Credo', ofertorio: 'Ofertorio', santo: 'Santo', padrenuestro: 'Padre Nuestro',
+        paz: 'Paz', cordero: 'Cordero', comunion: 'Comunión', reflexion: 'Reflexión', final: 'Salida'
+    };
+
+    try {
+        for (const categoria in datosLiturgicos) {
+            const listaCelebraciones = datosLiturgicos[categoria];
+            if (!Array.isArray(listaCelebraciones)) continue;
+
+            listaCelebraciones.forEach(cel => {
+                if (!cel) return;
+                if (filtroCelebracionId && cel.id !== filtroCelebracionId) return;
+
+                const cantosData = cel.cantos;
+                if (!cantosData) return;
+
+                // Si cantos es un Objeto { entrada: 1, comunion: [2, 3] }
+                if (!Array.isArray(cantosData) && typeof cantosData === 'object') {
+                    for (const claveMomento in cantosData) {
+                        const valor = cantosData[claveMomento];
+                        const idsMomento = Array.isArray(valor) ? valor : [valor];
+
+                        if (idsMomento.some(id => String(id) === String(songId))) {
+                            resultados.push({
+                                celebracionId: cel.id,
+                                celebracionNombre: cel.nombre,
+                                momento: nombresMomentos[claveMomento] || claveMomento.toUpperCase()
+                            });
+                        }
+                    }
+                } 
+                // Si cantos es un Array simple [1, 2, 3]
+                else if (Array.isArray(cantosData)) {
+                    if (cantosData.some(id => String(id) === String(songId))) {
+                        resultados.push({
+                            celebracionId: cel.id,
+                            celebracionNombre: cel.nombre,
+                            momento: 'Litúrgico'
+                        });
+                    }
+                }
+            });
+        }
+    } catch (e) {
+        console.error("Error al buscar momentos litúrgicos:", e);
+    }
+
+    return resultados;
 }
 
-function displaySong() {
-    const listaBase = (typeof canciones !== 'undefined') ? canciones : obtenerCancionesLocales();
-    const song = listaBase.find(s => s.id === cancionActualId);
-    const display = document.getElementById('main-content');
-    if (!song || !display) return;
-
-    const tonoDestino = calcularNombreTono(song.tonoOriginal, trasposicionActual);
-    
-    const match = tonoDestino.match(/^([A-G][#b]?m?)/);
-    const tonoBase = match ? match[1] : tonoDestino;
-    
-    const escalaElegida = tonosConBemoles.includes(tonoBase) ? escBem : escSost;
-
-    const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida);
-
-    let botonesLinksHtml = '';
-    
-    if (song.linkYoutube) {
-        botonesLinksHtml += `<a href="${song.linkYoutube}" target="_blank" style="display:inline-block; background:#ff0000; color:white; padding:5px 12px; border-radius:5px; text-decoration:none; font-size:0.9rem; margin-right:10px;">▶ YouTube</a>`;
+/* --- MOSTRAR CANCIÓN EN EL VISOR PRINCIPAL --- */
+function prepararDisplay(songId) {
+    if (typeof canciones === 'undefined') return;
+    const song = canciones.find(s => String(s.id) === String(songId));
+    if (song) {
+        currentSong = song;
+        currentOffset = 0;
+        displaySong(song, 0);
+        toggleSidebar(); // Cierra el menú lateral tras seleccionar
     }
-    if (song.linkPartitura) {
-        botonesLinksHtml += `<a href="${song.linkPartitura}" target="_blank" style="display:inline-block; background:var(--accent); color:white; padding:5px 12px; border-radius:5px; text-decoration:none; font-size:0.9rem; margin-right:10px;">🎼 Partitura / Áudio</a>`;
+}
+
+function displaySong(song, offset = 0) {
+    const mainContent = document.getElementById('main-content');
+    if (!mainContent) return;
+
+    const escalaInicial = tonosConBemoles.includes(song.tonoOriginal) ? escalaBemoles : escalaSostenidos;
+    const tonoCalculado = calcularNombreTono(song.tonoOriginal, offset);
+    const escalaUsar = tonosConBemoles.includes(tonoCalculado) ? escalaBemoles : escalaSostenidos;
+
+    // Badges Litúrgicos
+    const momentos = obtenerMomentosLiturgicosCancion(song.id);
+    let badgesHtml = '';
+    if (momentos.length > 0) {
+        const badges = momentos.map(m => `<span class="badge-liturgico">📌 ${m.momento} (${m.celebracionNombre})</span>`).join('');
+        badgesHtml = `<div class="badge-container">${badges}</div>`;
     }
 
-    let seccionRecursos = botonesLinksHtml ? `<div style="margin-top: 15px;">${botonesLinksHtml}</div>` : '';
+    // Botones de Recursos (YouTube y Partitura)
+    let recursosHtml = '';
+    if (song.linkYoutube || song.linkPartitura) {
+        let btns = '';
+        if (song.linkYoutube) btns += `<a href="${song.linkYoutube}" target="_blank" class="btn-recurso btn-youtube">▶ YouTube</a>`;
+        if (song.linkPartitura) btns += `<a href="${song.linkPartitura}" target="_blank" class="btn-recurso btn-partitura">🎼 Partitura / Audio</a>`;
+        recursosHtml = `<div class="seccion-recursos">${btns}</div>`;
+    }
 
-    display.innerHTML = `
+    mainContent.innerHTML = `
         <div class="song-card">
             <div class="song-header">
                 <h2>${song.titulo}</h2>
-                <div class="controles-group" style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
-                    <div class="controles-tono">
-                        <button onclick="cambiarTono(-1)">-</button>
-                        <button onclick="cambiarTono(0)">⟳</button>
-                        <button onclick="cambiarTono(1)">+</button>
-                        <span>Tono: <strong>${tonoDestino}</strong></span>
-                    </div>
-                    <div class="controles-tono">
-                        <button class="btn-size" onclick="cambiarTamano(-0.1)">A-</button>
-                        <button class="btn-size" onclick="cambiarTamano(0.1)">A+</button>
-                        <span>Letra</span>
-                    </div>
-                </div>
-                <p style="color: #666; margin-top:10px;"><em>Autor: ${song.autor}</em></p>
-                ${seccionRecursos}
+                ${badgesHtml}
+                <p style="margin:5px 0; opacity:0.8; font-style:italic;">Autor: ${song.autor || 'Desconocido'}</p>
             </div>
-            <div class="lyrics-container" style="font-size: ${fontSizeActual}rem;">
-                ${letraFormateadaHtml}
+
+            <div class="controles-group" style="margin: 15px 0;">
+                <div class="controles-tono">
+                    <span>Tono: <strong id="tono-label">${tonoCalculado}</strong></span>
+                    <button onclick="cambiarTono(-1)">-</button>
+                    <button onclick="cambiarTono(0)">⟳</button>
+                    <button onclick="cambiarTono(1)">+</button>
+                </div>
+                <div class="controles-tono">
+                    <span>Texto</span>
+                    <button onclick="cambiarTamanoTexto(-0.1)">A-</button>
+                    <button onclick="cambiarTamanoTexto(0.1)">A+</button>
+                </div>
+            </div>
+
+            ${recursosHtml}
+
+            <div id="visor-letra" class="visor-cancion" style="font-size: ${fontSizeActual}rem; margin-top: 15px;">
+                ${formatearAcordesEnLetra(song.letra, offset, escalaUsar, song.tonoOriginal)}
             </div>
         </div>
     `;
 }
 
-// --- 4. LÓGICA MUSICAL E TRANSPOSIÇÃO ---
+/* --- TRANSPOSICIÓN Y FORMATO DE ACORDES --- */
+function cambiarTono(delta) {
+    if (!currentSong) return;
+    currentOffset = (delta === 0) ? 0 : currentOffset + delta;
+    displaySong(currentSong, currentOffset);
+}
 
-function calcularNombreTono(tonoOriginal, semitonos) {
-    const regex = /^([A-G][#b]?)(.*)$/;
-    const match = tonoOriginal.match(regex);
-    if (!match) return tonoOriginal;
+function cambiarTamanoTexto(delta) {
+    fontSizeActual += delta;
+    if (fontSizeActual < 0.8) fontSizeActual = 0.8;
+    if (fontSizeActual > 2.2) fontSizeActual = 2.2;
     
-    let raiz = match[1];
-    let adorno = match[2];
+    const visor = document.getElementById('visor-letra');
+    if (visor) visor.style.fontSize = `${fontSizeActual}rem`;
+}
+
+function calcularNombreTono(tonoOriginal, offset) {
+    if (!tonoOriginal) return '';
+    const esMenor = tonoOriginal.endsWith('m');
+    const notaBase = esMenor ? tonoOriginal.slice(0, -1) : tonoOriginal;
+
+    let escala = escalaSostenidos;
+    let index = escala.indexOf(notaBase);
     
-    let indice = escSost.indexOf(raiz);
-    if (indice === -1) indice = escBem.indexOf(raiz);
-    
-    let nuevoIndice = (indice + semitonos + 12) % 12;
-    
-    const baseBem = escBem[nuevoIndice] + adorno;
-    const matchBase = baseBem.match(/^([A-G][#b]?m?)/);
-    const tonoParaComparar = matchBase ? matchBase[1] : baseBem;
-    
-    if (tonosConBemoles.includes(tonoParaComparar)) {
-        return escBem[nuevoIndice] + adorno;
-    } else {
-        return escSost[nuevoIndice] + adorno;
+    if (index === -1) {
+        escala = escalaBemoles;
+        index = escala.indexOf(notaBase);
     }
+
+    if (index === -1) return tonoOriginal; // Si no la reconoce, la devuelve igual
+
+    let nuevoIndex = (index + offset) % 12;
+    if (nuevoIndex < 0) nuevoIndex += 12;
+
+    return escala[nuevoIndex] + (esMenor ? 'm' : '');
 }
 
-function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
-    return acordeStr.replace(/[A-G][#b]?/g, (nota) => {
-        let indice = escSost.indexOf(nota);
-        if (indice === -1) indice = escBem.indexOf(nota);
-        if (indice === -1) return nota;
-        let nIdx = (indice + semitonos + 12) % 12;
-        return escalaElegida[nIdx];
-    });
-}
+/* --- PARSER DE ACORDES EN FORMATO FLEXBOX --- */
+function formatearAcordesEnLetra(texto, offset, escala, tonoOriginal) {
+    if (!texto) return '';
 
-function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
-    if (!letraRaw) return '';
-
-    const lineas = letraRaw.trim().split('\n');
-    let htmlFinal = '<div class="visor-cancion">';
+    const lineas = texto.split('\n');
+    let htmlResult = '';
 
     lineas.forEach(linea => {
-        if (!linea.trim()) {
-            htmlFinal += '<div class="linea-vacia"></div>';
+        if (linea.trim() === '') {
+            htmlResult += `<div class="linea-vacia"></div>`;
             return;
         }
 
-        htmlFinal += '<div class="linea-cancion">';
-        const palabras = linea.split(' ');
+        htmlResult += `<div class="linea-cancion">`;
 
-        palabras.forEach((palabra, index) => {
-            if (!palabra) return;
+        // Busca patrones de acordes tipo [C], [G#m], [D/F#]
+        const partes = linea.split(/(\[[^\]]+\])/g);
 
-            htmlFinal += '<span class="contenedor-palabra">';
-            const partes = palabra.split(/(\[[^\]]+\])/g);
-            let acordeActual = '';
+        partes.forEach(parte => {
+            if (parte.startsWith('[') && parte.endsWith(']')) {
+                const acordeOriginal = parte.slice(1, -1);
+                const acordeTranspuesto = transponerAcordeCompuesto(acordeOriginal, offset);
 
-            partes.forEach(parte => {
-                if (!parte) return;
-
-                if (parte.startsWith('[') && parte.endsWith(']')) {
-                    const acordeLimpio = parte.slice(1, -1);
-                    acordeActual = trasponerAcorde(acordeLimpio, semitonos, escalaElegida);
-                } else {
-                    htmlFinal += `
+                htmlResult += `
+                    <div class="contenedor-palabra">
                         <div class="par-acorde-palabra">
-                            <span class="acorde-texto">${acordeActual}</span>
-                            <span class="palabra-texto">${parte}</span>
-                        </div>`;
-                    acordeActual = '';
-                }
-            });
-
-            if (acordeActual) {
-                htmlFinal += `
-                    <div class="par-acorde-palabra">
-                        <span class="acorde-texto">${acordeActual}</span>
-                        <span class="palabra-texto">&nbsp;</span>
-                    </div>`;
-            }
-
-            htmlFinal += '</span>';
-
-            if (index < palabras.length - 1) {
-                htmlFinal += '<span class="espacio-palabra"></span>';
+                            <span class="acorde-texto">${acordeTranspuesto}</span>
+                            <span class="palabra-texto"></span>
+                        </div>
+                    </div>
+                `;
+            } else if (parte.length > 0) {
+                const palabras = parte.split(' ');
+                palabras.forEach((palabra, idx) => {
+                    if (palabra !== '') {
+                        htmlResult += `
+                            <div class="contenedor-palabra">
+                                <div class="par-acorde-palabra">
+                                    <span class="acorde-texto"></span>
+                                    <span class="palabra-texto">${palabra}</span>
+                                </div>
+                            </div>
+                        `;
+                    }
+                    if (idx < palabras.length - 1) {
+                        htmlResult += `<span class="espacio-palabra"></span>`;
+                    }
+                });
             }
         });
 
-        htmlFinal += '</div>';
+        htmlResult += `</div>`;
     });
 
-    htmlFinal += '</div>';
-    return htmlFinal;
+    return htmlResult;
 }
 
-// --- 5. CONTROLES DE INTERFACE E UTILITÁRIOS ---
+function transponerAcordeCompuesto(acorde, offset) {
+    if (offset === 0) return acorde;
 
-function cambiarTono(valor) {
-    trasposicionActual = (valor === 0) ? 0 : trasposicionActual + valor;
-    displaySong();
-}
-
-function cambiarTamano(delta) {
-    fontSizeActual += delta;
-    if (fontSizeActual < 0.8) fontSizeActual = 0.8;
-    if (fontSizeActual > 3.0) fontSizeActual = 3.0;
-
-    const container = document.querySelector('.lyrics-container');
-    if (container) {
-        container.style.fontSize = fontSizeActual + 'rem';
+    // Manejo de bajos compuestos como C/G
+    if (acorde.includes('/')) {
+        const subPartes = acorde.split('/');
+        return transponerNotaSimple(subPartes[0], offset) + '/' + transponerNotaSimple(subPartes[1], offset);
     }
+
+    return transponerNotaSimple(acorde, offset);
 }
 
-function toggleSelect(id) {
-    const idx = seleccionadas.indexOf(id);
-    if (idx > -1) seleccionadas.splice(idx, 1);
-    else seleccionadas.push(id);
-}
+function transponerNotaSimple(nota, offset) {
+    const regex = /^([A-G][#b]?)(.*)/;
+    const match = nota.match(regex);
 
-function clearSearch() {
-    const searchInput = document.getElementById('search-input');
-    const categoryFilter = document.getElementById('category-filter');
-    if (searchInput) searchInput.value = "";
-    if (categoryFilter) categoryFilter.selectedIndex = 0;
-    filterSongs();
-}
+    if (!match) return nota;
 
-function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-    localStorage.setItem('darkTheme', document.body.classList.contains('dark-mode'));
-}
+    const notaBase = match[1];
+    const adorno = match[2]; // m, 7, maj7, sus4, etc.
 
-window.onload = () => {
-    if (localStorage.getItem('darkTheme') === 'true') document.body.classList.add('dark-mode');
-    console.log("Aplicativo Angeli Christi pronto.");
-};
+    let escala = escalaSostenidos;
+    let index = escala.indexOf(notaBase);
 
-function generateRepertoire() {
-    if (seleccionadas.length === 0) {
-        return alert("Selecciona al menos una canción para generar el repertorio.");
+    if (index === -1) {
+        escala = escalaBemoles;
+        index = escala.indexOf(notaBase);
     }
-    localStorage.setItem('repertorioActual', JSON.stringify(seleccionadas));
-    window.location.href = 'repertorio.html';
-}
 
-// --- 6. ATUALIZAÇÃO AUTOMÁTICA E MODO OFFLINE ---
+    if (index === -1) return nota;
 
-const CLAVE_LOCAL_CANCIONES = 'angeli_christi_canciones_v1';
+    let nuevoIndex = (index + offset) % 12;
+    if (nuevoIndex < 0) nuevoIndex += 12;
 
-function obtenerCancionesLocales() {
-    const cancionesGuardadas = localStorage.getItem(CLAVE_LOCAL_CANCIONES);
-    if (cancionesGuardadas) {
-        try {
-            return JSON.parse(cancionesGuardadas);
-        } catch (e) {
-            console.error("Erro ao ler músicas salvas localmente:", e);
-        }
-    }
-    return typeof canciones !== 'undefined' ? canciones : [];
-}
-
-async function comprobarActualizacionesCanciones() {
-    try {
-        const urlAntiCache = `lista_canciones.js?t=${Date.now()}`;
-        const respuesta = await fetch(urlAntiCache);
-
-        if (!respuesta.ok) return;
-
-        const textoScript = await respuesta.text();
-        const scriptAnterior = localStorage.getItem('angeli_christi_script_raw');
-
-        if (textoScript !== scriptAnterior) {
-            console.log("🎵 Novas músicas ou correções detetadas! Atualizando repertório...");
-            
-            localStorage.setItem('angeli_christi_script_raw', textoScript);
-
-            const nuevoScript = document.createElement('script');
-            nuevoScript.text = textoScript;
-            document.head.appendChild(nuevoScript);
-
-            if (typeof canciones !== 'undefined') {
-                localStorage.setItem(CLAVE_LOCAL_CANCIONES, JSON.stringify(canciones));
-            }
-
-            if (typeof filterSongs === 'function') {
-                filterSongs();
-            }
-            if (cancionActualId !== null && typeof displaySong === 'function') {
-                displaySong();
-            }
-        } else {
-            console.log("✅ O repertório já está na versão mais recente.");
-        }
-
-    } catch (error) {
-        console.warn("📡 Modo Offline ativo: A utilizar músicas salvas no dispositivo.");
-    }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    if (typeof filterSongs === 'function') {
-        filterSongs();
-    }
-    comprobarActualizacionesCanciones();
-});
-
-window.addEventListener("focus", () => {
-    comprobarActualizacionesCanciones();
-});
+    return escala[nuevoIndex] + adorno;
+                               }
