@@ -86,6 +86,19 @@ header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
 
 #menu-btn:hover { background: rgba(255,255,255,0.1); }
 
+#cal-btn {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#cal-btn:hover { background: rgba(255,255,255,0.1); }
+
 /* --- CONTENEDOR DE CANCIÓN --- */
 #main-content {
     flex: 1;
