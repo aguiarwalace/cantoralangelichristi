@@ -1,39 +1,37 @@
 // Cantoral Online Angeli Christi - Lógica Principal (script.js)
 
-// --- 1. VARIABLES Y ESCALAS ---
+// --- 1. VARIÁVEIS E ESCALAS MUSICAIS ---
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-// Lista gramatical exacta de los tonos que llevan bemoles
+
+// Lista exata dos tons que utilizam bemóis por regra harmónica
 const tonosConBemoles = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm', 'Ebm'];
 
 let seleccionadas = [];
 let cancionActualId = null;
 let trasposicionActual = 0;
-let fontSizeActual = 1.2; // Tamaño base en rem
+let fontSizeActual = 1.2; // Tamanho base em rem
 
-// --- 2. FUNCIÓN AUXILIAR DE NORMALIZACIÓN DE TEXTO ---
+// --- 2. NORMALIZAÇÃO DE TEXTO PARA BUSCAS ---
 
 /**
- * Normaliza una cadena de texto para facilitar búsquedas flexibles:
- * 1. Convierte a minúsculas.
- * 2. Remueve acentos y tildes (NFD + Regex).
- * 3. Elimina signos de puntuación, símbolos y caracteres especiales.
- * 4. Recorta espacios innecesarios.
- * 
- * @param {string} texto - Cadena de texto original.
- * @returns {string} Texto limpio sin acentos ni puntuación.
+ * Normaliza uma string de texto para facilitar buscas flexíveis:
+ * 1. Converte para minúsculas.
+ * 2. Remove acentos e til.
+ * 3. Elimina pontuação e símbolos especiais.
+ * 4. Remove espaços desnecessários.
  */
 function normalizarTexto(texto) {
     if (!texto) return '';
     return texto
         .toLowerCase()
         .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '') // Elimina acentos/diacríticos
-        .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'¡!¿«»]/g, '') // Elimina signos de puntuación
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'¡!¿«»]/g, '')
         .trim();
 }
 
-// --- 3. LÓGICA DE INTERFAZ Y FILTROS OPTIMIZADOS ---
+// --- 3. LÓGICA DE INTERFACE E FILTROS ---
 
 function toggleMenu() {
     const sidebar = document.getElementById('sidebar');
@@ -41,11 +39,7 @@ function toggleMenu() {
 }
 
 /**
- * Filtra la lista de canciones considerando:
- * - Búsqueda insensible a tildes, mayúsculas y signos de puntuación.
- * - Coincidencia por palabras independientes (Multi-palabra).
- * - Búsqueda en Título, Autor y Letra.
- * - Categoría o apartado litúrgico seleccionado.
+ * Filtra a lista de músicas considerando termo de pesquisa e categoria.
  */
 function filterSongs() {
     const searchInput = document.getElementById('search-input');
@@ -61,35 +55,27 @@ function filterSongs() {
 
     if (rawSearchTerm.trim() === "" && categoryTerm === "todos") return; 
 
-    // Obtener la lista activa (Memoria o LocalStorage)
     const listaBase = (typeof canciones !== 'undefined') ? canciones : obtenerCancionesLocales();
 
-    // Normalizamos el texto de búsqueda y lo dividimos en palabras clave individuales
     const textoBusquedaNorm = normalizarTexto(rawSearchTerm);
     const palabrasClave = textoBusquedaNorm.split(/\s+/).filter(palabra => palabra.length > 0);
 
     const filtradas = listaBase.filter(s => {
-        // 1. Validar categoría
         const coincideCategoria = (categoryTerm === 'todos' || 
                                     s.categoria.toLowerCase().includes(categoryTerm.toLowerCase()));
         if (!coincideCategoria) return false;
 
-        // Si no se escribió nada en el buscador pero hay una categoría activa
         if (palabrasClave.length === 0) return true;
 
-        // 2. Normalizar campos de la canción
         const tituloNorm = normalizarTexto(s.titulo);
         const autorNorm = normalizarTexto(s.autor || '');
         const letraNorm = normalizarTexto(s.letra);
 
-        // Combinar los campos para permitir búsquedas cruzadas (ej: "autor palabra_letra")
         const contenidoCompleto = `${tituloNorm} ${autorNorm} ${letraNorm}`;
 
-        // 3. Verificar que TODAS las palabras clave buscadas existan dentro del contenido de la canción
         return palabrasClave.every(palabra => contenidoCompleto.includes(palabra));
     });
 
-    // Renderizar resultados
     filtradas.forEach(s => {
         const div = document.createElement('div');
         div.className = 'song-item';
@@ -120,24 +106,20 @@ function displaySong() {
 
     const tonoDestino = calcularNombreTono(song.tonoOriginal, trasposicionActual);
     
-    // Extraemos la base inteligente
     const match = tonoDestino.match(/^([A-G][#b]?m?)/);
     const tonoBase = match ? match[1] : tonoDestino;
     
-    // Elegimos la escala correcta según regla de bemoles
     const escalaElegida = tonosConBemoles.includes(tonoBase) ? escBem : escSost;
 
-    // Formateo dinámico en Flexbox
     const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida);
 
-    // --- LÓGICA PARA LOS LINKS EXTERNOS ---
     let botonesLinksHtml = '';
     
     if (song.linkYoutube) {
         botonesLinksHtml += `<a href="${song.linkYoutube}" target="_blank" style="display:inline-block; background:#ff0000; color:white; padding:5px 12px; border-radius:5px; text-decoration:none; font-size:0.9rem; margin-right:10px;">▶ YouTube</a>`;
     }
     if (song.linkPartitura) {
-        botonesLinksHtml += `<a href="${song.linkPartitura}" target="_blank" style="display:inline-block; background:var(--accent); color:white; padding:5px 12px; border-radius:5px; text-decoration:none; font-size:0.9rem; margin-right:10px;">🎼 Partitura / Audio</a>`;
+        botonesLinksHtml += `<a href="${song.linkPartitura}" target="_blank" style="display:inline-block; background:var(--accent); color:white; padding:5px 12px; border-radius:5px; text-decoration:none; font-size:0.9rem; margin-right:10px;">🎼 Partitura / Áudio</a>`;
     }
 
     let seccionRecursos = botonesLinksHtml ? `<div style="margin-top: 15px;">${botonesLinksHtml}</div>` : '';
@@ -169,7 +151,7 @@ function displaySong() {
     `;
 }
 
-// --- 4. LÓGICA MUSICAL ---
+// --- 4. LÓGICA MUSICAL E TRANSPOSIÇÃO ---
 
 function calcularNombreTono(tonoOriginal, semitonos) {
     const regex = /^([A-G][#b]?)(.*)$/;
@@ -265,7 +247,7 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
     return htmlFinal;
 }
 
-// --- 5. UTILIDADES Y CONTROLES ---
+// --- 5. CONTROLES DE INTERFACE E UTILITÁRIOS ---
 
 function cambiarTono(valor) {
     trasposicionActual = (valor === 0) ? 0 : trasposicionActual + valor;
@@ -304,7 +286,7 @@ function toggleDarkMode() {
 
 window.onload = () => {
     if (localStorage.getItem('darkTheme') === 'true') document.body.classList.add('dark-mode');
-    console.log("Aplicación Angeli Christi lista.");
+    console.log("Aplicativo Angeli Christi pronto.");
 };
 
 function generateRepertoire() {
@@ -315,7 +297,7 @@ function generateRepertoire() {
     window.location.href = 'repertorio.html';
 }
 
-// --- 6. ACTUALIZACIÓN AUTOMÁTICA Y SOPORTE OFFLINE ---
+// --- 6. ATUALIZAÇÃO AUTOMÁTICA E MODO OFFLINE ---
 
 const CLAVE_LOCAL_CANCIONES = 'angeli_christi_canciones_v1';
 
@@ -325,7 +307,7 @@ function obtenerCancionesLocales() {
         try {
             return JSON.parse(cancionesGuardadas);
         } catch (e) {
-            console.error("Error al leer canciones guardadas localmente:", e);
+            console.error("Erro ao ler músicas salvas localmente:", e);
         }
     }
     return typeof canciones !== 'undefined' ? canciones : [];
@@ -342,7 +324,7 @@ async function comprobarActualizacionesCanciones() {
         const scriptAnterior = localStorage.getItem('angeli_christi_script_raw');
 
         if (textoScript !== scriptAnterior) {
-            console.log("🎵 ¡Nuevas canciones o correcciones detectadas! Actualizando repertorio...");
+            console.log("🎵 Novas músicas ou correções detetadas! Atualizando repertório...");
             
             localStorage.setItem('angeli_christi_script_raw', textoScript);
 
@@ -361,11 +343,11 @@ async function comprobarActualizacionesCanciones() {
                 displaySong();
             }
         } else {
-            console.log("✅ El repertorio ya está en su versión más reciente.");
+            console.log("✅ O repertório já está na versão mais recente.");
         }
 
     } catch (error) {
-        console.warn("📡 Modo Offline activado: Usando canciones guardadas en el dispositivo.");
+        console.warn("📡 Modo Offline ativo: A utilizar músicas salvas no dispositivo.");
     }
 }
 
