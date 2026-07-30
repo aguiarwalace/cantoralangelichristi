@@ -351,16 +351,17 @@ Donde reinará el amor, donde reinará la paz.
     titulo: "QUE ALEGRÍA CUANDO ME DIJERON",
     autor: "Miguel Manzano",
     categoria: "entrada",
-    tonoOriginal: "B7",
+    tonoOriginal: "E",
     letra: `
-[B7]Qué ale[E]gría [A]cuando me di[B7]jeron, [E]
+Qué ale[E]gría [A]cuando me di[E]jeron,
 [F#m]Vamos a la [F#]casa del Se[B]ñor, [B7]
 [E]Ya están pi[E7]sando nuestros [A]pies, [Am]
-[E]Tus um[F#]brales [B]Jerusa[E]lén.
+Tus um[E]brales [B]Jerusa[E]lén.
 
-[E]Jerusa[G#m]lén está fun[C#m]dada, [F#]
-[B]Como ciu[F#]dad bien com[B]pacta, [B7]
-[E]Haya su[E7]ben las [A]tribus, [Am]las [E]tribus del Se[B7]ñor. [E]
+[E]Jerusalén está fun[C#m]dada,
+Como ciu[F#]dad bien com[B]pacta, [B7]
+[E]Haya su[E7]ben las [A]tribus,
+[Am]las [E]tribus del Se[B7]ñor. [E]
 
 Según las costumbres de Israel,
 A celebrar el nombre del señor,
