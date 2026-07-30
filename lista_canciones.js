@@ -1454,10 +1454,10 @@ A-le-lu-ya-a A-le-lu-ya-a. (x2)
   },
    {
   id: 244,
-  titulo: "20. ALELUIA (SÉCULO I)",
+  titulo: "21. ALELUIA (SÉCULO I)",
   autor: "Século I",
   categoria: "aleluya",
-  tonoOriginal: "D",
+  tonoOriginal: "G",
   letra: `
 
 [G] Aleluia, [A] Aleluia, [Bm] Aleluia, [G] Aleluia, [A] Aleluia [Bm]
