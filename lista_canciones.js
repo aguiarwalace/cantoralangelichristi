@@ -1460,13 +1460,15 @@ A-le-lu-ya-a A-le-lu-ya-a. (x2)
   tonoOriginal: "G",
   letra: `
 
-[G] Aleluia, [A] Aleluia, [Bm] Aleluia, [G] Aleluia, [A] Aleluia [Bm]
+[G]A[A]le[Bm]luia, [G]A[A]le[Bm]luia
+Alel[G]u[A]u[Bm]ya, Alel[G]u[A]u[Bm]ya.
 
-[Bm] Mesmo sendo rico
+Mesmo sendo rico
 Cristo fez-se pobre
-Sua [G] pobreza nos [A] enrique [Bm] ceu
+Sua pobreza nos enriqueceu
 
-[G] Aleluia, [A] Aleluia, [Bm] Aleluia, [G] Aleluia, [A] Aleluia [Bm]
+[G]A[A]le[Bm]luia, [G]A[A]le[Bm]luia
+Alel[G]u[A]u[Bm]ya, Alel[G]u[A]u[Bm]ya.
 `
 },
 {
