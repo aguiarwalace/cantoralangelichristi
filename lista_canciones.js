@@ -1682,14 +1682,20 @@ Y el vino que no empleamos para curar las heridas.
     categoria: "Ofertorio",
     tonoOriginal: "E",
     letra: `
-[E]Este pan y [A]vino Se[E]ñor, [A]Se transfor[B7]mará, [E]
-[A]En tu Cuerpo y [E]Sangre Señor, [A]Es [B7]nuestro man[E]jar.
+[E]Este pan y [A]vino Se[E]ñor, 
+[A]Se transfor[B7]mará, [E]
+[A]En tu Cuerpo y [E]Sangre Señor, 
+[A]Es [B7]nuestro man[E]jar.
 
-[E]Gracias al [A]sol y al la[E]brador, [A]En el al[E]tar flo[E7]recen hoy,
-[A]Las es[B7]pigas, los ra[G#m]ci[C#m]mos, [A]Que presen[B7]tamos a Dios.
+[E]Gracias al [A]sol y al la[E]brador, 
+[A]En el al[E]tar flo[E7]recen hoy,
+[A]Las es[B7]pigas, los ra[G#m]ci[C#m]mos, 
+[A]Que presen[B7]tamos a Dios.
 
-Lo que sembré con mi dolor, lo que pedí en mi oración,
-Hoy son frutos, son ofrendas, que presentamos a Dios.
+Lo que sembré con mi dolor, 
+lo que pedí en mi oración,
+Hoy son frutos, son ofrendas, 
+que presentamos a Dios.
 `
   },
   {
@@ -1699,15 +1705,22 @@ Hoy son frutos, son ofrendas, que presentamos a Dios.
     categoria: "Ofertorio",
     tonoOriginal: "D",
     letra: `
-[D]Esto que te [F#m]doy, es [G]vino y pan Se[A]ñor,
-[G]Esto que te [D]doy es mi tra[A]bajo,
-[G]Es mi cora[A]zón, mi alma, [F#m]Es mi cuerpo y mi ra[Bm]zón,
+[D]Esto que te [F#m]doy, 
+es [G]vino y pan Se[A]ñor,
+[G]Esto que te [D]doy 
+es mi tra[A]bajo,
+[G]Es mi cora[A]zón, mi alma, [F#m]
+Es mi cuerpo y mi ra[Bm]zón,
 [G]El es[A]fuerzo de mí cami[D]nar. [A]
 
-[D]Toma mi [F#m]vida, [G]ponla en tu cora[A]zón,
-[D]Dame tu [F#m]mano [G]y lléva[A]me,
-[G]Cambia mi [A]pan en tu Carne, [F#m]Y mi vino en tu [Bm]Sangre,
-[G]Y a mi Se[A]ñor [D]renuéva[D7]me, [G]Límpiame [A]y sálva[D]me.
+[D]Toma mi [F#m]vida, 
+[G]ponla en tu cora[A]zón,
+[D]Dame tu [F#m]mano 
+[G]y lléva[A]me,
+[G]Cambia mi [A]pan en tu Carne, 
+[F#m]Y mi vino en tu [Bm]Sangre,
+[G]Y a mi Se[A]ñor [D]renuéva[D7]me, 
+[G]Límpiame [A]y sálva[D]me.
 
 Esto que te doy mi vida es Señor, es mi amor, también es mi dolor, es la ilusión mis sueños, es mi gozo y mi llorar, es mi canto y mi oración.
 
