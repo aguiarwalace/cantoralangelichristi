@@ -2341,6 +2341,7 @@ La Paz.
 [D]Cordero de [A]Dios,
 [Bm]Que quitas el [F#m]pecado del mundo,
 [G] [D] [E]Danos la paz, [A]danos la [D]paz.
+[C] [G] [A]
 `
   },
   {
