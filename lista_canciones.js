@@ -360,7 +360,7 @@ Tus um[E]brales [B]Jerusa[E]lén.
 
 [E]Jerusalén está fun[C#m]dada,
 Como ciu[F#]dad bien com[B]pacta, [B7]
-[E]Haya su[E7]ben las [A]tribus,
+[E]Allá su[E7]ben las [A]tribus,
 [Am]las [E]tribus del Se[B7]ñor. [E]
 
 Según las costumbres de Israel,
