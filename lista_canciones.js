@@ -2151,8 +2151,8 @@ En el [C]ci[G]e[C]lo. (x2)`
 },
     {
     id: 405,
-    titulo: "SANTO Oli",
-    autor: "A Mejía",
+    titulo: "SANTO Jesuítas (aka Santo Oli)",
+    autor: "Anónimo",
     categoria: "Santo",
     tonoOriginal: "A (capo3)",
     letra: `
