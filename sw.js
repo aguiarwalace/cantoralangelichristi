@@ -1,6 +1,6 @@
 // Cantoral Online Angeli Christi - Service Worker (sw.js)
 // IMPORTANTE: Incrementa este número de versión cada vez que hagas cambios en el código o canciones.
-const CACHE_NAME = 'cantoral-angeli-v20260731.1';
+const CACHE_NAME = 'cantoral-angeli-v20260803.1';
 
 // Lista de archivos esenciales que se guardarán para el uso sin internet
 const ASSETS_TO_CACHE = [
@@ -17,7 +17,14 @@ const ASSETS_TO_CACHE = [
     './img/angeli_christi_logo.ico',
     './img/banner.png',
     './pdf/preces-leoninas.pdf',
-    './fonts/Thelorin.otf' 
+    './fonts/Thelorin.otf',
+    './tuner/tuner.html',
+    './tuner/tuner.js',
+    './tuner/style.css',
+    './tuner/notes.js',
+    './tuner/meter.js',
+    './tuner/frequency-bars.js',
+    './tuner/app.js',
 ];
 
 // 1. INSTALACIÓN: Guarda los archivos en la memoria interna del navegador
