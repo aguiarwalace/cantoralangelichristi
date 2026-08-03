@@ -459,7 +459,7 @@ function renderizarEventos(eventos, container, loadingElement) {
         return fechaEvento >= hoy;
     });
 
-    const proximos10Eventos = eventosFuturos.slice(0, 10);
+    const proximos10Eventos = eventosFuturos.slice(0, 20);
 
     if (proximos10Eventos.length === 0) {
         container.innerHTML = "<p>No hay eventos próximos programados.</p>";
