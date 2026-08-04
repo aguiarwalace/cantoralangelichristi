@@ -1,6 +1,6 @@
 // Cantoral Online Angeli Christi - Service Worker (sw.js)
 // IMPORTANTE: Incrementa este número de versión cada vez que hagas cambios en el código o canciones.
-const CACHE_NAME = 'cantoral-angeli-v20260803.1';
+const CACHE_NAME = 'cantoral-angeli-v20260804.1';
 
 // Lista de archivos esenciales que se guardarán para el uso sin internet
 const ASSETS_TO_CACHE = [
