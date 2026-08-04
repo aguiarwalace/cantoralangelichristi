@@ -1,6 +1,6 @@
 const canciones = [
 /*Categorías siempre en minúsculas y sin acentos, para facilitar la búsqueda. 
-Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo, doxologia, padrenuestro, cordero, comunion, reflexion, salida, adoracion, espiritusanto, mariano, navidad, alabanza,pasion,angelichristi.*/
+Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo, doxologia, padrenuestro, cordero, comunion, reflexion, salida, adoracion, espiritusanto, mariano, navidad, alabanza,pasion,angelichristi, jmj.*/
   
 // --- SECCIÓN: CANTOS DE ENTRADA status: terminado ---
   {
@@ -4997,7 +4997,7 @@ Intro: [G] [C]
     id: 341,
     titulo: "BIENAVENTURADOS (Himno JMJ 2016 - Cracovia)",
     autor: "Anónimo",
-    categoria: "adoracion",
+    categoria: "adoracion, salida, jmj",
     tonoOriginal: "E",
     letra: `
 [C#m7]Levanto mis [A2]ojos a los [E]montes, [D]¿Quién me ayu[A2]da[E]rá?
@@ -7043,9 +7043,9 @@ Intro: [C] [F] [C] / [G] [C] [Am] [F] [C]
   },
   {
     id: 233,
-    titulo: "HAY PRISA EN EL AIRE (Himno JMJ)",
+    titulo: "HAY PRISA EN EL AIRE (Himno JMJ 2023 - Lisboa)",
     autor: "Anónimo",
-    categoria: "salida",
+    categoria: "salida, jmj",
     tonoOriginal: "E",
     letra: `
 Intro: [E] [Eadd9/G#] [C#m7] [Bsus4] [Asus2]
