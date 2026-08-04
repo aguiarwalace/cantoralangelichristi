@@ -54,7 +54,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: 70px;
+    height: 60px;
 }
 
 .header-left a {
@@ -98,6 +98,60 @@ header h1 { margin: 0; font-size: 1.3rem; font-weight: 300; }
 }
 
 #cal-btn:hover { background: rgba(255,255,255,0.1); }
+
+/* =======================================================
+   ESTILOS DEL ENCABEZADO (HEADER) Y BOTONES
+   ======================================================= */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary, #003468); /* Ajusta al color azul de tu app */
+    padding: 10px 15px;
+}
+
+/* Lado izquierdo (Logo + Título) */
+.header-left a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Agrupador derecho para los dos botones */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado idéntico entre ambos botones */
+}
+
+/* Clase única con proporciones idénticas para los dos botones */
+.header-icon-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 40px;  /* Ancho exactamente igual */
+    height: 40px; /* Alto exactamente igual */
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 8px; /* Mismo redondeo para ambos */
+    
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+/* Efecto al presionar o pasar el cursor */
+.header-icon-btn:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: #ffffff;
+}
 
 /* --- CONTENEDOR DE CANCIÓN --- */
 #main-content {

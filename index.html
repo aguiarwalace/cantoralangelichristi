@@ -17,15 +17,19 @@
     
 <body>
     <!-- ENCABEZADO PRINCIPAL -->
-    <header>
+<header>
         <div class="header-left">
             <a href="index.html">
                 <img src="img/angeli_christi_logo_blc.png" alt="Logo" class="logo-mini">
                 <h1>Cantoral Angeli Christi</h1>
             </a>
         </div>
-        <button id="menu-btn" onclick="toggleMenu()" aria-label="Abrir menú">☰</button>
-        <button id="cal-btn" onclick="window.location.href='celebraciones.html'" aria-label="Ver celebraciones">📅</button>
+
+        <!-- CONTENEDOR DE BOTONES DERECHOS -->
+        <div class="header-right">
+            <button id="menu-btn" class="header-icon-btn" onclick="toggleMenu()" aria-label="Abrir menú">☰</button>
+            <button id="cal-btn" class="header-icon-btn" onclick="window.location.href='celebraciones.html'" aria-label="Ver celebraciones">📅</button>
+        </div>
     </header>
 
     <!-- CONTENEDOR PRINCIPAL DE CONTENIDO / CANCIONES -->
