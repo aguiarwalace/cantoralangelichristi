@@ -10049,8 +10049,98 @@ Es [Em] poderoso el Señor,
 Mara[G]villoso el Señor,
 Victo[Am]rioso [G/B] el Se[C]ñor.`
 },
+    // --- SECCIÓN: CANTOS Himnos JMJ status: no terminado ---
+{
+    id: 406,
+    titulo: "Confidite, Ego vici mundum (Himno JMJ 2027 - Seúl)",
+    autor: "JMJ",
+    categoria: "jmj, final",
+    tonoOriginal: "C",
+    letra:  `
+  [KR]
+동쪽에 떠오른
+빛을 따라온 너와 나
+
+잠들던 마음을 깨워
+걸어가기 시작하네
+
+[EN]
+‘Till the world’s farthest end
+The Lord remains by our side
+
+Whenever our weary footsteps fall
+The Word of Love brings grace to all
+
+[KR]
+'너희는 세상의 빛이다'
+서로의 길을 비추어라
+
+[EN]
+Through the fear, darkness, our trembling way
+We shall carry hope
+
+And now, [KR] '용기를 내어라
+내가 세상을 이겼다'
+
+[LAT] Confidite ego vici mundum.
+
+[IT] Si compia in me
+[FR] Ainsi soit-il
+[ES] Que así sea
+[PT] Assim seja
+
+[IT]
+Lungo un nuovo cammin
+La mia preghiera sale a te
+
+Dalla mia delusione
+mi chiami a te, risponderò
+
+[ES]
+Aun si la noche acecha
+En nosotros presente estás
+
+Cuando la tristeza queda
+Tu palabra siembra esperanza
+
+[KR]
+'너희는 세상의 빛이다'
+서로의 길을 비추어라
+
+[EN]
+Through the fear, darkness, our trembling way
+We shall carry hope
+
+And now, [KR] '용기를 내어라
+내가 세상을 이겼다'
+
+[LAT] Confidite ego vici mundum.
+
+[KR]
+이뤄지소서.
+
+'너희는 세상의 빛이다'
+서로의 길을 비추어라
+
+[EN]
+Through the fear, darkness, our trembling way
+We shall carry hope
+
+And now, [KR] '용기를 내어라
+내가 세상을 이겼다'
+
+[LAT] Confidite ego vici mundum.
+
+[IT] Si compia in me
+[FR] Ainsi soit-il
+[ES] Que así sea
+[PT] Assim seja
+[KR]이뤄지소서.`
+},
+
+
     // --- SECCIÓN: CANTOS Angeli status: terminado ---
-  {
+{
     id: 102,
     titulo: "Oración de Santo Agustín",
     autor: "Walace Aguiar",
@@ -10058,9 +10148,31 @@ Victo[Am]rioso [G/B] el Se[C]ñor.`
     tonoOriginal: "C",
     letra:  `
 Intro: [C7M] [F7M] [Bm7(5b)] [Em7] [Am7] [Dm7] [G7] [Dm7] [Em7]\n 
-[C7M]¡Mi Cristo Jesús!,\n[F7M]amable Señor,\n[Bm7(5b)]¿por qué amé\n[Em7]Otra cosa que no Tú?\n[Am7]¿Dónde estaba yo\n[Dm7]cuando no pensaba en ti?\n[G7]!Qué ahora seas Tú\n[Bm7(5b)]Quién vivas en [Em7]mí!\n
-[C7M]Qué arda en mi alma\n[F7M]Llama viva de tu amor\n[Bm7(5b)]Y qué se vuelva fuego,\n[Em7]Incendio divinal.\n[Am7]A quemar en el altar\n[Dm7]De mi corazón\n[G7]Qué inflame mi ser\n[Bm7(5b)]Eternamente[Em7].\n 
-[C7M]Que abrase mi alma\n[F7M]Y todo lo que soy.\n[Bm7(5b)]Qué en Ti mi corazón\n[Em7]Desfalezca.\n[Am7]Y en el día de mi muerte\n[Dm7]Delante de Ti esté\n[G7]Totalmente consumido\n[Bm7(5b)]en tu a[Em7]mor.\n
+[C7M]¡Mi Cristo Jesús!,\n
+[F7M]amable Señor,\n
+[Bm7(5b)]¿por qué amé\n
+[Em7]Otra cosa que no Tú?\n
+[Am7]¿Dónde estaba yo\n
+[Dm7]cuando no pensaba en ti?\n
+[G7]!Qué ahora seas Tú\n
+[Bm7(5b)]Quién vivas en [Em7]mí!\n
+
+[C7M]Qué arda en mi alma\n
+[F7M]Llama viva de tu amor\n
+[Bm7(5b)]Y qué se vuelva fuego,\n
+[Em7]Incendio divinal.\n
+[Am7]A quemar en el altar\n
+[Dm7]De mi corazón\n
+[G7]Qué inflame mi ser\n
+[Bm7(5b)]Eternamente[Em7].\n 
+[C7M]Que abrase mi alma\n
+[F7M]Y todo lo que soy.\n
+[Bm7(5b)]Qué en Ti mi corazón\n
+[Em7]Desfalezca.\n
+[Am7]Y en el día de mi muerte\n
+[Dm7]Delante de Ti esté\n
+[G7]Totalmente consumido\n
+[Bm7(5b)]en tu a[Em7]mor.\n
 Amén.
     `
 },
@@ -10071,33 +10183,37 @@ Amén.
     categoria: "angelichristi, reflexion",
     tonoOriginal: "G",
     letra: `
-[G]Ave, llena de gracias, el Señor con[Em]tigo es[G]tá\n 
+[G]Ave, llena de gracias, el Señor con[Em]tigo es[G]tá\n
+
 [G]Proclama mi alma la gran[Em]deza del Señor,
 se alegra mi es[C]píritu en Dios, mi sal[Am]vador;
 [G]porque ha mirado la humilla[Em]ción de la esclava Suya
 Y ben[Am]dita [Bm]me procla[C]ma[D]rán.\n
+[coro]
 [G]El Poderoso hizo [Em]cosas maravillosas por mí:
 [C]Santo es su [Am]nombre.
 [G]y llega a sus [Em]fieles su misericordia
 [Am]de gene[Bm]ración en [C]gene[D]ración.\n
+[coro]
 [Bm7]Él hace pro[Am7]ezas con su brazo:
 [Bm7]Soberbios de cora[Am7]zón dispersa
 [Em7]derriba a pode[Am7]rosos de sus tronos
 [Em7]y enaltece [Am7]a los humildes,
 [Bm7]a los ham[Em7]brientos los colma de bienes
 [Am7]y a los ricos los des[D7]pide de manos vacíos.\n
+[coro]
 [G]El Poderoso hizo [Em]cosas maravillosas por mí:
 [C]Santo es su [Am]nombre.
 [G]y llega a sus [Em]fieles su misericordia
 [Am]de gene[Bm]ración en [C]gene[D]ración.\n
+[coro]
 [G]Socorrió a Isra[Em]el, su siervo,
 [C]Se a[Am]cordó de la misericordia
 [G]—como lo ha[Em]bía prometido a nuestros padres—
 [Am]en fa[Bm]vor de Abra[C]hán y su descen[D]dencia 
 por [E7]siempre.\n
-(Sube a tono de A)
-[A]Ave, llena de gracias, el Señor con[F#m]tigo es[A]tá\n 
-    `
+[Sube a tono de A]
+[A]Ave, llena de gracias, el Señor con[F#m]tigo es[A]tá\n `
 },
 {
     id: 104,
@@ -10349,4 +10465,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:405
+// último id:406
