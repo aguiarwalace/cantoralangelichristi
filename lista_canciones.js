@@ -9991,6 +9991,61 @@ Victo[Am]rioso [G/B] el Se[C]ñor.`
 },
     // --- SECCIÓN: CANTOS Himnos JMJ status: no terminado ---
 {
+    id: 409,
+    titulo: "QUÉDATE HOY AQUÍ (Himno JMJ 1986 - Roma)",
+    autor: "Gen Rosso",
+    categoria: "jmj, salida",
+    tonoOriginal: "D",
+    linkYoutube: "https://www.youtube.com/watch?v=8NwIUkykVNg",
+    //linkPartitura: "",
+    letra: `
+Intro: [D] [G] [D]
+
+[D]Las horas van ca[G]yen[D]do,
+ago[G]niza el día,
+de[D]saparecen ya tras los [Em]montes
+los reflejos de un [Bm]día que no aca[F#m]bará,
+como un [Em]sol brilla[G]rá para siem[A]pre,
+porque sa[D]bemos que [D7]una [G]nueva vida
+aquí ha [D]nacido y ja[G]más se deten[A]drá.
+
+Quédate a[D]quí, el [F#m]sol desciende [G]ya. [D]
+Quédate a[Em]quí, Se[A]ñor, es [G]tarde [A]ya. [D]
+Quédate a[D]quí, el [F#m]sol desciende [G]ya. [D]
+Si Tú estás a[Em]quí la [A]noche no [G]ven[A]drá. [D]
+
+[D]Se extiende y va en bus[G]ca del [D]mar,
+[G]es como una ola,
+que el [D]viento empuja[Em]rá
+hasta cuándo llegará
+hasta el con[Bm]fín de cada cora[F#m]zón,
+a las pu[Em]ertas del a[G]mor verda[A]dero.
+Como una [D]llama que [D7]donde pasa [G]quema
+Así tu a[D]mor todo el [G]mundo invadi[A]rá.
+
+Quédate a[D]quí, el [F#m]sol desciende [G]ya. [D]
+Quédate a[Em]quí, Se[A]ñor, es [G]tarde [A]ya. [D]
+Quédate a[D]quí, el [F#m]sol desciende [G]ya. [D]
+Si Tú estás a[Em]quí la [A]noche no [G]ven[A]drá. [D]
+
+[D]Delante esta la hu[G]mani[D]dad,
+[G]lucha, sufre, espera.
+Como una [D]tierra que
+ago[Em]tada pide agua.
+a un cielo a[Bm]zul sin nubes
+que es ca[F#m]paz de darle siempre vida.
+Por [Em]Ti se[G]remos fuentes de agua [A]pura
+y con tú a[D]mor el [D7]de[G]sierto florecerá.
+vida
+aquí ha [D]nacido y ja[G]más se deten[A]drá.
+
+Quédate a[D]quí, el [F#m]sol desciende [G]ya. [D]
+Quédate a[Em]quí, Se[A]ñor, es [G]tarde [A]ya. [D]
+Quédate a[D]quí, el [F#m]sol desciende [G]ya. [D]
+Si Tú estás a[Em]quí la [A]noche no [G]ven[A]drá. [D]
+`
+  },
+  {
   id: 407,
   titulo: "Firmes en la Fe (Himno JMJ 2011 - Madrid)",
   autor: "Letra: Mons. César Franco, Música: Enrique Vázquez",
@@ -10000,11 +10055,9 @@ Victo[Am]rioso [G/B] el Se[C]ñor.`
 
 Intro:
 
-Acordes: G           C     Am7   Bm       E7    Am7 
-  [D]       -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-  -  -
-Tiempo:  4/4         4/4         3/4      4/4       
-  2/4
+Acordes: [G]           [C]     [Am7]   [Bm]       [E7]    [Am7]  [D]
+         -  -  -  -  -  -  -  -  -  -  -  -  -  -  - -  -
+Tiempo:  4/4         4/4         3/4      4/4       2/4
 
 Coro:
 [G]Firmes [D]en la fe, [C]firmes en la [Bm]fe
@@ -10106,6 +10159,80 @@ nuestro Señor.
 ¡Haznos firmes en Ti !
 ¡Haznos firmes en Ti !`
 },
+{
+    id: 408,
+    titulo: "ESPERANZA DEL AMANECER (Himno JMJ 2013 - Rio de Janeiro)",
+    autor: "Padre José Cândido",
+    categoria: "salida, jmj",
+    tonoOriginal: "A",
+    linkYoutube: "https://www.youtube.com/watch?v=dxcl_skiFgA",
+//    linkPartitura: "",
+    letra: `
+[A]Estoy mar[Bm7]cado des[C#m7]de siem[Bm7]pre
+con el [A]signo [Bm7]del Re[E4]dent[E]or,
+[A]que so[E]bre el [F#m]monte [D]del Corco[Dm]vado,
+a[A]braza el mundo [F#m]con su [Bm]a[E]mor.[A4] [G] [A]
+
+(Coro)
+[D]Cris[Dm]to nos in[A]vi[F#m]ta:
+“[Bm]Ven[E7]gan, mis a[Em]mi[A]gos”
+[D]Cris[Dm]to nos en[A]ví[F#m]a:
+“[D]¡Sean [E7]misiona[A]rios![C]”
+
+[A]Juventud [Bm]prima[C#m]ve[Bm]ra:
+[F]Espe[Gm]ranza de [Dm]amane[C4]cer;[C]
+[F]¡quien [C]escucha [Dm]este cha[Bb]ma[Bbm]do
+[F]a[C]co[Dm]ge el don [Gm]de cre[C]er![Bb]
+
+[F]Dios an[Gm]hela pa[Am]ra esta [Gm]tierra,
+[F]para este [Gm]mundo la [Dm]carid[C]ad!
+[F]¡No [C]a la [Dm]guerra, [Bb]fuera el [Bbm]odio,
+[F]Sólo [Dm]bien y paz hasta [Gm]el [C]fi[F]nal!
+
+(Coro)
+[Bb]Cris[Bbm]to nos in[F]vi[Dm]ta:
+“[Gm]Ven[C]gan, mis a[Cm]mi[F]gos”
+[Bb]Cris[Bbm]to nos en[F]ví[Dm]a:
+“[Bb]¡Sean [C7]misiona[F]rios![E4]” [E]
+
+[A]Desde el [Bm]oriente [C#m]hasta el po[Bm]niente,
+[A]Nuestra casa [Bm]no tiene [E4]puer[E]ta,
+[A]nuestra [E]tierra [F#m]no tiene [D]cer[Dm]cas,
+[A]ni tiene [F#m]límites [Bm]nues[E]tro a[A]mor![G] [A]
+
+[A]espar[Bm]cidos [C#m]por el [Bm]mundo,
+[A]conserva[Bm]mos un [E4]mismo ar[E]dor.
+[A]¡Es [E]tu gra[F#m]cia que [D]nos sos[Dm]tiene
+[A]y nos man[F#m]tiene fie[Bm]les a [E]Ti, Se[A]ñor![G] [A]
+
+(Coro)
+[D]Cris[Dm]to nos in[A]vi[F#m]ta:
+“[Bm]Ven[E7]gan, mis a[Em]mi[A]gos”
+[D]Cris[Dm]to nos en[A]ví[F#m]a:
+“[D]¡Sean [E7]misiona[A]rios![C7]”
+
+[F]Aten[Gm]diendo a [Am]Tú lla[Gm]mado:
+[F]“¡Vayan y [Gm]hagan, del [Dm]mundo [C]hoy,
+[F]un [C]pueblo [Dm]nuevo, [Bb]todos u[Bbm]nidos,
+[F]y [C]para [Dm]mi su [Gm]cora[C]zón! [Bb]”
+
+[F]Anun[Gm]ciar el [Am]Evan[Gm]gelio
+[F]a todo [Gm]es trans[Dm]for[C]mar
+[F]al [C]hombre [Dm]viejo en [Bb]hombre [Bbm]nuevo
+[F]el mundo [Dm]nuevo que [Gm]va a [C]lle[F]gar.
+
+(Coro)
+[Bb]Cris[Bbm]to nos in[F]vi[Dm]ta:
+“[Gm]Ven[C]gan, mis a[Cm]mi[F]gos”
+[Bb]Cris[Bbm]to nos en[F]ví[Dm]a:
+“[Bb]¡Sean [C7]misiona[F]rios![E4]” [E]
+
+[Bb]Cris[Bbm6]to nos in[F/A]vita:
+“[Gm]Ven[C7]gan, mis a[Cm7]mi[F]gos[F/A]”
+[Bb]Cristo nos en[F/C]ví[C/D]a:[Dm7]
+“[Bb/C]¡Sean [C7]misiona[F4]rios![F]”
+`
+  },
 {
     id: 341,
     titulo: "BIENAVENTURADOS (Himno JMJ 2016 - Cracovia)",
