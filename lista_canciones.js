@@ -4991,36 +4991,7 @@ Intro: [G] [C]
 [C]Los años que me has dado vi[G]viré Por ti.
 [G]Voy a conquistar [Em]La tierra que me diste sin dudar,
 [C]Viviré por [G]ti.
-`
-  },
-  {
-    id: 341,
-    titulo: "BIENAVENTURADOS (Himno JMJ 2016 - Cracovia)",
-    autor: "Anónimo",
-    categoria: "adoracion, salida, jmj",
-    tonoOriginal: "E",
-    letra: `
-[C#m7]Levanto mis [A2]ojos a los [E]montes, [D]¿Quién me ayu[A2]da[E]rá?
-[Bsus]La ayuda me [B]viene del Se[F#sus]ñor, [F#]por [A]Su gran com[B]pa[C#sus]sión. [C#]
-[C#m7]Aun cuando es[A2]tamos en el e[E]rror, [D]nos a[A2]braza con Su a[E]mor,
-[Bsus]con Su [B]sangre nuestro do[F#sus]lor [F#]al [A]fin se [B]sa[C#sus]na[C#]rá.
-
-[E]Bienaventura[B]dos los misericor[C#m7]dio[A]sos,
-[E]porque ellos alcan[Bsus]za[B]rán miseri[F#sus]cor[F#]dia. (x2)
-
-[C#m7]Si no perdo[A2]namos, ¿Quién ga[E]nará? [D]¿Quién puede soste[A2]nerse en [E]pie?
-[Bsus]¡Si Él nos per[B]dona, nosotros tam[F#sus]bién [F#]ha[A]gamos como [B]nuestro [C#sus]Dios! [C#]
-
-[C#m7]En la [A2]cruz Él nos re[E]dimió, [D]de la [A2]tumba resuci[E]tó.
-[Bsus]¡Jesucris[B]to es el Se[F#sus]ñor! [F#]¡Al [A]mundo hay que anun[B]ciar! [C#sus] [C#]
-
-[A]Hay que soltar el [B]miedo y ser [C#m]fiel, [A]con la mi[E]rada en Su [B]amor, [A] 
-Confiar por[B]que Él resuci[C#m]tó. [A] [B]¡Vive el Se[C#sus]ñor! [C#] 
-
-[E]Bienaventura[B]dos los misericor[C#m7]dio[A]sos,
-[E]porque ellos alcan[Bsus]za[B]rán miseri[F#sus]cor[F#]dia. (x2)
-`
-  },
+`},
   {
   id: 342,
   titulo: "CONFESIÓN DE FE",
@@ -7039,38 +7010,7 @@ Intro: [C] [F] [C] / [G] [C] [Am] [F] [C]
 
 [Am]Solo Él mi [Em]Dios, que me [G]dio a liber[B7]tad
 [Am]Solo Él mi [Em]Dios, [D]me guia[Em]ra.
-`
-  },
-  {
-    id: 233,
-    titulo: "HAY PRISA EN EL AIRE (Himno JMJ 2023 - Lisboa)",
-    autor: "Anónimo",
-    categoria: "salida, jmj",
-    tonoOriginal: "E",
-    letra: `
-Intro: [E] [Eadd9/G#] [C#m7] [Bsus4] [Asus2]
-
-[F#m11]De todo el mundo hacia [Eadd9/G#]este lugar
-[Asus2]partimos, vo[Bsus4]lamos, lle[C#m7]gamos a[Bsus4/D#]quí.
-[F#m11]Con María aprende[Emaj9]mos un sí.
-[F#m11]Queremos ser[Esus9/G#]vir a la volun[Asus2]tad del Se[Bsus4]ñor, [C#m7]Padre [G#/C#]Dios.
-
-[F#m11]Llamados a [Eadd9/G#]ser con [Asus2]Cristo Je[Bsus4]sús.
-[C#m7]Para [G#/C#]dar, para es[F#m11]tar dispos[Eadd9/G#]tos al [Asus2]sí, como hizo Ma[Bsus4]ría.
-
-[E]TODOS VAN A ESCUCHAR NUESTRA [Bsus4]VOZ
-[Asus2]LEVANTEMOS LOS [Bsus4]BRAZOS, HAY [C#m7]PRISA EN EL [Bsus4/D#]AIRE
-[E]JESÚS VIVE, NO TE ABANDO[Eadd9/G#]NARÁ
-[C#m7]NUNCA DEJA[Bsus4]REMOS DE A[Asus2]MAR.
-
-[E]Tú que siempre [Bsus4]estás buscándote,
-[Asus2]ven a descu[Bsus4]brir, [C#m7]ver lo que yo [Bsus4/D#]vi.
-[E]Con nosotros ven a [Eadd9/G#]ver más allá
-[C#m7]de aquello que [Bsus4]haces, y no te deja son[Asus2]reír y amar.
-[F#m11]No mires a[Eadd9/G#]trás, no [Asus2]digas que [Bsus4]no.
-[C#m7]Oye tu cora[G#/C#]zón y sal sin [F#m11]miedo a [Eadd9/G#]esta mi[Asus2]sión. [Bsus4]
-`
-  },
+`},
   {
     id: 234,
     titulo: "OH PECADOR",
@@ -10050,6 +9990,179 @@ Mara[G]villoso el Señor,
 Victo[Am]rioso [G/B] el Se[C]ñor.`
 },
     // --- SECCIÓN: CANTOS Himnos JMJ status: no terminado ---
+{
+  id: 407,
+  titulo: "Firmes en la Fe (Himno JMJ 2011 - Madrid)",
+  autor: "Letra: Mons. César Franco, Música: Enrique Vázquez",
+  categoria: "jmj, salida",
+  tonoOriginal: "G",
+  letra: `
+
+Intro:
+
+Acordes: G           C     Am7   Bm       E7    Am7 
+  [D]       -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+  -  -
+Tiempo:  4/4         4/4         3/4      4/4       
+  2/4
+
+Coro:
+[G]Firmes [D]en la fe, [C]firmes en la [Bm]fe
+cami[Em]namos en [D]Cristo, nuestro A[G]migo, n[Am7]uestro 
+[Dsus4]Señor.[D]
+¡[G]Gloria [G7]siempre a[C] Él! ¡[Bsus4]Gloria [B]siempre a[Em] Él!
+Cami[D]namos en [Em]Cristo [Am7]firmes [A7]en la [Dsus4]fe.   [D]
+
+¡[G]Gloria [G7]siempre a [C]Él! ¡[Bsus4]Gloria [B]siempre a[Em] Él!
+    D        B   E7   Am7    Dsus4 D   G     / 
+Caminamos en Cristo   firmes en     la fe.
+[C] [D]
+
+1.
+Tu a[G]mor nos edifica y nos ar[G7]raiga,[Am]
+tu c[D]ruz nos consolida y fortalece.
+Tu c[E7]arne nos redime y nos ab[Am]raza, [Am7]
+tu s[Cm]angre nos ren[G]ueva y nos embr[Dsus4]iaga.  [Bm]
+-   F#m7    -           - Em
+Oh, Cristo, nuestro Hermano,
+-    E7               - F#  D
+oh, Cristo, nuestro Amigo,
+nuestro Se[Em]ñor.
+¡Haznos [D]firmes en [G]Ti !
+¡[G7]Haznos [C]fir[Cm7]mes en [Dsus4]Ti !      [D]
+
+CORO
+
+3.
+
+Tu aliento es el Soplo de lo Alto,
+tu risa es el signo de la gracia.
+Tus llagas son amores encendidos,
+tus penas son el precio de mi alma.
+Oh, Cristo, nuestro Hermano,
+oh, Cristo, nuestro Amigo,
+nuestro Señor.
+¡Haznos firmes en Ti !
+¡Haznos firmes en Ti !
+
+(Sube un tono)
+Coro:
+[A]Firmes [E]en la fe, [D]firmes en la [C#m]fe
+cami[F#m]namos en C[E]risto, nuestro Am[A]igo, nu[Bm7]estro 
+[Esus4]Señor.[E]
+¡G[A]loria s[A7]iempre a [D]Él! ¡[C#sus4]Gloria [C#]siempre a[F#m] Él!
+Cami[E]namos en [F#m]Cristo [Bm7]firmes [B7]en la [Esus4]fe.   [E]
+
+¡[A]Gloria [A7]siempre a [D]Él! ¡[C#sus4]Gloria [C#]siempre a [F#m]Él!
+    E        C#  F#7  Bm7    Esus4 E   A    / D    E
+Caminamos en Cristo   firmes en     la fe.
+
+6.
+Tus [A]jóvenes caminan con Mar[A7]ía,  [Bm]
+que [E]canta como novia engalanada.
+Con [F#7]ella cantaremos tu vict[Bm]oria, [Bm7]
+la m[Dm]uerte ha sido [A]ya aniqui[Esus4]lada.  [C#m]
+-    G#m7               - F#m
+Oh, Cristo, nuestro Hermano,
+-    F#7              - G#   E
+oh, Cristo, nuestro Amigo,
+nuestro Se[F#m]ñor.
+¡Haznos [E]firmes en [A]Ti !
+¡[A7]Haznos [D]fir[Dm7]mes en [Esus4]Ti![E]
+
+CORO
+Fin
+
+Estrofas adicionales (no grabadas):
+
+2.
+Tus manos acarician nuestras llagas,
+tus ojos purifican la mirada.
+Tus labios comunican mil perdones,
+tus pies nos encaminan a la vida.
+Oh, Cristo, nuestro Hermano,
+oh, Cristo, nuestro Amigo,
+nuestro Señor.
+¡Haznos firmes en Ti !
+¡Haznos firmes en Ti !
+
+4. Tu rostro es el icono de la Vida,
+tu frente es nuestra luz resucitada.
+Tu muerte es la causa de mi vida,
+bautissmo de mi carne en ti salvada.
+Oh, Cristo, nuestro Hermano,
+oh, Cristo, nuestro Amigo,
+nuestro Señor.
+¡Haznos firmes en Ti !
+¡Haznos firmes en Ti !
+
+5. Tu gloria es el futuro de los hombres,
+que marchan con impulsos de tu gracia.
+Tu Iglesia es la casa de mil puertas
+encima de tu piedra edifi cada.
+Oh, Cristo, nuestro Hermano,
+oh, Cristo, nuestro Amigo,
+nuestro Señor.
+¡Haznos firmes en Ti !
+¡Haznos firmes en Ti !`
+},
+{
+    id: 341,
+    titulo: "BIENAVENTURADOS (Himno JMJ 2016 - Cracovia)",
+    autor: "Anónimo",
+    categoria: "adoracion, salida, jmj",
+    tonoOriginal: "E",
+    letra: `
+[C#m7]Levanto mis [A2]ojos a los [E]montes, [D]¿Quién me ayu[A2]da[E]rá?
+[Bsus]La ayuda me [B]viene del Se[F#sus]ñor, [F#]por [A]Su gran com[B]pa[C#sus]sión. [C#]
+[C#m7]Aun cuando es[A2]tamos en el e[E]rror, [D]nos a[A2]braza con Su a[E]mor,
+[Bsus]con Su [B]sangre nuestro do[F#sus]lor [F#]al [A]fin se [B]sa[C#sus]na[C#]rá.
+
+[E]Bienaventura[B]dos los misericor[C#m7]dio[A]sos,
+[E]porque ellos alcan[Bsus]za[B]rán miseri[F#sus]cor[F#]dia. (x2)
+
+[C#m7]Si no perdo[A2]namos, ¿Quién ga[E]nará? [D]¿Quién puede soste[A2]nerse en [E]pie?
+[Bsus]¡Si Él nos per[B]dona, nosotros tam[F#sus]bién [F#]ha[A]gamos como [B]nuestro [C#sus]Dios! [C#]
+
+[C#m7]En la [A2]cruz Él nos re[E]dimió, [D]de la [A2]tumba resuci[E]tó.
+[Bsus]¡Jesucris[B]to es el Se[F#sus]ñor! [F#]¡Al [A]mundo hay que anun[B]ciar! [C#sus] [C#]
+
+[A]Hay que soltar el [B]miedo y ser [C#m]fiel, [A]con la mi[E]rada en Su [B]amor, [A] 
+Confiar por[B]que Él resuci[C#m]tó. [A] [B]¡Vive el Se[C#sus]ñor! [C#] 
+
+[E]Bienaventura[B]dos los misericor[C#m7]dio[A]sos,
+[E]porque ellos alcan[Bsus]za[B]rán miseri[F#sus]cor[F#]dia. (x2)
+`},
+{
+    id: 233,
+    titulo: "HAY PRISA EN EL AIRE (Himno JMJ 2023 - Lisboa)",
+    autor: "Anónimo",
+    categoria: "salida, jmj",
+    tonoOriginal: "E",
+    letra: `
+Intro: [E] [Eadd9/G#] [C#m7] [Bsus4] [Asus2]
+
+[F#m11]De todo el mundo hacia [Eadd9/G#]este lugar
+[Asus2]partimos, vo[Bsus4]lamos, lle[C#m7]gamos a[Bsus4/D#]quí.
+[F#m11]Con María aprende[Emaj9]mos un sí.
+[F#m11]Queremos ser[Esus9/G#]vir a la volun[Asus2]tad del Se[Bsus4]ñor, [C#m7]Padre [G#/C#]Dios.
+
+[F#m11]Llamados a [Eadd9/G#]ser con [Asus2]Cristo Je[Bsus4]sús.
+[C#m7]Para [G#/C#]dar, para es[F#m11]tar dispos[Eadd9/G#]tos al [Asus2]sí, como hizo Ma[Bsus4]ría.
+
+[E]TODOS VAN A ESCUCHAR NUESTRA [Bsus4]VOZ
+[Asus2]LEVANTEMOS LOS [Bsus4]BRAZOS, HAY [C#m7]PRISA EN EL [Bsus4/D#]AIRE
+[E]JESÚS VIVE, NO TE ABANDO[Eadd9/G#]NARÁ
+[C#m7]NUNCA DEJA[Bsus4]REMOS DE A[Asus2]MAR.
+
+[E]Tú que siempre [Bsus4]estás buscándote,
+[Asus2]ven a descu[Bsus4]brir, [C#m7]ver lo que yo [Bsus4/D#]vi.
+[E]Con nosotros ven a [Eadd9/G#]ver más allá
+[C#m7]de aquello que [Bsus4]haces, y no te deja son[Asus2]reír y amar.
+[F#m11]No mires a[Eadd9/G#]trás, no [Asus2]digas que [Bsus4]no.
+[C#m7]Oye tu cora[G#/C#]zón y sal sin [F#m11]miedo a [Eadd9/G#]esta mi[Asus2]sión. [Bsus4]
+`
+  },
 {
     id: 406,
     titulo: "Confidite, Ego vici mundum (Himno JMJ 2027 - Seúl)",
