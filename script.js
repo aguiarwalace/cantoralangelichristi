@@ -385,7 +385,7 @@ window.addEventListener("focus", () => {
    ======================================================= */
 
 // REEMPLAZA ESTA URL CON LA TUYA DE GOOGLE APPS SCRIPT
-const URL_WEB_APP_GOOGLE = "https://script.google.com/macros/s/AKfycbw28lTx-e6iMCkKAK8gugKU2khH1GjHelBWXTg__ABszzgUaMH7uETBIT1A9W5GHgksmA/exec";
+const URL_WEB_APP_GOOGLE = "https://script.google.com/macros/s/AKfycby8GXF2HslQN45DlEY156SVfH452tqeeA0i8u5wRvDratojoCFQgwSr8wvNpqrNGGf0xA/exec";
 const CALENDAR_CACHE_KEY = 'cantoral_eventos_cache';
 
 async function cargarEventosDinamicos() {
