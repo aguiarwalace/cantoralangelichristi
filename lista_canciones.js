@@ -9989,6 +9989,280 @@ Es [Em] poderoso el Señor,
 Mara[G]villoso el Señor,
 Victo[Am]rioso [G/B] el Se[C]ñor.`
 },
+{
+    id: 410,
+    titulo: "ALEGRÍA DE SER TODO TUYO",
+    autor: "Comunidade Católica Shalom",
+    categoria: "salida, alabanza",
+    tonoOriginal: "E",
+    //linkYoutube: "https://www.youtube.com/watch?v=ejemplo", // Opcional
+    //linkPartitura: "https://drive.google.com/file/d/ejemplo", // Opcional
+    letra: `
+Intro: [E] [E/D] [C#m] [E/D] (x4)
+
+[E]Todo es muy poco para expresar
+la ale[C#m]gría que Tú me das.
+Tu a[A]mor vino y conquistó
+toda mi [E]vida y ya no puedo pa[C#m]rar,
+toda mi [A]vida y ya no puedo pa[B]rar.
+
+[E]Por eso canto, canto la ale[C#m]gría de perte[A]necer a Ti, Se[B]ñor.
+[E]Por eso canto, canto la ale[C#m]gría de [A]ser todo [C#m]tuyo, [B]
+[E]Por eso danzo, danzo la ale[C#m]gría de perte[A]necer a Ti, Se[B]ñor.
+[E]Por eso danzo, danzo la ale[C#m]gría de [A]ser todo [C#m]tuyo. [B]
+
+[E]Todo es muy poco para expresar
+la ale[C#m]gría que Tú me das.
+Tu a[A]mor vino y conquistó
+toda mi [E]vida y ya no puedo pa[C#m]rar,
+toda mi [A]vida y ya no puedo pa[B]rar [C#] [D]
+
+[E]Por eso canto, canto la ale[C#m]gría de perte[A]necer a Ti, Se[B]ñor.
+[E]Por eso canto, canto la ale[C#m]gría de [A]ser todo [C#m]tuyo, [B]
+[E]Por eso danzo, danzo la ale[C#m]gría de perte[A]necer a Ti, Se[B]ñor.
+[E]Por eso danzo, danzo la ale[C#m]gría de [A]ser todo [C#m]tuyo. [B]
+
+[A]Tu amor, Se[E/G#]ñor, cam[F#m]bió toda mi [E/G#]vida.
+[F#m]Quiero vivir ese a[E/G#]mor y por [A]Ti entre[B]garme. [E]
+
+[A] [E/G#] [B] [A] [E/G#] [B] [E]
+`
+  },
+{
+  id: 411,
+  titulo: "Baila y déjate de historias",
+  autor: "Hakuna",
+  categoria: "alabanza",
+  tonoOriginal: "D",
+  letra: `[Intro] G  Bm  C  
+">D
+[G] [Bm] [C]
+
+">D
+
+ 
+Que ni una ni mil piedras en el camino te hagan tropezar
+">G
+Que ni una ni mil piedras en el camino te hagan tropezar
+No t[D]e ates a nada, no hay tiempo para dejar la oportunidad pasar
+">D
+No te ates a nada, no hay tiempo para dejar la oportunidad pasar
+Qu[Em]e no hay excusa alguna para no servir a los demás
+">Em
+Que no hay excusa alguna para no servir a los demás
+  
+Siempre sonriente, sin dejar a la queja entrar
+
+">C
+Siempre sonriente, sin dejar a la queja entrar
+
+       
+Que un ángel nos ha enseñado cómo se debe volar
+">G
+Que un ángel nos ha enseñado cómo se debe volar
+Que, si l[D]levas la cruz a cuestas, no se tiene por qué notar
+">D
+Que, si llevas la cruz a cuestas, no se tiene por qué notar
+             
+Que, si esta no es nuestra liga, entonces ¿a qué te quieres
+">Em
+Que, si esta no es nuestra liga, entonces ¿a qué te quieres
+   
+Aferrar?
+
+">C
+Aferrar?
+
+[D]Simplemente, b[G]aila y déjate de historias
+">Bm
+Simplemente, baila y déjate de historias
+Aunque [C]no tengas el control
+">D
+Aunque no tengas el control
+                       
+Cualquiera que sea la canción
+">Em
+Cualquiera que sea la canción
+                   
+Déjate llevar en el salón
+">Bm
+Déjate llevar en el salón
+       
+Déjate hacer, que trace tu camino
+">C
+Déjate hacer, que trace tu camino
+É[D]l también quiere bailar contigo
+
+">G
+Él también quiere bailar contigo
+
+[Solo] G  Bm  C  D  
+
+">G
+
+ 
+Que, si el sufrimiento es por amor
+">G
+Que, si el sufrimiento es por amor
+    
+El dolor es diferente
+">D
+El dolor es diferente
+   
+Entrégate hasta el extremo
+">Em
+Entrégate hasta el extremo
+  
+Empápate de esta fuente
+
+">C
+Empápate de esta fuente
+
+   
+Inagotable, infinita
+">G
+Inagotable, infinita
+                  
+De la que siempre se sacan fuerzas
+">D
+De la que siempre se sacan fuerzas
+         
+Es Dios Padre quien te grita
+">Em
+Es Dios Padre quien te grita
+         
+Que te acompaña en lo que elijas
+
+">C
+Que te acompaña en lo que elijas
+
+Cada seg[G]undo puede ser el último, es la hora de levantarse
+">D
+Cada segundo puede ser el último, es la hora de levantarse
+        
+Vive derramando, derramando todo el vaso
+">Em
+Vive derramando, derramando todo el vaso
+             
+Que no haya gota que se salve
+
+">C
+Que no haya gota que se salve
+
+        
+Busca creatividad
+">G
+Busca creatividad
+        
+Lo terrenal puede esperar
+">D
+Lo terrenal puede esperar
+          
+Recuerda que no poner firma
+">Em
+Recuerda que no poner firma
+[C]Es la mejor forma de firmar
+
+">D
+Es la mejor forma de firmar
+
+[D]Simplemente, b[G]aila y déjate de historias
+">Bm
+Simplemente, baila y déjate de historias
+Aunque [C]no tengas el control
+">D
+Aunque no tengas el control
+                       
+Cualquiera que sea la canción
+">Em
+Cualquiera que sea la canción
+                   
+Déjate llevar en el salón
+">Bm
+Déjate llevar en el salón
+        
+Déjate hacer, que trace tu camino
+">C
+Déjate hacer, que trace tu camino
+É[D]l también quiere bailar contigo
+
+">G
+Él también quiere bailar contigo
+
+[Solo] G  Bm  C  
+
+">D
+
+Re[G]cuerda que somos eternos
+">D
+Recuerda que somos eternos
+   C                           (G) 
+Recuerda que el tiempo no es nuestro
+">D
+Recuerda que el tiempo no es nuestro
+Rec[G]uerda que el cielo está abierto
+">D
+Recuerda que el cielo está abierto
+        
+De ti, depende que entren cientos
+
+">C
+De ti, depende que entren cientos
+
+Simplemente, b[G]aila y déjate de historias
+">Bm
+Simplemente, baila y déjate de historias
+Aunque [C]no tengas el control
+">D
+Aunque no tengas el control
+Simplemente, ba[G]ila pase lo que pase
+">Bm
+Simplemente, baila pase lo que pase
+Pon en sus m[C]anos tu corazón
+">Cm
+Pon en sus manos tu corazón
+                       
+Cualquiera que sea la canción
+">Em
+Cualquiera que sea la canción
+                     
+Déjate llevar en el salón
+">Bm
+Déjate llevar en el salón
+         
+Déjate hacer, que trace su camino
+
+">C
+Déjate hacer, que trace su camino
+
+[D]Simplemente, b[G]aila y déjate de historias
+">Bm
+Simplemente, baila y déjate de historias
+Aunque [C]no tengas el control
+">D
+Aunque no tengas el control
+                       
+Cualquiera que sea la canción
+">Em
+Cualquiera que sea la canción
+                    
+Déjate llevar en el salón
+">Bm
+Déjate llevar en el salón
+        
+Déjate hacer, que trace tu camino
+">C
+Déjate hacer, que trace tu camino
+É[D]l también quiere bailar contigo
+
+">G
+Él también quiere bailar contigo
+
+[Solo] G  Bm  C  
+">D
+">G    [G]   [Bm]    [C]   [D]
+`
+},
     // --- SECCIÓN: CANTOS Himnos JMJ status: no terminado ---
 {
     id: 409,
@@ -10705,4 +10979,4 @@ Todo es tuyo Señor
 Todo es tuyo Señor`
 },
 ];
-// último id:406
+// último id:410
