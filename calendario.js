@@ -154,7 +154,7 @@ const datosLiturgicos = {
         {id: "fies_patronal_nssc", nombre: "Fiesta patronal NSSC", cantos: [293,173,112,65,64,82,90,128,183,303,316,312] },
         {id: "seminario_entrega_ministerios", nombre: "Seminario - Entrega de Ministerios (20/06/2026)", cantos: [4,25,60,179,391,100,122,143,383,133,198] },*/
         { id: "toma_pe_rolando", nombre: "Toma de Padre Rolando (19/08/2026)", 
-            cantos: [/*e*/16,/*pd*/25,/*gl*/243,/*al*/244,/*of*/75,/*st*/405,/*cor*/121,/*com*/151,139,/*ref*/198,133,/*f*/135] },
+            cantos: [/*e*/14,/*pd*/25,/*gl*/243,/*al*/244,/*of*/75,/*st*/405,/*cor*/121,/*com*/151,139,/*ref*/198,133,/*f*/135] },
         { id: "adoracion_asem_dio", nombre: "Adoración - Asamblea dioscesana de adolescentes (23/08/2026)", 
             cantos: [384,339,133] },
         { id: "misa_asem_dio", nombre: "Misa - Asamblea dioscesana de adolescentes (23/08/2026)", 
