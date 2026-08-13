@@ -10810,11 +10810,20 @@ Soy tu hija, en tu amor hallé mi vida.
     categoria: "angelichristi",
     tonoOriginal: "C#m",
     letra: `
-[C#m B E A D#m7(5b) G#m7]\n 
-[C#m]El Se[B]ñor es [E]mi pas[A]tor
-Y [D#m7(5b)]nada me fal[G#m7]tará 
-A las [C#m]aguas tran[B]quilas [E]me con[A]duce 
-Y en [D#m7(5b)]verdes pastos me hace re[G#m7]posar.\n 
+[Intro(bajo) - 2x]
+G-----------------------------------------
+D-----------------------------------------
+A-----7-11-11-9-9-7-9------7-7-6-6-7-7/9--
+E-9-7------------------9-9----------------
+
+[A] [D#m7(5b)] [G#m7-]\n
+[C#m] [B] [E] [A] [D#m7(5b)] [G#m7]
+
+[C#m]El Señor es [B]mi[E] pas[A]tor [D#m7(5b)] [G#m7] 
+[C#m]Y nada me [B]fal[E]ta[A]rá  [D#m7(5b)] [G#m7] 
+A las [C#m]aguas tranquilas [B]me[E] con[A]duce  [D#m7(5b)] [G#m7] 
+[C#m]Y en verdes pastos me [B]hace re[E]pos[A]ar. [D#m7(5b)] [G#m7] \n 
+
 [C#m]Pero soy débil,
 [B]Incrédulo.
 [F#m7]Confío en mí 
@@ -10823,10 +10832,13 @@ Y en [D#m7(5b)]verdes pastos me hace re[G#m7]posar.\n
 [B]Mi esperanza
 [F#m7]E inflama
 [A]Mi a[Am]mor\n
-[C#m]El Se[B]ñor es [E]mi pas[A]tor
-Y [D#m7(5b)]nada me fal[G#m7]tará 
-A las [C#m]aguas tran[B]quilas [E]me con[A]duce 
-Y en [D#m7(5b)]verdes pastos me hace re[G#m7]posar.\n
+
+[C#m] [B] [E] [A] [D#m7(5b)] [G#m7]\n 
+[C#m]El Señor es [B]mi[E] pas[A]tor [D#m7(5b)] [G#m7] 
+[C#m]Y nada me [B]fal[E]ta[A]rá  [D#m7(5b)] [G#m7] 
+A las [C#m]aguas tranquilas [B]me[E] con[A]duce  [D#m7(5b)] [G#m7] 
+[C#m]Y en verdes pastos me hace re[G#m7]posar. [D#m7(5b)] [G#m7] \n 
+
 [C#m]Haz más grande
 [B]Mi fe en ti 
 [F#m7]Mi orgullo
@@ -10835,6 +10847,20 @@ Y en [D#m7(5b)]verdes pastos me hace re[G#m7]posar.\n
 [B]Mi gran Rey
 [F#m7]solo Tú eres
 [A]Mi Se[Am]ñor.
+
+[C#m] [B] [E] [A] [D#m7(5b)] [G#m7][(2x)]\n 
+[C#m]El Señor es [B]mi[E] pas[A]tor [D#m7(5b)] [G#m7] 
+[C#m]Y nada me [B]fal[E]ta[A]rá  [D#m7(5b)] [G#m7] 
+A las [C#m]aguas tranquilas [B]me[E] con[A]duce  [D#m7(5b)] [G#m7] 
+[C#m]Y en verdes pastos me hace re[G#m7]posar. [D#m7(5b)] [G#m7] \n 
+
+[C#m] [B] [E] [A] [D#m7(5b)] [G#m7][(2x)]
+[C#m] 
+[final en bajo]
+G----------
+D----------
+A-----7-11-
+E-9-7------
     `
 },
 {
@@ -10845,45 +10871,55 @@ Y en [D#m7(5b)]verdes pastos me hace re[G#m7]posar.\n
     tonoOriginal: "Dm",
     letra: `
 [Dm] [D7(4/9)]\n
-[Dm]Mamá me ense[D7(4/9)]ñó 
+1. [Dm]Mamá me ense[D7(4/9)]ñó 
 A por[Dm]tarme [D7(4/9)]bien 
 A re[Dm]zar a [D7(4/9)]Dios
 Y a la [Dm]Virgen tam[D7(4/9)]bién.\n
+
 [Dm]Laiá laiá laiá [A]uh
 [Dm]Laiá [D7(4/9)] [A]\n
-[Dm]Cantaré a [D7(4/9)]Cristo
+
+2. [Dm]Cantaré a [D7(4/9)]Cristo
 A [Dm]Él mi ala[D7(4/9)]banza
 [Dm]Él es mi Se[D7(4/9)]ñor
 Y [Dm]mi espe[D7(4/9)]ranza\n
-[Dm]Para el in[D7(4/9)]fierno 
+
+3. [Dm]Para el in[D7(4/9)]fierno 
 Yo [Dm]no quiero [D7(4/9)]ir
 El [Dm]Diablo es [D7(4/9)]feo 
 [Dm]Huele a pi[D7(4/9)]pí \n
-[Dm]Hoy yo estoy [D7(4/9)]vivo
+
+4. [Dm]Hoy yo estoy [D7(4/9)]vivo
 Ma[Dm]ñana no [D7(4/9)]sé 
 Pero [Dm]estoy con [D7(4/9)]Cristo
 En el [Dm]cielo esta[D7(4/9)]ré\n
-[Dm]Dios está en el [D7(4/9)]cielo 
+
+5. [Dm]Dios está en el [D7(4/9)]cielo 
 Y [Dm]en mi cora[D7(4/9)]zón 
 En el [Dm]infierno el [D7(4/9)]Diablo
 Con [Dm]su mosta[D7(4/9)]chón\n
-[Dm]Levanto mis [D7(4/9)]ojos
+
+6. [Dm]Levanto mis [D7(4/9)]ojos
 Con [Dm]senti[D7(4/9)]miento
 [Dm]Usame mi [D7(4/9)]Dios
 Como [Dm]tu instru[D7(4/9)]mento\n
-La [Dm]palabra de [D7(4/9)]Dios
+
+7. La [Dm]palabra de [D7(4/9)]Dios
 [Dm]Sabe a [D7(4/9)]miel
 Mi [Dm]sol es [D7(4/9)]Cristo
 Y [Dm]no Luis Mi[D7(4/9)]guel.\n
-Es[Dm]tar en el [D7(4/9)]cielo
+
+8. Es[Dm]tar en el [D7(4/9)]cielo
 Se[Dm]rá una mara[D7(4/9)]villa
 A[Dm]llá está la [D7(4/9)]Virgen
 Y [Dm]Santa Ce[D7(4/9)]cilia.\n
-Es[Dm]tar en el [D7(4/9)]cielo
+
+9. Es[Dm]tar en el [D7(4/9)]cielo
 Se[Dm]rá muy bo[D7(4/9)]nito
 A[Dm]llá está la [D7(4/9)]Virgen
 Y [Dm]mi San Be[D7(4/9)]nito \n
-De [Dm]mañana [D7(4/9)]rezo
+
+10. De [Dm]mañana [D7(4/9)]rezo
 De [Dm]tarde tam[D7(4/9)]bién 
 Por la [Dm]noche i[D7(4/9)]gual.
 [Dm]Glória a [D7(4/9)]Dios. A[Dm]mén.
@@ -10945,38 +10981,49 @@ Oh Dios… sálvame ya.
     categoria: "angelichristi",
     tonoOriginal: "D",
     letra: `
-[D Bm G A]\n
-Te miro aqui frente a mi
-Te intento escuchar 
-Que quieres de mi?
-Señor ¿como he de amar?\n
-Quiero estar cerca de ti
-Quiero demostrar 
-Que seguirte a ti 
-Todo mal ha de arreglar\n
-[Coro: F#m Bm G A]
-Mis manos, mi voz, mi ser 
-Quieren obrar con amor 
-Haz conmigo tu reino crecer
-Todo es tuyo Señor 
-Todo es tuyo Señor\n
-Tómalo todo señor 
-Yo solo quiero servir
-Ser instrumento de amor
-Para ti yo quiero vivir\n
-Mis manos, mi voz, mi ser 
-Quieren obrar con amor 
-Haz conmigo tu reino crecer
-Todo es tuyo Señor 
-Todo es tuyo Señor\n
-Hazme llegar a quien necesite tu amor
-Que la esperanza siempre esté en ti señor\n
-Mis manos, mi voz, mi ser 
-Quieren obrar con amor 
-Haz conmigo tu reino crecer
-Todo es tuyo Señor 
-Todo es tuyo Señor
-Todo es tuyo Señor`
+[intro:] [D] [Bm] [G] [A] \n
+
+[D]Te miro aqui frente a [Bm]mi
+Te intento escu[G]char 
+Que quieres de [C/E]mi?
+Señor ¿como [A]he de am[G]ar?[D]\n
+
+[D]Quiero estar cerca de [Bm]ti
+Quiero demostr[G]ar 
+Que seguirte a [C/E]ti 
+Todo mal [Em7]ha de arreg[A]lar\n
+
+[coro]
+Mis [G]manos, mi [A]voz, mi [D]ser
+Quieren obrar con [Bm]amor 
+Haz conmigo tu [G]reino crecer
+Todo es [C/E]tuyo Señor[A]
+Todo es tuyo Señor[D]\n
+
+[D]Tómalo todo [Bm]Señor 
+Yo solo quiero [G]servir
+Ser instrumento de [C/E]amor
+Para [Em7]ti yo quiero [A]vivir\n
+
+[coro]
+Mis [G]manos, mi [A]voz, mi [D]ser
+Quieren obrar con [Bm]amor 
+Haz conmigo tu [G]reino crecer
+Todo es [C/E]tuyo Señor[A]
+Todo es tuyo Señor[D]\n
+
+[puente]
+[Bm]Hazme llegar a quien ne[G]cesite tu [A]amor
+[Bm]Qué la esperanza siempre es[G]té en ti [A]Señor\n
+
+[coro]
+Mis [G]manos, mi [A]voz, mi [D]ser
+Quieren obrar con [Bm]amor 
+Haz conmigo tu [G]reino crecer
+Todo es [C/E]tuyo Señor[A]
+[G]Todo es tuyo Señor[A]\n
+[G]Todo es tuyo Señor[A]
+[G]Todo es tuyo Señor[A] [D]`
 },
 ];
-// último id:410
+// último id:412

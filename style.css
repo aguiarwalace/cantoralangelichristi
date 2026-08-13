@@ -490,14 +490,14 @@ body.dark-mode .dash-info p {
 .acorde-texto {
     color: var(--red-chord);
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.8em;
     min-height: 1.2em; /* Reserva espacio vertical uniforme */
 }
 
 /* Estilo de la Letra (Dinámico con tema claro/oscuro) */
 .palabra-texto {
     color: var(--text-main);
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 /* Espaciado natural entre palabras */
