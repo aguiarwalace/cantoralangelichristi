@@ -6628,6 +6628,30 @@ Simplem[E]ente porque Tú eres Di[A]os
 [Final] D  A  D  A
 `
 },
+{
+  id: 412,
+  titulo: "Solo por Ti, Jesús (Só por Ti, Jesus)",
+  autor: "Eugenio Jorge",
+  categoria: "reflexion, adoracion",
+  tonoOriginal: "G",
+  linkYoutube: "https://www.youtube.com/watch?v=g2KAY2Txk2w",
+  letra: 
+  `[G]Solo por ti, Je[C]sús,
+me quiero consu[Bm]mir,[Em] 
+como el cirio se [C]quema en tu altar,
+[Am]consumirme de a[D]mor.
+
+[G]Solo por ti, Je[C]sús,
+me quiero hoy entre[Bm]gar,[Em] 
+como el río se [C]entrega al mar,
+[D]entregarme de a[G]mor.[G7]
+
+Pues tu [C]eres mi amparo y mi re[D]fugio,
+la alegría de mi [Em]alma.
+Solo en [C]ti reposa toda mi espe[D]ranza,
+no vacila[G]ré en el do[Em]lor.
+Te segui[C]ré, hasta el [F]fin.[D]`
+},
     // --- SECCIÓN: CANTOS DEL Espíritu Santo status:terminado ---
      {
     id: 255,
