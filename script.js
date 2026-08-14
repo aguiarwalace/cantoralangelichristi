@@ -4,7 +4,7 @@
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
 // Lista gramatical exacta de los tonos que llevan bemoles
-const tonosConBemoles = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Gb', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm', 'Ebm'];
+const tonosConBemoles = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm'];
 
 let seleccionadas = [];
 let cancionActualId = null;
@@ -127,7 +127,7 @@ function displaySong() {
     // Elegimos la escala correcta según regla de bemoles
     const escalaElegida = tonosConBemoles.includes(tonoBase) ? escBem : escSost;
 
-    // Formateo dinámico en Flexbox
+    // Formateo dinámico en Flexbox con soporte para marcas entre {}
     const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida);
 
     // --- LÓGICA PARA LOS LINKS EXTERNOS ---
@@ -205,15 +205,48 @@ function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
     });
 }
 
+/**
+ * Procesa la letra convirtiendo [acordes] e {indicaciones}
+ * manteniendo el formato alineado Flexbox de la app.
+ */
+/**
+ * Procesa la letra convirtiendo [acordes] e {indicaciones/tablaturas}
+ * manteniendo el formato alineado Flexbox de la app.
+ */
+/**
+ * Procesa la letra convirtiendo [acordes] e {indicaciones/tablaturas}
+ * manteniendo el formato alineado Flexbox de la app.
+ */
+/**
+ * Procesa la letra convirtiendo [acordes] e {indicaciones/tablaturas}
+ * Soporta saltos de línea dentro de las llaves { }.
+ */
 function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
     if (!letraRaw) return '';
 
-    const lineas = letraRaw.trim().split('\n');
+    // 1. Buscamos bloques entre { } que pueden incluir saltos de línea [\s\S]*?
+    let textoProcesado = letraRaw.replace(/\{([\s\S]*?)\}/g, (match, contenido) => {
+        // Dividimos el interior del bloque { } por cada salto de línea
+        const lineasBloque = contenido.split('\n');
+        
+        // Convertimos cada línea del bloque en una línea estilizada con clase indicacion-texto
+        return lineasBloque.map(linea => {
+            return `<div class="linea-bloque-indicacion"><span class="indicacion-texto">${linea}</span></div>`;
+        }).join('\n');
+    });
+
+    const lineas = textoProcesado.trim().split('\n');
     let htmlFinal = '<div class="visor-cancion">';
 
     lineas.forEach(linea => {
         if (!linea.trim()) {
             htmlFinal += '<div class="linea-vacia"></div>';
+            return;
+        }
+
+        // Si la línea pertenece a un bloque de indicación/tablatura
+        if (linea.includes('class="linea-bloque-indicacion"')) {
+            htmlFinal += `<div class="linea-cancion">${linea}</div>`;
             return;
         }
 
@@ -231,9 +264,11 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
                 if (!parte) return;
 
                 if (parte.startsWith('[') && parte.endsWith(']')) {
+                    // Es un ACORDE
                     const acordeLimpio = parte.slice(1, -1);
                     acordeActual = trasponerAcorde(acordeLimpio, semitonos, escalaElegida);
                 } else {
+                    // Es TEXTO/LETRA normal
                     htmlFinal += `
                         <div class="par-acorde-palabra">
                             <span class="acorde-texto">${acordeActual}</span>
@@ -384,7 +419,6 @@ window.addEventListener("focus", () => {
    CARGA DE CALENDARIO PARA PWA (OFFLINE + ANTI-CACHE)
    ======================================================= */
 
-// REEMPLAZA ESTA URL CON LA TUYA DE GOOGLE APPS SCRIPT
 const URL_WEB_APP_GOOGLE = "https://script.google.com/macros/s/AKfycby8GXF2HslQN45DlEY156SVfH452tqeeA0i8u5wRvDratojoCFQgwSr8wvNpqrNGGf0xA/exec";
 const CALENDAR_CACHE_KEY = 'cantoral_eventos_cache';
 
@@ -430,11 +464,9 @@ async function cargarEventosDinamicos() {
     } catch (error) {
         console.warn("No se pudo conectar con Google Sheets (Modo Offline o red lenta):", error);
 
-        // Si NO había datos guardados previamente, mostrar el mensaje de error
         if (!datosGuardados && loadingElement) {
             loadingElement.innerText = "No se pudieron cargar los eventos.";
         } else if (loadingElement) {
-            // Si teníamos datos locales, simplemente ocultamos el texto de carga
             loadingElement.style.display = 'none';
         }
     }

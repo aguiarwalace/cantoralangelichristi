@@ -10740,10 +10740,12 @@ por [E7]siempre.\n
 [C#m]Mi alma rota busca tu [E]luz.[F#]
 [B]Me siento indigna al pe[D#m]dir,
 [C#m]pero mi corazón me pide se[E]guir.[F#]
+
 [C#m7]Mi fe es frágil y vuelvo a fa[C#m7/B]llar,
 llena de [D#m/B]dudas, ¿podré avan[F#]zar?
 Pero tu [C#m7]alivias mi que[C#m7/B]branto
 [E]con solo tocar tu [F#]manto.\n
+{coro}
 Y aunque me [G#m7]siento invi[B/F#]sible,
 como una [C#m9]sombra al pa[B]sar,
 tu mi[G#m7]rada, llena de a[B]mor,
@@ -10752,14 +10754,17 @@ Me co[G#m7]noces por mi [B/F#]nombre,
 mi do[C#m9]lor puedes sa[B]nar,
 al to[G#m7]carte hallé mi [B/F#]vida,
 soy tu [C#m9]hija, y nada [B]más.\n
+
 [B]El rostro oculto al cargar mi [D#m]cruz,
 [C#m]tan lejos me fui, perdí mi vir[E]tud.[F#]
 [B]Pero una chispa me impulsa a se[D#m]guir,
 [C#m]tu gracia es la fuerza que me hace vi[E]vir.[F#]
+
 [C#m7]Quiero decirte: esta es mi [C#m7/B]fe,
 aunque pe[D#m/B]queña, aunque inma[F#]dura.
 Se a[C#m7]ferra al hilo de tu po[C#m7/B]der,
 [E]porque tu amor todo lo [F#]cura.\n
+{coro}
 Y aunque me [G#m7]siento invi[B/F#]sible,
 como una [C#m9]sombra al pa[B]sar,
 tu mi[G#m7]rada, llena de a[B]mor,
@@ -10768,10 +10773,12 @@ Me co[G#m7]noces por mi [B/F#]nombre,
 mi do[C#m9]lor puedes sa[B]nar,
 al to[G#m7]carte hallé mi [B/F#]vida,
 soy tu [C#m9]hija, y nada [B]más.\n
+
 [E]"Tu fe te ha sal[D#m]va[C#m]do", [D#m]escucho tu [C#m]voz,
 y [E]caigo ren[C#m]dida a tus pies, mi [D#m]Dios.
 Mi [E/C#]alma [E/B]cansa-da en[F#/D#]cuentra con[E]suelo,
 en este [G#m7]momen[B/F#]to me [E]llenas de [F#]cielo.\n
+{coro}
 Y aunque me [G#m7]siento invi[B/F#]sible,
 como una [C#m9]sombra al pa[B]sar,
 tu mi[G#m7]rada, llena de a[B]mor,
@@ -10780,8 +10787,10 @@ Me co[G#m7]noces por mi [B/F#]nombre,
 mi do[C#m9]lor puedes sa[B]nar,
 al to[G#m7]carte hallé mi [B/F#]vida,
 soy tu [C#m9]hija, y nada [B]más.\n
+{solo voz}
 Quiero decirte: esta es mi fe.
-Soy tu hija, en tu amor hallé mi vida.
+Soy tu hija, en tu am[E]or hal[F#]lé mi [G#m7]vida.[B/F#] [C#m9] [B]
+[G#m7] [B/F#] [C#m9] [B] 
     `
 },
 {
@@ -10810,11 +10819,11 @@ Soy tu hija, en tu amor hallé mi vida.
     categoria: "angelichristi",
     tonoOriginal: "C#m",
     letra: `
-[Intro(bajo) - 2x]
-G-----------------------------------------
-D-----------------------------------------
-A-----7-11-11-9-9-7-9------7-7-6-6-7-7/9--
-E-9-7------------------9-9----------------
+{Intro(bajo) - 2x}
+{G--------------------------------------------
+D--------------------------------------------
+A-----7-11-11-9-9-7-9---------7-7-6-6-7-7/9--
+E-9-7---------------------9-9----------------}
 
 [A] [D#m7(5b)] [G#m7-]\n
 [C#m] [B] [E] [A] [D#m7(5b)] [G#m7]
