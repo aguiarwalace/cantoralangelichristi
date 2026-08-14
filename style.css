@@ -511,12 +511,14 @@ body.dark-mode .dash-info p {
 .linea-bloque-indicacion {
   display: block;
   width: 100%;
+  font-size: 0.9em;
 }
 .indicacion-texto {
   color: #d97706; /* Color naranja/ámbar (puedes cambiarlo a #2563eb para azul o el que prefieras) */
   font-weight: 600; /* Un grosor suave para destacar sin alterar el tamaño */
   font-family: monospace; /* Imprescindible para que la tablatura no se desalinee */
   font-style: italic; /* Opcional: estilo cursivo para diferenciarlo visiblemente */
+  font-size: 0.9em;
   display: inline; /* Garantiza que se mantenga exactamente en el mismo nivel del texto */
   white-space: pre; /* Mantiene exactamente los espacios y guiones */
 }

@@ -2623,54 +2623,55 @@ Y danos de tu paz. (x2)
     tonoOriginal: "D",
     letra: `
 [D]Aquí hay un mu[A]chacho
-[Bm]Que sola[F#m]mente tiene [G]cinco panes y dos [D]peces
-[Em]Más ¿Qué es eso para [A]tanta gente?
+[Bm]Que solamente [F#m]tiene 
+cinco [G]panes y dos [D]peces
+Más ¿Qué es [Em]eso para [A]tanta gente?
 
 [D]Aquí hay un mu[A]chacho
-[Bm]Que sola[F#m]mente tiene un [G]corazón dispuesto a [D]dar
-[Em]Más, ¿Qué es eso para [A]tanta gente?
+[Bm]Que sola[F#m]mente tiene 
+un [G]corazón dispuesto a [D]dar
+Más, ¿Qué es [Em]eso para [A]tanta gente?
 
-[Em]Aquí esta es[F]té corazón
+[Bm]Aquí esta este [F#m]corazón
 [G]Que quiere [D]serte fiel
-[Em]Más, ¿Qué [A]es eso [Em]si no [G]tiene a ti?
+Más, ¿Qué es [Em]eso si [A]no tiene a [Bm]Ti? [G]
 [A]¿Si no te [D]tiene a [A]ti?
 
-[D]Toma [A]este cora[Em]zón
-[D]Toma [A]cuanto [D]tengo y cuanto [A]soy
-[G]Toma mi pa[A]sado, mi pre[F]sente y mi fu[Bm]turo
+[D]Toma [A]este cora[Bm]zón
+[G]Toma [A]cuanto [D]tengo y cuanto [A]soy
+[G]Toma mi pa[A]sado, mi pre[F#m]sente y mi fu[Bm]turo
 [G]¡Todo cuanto [A]tengo [D]tómalo!
 
-[D]Mi cora[A]zón to[Em]maste
-[D]Mis pa[A]nes ben[D]dijis[A]te
-[G]A la gente re[A]partiste, [F]y a todos al[Bm]canzó
+[D]Mi corazón to[A]maste
+Mis [Bm]panes ben[F#m]dijiste
+A la [G]gente repar[D]tiste,
+y a [Em]todos alcan[A]zó
 
-[G]Mi vida es[A]tá en tus manos
-[F]Y quieres re[Bm]partirla
-[G]Como hiciste con mis [Em]panes
+Mi [G]vida está en tus [A]manos
+[F#m]Y quieres re[Bm]partirla
+Como [G]hiciste con mis [Em]panes
 [G]Aquel día, [A]¡Oh Señor!
 
-[D]Aquí es[A]tán mis pa[Em]labras
-[D]Aquí es[A]tán mis ac[D]ciones, aquí es[A]tán mis ilusiones
-[G]Más, ¿Qué [A]es eso sin tu [D]amor Señor?
+[D]Aquí están mis pa[A]labras
+A[Bm]quí están mis [F#m]acciones, 
+aquí es[G]tán mis ilusi[D]ones
+Más, ¿Qué [Em]es eso sin tu [A]amor Señor?
 
-[Em]Aquí esta es[F]té corazón [G]que quiere [D]serte fiel
-[Em]Más, ¿Qué [A]es eso si no [Bm]te tiene a [G]ti?
-[Em]¿Si no te [A]tiene a ti?
+[Bm]Aquí esta este [F#m]corazón
+[G]Que quiere [D]serte fiel
+Más, ¿Qué es [Em]eso si [A]no tiene a [Bm]Ti? [G]
+[A]¿Si no te [D]tiene a [A]ti?
 
-[Bm]Aquí está este [F]corazón, con mis [G]panes y mis [D]peces
-[Em]Toma [A]todo y [D]¡repártelo, se[A]ñor!
+[Bm]Aquí esta este [F#m]corazón
+Con mis [G]panes y mis [D]peces
+Toma [Em]todo y re[A]pártelo Se[D]ñor [A]
 
-[D]Toma [A]este cora[Em]zón
-[D]Toma [A]cuanto [D]tengo y cuanto [A]soy
-[G]Toma mi pa[A]sado, mi pre[F]sente y mi fu[Bm]turo
-[G]¡Todo cuanto [A]tengo [D]tómalo! (Tómalo)
-
-[D]Toma [A]este cora[Em]zón
-[D]Toma [A]cuanto [D]tengo y cuanto [A]soy
-[G]Toma mi pa[A]sado, mi pre[F]sente y mi fu[Bm]turo
+[D]Toma [A]este cora[Bm]zón
+[G]Toma [A]cuanto [D]tengo y cuanto [A]soy
+[G]Toma mi pa[A]sado, mi pre[F#m]sente y mi fu[Bm]turo
 [G]¡Todo cuanto [A]tengo [D]tómalo!
 [G]¡Todo cuanto [A]tengo [D]tómalo!
-
+{solo Melisa}
 Aquí hay un muchacho
 `
   },
@@ -7839,7 +7840,7 @@ No se turbe tu corazón
 [C]No te angusties [G]nada tienes que te[D]mer
 [C]Ninguna pena te aflija yo te vengo a soco[G]rrer
 
-[C]Tu estas bajo mi [G]mando yo te [D]cuido
+[C]Tu estás bajo mi [G]mando yo te [D]cuido
 [C]En el hueco de mis [G]manos siempre es[D]tás
 [C]Te encuentras bajo mi sombra no te falta [G]mas
 
@@ -10030,9 +10031,9 @@ Tu a[A]mor vino y conquistó
 toda mi [E]vida y ya no puedo pa[C#m]rar,
 toda mi [A]vida y ya no puedo pa[B]rar.
 
-[E]Por eso canto, canto la ale[C#m]gría de perte[A]necer a Ti, Se[B]ñor.
+[E]Por eso canto, canto la ale[C#m]gría de perte[A]necer Te, Se[B]ñor.
 [E]Por eso canto, canto la ale[C#m]gría de [A]ser todo [C#m]tuyo, [B]
-[E]Por eso danzo, danzo la ale[C#m]gría de perte[A]necer a Ti, Se[B]ñor.
+[E]Por eso danzo, danzo la ale[C#m]gría de perte[A]necer Te, Se[B]ñor.
 [E]Por eso danzo, danzo la ale[C#m]gría de [A]ser todo [C#m]tuyo. [B]
 
 [E]Todo es muy poco para expresar
@@ -10041,9 +10042,9 @@ Tu a[A]mor vino y conquistó
 toda mi [E]vida y ya no puedo pa[C#m]rar,
 toda mi [A]vida y ya no puedo pa[B]rar [C#] [D]
 
-[E]Por eso canto, canto la ale[C#m]gría de perte[A]necer a Ti, Se[B]ñor.
+[E]Por eso canto, canto la ale[C#m]gría de perte[A]necer Te, Se[B]ñor.
 [E]Por eso canto, canto la ale[C#m]gría de [A]ser todo [C#m]tuyo, [B]
-[E]Por eso danzo, danzo la ale[C#m]gría de perte[A]necer a Ti, Se[B]ñor.
+[E]Por eso danzo, danzo la ale[C#m]gría de perte[A]necer Te, Se[B]ñor.
 [E]Por eso danzo, danzo la ale[C#m]gría de [A]ser todo [C#m]tuyo. [B]
 
 [A]Tu amor, Se[E/G#]ñor, cam[F#m]bió toda mi [E/G#]vida.
@@ -10057,235 +10058,77 @@ toda mi [A]vida y ya no puedo pa[B]rar [C#] [D]
   titulo: "Baila y déjate de historias",
   autor: "Hakuna",
   categoria: "alabanza",
-  tonoOriginal: "D",
-  letra: `[Intro] G  Bm  C  
-">D
-[G] [Bm] [C]
+  tonoOriginal: "G",
+  letra: `{Intro:} [G] [Bm] [C] [D]
+{melodía:armónica:2x}
+[B] [A] /[C] [B] [C] [B] [C] [B]/ [E] [E] [D] [C] /[B...]
+Que ni una ni mil [G]piedras en el camino te hagan tropezar
+No te [D]ates a nada, no hay tiempo para dejar la oportunidad pasar
+Que [Em]no hay excusa alguna para no servir a los demás
+Siempre [C]sonriente, sin dejar a la queja entrar
 
-">D
+Que un [G]ángel nos ha enseñado cómo se debe volar
+Que, si [D]llevas la cruz a cuestas, no se tiene por qué notar
+Que, si [Em]esta no es nuestra liga, entonces ¿a qué te quieres
+Afe[C]rrar?
 
- 
-Que ni una ni mil piedras en el camino te hagan tropezar
-">G
-Que ni una ni mil piedras en el camino te hagan tropezar
-No t[D]e ates a nada, no hay tiempo para dejar la oportunidad pasar
-">D
-No te ates a nada, no hay tiempo para dejar la oportunidad pasar
-Qu[Em]e no hay excusa alguna para no servir a los demás
-">Em
-Que no hay excusa alguna para no servir a los demás
-  
-Siempre sonriente, sin dejar a la queja entrar
+[D]Simplemente, b[G]aila y déjate de historias [Bm]
+Aunque [C]no tengas el control [D]
+Cualquiera [Em]que sea la canción
+Déjate lle[Bm]var en el salón
+Déjate [C]hacer, que trace tu camino
+É[D]l también quiere bailar con[G]tigo
 
-">C
-Siempre sonriente, sin dejar a la queja entrar
+{Solo:} [G] [Bm] [C] [D]
 
-       
-Que un ángel nos ha enseñado cómo se debe volar
-">G
-Que un ángel nos ha enseñado cómo se debe volar
-Que, si l[D]levas la cruz a cuestas, no se tiene por qué notar
-">D
-Que, si llevas la cruz a cuestas, no se tiene por qué notar
-             
-Que, si esta no es nuestra liga, entonces ¿a qué te quieres
-">Em
-Que, si esta no es nuestra liga, entonces ¿a qué te quieres
-   
-Aferrar?
+Que, si el [G]sufrimiento es por amor
+El do[D]lor es diferente
+En[Em]trégate hasta el extremo
+Em[C]pápate de esta fuente
 
-">C
-Aferrar?
+Inago[G]table, infinita
+De la que [D]siempre se sacan fuerzas
+Es [Em]Dios Padre quien te grita
+Que te acompa[C]ña en lo que elijas
 
-[D]Simplemente, b[G]aila y déjate de historias
-">Bm
-Simplemente, baila y déjate de historias
-Aunque [C]no tengas el control
-">D
-Aunque no tengas el control
-                       
-Cualquiera que sea la canción
-">Em
-Cualquiera que sea la canción
-                   
-Déjate llevar en el salón
-">Bm
-Déjate llevar en el salón
-       
-Déjate hacer, que trace tu camino
-">C
-Déjate hacer, que trace tu camino
-É[D]l también quiere bailar contigo
+Cada se[G]gundo puede ser el último, es la hora de levantarse [D]
+Vive de[Em]rramando, derramando todo el vaso
+Que no haya [C]gota que se salve
 
-">G
-Él también quiere bailar contigo
+Busca creativi[G]dad
+Lo terre[D]nal puede esperar
+Recuerda [Em]que no poner firma
+[C]Es la mejor forma de fir[D]mar
 
-[Solo] G  Bm  C  D  
+[D]Simplemente, b[G]aila y déjate de historias [Bm]
+Aunque [C]no tengas el control [D]
+Cualquiera [Em]que sea la canción
+Déjate lle[Bm]var en el salón
+Déjate [C]hacer, que trace tu camino
+É[D]l también quiere bailar con[G]tigo
 
-">G
+{Solo:} [G] [Bm] [C] [D]
 
- 
-Que, si el sufrimiento es por amor
-">G
-Que, si el sufrimiento es por amor
-    
-El dolor es diferente
-">D
-El dolor es diferente
-   
-Entrégate hasta el extremo
-">Em
-Entrégate hasta el extremo
-  
-Empápate de esta fuente
+Re[G]cuerda que somos eternos [D]
+Re[C]cuerda que el tiempo no es nuestro [D]
+Rec[G]uerda que el cielo está abierto [D]
+De ti, de[C]pende que entren cientos
 
-">C
-Empápate de esta fuente
+Simplemente, b[G]aila y déjate de historias [Bm]
+Aunque [C]no tengas el control [D]
+Simplemente, ba[G]ila pase lo que pase [Bm]
+Pon en sus m[C]anos tu corazón [Cm]
+Cualquiera [Em]que sea la canción
+Déjate lle[Bm]var en el salón
+Déjate [C]hacer, que trace su camino
 
-   
-Inagotable, infinita
-">G
-Inagotable, infinita
-                  
-De la que siempre se sacan fuerzas
-">D
-De la que siempre se sacan fuerzas
-         
-Es Dios Padre quien te grita
-">Em
-Es Dios Padre quien te grita
-         
-Que te acompaña en lo que elijas
-
-">C
-Que te acompaña en lo que elijas
-
-Cada seg[G]undo puede ser el último, es la hora de levantarse
-">D
-Cada segundo puede ser el último, es la hora de levantarse
-        
-Vive derramando, derramando todo el vaso
-">Em
-Vive derramando, derramando todo el vaso
-             
-Que no haya gota que se salve
-
-">C
-Que no haya gota que se salve
-
-        
-Busca creatividad
-">G
-Busca creatividad
-        
-Lo terrenal puede esperar
-">D
-Lo terrenal puede esperar
-          
-Recuerda que no poner firma
-">Em
-Recuerda que no poner firma
-[C]Es la mejor forma de firmar
-
-">D
-Es la mejor forma de firmar
-
-[D]Simplemente, b[G]aila y déjate de historias
-">Bm
-Simplemente, baila y déjate de historias
-Aunque [C]no tengas el control
-">D
-Aunque no tengas el control
-                       
-Cualquiera que sea la canción
-">Em
-Cualquiera que sea la canción
-                   
-Déjate llevar en el salón
-">Bm
-Déjate llevar en el salón
-        
-Déjate hacer, que trace tu camino
-">C
-Déjate hacer, que trace tu camino
-É[D]l también quiere bailar contigo
-
-">G
-Él también quiere bailar contigo
-
-[Solo] G  Bm  C  
-
-">D
-
-Re[G]cuerda que somos eternos
-">D
-Recuerda que somos eternos
-   C                           (G) 
-Recuerda que el tiempo no es nuestro
-">D
-Recuerda que el tiempo no es nuestro
-Rec[G]uerda que el cielo está abierto
-">D
-Recuerda que el cielo está abierto
-        
-De ti, depende que entren cientos
-
-">C
-De ti, depende que entren cientos
-
-Simplemente, b[G]aila y déjate de historias
-">Bm
-Simplemente, baila y déjate de historias
-Aunque [C]no tengas el control
-">D
-Aunque no tengas el control
-Simplemente, ba[G]ila pase lo que pase
-">Bm
-Simplemente, baila pase lo que pase
-Pon en sus m[C]anos tu corazón
-">Cm
-Pon en sus manos tu corazón
-                       
-Cualquiera que sea la canción
-">Em
-Cualquiera que sea la canción
-                     
-Déjate llevar en el salón
-">Bm
-Déjate llevar en el salón
-         
-Déjate hacer, que trace su camino
-
-">C
-Déjate hacer, que trace su camino
-
-[D]Simplemente, b[G]aila y déjate de historias
-">Bm
-Simplemente, baila y déjate de historias
-Aunque [C]no tengas el control
-">D
-Aunque no tengas el control
-                       
-Cualquiera que sea la canción
-">Em
-Cualquiera que sea la canción
-                    
-Déjate llevar en el salón
-">Bm
-Déjate llevar en el salón
-        
-Déjate hacer, que trace tu camino
-">C
-Déjate hacer, que trace tu camino
-É[D]l también quiere bailar contigo
-
-">G
-Él también quiere bailar contigo
-
-[Solo] G  Bm  C  
-">D
-">G    [G]   [Bm]    [C]   [D]
-`
+[D]Simplemente, b[G]aila y déjate de historias [Bm]
+Aunque [C]no tengas el control [D]
+Cualquiera [Em]que sea la canción
+Déjate lle[Bm]var en el salón
+Déjate [C]hacer, que trace tu camino
+É[D]l también quiere bailar con[G]tigo
+[G] [Bm] [C] [D] [G]`
 },
     // --- SECCIÓN: CANTOS Himnos JMJ status: no terminado ---
 {
@@ -10848,11 +10691,11 @@ Soy tu hija, en tu am[E]or hal[F#]lé mi [G#m7]vida.[B/F#] [C#m9] [B]
 D----------------------
 A-----7-11-11-9-9-7-9--
 E-9-7------------------
-{aquí entran los demás instrumentos}
+{entran demás instrumentos}
 {G-------------------
 D--------------------
 A-----7-7-6-6-7-7/9--
-E-9-9----------------}
+E-9-9---------------- 2x}
 
 [A] [D#m7(5b)] [G#m7-]\n
 [C#m] [B] [E] [A] [D#m7(5b)] [G#m7]
@@ -10893,6 +10736,7 @@ A las [C#m]aguas tranquilas [B]me[E] con[A]duce  [D#m7(5b)] [G#m7]
 [C#m]Y en verdes pastos me hace re[G#m7]posar. [D#m7(5b)] [G#m7] \n 
 
 [C#m] [B] [E] [A] [D#m7(5b)] [G#m7][(2x)]
+{riff bajo}
 [C#m] 
 {final en bajo
 G----------
