@@ -515,11 +515,12 @@ function renderizarEventos(eventos, container, loadingElement) {
 
         const lugarTexto = ev.lugar ? ` - ${ev.lugar}` : '';
         const linea2 = `${ev.titulo}${lugarTexto}${linkPin}`;
-
+        const linea3 = ev.observaciones ? ` ⚠️ ${ev.observaciones}` : '';
         return `
             <p>
                 ${linea1} <br>
-                ${linea2}
+                ${linea2} <br>
+                ${linea3}
             </p>
         `;
     }).join('');
