@@ -49,7 +49,7 @@ const datosLiturgicos = {
             id: `a_to_${i+9}`,
             nombre: `${i+9}º Domingo del Tiempo Ordinario`,
             cantos: [1,2,3,4,5]
-        }))*/
+        }))
         { id: "a_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
         { id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,151,339,239] },    
@@ -57,7 +57,7 @@ const datosLiturgicos = {
         { id: "a_to_13", nombre: "13º Domingo del Tiempo Ordinario", cantos: [4,399,25,243,402,397,391,100,122,151,401,338,239,339] },
         { id: "a_to_14", nombre: "14º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_15", nombre: "15º Domingo del Tiempo Ordinario", cantos: [4,25,243,402,397,391,100,122,357,403,239] },
-        { id: "a_to_16", nombre: "16º Domingo del Tiempo Ordinario", cantos: [19,25,243,402,397,77,405,122,351,133,399] },
+        { id: "a_to_16", nombre: "16º Domingo del Tiempo Ordinario", cantos: [19,25,243,402,397,77,405,122,351,133,399] },*/
         { id: "a_to_17", nombre: "17º Domingo del Tiempo Ordinario", 
             cantos: [/*e*/19,/*pd*/25,/*gl*/243,/*al*/402,/*cre*/397,/*of*/77,/*st*/405,/*cor*/122,/*com*/147,/*ref*/142,/*f*/399] },
         { id: "a_to_18", nombre: "18º Domingo del Tiempo Ordinario", 
@@ -66,7 +66,7 @@ const datosLiturgicos = {
          cantos: [/*e*/16,/*pd*/25,/*gl*/243,/*al*/402,/*cre*/397,/*of*/75,/*st*/405,/*cor*/121,/*com*/151,/*ref*/110,/*f*/399] },
         { id: "a_to_20", nombre: "20º Domingo del Tiempo Ordinario", 
             cantos: [/*e*/16,/*pd*/25,/*gl*/243,/*al*/402,/*cre*/397,/*of*/75,/*st*/405,/*cor*/121,/*com*/151,/*ref*/133,/*f*/399] },
-        { id: "a_to_21", nombre: "21º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
+        /*{ id: "a_to_21", nombre: "21º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_22", nombre: "22º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_23", nombre: "23º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_24", nombre: "24º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
@@ -79,7 +79,7 @@ const datosLiturgicos = {
         { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
         { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
         { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
-        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [4,25,243,60,391,100,122,144,133,239] },
+        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [4,25,243,60,391,100,122,144,133,239] },*/
     ],
 
     "Ciclo B": [
@@ -154,7 +154,7 @@ const datosLiturgicos = {
         {id: "fies_patronal_nssc", nombre: "Fiesta patronal NSSC", cantos: [293,173,112,65,64,82,90,128,183,303,316,312] },
         {id: "seminario_entrega_ministerios", nombre: "Seminario - Entrega de Ministerios (20/06/2026)", cantos: [4,25,60,179,391,100,122,143,383,133,198] },*/
         { id: "toma_pe_rolando", nombre: "Toma de Padre Rolando (19/08/2026)", 
-            cantos: [/*e*/14,/*pd*/25,/*gl*/243,/*al*/244,/*of*/75,/*st*/405,/*cor*/121,/*com*/151,139,/*ref*/198,133,/*f*/135] },
+            cantos: [/*e*/14,/*pd*/25,/*gl*/243,/*al*/244,/*of*/75,/*st*/405,/*cor*/121,/*com*/144,/*ref*/383,133,/*f*/135,290] },
         { id: "adoracion_asem_dio", nombre: "Adoración - Asamblea dioscesana de adolescentes (23/08/2026)", 
             cantos: [384,339,133] },
         { id: "misa_asem_dio", nombre: "Misa - Asamblea dioscesana de adolescentes (23/08/2026)", 

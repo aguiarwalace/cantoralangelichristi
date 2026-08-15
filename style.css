@@ -13,6 +13,7 @@
     --bg-card: #ffffff;
     --text-main: #333333;
     --red-chord: #e74c3c;
+    --color-indicacion-texto:var(--primary);
     --shadow: 0 4px 6px rgba(0,0,0,0.1);
     --bg-box: #ffffff81;
 }
@@ -107,7 +108,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary, #003468); /* Ajusta al color azul de tu app */
+    background-color: var(--primary, #004488); /* Ajusta al color azul de tu app */
     padding: 10px 15px;
 }
 
@@ -514,7 +515,7 @@ body.dark-mode .dash-info p {
   font-size: 0.9em;
 }
 .indicacion-texto {
-  color: #d97706; /* Color naranja/ámbar (puedes cambiarlo a #2563eb para azul o el que prefieras) */
+  color: var(--color-indicacion-texto); /* Color naranja/ámbar (puedes cambiarlo a #2563eb para azul o el que prefieras) */
   font-weight: 600; /* Un grosor suave para destacar sin alterar el tamaño */
   font-family: monospace; /* Imprescindible para que la tablatura no se desalinee */
   font-style: italic; /* Opcional: estilo cursivo para diferenciarlo visiblemente */

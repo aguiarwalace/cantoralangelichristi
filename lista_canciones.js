@@ -8060,14 +8060,17 @@ Hoy yo te o[Bm]frezco [A]toda mi [D]vida [(x2)]
     categoria: "marianos",
     tonoOriginal: "C",
     letra: `
-[C]Dulce Madre,
-[Em]No te a[F]lejes, tu [G]vista de mi no a[C]partes,
-Ven con[Em]migo a [F]todas partes, y [G]solo nunca me [C]dejes.
+{intro:}??
+Dulce [C]Madre,No te a[Em]lejes, 
+tu [F]vista de [G]mi no a[C]partes,
+[F]Ven con[Em]migo a todas [Am]partes, 
+y [F]solo nunca me [G]dejes.
 
-[Am]Y ya que me pro[Em]teges tanto,
-[F]Como verda[G]dera [C]Madre,
-[F]Haz que me ben[Em]diga el [Am]Padre,
+Y [F]ya que me [G]proteges [C]tanto,
+[F]Como ver[G]dadera [C]Madre,
+[F]Haz que me [Em]bendiga el [Am]Padre,
 [F]El Hijo y el Es[G]píritu [C]Santo.
+{da capo}
 `
   },
   {
@@ -10813,45 +10816,44 @@ Por la [Dm]noche i[D7(4/9)]gual.
     autor: "Hiiro",
     categoria: "reflexion, angelichristi",
     tonoOriginal: "C (Capo 4)",
-    letra: `
-Capo 4\n
-(Verso 1-Walace) 
+    letra: ` 
 [C] [G] [Em] [D] 
+{Walace}
 Estoy con el agua al cuello,
 me hundo en un mar sin fin.
 No hay suelo bajo mis pies cansados,
 y la corriente va tras de mí.
-(Andrea) 
+{Andrea} 
 Estoy cansado de gritar,
 mi garganta se partió,
 mis ojos se apagan lentamente,
 esperando un sí de Dios.\n
-(Verso 2-lissie)
+{Verso 2-lissie}
 Son más que mis cabellos
 los que me quieren ver caer.
 Me odian sin razón,
 y yo no sé porqué 
-(gerry-oliver) 
+{gerry-oliver} 
 ¿Devolver lo que no robé?
 ¿Callaré lo que no hice?
 Tú conoces mi necedad,
 tú has visto lo que escondí.\n
-(Pre-Coro, Jessica) [Am] [C] [G] 
+{Pre-Coro, Jessica} [Am] [C] [G] 
 Y si caigo, no dejes que tro[C]piecen por mi error,
 no dejes que se aver[G]güencen los que esperan tu amor.\n
-(Coro, apoyo todos) [Em] [C] [G] [D] 
+{Coro, apoyo todos} [Em] [C] [G] [D] 
 Estoy cansado de gritar,
 y mi alma se desgasta en soledad.
 Pero sigo aquí, hablando con el cielo gris,
 esperando que me vengas a salvar.
 Por tu amor inmenso, por tu fidelidad…
 ¡Respóndeme ya!\n
-(Coro Final Todos)
+{Coro Final Todos}
 Estoy cansado de gritar,
 pero no me vas a abandonar.
 Sé que tú me ves, aunque nadie más lo haga,
 tú sabes cuánto duele esperar.
-(Kike) 
+{Kike}
 Por tu amor inmenso, por tu fidelidad…
 Oh Dios… sálvame ya.
     `
@@ -10863,7 +10865,7 @@ Oh Dios… sálvame ya.
     categoria: "angelichristi",
     tonoOriginal: "D",
     letra: `
-[intro:] [D] [Bm] [G] [A] \n
+{intro:} [D] [Bm] [G] [A] \n
 
 [D]Te miro aqui frente a [Bm]mi
 Te intento escu[G]char 
@@ -10875,7 +10877,7 @@ Quiero demostr[G]ar
 Que seguirte a [C/E]ti 
 Todo mal [Em7]ha de arreg[A]lar\n
 
-[coro]
+{coro}
 Mis [G]manos, mi [A]voz, mi [D]ser
 Quieren obrar con [Bm]amor 
 Haz conmigo tu [G]reino crecer
@@ -10887,25 +10889,25 @@ Yo solo quiero [G]servir
 Ser instrumento de [C/E]amor
 Para [Em7]ti yo quiero [A]vivir\n
 
-[coro]
+{coro}
 Mis [G]manos, mi [A]voz, mi [D]ser
 Quieren obrar con [Bm]amor 
 Haz conmigo tu [G]reino crecer
 Todo es [C/E]tuyo Señor[A]
 Todo es tuyo Señor[D]\n
 
-[puente]
+{puente}
 [Bm]Hazme llegar a quien ne[G]cesite tu [A]amor
 [Bm]Qué la esperanza siempre es[G]té en ti [A]Señor\n
 
-[coro]
+{cor}
 Mis [G]manos, mi [A]voz, mi [D]ser
 Quieren obrar con [Bm]amor 
 Haz conmigo tu [G]reino crecer
 Todo es [C/E]tuyo Señor[A]
 [G]Todo es tuyo Señor[A]\n
-[G]Todo es tuyo Señor[A]
-[G]Todo es tuyo Señor[A] [D]`
+[G]Todo es tuyo Señor[A] [D]
+{final:}[G][A][D]`
 },
 ];
 // último id:412
