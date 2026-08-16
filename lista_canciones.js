@@ -7364,7 +7364,7 @@ un corazón de [C]padre.
 [F]Modela en nuestros cora[C]zones
 [F]El Rostro del Me[G]sías.
 
-[(Sube un tono)]
+{Sube un tono}
 [G]Escucha nuestra ora[D]ción,
 [A]Fiel custodio de Ma[D]ría,
 [G]Modela en nuestros cora[D]zones
@@ -7375,12 +7375,12 @@ id: 399,
 titulo: "El profeta",
 autor: "Anónimo",
 categoria: "salida",
-tonoOriginal: "Am",
+tonoOriginal: "Am (capo6)",
 letra: `
-[Intro]
+{Intro}
 [Am] [C] [G] [C] [Dm] [Am] [E7] [Am]
  
-[Verse]
+{Verse}
 [Am]Antes que te [C]formaras dentro del 
 [G]vientre de tu [C]madre
 [Dm]Antes que tú [Am]nacieras te 
@@ -7390,14 +7390,14 @@ letra: `
 [Dm]Irás donde te [Am]envíe lo que te 
 [E7]mande [Am]proclamarás.
  
-[Coro]
+{Coro}
 [Am]Tengo que gritar, [C]tengo que arriesgar. 
 [G]¡Ay de mí si no lo [C]hago!
 [G]¿Cómo [Am]escapar de tí?, 
 [G]¿cómo no [Am]hablar?, 
 [E7]¡si tu voz me quema [Am]dentro! [(bis)]
 
-[Verse]
+{Verse}
 [Am]No temas [C]arriesgarte porque 
 [G]contigo yo [C]estaré.
 [Dm]No temas [Am]anunciarme porque en tu 
@@ -7411,10 +7411,10 @@ letra: `
 [Am]Tengo que gritar, [C]tengo que arriesgar. 
 [G]¡Ay de mí si no lo [C]hago!
 [G]¿Cómo [Am]escapar de tí?,
-[G]¿cómo no[Am]hablar?, 
+[G]¿cómo no [Am]hablar?, 
 [E7]¡si tu voz me quema [Am]dentro! [(bis)]
 
-[verso]
+{verso}
 [Am]Deja a tus [C]hermanos, deja a tu 
 [G]padre y a tu [C]madre,
 [Dm]Abandona tu [Am]casa porque la 
@@ -7424,11 +7424,11 @@ letra: `
 [Dm]Es hora de [Am]luchar porque mi 
 [E7]pueblo sufriendo [Am]está.
 
-[Coro]
+{Coro}
 [Am]Tengo que gritar, [C]tengo que arriesgar. 
 [G]¡Ay de mí si no lo [C]hago!
 [G]¿Cómo [Am]escapar de tí?, 
-[G]¿cómo no[Am]hablar?, 
+[G]¿cómo no [Am]hablar?, 
 [E7]¡si tu voz me quema [Am]dentro! [(bis)]
 `
 },
