@@ -10689,13 +10689,13 @@ Soy tu hija, en tu am[E]or hal[F#]lé mi [G#m7]vida.[B/F#] [C#m9] [B]
     categoria: "angelichristi",
     tonoOriginal: "C#m",
     letra: `
-{Intro(bajo) - 2x}
-{G---------------------
+{Intro(bajo) - 2x
+G---------------------
 D----------------------
 A-----7-11-11-9-9-7-9--
 E-9-7------------------
-{entran demás instrumentos}
-{G-------------------
+entran demás instrumentos
+G-------------------
 D--------------------
 A-----7-7-6-6-7-7/9--
 E-9-9---------------- 2x}
