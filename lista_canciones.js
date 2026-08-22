@@ -97,6 +97,16 @@ Llegamos a alabar a Dios
 Que nos mandó venir,
 Aquí está la justicia
 Del trono de David.
+
+Que haya en ti Jerusalén 
+Completo bienestar 
+Que reine en tus murallas
+La paz que Dios te da 
+
+A todos mi hermanos
+Diré que tengas paz
+Que el Dios a quien servimos 
+Te de felicidad
 `
   },
   {
