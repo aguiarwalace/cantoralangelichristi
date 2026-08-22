@@ -4,7 +4,7 @@
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
 // Lista gramatical exacta de los tonos que llevan bemoles
-const tonosConBemoles = ['F', 'Bb', 'Eb', 'Ab', 'Db', 'Dm', 'Gm', 'Cm', 'Fm', 'Bbm'];
+const tonosConBemoles = ['F', 'Bb', 'Eb', 'Dm', 'Gm', 'Cm'];
 
 let seleccionadas = [];
 let cancionActualId = null;
