@@ -45,11 +45,7 @@ const datosLiturgicos = {
         { id: "a_pentecostes", nombre: "Pentecostés", cantos: [263,173,112,64,79,90,114,128,276,270,277] },*/
 
         // TIEMPO ORDINARIO (9–34)
-        /*...Array.from({length: 26}, (_,i) => ({
-            id: `a_to_${i+9}`,
-            nombre: `${i+9}º Domingo del Tiempo Ordinario`,
-            cantos: [1,2,3,4,5]
-        }))
+        /*
         { id: "a_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
         { id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,151,339,239] },    
@@ -156,9 +152,9 @@ const datosLiturgicos = {
         { id: "toma_pe_rolando", nombre: "Toma de Padre Rolando (19/08/2026)", 
             cantos: [/*e*/14,/*pd*/25,/*gl*/243,/*al*/244,/*of*/75,/*st*/405,/*cor*/121,/*com*/144,/*ref*/383,133,/*f*/135,290] },
         { id: "adoracion_asem_dio", nombre: "Adoración - Asamblea dioscesana de adolescentes (23/08/2026)", 
-            cantos: [384,339,133] },
+            cantos: [404,339,133] },
         { id: "misa_asem_dio", nombre: "Misa - Asamblea dioscesana de adolescentes (23/08/2026)", 
-            cantos: [/*com*/151,/*ref*/342,/*f*/408] },
+            cantos: [/*e*/4,/*pd*/25,/*gl*/243,/*al*/402,/*of*/79,/*st*/405,/*cor*/121,/*com*/144,/*ref*/342,133,/*f*/240] },
         { id: "set_animacion", nombre: "Set de animación", 
             cantos: [1000,239,386,410,411,106,109,111] },
         //{ id: "chichimila_concierto", nombre: "Pastoral Juvenil Chichimila - Concierto (25/07/2026)", cantos: [270,275,106,110,385,277,109,155,386] },        

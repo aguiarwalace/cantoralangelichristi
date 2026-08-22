@@ -2572,8 +2572,8 @@ Y danos de tu paz. (x2)
   {
     id: 133,
     titulo: "ALMA DE CRISTO (Pascua Juvenil)",
-    autor: "Anónimo",
-    categoria: "comunion",
+    autor: "Pascua Juvenil",
+    categoria: "comunion, reflexion",
     tonoOriginal: "D",
     letra: `
 [D]Alma de Cristo, [C9]santi[G]fíca[D]me.
@@ -6521,21 +6521,20 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
   tonoOriginal: "G (capo 3)",
   categoria: "adoracion",
   letra: `
-(capo 3)
-[C] Cuantas veces le he pre[D]guntado la ra[G]zón de mi exis[Em]tir,
-[C] cuantas veces he du[D]dado de por [G] qué me hizo a[C]sí.
-[G] Tan desnudo, tan he[D]rido,
-[G] incapaz de dar a[C]mor,
-[D] hoy te pido de ro[G]dillas un por [C] qué Se[D]ñor.
+[C]Cuantas veces le he pre[D]guntado la ra[G]zón de mi exis[Em]tir,
+[C]cuantas veces he du[D]dado de por [G] qué me hizo a[C]sí.
+[G]Tan desnudo, tan he[D]rido,
+[G]incapaz de dar a[C]mor,
+[D]hoy te pido de ro[G]dillas un por [C] qué Se[D]ñor.
 
-[Em] Pues Yo te hice a[C]sí per[G]fecto, de ver[D]dad,
-[Em] pensé en cada [C] uno de tus [G] gestos para a[D]mar,
-[Em] pues en ti están mis [C] huellas
-[G] para que otros puedan [D] ver
-[C] a través de alguien pre[G]cioso
-[D] maravillas que cre[C]é. (x2)
+[Em]Pues Yo te hice a[C]sí per[G]fecto, de ver[D]dad,
+[Em]pensé en cada [C] uno de tus [G] gestos para a[D]mar,
+[Em]pues en ti están mis [C] huellas
+[G]para que otros puedan [D] ver
+[C]a través de alguien pre[G]cioso
+[D]maravillas que cre[C]é. (x2)
 
-[D] Que tú eres mi re[C]flejo... [D] aquí tienes tu por[C]qué.`
+[D]Que tú eres mi re[C]flejo... [D] aquí tienes tu por[C]qué.`
 },
 {
   id: 404,
@@ -6544,99 +6543,72 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
   categoria: "adoracion",
   tonoOriginal: "A (capo 1)",
   letra: `
-[estribillo]
-T[A]ú, el Único R[F#m7]ey
-Que tiene que rein[D2]ar
-El Único Señ[E]or al que voy a 
-alaba[A]r
-Hoy levanto el c[E/G#]ora__z[F#m7]ón
-Al que lo conquist[D2]ó
-Simplem[E4]ente porque Tú eres Di[A]os
+{Estribillo}
+[A]Tú, el Único [F#m7]Rey
+Que tiene que rei[D2]nar
+El Único Se[E]ñor al que voy a ala[A]bar
+Hoy levanto el cora[E/G#]__zón[F#m7]
+Al que lo conquis[D2]tó
+Simplemente por[E4]que Tú eres [A]Dios
+
+{Interludio 1} [A2]
+{Primera Parte}
 [A2]Quiero ponerte
-Por encima de t[D2(6)]odo
-En cada mom[F#m7(11)]ento
-Sentarte en el tr[E11]ono
-Que tu alab[A2]anza
+Por encima de [D2(6)]todo
+En cada mo[F#m7(11)]mento
+Sentarte en el [E11]trono
 
-[estribillo]
+Que tu ala[A2]banza
+Esté siempre en mi [D2(6)]boca
+Y reco[F#m7(11)]nocer que [E11]Tú eres Dios
 
-T[A]ú, el Único R[F#m7]ey
-Que tiene que rein[D2]ar
-El Único Señ[E]or al que voy a 
-alaba[A]r
-Hoy levanto el c[E/G#]ora__z[F#m7]ón
-Al que lo conquist[D2]ó
-Simplem[E4]ente porque Tú eres Di[A]os
+{Pre-Estribillo - piano y voz}
+Que ala[D]barte a Ti, Se[E11]ñor
+Sea [A]siempre lo [E/G#]prime[F#m7(11)]ro [A/C#]
+[D]Fijo mi mirada en el [E]cielo
 
-[A2]Quiero ponerte
-Por encima de t[D2(6)]odo
-En cada mom[F#m7(11)]ento
-Sentarte en el tr[E11]ono
+{Estribillo}
+[A]Tú, el [E/G#]Único [F#m]Rey que tiene que rei[D]nar
+El Único Se[E4]ñor al que voy a ala[A2]bar
+Hoy le[E/G#]vanto el cora[F#m]zón
+Al que lo conquis[D]tó
+Simplemente por[E4]que Tú eres [A]Dios
 
-Que tu alab[A2]anza
-Continúa después del anuncioEliminar anuncios
-Esté siempre en mi b[D2(6)]oca
-Y reconoc[F#m7(11)]er que Tú eres Di[E11]os
+{Interludio 2}
+[A] [D] [A/C#] [Bm7] [E]
 
-[Pre-estribillo]
+{Segunda Parte}
+Y a [D]Ti, toda la ala[C#m]banza
+Todo el po[Bm7]der y el honor
+Toda la [E]gloria al Señor
 
-Que alab[D]arte a Ti, Señ[E11]or
-Sea si[A]empre l[E/G#]o prim[F#m7(11)]ero
-[A/C#]
+Y a [D]Ti, toda la ala[C#m]banza
+Todo el po[Bm7]der y el honor
+Toda la [E]gloria al Señor
 
-F[D]ijo mi mirada en el ci[E]elo
+Y a [D]Ti, toda la ala[C#m]banza
+Todo el po[Bm7]der y el honor
+Toda la [E]gloria al Señor
 
-[estribillo]
+Y a [D]Ti, toda la ala[C#m]banza
+Todo el po[Bm7]der y el honor
+Toda la [E]gloria al Señor
 
-T[A]ú, el [E/G#]Único R[F#m]ey que tiene 
-que re[D]inar
-El Único Señ[E4]or al que voy a 
-alaba[A2]r
-Hoy lev[E/G#]anto el coraz[F#m]ón
-Al que lo conquist[D]ó
-Simplem[E4]ente porque Tú eres Di[A]os
+{Estribillo Final}
+[A]Tú, el Único [E/G#]Rey [F#m]que tiene que rei[E]nar [D]
+El Único Se[E]ñor al que voy a ala[A]bar
+Hoy levanto el cora[E/G#]__zón [F#m]
+Al que lo conquis[E]tó [D]
+Simplemente por[E]que Tú eres
 
-[Interlúdio 2] A  D  A/C#  
+[A]Tú, el Único [F#m]Rey que tiene que rei[E]nar [D]
+El Único Se[E]ñor al que voy a ala[A]bar
+Hoy levanto el cora[E/G#]__zón [F#m]
+Al que lo [E]conquis[D]tó
+Simplemente por[E]que Tú eres [A]Dios
 
-[Bm7] [E]
-
-[Segunda Parte]
-
-Y a T[D]i, toda la alab[C#m]anza
-Todo el pod[Bm7]er y el honor
-Toda la gl[E]oria al Señor
-
-Y a T[D]i, toda la alab[C#m]anza
-Todo el pod[Bm7]er y el honor
-Toda la gl[E]oria al Señor
-
-Y a T[D]i, toda la alab[C#m]anza
-Todo el pod[Bm7]er y el honor
-Toda la gl[E]oria al Señor
-
-Y a T[D]i, toda la alab[C#m]anza
-Todo el pod[Bm7]er y el honor
-Toda la gl[E]oria al Señor
-
-[Estribillo Final]
-
-T[A]ú, el Únic[E/G#]o    R[F#m]ey que tiene
- que r[E]ein[D]ar
-El Único Señ[E]or al que voy a 
-alaba[A]r
-Hoy levanto el c[E/G#]ora__z[F#m]ón
-Al que lo conqu[E]ist[D]ó
-Simplem[E]ente porque Tú eres
-
-T[A]ú, el Único R[F#m]ey que tiene que
- r[E]ein[D]ar
-El Único Señ[E]or al que voy a 
-alaba[A]r
-Hoy levanto el c[E/G#]ora__z[F#m]ón
-Al qu[E]e lo conquist[D]ó
-Simplem[E]ente porque Tú eres Di[A]os
-
-[Final] D  A  D  A
+{Final}
+[D] [A] [D] [A]
 `
 },
 {
@@ -6708,10 +6680,10 @@ Te segui[C]ré, hasta el [F]fin.[D]`
     tonoOriginal: "G",
     letra: `
 [G]Pentecostés día de fiesta, Pentecostés día de [G7]gozo.
-[C]Pentecostés día de la [G]Iglesia, [D7]De la Iglesia del Se[G]ñor. (x2)
+[C]Pentecostés día de la [G]Iglesia, [D7]De la Iglesia del Se[G]ñor. {x2}
 
 [D7]Ya se derrama, ya se derrama,
-[G]Ya se derrama el Espíritu de Dios. (x2)
+[G]Ya se derrama el Espíritu de Dios. {x2}
 
 [D7]Ya se siente, ya se siente...
 [G]Aleluya, aleluya, Aleluya al Espíritu de Dios.
@@ -7227,17 +7199,25 @@ uno [D]solo el reino de
 
 [G]Desde antes de for[C]marte, aún
 [G]En mi mente te te[D]nía ya
-[Em]Ya te[Bm]nía asig[D]nado para [C]ti, [G] [Am] un lla[D]mado.
+[Em]Ya te[Bm]nía asig[D]nado para [C]ti, [G] [Am] 
+un lla[D]mado.
 
 [G]Y ahora, a ti te [C]toca actuar
 [G]Da el paso que [D]tienes que dar
-[Em]Deja [Bm]todo, [D]Toma [C]tu cruz [G] [Am] Y [D]sígueme.
+[Em]Deja [Bm]todo, [D]Toma [C]tu cruz [G] [Am]
+Y [D]sígueme.
 
 [G]Es tan grande mi a[C]mor por ti
 [G]Que para que pu[D]dieras tú vivir
-[Em]Mi [Bm]sangre, cla[D]vado en la [C]cruz [G] [Am] Yo ver[D]tí.
-`
-  },
+[Em]Mi [Bm]sangre, cla[D]vado en la [C]cruz [G] [Am]
+Yo ver[D]tí.
+
+[G]Ahora esta es tu [C]decisión
+[G]Sabes lo que para [D]ti es mejor
+[Em]Rec[Bm]uerda que por [D]siempre [C]estaré[G] [Am]
+junto a [D]ti.
+
+`},
   {
     id: 174,
     titulo: "ALMA MISIONERA",
