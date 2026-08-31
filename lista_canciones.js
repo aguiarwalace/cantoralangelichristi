@@ -2190,16 +2190,19 @@ En el [C]ci[G]e[C]lo. (x2)`
   {
     id: 101,
     titulo: "DOXOLOGÍA",
-    autor: "Anónimo",
+    autor: "Comunidade Católica Shalom",
     categoria: "doxologia",
     tonoOriginal: "Em",
     letra: `
-    Por cristo, con Él y en Él
-A ti Dios padre omnipotente
-En la unidad del espíritu santo
-Todo honor y toda gloria
-Por los siglos de los siglos [B7] 
-[Em]Amen, [C]Amen, [D]Amen, [Ddim]Amen [Em] [(B7)]    (x2)
+    {Padre}
+Por [D]Cristo, con Él y en [Em9]Él
+A ti Dios Padre [C]omnipotente
+En la uni[Em9]dad del Espíritu [C]Santo
+Todo honor y toda [B7]gloria
+Por los siglos de los siglos[B7]
+{coro}
+[Em9]Amen, [C9]Amen, [G]Amen [D]Amen [D#dim]
+[Em9]Amen, [C9]Amen, [G]Amen [D]Amen [D#dim] [Em9]
 `
   },
    // --- SECCIÓN: CANTOS DE Padre Nuestro ---
