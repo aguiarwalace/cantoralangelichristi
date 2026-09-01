@@ -518,7 +518,7 @@ function renderizarEventos(eventos, container, loadingElement) {
         const linea3 = ev.observaciones ? `→ ${ev.observaciones}` : '';
         return `
             <p>
-                ${linea1} <br>
+                <strong>${linea1}</strong> <br>
                 ${linea2} <br>
                 ${linea3}
             </p>
