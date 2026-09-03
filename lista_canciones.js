@@ -10056,6 +10056,7 @@ toda mi [A]vida y ya no puedo pa[B]rar [C#] [D]
   categoria: "alabanza",
   tonoOriginal: "G",
   letra: `{Intro:} [G] [Bm] [C] [D]
+  
 {melodía:armónica:2x}
 [B] [A] /[C] [B] [C] [B] [C] [B]/ [E] [E] [D] [C] /[B...]
 Que ni una ni mil [G]piedras en el camino te hagan tropezar
