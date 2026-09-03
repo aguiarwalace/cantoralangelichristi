@@ -10904,5 +10904,48 @@ Todo es [C/E]tuyo Señor[A]
 [G]Todo es tuyo Señor[A] [D]
 {final:}[G][A][D]`
 },
-];
-// último id:412
+{
+      id: 413,
+    titulo: "La misericordia ha entrado en esta casa", 
+    autor: "Hakuna Group Music",
+    categoria: "mision",
+    tonoOriginal: "Am",
+    letra: `
+[Am]El día al[G] día le[F] pasa su men[Em]sa[E]je
+[Am]La noche a la[G] noche se[F] lo su[Em]su[E]rra
+[Am]Tu miseri[G]cordia, Se[F]ñor, llena la [Em]tie[E]rra
+[Am]Úsame para lle[G]varla a[F] cada rin[Em]cón.[E]
+
+[C]Llevaré tu miseri[G]cordia a la universi[Am]dad
+[F]Entraré en el cora[C]zón de cada[E] ami[Am]go
+[C]Y con la[G] fuerza de tu Espíritu di[F]ré:
+
+[C]La miseri[G]cordia ha entrado en esta[F] casa (x2)
+[F]Leván[G]tate y[C] anda. [Am] [F] [G]
+
+[C]Llevaré tu miseri[G]cordia a la universi[Am]dad
+[F]Entraré en el cora[C]zón de cada [E] ami[Am]go
+[C]Y con la[G] fuerza de tu Espíritu di[F]ré:
+
+[C]La miseri[G]cordia ha entrado en esta [F] casa (x2)
+[F]Leván[G]tate y[C] anda. [Am] [F] [G]
+
+[C]Hazme bendi[F]ción para cual[G]quiera
+[C]no me impor[F]ta sangrar, so[G]lo quiero que
+[C]que tu amor[F]sin limites,que [G] tu sed nos sane
+[C]Úsame para tr[F]er hoy tu ter[G]nura
+
+Qu[C]e mi[F]s ojos vean[G] todo belleza [E] 
+Descubr[Am]iendo, [F]el rostro de cada[G] uno
+Que mis [C]oídos [F]escuchen los grit[G]os
+mudos del prójimo [E] 
+Que mi [Am]boca, manos y [F]pies trans[G]mitan tu ternura
+
+Y que mi[C] cora[G]zón sineta en carne[Am] viva
+[F](canon)[C][E][Am]
+
+[C]La miseri[G]cordia ha entrado en esta [F] casa (x2)
+[F]Leván[G]tate y [C] anda. [Am] [F] [G]
+`},
+]; 
+// último id:413
