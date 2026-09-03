@@ -12,7 +12,8 @@ Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo
     //linkYoutube: "https://www.youtube.com/watch?v=ejemplo", // NUEVO
     //linkPartitura: "https://drive.google.com/file/d/ejemplo", // NUEVO
     letra: `
-{Intro:} [Dm] [D7]
+{Intro:}
+ [Dm] [D7]
 
 [Gm]A ti levanto mis [Dm]ojos,
 [A7]a ti que habitas en el [Dm]cielo,[D7]
