@@ -10077,7 +10077,7 @@ Déjate lle[Bm]var en el salón
 Déjate [C]hacer, que trace tu camino
 É[D]l también quiere bailar con[G]tigo
 
-{Solo:} [G] [Bm] [C] [D]
+{Solo:}  [G] [Bm] [C] [D]
 
 Que, si el [G]sufrimiento es por amor
 El do[D]lor es diferente
@@ -10105,7 +10105,7 @@ Déjate lle[Bm]var en el salón
 Déjate [C]hacer, que trace tu camino
 É[D]l también quiere bailar con[G]tigo
 
-{Solo:} [G] [Bm] [C] [D]
+{Solo:}  [G] [Bm] [C] [D]
 
 Re[G]cuerda que somos eternos [D]
 Re[C]cuerda que el tiempo no es nuestro [D]
