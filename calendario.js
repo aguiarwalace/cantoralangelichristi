@@ -155,8 +155,9 @@ const datosLiturgicos = {
             cantos: [404,339,133] },
         { id: "misa_asem_dio", nombre: "Misa - Asamblea dioscesana de adolescentes (23/08/2026)", 
             cantos: [/*e*/4,/*pd*/25,/*gl*/243,/*al*/402,/*of*/79,/*st*/405,/*cor*/121,/*com*/144,/*ref*/342,133,/*f*/240] },
-        { id: "set_animacion", nombre: "Set de animación", 
-            cantos: [1000,239,386,410,411,106,109,111] },
-        //{ id: "chichimila_concierto", nombre: "Pastoral Juvenil Chichimila - Concierto (25/07/2026)", cantos: [270,275,106,110,385,277,109,155,386] },        
+        { id: "chichimila_hr_santa", nombre: "Chichimila - Hora Santa (5/09/2026)", 
+            cantos: [142,338,200,390,379,343,404] },
+        { id: "Chichimila_concierto", nombre: "Pastoral Juvenil Chichimila - Concierto (5/09/2026)",
+            cantos: [239,410,106,411,385,277,407,111,413,109,386] },        
      ],
 };
