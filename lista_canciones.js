@@ -4,6 +4,16 @@ Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo
   
 // --- SECCIÓN: CANTOS DE ENTRADA status: terminado ---
   {
+    id: 0,
+    titulo: "Esquema no asignado",
+    autor: "Esquema no asignado",
+    categoria: " ",
+    tonoOriginal: " ",
+    //linkYoutube: "https://www.youtube.com/watch?v=ejemplo", // NUEVO
+    //linkPartitura: "https://drive.google.com/file/d/ejemplo", // NUEVO
+    letra: `Esquema no asignado.`
+  },
+  {
     id: 1,
     titulo: "A TI LEVANTO MIS OJOS",
     autor: "Miguel Manzano",

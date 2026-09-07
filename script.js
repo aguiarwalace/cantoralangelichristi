@@ -1,39 +1,40 @@
 // Cantoral Online Angeli Christi - Lógica Principal (script.js)
 
-// --- 1. VARIABLES Y ESCALAS ---
+// --- 1. VARIÁVEIS E ESCALAS MUSICAIS ---
 const escSost = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 const escBem  = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
-// Lista gramatical exacta de los tonos que llevan bemoles
-const tonosConBemoles = ['F', 'Bb', 'Eb', 'Dm', 'Gm', 'Cm'];
+
+// Lista gramatical completa dos tons que utilizam bemóis (Maior e Menor)
+const tonosConBemoles = ['F', 'Bb', 'Eb', 'Ab', 'Dm', 'Gm', 'Cm', 'Fm'];
 
 let seleccionadas = [];
 let cancionActualId = null;
 let trasposicionActual = 0;
-let fontSizeActual = 1.2; // Tamaño base en rem
+let fontSizeActual = 1.2; // Tamanho base em rem
 
-// --- 2. FUNCIÓN AUXILIAR DE NORMALIZACIÓN DE TEXTO ---
+// --- 2. FUNÇÃO AUXILIAR DE NORMALIZAÇÃO DE TEXTO ---
 
 /**
- * Normaliza una cadena de texto para facilitar búsquedas flexibles:
- * 1. Convierte a minúsculas.
- * 2. Remueve acentos y tildes (NFD + Regex).
- * 3. Elimina signos de puntuación, símbolos y caracteres especiales.
- * 4. Recorta espacios innecesarios.
+ * Normaliza uma cadeia de texto para facilitar buscas flexíveis:
+ * 1. Converte para minúsculas.
+ * 2. Remove acentos e til.
+ * 3. Elimina sinais de pontuação e caracteres especiais.
+ * 4. Remove espaços desnecessários.
  * 
- * @param {string} texto - Cadena de texto original.
- * @returns {string} Texto limpio sin acentos ni puntuación.
+ * @param {string} texto - Texto original.
+ * @returns {string} Texto limpo.
  */
 function normalizarTexto(texto) {
     if (!texto) return '';
     return texto
         .toLowerCase()
         .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '') // Elimina acentos/diacríticos
-        .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'¡!¿«»]/g, '') // Elimina signos de puntuación
+        .replace(/[\u0300-\u036f]/g, '') 
+        .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?"'¡!¿«»]/g, '') 
         .trim();
 }
 
-// --- 3. LÓGICA DE INTERFAZ Y FILTROS OPTIMIZADOS ---
+// --- 3. LÓGICA DE INTERFACE E FILTROS OPTIMIZADOS ---
 
 function toggleMenu() {
     const sidebar = document.getElementById('sidebar');
@@ -41,11 +42,7 @@ function toggleMenu() {
 }
 
 /**
- * Filtra la lista de canciones considerando:
- * - Búsqueda insensible a tildes, mayúsculas y signos de puntuación.
- * - Coincidencia por palabras independientes (Multi-palabra).
- * - Búsqueda en Título, Autor y Letra.
- * - Categoría o apartado litúrgico seleccionado.
+ * Filtra a lista de canções por título, autor, letra e categoria.
  */
 function filterSongs() {
     const searchInput = document.getElementById('search-input');
@@ -61,35 +58,27 @@ function filterSongs() {
 
     if (rawSearchTerm.trim() === "" && categoryTerm === "todos") return; 
 
-    // Obtener la lista activa (Memoria o LocalStorage)
     const listaBase = (typeof canciones !== 'undefined') ? canciones : obtenerCancionesLocales();
 
-    // Normalizamos el texto de búsqueda y lo dividimos en palabras clave individuales
     const textoBusquedaNorm = normalizarTexto(rawSearchTerm);
     const palabrasClave = textoBusquedaNorm.split(/\s+/).filter(palabra => palabra.length > 0);
 
     const filtradas = listaBase.filter(s => {
-        // 1. Validar categoría
         const coincideCategoria = (categoryTerm === 'todos' || 
                                     s.categoria.toLowerCase().includes(categoryTerm.toLowerCase()));
         if (!coincideCategoria) return false;
 
-        // Si no se escribió nada en el buscador pero hay una categoría activa
         if (palabrasClave.length === 0) return true;
 
-        // 2. Normalizar campos de la canción
         const tituloNorm = normalizarTexto(s.titulo);
         const autorNorm = normalizarTexto(s.autor || '');
         const letraNorm = normalizarTexto(s.letra);
 
-        // Combinar los campos para permitir búsquedas cruzadas (ej: "autor palabra_letra")
         const contenidoCompleto = `${tituloNorm} ${autorNorm} ${letraNorm}`;
 
-        // 3. Verificar que TODAS las palabras clave buscadas existan dentro del contenido de la canción
         return palabrasClave.every(palabra => contenidoCompleto.includes(palabra));
     });
 
-    // Renderizar resultados
     filtradas.forEach(s => {
         const div = document.createElement('div');
         div.className = 'song-item';
@@ -120,17 +109,16 @@ function displaySong() {
 
     const tonoDestino = calcularNombreTono(song.tonoOriginal, trasposicionActual);
     
-    // Extraemos la base inteligente
+    // Extrai o tom base limpando sufixos ou capocastro
     const match = tonoDestino.match(/^([A-G][#b]?m?)/);
     const tonoBase = match ? match[1] : tonoDestino;
     
-    // Elegimos la escala correcta según regla de bemoles
+    // Seleciona a escala adequada (bemóis ou sustenidos)
     const escalaElegida = tonosConBemoles.includes(tonoBase) ? escBem : escSost;
 
-    // Formateo dinámico en Flexbox con soporte para marcas entre {}
     const letraFormateadaHtml = formatearAcordesEnLetra(song.letra, trasposicionActual, escalaElegida);
 
-    // --- LÓGICA PARA LOS LINKS EXTERNOS ---
+    // Links externos (YouTube e Partitura)
     let botonesLinksHtml = '';
     
     if (song.linkYoutube) {
@@ -169,9 +157,11 @@ function displaySong() {
     `;
 }
 
-// --- 4. LÓGICA MUSICAL ---
+// --- 4. LÓGICA MUSICAL E TRANSPOSIÇÃO ---
 
 function calcularNombreTono(tonoOriginal, semitonos) {
+    if (!tonoOriginal) return '';
+    
     const regex = /^([A-G][#b]?)(.*)$/;
     const match = tonoOriginal.match(regex);
     if (!match) return tonoOriginal;
@@ -181,6 +171,7 @@ function calcularNombreTono(tonoOriginal, semitonos) {
     
     let indice = escSost.indexOf(raiz);
     if (indice === -1) indice = escBem.indexOf(raiz);
+    if (indice === -1) return tonoOriginal;
     
     let nuevoIndice = (indice + semitonos + 12) % 12;
     
@@ -206,30 +197,15 @@ function trasponerAcorde(acordeStr, semitonos, escalaElegida) {
 }
 
 /**
- * Procesa la letra convirtiendo [acordes] e {indicaciones}
- * manteniendo el formato alineado Flexbox de la app.
- */
-/**
- * Procesa la letra convirtiendo [acordes] e {indicaciones/tablaturas}
- * manteniendo el formato alineado Flexbox de la app.
- */
-/**
- * Procesa la letra convirtiendo [acordes] e {indicaciones/tablaturas}
- * manteniendo el formato alineado Flexbox de la app.
- */
-/**
- * Procesa la letra convirtiendo [acordes] e {indicaciones/tablaturas}
- * Soporta saltos de línea dentro de las llaves { }.
+ * Converte a letra formatando [acordes] e {indicações}.
+ * Transpõe acordes em qualquer parte da linha, inclusive dentro de indicações.
  */
 function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
     if (!letraRaw) return '';
 
-    // 1. Buscamos bloques entre { } que pueden incluir saltos de línea [\s\S]*?
+    // 1. Converte blocos entre { } em linhas com a classe "linea-bloque-indicacion"
     let textoProcesado = letraRaw.replace(/\{([\s\S]*?)\}/g, (match, contenido) => {
-        // Dividimos el interior del bloque { } por cada salto de línea
         const lineasBloque = contenido.split('\n');
-        
-        // Convertimos cada línea del bloque en una línea estilizada con clase indicacion-texto
         return lineasBloque.map(linea => {
             return `<div class="linea-bloque-indicacion"><span class="indicacion-texto">${linea}</span></div>`;
         }).join('\n');
@@ -244,12 +220,17 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
             return;
         }
 
-        // Si la línea pertenece a un bloque de indicación/tablatura
+        // 2. Se a linha for uma indicação entre { }, transpõe qualquer [acorde] presente nela
         if (linea.includes('class="linea-bloque-indicacion"')) {
-            htmlFinal += `<div class="linea-cancion">${linea}</div>`;
+            const lineaTranspuesta = linea.replace(/\[([^\]]+)\]/g, (m, acordeLimpio) => {
+                const acordeTranspuesto = trasponerAcorde(acordeLimpio, semitonos, escalaElegida);
+                return `<span class="acorde-texto inline-acorde">${acordeTranspuesto}</span>`;
+            });
+            htmlFinal += `<div class="linea-cancion">${lineaTranspuesta}</div>`;
             return;
         }
 
+        // 3. Processamento padrão de linhas de letra com acordes alinhados
         htmlFinal += '<div class="linea-cancion">';
         const palabras = linea.split(' ');
 
@@ -264,11 +245,9 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
                 if (!parte) return;
 
                 if (parte.startsWith('[') && parte.endsWith(']')) {
-                    // Es un ACORDE
                     const acordeLimpio = parte.slice(1, -1);
                     acordeActual = trasponerAcorde(acordeLimpio, semitonos, escalaElegida);
                 } else {
-                    // Es TEXTO/LETRA normal
                     htmlFinal += `
                         <div class="par-acorde-palabra">
                             <span class="acorde-texto">${acordeActual}</span>
@@ -300,7 +279,7 @@ function formatearAcordesEnLetra(letraRaw, semitonos, escalaElegida) {
     return htmlFinal;
 }
 
-// --- 5. UTILIDADES Y CONTROLES ---
+// --- 5. UTILITÁRIOS E CONTROLES ---
 
 function cambiarTono(valor) {
     trasposicionActual = (valor === 0) ? 0 : trasposicionActual + valor;
@@ -339,18 +318,18 @@ function toggleDarkMode() {
 
 window.onload = () => {
     if (localStorage.getItem('darkTheme') === 'true') document.body.classList.add('dark-mode');
-    console.log("Aplicación Angeli Christi lista.");
+    console.log("Aplicação Angeli Christi pronta.");
 };
 
 function generateRepertoire() {
     if (seleccionadas.length === 0) {
-        return alert("Selecciona al menos una canción para generar el repertorio.");
+        return alert("Seleciona pelo menos uma canção para gerar o repertório.");
     }
     localStorage.setItem('repertorioActual', JSON.stringify(seleccionadas));
     window.location.href = 'repertorio.html';
 }
 
-// --- 6. ACTUALIZACIÓN AUTOMÁTICA Y SOPORTE OFFLINE ---
+// --- 6. ATUALIZAÇÃO AUTOMÁTICA E SUPORTE OFFLINE ---
 
 const CLAVE_LOCAL_CANCIONES = 'angeli_christi_canciones_v1';
 
@@ -360,7 +339,7 @@ function obtenerCancionesLocales() {
         try {
             return JSON.parse(cancionesGuardadas);
         } catch (e) {
-            console.error("Error al leer canciones guardadas localmente:", e);
+            console.error("Erro ao ler canções salvas localmente:", e);
         }
     }
     return typeof canciones !== 'undefined' ? canciones : [];
@@ -377,7 +356,7 @@ async function comprobarActualizacionesCanciones() {
         const scriptAnterior = localStorage.getItem('angeli_christi_script_raw');
 
         if (textoScript !== scriptAnterior) {
-            console.log("🎵 ¡Nuevas canciones o correcciones detectadas! Actualizando repertorio...");
+            console.log("🎵 Novas canções ou correções detetadas! Atualizando repertório...");
             
             localStorage.setItem('angeli_christi_script_raw', textoScript);
 
@@ -396,11 +375,11 @@ async function comprobarActualizacionesCanciones() {
                 displaySong();
             }
         } else {
-            console.log("✅ El repertorio ya está en su versión más reciente.");
+            console.log("✅ O repertório já está na versão mais recente.");
         }
 
     } catch (error) {
-        console.warn("📡 Modo Offline activado: Usando canciones guardadas en el dispositivo.");
+        console.warn("📡 Modo Offline ativado: A usar canções salvas no dispositivo.");
     }
 }
 
@@ -416,7 +395,7 @@ window.addEventListener("focus", () => {
 });
 
 /* =======================================================
-   CARGA DE CALENDARIO PARA PWA (OFFLINE + ANTI-CACHE)
+   CARGA DE CALENDÁRIO PARA PWA (OFFLINE + ANTI-CACHE)
    ======================================================= */
 
 const URL_WEB_APP_GOOGLE = "https://script.google.com/macros/s/AKfycby8GXF2HslQN45DlEY156SVfH452tqeeA0i8u5wRvDratojoCFQgwSr8wvNpqrNGGf0xA/exec";
@@ -428,18 +407,16 @@ async function cargarEventosDinamicos() {
 
     if (!eventsContainer) return;
 
-    // STEP 1: Intentar cargar datos desde el almacenamiento local (Offline PWA)
     const datosGuardados = localStorage.getItem(CALENDAR_CACHE_KEY);
     if (datosGuardados) {
         try {
             const eventosCache = JSON.parse(datosGuardados);
             renderizarEventos(eventosCache, eventsContainer, loadingElement);
         } catch (e) {
-            console.error("Error al leer el cache local:", e);
+            console.error("Erro ao ler o cache local:", e);
         }
     }
 
-    // STEP 2: Consultar Google Sheets para obtener los datos más recientes
     try {
         const cacheBuster = new Date().getTime();
         const urlComCacheBuster = `${URL_WEB_APP_GOOGLE}?nocache=${cacheBuster}`;
@@ -450,31 +427,25 @@ async function cargarEventosDinamicos() {
         });
 
         if (!response.ok) {
-            throw new Error(`Error en la red: ${response.status}`);
+            throw new Error(`Erro na rede: ${response.status}`);
         }
 
         const eventosNuevos = await response.json();
 
-        // Guardar la copia más reciente en la memoria del dispositivo para uso offline
         localStorage.setItem(CALENDAR_CACHE_KEY, JSON.stringify(eventosNuevos));
-
-        // Renderizar nuevamente con la información fresca
         renderizarEventos(eventosNuevos, eventsContainer, loadingElement);
 
     } catch (error) {
-        console.warn("No se pudo conectar con Google Sheets (Modo Offline o red lenta):", error);
+        console.warn("Não foi possível ligar ao Google Sheets (Modo Offline):", error);
 
         if (!datosGuardados && loadingElement) {
-            loadingElement.innerText = "No se pudieron cargar los eventos.";
+            loadingElement.innerText = "Não foi possível carregar os eventos.";
         } else if (loadingElement) {
             loadingElement.style.display = 'none';
         }
     }
 }
 
-/**
- * Función auxiliar para procesar y dibujar el HTML de los eventos
- */
 function renderizarEventos(eventos, container, loadingElement) {
     if (loadingElement) {
         loadingElement.style.display = 'none';
@@ -483,7 +454,6 @@ function renderizarEventos(eventos, container, loadingElement) {
     const hoy = new Date();
     hoy.setHours(0, 0, 0, 0);
 
-    // Filtrar solo los eventos futuros
     const eventosFuturos = eventos.filter(ev => {
         if (!ev.fecha) return false;
         const partesFecha = ev.fecha.split('-');
@@ -494,7 +464,7 @@ function renderizarEventos(eventos, container, loadingElement) {
     const proximos10Eventos = eventosFuturos.slice(0, 20);
 
     if (proximos10Eventos.length === 0) {
-        container.innerHTML = "<p>No hay eventos próximos programados.</p>";
+        container.innerHTML = "<p>Não há eventos próximos agendados.</p>";
         return;
     }
 
@@ -510,7 +480,7 @@ function renderizarEventos(eventos, container, loadingElement) {
 
         let linkPin = '';
         if (ev.ubic_url && typeof ev.ubic_url === 'string' && ev.ubic_url.trim().startsWith('http')) {
-            linkPin = ` <a href="${ev.ubic_url.trim()}" target="_blank" rel="noopener" title="Ver ubicación en Google Maps">📍</a>`;
+            linkPin = ` <a href="${ev.ubic_url.trim()}" target="_blank" rel="noopener" title="Ver localização no Google Maps">📍</a>`;
         }
 
         const lugarTexto = ev.lugar ? ` - ${ev.lugar}` : '';

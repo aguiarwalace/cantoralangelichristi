@@ -11,28 +11,28 @@ const datosLiturgicos = {
         { id: "a_bautismo", nombre: "Bautismo del Señor", cantos: [1,2,3,4,5] },
 
         // TIEMPO ORDINARIO (1–8 antes de cuaresma aprox.)
-        { id: "a_to_1", nombre: "1º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
-        { id: "a_to_2", nombre: "2º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
-        { id: "a_to_3", nombre: "3º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
-        { id: "a_to_4", nombre: "4º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
-        { id: "a_to_5", nombre: "5º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
-        { id: "a_to_6", nombre: "6º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
-        { id: "a_to_7", nombre: "7º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
-        { id: "a_to_8", nombre: "8º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_1", nombre: "1º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_2", nombre: "2º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_3", nombre: "3º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_4", nombre: "4º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_5", nombre: "5º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_6", nombre: "6º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_7", nombre: "7º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_8", nombre: "8º Domingo del Tiempo Ordinario", cantos: [0] },
 
         // CUARESMA
-        { id: "a_cenizas", nombre: "Miércoles de Cenizas", cantos: [1,2,3,4,5] },
-        { id: "a_cua_1", nombre: "1º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "a_cua_2", nombre: "2º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "a_cua_3", nombre: "3º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "a_cua_4", nombre: "4º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "a_cua_5", nombre: "5º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
+        { id: "a_cenizas", nombre: "Miércoles de Cenizas", cantos: [0] },
+        { id: "a_cua_1", nombre: "1º Domingo de Cuaresma", cantos: [0] },
+        { id: "a_cua_2", nombre: "2º Domingo de Cuaresma", cantos: [0] },
+        { id: "a_cua_3", nombre: "3º Domingo de Cuaresma", cantos: [0] },
+        { id: "a_cua_4", nombre: "4º Domingo de Cuaresma", cantos: [0] },
+        { id: "a_cua_5", nombre: "5º Domingo de Cuaresma", cantos: [0] },
 
         // SEMANA SANTA / PASCUA
-        { id: "a_ramos", nombre: "Domingo de Ramos", cantos: [1,2,3,4,5] },
-        { id: "a_jueves", nombre: "Jueves Santo", cantos: [1,2,3,4,5] },
-        { id: "a_viernes", nombre: "Viernes Santo", cantos: [1,2,3,4,5] },
-        { id: "a_sabado", nombre: "Sábado de Gloria", cantos: [1,2,3,4,5] },
+        { id: "a_ramos", nombre: "Domingo de Ramos", cantos: [0] },
+        { id: "a_jueves", nombre: "Jueves Santo", cantos: [0] },
+        { id: "a_viernes", nombre: "Viernes Santo", cantos: [0] },
+        { id: "a_sabado", nombre: "Sábado de Gloria", cantos: [0] },
         { id: "a_pascua", nombre: "Domingo de Pascua", cantos: [10,113,112,64,79,90,114,128,172,170,155] },
 
         // TIEMPO PASCUAL
@@ -46,7 +46,7 @@ const datosLiturgicos = {
 
         // TIEMPO ORDINARIO (9–34)
         /*
-        { id: "a_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [1,2,3,4,5] },
+        { id: "a_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,151,339,239] },    
         { id: "a_to_12", nombre: "12º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,191,370,398,239] },
@@ -64,18 +64,18 @@ const datosLiturgicos = {
             cantos: [/*e*/16,/*pd*/25,/*gl*/243,/*al*/402,/*cre*/397,/*of*/75,/*st*/405,/*cor*/121,/*com*/151,/*ref*/133,/*f*/399] },
         { id: "a_to_21", nombre: "21º Domingo del Tiempo Ordinario", cantos: [4,25,243,402,79,405,121,144,342,133,240]},
         { id: "a_to_22", nombre: "22º Domingo del Tiempo Ordinario", cantos: [4,25,243,402,75,405, 121,151,338,240] },
-        /*{ id: "a_to_23", nombre: "23º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
-        { id: "a_to_24", nombre: "24º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
-        { id: "a_to_25", nombre: "25º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
-        { id: "a_to_26", nombre: "26º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
-        { id: "a_to_27", nombre: "27º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
-        { id: "a_to_28", nombre: "28º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
-        { id: "a_to_29", nombre: "29º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
-        { id: "a_to_30", nombre: "30º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
-        { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
-        { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
-        { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,391,100,122,144,133,239] },
-        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [4,25,243,60,391,100,122,144,133,239] },*/
+        { id: "a_to_23", nombre: "23º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_24", nombre: "24º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_25", nombre: "25º Domingo del Tiempo Ordinario", cantos: [0] },
+        /*{ id: "a_to_26", nombre: "26º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_27", nombre: "27º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_28", nombre: "28º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_29", nombre: "29º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_30", nombre: "30º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [0] },*/
     ],
 
     "Ciclo B": [
