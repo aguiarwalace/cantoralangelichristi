@@ -256,91 +256,95 @@
                 el.style.fontSize = fontSizeGlobal + 'rem';
             });
         }
-
         function mostrarMisa() {
-            const ciclo = document.getElementById('select-ciclo').value;
-            const misaId = document.getElementById('select-misa').value;
-            const contenedor = document.getElementById('contenedor-misa');
-            const zonaSeleccion = document.getElementById('zona-seleccion');
-            const btnVolver = document.getElementById('btn-volver-container');
-            
-            if (!misaId) return;
+    const ciclo = document.getElementById('select-ciclo').value;
+    const misaId = document.getElementById('select-misa').value;
+    const contenedor = document.getElementById('contenedor-misa');
+    const zonaSeleccion = document.getElementById('zona-seleccion');
+    const btnVolver = document.getElementById('btn-volver-container');
+    
+    if (!misaId) return;
 
-            const misa = datosLiturgicos[ciclo].find(m => m.id === misaId);
-            if (!misa) return;
+    const misa = datosLiturgicos[ciclo].find(m => m.id === misaId);
+    if (!misa) return;
 
-            if (zonaSeleccion) zonaSeleccion.style.display = 'none';
-            if (btnVolver) btnVolver.style.display = 'block';
+    if (zonaSeleccion) zonaSeleccion.style.display = 'none';
+    if (btnVolver) btnVolver.style.display = 'block';
 
-            if (contenedor) {
-                contenedor.innerHTML = `
-                    <h2 class="misa-titulo">${misa.nombre}</h2>
-                    <div class="barra-herramientas">
-                        <div class="controles-tono">
-                            <button onclick="cambiarTextoGlobal(-0.1)">A-</button>
-                            <button onclick="cambiarTextoGlobal(0.1)">A+</button>
-                            <span style="font-size:0.8rem; margin-left:10px;">Texto</span>
+    if (contenedor) {
+        contenedor.innerHTML = `
+            <h2 class="misa-titulo">${misa.nombre}</h2>
+            <div class="barra-herramientas">
+                <div class="controles-tono">
+                    <button onclick="cambiarTextoGlobal(-0.1)">A-</button>
+                    <button onclick="cambiarTextoGlobal(0.1)">A+</button>
+                    <span style="font-size:0.8rem; margin-left:10px;">Texto</span>
+                </div>
+                <button onclick="window.print()" class="btn-primary" style="width:auto; padding: 5px 15px;">Generar PDF</button>
+                <button onclick="location.reload()" class="btn-primary" style="width:auto; padding: 5px 15px;">Nueva búsqueda</button>
+            </div>
+        `;
+
+        misa.cantos.forEach(id => {
+            const song = canciones.find(s => s.id === id);
+            if (song) {
+                // Extraemos únicamente la nota base (ej: de "Bb(capo3)" obtenemos "Bb")
+                const tonoBaseInicial = song.tonoOriginal.split('(')[0].trim();
+                const escalaInicial = tonosConBemolesLocal.includes(tonoBaseInicial) ? escalaBemolesLocal : escalaSostenidosLocal;
+
+                const card = document.createElement('div');
+                card.className = 'song-card';
+                
+                card.innerHTML = `
+                    <div style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
+                        <div class="song-header-top">
+                            <h3 style="margin:0;">${song.titulo}</h3>
+                            <div class="controles-tono">
+                                <button onclick="cambiarTonoLocal(${song.id}, -1)">-</button>
+                                <button onclick="cambiarTonoLocal(${song.id}, 0)">⟳</button>
+                                <button onclick="cambiarTonoLocal(${song.id}, 1)">+</button>
+                            </div>
                         </div>
-                        <button onclick="window.print()" class="btn-primary" style="width:auto; padding: 5px 15px;">Generar PDF</button>
-                        <button onclick="location.reload()" class="btn-primary" style="width:auto; padding: 5px 15px;">Nueva búsqueda</button>
+                        <div class="song-header-meta">
+                            <span style="font-style: italic;">Autor: ${song.autor || 'Desconocido'}</span>
+                            <span style="background: rgba(128,128,128,0.15); padding: 3px 8px; border-radius: 5px; font-weight: bold;">
+                                Tono: <span id="tono-label-${song.id}">${song.tonoOriginal}</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div id="song-body-${song.id}" class="lyrics-container" data-offset="0" style="font-size: ${fontSizeGlobal}rem">
+                        ${formatearAcordesEnLetra(song.letra, 0, escalaInicial, song.tonoOriginal)}
                     </div>
                 `;
-
-                misa.cantos.forEach(id => {
-                    const song = canciones.find(s => s.id === id);
-                    if (song) {
-                        const escalaInicial = tonosConBemolesLocal.includes(song.tonoOriginal) ? escalaBemolesLocal : escalaSostenidosLocal;
-
-                        const card = document.createElement('div');
-                        card.className = 'song-card';
-                        
-                        card.innerHTML = `
-                            <div style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
-                                <div class="song-header-top">
-                                    <h3 style="margin:0;">${song.titulo}</h3>
-                                    <div class="controles-tono">
-                                        <button onclick="cambiarTonoLocal(${song.id}, -1)">-</button>
-                                        <button onclick="cambiarTonoLocal(${song.id}, 0)">⟳</button>
-                                        <button onclick="cambiarTonoLocal(${song.id}, 1)">+</button>
-                                    </div>
-                                </div>
-                                <div class="song-header-meta">
-                                    <span style="font-style: italic;">Autor: ${song.autor || 'Desconocido'}</span>
-                                    <span style="background: rgba(128,128,128,0.15); padding: 3px 8px; border-radius: 5px; font-weight: bold;">
-                                        Tono: <span id="tono-label-${song.id}">${song.tonoOriginal}</span>
-                                    </span>
-                                </div>
-                            </div>
-                            <div id="song-body-${song.id}" class="lyrics-container" data-offset="0" style="font-size: ${fontSizeGlobal}rem">
-                                ${formatearAcordesEnLetra(song.letra, 0, escalaInicial, song.tonoOriginal)}
-                            </div>
-                        `;
-                        contenedor.appendChild(card);
-                    }
-                });
+                contenedor.appendChild(card);
             }
-            window.scrollTo(0, 0);
-        }
+        });
+    }
+    window.scrollTo(0, 0);
+}
 
-        function cambiarTonoLocal(id, delta) {
-            const song = canciones.find(s => s.id === id);
-            const container = document.getElementById(`song-body-${id}`);
-            if (!song || !container) return;
+function cambiarTonoLocal(id, delta) {
+    const song = canciones.find(s => s.id === id);
+    const container = document.getElementById(`song-body-${id}`);
+    if (!song || !container) return;
 
-            let offset = parseInt(container.getAttribute('data-offset'));
-            offset = (delta === 0) ? 0 : offset + delta;
-            container.setAttribute('data-offset', offset);
+    let offset = parseInt(container.getAttribute('data-offset'));
+    offset = (delta === 0) ? 0 : offset + delta;
+    container.setAttribute('data-offset', offset);
 
-            const nuevoTono = calcularNombreTono(song.tonoOriginal, offset);
-            const escala = tonosConBemolesLocal.includes(nuevoTono) ? escalaBemolesLocal : escalaSostenidosLocal;
+    const nuevoTono = calcularNombreTono(song.tonoOriginal, offset);
+    
+    // Extraemos únicamente la nota base para identificar si usa bemoles
+    const tonoBase = nuevoTono.split('(')[0].trim();
+    const escala = tonosConBemolesLocal.includes(tonoBase) ? escalaBemolesLocal : escalaSostenidosLocal;
 
-            container.innerHTML = formatearAcordesEnLetra(song.letra, offset, escala, nuevoTono);
+    container.innerHTML = formatearAcordesEnLetra(song.letra, offset, escala, nuevoTono);
 
-            const labelTono = document.getElementById(`tono-label-${id}`);
-            if (labelTono) {
-                labelTono.textContent = nuevoTono;
-            }
-        }
+    const labelTono = document.getElementById(`tono-label-${id}`);
+    if (labelTono) {
+        labelTono.textContent = nuevoTono;
+    }
+}
     </script>
 </body>
 </html>
