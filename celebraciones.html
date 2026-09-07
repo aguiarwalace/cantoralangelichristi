@@ -256,7 +256,8 @@
                 el.style.fontSize = fontSizeGlobal + 'rem';
             });
         }
-        function mostrarMisa() {
+        
+function mostrarMisa() {
     const ciclo = document.getElementById('select-ciclo').value;
     const misaId = document.getElementById('select-misa').value;
     const contenedor = document.getElementById('contenedor-misa');
@@ -285,10 +286,13 @@
             </div>
         `;
 
-        misa.cantos.forEach(id => {
-            const song = canciones.find(s => s.id === id);
+        misa.cantos.forEach(item => {
+            // Extrae el ID y el nombre del momento según la estructura usada
+            const songId = typeof item === 'object' ? item.id : item;
+            const momentoNombre = typeof item === 'object' ? item.momento : '';
+
+            const song = canciones.find(s => s.id === songId);
             if (song) {
-                // Extraemos únicamente la nota base (ej: de "Bb(capo3)" obtenemos "Bb")
                 const tonoBaseInicial = song.tonoOriginal.split('(')[0].trim();
                 const escalaInicial = tonosConBemolesLocal.includes(tonoBaseInicial) ? escalaBemolesLocal : escalaSostenidosLocal;
 
@@ -297,6 +301,7 @@
                 
                 card.innerHTML = `
                     <div style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
+                        ${momentoNombre ? `<span style="background: var(--primary, #004488); color: white; padding: 3px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; display: inline-block; margin-bottom: 8px;">${momentoNombre}</span>` : ''}
                         <div class="song-header-top">
                             <h3 style="margin:0;">${song.titulo}</h3>
                             <div class="controles-tono">
