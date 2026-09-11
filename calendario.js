@@ -236,6 +236,6 @@ const datosLiturgicos = {
         { id: "Chichimila_concierto", nombre: "Pastoral Juvenil Chichimila - Concierto (5/09/2026)",
             cantos: [239,410,106,411,385,277,407,111,413,109,386] },*/
         { id: "Aniversario_concierto", nombre: "Aniversario - Concierto (26/09/2026)",
-            cantos: [0] },
+            cantos: [414,1000,413] },
      ],
 };

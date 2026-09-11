@@ -8206,7 +8206,7 @@ Y en tus [A]manos nos presentas
   {
     id: 296,
     titulo: "LA FE DE MARÍA",
-    autor: "Anónimo",
+    autor: "Son by Four",
     categoria: "marianos",
     tonoOriginal: "Dm",
     letra: `
@@ -8786,6 +8786,12 @@ Oh, oh, oh, mi alma glorifica al señor
 Oh, oh, oh, mi espíritu se alegra en Dios, mi salvador
 Oh, oh, oh, mi alma glorifica al señor
 Oh, oh, oh, mi espíritu se alegra en Dios, mi salvador.
+{da capo ad fine}
+{interludio musical}
+Correré apresuradamente para proclamar
+Correré apresuradamente para anunciar
+Correré y ya no puedo contener
+La alegría que vive en mí {x3}
 `
   },
     // --- SECCIÓN: CANTOS DE Adviento, Navidad y Villancicos ---
@@ -10137,6 +10143,77 @@ Déjate lle[Bm]var en el salón
 Déjate [C]hacer, que trace tu camino
 É[D]l también quiere bailar con[G]tigo
 [G] [Bm] [C] [D] [G]`
+},
+{
+  id: 414,
+  titulo: "Seremos Santos",
+  autor: "Son by four",
+  categoria: "alabanza",
+  tonoOriginal: "G",
+  letra: `
+  {intro:} [C#m] [A] [E] [B] (x2)
+  {parte1}
+No es una ruta dire[E]cta
+Nuestro destino es el ci[B]elo[F#m]
+Está lleno de c[C#m]urvas
+Es una montaña [A]rusa
+De alegrías y de d[B]uelos
+La Eucaristía es mi auto[E]pista
+Mi GPS en el vu[B]elo[F#m]
+Si voy tras tus [F#m]huellas
+Con mi CRUZ a c[A]uestas
+Mi morada res[B]ervo
+{pre-coro:} [C#m] [A] [E] [B] (x2)
+Sed Santos porque YO SOY SANTO
+Y YO SOY el SEÑOR vuestro DIOS
+Sed valientes porque Yo he vencido
+Al mundo y no tendremos miedo
+{coro:} [C#m] [A] [E] [B] (x2)
+Por eso grito SUBE, 
+SUBE, SUBE
+Sin distraerte sube 
+y nunca te pares
+Porque si amamos
+Tú yo! seremos santos
+SÍ! SÍ! Como San Pedro
+SÍ! SÍ! Como San Pablo
+Como San Carlo!
+OH OH OH Seremos Santos como San Carlo!
+{parte2}
+Estar unido a ti Jes[E]ús
+Ese mi programa de v[B]ida[F#m]
+Permanecer en tu amo[C#m]r 
+unidos a la VID[A]
+Es nuestra garant[B]ía
+{coro:} [C#m] [A] [E] [B] (x2)
+Sed Santos porque YO SOY SANTO
+Y YO SOY el SEÑOR vuestro DIOS
+Sed valientes porque Yo he vencido
+Al mundo y no tendremos miedo
+Por eso grito SUBE, SUBE, SUBE
+Sin distraerte sube y no te pares
+Porque si amamos
+Tu yo! seremos santos
+SÍ! SÍ! Como San Pedro
+SÍ! SÍ! Como San Pablo
+Como San Carlo!
+OH OH OH Seremos santos como San Carlo!
+{como el coro:} [C#m] [A] [E] [B] (x2)
+Santa María, San José, San Juan Bautista
+San Esteban, Agustín, Santa Teresa y Teresita
+Santo Tomás de Aquino, San Jerónimo y Gregorio
+San Ignacio De Loyola, San Benito y San Juan Bosco
+Santa Clara, Santa Faustina, San Juan Pablo II y Teresa De Calcuta
+San Francisco De Asís, San Francisco De Sales, San Juan De La
+Cruz, San Miguel Arcángel, RUEGUEN Por Nosotros
+Por eso grito SUBE, SUBE, SUBE
+Sin distraerte sube y no te pares
+Porque si amamos
+Tu yo! seremos santos
+SÍ! SÍ! Como San Pedro
+SÍ! SÍ! Como San Pablo
+Como San Carlo!
+OH OH OH Seremos Santos como San Carlo!`
 },
     // --- SECCIÓN: CANTOS Himnos JMJ status: no terminado ---
 {
