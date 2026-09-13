@@ -77,6 +77,7 @@ const datosLiturgicos = {
                 { momento: "Credo", id: 397 },
                 { momento: "Ofertorio", id: 75 },
                 { momento: "Santo", id: 405 },
+                { momento: "Padre Nuestro", id: 124 },
                 { momento: "Cordero", id: 121 },
                 { momento: "Comunión", id: 135 },
                 { momento: "Reflexión", id: 383 },
