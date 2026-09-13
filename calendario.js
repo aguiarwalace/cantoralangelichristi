@@ -120,11 +120,11 @@ const datosLiturgicos = {
                     { momento: "Gloria", id: 243 },
                     { momento: "Aleluya", id: 65 },
                     { momento: "Ofertorio", id: 78 },
-                    { momento: "Santo", id: 405 },
+                    { momento: "Santo", id: 108},
                     { momento: "Cordero", id: 122 },
                     { momento: "Comunión", id: 144 },
                     { momento: "Reflexión", id: 133 },
-                    { momento: "Final", id: 399 }
+                    { momento: "Final", id: 413 }
             ] },
         { id: "a_to_25", nombre: "25º Domingo del Tiempo Ordinario", cantos: [0] },
         /*{ id: "a_to_26", nombre: "26º Domingo del Tiempo Ordinario", cantos: [0] },
