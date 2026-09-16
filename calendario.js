@@ -122,8 +122,8 @@ const datosLiturgicos = {
                     { momento: "Aleluya", id: 65 },
                     { momento: "Ofertorio", id: 78 },
                     { momento: "Santo", id: 108},
-             { momento: "Padre Nuestro", id: 114},
-             { momento: "Cordero", id: 121 },
+                    { momento: "Padre Nuestro", id: 114},
+                    { momento: "Cordero", id: 121 },
                     { momento: "Comunión", id: 144 },
                     { momento: "Reflexión", id: 133 },
                     { momento: "Final", id: 413 }
@@ -250,6 +250,20 @@ const datosLiturgicos = {
         { id: "Chichimila_concierto", nombre: "Pastoral Juvenil Chichimila - Concierto (5/09/2026)",
             cantos: [239,410,106,411,385,277,407,111,413,109,386] },*/
         { id: "Aniversario_concierto", nombre: "Aniversario - Concierto (26/09/2026)",
-            cantos: [414,1000,413] },
+            cantos: [
+                { momento: "1.", id: 239 },
+                { momento: "2.", id: 413 },
+                { momento: "3.", id: 415 },
+                { momento: "4. Jessica", id: 414 },
+                { momento: "5.", id: 411 },
+                { momento: "6.Andrea y Oliver", id: 1000 },
+                { momento: "7. Kike", id: 110 },
+                { momento: "8.", id: 104 },
+                { momento: "9.", id: 111 },
+                { momento: "10", id:106},
+                { momento: "11.", id: 109 },
+                { momento: "Extra", id: 386 },
+            ] },
+            
      ],
 };

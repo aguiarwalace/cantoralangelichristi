@@ -7157,7 +7157,7 @@ A donde Él va. (x2)
   {
     id: 239,
     titulo: "UNO",
-    autor: "Anónimo",
+    autor: "Kayrós",
     categoria: "salida",
     tonoOriginal: "G(capo3)",
     letra: `
@@ -10010,22 +10010,22 @@ Con un paso de fe
     letra: 
 `[Intro] Em  C  Am  G/B  C  Em
 
-[Em] Somos tu pueblo, [G] pueblo consagrado
-[Am] Susten[G/B]tados [C] por Tu amor.
-[Em] Somos tu pueblo, [G] pueblo escogido
-[Am] Traemos en el corazón la brasa del lo[B7]vor.
+[Em]Somos tu pueblo, [G]pueblo consagrado
+[Am]Susten[G/B]tados [C]por Tu amor.
+[Em]Somos tu pueblo, [G]pueblo escogido
+[Am]Traemos en el corazón la brasa del lo[B7]vor.
 
-[C] Palmas en las [D] manos, [Em] y gritos de vic[G]toria
-[C] Cielos y tierra se [Am] unen para procla[B7]mar:
+[C]Palmas en las [D]manos, [Em]y gritos de vic[G]toria
+[C]Cielos y tierra se [Am]unen para procla[B7]mar:
 
-¡¿[Em] Quién como Dios?! ¡[G] Nadie como Dios!
-[Am] Solo Él es santo y [B7] digno de honor.
-¡¿[Em] Quién como Dios?! ¡[G] Nadie como Dios!
-[Am] Solo Él es santo y [B7] digno de honor.
+¡¿[Em]Quién como Dios?! ¡[G]Nadie como Dios!
+[Am]Solo Él es santo y [B7]digno de honor.
+¡¿[Em]Quién como Dios?! ¡[G]Nadie como Dios!
+[Am]Solo Él es santo y [B7]digno de honor.
 
-Es [Em] poderoso el Señor,
+Es [Em]poderoso el Señor,
 Mara[G]villoso el Señor,
-Victo[Am]rioso [G/B] el Se[C]ñor.`
+Victo[Am]rioso [G/B]el Se[C]ñor.`
 },
 {
     id: 410,
@@ -10214,6 +10214,63 @@ SÍ! SÍ! Como San Pedro
 SÍ! SÍ! Como San Pablo
 Como San Carlo!
 OH OH OH Seremos Santos como San Carlo!`
+},
+{
+  id: 415,
+  titulo: "En Santidad",
+  autor: "Celines",
+  categoria: "alabanza",
+  tonoOriginal: "B",
+  linkPartitura: "https://www.dropbox.com/scl/fi/nojg11d1slfxfm244l0ll/01-En-Santidad.pdf?rlkey=kdx8fi6p4t2d7fpp4g368d0vh&e=1",
+  letra: `
+{Intro:} [G#m] [E] [B] [F#] {2x}
+{verso1}
+[G#m]Quiero ser un [E]espejo en el que tu
+[B]reflejo puedas [F#]mirar
+[G#m]Una antorcha [E]encendida que a su paso
+[B]ilumina con tu luz [F#]la oscuridad
+
+[E]Que toda [B]mi vida hable [F#]de ti
+[E]Que hasta mi último [B]aliento sea [F#]para ti{pausa}
+
+{coro}
+Yo quiero [B]ser reflejo de tu [E]gloria y [G#m]caminar en [F#]santidad
+Quiero llevar tu [B]ley grabada en mi [E]memoria y am[G#m]arte con [F#]fidelidad
+en santi[B]dad[E] [B] [F#]
+
+{verso2}
+Qué [G#m]cada [E]batido de mi [B]corazón me acerque [F#]a ti
+[G#m]Que hasta mi [E]pensamiento en todo [B]momento te agrade [F#]a ti
+
+[E]Que toda mi vida sea una [B]adoración[F#]
+[E]Que pueda [B]contemplarte en cada[F#]detalle
+de la creación[F#]
+
+{coro}
+Yo quiero [B]ser reflejo de tu [E]gloria y [G#m]caminar en [F#]santidad
+Quiero llevar tu [B]ley grabada en mi [E]memoria y am[G#m]arte con [F#]fidelidad
+Yo quiero [B]ser reflejo de tu [E]gloria y [G#m]caminar en [F#]santidad
+Quiero llevar tu [B]ley grabada en mi [E]memoria y am[G#m]arte con [F#]fidelidad
+en santi[B]dad[E] [B] [F#]
+
+{intermedio y puente}
+[G#m] [E] [B] [F#/A#] {2x}
+Quiero ser [G#m]sal de la tierra, [E]luz en la oscuridad
+Quiero [B]ser el [F#/A#] instrumento de tu paz,
+quiero [G#m]amar con tu amor, [E]proclamar tu verdad
+Yo [B]quiero vivir [F#/A#]en santidad[F#]
+
+{coro}
+Yo quiero [B]ser reflejo de tu [E]gloria y [G#m]caminar en [F#]santidad
+Quiero llevar tu [B]ley grabada en mi [E]memoria y am[G#m]arte con [F#]fidelidad
+Yo quiero [B]ser reflejo de tu [E]gloria y [G#m]caminar en [F#]santidad
+Quiero llevar tu [B]ley grabada en mi [E]memoria y am[G#m]arte con [F#]fidelidad
+Yo quiero [B]ser reflejo de tu [E]gloria y [G#m]caminar en [F#]santidad
+Quiero llevar tu [B]ley grabada en mi [E]memoria y am[G#m]arte con [F#]fidelidad
+en santi[B]dad[E] [B] [F#]
+{final}
+[B/D#] [E] [G#m]Oh, oh, oh, oh[F#]
+[G#m] [E] [B] [F#]`
 },
     // --- SECCIÓN: CANTOS Himnos JMJ status: no terminado ---
 {
@@ -11035,4 +11092,4 @@ Y que mi[C] cora[G]zón sineta en carne[Am] viva
 [F]Leván[G]tate y [C] anda. [Am] [F] [G]
 `},
 ]; 
-// último id:414
+// último id:415
