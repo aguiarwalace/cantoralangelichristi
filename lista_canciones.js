@@ -11094,5 +11094,63 @@ Y que mi[C] cora[G]zón sineta en carne[Am] viva
 [C]La miseri[G]cordia ha entrado en esta [F] casa (x2)
 [F]Leván[G]tate y [C] anda. [Am] [F] [G]
 `},
+  {
+  id: 416,
+  titulo: "Uno (versión acústica)",
+  autor: "Kayrós",
+  categoria: "salida, alabanza",
+  tonoOriginal: "G (capo 1)",
+  letra: `INTRO: G C Em D C
+
+[G]En un mundo que no gira a mi alrededor
+[C]Sobre caminos que no ofrecen una solución
+[Em]No voy pues se que hay algo mejor                      [D]
+[C]Y en mi interior escucho tu voz
+
+[G] [C] [Em] [D] [C]
+
+[G]Y al estar yo caminando en contra del reloj
+[C]Fui un iluso al pensar que estaba solo yo
+[Em]Tu fuego en mí, lo está pidiendo                       [D]
+[C]Unirme en ti, ser uno solo
+
+[Am]Ven a nuestra pres[Em]encia
+[C]Danos esa fuerza, de gritar a una voz (x2)
+
+[G]Danos un solo corazón
+[C]Y una sola alma señor
+[Em]Que tu amor sea de nosotros                     [D]
+[C]Uno solo y el mismo Dios
+
+[G] [C] [Em] [D] [C]
+
+[G]Y ahora unidos con el fuego de tu espíritu
+[C]Ya no hay miedo ni tormentas pues aquí estas tu
+[Em]¿Quién contra mi si estás conmigo?                     [D]
+[C]Tu hablar en mí, es mi destino
+
+[Am]Ven a nuestra pres[Em]encia
+[C]Danos esa fuerza, de gritar a una voz (x2)
+
+[G]Danos un solo corazón
+[C]Y una sola alma señor
+[Em]Que tu amor sea de nosotros                     [D]
+[C]Uno solo y el mismo Dios (x2)
+
+[G] [C] [Em] [D] [G]
+
+Somos un corazón 
+Y una misma alma (x8)
+
+Somos un corazón
+Y una misma alma señor
+Que tu amor sea de nosotros
+Uno solo y el mismo Dios
+
+[G]Danos un solo corazón
+[C]Y una sola alma señor
+[Em]Que tu amor sea de nosotros                     [D]
+[C]Uno solo y el mismo Dios`
+},
 ]; 
-// último id:415
+// último id:416
