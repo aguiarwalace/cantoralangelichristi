@@ -10086,6 +10086,7 @@ Que, si [D]llevas la cruz a cuestas, no se tiene por qué notar
 Que, si [Em]esta no es nuestra liga, entonces ¿a qué te quieres
 Afe[C]rrar?
 
+{coro}
 [D]Simplemente, b[G]aila y déjate de historias [Bm]
 Aunque [C]no tengas el control [D]
 Cualquiera [Em]que sea la canción
@@ -10114,6 +10115,7 @@ Lo terre[D]nal puede esperar
 Recuerda [Em]que no poner firma
 [C]Es la mejor forma de fir[D]mar
 
+{coro - instrum. en compás2, tiempo2}
 [D]Simplemente, b[G]aila y déjate de historias [Bm]
 Aunque [C]no tengas el control [D]
 Cualquiera [Em]que sea la canción
@@ -10136,6 +10138,7 @@ Cualquiera [Em]que sea la canción
 Déjate lle[Bm]var en el salón
 Déjate [C]hacer, que trace su camino
 
+{coro calmado}
 [D]Simplemente, b[G]aila y déjate de historias [Bm]
 Aunque [C]no tengas el control [D]
 Cualquiera [Em]que sea la canción
@@ -10231,7 +10234,7 @@ OH OH OH Seremos Santos como San Carlo!`
 [B]ilumina con tu luz [F#]la oscuridad
 
 [E]Que toda [B]mi vida hable [F#]de ti
-[E]Que hasta mi último [B]aliento sea [F#]para ti{pausa}
+[E]Que hasta mi último [B]aliento sea [F#]para ti[pausa]
 
 {coro}
 Yo quiero [B]ser reflejo de tu [E]gloria y [G#m]caminar en [F#]santidad
