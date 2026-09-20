@@ -597,7 +597,35 @@ Intro:
 [C]Piedras vivas del templo de Dios, [Am]vamos hacia [Em]ti.
 `
   },
+{
+    id: 417,
+    titulo: "Tu Palabra me da vida",
+    autor: "Anónimo",
+    categoria: "entrada, biblia",
+    tonoOriginal: "D",
+    letra: `
+{coro}
+[D]Tu Palabra [D7]me da [G]vid[F#m]a
+Con[D]fío en [Bm]Ti Señ[Em]or[A7]
+[D]Tu Pa[D7]labra es e[G]ter[F#m]na
+En [Bm]ella es[A7]perar[D]é.
 
+1. Di[D]choso el que con v[A7]ida inta[D]chable
+Ca[A7]mina en la ley del Se[D]ñor
+Di[D]choso el que guar[A7]dando Sus pre[D]ceptos
+Lo [A7]busca de todo cora[D]zón.
+
+2. Postrada en el polvo está mi alma
+devuélveme la vida tu Palabra
+Mi alma está llena de tristeza
+Consuélame, Señor, con tus promesas.
+
+3. Escogí el camino verdadero
+y he tenido presentes Tus decretos
+Correré por el camino del Señor
+Cuando me hayas ensanchado el corazón.
+`
+  },
   // --- SECCIÓN: CANTOS DE PIEDAD (status: verificar los no litúrgicos y comentarlos) ---
   {
     id: 24,
@@ -6089,10 +6117,11 @@ ven y quédate, Se[C]ñor.
 [D] te rindo hoy mi ser y mi cora[G]zón.
 [Bm] No hay [A] lugar mejor [G] que a tus [D] pies Señor,
 [D] en ti encuentro [A] paz, encuentro amor.
-
+{coro}
 [Bm] Recibe mi [G] corazón, [D] Jesús mi buen pas[A]tor,
 [Bm] recibe mi o[G]ración, te [D] entrego hoy mi [A] corazón.
-
+{da capo}
+{coro 3x}
 [D] En la intimidad de tu pre[G]sencia.
 `
   },// --- revisado até aqui ---
@@ -10275,6 +10304,107 @@ en santi[B]dad[E] [B] [F#]
 [B/D#] [E] [G#m]Oh, oh, oh, oh[F#]
 [G#m] [E] [B] [F#]`
 },
+{
+      id: 413,
+    titulo: "La misericordia ha entrado en esta casa", 
+    autor: "Hakuna Group Music",
+    categoria: "alabanza",
+    tonoOriginal: "Am",
+    letra: `
+[Am]El día al[G] día le[F] pasa su men[Em]sa[E]je
+[Am]La noche a la[G] noche se[F] lo su[Em]su[E]rra
+[Am]Tu miseri[G]cordia, Se[F]ñor, llena la [Em]tie[E]rra
+[Am]Úsame para lle[G]varla a[F] cada rin[Em]cón.[E]
+
+[C]Llevaré tu miseri[G]cordia a la universi[Am]dad
+[F]Entraré en el cora[C]zón de cada[E] ami[Am]go
+[C]Y con la[G] fuerza de tu Espíritu di[F]ré:
+
+[C]La miseri[G]cordia ha entrado en esta[F] casa (x2)
+[F]Leván[G]tate y[C] anda. [Am] [F] [G]
+
+[C]Llevaré tu miseri[G]cordia a la universi[Am]dad
+[F]Entraré en el cora[C]zón de cada [E] ami[Am]go
+[C]Y con la[G] fuerza de tu Espíritu di[F]ré:
+
+[C]La miseri[G]cordia ha entrado en esta [F] casa (x2)
+[F]Leván[G]tate y[C] anda. [Am] [F] [G]
+
+[C]Hazme bendi[F]ción para cual[G]quiera
+[C]no me impor[F]ta sangrar, so[G]lo quiero que
+[C]que tu amor[F]sin limites,que [G] tu sed nos sane
+[C]Úsame para tr[F]er hoy tu ter[G]nura
+
+Qu[C]e mi[F]s ojos vean[G] todo belleza [E] 
+Descubr[Am]iendo, [F]el rostro de cada[G] uno
+Que mis [C]oídos [F]escuchen los grit[G]os
+mudos del prójimo [E] 
+Que mi [Am]boca, manos y [F]pies trans[G]mitan tu ternura
+
+Y que mi[C] cora[G]zón sineta en carne[Am] viva
+[F](canon)[C][E][Am]
+
+[C]La miseri[G]cordia ha entrado en esta [F] casa (x2)
+[F]Leván[G]tate y [C] anda. [Am] [F] [G]
+`},
+  {
+  id: 416,
+  titulo: "Uno (versión en vivo)",
+  autor: "Kayrós",
+  categoria: "salida, alabanza",
+  tonoOriginal: "G (capo 1)",
+  letra: `INTRO: [G] [C] [Em] [D] [C]
+
+[G]En un mundo que no gira a mi alrededor
+[C]Sobre caminos que no ofrecen una solución
+[Em]No voy pues se que hay algo mejor[D]
+[C]Y en mi interior escucho tu voz
+
+[G] [C] [Em] [D] [C]
+
+[G]Y al estar yo caminando en contra del reloj
+[C]Fui un iluso al pensar que estaba solo yo
+[Em]Tu fuego en mí, lo está pidiendo[D]
+[C]Unirme en ti, ser uno solo
+
+[Am]Ven a nuestra pres[Em]encia
+[C]Danos esa fuerza, de gritar a una voz (x2)
+
+[G]Danos un solo corazón
+[C]Y una sola alma señor
+[Em]Que tu amor sea de nosotros[D]
+[C]Uno solo y el mismo Dios
+
+[G] [C] [Em] [D] [C]
+
+[G]Y ahora unidos con el fuego de tu espíritu
+[C]Ya no hay miedo ni tormentas pues aquí estas tu
+[Em]¿Quién contra mi si estás conmigo?[D]
+[C]Tu hablar en mí, es mi destino
+
+[Am]Ven a nuestra pres[Em]encia
+[C]Danos esa fuerza, de gritar a una voz (x2)
+
+[G]Danos un solo corazón
+[C]Y una sola alma señor
+[Em]Que tu amor sea de nosotros[D]
+[C]Uno solo y el mismo Dios (x2)
+
+[G] [C] [Em] [D] [G]
+
+Somos un corazón 
+Y una misma alma (x8)
+
+Somos un corazón
+Y una misma alma señor
+Que tu amor sea de nosotros
+Uno solo y el mismo Dios
+
+[G]Danos un solo corazón
+[C]Y una sola alma señor
+[Em]Que tu amor sea de nosotros[D]
+[C]Uno solo y el mismo Dios`
+},
     // --- SECCIÓN: CANTOS Himnos JMJ status: no terminado ---
 {
     id: 409,
@@ -11051,106 +11181,7 @@ Todo es [C/E]tuyo Señor[A]
 [G]Todo es tuyo Señor[A] [D]
 {final:}[G][A][D]`
 },
-{
-      id: 413,
-    titulo: "La misericordia ha entrado en esta casa", 
-    autor: "Hakuna Group Music",
-    categoria: "mision",
-    tonoOriginal: "Am",
-    letra: `
-[Am]El día al[G] día le[F] pasa su men[Em]sa[E]je
-[Am]La noche a la[G] noche se[F] lo su[Em]su[E]rra
-[Am]Tu miseri[G]cordia, Se[F]ñor, llena la [Em]tie[E]rra
-[Am]Úsame para lle[G]varla a[F] cada rin[Em]cón.[E]
+//realocar a partir de aquí
 
-[C]Llevaré tu miseri[G]cordia a la universi[Am]dad
-[F]Entraré en el cora[C]zón de cada[E] ami[Am]go
-[C]Y con la[G] fuerza de tu Espíritu di[F]ré:
-
-[C]La miseri[G]cordia ha entrado en esta[F] casa (x2)
-[F]Leván[G]tate y[C] anda. [Am] [F] [G]
-
-[C]Llevaré tu miseri[G]cordia a la universi[Am]dad
-[F]Entraré en el cora[C]zón de cada [E] ami[Am]go
-[C]Y con la[G] fuerza de tu Espíritu di[F]ré:
-
-[C]La miseri[G]cordia ha entrado en esta [F] casa (x2)
-[F]Leván[G]tate y[C] anda. [Am] [F] [G]
-
-[C]Hazme bendi[F]ción para cual[G]quiera
-[C]no me impor[F]ta sangrar, so[G]lo quiero que
-[C]que tu amor[F]sin limites,que [G] tu sed nos sane
-[C]Úsame para tr[F]er hoy tu ter[G]nura
-
-Qu[C]e mi[F]s ojos vean[G] todo belleza [E] 
-Descubr[Am]iendo, [F]el rostro de cada[G] uno
-Que mis [C]oídos [F]escuchen los grit[G]os
-mudos del prójimo [E] 
-Que mi [Am]boca, manos y [F]pies trans[G]mitan tu ternura
-
-Y que mi[C] cora[G]zón sineta en carne[Am] viva
-[F](canon)[C][E][Am]
-
-[C]La miseri[G]cordia ha entrado en esta [F] casa (x2)
-[F]Leván[G]tate y [C] anda. [Am] [F] [G]
-`},
-  {
-  id: 416,
-  titulo: "Uno (versión acústica)",
-  autor: "Kayrós",
-  categoria: "salida, alabanza",
-  tonoOriginal: "G (capo 1)",
-  letra: `INTRO: G C Em D C
-
-[G]En un mundo que no gira a mi alrededor
-[C]Sobre caminos que no ofrecen una solución
-[Em]No voy pues se que hay algo mejor                      [D]
-[C]Y en mi interior escucho tu voz
-
-[G] [C] [Em] [D] [C]
-
-[G]Y al estar yo caminando en contra del reloj
-[C]Fui un iluso al pensar que estaba solo yo
-[Em]Tu fuego en mí, lo está pidiendo                       [D]
-[C]Unirme en ti, ser uno solo
-
-[Am]Ven a nuestra pres[Em]encia
-[C]Danos esa fuerza, de gritar a una voz (x2)
-
-[G]Danos un solo corazón
-[C]Y una sola alma señor
-[Em]Que tu amor sea de nosotros                     [D]
-[C]Uno solo y el mismo Dios
-
-[G] [C] [Em] [D] [C]
-
-[G]Y ahora unidos con el fuego de tu espíritu
-[C]Ya no hay miedo ni tormentas pues aquí estas tu
-[Em]¿Quién contra mi si estás conmigo?                     [D]
-[C]Tu hablar en mí, es mi destino
-
-[Am]Ven a nuestra pres[Em]encia
-[C]Danos esa fuerza, de gritar a una voz (x2)
-
-[G]Danos un solo corazón
-[C]Y una sola alma señor
-[Em]Que tu amor sea de nosotros                     [D]
-[C]Uno solo y el mismo Dios (x2)
-
-[G] [C] [Em] [D] [G]
-
-Somos un corazón 
-Y una misma alma (x8)
-
-Somos un corazón
-Y una misma alma señor
-Que tu amor sea de nosotros
-Uno solo y el mismo Dios
-
-[G]Danos un solo corazón
-[C]Y una sola alma señor
-[Em]Que tu amor sea de nosotros                     [D]
-[C]Uno solo y el mismo Dios`
-},
 ]; 
-// último id:416
+// último id:417

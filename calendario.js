@@ -53,7 +53,7 @@ const datosLiturgicos = {
         { id: "a_to_13", nombre: "13º Domingo del Tiempo Ordinario", cantos: [4,399,25,243,402,397,391,100,122,151,401,338,239,339] },
         { id: "a_to_14", nombre: "14º Domingo del Tiempo Ordinario", cantos: [4,25,243,60,397,391,100,122,144,133,239] },
         { id: "a_to_15", nombre: "15º Domingo del Tiempo Ordinario", cantos: [4,25,243,402,397,391,100,122,357,403,239] },
-        { id: "a_to_16", nombre: "16º Domingo del Tiempo Ordinario", cantos: [19,25,243,402,397,77,405,122,351,133,399] },*/
+        { id: "a_to_16", nombre: "16º Domingo del Tiempo Ordinario", cantos: [19,25,243,402,397,77,405,122,351,133,399] },
         { id: "a_to_17", nombre: "17º Domingo del Tiempo Ordinario", 
             cantos: [
                     { momento: "Entrada", id: 19 },
@@ -113,7 +113,7 @@ const datosLiturgicos = {
             ] },
         { id: "a_to_21", nombre: "21º Domingo del Tiempo Ordinario", cantos: [4,25,243,402,79,405,121,144,342,133,240]},
         { id: "a_to_22", nombre: "22º Domingo del Tiempo Ordinario", cantos: [4,25,243,402,75,405, 121,151,338,240] },
-        { id: "a_to_23", nombre: "23º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_23", nombre: "23º Domingo del Tiempo Ordinario", cantos: [0] },*/
         { id: "a_to_24", nombre: "24º Domingo del Tiempo Ordinario",
          cantos: [
                     { momento: "Entrada", id: 4},
@@ -128,7 +128,21 @@ const datosLiturgicos = {
                     { momento: "Reflexión", id: 133 },
                     { momento: "Final", id: 413 }
             ] },
-        { id: "a_to_25", nombre: "25º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_25", nombre: "25º Domingo del Tiempo Ordinario",
+         cantos: [
+                    { momento: "Entrada", id: 4},
+                    {momento: "Entronización de la Biblia", id: 417},
+                    { momento: "Piedad", id: 25 },
+                    { momento: "Gloria", id: 243 },
+                    { momento: "Aleluya", id: 244 },
+                    { momento: "Ofertorio", id: 78 },
+                    { momento: "Santo", id: 108},
+                    { momento: "Padre Nuestro", id: 114},
+                    { momento: "Cordero", id: 121 },
+                    { momento: "Comunión", id: 191 },
+                    { momento: "Reflexión", id: 370 },
+                    { momento: "Final", id: 416 }
+            ] },
         /*{ id: "a_to_26", nombre: "26º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_27", nombre: "27º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_28", nombre: "28º Domingo del Tiempo Ordinario", cantos: [0] },
