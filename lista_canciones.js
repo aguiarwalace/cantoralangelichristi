@@ -10037,7 +10037,7 @@ Con un paso de fe
     tonoOriginal: "G",
     categoria: "alabanzas",
     letra: 
-`[Intro] Em  C  Am  G/B  C  Em
+`[Intro] [Em] [C] [Am] [G/B] [C] [Em]
 
 [Em]Somos tu pueblo, [G]pueblo consagrado
 [Am]Susten[G/B]tados [C]por Tu amor.
@@ -10104,7 +10104,7 @@ toda mi [A]vida y ya no puedo pa[B]rar [C#] [D]
   letra: `{Intro:}  [G] [Bm] [C] [D]
   
 {melodía:armónica:2x}
-[B] [A] /[E] [D] [E] [D] [E] [D]/ [E] [E] [D] [C] /[B...]
+[B] [A/] [E] [D] [E] [D] [E] [D/] [E] [E] [D] [C/] [B...]
 Que ni una ni mil [G]piedras en el camino te hagan tropezar
 No te [D]ates a nada, no hay tiempo para dejar la oportunidad pasar
 Que [Em]no hay excusa alguna para no servir a los demás
@@ -10192,7 +10192,7 @@ Es una montaña [A]rusa
 De alegrías y de d[B]uelos
 La Eucaristía es mi auto[E]pista
 Mi GPS en el vu[B]elo[F#m]
-Si voy tras tus [F#m]huellas
+Si voy tras tus [C#m]huellas
 Con mi CRUZ a c[A]uestas
 Mi morada res[B]ervo
 {pre-coro:} [C#m] [A] [E] [B] (x2)
