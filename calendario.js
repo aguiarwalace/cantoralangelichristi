@@ -154,7 +154,7 @@ const datosLiturgicos = {
                     { momento: "Santo", id: 108},
                     { momento: "Padre Nuestro", id: 114},
                     { momento: "Cordero", id: 121 },
-                    { momento: "Comunión", id: 191 },
+                    { momento: "Comunión", id: 152 },
                     { momento: "Reflexión", id: 370 },
                     { momento: "Final", id: 416 }
             ] },

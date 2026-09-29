@@ -3260,7 +3260,7 @@ sea un [C]día reuni[D]da en el [G]cielo [C/G] [D/G] [C/G] [bis.]
 [Em]Vino a este [D/E]mundo para [Em]no abando[D/E]narnos,
 [Em]En el [D/E]viaje nos de[Em]jó, su [D/E]Cuerpo hecho [Em]Pan de Vida.
 
-[Em] _Verbum Caro [C]factum est,
+[Em]Verbum Caro [C]factum est,
 [D4]Verbum [D]Panis factum est. (x2)
 
 [G]Tú sigues [D/F#]repartién[C]donos tu [D]Pan,
