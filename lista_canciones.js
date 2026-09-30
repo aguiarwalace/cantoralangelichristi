@@ -6982,6 +6982,66 @@ Intro: [C] [F] [C] / [G] [C] [Am] [F] [C]
 [Bm]Santo espíritu [G]ven a mi. (x2)
 `
   },
+  // Agregar esta estructura dentro del arreglo 'canciones' en lista_canciones.js
+
+{
+    id: 418,
+    titulo: "Fuego",
+    autor: "Don Fer / Luz de Jesús",
+    categoria: "espiritusanto",
+    tonoOriginal: "A",
+    letra: `
+{Intro:}
+[||:] [Bmaj7] [Amaj7] [|] [Bmaj7] [Amaj7] [:||]
+[||:] [G#dis] [C#7] [|] [G#dis] [C#7] [:||]
+[F#maj7] [E13] [|%|]
+
+[F#maj7]Fuego, [E13]de paz y amor
+[F#maj7]Fuego, [E13]del corazón
+
+Fuego que penetra en la mente
+en el cuerpo y en el corazón
+Fuego que me enciende la vida
+Renueva mi esperanza
+
+[F#maj7]Fuego, [E13]de Vino y Pan
+[F#maj7]Fuego, [E13]de luz y sal
+Fuego que libera ataduras
+Que van matando el alma
+Fuego que me quita los miedos
+Que siento que me atrapan
+
+[Bm7]      [F#maj7] [E13]
+Mi Señor, fuego de amor
+Mi Señor, fuego de amor
+[Dmaj7]
+En las noches que me inquietan
+
+[C#m7]Las sombras del dolor
+[Dmaj7]Este fuego se me adentra
+[C#m7]Me abraza y da calor        
+[Bm7]Amoroso me [E7]cobija      
+[Aadd9]Me alumbra el [Dmaj7]corazón
+[Bm7]Y me guía por caminos        
+[C#7]Que llevan al [D7]amor [C#7] [C#dis] [F#7#5] [F#7]
+
+{silencio una vez
+puente = intro
+Silencio una vez}
+
+Fuego, carisma y don
+Fuego, sudor y sal
+
+Fuego que me da la confianza
+de andar en esta barca
+Fuego que me lleva a los mares
+Profundos por las almas
+
+[Bm7]Mi Señor, [F#maj7]fuego de amor[E13]
+[Bm7]Mi Señor, [F#maj7]fuego de amor[E13]
+{3x}
+`
+},
     // --- SECCIÓN: CANTOS DE Salida ---
   {
     id: 230,
@@ -11184,4 +11244,4 @@ Todo es [C/E]tuyo Señor[A]
 //realocar a partir de aquí
 
 ]; 
-// último id:417
+// último id:418

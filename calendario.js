@@ -132,7 +132,7 @@ const datosLiturgicos = {
          cantos: [
                     { momento: "Entrada", id: 4},
                     {momento: "Entronización de la Biblia", id: 417},
-                    { momento: "Piedad", id: 25 },
+                    { momento: "Piedad - se omite", id: 25 },
                     { momento: "Gloria", id: 243 },
                     { momento: "Aleluya", id: 244 },
                     { momento: "Ofertorio", id: 78 },
@@ -146,7 +146,6 @@ const datosLiturgicos = {
         { id: "a_to_26", nombre: "26º Domingo del Tiempo Ordinario", 
             cantos: [
                     { momento: "Entrada", id: 4},
-                    {momento: "Entronización de la Biblia", id: 417},
                     { momento: "Piedad", id: 25 },
                     { momento: "Gloria", id: 243 },
                     { momento: "Aleluya", id: 244 },
