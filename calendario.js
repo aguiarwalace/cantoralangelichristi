@@ -157,7 +157,20 @@ const datosLiturgicos = {
                     { momento: "Reflexión", id: 370 },
                     { momento: "Final", id: 416 }
             ] },
-        { id: "a_to_27", nombre: "27º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_27", nombre: "27º Domingo del Tiempo Ordinario",
+         cantos: [
+                    { momento: "Entrada", id: 4},
+                    { momento: "Piedad", id: 25 },
+                    { momento: "Gloria", id: 243 },
+                    { momento: "Aleluya", id: 244 },
+                    { momento: "Ofertorio", id: 78 },
+                    { momento: "Santo", id: 108},
+                    { momento: "Padre Nuestro", id: 114},
+                    { momento: "Cordero", id: 121 },
+                    { momento: "Comunión", id: 357 },
+                    { momento: "Reflexión", id: 403 },
+                    { momento: "Final", id: 416 }
+            ] },
         { id: "a_to_28", nombre: "28º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_29", nombre: "29º Domingo del Tiempo Ordinario", cantos: [0] },
         /*{ id: "a_to_30", nombre: "30º Domingo del Tiempo Ordinario", cantos: [0] },
