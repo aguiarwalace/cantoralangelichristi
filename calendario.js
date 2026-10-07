@@ -288,7 +288,7 @@ const datosLiturgicos = {
         { id: "chichimila_hr_santa", nombre: "Chichimila - Hora Santa (5/09/2026)", 
             cantos: [142,338,200,390,379,343,404] },
         { id: "Chichimila_concierto", nombre: "Pastoral Juvenil Chichimila - Concierto (5/09/2026)",
-            cantos: [239,410,106,411,385,277,407,111,413,109,386] },*/
+            cantos: [239,410,106,411,385,277,407,111,413,109,386] },
         { id: "Aniversario_concierto", nombre: "Aniversario - Concierto (26/09/2026)",
             cantos: [
                 { momento: "1.", id: 416 },
@@ -303,7 +303,22 @@ const datosLiturgicos = {
                 { momento: "10", id:106},
                 { momento: "11.", id: 109 },
                 { momento: "Extra", id: 386 },
+            ] },*/             
+        { id: "confirmaciones_aem_2026", nombre: "Confirmaciones (AEM) (11/10/2026)",
+            cantos: [
+                { momento: "Entrada", id: 276 },
+                { momento: "Piedad", id: 25 },
+                { momento: "Gloria", id: 243 },
+                { momento: "Aleluya", id: 244 },
+                { momento: "Aspersión", id: 113 },
+                { momento: "Unción con el Santo Crisma", id: 274 },
+                { momento: "Ofertorio", id: 76 },
+                { momento: "Santo", id: 90 },
+                { momento: "Cordero", id: 121 },
+                { momento: "Comunión", id: 139 },
+                { momento: "Reflexión", id:389},
+                { momento: "Final1", id: 270 },
+                { momento: "Final2", id: 275 },
             ] },
-            
      ],
 };
