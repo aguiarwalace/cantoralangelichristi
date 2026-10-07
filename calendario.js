@@ -113,7 +113,7 @@ const datosLiturgicos = {
             ] },
         { id: "a_to_21", nombre: "21º Domingo del Tiempo Ordinario", cantos: [4,25,243,402,79,405,121,144,342,133,240]},
         { id: "a_to_22", nombre: "22º Domingo del Tiempo Ordinario", cantos: [4,25,243,402,75,405, 121,151,338,240] },
-        { id: "a_to_23", nombre: "23º Domingo del Tiempo Ordinario", cantos: [0] },*/
+        { id: "a_to_23", nombre: "23º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_24", nombre: "24º Domingo del Tiempo Ordinario",
          cantos: [
                     { momento: "Entrada", id: 4},
@@ -156,7 +156,7 @@ const datosLiturgicos = {
                     { momento: "Comunión", id: 152 },
                     { momento: "Reflexión", id: 370 },
                     { momento: "Final", id: 416 }
-            ] },
+            ] },*/
         { id: "a_to_27", nombre: "27º Domingo del Tiempo Ordinario",
          cantos: [
                     { momento: "Entrada", id: 4},
