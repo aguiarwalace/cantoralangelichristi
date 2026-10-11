@@ -232,7 +232,7 @@ Intro: [F] [Bb] [F] [Bb] [F] [Bb] [F] [Bb]
 [F]Todo a[C]quel que en [Bb]él confiar
 [Dm]Salva[F]ción y [C]vida tendrá
 
-[F]Ale[C]grense y rin[Bb ]danle glória
+[F]Ale[C]grense y rin[Bb]danle glória
 [F]Cele[C]brar con can[Eb]ción de victoria
 [Dm]Si la [C]muerte no lo [Bb]pudo ven[Dm]cer
 [Dm]¿Quién [Am]po[G]drá?
