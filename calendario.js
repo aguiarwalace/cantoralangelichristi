@@ -316,7 +316,7 @@ const datosLiturgicos = {
                 { momento: "10", id:106},
                 { momento: "11.", id: 109 },
                 { momento: "Extra", id: 386 },
-            ] },*/             
+            ] },
         { id: "confirmaciones_aem_2026", nombre: "Confirmaciones (AEM) (11/10/2026)",
             cantos: [
                 { momento: "Entrada", id: 276 },
@@ -332,6 +332,23 @@ const datosLiturgicos = {
                 { momento: "Reflexión", id:389},
                 { momento: "Final1", id: 270 },
                 { momento: "Final2", id: 275 },
+            ] },*/
+        { id: "panaba_concierto", nombre: "Panabá - Concierto (17/10/2026)",
+            cantos: [
+                { momento: "1.", id: 416 },
+                { momento: "2.", id: 413 },
+                { momento: "3.", id: 111 },
+                { momento: "4.", id: 414 },
+                { momento: "5.", id: 106 },
+                { momento: "6.", id: 275 },
+                { momento: "7.", id: 280 },
+                { momento: "8.", id: 110 },
+                { momento: "9.", id: 368 },
+                { momento: "10.", id: 385 },
+                { momento: "11.", id: 277 },
+                { momento: "12.", id: 411 },
+                { momento: "13.", id: 109 },
+                { momento: "14.", id: 386 },
             ] },
      ],
 };

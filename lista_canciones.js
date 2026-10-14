@@ -7893,7 +7893,7 @@ Uohh ¡Ahora soy [Em]libre!
   {
     id: 280,
     titulo: "¿ACASO NO ESTOY YO AQUÍ?",
-    autor: "Anónimo",
+    autor: "Athena",
     categoria: "marianos",
     tonoOriginal: "G",
     letra: `
@@ -10063,31 +10063,35 @@ No te avergüences y alaba a tu Se[G]ñor,
   letra: `
 Intro: [G] [D] [Em] [C] [D] (x2)
 
-[C] [D] [C] MOVERÁS LAS MONTAÑAS
-[D] [C] CAMINAR SOBRE AGUA (x2)
-[C] [D] [C] CAMINAR SOBRE FUEGO
-[D] [C] PROCLAMAR SU PALABRA (x2)
+[C]MOVERÁS LAS [D]MONTAÑAS
+[C]CAMINAR SOBRE [D]AGUA (x2)
+[C]CAMINAR SOBRE [D]FUEGO
+[C]PROCLAMAR SU [D]PALABRA (x2)
 
-[G] [C] [D] [C] CON UN PASO DE FE A CRISTO VERÁS (x4)
+[G]CON UN [C]PASO DE [D]FE A [C]CRISTO [G]VERÁS (x4)
 
-MOVERÁS LAS MONTAÑAS CAMINAR SOBRE AGUA (x2)
+[C]MOVERÁS LAS [D]MONTAÑAS
+[C]CAMINAR SOBRE [D]AGUA (x2)
 
-CON UN PASO DE FE A CRISTO VERÁS (x4)
+[G]CON UN [C]PASO DE [D]FE A [C]CRISTO [G]VERÁS (x4)
 
-CAMINAR SOBRE FUEGO PROCLAMAR SU PALABRA (x2)
+[C]CAMINAR SOBRE [D]FUEGO
+[C]PROCLAMAR SU [D]PALABRA (x2)
 
-[G] [C] [D] [C] Baja el rio, baja el rio
-[G] [C] [D] [C] baja el rio hacia el jordan
+[G]Baja el [C]rio, [D]baja el [C]rio
+[G]baja el [C]rio [D]hacia el Jordan
 
-CON UN PASO DE FE A CRISTO VERÁS (x4)
+[G]CON UN [C]PASO DE [D]FE A [C]CRISTO [G]VERÁS (x4)
 
-MOVERÁS LAS MONTAÑAS
-CAMINAR SOBRE AGUA
-CAMINAR SOBRE FUEGO
-PROCLAMAR SU PALABRA
+[C]MOVERÁS LAS [D]MONTAÑAS
+[C]CAMINAR SOBRE [D]AGUA (x2)
+[C]CAMINAR SOBRE [D]FUEGO
+[C]PROCLAMAR SU [D]PALABRA (x2)
 
-Baja el rio…
-Con un paso de fe
+[G]Baja el [C]rio, [D]baja el [C]rio
+[G]baja el [C]rio [D]hacia el Jordan
+
+[G]CON UN [C]PASO DE [D]FE A [C]CRISTO [G]VERÁS (x4)
 `
 },
 {
@@ -11145,7 +11149,7 @@ Por la [Dm]noche i[D7(4/9)]gual.
 {
     id: 110,
     titulo: "Estoy Cansado de Gritar (Salmo 69)",
-    autor: "Hiiro",
+    autor: "Alan Acosta",
     categoria: "reflexion, angelichristi",
     tonoOriginal: "C (Capo 4)",
     letra: ` 
