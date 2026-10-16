@@ -2907,7 +2907,7 @@ Aquí hay un muchacho
   },
   {
     id: 142,
-    titulo: "ESTAS AQUÍ",
+    titulo: "ESTÁS AQUÍ",
     autor: "Jeséd",
     categoria: "comunion",
     tonoOriginal: "C",
@@ -5767,63 +5767,69 @@ Intro: [G] [C] [G] [C]
   {
   id: 360,
   titulo: "NOCHE",
-  autor: "Anónimo",
+  autor: "Hakuna",
   categoria: "adoracion",
   tonoOriginal: "Dm",
   letra: `
 Intro: [Dm] [Bb] [F] [Am]
 
-[Dm] Por tu iglesia que te espera a oscuras
-[Bb] Por tu pueblo que te reza aguardando la aurora
-[F] [Am] Te rogamos, [Dm] [Bb] [F] [Am] te rogamos.
+[Dm]Por tu iglesia que te espera a oscu[Bb]ras
+Por tu [F]pueblo que te [Am]reza aguardando la aurora
+[Dm]Te [Bb]rogamos, [F]te roga[Am]mos.
 
-[Dm] Por las naciones paganas, [Bb] que tienen sed de ti sin saberlo
-[F] [Am] Ten piedad, [Dm] [Bb] [F] [Am] ten piedad.
-[Dm] Por los pueblos oprimidos por el totalitarismo, [Bb] y la opresión de la mentira
-[F] [Am] Te rogamos, [Dm] [Bb] [F] [Am] te rogamos.
+[Dm]Por las naciones paganas, [Bb]que tienen sed de ti sin sab[F]erlo
+[Am]Ten piedad, ten piedad.
+[Dm]Por los pueblos oprimidos por el [Bb]totalitarismo,
+y la [Am]opresión de la mentira
 
-[Dm] Por aquellos perseguidos por tu nombre [Bb] que se ocultan para orar
-[F] [Am] Y aquellos extraídos de su hogar.
-[Dm] Por sus perseguidores, cegados por el odio [Bb]
-[F] [Am] Perdónales Padre, no saben lo que hacen.
+[Dm]Por aquellos perseguidos por tu [Bb]nombre que se ocultan para [F]orar
+Y aquellos extraídos[Am] de su hogar.
+Por [Dm]sus perseguidores, [Bb]cegados por el odio
+[F]Perdónales Padre, no [Am]saben lo que hacen.
 
-[Dm] Por los que no nos aman, [Bb] por los que no sabemos amar
-[F] Por los que sufren y agonizan [Am] y hoy duermen en el hospital.
-[Dm] Por los que hoy es su última noche [Bb] y cuyos ojos no verán el nuevo día
-[F] [Am] Ten piedad, [Dm] [Bb] [F] [Am] ten piedad.
+[Dm]Por los que no nos aman, [Bb]por los que no sabemos amar
+[F]Por los que sufren y agonizan [Am]y hoy duermen en el hospital.
+[Dm]Por los que hoy es su última noche [Bb]y cuyos ojos no verán el nuevo día
+[F]Ten piedad, ten pieda[Am]d.
 
-[Dm] Por todos los que sufren la tentación del suicidio, [Bb]
-[F] [Am] Por los dispuestos a dejar ganar al mal.
-[Dm] Por aquellos cuyas noches son interminables [Bb]
-[F] Y a los que la angustia les ha [Am] quitado la [A7] paz. [A] [Dm]
+[Dm]Por todos los que sufren la tentaci[Bb]ón del suicidio,
+[F]Por los dispuestos a dejar ganar al [Am]mal.
+Por [Dm]aquellos cuyas noches son interminables[Bb]
+Y a [F]los que la angustia les ha [Am]quitado la [A7] paz. [A] [Dm]
 
-[Bb] Kyrie [F] Eleison, [Am] Kyrie [A7] Eleison
-[Dm] Kyrie [Bb] Eleison, [F] Kyrie [Am] Eleison, [A7] Kyrie Eleison.
+[Dm] Kyrie El[Bb]eison, Kyrie El[F]eison [Am] [A7]
+[Dm] Kyrie El[Bb]eison, Kyrie El[F]eison [Am] [A7]
 
-[Dm] Por aquellos que trabajan en la prostitución [Bb] y se ven obligados a vender su amor
-[F] Por los que caen en la trampa [Am] del vicio y las drogas.
-[Dm] Por los que hoy duermen en prisión [Bb] por los que hoy esperan su ejecución
-[F] [Am] Por aquellos a los que torturan.
-[Dm] Por criminales, por los ladrones, [Bb] por los que erran en soledad
-[F] [Am] Por los que sufren la [A7] indiferencia [A] de los [Dm] demás.
+[Dm]Por aquellos que trabajan en la prostitución 
+y se [Bb]ven obligados a vender su amor
+[F]Por los que caen en la trampa 
+[Am]del vicio y las drogas.
+[Dm]Por los que hoy duermen en prisión 
+[Bb]por los que hoy esperan su ejecución
+[F]Por aquellos a los que [Am]torturan.
+[Dm] Por criminales, por los ladrones, 
+[Bb] por los que erran en soledad
+[F]Por los que sufren la [Am]indiferencia de los demás. [A7]
 
-[Bb] Kyrie [F] Eleison, [Am] Kyrie [A7] Eleison
-[Dm] Kyrie [Bb] Eleison, [F] Kyrie [Am] Eleison, [A7] Kyrie Eleison.
+[Dm] Kyrie El[Bb]eison, Kyrie El[F]eison [Am] [A7]
+[Dm] Kyrie El[Bb]eison, Kyrie El[F]eison [Am] [A7]
 
-[Dm] Por la ciudad, [Bb] por todos sus habitantes
-[F] [Am] Que en sus sueños solo existas tú.
-[Dm] Por nuestros difuntos, [Bb] que aún no han visto tu rostro
-[F] [Am] Por los alejados entre la multitud.
+[Dm]Por la ciudad, por todos sus habit[Bb]antes
+[F]Que en sus sueños solo existas tú.[Am]
+[Dm]Por nuestros difuntos, 
+[Bb]que aún no han visto tu rostro
+[F]Por los alejados entre la multitud.[Am]
 
-[Dm] Por los niños que descansan en el seno de su madre, [Bb]
-[F] [Am] Por las mujeres que van a dar a luz.
-[Dm] Para que reine tu paz en cada hogar, [Bb]
-[F] Por los que quieren [Am] saciar su [A7] sed de [A] amar. [Dm]
+[Dm]Por los niños que descansan en el [Bb]seno de su madre,
+[F]Por las mujeres que van a dar a [Am]luz.
+[Dm]Para que reine tu paz en cada [Bb]hogar,
+Por los que [F]quieren saciar su sed de [Am]amar. [A7]
 
-[Bb] Kyrie [F] Eleison, [Am] Kyrie [A7] Eleison
-[Dm] Kyrie [Bb] Eleison, [F] Kyrie [Am] Eleison, [A7] Kyrie Eleison.
+[Dm] Kyrie El[Bb]eison, Kyrie El[F]eison [Am] [A7]
+[Dm] Kyrie El[Bb]eison, Kyrie El[F]eison [Am] [A7]
 
-[Dm] Ten piedad, ten piedad, ten piedad (x3)
+[Dm] [F] [Bb] [Am]
+Ten piedad, ten piedad, ten piedad (x3)
 Ten piedad, Señor, ten piedad.
 `
 },
@@ -6587,7 +6593,7 @@ Porque [Bm] sé que [A] tus [D] brazos me le[Bm]vantan [A] si me [E] caigo
   tonoOriginal: "A (capo 1)",
   letra: `
 {Estribillo}
-[A]Tú, el Único [F#m7]Rey
+[A]Tú, el [E/G#]Único [F#m7]Rey
 Que tiene que rei[D2]nar
 El Único Se[E]ñor al que voy a ala[A]bar
 Hoy levanto el cora[E/G#]__zón[F#m7]
@@ -6611,10 +6617,11 @@ Sea [A]siempre lo [E/G#]prime[F#m7(11)]ro [A/C#]
 [D]Fijo mi mirada en el [E]cielo
 
 {Estribillo}
-[A]Tú, el [E/G#]Único [F#m]Rey que tiene que rei[D]nar
-El Único Se[E4]ñor al que voy a ala[A2]bar
-Hoy le[E/G#]vanto el cora[F#m]zón
-Al que lo conquis[D]tó
+[A]Tú, el [E/G#]Único [F#m7]Rey
+Que tiene que rei[D2]nar
+El Único Se[E]ñor al que voy a ala[A]bar
+Hoy levanto el cora[E/G#]__zón[F#m7]
+Al que lo conquis[D2]tó
 Simplemente por[E4]que Tú eres [A]Dios
 
 {Interludio 2}
@@ -6638,17 +6645,19 @@ Todo el po[Bm7]der y el honor
 Toda la [E]gloria al Señor
 
 {Estribillo Final}
-[A]Tú, el Único [E/G#]Rey [F#m]que tiene que rei[E]nar [D]
+[A]Tú, el [E/G#]Único [F#m7]Rey
+Que tiene que rei[D2]nar
 El Único Se[E]ñor al que voy a ala[A]bar
-Hoy levanto el cora[E/G#]__zón [F#m]
-Al que lo conquis[E]tó [D]
-Simplemente por[E]que Tú eres
+Hoy levanto el cora[E/G#]__zón[F#m7]
+Al que lo conquis[D2]tó
+Simplemente por[E4]que Tú eres...
 
-[A]Tú, el Único [F#m]Rey que tiene que rei[E]nar [D]
+[A]Tú, el [E/G#]Único [F#m7]Rey
+Que tiene que rei[D2]nar
 El Único Se[E]ñor al que voy a ala[A]bar
-Hoy levanto el cora[E/G#]__zón [F#m]
-Al que lo [E]conquis[D]tó
-Simplemente por[E]que Tú eres [A]Dios
+Hoy levanto el cora[E/G#]__zón[F#m7]
+Al que lo conquis[D2]tó
+Simplemente por[E4]que Tú eres [A]Dios
 
 {Final}
 [D] [A] [D] [A]
@@ -6661,8 +6670,8 @@ Simplemente por[E]que Tú eres [A]Dios
   categoria: "reflexion, adoracion",
   tonoOriginal: "G",
   linkYoutube: "https://www.youtube.com/watch?v=g2KAY2Txk2w",
-  letra: 
-  `[G]Solo por ti, Je[C]sús,
+  letra: `
+[G]Solo por ti, Je[C]sús,
 me quiero consu[Bm]mir,[Em] 
 como el cirio se [C]quema en tu altar,
 [Am]consumirme de a[D]mor.
@@ -10375,24 +10384,27 @@ en santi[B]dad[E] [B] [F#]
     categoria: "alabanza",
     tonoOriginal: "Am",
     letra: `
+    Intro: [Am] [G] [F] [Em] [E]
 [Am]El día al[G] día le[F] pasa su men[Em]sa[E]je
 [Am]La noche a la[G] noche se[F] lo su[Em]su[E]rra
 [Am]Tu miseri[G]cordia, Se[F]ñor, llena la [Em]tie[E]rra
 [Am]Úsame para lle[G]varla a[F] cada rin[Em]cón.[E]
 
-[C]Llevaré tu miseri[G]cordia a la universi[Am]dad
-[F]Entraré en el cora[C]zón de cada[E] ami[Am]go
-[C]Y con la[G] fuerza de tu Espíritu di[F]ré:
+[Am]Llevaré tu miseri[G]cordia a la universi[F]dad
+Entrar[Em]é en el [E]cora[Am]zón de cada[G] ami[F]go
+Y con la [Em]fuerza de tu Espíritu [E]diré:
 
-[C]La miseri[G]cordia ha entrado en esta[F] casa (x2)
-[F]Leván[G]tate y[C] anda. [Am] [F] [G]
+La miseri[C]cordia ha entr[G]ado en esta [F]casa (x2)
+Le[G]vántate y [C]anda. [Am] [F] [G]
+[C] [Am] [F] [G]
 
-[C]Llevaré tu miseri[G]cordia a la universi[Am]dad
-[F]Entraré en el cora[C]zón de cada [E] ami[Am]go
-[C]Y con la[G] fuerza de tu Espíritu di[F]ré:
+[Am]Llevaré tu miseri[G]cordia a la universi[F]dad
+Entrar[Em]é en el [E]cora[Am]zón de cada[G] ami[F]go
+Y con la [Em]fuerza de tu Espíritu [E]diré:
 
-[C]La miseri[G]cordia ha entrado en esta [F] casa (x2)
-[F]Leván[G]tate y[C] anda. [Am] [F] [G]
+La miseri[C]cordia ha entr[G]ado en esta [F]casa (x2)
+Le[G]vántate y [C]anda. [Am] [F] [G]
+[C] [Am] [F] [G]
 
 [C]Hazme bendi[F]ción para cual[G]quiera
 [C]no me impor[F]ta sangrar, so[G]lo quiero que
@@ -10408,8 +10420,9 @@ Que mi [Am]boca, manos y [F]pies trans[G]mitan tu ternura
 Y que mi[C] cora[G]zón sineta en carne[Am] viva
 [F](canon)[C][E][Am]
 
-[C]La miseri[G]cordia ha entrado en esta [F] casa (x2)
-[F]Leván[G]tate y [C] anda. [Am] [F] [G]
+La miseri[C]cordia ha entr[G]ado en esta [F]casa (x2)
+Le[G]vántate y [C]anda. [Am] [F] [G]
+[C] [Am] [F] [G]
 `},
   {
   id: 416,

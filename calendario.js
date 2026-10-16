@@ -350,5 +350,17 @@ const datosLiturgicos = {
                 { momento: "13.", id: 109 },
                 { momento: "14.", id: 386 },
             ] },
+        { id: "panaba_hsanta", nombre: "Panabá - Hora Santa (17/10/2026)",
+            cantos: [
+                { momento: "8.", id: 370 },
+                { momento: "1.", id: 142 },
+                { momento: "2.", id: 367 },
+                { momento: "3.", id: 354 },
+                { momento: "4.", id: 360 },
+                { momento: "5.", id: 390 },
+                { momento: "6.", id: 198 },
+                { momento: "7.", id: 404 },
+                { momento: "9.", id: 174 },
+            ] },
      ],
 };
