@@ -992,6 +992,39 @@ Porque solo Tú eres el Cordero, el que quita el pecado del mundo, ten Piedad de
 [D]Aa[E]men, aa[D]men, aa[D]men. [E]
 `
   },
+  {
+  id: 421,
+  titulo: "Oración por la familia",
+  autor: "Padre Zezinho",
+  categoria: "entrada, salida",
+  tonoOriginal: "C",
+  letra: `[C]Que ninguna familia comience en cualquier de repen[G]te,
+Que ninguna familia se acabe por falta de am[C]or.
+La pareja sea el uno del otro de cuerpo y de me[G]nte
+y que n[F]ada en el mundo separe un hogar soñ[C]ador.
+
+Que ninguna familia se albergue debajo de un puente
+y que nadie interfiera en la vida, en la paz de los dos.
+Y que nadie los haga vivir sin ningún horizonte
+y que puedan vivir sin temer lo que venga después.
+
+[C]LA FAMILIA COMIENCE SABI[Am]ENDO POR QUÉ Y DONDE [Dm]VA
+Y QUE EL HO[G]MBRE RETRATE LA GRA[G7]CIA DE SER UN PA[C]PÁ.
+LA MUJER SEA CIELO Y TE[Am]RNURA Y AFECTO Y CA[Dm]LOR
+Y LOS HI[C]JOS CONOZCAN LA FUE[F]RZA QUE TIE[G]NE EL AMO[C]R.
+/B[C]ENDECID OH SEÑOR LAS FAMILIAS, AMÉN.
+BENDEC[F]ID OH S[G]EÑOR LA MÍA TAM[C]BIÉN./ X2
+
+Que marido y mujer tengan fuerza de amar sin medida
+y que nadie se vaya a dormir sin buscar el perdón.
+Que en la cuna los niños aprendan el don de la vida,
+la familia celebre el milagro del beso y el pan.
+
+Que marido y mujer de rodillas contemplen sus hijos,
+que por ellos encuentren la fuerza para continuar.
+Y que en su firmamento la estrella que tenga más brillo
+pueda ser la esperanza de paz y certeza de amar.`
+},
   /*{
     id: 42,
     titulo: "GLORIA 6",
@@ -10905,7 +10938,34 @@ And now, [KR] '용기를 내어라
 [KR]이뤄지소서.`
 },
 
+    // --- SECCIÓN: CANTOS para boda ---
+{
+  id: 420,
+  titulo: "Andando de tu mano",
+  autor: "Anónimo",
+  categoria: "entrada, salida",
+  tonoOriginal: "G",
+  letra: `
+[G]Desde que voy j[Bm]unto a ti 
+La t[C]ierra que yo piso es como esp[D]uma
+[G]Desde que voy j[Bm]unto a ti 
+La [C]noche mas obscura tiene l[D]uz
+Yo p[G]ienso que la vida no es tan [Bm]dura 
+Si t[C]odo en realidad me lo das t[D]u
 
+[G]Andando de tu mano que f[Bm]ácil es la vida 
+And[C]ando de tu mano el m[D]undo es ideal Señor
+
+[G]Desde que voy j[Bm]unto a ti 
+Mis [C]ojos se han secado por compl[D]eto 
+[G]Desde que voy j[Bm]unto a ti 
+[C]No se porque la gente llora[D]ra
+[G]Yo solo en este mundo tengo m[Bm]iedo
+Al d[C]ía en que yo pierda tu ami[D]stad.
+
+[G]Andando de tu mano que f[Bm]ácil es la vida 
+And[C]ando de tu mano el m[D]undo es ideal Señor`
+},
     // --- SECCIÓN: CANTOS Angeli status: terminado ---
 {
     id: 102,
@@ -11295,4 +11355,4 @@ Todo es [C/E]tuyo Señor[A]
 //realocar a partir de aquí
 
 ]; 
-// último id:419
+// último id:421
