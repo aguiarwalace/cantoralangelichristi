@@ -147,7 +147,8 @@ function displaySong() {
                         <span>Letra</span>
                     </div>
                 </div>
-                <p style="color: #666; margin-top:10px;"><em>Autor: ${song.autor}</em></p>
+                <p style="color: #666; margin-top:10px;"><em>Autor: ${song.autor}<br>
+                Id: ${song.id}</em></p>
                 ${seccionRecursos}
             </div>
             <div class="lyrics-container" style="font-size: ${fontSizeActual}rem;">

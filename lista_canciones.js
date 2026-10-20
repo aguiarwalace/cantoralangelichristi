@@ -1855,10 +1855,10 @@ Padre, hoy yo en ti me confío, y te ofrezco, cuanto he recibido, todo Tú me lo
     titulo: "POR AMOR",
     autor: "Anónimo",
     categoria: "Ofertorio",
-    tonoOriginal: "Am",
+    tonoOriginal: "Am (capo4)",
     letra: `
 Capo: 4
-Intro: Am Em F E
+Intro: [Am] [Em] [F] [E]
 
 [Am]Padre a[Em]cepta con a[F]mor el [E]dulce sacri[Am]ficio
 [Em]Del justo que mu[F]rió pa[E]gando mi de[Am]lito
@@ -4885,6 +4885,40 @@ A ti siempre [Am]iré, contigo [F]me quedaré
 tengo la cer[C]teza de que me amas
 en ti pongo [G]mi confianza.
 A ti siempre [Am]iré. [F] [C] [G] [Am]`
+},
+{
+    id: 419,
+    titulo: "Shemá Israel",
+    autor: "Anónimo",
+    categoria: "reflexión",
+    tonoOriginal: "Am",
+    letra: `
+Am       G
+Shema israel, shema israel
+F        E        Am
+Adonai elohenu, adonai ejad.
+Am       G
+Escucha israel, escucha israel
+F                E        Am
+el señor nuestro Dios, el señor es uno.
+
+Am      A7         Dm
+Amarás al señor tu Dios
+G              Am      A7
+con todo tu corazón
+Dm             Am
+con toda tu mente
+F        E        E7
+con todas tus fuerzas.
+
+Am      A7         Dm
+Graba estas mis palabras
+G              Am
+marca con ellas tus manos
+Am      A7         Dm
+ponlas frente a tus ojos
+F        E        E7
+en el umbral de tu casa`
 },
 
     // --- SECCIÓN: CANTOS DE Adoración ---
@@ -11261,4 +11295,4 @@ Todo es [C/E]tuyo Señor[A]
 //realocar a partir de aquí
 
 ]; 
-// último id:418
+// último id:419

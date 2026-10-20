@@ -156,7 +156,7 @@ const datosLiturgicos = {
                     { momento: "Comunión", id: 152 },
                     { momento: "Reflexión", id: 370 },
                     { momento: "Final", id: 416 }
-            ] },*/
+            ] },
         { id: "a_to_27", nombre: "27º Domingo del Tiempo Ordinario",
          cantos: [
                     { momento: "Entrada", id: 4},
@@ -170,7 +170,7 @@ const datosLiturgicos = {
                     { momento: "Comunión", id: 357 },
                     { momento: "Reflexión", id: 403 },
                     { momento: "Final", id: 416 }
-            ] },
+            ] },*/
         { id: "a_to_28", nombre: "28º Domingo del Tiempo Ordinario",
          cantos: [
                     { momento: "Entrada", id: 19},
@@ -186,11 +186,24 @@ const datosLiturgicos = {
                     { momento: "Final", id: 10 }
             ] },
         { id: "a_to_29", nombre: "29º Domingo del Tiempo Ordinario", cantos: [0] },
-        /*{ id: "a_to_30", nombre: "30º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_30", nombre: "30º Domingo del Tiempo Ordinario",
+             cantos: [
+                    { momento: "Entrada", id: 2},
+                    { momento: "Piedad", id: 25 },
+                    { momento: "Gloria", id: 243 },
+                    { momento: "Aleluya", id: 244 },
+                    { momento: "Ofertorio", id: 81 },
+                    { momento: "Santo", id: 90},
+                    { momento: "Padre Nuestro", id: 114},
+                    { momento: "Cordero", id: 121 },
+                    { momento: "Comunión", id: 139 },
+                    { momento: "Reflexión", id: 419 },
+                    { momento: "Final", id: 416 }
+            ] },
         { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario", cantos: [0] },
-        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [0] },*/
+        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [0] },
     ],
 
     "Ciclo B": [
