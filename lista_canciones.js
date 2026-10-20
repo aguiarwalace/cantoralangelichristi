@@ -992,39 +992,7 @@ Porque solo Tú eres el Cordero, el que quita el pecado del mundo, ten Piedad de
 [D]Aa[E]men, aa[D]men, aa[D]men. [E]
 `
   },
-  {
-  id: 421,
-  titulo: "Oración por la familia",
-  autor: "Padre Zezinho",
-  categoria: "entrada, salida",
-  tonoOriginal: "C",
-  letra: `[C]Que ninguna familia comience en cualquier de repen[G]te,
-Que ninguna familia se acabe por falta de am[C]or.
-La pareja sea el uno del otro de cuerpo y de me[G]nte
-y que n[F]ada en el mundo separe un hogar soñ[C]ador.
 
-Que ninguna familia se albergue debajo de un puente
-y que nadie interfiera en la vida, en la paz de los dos.
-Y que nadie los haga vivir sin ningún horizonte
-y que puedan vivir sin temer lo que venga después.
-
-[C]LA FAMILIA COMIENCE SABI[Am]ENDO POR QUÉ Y DONDE [Dm]VA
-Y QUE EL HO[G]MBRE RETRATE LA GRA[G7]CIA DE SER UN PA[C]PÁ.
-LA MUJER SEA CIELO Y TE[Am]RNURA Y AFECTO Y CA[Dm]LOR
-Y LOS HI[C]JOS CONOZCAN LA FUE[F]RZA QUE TIE[G]NE EL AMO[C]R.
-/B[C]ENDECID OH SEÑOR LAS FAMILIAS, AMÉN.
-BENDEC[F]ID OH S[G]EÑOR LA MÍA TAM[C]BIÉN./ X2
-
-Que marido y mujer tengan fuerza de amar sin medida
-y que nadie se vaya a dormir sin buscar el perdón.
-Que en la cuna los niños aprendan el don de la vida,
-la familia celebre el milagro del beso y el pan.
-
-Que marido y mujer de rodillas contemplen sus hijos,
-que por ellos encuentren la fuerza para continuar.
-Y que en su firmamento la estrella que tenga más brillo
-pueda ser la esperanza de paz y certeza de amar.`
-},
   /*{
     id: 42,
     titulo: "GLORIA 6",
@@ -4926,32 +4894,20 @@ A ti siempre [Am]iré. [F] [C] [G] [Am]`
     categoria: "reflexión",
     tonoOriginal: "Am",
     letra: `
-Am       G
-Shema israel, shema israel
-F        E        Am
-Adonai elohenu, adonai ejad.
-Am       G
-Escucha israel, escucha israel
-F                E        Am
-el señor nuestro Dios, el señor es uno.
+[Am]Shema isr[G]ael, shema israel
+[F]Adonai el[E]ohenu, ad[Am]onai ejad.
+[Am]Escucha i[G]srael, escucha israel
+[F]el señor nuestro [E]Dios, el [Am]señor es uno.
 
-Am      A7         Dm
-Amarás al señor tu Dios
-G              Am      A7
-con todo tu corazón
-Dm             Am
-con toda tu mente
-F        E        E7
-con todas tus fuerzas.
+[Am]Amarás a[A7]l señor tu [Dm]Dios
+[G]con todo tu cor[Am]azón    [A7]
+[Dm]con toda tu men[Am]te
+[F]con todas[E] tus fuer[E7]zas.
 
-Am      A7         Dm
-Graba estas mis palabras
-G              Am
-marca con ellas tus manos
-Am      A7         Dm
-ponlas frente a tus ojos
-F        E        E7
-en el umbral de tu casa`
+[Am]Graba es[A7]tas mis pal[Dm]abras
+[G]marca con ellas[Am] tus manos
+[Am]ponlas f[A7]rente a tus[Dm] ojos
+[F]en el umb[E]ral de tu[E7] casa`
 },
 
     // --- SECCIÓN: CANTOS DE Adoración ---
@@ -10965,6 +10921,103 @@ Al d[C]ía en que yo pierda tu ami[D]stad.
 
 [G]Andando de tu mano que f[Bm]ácil es la vida 
 And[C]ando de tu mano el m[D]undo es ideal Señor`
+},
+  {
+  id: 421,
+  titulo: "Oración por la familia",
+  autor: "Padre Zezinho",
+  categoria: "entrada, salida",
+  tonoOriginal: "C",
+  letra: `[C]Que ninguna familia comience en cualquier de repen[G]te,
+Que ninguna familia se acabe por falta de am[C]or.
+La pareja sea el uno del otro de cuerpo y de me[G]nte
+y que n[F]ada en el mundo separe un hogar soñ[C]ador.
+
+Que ninguna familia se albergue debajo de un puente
+y que nadie interfiera en la vida, en la paz de los dos.
+Y que nadie los haga vivir sin ningún horizonte
+y que puedan vivir sin temer lo que venga después.
+
+[C]LA FAMILIA COMIENCE SABI[Am]ENDO POR QUÉ Y DONDE [Dm]VA
+Y QUE EL HO[G]MBRE RETRATE LA GRA[G7]CIA DE SER UN PA[C]PÁ.
+LA MUJER SEA CIELO Y TE[Am]RNURA Y AFECTO Y CA[Dm]LOR
+Y LOS HI[C]JOS CONOZCAN LA FUE[F]RZA QUE TIE[G]NE EL AMO[C]R.
+/B[C]ENDECID OH SEÑOR LAS FAMILIAS, AMÉN.
+BENDEC[F]ID OH S[G]EÑOR LA MÍA TAM[C]BIÉN./ X2
+
+Que marido y mujer tengan fuerza de amar sin medida
+y que nadie se vaya a dormir sin buscar el perdón.
+Que en la cuna los niños aprendan el don de la vida,
+la familia celebre el milagro del beso y el pan.
+
+Que marido y mujer de rodillas contemplen sus hijos,
+que por ellos encuentren la fuerza para continuar.
+Y que en su firmamento la estrella que tenga más brillo
+pueda ser la esperanza de paz y certeza de amar.`
+},
+{
+  id: 422,
+  titulo: "Mi mejor decisión",
+  autor: "Fruto del Madero",
+  categoria: "entrada, reflexion, salida",
+  tonoOriginal: "C",
+  letra: `[C]Entre tantas preguntas
+No le podía [F]mentir al corazón
+U[C]n vacío en mi alma
+Que tú llen[F]aste de ilusión
+
+E[D]ntre los juegos de a[G]mor
+Faltaba esa pi[C]eza
+Para ser gan[A]ador
+
+Y l[F]legaste tú
+
+Con toda tu luz
+A en[C]señarme cuál es la so[G]lución
+
+Yo no le temo a n[F]ada si estás junto a [C]mí
+Si s[A]omos los dos
+
+Soñando
+
+Cons[G]truyendo una vi[F]da
+Con quien comp[C]artir
+
+Ya so[A]mos los dos
+Sabiendo que [D]Dios nos va a enseñar el [G]camino
+Para t[C]ratar de hacer lo me[A]jor
+Y ha[F]berte prometido toda [G]mi vida
+Es mi mejor de[C]cisión
+
+Au[C]nque pasen los años
+Cada [F]mañana quiero
+
+Despertarme junto a ti
+
+Para poder decirte
+
+Q[C]ue ya no es tan extraño
+Q[F]uererte a mi lado
+
+Por el resto de mis días
+
+Y[D] te amaré
+Hasta que seamos vi[G]ejitos
+Y la v[C]ida se nos pase de a poq[A]uitos
+Siempre [D]seré el primero en darte la mano
+
+Yo[G] no le temo a [F]nada si estás junto a [C]mí
+Si [A]somos los dos
+
+Soñando
+Co[G]nstruyendo una v[F]ida con quien
+Co[C]mpartir
+
+Ya s[A]omos los dos
+Sabiendo que D[D]ios nos va a enseñar el c[G]amino
+Para t[C]ratar de hacer lo m[A]ejor
+Y haberte [F]prometido toda mi v[C]ida
+`
 },
     // --- SECCIÓN: CANTOS Angeli status: terminado ---
 {
