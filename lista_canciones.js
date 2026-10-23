@@ -4899,15 +4899,26 @@ A ti siempre [Am]iré. [F] [C] [G] [Am]`
 [Am]Escucha i[G]srael, escucha israel
 [F]el señor nuestro [E]Dios, el [Am]señor es uno.
 
-[Am]Amarás a[A7]l señor tu [Dm]Dios
-[G]con todo tu cor[Am]azón    [A7]
-[Dm]con toda tu men[Am]te
+[Am]Amarás al Señor tu Dios[A7]
+[Dm]con todo tu cor[G]azón[Am]
+[Dm]con toda[G] tu men[Am]te
 [F]con todas[E] tus fuer[E7]zas.
 
 [Am]Graba es[A7]tas mis pal[Dm]abras
 [G]marca con ellas[Am] tus manos
 [Am]ponlas f[A7]rente a tus[Dm] ojos
-[F]en el umb[E]ral de tu[E7] casa`
+[F]en el umb[E]ral de tu[E7] casa y en las puertas
+
+Instruye a tus hijos israel
+compartelo en tu casa
+predicalo en las calles
+en la noche al acostarte
+al despertar
+
+El primer mandamiento es este en la vida
+el segundo al primero es semejante
+A tu projimo amarás como a ti mismo
+con esto alcanzarás la vida eterna.`
 },
 
     // --- SECCIÓN: CANTOS DE Adoración ---
