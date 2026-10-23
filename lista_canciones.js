@@ -1,6 +1,6 @@
 const canciones = [
 /*Categorías siempre en minúsculas y sin acentos, para facilitar la búsqueda. 
-Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo, doxologia, padrenuestro, cordero, comunion, reflexion, salida, adoracion, espiritusanto, mariano, navidad, alabanza,pasion,angelichristi, jmj.*/
+Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo, doxologia, padrenuestro, cordero, comunion, reflexion, salida, adoracion, espiritusanto, mariano, navidad, alabanza, pasion, boda, angelichristi, jmj.*/
   
 // --- SECCIÓN: CANTOS DE ENTRADA status: terminado ---
   {
@@ -3466,7 +3466,7 @@ Final:
     id: 175,
     titulo: "ALIANZA DE AMOR",
     autor: "Anónimo",
-    categoria: "reflexion",
+    categoria: "reflexion, boda",
     tonoOriginal: "C",
     letra: `
 [C]En la pobreza o en la ri[G]queza te ama[C]re,
@@ -4653,7 +4653,7 @@ Suelta ya mis ca[D]denas, [A7]hazme sentir tú Ver[D]dad.
     id: 223,
     titulo: "UNA ALIANZA DE AMOR",
     autor: "Anónimo",
-    categoria: "reflexion",
+    categoria: "reflexion, boda",
     tonoOriginal: "E",
     letra: `
 [E]Una alianza los dos,
@@ -5964,29 +5964,29 @@ el mo[E]mento para despe[B]gar.
     id: 364,
     titulo: "POR EL RESTO DE MIS DÍAS",
     autor: "Anónimo",
-    categoria: "adoracion",
+    categoria: "adoracion, boda",
     tonoOriginal: "C",
     letra: `
 Intro: [F] [G] [C]
 
-[F] A partir de este mo[G]mento una vida comen[C]zamos,
-[F] por el resto de mis [G]días estaré junto a tu [C]lado.
-[F] Una alianza e[Em]terna de a[Am]mor
-[F] que nos une y nos ben[G]dice desde [C]hoy.
+[F]A partir de este mo[G]mento una vida comen[C]zamos,
+[F]por el resto de mis [G]días estaré junto a tu [C]lado.
+[F]Una alianza e[Em]terna de a[Am]mor
+[F]que nos une y nos ben[G]dice desde [C]hoy.
 
-[F] Compartiendo día a [G]día eres mi felici[C]dad,
-[F] y aunque estés a la dis[G]tancia en mi mente siempre es[C]tás,
-[F] hoy de[Em]cido a[Am]marte por la eternidad,
-[F] mi amor por [G]ti no perece[C]rá.
+[F]Compartiendo día a [G]día eres mi felici[C]dad,
+[F]y aunque estés a la dis[G]tancia en mi mente siempre es[C]tás,
+[F]hoy de[Em]cido a[Am]marte por la eternidad,
+[F]mi amor por [G]ti no perece[C]rá.
 
-[F] Eres mi [G]luz, mi inspira[C]ción,
-[F] el re[Em]galo que llega del [Am]cielo
-[F] y que llena de ale[G]gría mi cora[C]zón.
+[F]Eres mi [G]luz, mi inspira[C]ción,
+[F]el re[Em]galo que llega del [Am]cielo
+[F]y que llena de ale[G]gría mi cora[C]zón.
 
-[F] Y que todo el mundo [G]sepa que te [C]amo,
-[F] y que tu pre[G]sencia es el mejor re[C]galo.
-[F] En las [Em]pruebas y ale[Am]grías,
-[F] en tris[G]tezas y poe[C]sías, te amaré.
+[F]Y que todo el mundo [G]sepa que te [C]amo,
+[F]y que tu pre[G]sencia es el mejor re[C]galo.
+[F]En las [Em]pruebas y ale[Am]grías,
+[F]en tris[G]tezas y poe[C]sías, te amaré.
 `
   },
   {
@@ -5999,34 +5999,34 @@ Intro: [F] [G] [C]
 Capo 4
 Intro: [Bm] [G] [D] [A]
 
-[Bm] Hoy que te veo a[G]sí,
-[D] no puedo más que mirarte con dul[A]zura y sufrir con[Bm]tigo.
-[G] Quiero que sepas que [D]siempre he estado a tu lado,
-[A] lo que has llorado lo he llo[Bm]rado tam[G]bién, [D]e[A]ee.
+[Bm]Hoy que te veo a[G]sí,
+[D]no puedo más que mirarte con dul[A]zura y sufrir con[Bm]tigo.
+[G]Quiero que sepas que [D]siempre he estado a tu lado,
+[A]lo que has llorado lo he llo[Bm]rado tam[G]bién, [D]e[A]ee.
 
-[Em] Y date cuenta que tu sole[A]dad, que tu incompre[Bm]nsión,
-[G] han [A]sido [Em]mías también; que ningún hombre por más que a[A]mó,
-[Bm] se hubiera entre[G]gado al do[A]lor como yo por ti.
+[Em]Y date cuenta que tu sole[A]dad, que tu incompre[Bm]nsión,
+[G]han [A]sido [Em]mías también; que ningún hombre por más que a[A]mó,
+[Bm]se hubiera entre[G]gado al do[A]lor como yo por ti.
 
-[Bm] Porque te a[G]mooo, y fue por a[D]mor que yo te cre[A]é.
-[Bm] Mírame en la [G]cruuuz, no hay [D]nada que yo no [A]haga por [Bm]ti.
-[Bm] Eeee [G]uuuu [D]uu [A]
+[Bm]Porque te a[G]mooo, y fue por a[D]mor que yo te cre[A]é.
+[Bm]Mírame en la [G]cruuuz, no hay [D]nada que yo no [A]haga por [Bm]ti.
+[Bm]Eeee [G]uuuu [D]uu [A]
 
-[Bm] Déjame entrar en tu [G]vida, [D]quiero ven[A]dar tus heridas,
-[Bm] traigo las [G]mías para cu[D]rar las tuya[A]as,
-[A] pues vengo a ha[Em]cer mío todo tu dolor.
-[Bm] Y vengo a reno[G]varte y darte nueva vida,
-[D] quiero que [A]seas e[Em]terno y feliz.
+[Bm]Déjame entrar en tu [G]vida, [D]quiero ven[A]dar tus heridas,
+[Bm]traigo las [G]mías para cu[D]rar las tuya[A]as,
+[A]pues vengo a ha[Em]cer mío todo tu dolor.
+[Bm]Y vengo a reno[G]varte y darte nueva vida,
+[D]quiero que [A]seas e[Em]terno y feliz.
 
-[Bm] No temas que a mi lado no hay [G]viento ni tormenta,
-[D] yo te pro[A]tejo con el [Bm]muro de mi amor.
-[G] Y es que te a[D]aaamooo y fue por a[A]mor que yo te cre[Bm]é.
-[G] Mírame en la [D]cruuuz no hay nada que yo no [A]haga por [Bm]tii.
+[Bm]No temas que a mi lado no hay [G]viento ni tormenta,
+[D]yo te pro[A]tejo con el [Bm]muro de mi amor.
+[G]Y es que te a[D]aaamooo y fue por a[A]mor que yo te cre[Bm]é.
+[G]Mírame en la [D]cruuuz no hay nada que yo no [A]haga por [Bm]tii.
 
-[G] Y ábreme tu cora[D]zón y déjame en[A]trar, quiero que [Bm]seas feliz.
-[G] Y abre tus ojos, ca[D]mina en mi senda y [A]yo te guiaré hasta el fin.
-[Bm] Te a[G]mooooo, [D] y es que te a[A]moooooooooo
-[Bm] asiii[G]iiiiee [D]oooooo[A]ooooo
+[G]Y ábreme tu cora[D]zón y déjame en[A]trar, quiero que [Bm]seas feliz.
+[G]Y abre tus ojos, ca[D]mina en mi senda y [A]yo te guiaré hasta el fin.
+[Bm]Te a[G]mooooo, [D] y es que te a[A]moooooooooo
+[Bm]asiii[G]iiiiee [D]oooooo[A]ooooo
 `
   },
   {
@@ -10899,7 +10899,7 @@ And now, [KR] '용기를 내어라
   id: 420,
   titulo: "Andando de tu mano",
   autor: "Anónimo",
-  categoria: "entrada, salida",
+  categoria: "entrada, salida, boda",
   tonoOriginal: "G",
   letra: `
 [G]Desde que voy j[Bm]unto a ti 
@@ -10926,7 +10926,7 @@ And[C]ando de tu mano el m[D]undo es ideal Señor`
   id: 421,
   titulo: "Oración por la familia",
   autor: "Padre Zezinho",
-  categoria: "entrada, salida",
+  categoria: "entrada, salida, boda",
   tonoOriginal: "C",
   letra: `[C]Que ninguna familia comience en cualquier de repen[G]te,
 Que ninguna familia se acabe por falta de am[C]or.
@@ -10959,7 +10959,7 @@ pueda ser la esperanza de paz y certeza de amar.`
   id: 422,
   titulo: "Mi mejor decisión",
   autor: "Fruto del Madero",
-  categoria: "entrada, reflexion, salida",
+  categoria: "entrada, reflexion, salida, boda",
   tonoOriginal: "C",
   letra: `[C]Entre tantas preguntas
 No le podía [F]mentir al corazón
