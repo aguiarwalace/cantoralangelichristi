@@ -4909,9 +4909,9 @@ A ti siempre [Am]iré. [F] [C] [G] [Am]`
 [Am]ponlas f[A7]rente a tus[Dm] ojos
 [F]en el umbral de tu casa y en las [E]puertas[E7]
 
-Ins[Am]truye a tus hijos Israel]A7]
-comp[Dm]artelo e[G]n tu c[Am]asa
-pre[Dm]dicalo en[G] las ca[Am]lles
+Ins[Am]truye a tus hijos Israel[A7]
+comp[Dm]artelo e[G]n tu c[Am]asa[A7]
+pre[Dm]dícalo en[G] las ca[Am]lles
 [F]en la noche al acostarte al desper[E]tar[E7]
 
 El pri[Am]mer mandamiento es [A7]este en la [Dm]vida

@@ -198,7 +198,7 @@ const datosLiturgicos = {
                     { momento: "Cordero", id: 121 },
                     { momento: "Comunión", id: 139 },
                     { momento: "Reflexión", id: 419 },
-                    { momento: "Final", id: 416 }
+                    { momento: "Final", id: 239 }
             ] },
         { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario", cantos: [0] },
@@ -345,7 +345,7 @@ const datosLiturgicos = {
                 { momento: "Reflexión", id:389},
                 { momento: "Final1", id: 270 },
                 { momento: "Final2", id: 275 },
-            ] },*/
+            ] },
         { id: "panaba_concierto", nombre: "Panabá - Concierto (17/10/2026)",
             cantos: [
                 { momento: "1.", id: 416 },
@@ -374,7 +374,7 @@ const datosLiturgicos = {
                 { momento: "6.", id: 198 },
                 { momento: "7.", id: 404 },
                 { momento: "9.", id: 174 },
-            ] },
+            ] },*/
         { id: "boda", nombre: "Esquema de boda",
             cantos: [
                 { momento: "Entrada", id: 6 },
