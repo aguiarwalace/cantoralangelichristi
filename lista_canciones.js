@@ -157,7 +157,7 @@ Que nos une en el amor.
     id: 6,
     titulo: "DE AQUÍ HASTA EL FINAL",
     autor: "Eduardo Ortiz Tirado",
-    categoria: "entrada",
+    categoria: "entrada, boda",
     tonoOriginal: "D",
     letra: `
 [D]De aquí hasta el fi[A]nal con[Bm]tigo, [D7]
@@ -631,7 +631,7 @@ Cuando me hayas ensanchado el corazón.
     id: 24,
     titulo: "PIEDAD 1",
     autor: "A. Mejía Misa melódica",
-    categoria: "Piedad",
+    categoria: "Piedad, boda",
     tonoOriginal: "Dm",
     letra: `
 [Dm]Señor ten pie[A7]dad de nos[Dm]otros. (x2)
@@ -894,7 +894,7 @@ Tú solo eres Santo, Tú solo el Altísimo, con el Espíritu Santo, en la Gloria
     id: 38,
     titulo: "GLORIA 2",
     autor: "Mejía, Misa melódica",
-    categoria: "Gloria",
+    categoria: "Gloria, boda",
     tonoOriginal: "E",
     letra: `
 [E]Gloria, [B]gloria, [C#m]gloria, [F#m]Gloria [A]Dios en el [B]cielo.
@@ -1490,7 +1490,7 @@ Que lo diga la casa de Israel, [F#m]Es [E7]eterna su [A]misericordia [A7]
     id: 65,
     titulo: "20. ALELUYA",
     autor: "Comunidade Católica Shalom",
-    categoria: "Aleluya",
+    categoria: "Aleluya, boda",
     tonoOriginal: "G",
     letra: `
 (G F C D)
@@ -1800,7 +1800,7 @@ Y por fin llegó el gran día la semilla germinó, Jesucristo había nacido y co
     id: 78,
     titulo: "HEMOS ENTREGADO",
     autor: "Anónimo",
-    categoria: "Ofertorio",
+    categoria: "Ofertorio, boda",
     tonoOriginal: "C",
     letra: `
 [C]Hemos entre[G]gado nuestras [Am]vidas al Se[Em]ñor,
@@ -2180,7 +2180,7 @@ En el [C]ci[G]e[C]lo. (x2)`
     id: 108,
     titulo: "Santo Sem Nome",
     autor: "Walace Aguiar",
-    categoria: "santo, angelichristi",
+    categoria: "santo, angelichristi, boda",
     tonoOriginal: "C",
     letra: `
 [C] [G] [C] [G]\n
@@ -2401,7 +2401,7 @@ La Paz.
     id: 122,
     titulo: "CORDERO 7",
     autor: "Anónimo",
-    categoria: "Cordero",
+    categoria: "Cordero, boda",
     tonoOriginal: "G",
     letra: `
 [G]Cordero de Dios, ([Bm]Cordero de Dios)
@@ -2616,7 +2616,7 @@ Y danos de tu paz. (x2)
     id: 133,
     titulo: "ALMA DE CRISTO (Pascua Juvenil)",
     autor: "Pascua Juvenil",
-    categoria: "comunion, reflexion",
+    categoria: "comunion, reflexion, boda",
     tonoOriginal: "D",
     letra: `
 [D]Alma de Cristo, [C9]santi[G]fíca[D]me.
@@ -2974,7 +2974,7 @@ Que para [F#m]siempre soy. [D]Soy yo, [E]soy yo, [F#m]soy yo.
     id: 144,
     titulo: "IN PERSONA CHRISTI",
     autor: "Anónimo",
-    categoria: "comunion",
+    categoria: "comunion, boda",
     tonoOriginal: "C",
     letra: `
 [C]Ya no soy yo quien [G]vive,
@@ -4894,31 +4894,35 @@ A ti siempre [Am]iré. [F] [C] [G] [Am]`
     categoria: "reflexión",
     tonoOriginal: "Am",
     letra: `
-[Am]Shema isr[G]ael, shema israel
-[F]Adonai el[E]ohenu, ad[Am]onai ejad.
-[Am]Escucha i[G]srael, escucha israel
-[F]el señor nuestro [E]Dios, el [Am]señor es uno.
+[Am]Shema Israel, [G]shema Israel
+[F]Adonai elohenu, [E]adonai [Am]ejad.
+[Am]Escucha Israel, [G]escucha israel
+[F]el señor nuestro Dios, el [E]señor es [Am]uno.
 
 [Am]Amarás al Señor tu Dios[A7]
-[Dm]con todo tu cor[G]azón[Am]
+[Dm]con todo tu cor[G]azón[Am] [A7]
 [Dm]con toda[G] tu men[Am]te
-[F]con todas[E] tus fuer[E7]zas.
+[F]con todas tus [E]fuer[E7]zas.
 
-[Am]Graba es[A7]tas mis pal[Dm]abras
-[G]marca con ellas[Am] tus manos
+[Am]Graba estas [A7]mis pal[Dm]abras
+[G]marca con ellas tus [Am]manos
 [Am]ponlas f[A7]rente a tus[Dm] ojos
-[F]en el umb[E]ral de tu[E7] casa y en las puertas
+[F]en el umbral de tu casa y en las [E]puertas[E7]
 
-Instruye a tus hijos israel
-compartelo en tu casa
-predicalo en las calles
-en la noche al acostarte
-al despertar
+Ins[Am]truye a tus hijos Israel]A7]
+comp[Dm]artelo e[G]n tu c[Am]asa
+pre[Dm]dicalo en[G] las ca[Am]lles
+[F]en la noche al acostarte al desper[E]tar[E7]
 
-El primer mandamiento es este en la vida
-el segundo al primero es semejante
-A tu projimo amarás como a ti mismo
-con esto alcanzarás la vida eterna.`
+El pri[Am]mer mandamiento es [A7]este en la [Dm]vida
+el se[G]gundo al primero es seme[Am]jante
+A tu pró[Am]jimo amarás[A7] como a ti [Dm]mismo
+[F]con esto alcanzarás la vida [E]eterna[E7].
+
+[Am]Shema Israel, [G]shema Israel
+[F]Adonai elohenu, [E]adonai [Am]ejad.
+[Am]Escucha Israel, [G]escucha israel
+[F]el señor nuestro Dios, el [E]señor es [Am]uno.`
 },
 
     // --- SECCIÓN: CANTOS DE Adoración ---
@@ -6123,26 +6127,26 @@ solo en ti mi alma puede [G]renacer.
     id: 369,
     titulo: "QUÉDATE SEÑOR (Oración de los esposos)",
     autor: "Verónica Sanfilippo",
-    categoria: "adoracion",
+    categoria: "adoracion, reflexion, boda",
     tonoOriginal: "C",
     letra: `
 Intro: [C] [Am] [F] [C] [G]
 
-[C] Hoy venimos a tu casa [Am] a ofrendarte nuestro amor.
-[F] Queremos que tu gracia nos inunde [C] y consagre [G] nuestra u[Am]nión.
-[C] Te entregamos los que somos, [Am] te abrimos nuestro corazón.
-[F] Ven entra a nuestra casa, [C] ven y [G] quédate, Señor.
+[C]Hoy venimos a tu casa [Am]a ofrendarte nuestro amor.
+[F]Queremos que tu gracia nos inunde [C]y consagre [G]nuestra u[Am]nión.
+[C]Te entregamos los que somos, [Am]te abrimos nuestro corazón.
+[F]Ven entra a nuestra casa, [C]ven y [G]quédate, Señor.
 
-[G] Y danos [Am] de tu paz, [F] alumbra con tu luz,
-[C] bendice nuestro hogar, [G] ven y quédate, Jesús.
-[Am] Y enciende en nuestro corazón [F] el fuego de tu amor,
-[C] para que esta familia [G] sea un reflejo de tu luz.
+[G]Y danos [Am]de tu paz, [F]alumbra con tu luz,
+[C]bendice nuestro hogar, [G]ven y quédate, Jesús.
+[Am]Y enciende en nuestro corazón [F]el fuego de tu amor,
+[C]para que esta familia [G]sea un reflejo de tu luz.
 
-[C] Bendice a este esposo, [Am] bendice a esta esposa,
-[F] bendice a esta familia que hoy [C] te con[G]sagra su a[Am]mor.
+[C]Bendice a este esposo, [Am]bendice a esta esposa,
+[F]bendice a esta familia que hoy [C]te con[G]sagra su a[Am]mor.
 
-[Am] Ven y quédate, Se[F]ñor, ohh ohh
-[C] Ven y quédate, Se[G]ñor, ohh ohh
+[Am]Ven y quédate, Se[F]ñor, ohh ohh
+[C]Ven y quédate, Se[G]ñor, ohh ohh
 ven y quédate, Se[C]ñor.
 `
   },
@@ -7288,7 +7292,7 @@ A donde Él va. (x2)
   },
   {
     id: 239,
-    titulo: "UNO",
+    titulo: " Uno (versión estudio)",
     autor: "Kayrós",
     categoria: "salida",
     tonoOriginal: "G(capo3)",
@@ -10939,7 +10943,8 @@ And[C]ando de tu mano el m[D]undo es ideal Señor`
   autor: "Padre Zezinho",
   categoria: "entrada, salida, boda",
   tonoOriginal: "C",
-  letra: `[C]Que ninguna familia comience en cualquier de repen[G]te,
+  letra: `
+[C]Que ninguna familia comience en cualquier de repen[G]te,
 Que ninguna familia se acabe por falta de am[C]or.
 La pareja sea el uno del otro de cuerpo y de me[G]nte
 y que n[F]ada en el mundo separe un hogar soñ[C]ador.
