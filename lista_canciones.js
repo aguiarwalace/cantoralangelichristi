@@ -8523,7 +8523,7 @@ lo llena de su Gracia
   {
     id: 302,
     titulo: "MARIA MIRAME",
-    autor: "Betsaida",
+    autor: "Betsaida, boda",
     categoria: "marianos",
     tonoOriginal: "C",
     letra: `
