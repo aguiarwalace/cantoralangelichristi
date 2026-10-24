@@ -388,7 +388,7 @@ const datosLiturgicos = {
                 { momento: "Comunión", id: 369 },
                 { momento: "Reflexión", id: 133 },
                 { momento: "A María", id: 302 },
-                { momento: "Final1", id: 239, },
+                { momento: "Final1", id: 422, },
                 { momento: "Final2", id: 420, },
                 { momento: "Final3", id: 421, },
             ] },
