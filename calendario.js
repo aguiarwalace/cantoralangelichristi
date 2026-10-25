@@ -188,11 +188,11 @@ const datosLiturgicos = {
         { id: "a_to_29", nombre: "29º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_30", nombre: "30º Domingo del Tiempo Ordinario",
              cantos: [
-                    { momento: "Entrada", id: 2},
+                    { momento: "Entrada", id: 19},
                     { momento: "Piedad", id: 25 },
                     { momento: "Gloria", id: 243 },
                     { momento: "Aleluya", id: 244 },
-                    { momento: "Ofertorio", id: 81 },
+                    { momento: "Ofertorio", id: 76 },
                     { momento: "Santo", id: 90},
                     { momento: "Padre Nuestro", id: 114},
                     { momento: "Cordero", id: 121 },
