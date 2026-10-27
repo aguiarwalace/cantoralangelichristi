@@ -207,47 +207,67 @@ const datosLiturgicos = {
     ],
 
     "Ciclo B": [
-        { id: "b_adv_1", nombre: "1º Domingo de Adviento", cantos: [1,2,3,4,5] },
-        { id: "b_adv_2", nombre: "2º Domingo de Adviento", cantos: [1,2,3,4,5] },
-        { id: "b_adv_3", nombre: "3º Domingo de Adviento", cantos: [1,2,3,4,5] },
-        { id: "b_adv_4", nombre: "4º Domingo de Adviento", cantos: [1,2,3,4,5] },
+        { id: "b_adv_1", nombre: "1º Domingo de Adviento", cantos: [0] },
+        { id: "b_adv_2", nombre: "2º Domingo de Adviento", cantos: [0] },
+        { id: "b_adv_3", nombre: "3º Domingo de Adviento", cantos: [0] },
+        { id: "b_adv_4", nombre: "4º Domingo de Adviento", cantos: [0] },
 
-        ...Array.from({length: 34}, (_,i) => ({
-            id: `b_to_${i+1}`,
-            nombre: `${i+1}º Domingo del Tiempo Ordinario`,
-            cantos: [1,2,3,4,5]
-        })),
+        // NAVIDAD
+        { id: "b_sagrada_familia", nombre: "Sagrada Familia", cantos: [0] },
+        { id: "b_bautismo", nombre: "Bautismo del Señor", cantos: [0] },
 
-        { id: "b_cua_1", nombre: "1º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "b_cua_2", nombre: "2º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "b_cua_3", nombre: "3º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "b_cua_4", nombre: "4º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "b_cua_5", nombre: "5º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
+        // TIEMPO ORDINARIO (1–8 antes de cuaresma aprox.)
+        { id: "b_to_1", nombre: "1º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_2", nombre: "2º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_3", nombre: "3º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_4", nombre: "4º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_5", nombre: "5º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_6", nombre: "6º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_7", nombre: "7º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_8", nombre: "8º Domingo del Tiempo Ordinario", cantos: [0] },
 
-        { id: "b_ramos", nombre: "Domingo de Ramos", cantos: [1,2,3,4,5] },
-        { id: "b_pascua", nombre: "Domingo de Pascua", cantos: [1,2,3,4,5] }
+        // CUARESMA
+        { id: "b_cua_1", nombre: "1º Domingo de Cuaresma", cantos: [0] },
+        { id: "b_cua_2", nombre: "2º Domingo de Cuaresma", cantos: [0] },
+        { id: "b_cua_3", nombre: "3º Domingo de Cuaresma", cantos: [0] },
+        { id: "b_cua_4", nombre: "4º Domingo de Cuaresma", cantos: [0] },
+        { id: "b_cua_5", nombre: "5º Domingo de Cuaresma", cantos: [0] },
+
+        { id: "b_ramos", nombre: "Domingo de Ramos", cantos: [0] },
+        { id: "b_pascua", nombre: "Domingo de Pascua", cantos: [0] }
+
+        // TIEMPO ORDINARIO (9–34)
+        /*
+        { id: "b_to_9", nombre: "9º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_10", nombre: "10º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_11", nombre: "11º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_12", nombre: "12º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_13", nombre: "13º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_14", nombre: "14º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_15", nombre: "15º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "b_to_16", nombre: "16º Domingo del Tiempo Ordinario", cantos: [0] },*/
     ],
 
     "Ciclo C": [
-        { id: "c_adv_1", nombre: "1º Domingo de Adviento", cantos: [1,2,3,4,5] },
-        { id: "c_adv_2", nombre: "2º Domingo de Adviento", cantos: [1,2,3,4,5] },
-        { id: "c_adv_3", nombre: "3º Domingo de Adviento", cantos: [1,2,3,4,5] },
-        { id: "c_adv_4", nombre: "4º Domingo de Adviento", cantos: [1,2,3,4,5] },
+        { id: "c_adv_1", nombre: "1º Domingo de Adviento", cantos: [0] },
+        { id: "c_adv_2", nombre: "2º Domingo de Adviento", cantos: [0] },
+        { id: "c_adv_3", nombre: "3º Domingo de Adviento", cantos: [0] },
+        { id: "c_adv_4", nombre: "4º Domingo de Adviento", cantos: [0] },
 
         ...Array.from({length: 34}, (_,i) => ({
             id: `c_to_${i+1}`,
             nombre: `${i+1}º Domingo del Tiempo Ordinario`,
-            cantos: [1,2,3,4,5]
+            cantos: [0]
         })),
 
-        { id: "c_cua_1", nombre: "1º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "c_cua_2", nombre: "2º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "c_cua_3", nombre: "3º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "c_cua_4", nombre: "4º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
-        { id: "c_cua_5", nombre: "5º Domingo de Cuaresma", cantos: [1,2,3,4,5] },
+        { id: "c_cua_1", nombre: "1º Domingo de Cuaresma", cantos: [0] },
+        { id: "c_cua_2", nombre: "2º Domingo de Cuaresma", cantos: [0] },
+        { id: "c_cua_3", nombre: "3º Domingo de Cuaresma", cantos: [0] },
+        { id: "c_cua_4", nombre: "4º Domingo de Cuaresma", cantos: [0] },
+        { id: "c_cua_5", nombre: "5º Domingo de Cuaresma", cantos: [0] },
 
-        { id: "c_ramos", nombre: "Domingo de Ramos", cantos: [1,2,3,4,5] },
-        { id: "c_pascua", nombre: "Domingo de Pascua", cantos: [1,2,3,4,5] }
+        { id: "c_ramos", nombre: "Domingo de Ramos", cantos: [0] },
+        { id: "c_pascua", nombre: "Domingo de Pascua", cantos: [0] }
     ],
 
     "Solemnidades": [
@@ -267,7 +287,6 @@ const datosLiturgicos = {
         { id: "sol_asuncion", nombre: "Asunción de la Virgen María", cantos: [1,2,3,4,5] },
         { id: "sol_todos_santos", nombre: "Todos los Santos", cantos: [1,2,3,4,5] },
         { id: "commem_fieles_difuntos", nombre: "Conmemoración de todos los Fieles Difuntos", cantos: [1,2,3,4,5] },
-        { id: "sol_cristo_rey", nombre: "Nuestro Señor Jesucristo, Rey del Universo", cantos: [1,2,3,4,5] },
     ],
      "Eventos": [
         // EVENTOS

@@ -1,67 +1,7 @@
 const canciones = [
 /*Categorías siempre en minúsculas y sin acentos, para facilitar la búsqueda. 
 Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo, doxologia, padrenuestro, cordero, comunion, reflexion, salida, adoracion, espiritusanto, mariano, navidad, alabanza, pasion, boda, angelichristi, jmj.*/
-/*  HOSANNA
- 
 
-Do
-
-Hosanna 
-        
-Fa   Do
-Hosanna
-      
-Fa
-Hosanna
-    
-Sol              Do
-
-Al hijo de David (bis)
-
-Fa                        Sol
-
-Bendito el que viene
-     
-Mim                    Lam 
-En el nombre del Señor
-Fa              Sol7
-
-El Rey de Israel
-
-Do
-
-Hosanna 
-      
-  Fa   Do
-Hosanna
-      
-Fa
-Hosanna
-    Sol              Do
-Al hijo de David (bis)
-
-Fa                        Sol
-Que se abran las puertas
-     Mim    Lam
- 
-De par en par
- 
-              Fa              Sol7
-
-Para El Rey de la Gloria
-
-Do
-
-Hosanna
- 
-        Fa   Do
-Hosanna
-
-      Fa
-Hosanna
-
-    Sol              Do
-Al hijo de David (bis)*/
 // --- SECCIÓN: CANTOS DE ENTRADA status: terminado ---
   {
     id: 0,
@@ -684,8 +624,37 @@ Consuélame, Señor, con tus promesas.
 y he tenido presentes Tus decretos
 Correré por el camino del Señor
 Cuando me hayas ensanchado el corazón.
-`
-  },
+`},
+{  id: 423,
+  titulo: "Hosana",
+  autor: "Anónimo",
+  categoria: "entrada, salida",
+  tonoOriginal: "C",
+  letra: `
+Ho[C]sanna         
+[F]Hosa[C]nna      
+[F]Hosanna    
+[G]Al hijo de Dav[C]id (bis)
+
+[F]Bendito el que vi[G]ene     
+En[Em] el nombre del Señor[Am]
+[F]El Rey de Isra[G7]el
+
+Ho[C]sanna         
+[F]Hosa[C]nna      
+[F]Hosanna    
+[G]Al hijo de Dav[C]id (bis)
+
+[F]Que se abran las pue[G]rtas
+De [Em]par en [Am]par 
+Para El Rey de [F]la Gloria[G7]
+
+Ho[C]sanna         
+[F]Hosa[C]nna      
+[F]Hosanna    
+[G]Al hijo de Dav[C]id (bis)`
+},
+
   // --- SECCIÓN: CANTOS DE PIEDAD (status: verificar los no litúrgicos y comentarlos) ---
   {
     id: 24,
