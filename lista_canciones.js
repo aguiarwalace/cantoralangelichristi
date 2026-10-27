@@ -1,7 +1,67 @@
 const canciones = [
 /*Categorías siempre en minúsculas y sin acentos, para facilitar la búsqueda. 
 Ejemplo: entrada, piedad, aspersion, gloria, aleluya, ofrendas, ofertorio, santo, doxologia, padrenuestro, cordero, comunion, reflexion, salida, adoracion, espiritusanto, mariano, navidad, alabanza, pasion, boda, angelichristi, jmj.*/
-  
+/*  HOSANNA
+ 
+
+Do
+
+Hosanna 
+        
+Fa   Do
+Hosanna
+      
+Fa
+Hosanna
+    
+Sol              Do
+
+Al hijo de David (bis)
+
+Fa                        Sol
+
+Bendito el que viene
+     
+Mim                    Lam 
+En el nombre del Señor
+Fa              Sol7
+
+El Rey de Israel
+
+Do
+
+Hosanna 
+      
+  Fa   Do
+Hosanna
+      
+Fa
+Hosanna
+    Sol              Do
+Al hijo de David (bis)
+
+Fa                        Sol
+Que se abran las puertas
+     Mim    Lam
+ 
+De par en par
+ 
+              Fa              Sol7
+
+Para El Rey de la Gloria
+
+Do
+
+Hosanna
+ 
+        Fa   Do
+Hosanna
+
+      Fa
+Hosanna
+
+    Sol              Do
+Al hijo de David (bis)*/
 // --- SECCIÓN: CANTOS DE ENTRADA status: terminado ---
   {
     id: 0,
