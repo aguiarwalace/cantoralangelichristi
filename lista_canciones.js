@@ -1522,7 +1522,7 @@ Que lo diga la casa de Israel, [F#m]Es [E7]eterna su [A]misericordia [A7]
     categoria: "Aleluya, boda",
     tonoOriginal: "G",
     letra: `
-(G F C D)
+[G] [F] [C] [D]
 [G]A-le-lu-[F]ya-a [C] [D] [G]A-le-lu-[F]ya-a. (x2)
 
 [Em]Al oír tu [C]voz, nuestro cora[G]zón [D]se lle[Eb]nó de ale[Em]gría
