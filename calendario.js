@@ -424,5 +424,21 @@ const datosLiturgicos = {
                 { momento: "Final2", id: 420, },
                 { momento: "Final3", id: 421, },
             ] },
+        {id: "aniv_pe_rolando", 
+            nombre: "Aniv. y Cumpleaños de Padre Rolando (06/11/2026)", 
+            cantos: [
+                { momento: "Entrada", id: 14 },
+                { momento: "Piedad", id: 25 },
+                { momento: "Gloria", id: 243 },
+                { momento: "Aleluya", id: 244 },
+                { momento: "Ofertorio", id: 75 },
+                { momento: "Santo", id: 405 },
+                { momento: "Cordero", id: 121 },
+                { momento: "Comunión", id: 144 },
+                { momento: "Reflexión", id: 383 },
+                { momento: "Reflexión 2", id: 133 },
+                { momento: "Final", id: 135 },
+                { momento: "Final 2", id: 290 }
+            ] },
      ],
 };
