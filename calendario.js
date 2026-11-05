@@ -428,7 +428,7 @@ const datosLiturgicos = {
             cantos: [
                 { momento: "1. Entrada", id: 142 },
                 { momento: "2. Sta. Isabel", id: 200 },
-                { momento: "3. San Carlo Acutis", id: 0 },
+                { momento: "3. San Carlo Acutis", id: 384 },
                 { momento: "4. San José Sanchez del Rio", id: 338 },
                 { momento: "5. San JPII", id: 339 },
                 { momento: "6. Reserva", id: 136 },
