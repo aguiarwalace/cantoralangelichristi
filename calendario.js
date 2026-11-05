@@ -424,6 +424,15 @@ const datosLiturgicos = {
                 { momento: "Final2", id: 420, },
                 { momento: "Final3", id: 421, },
             ] },
+         { id: "hsanta_santos", nombre: "Hora Santa (05/11/2026)",
+            cantos: [
+                { momento: "1. Entrada", id: 142 },
+                { momento: "2. Sta. Isabel", id: 200 },
+                { momento: "3. San Carlo Acutis", id: 0 },
+                { momento: "4. San José Sanchez del Rio", id: 338 },
+                { momento: "5. San JPII", id: 339 },
+                { momento: "6. Reserva", id: 136 },
+            ] },
         {id: "aniv_pe_rolando", 
             nombre: "Aniv. y Cumpleaños de Padre Rolando (06/11/2026)", 
             cantos: [
