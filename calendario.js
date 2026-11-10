@@ -170,7 +170,7 @@ const datosLiturgicos = {
                     { momento: "Comunión", id: 357 },
                     { momento: "Reflexión", id: 403 },
                     { momento: "Final", id: 416 }
-            ] },*/
+            ] },
         { id: "a_to_28", nombre: "28º Domingo del Tiempo Ordinario",
          cantos: [
                     { momento: "Entrada", id: 19},
@@ -200,8 +200,21 @@ const datosLiturgicos = {
                     { momento: "Reflexión", id: 419 },
                     { momento: "Final", id: 239 }
             ] },
-        { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [0] },
-        { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario", cantos: [0] },
+        { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [0] },*/
+        { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario",
+            cantos: [
+                    { momento: "Entrada", id: 4},
+                    { momento: "Piedad", id: 25 },
+                    { momento: "Gloria", id: 243 },
+                    { momento: "Aleluya", id: 244 },
+                    { momento: "Ofertorio", id: 78 },
+                    { momento: "Santo", id: 88},
+                    { momento: "Padre Nuestro", id: 114},
+                    { momento: "Cordero", id: 122 },
+                    { momento: "Comunión", id: 144 },
+                    { momento: "Reflexión", id: 133 },
+                    { momento: "Final", id: 302 }
+            ] },
         { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario", cantos: [0] },
         { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [0] },
     ],
@@ -406,7 +419,7 @@ const datosLiturgicos = {
                 { momento: "6.", id: 198 },
                 { momento: "7.", id: 404 },
                 { momento: "9.", id: 174 },
-            ] },*/
+            ] },
         { id: "boda", nombre: "Esquema de boda",
             cantos: [
                 { momento: "Entrada", id: 6 },
@@ -448,6 +461,24 @@ const datosLiturgicos = {
                 { momento: "Reflexión 2", id: 133 },
                 { momento: "Final", id: 209 },
                 { momento: "Final 2", id: 135 }
+            ] },*/
+        { id: "vcr_fest_concierto", nombre: "VCR Fest - Concierto (21/11/2026)",
+            cantos: [
+                { momento: "1. Oliver - puente: Jess", id: 416 },
+                { momento: "2. Jess y Lissie", id: 413 },
+                { momento: "3. Jess", id: 111 },
+                { momento: "4. Oliver, Ger, Jess", id: 414 },
+                { momento: "5. todos", id: 106 },
+                { momento: "6. Jess y Lissie", id: 275 },
+                { momento: "7. Jess", id: 280 },
+                { momento: "8. Walace, Lissie, Jess, Ger, Oliver", id: 110 },
+                { momento: "9. todos", id: 368 },
+                { momento: "10. Lissie", id: 385 },
+                { momento: "11. todos", id: 277 },
+                { momento: "12. Jess", id: 411 },
+                { momento: "13. Walace", id: 109 },
+                { momento: "14. Jess", id: 386 },
+                { momento: "15.", id: 348 },
             ] },
      ],
 };

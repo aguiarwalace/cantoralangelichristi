@@ -5345,26 +5345,26 @@ Intro: [G] [D] [Em] [C]
   categoria: "adoracion",
   tonoOriginal: "D",
   letra: `
-[D] Todo empezó en una [G] cruz
-[Bm] Donde un hombre murió y un [A] Dios se entregó
-[D] Silenciosa la muerte lle[G] gó
-[Bm] Extinguiendo la luz que en un [A] grito se ahogó
+[D]Todo empezó en una [G]cruz
+[Bm]Donde un hombre murió y un [A]Dios se entregó
+[D]Silenciosa la muerte lle[G]gó
+[Bm]Extinguiendo la luz que en un [A]grito se ahogó
 
-[D] Viendo su faz de do[G] lor
-[Dm] Una madre lloró y su [A] amigo calló
-[D] Pero siendo una entre[G] ga de amor
-[Bm] Su ca[A] mino si[G] guió y en algún otro lado
-[A] Una luz se encen[D] dió [A]
+[D]Viendo su faz de do[G]lor
+[Dm]Una madre lloró y su [A]amigo calló
+[D]Pero siendo una entre[G]ga de amor
+[Bm]Su ca[A] mino si[G]guió y en algún otro lado
+[A]Una luz se encen[D] dió[A]
 
-[G] Siendo hombre, amigo, es[A] clavo y ma[Bm] estro
-[A] Siendo carga pe[G] sada, profesor y aprendiz
-[A] Entregó hasta su [A] cuerpo en el pan y en la [D] vid
+[G]Siendo hombre, amigo, es[A]clavo y ma[Bm]estro
+[A]Siendo carga pe[G]sada, profesor y aprendiz
+[A]Entregó hasta su [A]cuerpo en el pan y en la [D]vid
 
-[Bm] Desde en[G] tonces lo he visto cami[D] nar a mi [A] lado [Bm]
-A ese [G] Dios que se hu[D] milla y [A] muere por [Bm] mí
-Es la [G] barca en mi [D] playa, el [A] ruido del si[Bm] lencio
-Que se [G] acerca a su [D] hijo y me a[A] braza fe[Em] liz
-Que se [G] acerca a su [A] hijo y me abraza fe[D] liz
+[Bm]Desde en[G]tonces lo he visto cami[D]nar a mi [A]lado [Bm]
+A ese [G]Dios que se hu[D]milla y [A]muere por [Bm]mí
+Es la [G]barca en mi [D]playa, el [A]ruido del si[Bm]lencio
+Que se [G]acerca a su [D]hijo y me a[A]braza fe[Em]liz
+Que se [G]acerca a su [A]hijo y me abraza fe[D]liz
 
 Viendo un humilde calvario
 Con un rostro cansado, soporta la cruz
@@ -5382,9 +5382,9 @@ En la barca en mi playa, el ruido del silencio
 Que se acerca a su hijo y me abraza feliz
 Que se acerca a su hijo y me abraza feliz
 
-[G] Y si ahora yo a[A] cepto esa cruz
-[F#m] Fue por esa per[Bm] sona, [A] ese [G] Dios
-[A] Fue por Cristo Je[D] sús [A]
+[G]Y si ahora yo a[A]cepto esa cruz
+[F#m]Fue por esa per[Bm]sona, [A]ese [G]Dios
+[A]Fue por Cristo Je[D]sús [A]
 
 Desde entonces lo he visto caminar a mi lado
 A ese Dios que se humilla y muere por mí
