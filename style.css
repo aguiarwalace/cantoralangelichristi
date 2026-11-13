@@ -17,7 +17,7 @@
     --shadow: 0 4px 6px rgba(0,0,0,0.1);
     --bg-box: #ffffff81;
 }
-:root_morado {
+/*:root_morado {
     --primary: #610088;
     --accent: #9a37d4;
     --bg-body: #f1cfff;
@@ -27,7 +27,7 @@
     --color-indicacion-texto:var(--primary);
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --bg-box: #ffffff81;
-}
+}*/
 /* --- BASE --- */
 body {
     background-color: var(--bg-body);
