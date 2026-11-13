@@ -216,7 +216,7 @@ const datosLiturgicos = {
                     { momento: "Final", id: 302 }
             ] },
         { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario", cantos: [0] },
-        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [0] },
+        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [9, 424, 344, 426, 387] },
     ],
 
     "Ciclo B": [

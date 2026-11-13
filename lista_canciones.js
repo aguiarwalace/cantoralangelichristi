@@ -4953,6 +4953,68 @@ A tu pró[Am]jimo amarás[A7] como a ti [Dm]mismo
 [Am]Escucha Israel, [G]escucha israel
 [F]el señor nuestro Dios, el [E]señor es [Am]uno.`
 },
+{
+  id: 426,
+  titulo: "Jesús es el Rey",
+  autor: "Verónica Sanfilippo",
+  categoria: "adoracion,reflexion",
+  tonoOriginal: "A",
+  linkYoutube: "https://www.youtube.com/watch?v=WmF_pt5TjZs",
+  letra: `{Intro:}
+[A] [D] [A] [D]
+
+Sé que el [A]día llegará
+En que al [D]fín podré contemp[A]lar
+Cara a c[D]ara la gran[F#m]deza de mi [E]Rey
+Mientras [A]ando por la fe
+Esper[D]ando volver a [A/C#]Él    [A]
+En la t[D]ierra por su [F#m7]reino
+trabaja[E]ré
+
+
+{coro}
+Porque Je[A]sús es el [D]Rey
+El Rey de mi [A]vida
+Él es mi cam[Bm]ino, consuelo y ver[G]dad
+Quien sana toda her[E]ida.[A]
+Jes[A/C#]ús es el R[D]ey
+Y reina por s[A]iempre
+en aquel cora[Bm]zón que se abre a su am[G]or
+y en Él perma[A]nece.
+
+{intrumental}
+[D] [A]
+Y su ro[A]stro buscaré
+en c[D]ada coraz[A]ón
+que tan s[D]olo neces[F#m]ite
+un poco de am[E]or
+
+{coro}
+Porque Je[A]sús es el [D]Rey
+El Rey de mi [A]vida
+Él es mi cam[Bm]ino, consuelo y ver[G]dad
+Quien sana toda her[E]ida.[A]
+Jes[A/C#]ús es el R[D]ey
+Y reina por s[A]iempre
+en aquel cora[Bm]zón que se abre a su am[G]or
+y en Él perma[A]nece.
+
+[D]Je[A]sú[D]s [A]es el Rey
+No hay otro como Él
+
+{coro}
+Porque Je[A]sús es el [D]Rey
+El Rey de mi [A]vida
+Él es mi cam[Bm]ino, consuelo y ver[G]dad
+Quien sana toda her[E]ida. [A]
+Jes[A/C#]ús es el R[D]ey
+Y reina por s[A]iempre
+en aquel cora[Bm]zón que se abre a su am[G]or
+y en Él perma[A]nece.
+
+{final}
+[D] [A]`
+},
 
     // --- SECCIÓN: CANTOS DE Adoración ---
      {
@@ -6754,6 +6816,39 @@ Solo en [C]ti reposa toda mi espe[D]ranza,
 no vacila[G]ré en el do[Em]lor.
 Te segui[C]ré, hasta el [F]fin.[D]`
 },
+{
+  id: 425,
+  titulo: "Cuando los angeles cantan gloria",
+  autor: "letra: Dalvimar Gallo (Anjos de Resgate) / traduc: Martín Valverde",
+  categoria: "reflexion, adoracion",
+  tonoOriginal: "E",
+  linkYoutube: "https://www.youtube.com/watch?v=mGPoCMm0Mqs",
+  letra: `[E]Conversando con dos [A]angeles   [F#m7]
+[E]   que del cielo descend[A]ieron[F#m7]
+[E]   con curiosidad les p[A]regunté[F#m7]
+[E]   si conmigo siempre e[A]staban.[G#m7]
+
+[C#m7]      Me respondieron casi s[G#m7]iempre si
+[F#m7]    solo un mo[A]mento te dejam[E]os [G#m7]
+[C#m]    y preocupado yo pe[G#m7]nsaba así
+[F#m7]    es cuando e[A]ntra el pecado en [B]mi.
+
+[E]   Los dos me vieron a los [A]ojos  [F#m7]
+[E]   Me respondieron dicien[A]do que no [F#m7]
+[E]   y dibujando una son[A]risa [F#m7]
+[E]    le revelaron a mi co[A]razón [G#m7]
+
+[C#m7]    Al recibir a Cristo E[G#m7]ucaristía
+[F#m7]   quedas env[A]uelto en una  luz di[E]vina[G#m7]
+[C#m]    y alrededor de ustedes[G#m7] nos quedamos
+[F#m7]    todos los á[A]ngeles cantaaaaaa[B]ndo
+
+[E]Glo oo[A]o ri[B]a,
+Glo[C#m]or[A]ia,
+Gl[F#m]oori[B]aa
+{se repite}
+A Jesú[E]s`
+},
     // --- SECCIÓN: CANTOS DEL Espíritu Santo status:terminado ---
      {
     id: 255,
@@ -7599,6 +7694,65 @@ letra: `
 [G]¿Cómo [Am]escapar de tí?, 
 [G]¿cómo no [Am]hablar?, 
 [E7]¡si tu voz me quema [Am]dentro! [(bis)]
+`
+},
+{
+  id: 424,
+  titulo: "¡Ríndete! (Renda-se!)",
+  autor: "Walmir Alencar / Ministério Adoração e Vida",
+  categoria: "salida, alabanza",
+  tonoOriginal: "Bm",
+  linkYoutube: "https://www.youtube.com/watch?v=ioXBp05lIQk",
+  letra: `
+{intro: Kike}
+{Oliver}
+Reina e[Bm]l Se[G]ñor![A]	Toda la tierra verá
+e-Él v[Em7]olverá [G]con gl[Bm]oria, fuer[A]za y poder
+De cad[Em7]a  nac[G]ión,	tod[Bm]os ac[A]udiran
+Al oír a[Em] los		[D/F#]ángele[G]s  anu[Bm]nciando[A]
+Y a[Em7]sí delante [G]del Rey de r[Asus4]eyes tem[A]blarán
+
+{Walace}
+[D]Gloria y m[A/C#]ajestad [Bm]al Re[F#m]y,	Cristo [G]Jesus
+[D/F#]Cordero[Em] Santo, [C]Raiz d[D]e David
+Que am[A/C#]ó al m[Bm]undo y[F#m] abrió las[G] puertas del cielo
+[D/F#]A todo a[Em]quel que[A] El re[G]dimir
+
+{da capo}
+{Oli}
+[A][Bm]Ríndete! Aún [F#m]hay tiempo de retornar
+{Walace}
+[Em]Ríndete! V[F#m]ida nueva recibirás
+{Kike}
+[G]Ríndete![F#m] Abandónat[Em7]e sin re[F#]servas
+{Oliver}
+[Bm]Ríndete! el[A9] Señor dice y cumplirá
+{Walace}
+[Em7]Ríndete! To[F#m]da lágrima enjugará
+{Kike}
+[G]Ríndete[F#m]! a aqu[Em7]el que er[G]a, qué es [F#]y que ha de venir!
+
+{solo}
+D  A/C#  Bm  A
+[G] [Em] [F#] [Bm]
+[D] [Em] [Bm]
+[G] [Em] [F#]
+
+{Kike}
+Reina el[Bm] Señ[G]or!	[A]Toda la tierra verá
+e-El v[Em7]olverá [G]con gl[Bm]oria, fuer[A]za y poder
+De cad[Em7]a   na[G]ción,	to[Bm]dos a[A]cudiran
+Al oír a[Em] los		[D/F#]
+{todos}
+ángele[G]s  anu[Bm]nciando[A]
+Y a[Em7]sí delante [G]del Rey de r[Asus4]eyes tem[A]blarán
+[D]Gloria y m[A/C#]ajestad [Bm]al Re[F#m]y,	Cristo [G]Jesus
+[D/F#]Cordero[Em] Santo, [C]Raiz d[D]e David
+Que am[A/C#]ó al m[Bm]undo y[F#m] abrió las[G] puertas del cielo
+[D/F#]A todo a[Em]quel que[A] El re[D]dimir {x2}
+[G][Bm][A]
+[Em][Bm][A]
+[Em][G]R[Bm]índete!
 `
 },
     // --- SECCIÓN: CANTOS DE La Pasión ---
@@ -11453,4 +11607,4 @@ Todo es [C/E]tuyo Señor[A]
 //realocar a partir de aquí
 
 ]; 
-// último id:421
+// último id:426
