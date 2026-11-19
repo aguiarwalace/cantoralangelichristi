@@ -203,7 +203,7 @@ const datosLiturgicos = {
         { id: "a_to_31", nombre: "31º Domingo del Tiempo Ordinario", cantos: [0] },*/
         { id: "a_to_32", nombre: "32º Domingo del Tiempo Ordinario",
             cantos: [
-                    { momento: "Entrada", id: 4},
+                    { momento: "Entrada", id: 22},
                     { momento: "Piedad", id: 25 },
                     { momento: "Gloria", id: 243 },
                     { momento: "Aleluya", id: 244 },
@@ -215,9 +215,35 @@ const datosLiturgicos = {
                     { momento: "Reflexión", id: 133 },
                     { momento: "Final", id: 302 }
             ] },
-        { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario", cantos: [0] },
-        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", cantos: [9, 424, 344, 426, 387] },
-    ],
+        { id: "a_to_33", nombre: "33º Domingo del Tiempo Ordinario",
+            cantos: [
+                    { momento: "Entrada", id: 22},
+                    { momento: "Piedad", id: 25 },
+                    { momento: "Gloria", id: 243 },
+                    { momento: "Aleluya", id: 65 },
+                    { momento: "Ofertorio", id: 78 },
+                    { momento: "Santo", id: 88},
+                    { momento: "Padre Nuestro", id: 114},
+                    { momento: "Cordero", id: 122 },
+                    { momento: "Comunión", id: 383 },
+                    { momento: "Reflexión", id: 133 },
+                    { momento: "Final", id: 290 }
+            ] },
+        { id: "a_to_34", nombre: "34º Domingo del Tiempo Ordinario - Cristo Rey", 
+            cantos: [
+                    { momento: "Entrada", id: 9},
+                    { momento: "Piedad", id: 31 },
+                    { momento: "Gloria", id: 112 },
+                    { momento: "Aleluya", id: 65 },
+                    { momento: "Ofertorio", id: 391 },
+                    { momento: "Santo", id: 88},
+                    { momento: "Padre Nuestro", id: 114},
+                    { momento: "Cordero", id: 122 },
+                    { momento: "Comunión", id: 426 },
+                    { momento: "Reflexión", id: 404 },
+                    { momento: "Final", id: 427 }
+            ] },
+        ],
 
     "Ciclo B": [
         { id: "b_adv_1", nombre: "1º Domingo de Adviento", cantos: [0] },

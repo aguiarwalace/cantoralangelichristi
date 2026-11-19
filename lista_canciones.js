@@ -7755,6 +7755,59 @@ Que am[A/C#]ó al m[Bm]undo y[F#m] abrió las[G] puertas del cielo
 [Em][G]R[Bm]índete!
 `
 },
+{
+  id: 427,
+  titulo: "Viva Cristo Rey",
+  autor: "Jésed",
+  categoria: "entrada, salida, alabanza",
+  tonoOriginal: "G",
+  letra: `G D C D (x2)
+
+[G]un grito de guerra
+se e[D]scucha en la faz de la t[C]ierra
+y en todo l[D]ugar
+
+los p[G]restos guerreros
+emp[D]uñan su espada
+y se en[C]listan para pe[D]lear
+
+para [G]eso han [D]sido entre[Em]nados
+defe[C]nderan la ve[D]rdad
+y n[G]o les se[D]ra arreb[Em]atado
+el [C]fuego que en su sangre e[D]sta
+
+{coro}
+Viva Cristo [G]Rey, Viva Cr[D]isto R[Em]ey
+el g[C]rito de guerra que enci[D]ende la tierr[G]aaaaa
+Viva Cr[D]isto R[Em]ey, nue[C]stro soberano Se[D]ñor,
+nu[C]estro capitan y ca[D]mpeon,
+  C        D               G  D C D (x2)
+pelear por el, es todo un honor
+
+sabemos que esta batalla no es facil
+y muchos se acobardaran
+y bajo los dardos de nuestro enemigo
+sin duda pereceran
+
+yo tendre mi espada en alto
+como la usa mi Señor
+a el nada lo ha derrotado
+su fuerza es la de Dios
+
+{coro}
+
+no conocemos mayor alegria
+no existe mas honroso afan
+que con mis hermanos estar en la liena
+y juntos la vida entregar
+
+a El que merece la gloria
+y nos recluto por amor
+ante El la rodilla se dobla
+y se postra el corazon
+
+{coro x2}`
+},
     // --- SECCIÓN: CANTOS DE La Pasión ---
      {
     id: 156,
@@ -11607,4 +11660,4 @@ Todo es [C/E]tuyo Señor[A]
 //realocar a partir de aquí
 
 ]; 
-// último id:426
+// último id:427
