@@ -11658,6 +11658,56 @@ Todo es [C/E]tuyo Señor[A]
 {final:}[G][A][D]`
 },
 //realocar a partir de aquí
+{
+    id: 428,
+    titulo: "HE AQUÍ LA SIERVA DEL SEÑOR (Himno JMJ 2019 - Panamá)",
+    autor: "Abdiel Jiménez",
+    categoria: "jmj",
+    tonoOriginal: "D",
+    linkYoutube: "https://www.youtube.com/watch?v=lN6nErqWPuk",
+    linkPartitura: "https://www.pastojeunes64.com/images/2017-2018/jmj-2019/Hymne-JMJ-2019-Panama-partition-Espagnol.pdf",
+    letra: `
+Intro: [G] [D] [Bm] [A] [G] [D]
+
+[D]Somos peregrinos que [Bm]venimos hoy aquí,
+[G]desde continentes y [A]ciudades.
+[G]Queremos ser [A]misioneros [Bm]del Señor,
+[G]llevar tu palabra y tu [A]mensaje.
+
+[D]Ser como María, [A/C#]la que un [Bm]día dijo Sí,
+[D]ante la [G]llamada de tu [A]proyecto.
+[G]El cielo se [F#7]goza y [A#dim7]canta [Bm7]de alegría,
+[E7]toda la tierra [G]alaba tus [A]portentos.
+
+[D]He a[A]quí la [Bm]Sierva del [D]Señor,
+[G]hágase en mí [Bm]según tu [Asus4]pala[A]bra.
+
+[D]Tu Sierva yo soy, [D7]Tu Hija yo soy,
+[G]Tu hijo yo [A]soy.
+
+[D]Ser como Ma[A]ría, [Bm]disponibles a sa[D]lir,
+[G]iglesia peregrina con [A]amor.
+[G]Jóvenes [F#7]testigos [A#dim7]y [Bm]discí[E7]pulos,
+[G]con alegría, fe y [Asus4]voca[A]ción.
+
+[D]He a[A]quí la [Bm]Sierva del [D]Señor,
+[G]hágase en mí [Bm]según tu [Asus4]pala[A]bra.
+
+[F#7]No tengan miedo, no, [G]no tengan miedo,
+[Em7]de llevar el [Bm]amor de [A]Dios.
+[F#7]Comprometidos, sí, [G]como María
+[Em7]que supo ser [G]la Sierva del [Bm]Señor [A]
+
+[D]He a[A]quí la [Bm]Sierva del [D]Señor,
+[G]hágase en mí [Bm]según tu [Asus4]pala[A]bra.
+
+Final:
+[Bm]He a[F#m]quí la [G]Sierva [E7/G#]del Señor,
+[D]hágase en mí [G]según tu [Bm]pa[Asus4]la[A]-[D]bra.
+
+Cierre: [G] [D/F#] [Em] [Cdim7] [D] [D]
+`
+},
 
 ]; 
-// último id:427
+// último id:428
