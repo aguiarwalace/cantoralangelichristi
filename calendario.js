@@ -490,21 +490,20 @@ const datosLiturgicos = {
             ] },*/
         { id: "vcr_fest_concierto", nombre: "VCR Fest - Concierto (21/11/2026)",
             cantos: [
-                { momento: "1. Oliver - puente: Jess", id: 416 },
+                { momento: "1. Ger - puente: Jess", id: 416 },
                 { momento: "2. Jess y Lissie", id: 413 },
                 { momento: "3. Jess", id: 111 },
                 { momento: "4. Oliver, Ger, Jess", id: 414 },
                 { momento: "5. todos", id: 106 },
                 { momento: "6. Jess y Lissie", id: 275 },
                 { momento: "7. Jess", id: 280 },
-                { momento: "8. Walace, Lissie, Jess, Ger, Oliver", id: 110 },
+                { momento: "8. todos", id: 348 },
                 { momento: "9. todos", id: 368 },
                 { momento: "10. Lissie", id: 385 },
                 { momento: "11. todos", id: 277 },
                 { momento: "12. Jess", id: 411 },
                 { momento: "13. Walace", id: 109 },
                 { momento: "14. Jess", id: 386 },
-                { momento: "15.", id: 348 },
             ] },
      ],
 };
