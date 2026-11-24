@@ -317,8 +317,41 @@ function toggleDarkMode() {
     localStorage.setItem('darkTheme', document.body.classList.contains('dark-mode'));
 }
 
+/* =======================================================
+   TEMA POR TEMPO LITÚRGICO
+   Aplica automaticamente a cor do site conforme o tempo
+   litúrgico: roxo no Advento e na Quaresma, dourado no
+   Natal e na Páscoa, azul (padrão) no Tempo Comum.
+   A troca acontece na véspera litúrgica, às 17h do dia anterior
+   ao início do tempo (Primeiras Vésperas).
+   Tabela válida até 28/11/2027 — ampliar antes dessa data.
+   ======================================================= */
+const TEMAS_LITURGICOS = [
+    { inicio: '2026-11-29', tema: 'tema_morado' },   // Advento
+    { inicio: '2026-12-25', tema: 'tema_dorado' },   // Natal
+    { inicio: '2027-01-11', tema: '' },              // Tempo Comum
+    { inicio: '2027-02-10', tema: 'tema_morado' },   // Quaresma (inclui Tríduo)
+    { inicio: '2027-03-28', tema: 'tema_dorado' },   // Páscoa
+    { inicio: '2027-05-17', tema: '' },              // Tempo Comum
+    { inicio: '2027-11-28', tema: 'tema_morado' },   // Advento
+];
+
+function aplicarTemaLiturgico(data) {
+    const hoje = (data || new Date());
+    let tema = '';
+    for (const t of TEMAS_LITURGICOS) {
+        const [ano, mes, dia] = t.inicio.split('-').map(Number);
+        // A véspera litúrgica começa às 17h do dia anterior
+        const inicioEfetivo = new Date(ano, mes - 1, dia - 1, 17, 0, 0);
+        if (hoje >= inicioEfetivo) tema = t.tema;
+    }
+    document.body.classList.remove('tema_morado', 'tema_dorado');
+    if (tema) document.body.classList.add(tema);
+}
+
 window.onload = () => {
     if (localStorage.getItem('darkTheme') === 'true') document.body.classList.add('dark-mode');
+    aplicarTemaLiturgico();
     console.log("Aplicação Angeli Christi pronta.");
 };
 
