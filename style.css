@@ -28,13 +28,14 @@
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --bg-box: #ffffff81;
 }
+/* Dorado sobrio (oro antiguo) — reemplaza al dorado vivo, 24/11/2026 */
 .tema_dorado {
-    --primary: #b8860b;
-    --accent: #ffd700;
-    --bg-body: #fff8dc;
+    --primary: #7a5c00;
+    --accent: #c9a227;
+    --bg-body: #faf5e6;
     --bg-card: #ffffff;
     --text-main: #333333;
-    --red-chord: #ffcc00;
+    --red-chord: #c0392b;
     --color-indicacion-texto:var(--primary);
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --bg-box: #ffffff81;
