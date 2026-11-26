@@ -507,6 +507,7 @@ const datosLiturgicos = {
             ] },
         { id: "boda_28_11_2026", nombre: "Boda (28/11/2026)",
             cantos: [
+                { momento: "Entrada", id: 430 },
                 { momento: "Piedad", id: 24 },
                 { momento: "Gloria", id: 38 },
                 { momento: "Aleluya", id: 65 },

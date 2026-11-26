@@ -11767,6 +11767,15 @@ Todo es [C/E]tuyo Señor[A]
 {final:}[G][A][D]`
 },
 //realocar a partir de aquí
+{
+  id: 430,
+  titulo: "JESÚS, ALEGRÍA DE LOS HOMBRES",
+  autor: "J. S. Bach",
+  categoria: "entrada, boda",
+  tonoOriginal: "G",
+  linkPartitura: "https://partitions-piano.fr/images/stories/partitions/piano_classique/Bach/cantate-147/jesus-que-ma-joie-demeure.pdf",
+  letra: "(Música instrumental)"
+},
 
 ]; 
-// último id:429
+// último id:430
