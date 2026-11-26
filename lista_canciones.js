@@ -9500,22 +9500,36 @@ asómate a la ven[D]tana, veras al Niño [A]Dios. [D]
   {
     id: 324,
     titulo: "EL ESPÍRITU Y LA NOVIA",
-    autor: "Anónimo",
+    autor: "Jésed",
     categoria: "navidad",
     tonoOriginal: "Gm",
     letra: `
-[Gm]Mira el río de [Cm]agua de vida, [F]brillante como el cris[Bb]tal, [D7]
-[Gm]mira que brota del [Cm]trono de Dios [F]y del cor[Bb]dero.
-[Cm]Y a cada lado del [Gm]río [Eb]crecen árboles llenos de [D7]vida.
-[Gm]Ven Señor, [Bb]ven Señor, [Cm]ven Se[D7]ñor Je[Gm]sús.
+[Gm]Mira el río de [Cm]agua de vida
+[F]brillante como el [Bb]cristal [D7]
+[Gm]mira que brota [Cm]del trono de Dios
+[F]y del [Bb]cordero
+y a [Cm]cada lado del [Gm]río
+crecen [Eb]árboles llenos de [D7]vida
 
-[Gm]Ven pronto, ven Señor, [Eb]ven Se[F]ñor, ven Señor Je[Bb]sús.
-[D]Ven [Bb]pronto, [D]ven [Gm]pronto.
-[Bb]El Espíritu y la [F]Novia dicen [Bb]ven,
-[Eb]Y que todo el que es[F]cuche diga [Gm]ven.
+[Gm]//Ven Señor, [Eb]ven Señor
+[Cm]ven [D7]Señor [Gm]Jesús.//
+[Gm]//Ven pronto, ven Señor
+[Eb]ven Señor, ven Se[F]ñor [Bb]Jesús//
+[D]//Ven [Eb]pronto//
+//Ven [D]pronto[Gm]//
 
-[Cm]Y si alguno tiene [Gm]sed que beba [F]del agua de la [Eb]vida,
-[Cm]Que el Se[Dm]ñor gratuita[Gm]mente le dará.
+El [Eb]Espíritu y la [F]Novia dicen [Bb]ven
+[Eb]Y que [F]todo el que escuche [Gm]diga ven
+y si [Cm]alguno tiene sed que [Gm]beba
+[F]del agua de [Bb]la vida
+Que el Se[Cm]ñor [Dm]gratuita[Gm]mente le dará
+
+Yo soy el alfa y soy la omega
+yo soy el principio y fin
+mira que vengo muy pronto ya
+dice el Señor
+Dichosos todos aquellos
+que guardan mis palabras
 `
   },
   {
@@ -9719,27 +9733,35 @@ Ven, Je[E7]sús, ven Se[A]ñor.
   {
     id: 334,
     titulo: "TU PUEBLO TE ESPERA",
-    autor: "Anónimo",
+    autor: "Rafael Moreno",
     categoria: "navidad",
     tonoOriginal: "F",
     letra: `
-[F]Ven, Se[C]ñor, tu [Bb]pueblo te es[F]pera.
-[F]Ven, Se[C]ñor, de [Bb]vida y ver[C]dad.
-[Dm]Llega[Am]rá tu [Bb]paz a la [F]tie[A]rra;
-[G#m]por [C]siempre Tú reina[F]rás. (Bis)
+[F]Ven Se[C]ñor, tu [Bb]pueblo te es[F]pera!
+[F]Ven Se[C]ñor, de [Bb]vida y ver[C]dad!
+[Dm]Llegará tu [Am]paz [Bb]a la tie[F/A]rra
+[Bb]por siempre tu [C]reinarás! [F] (2)
 
-[Dm]Una voz clama en el de[G]sierto:
-[G#m]¡prepa[A]ren la senda al Se[Dm]ñor,
-[Dm]tracen caminos claros y [G]rectos,
-[C#m]que va a pa[A]sar nuestro [Dm]Dios!
+[Dm]Una voz clama: en el de[G]sierto [Bb]preparen la [A]senda al Se[Dm]ñor!
+[Dm]Tracen caminos claros y [G]rectos [Bb]que va a pa[A]sar nuestro [Dm]Dios!
+[Bb]Que se allanen colinas y [F]montes, [Bb]se rellenen valles y ba[C]rrancas
+[Bb]que se anuncie al [F]Señor y su [Gm]nombre que los hombres su [Bb]gloria ve[C]rán!
 
-[Bb]Que se allanen colinas y [F]montes,
-[Bb]se rellenen valles y ba[C]rrancas,
-[Bb]que se anuncie al Señor y su [F]nombre,
-[Bb]que a los pueblos su amor salva[C]rá.
+[F]Ven Se[C]ñor, tu [Bb]pueblo te es[F]pera!... (2)
 
-[Dm]El Señor reinará con jus[G]ticia
-[G#m]y con [A]fuego los bauti[Dm]zará.
+[Dm]Con brazo firme y [G]poderoso, a su [Bb]pueblo a[A]compaña el Se[Dm]ñor
+[Dm]den la noticia con [G]fuerza y [Bb]gozo, a las [A]tribus del monte de [Dm]Sión
+[Bb]El Señor su rebaño a[F]pacienta, en su [Bb]mano lo cuida y pro[C]tege
+[Bb]de su pueblo pastor se re[F]vela, Que se [Bb]anuncie que pronto ven[C]drá!
+
+[F]Ven Se[C]ñor, tu [Bb]pueblo te es[F]pera!... (2)
+
+[Dm]Se había anunciado por los [G]profetas:, "[Bb]Vendrán de [A]Belén de Ju[Dm]dá,
+[Dm]y de la casa de [G]David [Bb]reina, el [A]niño que pronto ven[Dm]drá"
+[Bb]Arrepiéntanse y cambien su [F]vida, porque el [Bb]tiempo de Dios está [C]cerca
+[Bb]el Señor reinará con [F]justicia, y con [Bb]fuego los bauti[C]zará.
+
+[F]Ven Se[C]ñor, tu [Bb]pueblo te es[F]pera!... (2)
 `
   },
   {
