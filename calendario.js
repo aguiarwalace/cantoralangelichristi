@@ -505,5 +505,17 @@ const datosLiturgicos = {
                 { momento: "13. Walace", id: 109 },
                 { momento: "14. Jess", id: 386 },
             ] },
+        { id: "boda_28_11_2026", nombre: "Boda (28/11/2026)",
+            cantos: [
+                { momento: "Piedad", id: 24 },
+                { momento: "Gloria", id: 38 },
+                { momento: "Aleluya", id: 65 },
+                { momento: "Ofertorio", id: 76 },
+                { momento: "Santo", id: 88 },
+                { momento: "Cordero", id: 122 },
+                { momento: "Comunión", id: 369 },
+                { momento: "A María", id: 302 },
+                { momento: "Final", id: 429 },
+            ] },
      ],
 };
