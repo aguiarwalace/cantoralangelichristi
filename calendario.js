@@ -246,10 +246,50 @@ const datosLiturgicos = {
         ],
 
     "Ciclo B": [
-        { id: "b_adv_1", nombre: "1º Domingo de Adviento", cantos: [0] },
-        { id: "b_adv_2", nombre: "2º Domingo de Adviento", cantos: [0] },
-        { id: "b_adv_3", nombre: "3º Domingo de Adviento", cantos: [0] },
-        { id: "b_adv_4", nombre: "4º Domingo de Adviento", cantos: [0] },
+        { id: "b_adv_1", nombre: "1º Domingo de Adviento", 
+            cantos: [
+                    { momento: "Entrada", id: 325 },
+                    { momento: "Piedad", id: 32 },
+                    { momento: "Aleluya", id: 433 },
+                    { momento: "Ofertorio", id: 85 },
+                    { momento: "Santo", id: 431 },
+                    { momento: "Cordero", id: 432 },
+                    { momento: "Comunión", id: 324 },
+                    { momento: "Final", id: 334 }
+            ] },
+        { id: "b_adv_2", nombre: "2º Domingo de Adviento", 
+            cantos: [
+                    { momento: "Entrada", id: 325 },
+                    { momento: "Piedad", id: 32 },
+                    { momento: "Aleluya", id: 433 },
+                    { momento: "Ofertorio", id: 85 },
+                    { momento: "Santo", id: 431 },
+                    { momento: "Cordero", id: 432 },
+                    { momento: "Comunión", id: 324 },
+                    { momento: "Final", id: 334 }
+            ] },
+        { id: "b_adv_3", nombre: "3º Domingo de Adviento", 
+            cantos: [
+                    { momento: "Entrada", id: 325 },
+                    { momento: "Piedad", id: 32 },
+                    { momento: "Aleluya", id: 433 },
+                    { momento: "Ofertorio", id: 85 },
+                    { momento: "Santo", id: 431 },
+                    { momento: "Cordero", id: 432 },
+                    { momento: "Comunión", id: 324 },
+                    { momento: "Final", id: 334 }
+            ] },
+        { id: "b_adv_4", nombre: "4º Domingo de Adviento", 
+            cantos: [
+                    { momento: "Entrada", id: 325 },
+                    { momento: "Piedad", id: 32 },
+                    { momento: "Aleluya", id: 433 },
+                    { momento: "Ofertorio", id: 85 },
+                    { momento: "Santo", id: 431 },
+                    { momento: "Cordero", id: 432 },
+                    { momento: "Comunión", id: 324 },
+                    { momento: "Final", id: 334 }
+            ] },
 
         // NAVIDAD
         { id: "b_sagrada_familia", nombre: "Sagrada Familia", cantos: [0] },
