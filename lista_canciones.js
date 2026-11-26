@@ -7808,6 +7808,65 @@ y se postra el corazon
 
 {coro x2}`
 },
+{
+  id: 429,
+  titulo: "REGALO DEL CIELO",
+  autor: "Athenas",
+  categoria: "salida, boda",
+  tonoOriginal: "G (capo 2)",
+  linkYoutube: "https://www.youtube.com/watch?v=YucOQDsNhog",
+  //linkPartitura: "",
+  letra: `
+Intro: [G] [G/B] [C] [C]
+
+Estrofa 1:
+[G]Lo que alguna vez soñaba
+[Bm]Lo que yo me imaginaba
+[C]Lo que le pedía al Señor en un [G]amor
+[Em]No se compara
+Con lo que [Bm]vivimos vos y yo
+[C]No se compara
+[G]Un cuento de hadas,
+[Bm]Una historia de princesas,
+[C]O el mejor el final feliz que se [G]escribió
+[C]No se comparan
+Con lo que [Bm]vivimos vos y yo
+[C]No se comparan
+
+{coro}
+[G]Regalo del [C]cielo
+[G]Luz de mis [C]ojos
+[Em]Gracias le [Bm]doy a [C]Dios
+Porque [Am]sos vos
+Una [D]prueba de su [G]amor
+
+Estrofa 2:
+[Em]En los días más felices
+[C]Y aún si se pone difícil
+[G]Yo prometo siempre amarte y serte [D]fiel
+[Em]Juntos iremos de la mano
+[Bm]Hacia el Cielo vos y yo
+[C]Juntos [D]iremos
+
+{coro}
+[G]Regalo del [C]cielo
+[G]Luz de mis [C]ojos
+[Em]Gracias le [Bm]doy a [C]Dios
+Porque [Am]sos vos
+Una [D]prueba de su [G]amor
+
+{coro}
+[G]Regalo del [C]cielo
+[G]Luz de mis [C]ojos
+[Em]Gracias le [Bm]doy a [C]Dios
+Porque [Am]sos vos
+Una [D]prueba de su [G]amor
+
+{final:}
+[Em]Gracias le [Bm]doy a [C]Dios
+Porque [Am]sos vos
+Una [D]prueba de su [G]amor`
+  },
     // --- SECCIÓN: CANTOS DE La Pasión ---
      {
     id: 156,
@@ -11710,4 +11769,4 @@ Todo es [C/E]tuyo Señor[A]
 //realocar a partir de aquí
 
 ]; 
-// último id:428
+// último id:429
