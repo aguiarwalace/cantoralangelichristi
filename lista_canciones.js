@@ -2254,6 +2254,25 @@ En el [C]ci[G]e[C]lo. (x2)`
     [D]Santo es [E]]el Señ[A]or. 
     `
   },
+  {
+    id: 431,
+    titulo: "Santo 15 (Jésed VII)",
+    autor: "Jésed",
+    categoria: "Santo",
+    tonoOriginal: "E (capo 2)",
+    letra: `
+[D]Santo, [A]Santo, [G]Santo es el Se[A]ñor (x2)
+[Bm]Dios del [F#]Universo
+[D]llenos [E]están
+el [G]cielo y la [Em]tierra [C]de tu [A]gloria
+[D]Hossana, [A]hossana [G]hossana en el [A]cielo (x2)
+[Bm]Bendito el que [F#]viene
+[D]en el [E]nombre [G]del Se[Em]ñor
+[C]Del Se[A]ñor
+[D]Hossana, [A]hossana [G]hossana en el [A]cielo
+[D]Hossana, [A]hossana [G]hossana en el [Gm]cie[D]lo
+`
+  },
 
    // --- SECCIÓN: CANTOS DE Doxología ---
   {
@@ -11778,4 +11797,4 @@ Todo es [C/E]tuyo Señor[A]
 },
 
 ]; 
-// último id:430
+// último id:431
