@@ -1570,6 +1570,21 @@ Alel[G]u[A]u[Bm]ya, Alel[G]u[A]u[Bm]ya.
 [A]Si Tu [F#m]palabra [B7(4)]renovar[B7] 
 `
 },
+  {
+    id: 433,
+    titulo: "ALELUYA DRAGÓN BALL",
+    autor: "Anónimo",
+    categoria: "Aleluya",
+    tonoOriginal: "D",
+    letra: `
+[D]Aleluya [A]aleluya
+[Bm]Aleluya [F#m]Aleluya
+[G]Aaaaleeeelu[D]yaaaaa [A]
+
+{estrofa}
+[D] [A] [Bm] [F#m] [G] [D] [A]
+`
+  },
   // --- SECCIÓN: CANTOS DE CREDO ---
      {
   id: 397,
@@ -2635,6 +2650,17 @@ Y danos de tu paz. (x2)
 `
   },
   
+  {
+    id: 432,
+    titulo: "CORDERO 80S",
+    autor: "Anónimo",
+    categoria: "Cordero",
+    tonoOriginal: "E",
+    letra: `
+[E] [G#m] [F#m] [B7]
+`
+  },
+
     // --- SECCIÓN: CANTOS DE Comunión ---
   {
     id: 132,
@@ -11819,4 +11845,4 @@ Todo es [C/E]tuyo Señor[A]
 },
 
 ]; 
-// último id:431
+// último id:433
