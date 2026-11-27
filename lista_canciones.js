@@ -10048,6 +10048,52 @@ Porque hoy nace en tu corazón`
 Cantemos con [D]júbi[E]lo y [F#m]honor
 en un pobre [D]pesebre nacerá el re[E]dentor`,
   },
+  {
+    id: 436,
+    titulo: "CANTEN CON GOZO, CON ILUSIÓN",
+    autor: "Betsaida",
+    categoria: "navidad",
+    tonoOriginal: "C",
+    letra: `[C]Os anunciamos el [G]gozo de Ad[Am]viento,
+[C]con la primera [G]llama ar[C]diendo.
+[G]Se acerca ya el tiempo de sal[Am]vación,
+[C]abre las puertas [G]de tu cora[C]zón.
+
+{coro}
+[C]CANTEN CON [G]GOZO, CON I[Am]LUSIÓN
+[F]YA SE A[G]CERCA EL SE[C]ÑOR.
+
+[C]Os anunciamos el [G]gozo de Ad[Am]viento,
+[C]con la segunda [G]llama ar[C]diendo.
+[G]Dios Padre en su gloria nos [Am]muestra su amor,
+[C]abre tu alma a [G]Jesús, Salva[C]dor.
+
+{coro}
+[C]CANTEN CON [G]GOZO, CON I[Am]LUSIÓN
+[F]YA SE A[G]CERCA EL SE[C]ÑOR.
+
+[C]Os anunciamos el [G]gozo de Ad[Am]viento,
+[C]con la tercera [G]llama ar[C]diendo.
+[G]El tiempo se acorta, ya [Am]viene el Señor,
+[C]el mundo se alegra en [G]tan buen Reden[C]tor.
+
+{coro}
+[C]CANTEN CON [G]GOZO, CON I[Am]LUSIÓN
+[F]YA SE A[G]CERCA EL SE[C]ÑOR.
+
+[C]Os anunciamos el [G]gozo de Ad[Am]viento,
+[C]miren la cuarta [G]llama ar[C]diendo.
+[G]La luz de la estrella nos [Am]lleva a Belén,
+[C]acoge a Dios Niño [G]que ahí va a na[C]cer.
+
+{coro}
+[C]CANTEN CON [G]GOZO, CON I[Am]LUSIÓN
+[F]YA SE A[G]CERCA EL SE[C]ÑOR.
+[C]CANTEN CON [G]GOZO, CON I[Am]LUSIÓN
+[F]YA SE A[G]CERCA EL SE[C]ÑOR,
+[F]YA SE A[G]CERCA EL SE[C]ÑOR,
+[F]YA SE A[G]CERCA EL SE[C]ÑOR.`,
+  },
     // --- SECCIÓN: CANTOS DE Alabanza status:terminado---
     {
     id: 246,
@@ -11915,4 +11961,4 @@ Todo es [C/E]tuyo Señor[A]
 },
 
 ]; 
-// último id:435
+// último id:436
