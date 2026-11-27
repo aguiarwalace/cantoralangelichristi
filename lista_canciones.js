@@ -3535,6 +3535,61 @@ Final:
 [G] [D/F#] [C/E] [G/B] 
 [C] [G/B] [Am] [C/G] [D] `
 },
+  {
+    id: 434,
+    titulo: "ALTÍSIMO SEÑOR",
+    autor: "Anónimo",
+    categoria: "comunión",
+    tonoOriginal: "D",
+    letra: `[D]Altísimo Señor
+[A7]que supiste juntar
+a un tiempo en el al[D]tar
+ser Cordero y Pastor.
+[D7]Quisiera con fervor
+amar y re[G]cibir
+a [D]quien por mí
+[A7]quiso [D]morir.
+
+1. [D]Cordero divinal,
+[A7]por nuestro sumo bien
+inmolado en Sa[D]lén;
+en tu puro raudal
+[D7]de gracia celestial
+[G]lava mi corazón
+[D]que fiel te rinde a[A7]doración. [D]
+
+2. [D]Suavísimo maná
+[A7]que sabe a dulce miel,
+ven, y del mundo [D]vil
+nada me gustará;
+[D7]ven, y se trocará
+[G]del destierro cruel
+[D]con tu dulzura la a[A7]marga hiel. [D]
+
+3. [D]Oh convite real,
+[A7]do sirve el Redentor
+al siervo del Se[D]ñor
+comida sin igual;
+[D7]pan de vida inmortal,
+[G]ven a entrañarte en mí,
+[D]y quede yo trocado en [A7]ti. [D]
+
+4. [D]Si osare a ti venir,
+[A7]das muerte al pecador,
+y de celeste ar[D]dor
+das al justo vivir.
+[D7]Ay, qué triste morir
+[G]de vida en el manjar
+[D]de tal veneno, y muerte ha[A7]llar. [D]
+
+5. [D]Los ángeles al ver
+[A7]tal gloria y majestad,
+con profunda humil[D]dad
+adoran su poder,
+[D7]sin ellos merecer
+[G]la dicha de gustar
+[D]el pan del cielo, hecho man[A7]jar. [D]`,
+  },
     // --- SECCIÓN: CANTOS DE Reflexión ---
   {
     id: 175,
@@ -11845,4 +11900,4 @@ Todo es [C/E]tuyo Señor[A]
 },
 
 ]; 
-// último id:433
+// último id:434
