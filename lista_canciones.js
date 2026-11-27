@@ -10033,6 +10033,21 @@ Que el pesebre sea tu corazón (2)
 
 Porque hoy nace en tu corazón`
 },
+  {
+    id: 435,
+    titulo: "LLEGA EL GOZO DE ADVIENTO",
+    autor: "Verónica Sanfilippo",
+    categoria: "navidad",
+    tonoOriginal: "A",
+    letra: `[A]Llega el gozo de adviento
+[D]la primera llama esta ar[E]diendo
+[D]Jesús esta cerca, [E]abre el [F#m]corazón
+[D]Espera confiado [E]en su a[A]mor.
+
+{coro}
+Cantemos con [D]júbi[E]lo y [F#m]honor
+en un pobre [D]pesebre nacerá el re[E]dentor`,
+  },
     // --- SECCIÓN: CANTOS DE Alabanza status:terminado---
     {
     id: 246,
@@ -11900,4 +11915,4 @@ Todo es [C/E]tuyo Señor[A]
 },
 
 ]; 
-// último id:434
+// último id:435
